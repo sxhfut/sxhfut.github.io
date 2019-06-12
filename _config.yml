@@ -1,0 +1,25 @@
+# Site settings
+title: Translational lymphoma research in the Morin laboratory at Simon Fraser University
+lab_name: Morin Laboratory
+author: >
+  Bruno Grande, Ryan Morin and the Morin laboratory
+institution: SFU
+email: rdmorin@sfu.ca
+description: >
+  The Morin Laboratory performs cutting-edge lymphoma research using
+  a combination of dry lab and wet lab experiments.
+baseurl: ""
+url: "https://morinlab.github.io"
+twitter_username: morinryan
+github_username:  morinlab
+images_dir: "/images/"
+
+# Build settings
+markdown: kramdown
+include: ["_pages"]
+permalink: /:title/
+
+#plugins for search engine optimization
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

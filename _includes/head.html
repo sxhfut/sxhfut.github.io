@@ -1,0 +1,14 @@
+
+    <meta name="google-site-verification" content="NGVGrsKdgzybUNks-ZTxt3-Z90KYQAj1_a_OhwOCTyI" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.lab_name | append: "  @  " | append: site.institution }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
