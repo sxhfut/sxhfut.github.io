@@ -1,0 +1,127 @@
+- name: Genetic and molecular mechanisms of treatment resistance in DLBCL
+  description: >
+    Non-Hodgkin lymphomas (NHL) represent the sixth most commonly diagnosed
+    type of cancer in Canada with diffuse large B-cell lymphoma (DLBCL) being the most prevalent.
+    DLBCL patients exhibit variable responses to available therapies such
+    as R-CHOP. Some biomarkers beginning to enter clinical trials rely on
+    gene expression signatures to identify high-risk cases.
+    For example, DLBCL comprises two cell-of-origin (COO) subgroups with
+    activated B-cell (ABC) cases typically having worse prognosis than
+    germinal centre B-cell (GCB) cases.
+    Therapeutics that exploit molecular features unique to each subgroup
+    are being actively pursued but up-front identification of patients
+    unlikely to achieve a durable response remains a challenge.
+    Although existing methods can identify specific prognostic gene
+    expression features, these capture only some of the clinical
+    heterogeneity and require tumour RNA, which is not always available.
+    Using comprehensive genomic analyses and by integrating mutation and
+    expression data from over 2000 DLBCL tumours, we seek novel molecular
+    features that are associated with treatment resistance in DLBCL.
+    The ultimate goal of this work is to develop new predictive and
+    prognostic biomarkers and identify new therapeutic targets for
+    treatment-resistant DLBCLs.
+  funding: Terry Fox Research Institute
+  collaborators: Christian Steidl, David Scott, Nathalie Johnson
+  assignees: Chris Rushton, Laura Hilton, Miguel Alcaide, Aixiang Jiang
+  photo: projects/FCGR2B_cropped.png
+
+- name: Resolving clonal structure and evolution patterns in DLBCL
+  description: >
+    Diffuse Large B-Cell Lymphoma is a genetically heterogeneous form of cancer, 
+    with different cells in the tumour acquiring different mutations. This 
+    intra-tumour heterogeneity can have profound effects on treatment; if a clonal 
+    subpopulations is resistant to treatment, it will reform the tumour following 
+    treatment, causing the patient to relapse. We are recieving samples from several
+    clinical trials exploring different salvage therapies for patients with relapsed
+    DLBCL. Tumour biopsies and liquid biopsies are being collected from patients 
+    both before and after they are treated. Using these temporal sources of tumour DNA,
+    we can identify clonal subpopulations in the tumour, 
+    and further explore how the tumour evolves and adapts in the face of a strong 
+    selective pressure such as treatment. The mutations unique to these resistant 
+    clonal subpopulations can be explored to determine which mutation(s) result 
+    in treatment resistance. We can further determine if these mutations are 
+    detectable prior to treatment, which may allow patient to be screened for resistance 
+    mutations before they are treated.
+  funding: Terry Fox Research Institute
+  collaborators: Christian Steidl, David Scott, Nathalie Johnson
+  assignees: Chris Rushton, Miguel Alcaide, Sarah Arthur
+  photo: projects/DLBCL_Evolution.png
+
+- name: Circulating Tumour DNA as a biomarker in non-Hodgkin lymphoma
+  description: >
+    This project aims to develop a novel way of monitoring patients with lymphoma and find a new immunotherapy regimen
+    that would be effective in patients that are not cured with conventional chemotherapy. They will first genetically
+    profile the tumours to determine at which time point they become resistant. They will then determine how these
+    lymphomas evade immune detection and test if targeting these evasion strategies, i.e. "harnessing the immune response"
+    is successful at eradicating chemo-resistant lymphoma.
+  funding: CIHR
+  collaborators: Christian Steidl, Nathalie Johnson
+  assignees: Miguel Alcaide, Stephen Yu, Chris Rushton
+  photo: projects/Figure_1_amplicon.png
+  
+- name: Comprehensive proteogenomic characterization of mantle cell lymphoma (MCL)
+  description: >
+    Mantle cell lymphoma is a rare cancer that derives from B lymphocytes in the periphery (mantle zone)
+    of the germinal centre. MCL is most often diagnosed at stage 3 or 4 and is typically aggressive although some patients have an indolent form of the disesae.
+    Only 30-40% of patients with advanced disease achieving a complete response to frontline treatments (R-bendamustine).
+    Heterogeneous clinical response is partially attributable to observable variations in morphology, immunophenotype and proliferative capacity;
+    however, there is little known about the relationship between genetic features and variation in phenotype or response to specific treatment regimens.
+    Through a meta-analysis of in-house and existing exome sequencing data, our group has identified multiple novel driver mutations in MCL including some that associate with high or low proliferation.
+    To more completely ascertain the mutations that lead to lymphomagenesis in MCL, we are performing an integrative proteogenomic characterization of MCL tumours using a combination of whole genome sequencing, RNA-seq and shotgun proteomics.
+    We will are using these data to identify novel coding and non-coding (i.e. regulatory) driver mutations that affect the natural history of MCL including treatment response.
+  funding: Terry Fox Research Institute
+  collaborators: Marco Marra, David Scott, Diego Villa
+  assignees: Prasath Pararajalingam
+  photo: projects/mcl_oncoplot.png
+
+- name: Identification and functional characterization of recurrent non-coding mutations in NHLs
+  description: >
+       The list of protein-coding drivers identified through sequencing in DLBCL
+       has begun to saturate and yet there remains a gap in our understanding
+       of how these genetic alterations contribute to the
+       transcriptional differences underlying known prognostic signatures and molecular subgroups.
+       For example, dysregulation of NF-κB is the hallmark feature of ABC
+       DLBCL but many ABC cases appear to lack the common driver mutations
+       that are known to promote NF-κB. We are seeking driver mutations
+       that contribute to some features of NHLs.
+       We use data-driven comprehnsive methods that allow identification of
+       non-coding SSMs with a regulatory effect in cis or trans on
+       genes/proteins relevant to malignancy.
+  funding: Terry Fox Research Institute, CIHR
+  collaborators: Christian Steidl, David Scott
+  assignees: Sarah Arthur, Krysta Coyle, Aixiang Jiang
+  photo: projects/NFKBIZ_overview_cropped.png
+
+- name: Comprehensive characterization of endemic and sporadic Burkitt lymphoma
+  description: >
+    Burkitt lymphoma (BL) is currently classified as one of three clinical
+    variants: endemic BL, sporadic BL, and HIV-associated BL.
+    The endemic variant is primarily diagnosed in sub-Saharan Africa and is
+    epidemiologically associated with the Epstein–Barr virus (EBV) and
+    malaria infection; although, the role of these pathogens in promoting
+    the formation of BL remains unclear.
+    On the other hand, sporadic BL is diagnosed outside of malaria-endemic
+    areas, with only a minority of cases being EBV-positive (10-30%).
+    This project seeks to generate high-throughput whole genome and
+    transcriptome sequencing data from over 100 BL tumours in order to
+    elucidate the genetic and molecular underpinnings of the disease.
+    With this project, we aim to refine the mutational landscape of BL to
+    facilitate the development of less toxic targeted therapies.
+    We also plan on investigating the oncogenic role of EBV and whether it may
+    serve as a better criterion for disease classification than the current
+    system relying on geographic origin.
+  funding: National Cancer Institute, Foundation for Burkitt Lymphoma Research
+  collaborators: Marco Marra, Louis Staudt
+  assignees: Bruno Grande, Aixiang Jiang
+  photo: projects/blgsp_ash_2017.jpg
+
+- name: Genetic characterization of canine B-cell lymphomas
+  description: >
+    Cancer is the leading cause of premature death in pet dogs and non-Hodgkin lymphomas are the most common cancer in most dog breeds.
+    Unlike human lymphomas with similar histopathology, canine B-cell lymphomas (cBCL) are incurable and exhibit an agressive clinical course.
+    We are sequencing cBCLs to identify driver mutations that contribute to this cancer in a variety of dog breeds. 
+    We identified TRAF3 as a novel tumour suppressor in cBCL and are pursuing additional candidate genes. 
+  funding: NSERC
+  collaborators:
+  assignees: Kevin Bushell, Krishanna Campbell, Matt Cheung
+  photo: projects/TRAF3.png

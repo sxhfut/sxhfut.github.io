@@ -1,0 +1,22 @@
+<li>
+    <h2><span class="member-name">{{ member.name }}</span>{% if member.position %}, {{ member.position }}{% endif %}</h2>
+    {% if member.photo %}
+        <img class="float-left member-photo" src="{{ member.photo | prepend: site.images_dir | prepend: site.baseurl }}">
+    {% endif %}
+    <p>{{ member.bio }}</p>
+    {% if member.orcid %}
+        <a href="{{ member.orcid}}"><img src="/images/team/orcid.png" width="50" height="50"/></a>
+    {% endif %}
+    {% if member.scholar %}
+    <a href="{{ member.scholar}}"><img src="/images/team/scholar.png" width="60" height="60"/></a>
+    {% endif %}
+    {% if member.researchgate %}
+    <a href="{{ member.researchgate}}"><img src="/images/team/researchgate.png" width="60" height="60"/></a>
+    {% endif %}
+    {% if member.github %}
+    <a href="{{ member.github}}"><img src="/images/team/github.jpg" width="52" height="52"/></a>
+    {% endif %}
+    {% if member.twitter %}
+    <a href="{{member.twitter}}"><img src="/images/team/twitter.png" width="55" height="55"/></a>
+    {% endif %}
+</li>
