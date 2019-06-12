@@ -2,16 +2,16 @@
 title: Translational lymphoma research in the Morin laboratory at Simon Fraser University
 lab_name: Morin Laboratory
 author: >
-  Bruno Grande, Ryan Morin and the Morin laboratory
-institution: SFU
-email: rdmorin@sfu.ca
+  Xiao Sun
+institution: HFUT
+email: sunx@hfut.edu.cn
 description: >
-  The Morin Laboratory performs cutting-edge lymphoma research using
-  a combination of dry lab and wet lab experiments.
+  The MAINLP Laboratory performs Affective Computing and Natural Language Processing
+  research using a combination of multimedia in the field of Human-Computer Interaction.
 baseurl: ""
-url: "https://morinlab.github.io"
-twitter_username: morinryan
-github_username:  morinlab
+url: "https://sxhfut.github.io"
+twitter_username: sunxiao
+github_username:  sxhfut
 images_dir: "/images/"
 
 # Build settings
