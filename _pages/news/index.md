@@ -2,27 +2,27 @@
 layout: page
 title: News
 title_zh: 实验室新闻
-description: Official lab updates synchronized from Professor Xiao Sun's HFUT faculty blog, with selected external coverage.
-description_zh: 同步整理孙晓教授合工大教师主页公开实验室动态，并补充精选外部报道。
+description: Selected lab updates, official HFUT faculty-blog posts, and media coverage.
+description_zh: 实验室动态、合工大教师主页公开信息与媒体报道精选。
 permalink: /news/
 toggle: on
 rank: 5
 ---
 
 <div class="summary-band">
-  <div><strong>2026-05-04</strong><span><span class="lang-en">latest manual sync check</span><span class="lang-zh">最近一次人工同步核查</span></span></div>
-  <div><strong>2025-08-28</strong><span><span class="lang-en">latest official HFUT faculty-blog update found</span><span class="lang-zh">教师主页“教师博客”最新公开条目</span></span></div>
+  <div><strong>Official</strong><span><span class="lang-en">HFUT faculty-blog source links retained</span><span class="lang-zh">保留合工大教师主页原文链接</span></span></div>
+  <div><strong>2025-08-28</strong><span><span class="lang-en">latest HFUT faculty-blog dispatch in this archive</span><span class="lang-zh">当前收录的教师主页最新动态</span></span></div>
   <div><strong>52</strong><span><span class="lang-en">public posts in the HFUT faculty blog archive</span><span class="lang-zh">教师主页公开博客条目总数</span></span></div>
-  <div><strong>2026</strong><span><span class="lang-en">newer external media coverage included below</span><span class="lang-zh">补充收录更新外部媒体报道</span></span></div>
+  <div><strong>Media</strong><span><span class="lang-en">selected external coverage on lab directions</span><span class="lang-zh">精选实验室相关外部报道</span></span></div>
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">Sync Note</span><span class="lang-zh">同步说明</span></h2>
-  <p><span class="lang-en">As of May 4, 2026, Professor Xiao Sun's official HFUT faculty blog lists the newest lab updates on August 28, 2025. No newer official blog posts were found in the six-page archive during this sync. To keep the public homepage fresh, we also include newer external coverage when it is relevant to MAC-Lab's research frameworks.</span><span class="lang-zh">截至 2026 年 5 月 4 日核查，孙晓教授合工大教师主页“教师博客”6 页公开列表中，最新实验室动态为 2025 年 8 月 28 日，未发现 2025 年 8 月之后的新教师博客条目。为避免对外页面显得停滞，本页同步官方动态，同时补充与实验室框架高度相关的更新外部报道。</span></p>
-  <p><a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm"><span class="lang-en">Official HFUT faculty-blog source</span><span class="lang-zh">查看合工大教师主页原始列表</span></a></p>
+  <h2><span class="lang-en">Lab News With Traceable Sources</span><span class="lang-zh">可追溯来源的实验室动态</span></h2>
+  <p><span class="lang-en">Public MAC-Lab updates are organized with direct source links. Official items link back to Professor Xiao Sun's HFUT faculty page, while media items point to the original reporting outlets.</span><span class="lang-zh">MAC-Lab 公开动态均保留直接来源链接。官方条目链接至孙晓教授合工大教师主页，媒体条目链接至原始报道来源，便于访客了解实验室近期进展与长期研究方向。</span></p>
+  <p><a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm"><span class="lang-en">HFUT Faculty Blog Archive</span><span class="lang-zh">合工大教师主页动态列表</span></a></p>
 </div>
 
-<h2><span class="lang-en">Latest External Signal</span><span class="lang-zh">最新外部报道信号</span></h2>
+<h2><span class="lang-en">Recent Media Coverage</span><span class="lang-zh">近期媒体报道</span></h2>
 
 <div class="media-grid media-grid--page">
   <article>
@@ -33,8 +33,8 @@ rank: 5
   </article>
 </div>
 
-<h2><span class="lang-en">Official HFUT Faculty Blog Updates</span><span class="lang-zh">合工大教师主页官方动态精选</span></h2>
-<p class="muted"><span class="lang-en">The list below summarizes the latest official faculty-blog entries in a polished English-first format for international visitors. Titles and source links are preserved, while descriptions are lightly reframed around research significance and lab development.</span><span class="lang-zh">以下内容来自教师主页公开“教师博客”，保留标题和原文链接，同时做适合对外主页展示的轻度概括和包装。</span></p>
+<h2><span class="lang-en">Selected HFUT Faculty Blog Updates</span><span class="lang-zh">合工大教师主页动态精选</span></h2>
+<p class="muted"><span class="lang-en">Selected public posts from Professor Xiao Sun's HFUT faculty page, organized for readers who want a quick view of lab progress.</span><span class="lang-zh">以下条目来自孙晓教授合工大教师主页公开动态，按实验室建设、论文成果、竞赛获奖和社会影响进行精选整理。</span></p>
 
 <div class="news-list">
   <article>

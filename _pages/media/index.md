@@ -2,16 +2,16 @@
 layout: page
 title: Media
 title_zh: 媒体关注
-description: Public coverage of MAC-Lab, from emotional robots to Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
-description_zh: 从情感机器人到普适心理计算与具身情感智能，记录 MAC-Lab 被媒体看见的公共影响。
+description: Public coverage of MAC-Lab's work in affective AI, psychological computing, and embodied emotional intelligence.
+description_zh: 记录 MAC-Lab 在情感智能、心理计算与具身情感智能方向的媒体关注。
 permalink: /media/
 toggle: on
 rank: 7
 ---
 
 <div class="media-lead">
-  <h2><span class="lang-en">From Warm Robots to Two Named Frameworks</span><span class="lang-zh">从“有温度的机器人”到两大框架占位</span></h2>
-  <p><span class="lang-en">Media coverage offers an external timeline of MAC-Lab's evolution. Early stories focused on emotional robots, affective dialogue, and large-scale emotional conversation resources. Recent coverage shows the lab moving from affective computing toward two identifiable frameworks: Ubiquitous Psychological Computing for real-world mental-state modeling, and Embodied Emotional Intelligence for robots, digital humans, and human-machine emotional interaction.</span><span class="lang-zh">媒体报道为 MAC-Lab 提供了一条清晰的外部观察线索：团队早期围绕情感机器人和情感语料库建设形成技术突破，随后把情感计算推进到两条更具标识度的框架上：面向真实场景心理状态建模的普适心理计算，以及面向机器人、数字人与人机情感交互的具身情感智能。</span></p>
+  <h2><span class="lang-en">From Affective Robots to Real-World Emotional Intelligence</span><span class="lang-zh">从情感机器人到真实世界情感智能</span></h2>
+  <p><span class="lang-en">Public coverage traces MAC-Lab's path from affective dialogue and emotional robots to psychological computing, mind-body health systems, and embodied emotional intelligence. These stories provide an outside view of a research line that has continued across algorithms, platforms, and field applications.</span><span class="lang-zh">媒体报道记录了 MAC-Lab 从情感对话、情感机器人，到心理计算、身心健康系统和具身情感智能的发展路径。这些报道从外部视角呈现了团队在算法、平台和真实场景应用之间持续推进的研究主线。</span></p>
 </div>
 
 <div class="media-grid media-grid--page">

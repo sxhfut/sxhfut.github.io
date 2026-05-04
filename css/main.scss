@@ -1631,6 +1631,10 @@ h3 {
     var(--navy);
 }
 
+.media-note h2 {
+  color: #fff;
+}
+
 .summary-band {
   gap: 0;
   border-top: 1px solid var(--line);
@@ -2114,6 +2118,10 @@ h2 {
 .page-hero h1 {
   font-size: clamp(42px, 5.5vw, 76px);
   font-weight: 850;
+}
+
+.page-hero p {
+  color: rgba(255, 255, 255, 0.68);
 }
 
 @media (max-width: 1080px) {

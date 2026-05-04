@@ -2,7 +2,7 @@
 layout: page
 title: Research
 title_zh: 研究方向
-description: Ubiquitous Psychological Computing and Embodied Emotional Intelligence as two defining frameworks for human-centered AI.
+description: Ubiquitous Psychological Computing and Embodied Emotional Intelligence as two core research frameworks for human-centered AI.
 description_zh: 以普适心理计算与具身情感智能两大框架为核心，构建更理解人的智能系统。
 permalink: /research/
 toggle: on
@@ -10,13 +10,13 @@ rank: 1
 ---
 
 <div class="research-lead">
-  <h2><span class="lang-en">Research Mission: Define the Next Vocabulary of Affective AI</span><span class="lang-zh">研究使命：定义下一代情感智能的话语体系</span></h2>
-  <p><span class="lang-en">MAC-Lab studies how artificial intelligence can understand people more responsibly. Our work is organized around two conceptual frameworks we are deliberately defining: Ubiquitous Psychological Computing, which makes mental states computable across everyday environments, and Embodied Emotional Intelligence, which gives embodied agents the ability to perceive, understand, express, and interact emotionally. Together they form a research map from affective signals to psychological state, and from virtual models to embodied companionship.</span><span class="lang-zh">MAC-Lab 的研究不止于单点算法，而是主动围绕两条概念框架进行学术占位：普适心理计算，解决真实场景中心理状态如何被连续感知、建模、评估与干预；具身情感智能，解决机器人、数字人和智能终端如何具备情感感知、理解、表达与交互能力。两条框架共同构成从情感信号到心理状态、从虚拟模型到具身陪伴的研究版图。</span></p>
+  <h2><span class="lang-en">Research Mission: Affective AI in the Real World</span><span class="lang-zh">研究使命：面向真实世界的情感智能</span></h2>
+  <p><span class="lang-en">MAC-Lab studies how AI can understand emotion, cognition, behavior, and psychological state in real settings. Our work is organized around Ubiquitous Psychological Computing and Embodied Emotional Intelligence: two connected lines that move from affective signals to mental-state modeling, and from virtual models to embodied interaction.</span><span class="lang-zh">MAC-Lab 研究 AI 如何在真实场景中理解人的情绪、认知、行为与心理状态。团队围绕普适心理计算和具身情感智能展开，两条主线分别连接情感信号与心理状态建模、虚拟模型与具身交互系统。</span></p>
 </div>
 
 <div class="media-note">
   <h2><span class="lang-en">A Long-Term Route, Not a Hotspot Portfolio</span><span class="lang-zh">长期坚持方向，而不是追逐热点</span></h2>
-  <p><span class="lang-en">MAC-Lab's research grows from a stable foundation shaped by Professor Sun's doctoral training at Dalian University of Technology and Tokushima University: natural language processing, human-computer interaction, affective computing, and ubiquitous psychological computing. Large models, digital humans, smart cockpits, and embodied agents are not treated as isolated trends; they are new carriers that extend and deepen the same long-term question: how can AI understand human emotion, cognition, behavior, and psychological state more responsibly?</span><span class="lang-zh">MAC-Lab 的研究不是把每个新名词都做一遍，而是延续孙晓教授在大连理工大学和日本国立德岛大学形成的中日双博士训练底色，长期沿着自然语言处理、人机交互、情感计算、普适心理计算这条主线不断延伸和深化。大模型、数字人、智能座舱和具身智能不是孤立热点，而是承载同一个长期问题的新载体：AI 如何更负责任地理解人的情绪、认知、行为与心理状态。</span></p>
+  <p><span class="lang-en">The lab's route grows from Professor Sun's doctoral training at Dalian University of Technology and Tokushima University, and from years of work in natural language processing, human-computer interaction, affective computing, and psychological computing. Large models, digital humans, smart cockpits, and embodied agents are treated as new carriers for the same long-term question: how can AI better understand and support people?</span><span class="lang-zh">实验室的研究路线，来自孙晓教授在大连理工大学和日本国立德岛大学的中日双博士训练，也来自团队多年在自然语言处理、人机交互、情感计算和心理计算方向的积累。大模型、数字人、智能座舱和具身智能不是孤立热点，而是同一个长期问题的新载体：AI 如何更好地理解和支持人。</span></p>
 </div>
 
 <div class="framework-grid framework-grid--page">

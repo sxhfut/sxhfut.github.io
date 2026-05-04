@@ -18,7 +18,7 @@ rank: 8
       <li><span class="lang-en">Master's students, academic PhD students, and engineering doctoral students in computer science, electronic information, software engineering, artificial intelligence, and related fields</span><span class="lang-zh">计算机、电子信息、软件工程、人工智能等方向的硕士、学术博士与工程博士</span></li>
       <li><span class="lang-en">Cross-disciplinary partners in psychology, medicine, education, human factors, public health, and mental-health services</span><span class="lang-zh">心理学、医学健康、教育、人因工程、公共卫生与心理服务等交叉方向伙伴</span></li>
       <li><span class="lang-en">Research directions in emotional LLMs, empathetic dialogue, non-contact psychological assessment, smart intervention, and AI agents</span><span class="lang-zh">大模型情感感知、情感支持对话、非接触心理评测、智能干预与 AI Agent 研究</span></li>
-      <li><span class="lang-en">Science communication and public-facing content around AI, mental health, digital humans, companion robots, and human-machine coexistence</span><span class="lang-zh">小红书、科普、课程与公众内容共创，推动 AI 心理计算走向公众理解</span></li>
+      <li><span class="lang-en">Science communication around AI, mental health, digital humans, companion robots, and human-machine coexistence</span><span class="lang-zh">小红书、科普、课程与公众内容共创，让 AI 心理计算被更多人理解</span></li>
     </ul>
   </div>
   <aside>
