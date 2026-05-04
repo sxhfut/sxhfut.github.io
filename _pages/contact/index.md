@@ -85,15 +85,15 @@ rank: 8
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>
-    <h2><span class="lang-en">A Broad Collaboration Network</span><span class="lang-zh">面向顶尖高校与头部企业的合作生态</span></h2>
-    <p><span class="lang-en">MAC-Lab grows through sustained exchange with leading universities, regional academic partners, major technology companies, and national-demand application scenarios. The collaboration network gives students access to broader questions, stronger peer communities, and real platforms where research can be tested.</span><span class="lang-zh">MAC-Lab 长期保持开放的合作与交流网络，连接国内顶尖高校、省内高校与区域平台、头部科技企业以及国家重大需求场景。学生在这里接触的不只是单一课题，而是更广阔的问题、更强的同行社区和能够验证研究价值的真实平台。</span></p>
+    <h2><span class="lang-en">A Broad Training and Collaboration Network</span><span class="lang-zh">联合培养与开放合作生态</span></h2>
+    <p><span class="lang-en">MAC-Lab grows through joint graduate training with the National University of Defense Technology and sustained exchange with universities such as USTC, UESTC, Tsinghua University, HIT, ECNU, BNU, Dalian University of Technology, Tongji University, Southeast University, regional academic partners, major technology companies, and national-demand application scenarios. The collaboration network gives students access to broader questions, stronger peer communities, and real platforms where research can be tested.</span><span class="lang-zh">MAC-Lab 与国防科技大学开展研究生联合培养，并与中国科学技术大学、电子科技大学、清华大学、哈尔滨工业大学、华东师范大学、北京师范大学、大连理工大学、同济大学、东南大学以及省内高校与区域平台保持合作交流，同时连接头部科技企业和国家重大需求场景。学生在这里接触的不只是单一课题，而是更广阔的问题、更强的同行社区和能够验证研究价值的真实平台。</span></p>
   </article>
 </div>
 
 <div class="partner-cloud">
   <div>
     <strong><span class="lang-en">Leading universities</span><span class="lang-zh">国内高校交流网络</span></strong>
-    <span><span class="lang-en">National University of Defense Technology</span><span class="lang-zh">国防科技大学</span></span>
+    <span><span class="lang-en">National University of Defense Technology · Joint graduate training</span><span class="lang-zh">国防科技大学 · 研究生联合培养</span></span>
     <span><span class="lang-en">University of Science and Technology of China</span><span class="lang-zh">中国科学技术大学</span></span>
     <span><span class="lang-en">University of Electronic Science and Technology of China</span><span class="lang-zh">电子科技大学</span></span>
     <span><span class="lang-en">Tsinghua University</span><span class="lang-zh">清华大学</span></span>
