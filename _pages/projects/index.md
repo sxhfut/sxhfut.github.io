@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 title_zh: 科研项目
-description: Translational platforms built around Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
+description: Applied platforms built around Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
 description_zh: 围绕普适心理计算与具身情感智能两大框架，打造可落地的情感智能系统平台。
 permalink: /projects/
 toggle: on
@@ -52,7 +52,7 @@ rank: 2
   </article>
 </div>
 
-<h2><span class="lang-en">Frameworks and Translational Platforms</span><span class="lang-zh">框架与转化平台</span></h2>
+<h2><span class="lang-en">Frameworks and Applied Platforms</span><span class="lang-zh">框架与应用平台</span></h2>
 
 <div class="project-list project-list--page">
   <article>

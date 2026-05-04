@@ -96,7 +96,7 @@ rank: 4
   </article>
   <article class="feature-card">
     <span>E-commerce</span>
-    <h3><span class="lang-en">Innovation and Entrepreneurship Translation</span><span class="lang-zh">创新创业与成果转化</span></h3>
+    <h3><span class="lang-en">Innovation, Entrepreneurship, and Technology Transfer</span><span class="lang-zh">创新创业与成果转化</span></h3>
     <p><span class="lang-en">Projects have reached national and provincial stages in the Three Innovations and Entrepreneurship Competition and Internet+ style entrepreneurship tracks, helping students learn market framing, product definition, and technology communication.</span><span class="lang-zh">指导学生在电子商务“三创赛”和“互联网+”类创新创业赛道中获得省赛特等奖、国赛二等奖等成果，让学生训练技术表达、商业场景定义和产品化思维。</span></p>
   </article>
   <article class="feature-card">

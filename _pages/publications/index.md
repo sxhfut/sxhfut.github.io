@@ -2,7 +2,7 @@
 layout: page
 title: Impact
 title_zh: 学术影响
-description: Publications, international challenges, intellectual property, and translational influence.
+description: Publications, international challenges, intellectual property, and real-world impact.
 description_zh: 高水平论文、国际挑战赛、发明专利与社会影响。
 permalink: /publications/
 toggle: on
@@ -16,14 +16,14 @@ rank: 3
   <div><strong>80+/40+</strong><span><span class="lang-en">patent applications or disclosures / authorized patents</span><span class="lang-zh">申请公开发明专利 / 授权专利</span></span></div>
 </div>
 
-<h2><span class="lang-en">High-Level Publication Signals</span><span class="lang-zh">高水平论文与发表场域</span></h2>
+<h2><span class="lang-en">High-Level Publications and Representative Venues</span><span class="lang-zh">高水平论文与代表性发表领域</span></h2>
 <p class="muted"><span class="lang-en">MAC-Lab's publication portfolio emphasizes sustained research depth across affective computing, NLP, multimodal intelligence, and human-centered AI. Instead of listing every paper, this page highlights representative venues and selected works that communicate the lab's level clearly to international visitors.</span><span class="lang-zh">MAC-Lab 的论文布局强调情感计算、自然语言处理、多模态智能和人本 AI 的长期积累。页面不罗列全部论文，而是突出能体现团队水平的代表性期刊、会议与成果。</span></p>
 
 <div class="card-grid card-grid--four">
   <article class="feature-card">
     <span>IEEE Trans.</span>
     <h3>IEEE Transactions on Affective Computing</h3>
-    <p><span class="lang-en">A flagship signal for the lab's long-term work on affective computing and emotional conversation generation.</span><span class="lang-zh">体现团队在情感计算与情感对话生成方向的长期积累。</span></p>
+    <p><span class="lang-en">A flagship venue for the lab's long-term work on affective computing and emotional conversation generation.</span><span class="lang-zh">体现团队在情感计算与情感对话生成方向的长期积累。</span></p>
   </article>
   <article class="feature-card">
     <span>IEEE Trans.</span>
@@ -80,7 +80,7 @@ rank: 3
   </article>
 </div>
 
-<h2><span class="lang-en">Recognition Beyond Publications</span><span class="lang-zh">论文之外的高水平认可</span></h2>
+<h2><span class="lang-en">Recognition Beyond Publications</span><span class="lang-zh">论文之外的代表性认可</span></h2>
 
 <div class="card-grid card-grid--four">
   <article class="feature-card">
@@ -96,15 +96,15 @@ rank: 3
   <article class="feature-card">
     <span><span class="lang-en">Public Value</span><span class="lang-zh">社会价值</span></span>
     <h3><span class="lang-en">Digital-health and healthy-China exemplary cases</span><span class="lang-zh">数字健康与健康中国典型案例</span></h3>
-    <p><span class="lang-en">Psychological computing systems have been selected as national digital-health exemplary cases, World Health Expo new-case signals, and Xinhua "Healthy China" practice cases.</span><span class="lang-zh">普适心理计算相关系统入选国家卫健委数字健康典型优秀案例、世界大健康博览会“三新”案例和新华网“健康中国实践案例”。</span></p>
+    <p><span class="lang-en">Psychological computing systems have been selected as national digital-health exemplary cases, World Health Expo "new brand, new standard, new achievement" cases, and Xinhua "Healthy China" practice cases.</span><span class="lang-zh">普适心理计算相关系统入选国家卫健委数字健康典型优秀案例、世界大健康博览会“三新”案例和新华网“健康中国实践案例”。</span></p>
   </article>
   <article class="feature-card">
-    <span><span class="lang-en">Translation</span><span class="lang-zh">转化能力</span></span>
+    <span><span class="lang-en">Technology Transfer</span><span class="lang-zh">转化能力</span></span>
     <h3><span class="lang-en">From patents to standards and deployable products</span><span class="lang-zh">从专利到标准与产品落地</span></h3>
     <p><span class="lang-en">The lab has completed 20+ patent transfers with total translation value above RMB 3 million, and contributed to a group standard for intelligent healthy-living environments.</span><span class="lang-zh">团队完成 20 余项专利成果转化，转化价值超过 300 万元，并参编健康住区环境保障智能系统设计团体标准。</span></p>
   </article>
 </div>
 
-<h2><span class="lang-en">Patents, Software, and Translation</span><span class="lang-zh">专利、软件与成果转化</span></h2>
+<h2><span class="lang-en">Patents, Software, and Technology Transfer</span><span class="lang-zh">专利、软件与成果转化</span></h2>
 
 <p><span class="lang-en">The lab has developed a long-term intellectual-property portfolio around sentiment analysis, emotional dialogue generation, multimodal affect recognition, psychological stress prediction, smart mental assessment, and intervention systems. Representative software and patented technologies include Chinese sentiment analysis, public-opinion monitoring, multimodal student psychological analysis, non-contact stress prediction, gait-based emotion recognition, emotion-aware recommendation, affective semantic regulation, and interactive mind-body intervention systems.</span><span class="lang-zh">围绕情感分析、情感对话生成、多模态情绪识别、生理心理状态预测、智能心理评测和干预系统形成系列发明专利与软件著作权，并完成多项成果转化。代表方向包括中文情感分析、微博舆情监测、多模态学生心理分析、非接触心理压力预测、步态情绪识别、音乐推荐、情感语义调控和交互式心身干预系统等。</span></p>

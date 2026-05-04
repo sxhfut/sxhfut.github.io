@@ -34,7 +34,7 @@ rank: 5
 </div>
 
 <h2><span class="lang-en">Lab Updates</span><span class="lang-zh">实验室动态</span></h2>
-<p class="muted"><span class="lang-en">A curated stream of MAC-Lab progress across research platforms, publications, student training, competitions, standards, media visibility, and translational applications.</span><span class="lang-zh">这里汇集 MAC-Lab 在科研平台、论文成果、学生培养、竞赛获奖、标准建设、媒体传播和成果转化方面的阶段性进展。</span></p>
+<p class="muted"><span class="lang-en">A curated stream of MAC-Lab progress across research platforms, publications, student training, competitions, standards, media visibility, and real-world applications.</span><span class="lang-zh">这里汇集 MAC-Lab 在科研平台、论文成果、学生培养、竞赛获奖、标准建设、媒体传播和成果转化方面的阶段性进展。</span></p>
 
 <div class="news-list">
   <article>
@@ -65,7 +65,7 @@ rank: 5
     <time>2025-08-28</time>
     <div>
       <h2><span class="lang-en">Lab Outcomes Covered by China Daily, China.com, Phoenix, and Other Media</span><span class="lang-zh">实验室成果被中国日报、中华网、中国网、凤凰网等媒体报道</span></h2>
-      <p><span class="lang-en">The coverage strengthens public visibility for the lab's work on affective AI, psychological computing, and translational mind-body health systems.</span><span class="lang-zh">相关报道提升了实验室在情感智能、心理计算与身心健康转化系统方向的社会可见度。</span></p>
+      <p><span class="lang-en">The coverage strengthens public visibility for the lab's work on affective AI, psychological computing, and applied mind-body health systems.</span><span class="lang-zh">相关报道提升了实验室在情感智能、心理计算与身心健康转化系统方向的社会可见度。</span></p>
       <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1695.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
     </div>
   </article>

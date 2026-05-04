@@ -104,7 +104,7 @@ rank: 8
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Research + Engineering + Deployment</span>
     <h2><span class="lang-en">Not Only Papers, Not Only Projects</span><span class="lang-zh">既不是只刷论文，也不是只做横向</span></h2>
-    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, patent translation, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students are expected to learn how research becomes real capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生在这里学习的不只是写论文，也不是单纯完成项目任务，而是理解科研如何转化为真实能力。</span></p>
+    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students are expected to learn how research becomes real capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生在这里学习的不只是写论文，也不是单纯完成项目任务，而是理解科研如何转化为真实能力。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>
