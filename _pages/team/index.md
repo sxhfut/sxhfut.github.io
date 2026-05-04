@@ -13,7 +13,7 @@ rank: 4
   <img src="{{ '/images/profile/sun-xiao-standing.jpg' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
   <div>
     <h2><span class="lang-en">A Lab for AI Researchers Who Build With Human Context</span><span class="lang-zh">不是只做论文的实验室</span></h2>
-    <p><span class="lang-en">MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun, trains students to move fluently between algorithmic research, deployable engineering, human-centered evaluation, and public communication. We value rigorous papers, but we also ask whether an idea can become a system that helps people in a real setting.</span><span class="lang-zh">MAC-Lab 全称 Multimedia Affective Computing Lab。我们希望学生既懂算法，也懂人；既能做出高水平论文，也能把系统带到真实场景中验证。</span></p>
+    <p><span class="lang-en">MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun, trains students to move fluently between algorithmic research, deployable engineering, human-centered evaluation, and public communication. The lab now extends its multimodal affective computing foundation toward ubiquitous psychological computing and embodied emotional intelligence.</span><span class="lang-zh">MAC-Lab 全称 Multimedia Affective Computing Lab，即多模态情感计算实验室。今天，实验室在这一基础上进一步延伸到普适心理计算与具身情感智能。我们希望学生既懂算法，也懂人；既能做出高水平论文，也能把系统带到真实场景中验证。</span></p>
     <p><span class="lang-en">The lab's intellectual roots connect Dalian University of Technology's NLP tradition and Tokushima University's affective computing lineage. Professor Sun's doctoral training under Professor Huang Degen, CAS Academician Gao Qingshi, and Professor Fuji Ren gives MAC-Lab a stable academic route rather than a short-term trend portfolio.</span><span class="lang-zh">实验室的学术底色连接大连理工大学自然语言处理传统与日本德岛大学情感计算脉络。孙晓教授曾在大连理工师从黄德根教授和中国科学院院士高庆狮先生，在日本国立德岛大学师从日本工程院院士任福继教授，这使 MAC-Lab 的方向不是短期追热点，而是有清晰传承和持续深化的学术路线。</span></p>
     <p><span class="lang-en">The group works across national research programs, digital health, healthy living, smart mobility, psychological services, and human factors. Students are encouraged to develop a compound profile: academic depth, engineering capability, product awareness, interdisciplinary literacy, and the courage to explain science to society.</span><span class="lang-zh">团队长期面向国家级科研项目、数字健康、健康人居、智能心理服务和人因工程等方向开展研究与系统研发，鼓励学生形成“学术深度 + 工程能力 + 公共表达”的综合竞争力。</span></p>
   </div>
@@ -59,7 +59,7 @@ rank: 4
   <article class="feature-card">
     <span>Direction</span>
     <h3><span class="lang-en">Grow inside a stable research line</span><span class="lang-zh">在稳定方向中成长</span></h3>
-    <p><span class="lang-en">The lab has long followed NLP, human-computer interaction, affective computing, and ubiquitous psychological computing, extending these directions into embodied emotional intelligence instead of simply chasing short-lived trends.</span><span class="lang-zh">实验室长期坚持自然语言处理、人机交互、情感计算和普适心理计算，并在此基础上延伸到具身情感智能，而不是简单追风口、追热点。</span></p>
+    <p><span class="lang-en">The lab has long followed NLP, human-computer interaction, and multimedia affective computing, extending these directions into ubiquitous psychological computing and embodied emotional intelligence instead of simply chasing short-lived trends.</span><span class="lang-zh">实验室长期坚持自然语言处理、人机交互和多模态情感计算，并在此基础上延伸到普适心理计算与具身情感智能，而不是简单追风口、追热点。</span></p>
   </article>
 </div>
 
@@ -144,5 +144,5 @@ rank: 4
 
 <div class="media-note">
   <h2><span class="lang-en">Training Philosophy</span><span class="lang-zh">培养理念</span></h2>
-  <p><span class="lang-en">MAC-Lab combines paper-driven research, system engineering, innovation competitions, and industrial collaboration. The lab's student training is built on a stable intellectual route: natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, and now embodied emotional intelligence. We welcome students who want to deepen a direction, not only follow a buzzword.</span><span class="lang-zh">团队注重论文研究、工程系统和创新创业竞赛协同培养。我们的学生培养建立在一条稳定的学术路线之上：自然语言处理、人机交互、情感计算、普适心理计算，并进一步深化到具身情感智能。我们欢迎愿意长期深耕的同学，而不是只追热点、只做短期项目。</span></p>
+  <p><span class="lang-en">MAC-Lab combines paper-driven research, system engineering, innovation competitions, and industrial collaboration. The lab's student training is built on a stable intellectual route: natural language processing, human-computer interaction, multimedia affective computing, ubiquitous psychological computing, and now embodied emotional intelligence. We welcome students who want to deepen a direction, not only follow a buzzword.</span><span class="lang-zh">团队注重论文研究、工程系统和创新创业竞赛协同培养。我们的学生培养建立在一条稳定的学术路线之上：自然语言处理、人机交互、多模态情感计算、普适心理计算，并进一步深化到具身情感智能。我们欢迎愿意长期深耕的同学，而不是只追热点、只做短期项目。</span></p>
 </div>

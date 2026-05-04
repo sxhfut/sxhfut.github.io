@@ -1,5 +1,5 @@
 # Site settings
-title: MAC-Lab | Affective Computing and Ubiquitous Psychological Computing
+title: MAC-Lab | Multimedia Affective Computing and Psychological AI
 title_zh: MAC-Lab 孙晓实验室 | 合肥工业大学
 lab_name: MAC-Lab
 lab_name_zh: MAC-Lab 孙晓实验室
@@ -7,9 +7,9 @@ author: Xiao Sun
 institution: Hefei University of Technology
 email: sunx@hfut.edu.cn
 description: >
-  MAC-Lab at Hefei University of Technology advances affective computing, natural language processing, multimodal intelligence, and ubiquitous psychological computing for human-centered AI.
+  MAC-Lab, the Multimedia Affective Computing Lab at Hefei University of Technology, advances affective AI from multimodal emotion understanding toward ubiquitous psychological computing and embodied emotional intelligence.
 description_zh: >
-  MAC-Lab 孙晓实验室聚焦情感计算、自然语言处理、多模态智能与普适心理计算，致力于让 AI 更懂人、更会陪伴、更能守护真实场景中的身心健康。
+  MAC-Lab 孙晓实验室源于多模态情感计算，进一步延伸到普适心理计算与具身情感智能，致力于让 AI 更懂人、更会陪伴、更能守护真实场景中的身心健康。
 baseurl: ""
 url: "https://sxhfut.github.io"
 github_username: sxhfut

@@ -11,12 +11,12 @@ rank: 1
 
 <div class="research-lead">
   <h2><span class="lang-en">Research Mission: Affective AI in the Real World</span><span class="lang-zh">研究使命：面向真实世界的情感智能</span></h2>
-  <p><span class="lang-en">MAC-Lab studies how AI can understand emotion, cognition, behavior, and psychological state in real settings. Our work is organized around Ubiquitous Psychological Computing and Embodied Emotional Intelligence: two connected lines that move from affective signals to mental-state modeling, and from virtual models to embodied interaction.</span><span class="lang-zh">MAC-Lab 研究 AI 如何在真实场景中理解人的情绪、认知、行为与心理状态。团队围绕普适心理计算和具身情感智能展开，两条主线分别连接情感信号与心理状态建模、虚拟模型与具身交互系统。</span></p>
+  <p><span class="lang-en">MAC-Lab's name comes from Multimedia Affective Computing, the lab's original research foundation. From multimodal emotion perception and affective interaction, the agenda has extended toward Ubiquitous Psychological Computing and Embodied Emotional Intelligence: two connected lines that move from affective signals to mental-state modeling, and from virtual models to embodied interaction.</span><span class="lang-zh">MAC-Lab 的名字来自 Multimedia Affective Computing，即多模态情感计算，这是实验室最初的研究基础。从多模态情绪感知和情感交互出发，团队进一步延伸到普适心理计算与具身情感智能，两条主线分别连接情感信号与心理状态建模、虚拟模型与具身交互系统。</span></p>
 </div>
 
 <div class="media-note">
   <h2><span class="lang-en">A Long-Term Route, Not a Hotspot Portfolio</span><span class="lang-zh">长期坚持方向，而不是追逐热点</span></h2>
-  <p><span class="lang-en">The lab's route grows from Professor Sun's doctoral training at Dalian University of Technology and Tokushima University, and from years of work in natural language processing, human-computer interaction, affective computing, and psychological computing. Large models, digital humans, smart cockpits, and embodied agents are treated as new carriers for the same long-term question: how can AI better understand and support people?</span><span class="lang-zh">实验室的研究路线，来自孙晓教授在大连理工大学和日本国立德岛大学的中日双博士训练，也来自团队多年在自然语言处理、人机交互、情感计算和心理计算方向的积累。大模型、数字人、智能座舱和具身智能不是孤立热点，而是同一个长期问题的新载体：AI 如何更好地理解和支持人。</span></p>
+  <p><span class="lang-en">The lab's route grows from Professor Sun's doctoral training at Dalian University of Technology and Tokushima University, and from years of work in natural language processing, human-computer interaction, and multimodal affective computing. Large models, digital humans, smart cockpits, and embodied agents are treated as new carriers for the same long-term question: how can AI better understand and support people?</span><span class="lang-zh">实验室的研究路线，来自孙晓教授在大连理工大学和日本国立德岛大学的中日双博士训练，也来自团队多年在自然语言处理、人机交互和多模态情感计算方向的积累。大模型、数字人、智能座舱和具身智能不是孤立热点，而是同一个长期问题的新载体：AI 如何更好地理解和支持人。</span></p>
 </div>
 
 <div class="framework-grid framework-grid--page">
@@ -58,7 +58,7 @@ rank: 1
 </div>
 
 <div class="timeline">
-  <div><strong>2011</strong><span><span class="lang-en">Affective computing research at HFUT began to take shape, later growing into MAC-Lab and a broader multimodal affective computing agenda.</span><span class="lang-zh">入职合肥工业大学，持续建设情感计算与自然语言处理方向。</span></span></div>
+  <div><strong>2011</strong><span><span class="lang-en">Affective computing research at HFUT began to take shape, later growing into MAC-Lab: Multimedia Affective Computing Lab.</span><span class="lang-zh">入职合肥工业大学，持续建设情感计算与自然语言处理方向，逐步形成 MAC-Lab：多模态情感计算实验室。</span></span></div>
   <div><strong>2017</strong><span><span class="lang-en">The emotional robot “Sisi” was featured by Anhui TV and HFUT News, showing early integration of emotional dialogue, expression, and multimodal recognition.</span><span class="lang-zh">情感机器人“思思”被安徽新闻联播等媒体报道，体现情感对话、多模态识别与机器人系统集成能力。</span></span></div>
   <div><strong>2023</strong><span><span class="lang-en">The Ubiquitous Psychological Computing framework was publicly presented through smart cockpit and mental-care systems, gaining national innovation recognition and industrial visibility.</span><span class="lang-zh">普适心理计算框架通过智能座舱与心理关护系统公开呈现，获得国家级创新赛事认可并进入产业落地视野。</span></span></div>
   <div><strong>2025</strong><span><span class="lang-en">The group moved toward Embodied Emotional Intelligence, emotional large models, cognitive regulation, and embodied agents that can support trusted human-machine emotional interaction.</span><span class="lang-zh">进一步面向具身情感智能、情感交互大模型、认知调控和具备可信情感互动能力的具身智能体展开布局。</span></span></div>

@@ -46,7 +46,7 @@ rank: 8
   <article class="feature-card">
     <span>MAC-Lab</span>
     <h3><span class="lang-en">From academic roots to new frameworks</span><span class="lang-zh">从学术源流到自有框架</span></h3>
-    <p><span class="lang-en">MAC-Lab extends this dual training into a distinct route: NLP, human-computer interaction, affective computing, ubiquitous psychological computing, and embodied emotional intelligence.</span><span class="lang-zh">MAC-Lab 在中日双博士训练和跨学科学术源流基础上，进一步形成自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能的自主研究路线。</span></p>
+    <p><span class="lang-en">MAC-Lab extends this dual training into a distinct route: NLP, human-computer interaction, multimedia affective computing, ubiquitous psychological computing, and embodied emotional intelligence.</span><span class="lang-zh">MAC-Lab 在中日双博士训练和跨学科学术源流基础上，从自然语言处理、人机交互和多模态情感计算出发，进一步延伸到普适心理计算和具身情感智能。</span></p>
   </article>
 </div>
 

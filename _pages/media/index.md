@@ -11,7 +11,7 @@ rank: 7
 
 <div class="media-lead">
   <h2><span class="lang-en">From Affective Robots to Real-World Emotional Intelligence</span><span class="lang-zh">从情感机器人到真实世界情感智能</span></h2>
-  <p><span class="lang-en">Public coverage traces MAC-Lab's path from affective dialogue and emotional robots to psychological computing, mind-body health systems, and embodied emotional intelligence. These stories provide an outside view of a research line that has continued across algorithms, platforms, and field applications.</span><span class="lang-zh">媒体报道记录了 MAC-Lab 从情感对话、情感机器人，到心理计算、身心健康系统和具身情感智能的发展路径。这些报道从外部视角呈现了团队在算法、平台和真实场景应用之间持续推进的研究主线。</span></p>
+  <p><span class="lang-en">Public coverage traces MAC-Lab's path from multimedia affective computing, affective dialogue, and emotional robots to psychological computing, mind-body health systems, and embodied emotional intelligence. These stories provide an outside view of a research line that has continued across algorithms, platforms, and field applications.</span><span class="lang-zh">媒体报道记录了 MAC-Lab 从多模态情感计算、情感对话和情感机器人，到心理计算、身心健康系统和具身情感智能的发展路径。这些报道从外部视角呈现了团队在算法、平台和真实场景应用之间持续推进的研究主线。</span></p>
 </div>
 
 <div class="media-grid media-grid--page">
