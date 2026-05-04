@@ -86,8 +86,43 @@ rank: 8
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>
     <h2><span class="lang-en">A Broad Collaboration Network</span><span class="lang-zh">面向顶尖高校与头部企业的合作生态</span></h2>
-    <p><span class="lang-en">MAC-Lab works in an ecosystem connected with leading universities and major technology companies. The team's experience includes collaboration or talent-training programs related to Tsinghua University, Harbin Institute of Technology, Baidu, Tencent, Huawei, automotive partners, and national-demand application scenarios.</span><span class="lang-zh">MAC-Lab 处在一个面向顶尖高校与头部企业的合作生态中，合作与交流网络包括清华大学、哈尔滨工业大学等高校，以及百度、腾讯、华为等大厂相关项目和人才培养平台，同时也面向汽车智能、公共安全、军工需求和国家重大应用场景开展研究与落地。</span></p>
+    <p><span class="lang-en">MAC-Lab grows through sustained exchange with leading universities, regional academic partners, major technology companies, and national-demand application scenarios. The collaboration network gives students access to broader questions, stronger peer communities, and real platforms where research can be tested.</span><span class="lang-zh">MAC-Lab 长期保持开放的合作与交流网络，连接国内顶尖高校、省内高校与区域平台、头部科技企业以及国家重大需求场景。学生在这里接触的不只是单一课题，而是更广阔的问题、更强的同行社区和能够验证研究价值的真实平台。</span></p>
   </article>
+</div>
+
+<div class="partner-cloud">
+  <div>
+    <strong><span class="lang-en">Leading universities</span><span class="lang-zh">国内高校交流网络</span></strong>
+    <span><span class="lang-en">National University of Defense Technology</span><span class="lang-zh">国防科技大学</span></span>
+    <span><span class="lang-en">University of Science and Technology of China</span><span class="lang-zh">中国科学技术大学</span></span>
+    <span><span class="lang-en">University of Electronic Science and Technology of China</span><span class="lang-zh">电子科技大学</span></span>
+    <span><span class="lang-en">Tsinghua University</span><span class="lang-zh">清华大学</span></span>
+    <span><span class="lang-en">Harbin Institute of Technology</span><span class="lang-zh">哈尔滨工业大学</span></span>
+    <span><span class="lang-en">East China Normal University</span><span class="lang-zh">华东师范大学</span></span>
+    <span><span class="lang-en">Beijing Normal University</span><span class="lang-zh">北京师范大学</span></span>
+    <span><span class="lang-en">Dalian University of Technology</span><span class="lang-zh">大连理工大学</span></span>
+    <span><span class="lang-en">Tongji University</span><span class="lang-zh">同济大学</span></span>
+    <span><span class="lang-en">Southeast University</span><span class="lang-zh">东南大学</span></span>
+  </div>
+  <div>
+    <strong><span class="lang-en">Regional partners in Anhui</span><span class="lang-zh">省内合作与交流</span></strong>
+    <span><span class="lang-en">University of Science and Technology of China</span><span class="lang-zh">中国科学技术大学</span></span>
+    <span><span class="lang-en">Anhui University</span><span class="lang-zh">安徽大学</span></span>
+    <span><span class="lang-en">Anhui Medical University</span><span class="lang-zh">安徽医科大学</span></span>
+    <span><span class="lang-en">Anhui Normal University</span><span class="lang-zh">安徽师范大学</span></span>
+    <span><span class="lang-en">Hefei Institutes of Physical Science, CAS</span><span class="lang-zh">中国科学院合肥物质科学研究院</span></span>
+    <span><span class="lang-en">Hospitals, schools, and regional industry platforms</span><span class="lang-zh">省内医院、学校与产业平台</span></span>
+  </div>
+  <div>
+    <strong><span class="lang-en">Industry and national-demand scenarios</span><span class="lang-zh">产业与重大应用场景</span></strong>
+    <span>Baidu</span>
+    <span>Tencent</span>
+    <span>Huawei</span>
+    <span><span class="lang-en">Automotive intelligence</span><span class="lang-zh">汽车智能</span></span>
+    <span><span class="lang-en">Public safety</span><span class="lang-zh">公共安全</span></span>
+    <span><span class="lang-en">Defense-oriented applications</span><span class="lang-zh">国防导向应用</span></span>
+    <span><span class="lang-en">Digital health and education</span><span class="lang-zh">数字健康与教育</span></span>
+  </div>
 </div>
 
 <div class="card-grid card-grid--three contact-paths">
