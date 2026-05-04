@@ -1,0 +1,36 @@
+name: Update Frontier Radar
+
+on:
+  schedule:
+    - cron: "25 22 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-frontiers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch frontier metadata
+        run: python scripts/update_frontiers.py
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- _data/frontiers.json; then
+            echo "No frontier updates."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/frontiers.json
+          git commit -m "Update frontier radar data"
+          git push

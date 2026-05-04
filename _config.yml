@@ -1,16 +1,19 @@
 # Site settings
-title: Multimedia Affective Interaction and Natural Language Processing Group at Hefei University of Technology
-lab_name: MAINLP Laboratory
-author: >
-  Xiao Sun
-institution: HFUT
+title: MAC-Lab | Affective Computing and Ubiquitous Psychological Computing
+title_zh: MAC-Lab 孙晓实验室 | 合肥工业大学
+lab_name: MAC-Lab
+lab_name_zh: MAC-Lab 孙晓实验室
+author: Xiao Sun
+institution: Hefei University of Technology
 email: sunx@hfut.edu.cn
 description: >
-  The MAINLP Laboratory performs Affective Computing and Natural Language Processing research using a combination of multimedia in the field of Human-Computer Interaction.
+  MAC-Lab at Hefei University of Technology advances affective computing, natural language processing, multimodal intelligence, and ubiquitous psychological computing for human-centered AI.
+description_zh: >
+  MAC-Lab 孙晓实验室聚焦情感计算、自然语言处理、多模态智能与普适心理计算，致力于让 AI 更懂人、更会陪伴、更能守护真实场景中的身心健康。
 baseurl: ""
 url: "https://sxhfut.github.io"
-twitter_username: sunxiao
-github_username:  sxhfut
+github_username: sxhfut
+faculty_url: "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm"
 images_dir: "/images/"
 
 # Build settings

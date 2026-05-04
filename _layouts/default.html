@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     {% include head.html %}
     {% seo %}
   </head>
-  <body>
+  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <main class="page-content">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
+
+    <script>
+      (function () {
+        var key = "maclab-language";
+        var button = document.querySelector("[data-language-toggle]");
+
+        function setLanguage(lang) {
+          var isZh = lang === "zh";
+          document.documentElement.lang = isZh ? "zh-CN" : "en";
+          document.body.classList.toggle("lang-zh-active", isZh);
+          if (button) {
+            button.textContent = isZh ? "EN" : "中文";
+          }
+          try {
+            window.localStorage.setItem(key, lang);
+          } catch (error) {}
+        }
+
+        var saved = "en";
+        try {
+          saved = window.localStorage.getItem(key) || "en";
+        } catch (error) {}
+        setLanguage(saved);
+
+        if (button) {
+          button.addEventListener("click", function () {
+            setLanguage(document.body.classList.contains("lang-zh-active") ? "en" : "zh");
+          });
+        }
+      })();
+    </script>
 
   </body>
 

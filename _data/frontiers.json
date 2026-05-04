@@ -1,0 +1,719 @@
+{
+  "generated_at": "2026-05-04T03:38:15+00:00",
+  "sources": {
+    "papers": "arXiv open metadata API",
+    "manual": "Curated industry, media, standards, and lab translation signals"
+  },
+  "queries": [
+    {
+      "track": "AI + Psychology",
+      "query": "all:\"mental health\" AND (all:\"large language model\" OR all:\"artificial intelligence\" OR all:\"machine learning\")"
+    },
+    {
+      "track": "Affective Computing",
+      "query": "all:\"affective computing\" OR all:\"emotion recognition\" OR all:\"emotion understanding\""
+    },
+    {
+      "track": "Empathetic Dialogue",
+      "query": "all:\"emotional support conversation\" OR all:\"empathetic dialogue\" OR all:\"counseling dialogue\""
+    },
+    {
+      "track": "Embodied Emotional Intelligence",
+      "query": "all:\"embodied intelligence\" AND (all:\"emotion\" OR all:\"affective\" OR all:\"human interaction\")"
+    },
+    {
+      "track": "Ubiquitous Psychological Computing",
+      "query": "all:\"psychological computing\" OR all:\"psychological assessment\" OR all:\"depression detection\""
+    }
+  ],
+  "items": [
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-03-12",
+      "title": "Decoding Emotion, Empowering Mind-Body Health",
+      "title_zh": "解码情感，智惠身心",
+      "summary": "External coverage frames Professor Xiao Sun's team as a long-term builder of embodied emotional interaction models, linking affective robots, Chinese emotional resources, Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.",
+      "summary_zh": "外部报道以“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。",
+      "source": "China.com",
+      "url": "https://digi.china.com/articles/20260312/202603121823261.html",
+      "priority": 100
+    },
+    {
+      "kind": "translation",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2025-08-28",
+      "title": "Multimodal Affective Computing and Intervention Technology Wins Silver Award",
+      "title_zh": "普适场景多模态情感计算与干预技术获国际发明展银奖",
+      "summary": "MAC-Lab's multimodal affective computing and intervention technology for ubiquitous scenarios won a silver award at the 11th International Exhibition of Inventions and BRICS skills-development and technology-innovation competition.",
+      "summary_zh": "实验室“普适场景中的多模态情感计算与干预技术”在第十一届国际发明展览会·“一带一路”暨金砖国家技能发展与技术创新大赛中获得银奖。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1691.htm#article",
+      "priority": 95
+    },
+    {
+      "kind": "paper",
+      "track": "Scene Emotion Perception",
+      "published": "2025-08-28",
+      "title": "UniEmoX Published in IEEE Transactions on Image Processing",
+      "title_zh": "UniEmoX 发表在 IEEE Transactions on Image Processing",
+      "summary": "The student-guided work UniEmoX studies cross-modal semantic-guided large-scale pretraining for universal scene emotion perception, strengthening the lab's high-level publication signal in affective visual intelligence.",
+      "summary_zh": "指导论文 UniEmoX 面向通用场景情绪感知与跨模态语义预训练，发表于 CCF A 类期刊 IEEE Transactions on Image Processing。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1692.htm#article",
+      "priority": 90
+    },
+    {
+      "kind": "standard",
+      "track": "AI + Mind-Body Health",
+      "published": "2025-08-28",
+      "title": "Lab Contributes to a Group Standard for Healthy Residential Environments",
+      "title_zh": "实验室参编健康住区环境保障智能系统设计技术导则",
+      "summary": "The lab's human-factor affective computing technology entered standardization work for intelligent systems supporting healthy residential environments.",
+      "summary_zh": "实验室普适场景人因情感计算技术应用于健康住区环境身心表征与保障，参与编写相关团体标准。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1694.htm#article",
+      "priority": 85
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-30",
+      "title": "Enhancing multimodal affect recognition in healthcare: the robustness of appraisal dimensions over labels within age groups and in cross-age generalisation",
+      "summary": "The integration of artificial intelligence (AI) into healthcare has advanced significantly, yet affect recognition remains a major challenge, particularly in AI-assisted interventions such as Computerized Cognitive Training (CCT). The THERADIA-WoZ corpus was developed to enable multimodal affect recognition in the context of AI-driven CCT, focusing on an older adult population. This study extends the corpus by introducing a...",
+      "source": "arXiv",
+      "authors": [
+        "Hippolyte Fournier",
+        "Sina Alisamir",
+        "Safaa Azzakhnini",
+        "Isabella Zsoldos",
+        "Eléonore Trân",
+        "Gérard Bailly"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2604.27938",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-29",
+      "title": "SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling",
+      "summary": "Effective mental health counseling is a complex, theory-driven process requiring the simultaneous integration of psychological frameworks, real-time distress signals, and strategic intervention planning. This level of clinical reasoning is critical for safety and therapeutic effectiveness but is often missing in general-purpose Large Language Models (LLMs). We introduce SAGE (Strategy-Aware Graph-Enhanced), a novel framework...",
+      "source": "arXiv",
+      "authors": [
+        "Eliya Naomi Aharon",
+        "Meytal Grimland",
+        "Avi Segal",
+        "Loona Ben Dayan",
+        "Inbar Shenfeld",
+        "Yossi Levi Belz"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.26630",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-29",
+      "title": "Fidelity, Diversity, and Privacy: A Multi-Dimensional LLM Evaluation for Clinical Data Augmentation",
+      "summary": "The scarcity of high-quality annotated medical data, particularly in mental health, poses a significant bottleneck for training robust machine learning models. Privacy regulations restrict data sharing, making synthetic data generation a promising alternative. The use of Large Language Models (LLMs) in a data augmentation pipeline could be leveraged as an alternative in this field. In the proposed methodology, DeepSeek-R1,...",
+      "source": "arXiv",
+      "authors": [
+        "Guillermo Iglesias",
+        "Gema Bello-Orgaz",
+        "María Navas-Loro",
+        "Cristian Ramirez-Atencia",
+        "Mercè Salvador Robert",
+        "Enrique Baca-Garcia"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "url": "http://arxiv.org/abs/2604.27014",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-29",
+      "title": "Entropy-Dominated Temporal Vocal Dynamics as Digital Biomarkers for Depression Detection",
+      "summary": "Automated depression detection often relies on static aggregation of conversational signals, potentially obscuring clinically meaningful behavioral dynamics. We investigated whether entropy-driven temporal biomarkers improve depression detection beyond standard pooled features using the DAIC-WOZ corpus. Using 142 labeled participants, we reconstructed utterance-level acoustic trajectories and compared pooled temporal...",
+      "source": "arXiv",
+      "authors": [
+        "Himadri S Samanta"
+      ],
+      "categories": [
+        "q-bio.OT",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.26998",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-29",
+      "title": "EmoTransCap: Dataset and Pipeline for Emotion Transition-Aware Speech Captioning in Discourses",
+      "summary": "Emotion perception and adaptive expression are fundamental capabilities in human-agent interaction. While recent advances in speech emotion captioning (SEC) have improved fine-grained emotional modeling, existing systems remain limited to static, single-emotion characterization within isolated sentences, neglecting dynamic emotional transitions at the discourse level. To address this gap, we propose Emotion Transition-Aware...",
+      "source": "arXiv",
+      "authors": [
+        "Shuhao Xu",
+        "Yifan Hu",
+        "Jingjing Wu",
+        "Zhihao Du",
+        "Zheng Lian",
+        "Rui Liu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "url": "http://arxiv.org/abs/2604.26417",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-29",
+      "title": "Sequential Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity",
+      "summary": "Estimating dynamic discrete choice models with unobserved heterogeneity is computationally costly because it requires repeatedly solving fixed-point equations for all unobserved types. We develop the EM-NPL(q) framework that combines the Expectation-Maximization (EM) algorithm with an inner fixed-point solver truncated to q iterations. For the workhorse class of linear-in-parameters models, we establish a...",
+      "source": "arXiv",
+      "authors": [
+        "Ertian Chen",
+        "Hiroyuki Kasahara",
+        "Katsumi Shimotsu"
+      ],
+      "categories": [
+        "econ.EM"
+      ],
+      "url": "http://arxiv.org/abs/2604.26205",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-29",
+      "title": "Recurrence-Based Nonlinear Vocal Dynamics as Digital Biomarkers for Depression Detection from Conversational Speech",
+      "summary": "Digital biomarkers for depression have largely relied on static acoustic descriptors, pooled summary statistics, or conventional machine learning representations. Such approaches may miss nonlinear temporal organization embedded in conversational vocal dynamics. We hypothesized that depression is associated with altered recurrence structure in vocal state trajectories, reflecting changes in how the vocal system revisits...",
+      "source": "arXiv",
+      "authors": [
+        "Himadri S Samanta"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.LG",
+        "eess.AS"
+      ],
+      "url": "http://arxiv.org/abs/2604.26242",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-28",
+      "title": "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators",
+      "summary": "Patient simulators are gaining traction in mental health training by providing scalable exposure to complex and sensitive patient interactions. Simulating depressed patients is particularly challenging, as safety constraints and high patient variability complicate simulations and underscore the need for simulators that capture diverse and realistic patient behaviors. However, existing evaluations heavily rely on LLM-judges...",
+      "source": "arXiv",
+      "authors": [
+        "Nguyen Khoi Hoang",
+        "Shuhaib Mehri",
+        "Tse-An Hsu",
+        "Yi-Jyun Sun",
+        "Quynh Xuan Nguyen Truong",
+        "Khoa D Doan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2604.25840",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-28",
+      "title": "From Chatbots to Confidants: A Cross-Cultural Study of LLM Adoption for Emotional Support",
+      "summary": "Large Language Models (LLMs) are increasingly used not only for instrumental tasks, but as always-available and non-judgmental confidants for emotional support. Yet what drives adoption and how users perceive emotional support interactions across countries remains unknown. To address this gap, we present the first large-scale cross-cultural study of LLM use for emotional support, surveying 4,641 participants across seven...",
+      "source": "arXiv",
+      "authors": [
+        "Natalia Amat-Lefort",
+        "Mert Yazan",
+        "Amanda Cercas Curry",
+        "Flor Miriam Plaza-del-Arco"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2604.25525",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-28",
+      "title": "PPG-Based Affect Recognition with Long-Range Deep Models: A Measurement-Driven Comparison of CNN, Transformer, and Mamba Architectures",
+      "summary": "Photoplethysmography (PPG) is increasingly used in wearable affective computing due to its low cost and ease of integration into consumer devices. Recent advances in deep learning have introduced long-range sequence models, such as Transformers, and state-space models, like Mamba, which have demonstrated strong performance on natural language and general time-series tasks. However, it remains unclear whether these...",
+      "source": "arXiv",
+      "authors": [
+        "Karim Alghoul",
+        "Hussein Al Osman",
+        "Abdulmotaleb El Saddik"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.26078",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-28",
+      "title": "From Syntax to Emotion: A Mechanistic Analysis of Emotion Inference in LLMs",
+      "summary": "Large language models (LLMs) are increasingly used in emotionally sensitive human-AI applications, yet little is known about how emotion recognition is internally represented. In this work, we investigate the internal mechanisms of emotion recognition in LLMs using sparse autoencoders (SAEs). By analyzing sparse feature activations across layers, we identify a consistent three-phase information flow, in which emotion-related...",
+      "source": "arXiv",
+      "authors": [
+        "Bangzhao Shu",
+        "Arinjay Singh",
+        "Mai ElSherief"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.25866",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-28",
+      "title": "Unrequited Emotions: Investigating the Gaps in Motivation and Practice in Speech Emotion Recognition Research",
+      "summary": "Critical analyses of emotion recognition technology have raised ethical concerns around task validity and potential downstream impacts, urging researchers to ensure alignment between their stated motivations and practice. However, these discussions have not adequately influenced or drawn from research on speech emotion recognition (SER). We address this gap by conducting a systematic survey of SER research to uncover what...",
+      "source": "arXiv",
+      "authors": [
+        "Taryn Wong",
+        "Zeerak Talat",
+        "Hanan Aldarmaki",
+        "Anjalie Field"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.25776",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-28",
+      "title": "ML-SAN: Multi-Level Speaker-Adaptive Network for Emotion Recognition in Conversations",
+      "summary": "To establish empathy with machines, it is essential to fully understand human emotional changes. However, research in multimodal emotion recognition often overlooks one problem: individual expressive traits vary significantly, which means that different people may express emotions differently. In our daily lives, we can see this. When communicating with different people, some express \"happiness\" through their facial...",
+      "source": "arXiv",
+      "authors": [
+        "Kexue Wang",
+        "Yinfeng Yu",
+        "Liejun Wang"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "url": "http://arxiv.org/abs/2604.25383",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-27",
+      "title": "Analyzing LLM Reasoning to Uncover Mental Health Stigma",
+      "summary": "While large language models (LLMs) are increasingly being explored for mental health applications, recent studies reveal that they can exhibit stigma toward individuals with psychological conditions. Existing evaluations of this stigma primarily rely on multiple-choice questions (MCQs), which fail to capture the biases embedded within the models' underlying logic. In this paper, we analyze the intermediate reasoning steps of...",
+      "source": "arXiv",
+      "authors": [
+        "Sreehari Sankar",
+        "Aliakbar Nafar",
+        "Mona Barman",
+        "Hannah K. Heitz",
+        "Ashwin Kumar",
+        "Pouria Tohidi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2604.25053",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-27",
+      "title": "Uncovering Latent Patterns in Social Media Usage and Mental Health: A Clustering-Based Approach Using Unsupervised Machine Learning",
+      "summary": "The widespread adoption of social media has heightened interest in its psychological effects, particularly on mental health indicators such as anxiety, depression, loneliness, and sleep quality, as these platforms increasingly influence social interactions and well-being. Although previous research has examined correlations between social media use and mental health, few studies have utilized unsupervised machine learning to...",
+      "source": "arXiv",
+      "authors": [
+        "Md All Shahria",
+        "Sanjeda Dewan Mithila",
+        "Touhid Alam",
+        "Mohammad Sakib Mahmood",
+        "Mahfuza Khatun"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.24611",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-27",
+      "title": "Psychologically-Grounded Graph Modeling for Interpretable Depression Detection",
+      "summary": "Automatic depression detection from conversational interactions holds significant promise for scalable screening but remains hindered by severe data scarcity and a lack of clinical interpretability. Existing approaches typically rely on black-box deep learning architectures that struggle to model the subtle, temporal evolution of depressive symptoms or account for participant-specific heterogeneity. In this work, we propose...",
+      "source": "arXiv",
+      "authors": [
+        "Rishitej Reddy Vyalla",
+        "Kritarth Prasad",
+        "Avinash Anand",
+        "Erik Cambria",
+        "Shaoxiong Ji",
+        "Faten S. Alamri"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.24126",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-26",
+      "title": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
+      "summary": "In recent years, the integration of multimodal machine learning in wellbeing assessment has offered transformative potential for monitoring mental health. However, with the rapid advancement of Vision-Language Models (VLMs), their deployment in clinical settings has raised concerns due to their lack of transparency and potential for bias. While previous research has explored the intersection of fairness and Explainable AI...",
+      "source": "arXiv",
+      "authors": [
+        "Sophie Chiang",
+        "Tom Brennan",
+        "Fethiye Irmak Dogan",
+        "Jiaee Cheong",
+        "Hatice Gunes"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23786",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-26",
+      "title": "K-SENSE: A Knowledge-Guided Self-Augmented Encoder for Neuro-Semantic Evaluation of Mental Health Conditions on Social Media",
+      "summary": "Early detection of mental health conditions, particularly stress and depression, from social media text remains a challenging open problem in computational psychiatry and natural language processing. Automated systems must contend with figurative language, implicit emotional expression, and the high noise inherent in user-generated content. Existing approaches either leverage external commonsense knowledge to model mental...",
+      "source": "arXiv",
+      "authors": [
+        "Vijay Yadav"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2604.23493",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-26",
+      "title": "Modeling Induced Pleasure through Cognitive Appraisal Prediction via Multimodal Fusion",
+      "summary": "Multimodal affective computing analyzes user-generated social media content to predict emotional states. However, a critical gap remains in understanding how visual content shapes cognitive interpretations and elicits specific affective experiences such as pleasure. This study introduces a novel computational model to infer video-induced pleasure via cognitive appraisal variables. The proposed model addresses four challenges:...",
+      "source": "arXiv",
+      "authors": [
+        "Nastaran Dab",
+        "Raziyeh Zall",
+        "Mohammadreza Kangavari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23753",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-25",
+      "title": "A Benchmark Suite of Reddit-Derived Datasets for Mental Health Detection",
+      "summary": "The growing availability of online support groups has opened up new windows to study mental health through natural language processing (NLP). However, it is hindered by a lack of high-quality, well-validated datasets. Existing studies have a tendency to build task-specific corpora without collecting them into widely available resources, and this makes reproducibility as well as cross-task comparison challenging. In this...",
+      "source": "arXiv",
+      "authors": [
+        "Khalid Hasan",
+        "Jamil Saquer"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23458",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-25",
+      "title": "AI Safety Training Can be Clinically Harmful",
+      "summary": "Large language models are being deployed as mental health support agents at scale, yet only 16% of LLM-based chatbot interventions have undergone rigorous clinical efficacy testing, and simulations reveal psychological deterioration in over one-third of cases. We evaluate four generative models on 250 Prolonged Exposure (PE) therapy scenarios and 146 CBT cognitive restructuring exercises (plus 29 severity-escalated variants),...",
+      "source": "arXiv",
+      "authors": [
+        "Suhas BN",
+        "Andrew M. Sherrill",
+        "Rosa I. Arriaga",
+        "Chris W. Wiese",
+        "Saeed Abdullah"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23445",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-25",
+      "title": "EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs",
+      "summary": "Recent multimodal large language models (MLLMs) have shown strong capabilities in perception, reasoning, and generation, and are increasingly used in applications such as social robots and human-computer interaction, where understanding human emotions is essential. However, existing benchmarks mainly formulate emotion understanding as a static recognition problem, leaving it largely unclear whether current MLLMs can...",
+      "source": "arXiv",
+      "authors": [
+        "He Hu",
+        "Tengjin Weng",
+        "Zebang Cheng",
+        "Yu Wang",
+        "Jiachen Luo",
+        "Björn Schuller"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2604.23348",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-25",
+      "title": "Channel Adaptation for EEG Foundation Models: A Systematic Benchmark Across Architectures, Tasks, and Training Regimes",
+      "summary": "Scaling EEG foundation models requires pooling data across heterogeneous electrode montages, a prerequisite both for larger pretraining corpora and for downstream deployment. We present the first systematic comparison of four channel adaptation methods (Conv1d projection, spherical spline interpolation (SSI), source-space decomposition, and Riemannian re-centering) across five pretrained EEG foundation models (5M--157M...",
+      "source": "arXiv",
+      "authors": [
+        "Kuntal Kokate",
+        "Bruno Aristimunha",
+        "Dung Truong",
+        "Arnaud Delorme"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23091",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-04-23",
+      "title": "Spontaneous Persuasion: An Audit of Model Persuasiveness in Everyday Conversations",
+      "summary": "Large language models (LLMs) possess strong persuasive capabilities that outperform humans in head-to-head comparisons. Users report consulting LLMs to inform major life decisions in relationships, medical settings, and when seeking professional advice. Prior work measures persuasion as intentional attempts at producing the most effective argument or convincing statement. This fails to capture everyday human-AI interactions...",
+      "source": "arXiv",
+      "authors": [
+        "Nalin Poungpeth",
+        "Nicholas Clark",
+        "Tanu Mitra"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.22109",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-22",
+      "title": "Improving Facial Emotion Recognition through Dataset Merging and Balanced Training Strategies",
+      "summary": "In this paper, a deep learning framework is proposed for automatic facial emotion based on deep convolutional networks. In order to increase the generalization ability and the robustness of the method, the dataset size is increased by merging three publicly available facial emotion datasets: CK+, FER+ and KDEF. Despite the increase in dataset size, the minority classes still suffer from insufficient number of training...",
+      "source": "arXiv",
+      "authors": [
+        "Serap Kırbız"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2604.20307",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-22",
+      "title": "Graph2Counsel: Clinically Grounded Synthetic Counseling Dialogue Generation from Client Psychological Graphs",
+      "summary": "Rising demand for mental health support has increased interest in using Large Language Models (LLMs) for counseling. However, adapting LLMs to this high-risk safety-critical domain is hindered by the scarcity of real-world counseling data due to privacy constraints. Synthetic datasets provide a promising alternative, but existing approaches often rely on unstructured or semi-structured text inputs and overlook structural...",
+      "source": "arXiv",
+      "authors": [
+        "Aishik Mandal",
+        "Hiba Arnaout",
+        "Clarissa W. Ong",
+        "Juliet Bockhorst",
+        "Kate Sheehan",
+        "Rachael Moldow"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.20382",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-21",
+      "title": "MER 2026: From Discriminative Emotion Recognition to Generative Emotion Understanding",
+      "summary": "MER2026 marks the fourth edition of the MER series of challenges. The MER series provides valuable data resources to the research community and offers tasks centered on recent research trends, establishing itself as one of the largest challenges in the field. Throughout its history, the focus of MER has shifted from discriminative emotion recognition to generative emotion understanding. Specifically, MER2023 concentrated on...",
+      "source": "arXiv",
+      "authors": [
+        "Zheng Lian",
+        "Xiaojiang Peng",
+        "Kele Xu",
+        "Ziyu Jia",
+        "Xinyi Che",
+        "Zebang Cheng"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2604.19417",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-04-21",
+      "title": "Effective Traveling for Metric Instances of the Traveling Thief Problem",
+      "summary": "The Traveling Thief Problem (TTP) is a multi-component optimization problem that captures the interplay between routing and packing decisions by combining the classical Traveling Salesperson Problem (TSP) and the Knapsack Problem (KP). The TTP has gained significant attention in the evolutionary computation literature and a wide range of approaches have been developed over the last 10 years. Judging the performance of these...",
+      "source": "arXiv",
+      "authors": [
+        "Jan Eube",
+        "Kelin Luo",
+        "Aneta Neumann",
+        "Frank Neumann",
+        "Heiko Röglin"
+      ],
+      "categories": [
+        "cs.DS"
+      ],
+      "url": "http://arxiv.org/abs/2604.19271",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-20",
+      "title": "ComPASS: Towards Personalized Agentic Social Support via Tool-Augmented Companionship",
+      "summary": "Developing compassionate interactive systems requires agents to not only understand user emotions but also provide diverse, substantive support. While recent works explore empathetic dialogue generation, they remain limited in response form and content, struggling to satisfy diverse needs across users and contexts. To address this, we explore empowering agents with external tools to execute diverse actions. Grounded in the...",
+      "source": "arXiv",
+      "authors": [
+        "Zhaopei Huang",
+        "Yanfeng Jia",
+        "Jiayi Zhao",
+        "Xinjie Zhang",
+        "Wenxuan Wang",
+        "Qin Jin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.18356",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-20",
+      "title": "FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots with Frozen LLMs",
+      "summary": "Empathy is essential for fostering natural interactions in spoken dialogue systems, as it enables machines to recognize the emotional tone of human speech and deliver empathetic responses. Recent research has made significant progress in developing empathetic spoken chatbots based on large language models (LLMs). However, several challenges still exist when training such models, including reliance on costly empathetic speech...",
+      "source": "arXiv",
+      "authors": [
+        "Yun Hong",
+        "Yan Zhou",
+        "Yang Feng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.18159",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-20",
+      "title": "Modeling Multiple Support Strategies within a Single Turn for Emotional Support Conversations",
+      "summary": "Emotional Support Conversation (ESC) aims to assist individuals experiencing distress by generating empathetic and supportive dialogue. While prior work typically assumes that each supporter turn corresponds to a single strategy, real-world supportive communication often involves multiple strategies within a single utterance. In this paper, we revisit the ESC task by formulating it as multi-strategy utterance generation,...",
+      "source": "arXiv",
+      "authors": [
+        "Jie Zhu",
+        "Huaixia Dou",
+        "Junhui Li",
+        "Lifan Guo",
+        "Feng Chen",
+        "Jinsong Su"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.17972",
+      "priority": 50
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-19",
+      "title": "Cognitive Policy-Driven LLM for Diagnosis and Intervention of Cognitive Distortions in Emotional Support Conversation",
+      "summary": "Emotional Support Conversation (ESC) plays a critical role in mental health assistance by providing accessible psychological support in real-world applications. Large Language Models (LLMs) have shown strong empathetic abilities in ESC tasks. Yet, existing methods overlook the issue of cognitive distortions in help-seekers' expressions. As a result, current models can only provide basic emotional comfort, rather than helping...",
+      "source": "arXiv",
+      "authors": [
+        "Lin Zhong",
+        "Renjin Zhu",
+        "Shujuan Ma",
+        "Jinhao Cui",
+        "Lingzhi Wang",
+        "Hao Chen"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.17178",
+      "priority": 50
+    }
+  ]
+}

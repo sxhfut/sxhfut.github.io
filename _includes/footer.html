@@ -1,29 +1,13 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <p>{{ site.description }}</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+  <div class="site-footer__inner">
+    <div>
+      <strong>孙晓 Xiao Sun</strong>
+      <p><span class="lang-en">{{ site.description }}</span><span class="lang-zh">{{ site.description_zh }}</span></p>
     </div>
-
+    <div class="footer-links">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      <a href="{{ site.faculty_url }}">HFUT Faculty</a>
+    </div>
   </div>
-
 </footer>

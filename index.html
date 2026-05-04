@@ -1,11 +1,201 @@
 ---
 layout: default
+body_class: home
 ---
 
-<div class="lab-photo">
-    <img src="{{ 'team/lab.jpg' | prepend: site.images_dir | prepend: site.baseurl }}" />
-</div>
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <h1>
+        <span class="hero__headline-main"><span class="lang-en">Human&#8209;centered AI that understands emotion</span><span class="lang-zh">让 AI 更懂人</span></span>
+        <span class="hero__headline-subtitle"><span class="lang-en">MAC-Lab · Xiao Sun Group</span><span class="lang-zh">MAC-Lab 孙晓实验室</span></span>
+      </h1>
+      <p class="hero__lead"><span class="lang-en">MAC-Lab at Hefei University of Technology defines two forward-looking frameworks for human-centered AI: Ubiquitous Psychological Computing and Embodied Emotional Intelligence. We combine NLP, multimodal perception, human-computer interaction, embodied agents, and psychological computing to help AI understand human state across real-world scenarios.</span><span class="lang-zh">MAC-Lab 重点提出并推进两条面向未来的智能框架：普适心理计算框架与具身情感智能框架。我们研究的不只是“识别情绪”，而是让智能系统在真实场景中理解人的语言、表情、语音、行为、生理信号与心理状态。</span></p>
+      <div class="hero__actions">
+        <a class="button button--primary" href="{{ '/research/' | prepend: site.baseurl }}"><span class="lang-en">Explore Research</span><span class="lang-zh">探索研究版图</span></a>
+        <a class="button button--secondary" href="{{ '/contact/' | prepend: site.baseurl }}"><span class="lang-en">Join or Collaborate</span><span class="lang-zh">加入与合作</span></a>
+      </div>
+      <dl class="hero__facts">
+        <div><dt>60+</dt><dd><span class="lang-en">high-impact first/corresponding-author papers</span><span class="lang-zh">高水平论文沉淀核心算法</span></dd></div>
+        <div><dt>80+</dt><dd><span class="lang-en">patents and software copyrights</span><span class="lang-zh">专利与软著构建技术壁垒</span></dd></div>
+        <div><dt>200k+</dt><dd><span class="lang-en">users reached by psychological computing systems</span><span class="lang-zh">真实用户验证心理计算系统</span></dd></div>
+      </dl>
+    </div>
+    <div class="hero__portrait">
+      <img src="{{ '/images/profile/sun-xiao-standing.jpg' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
+      <div class="hero__card">
+        <strong><span class="lang-en">Ubiquitous · Embodied · Emotional</span><span class="lang-zh">普适心理 · 具身情感 · 人机共生</span></strong>
+        <span><span class="lang-en">Claiming the next framework for affective AI</span><span class="lang-zh">为下一代情感智能先行占位</span></span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<article class="post-content">
-    Multimedia Affective Interaction and Natural Language Processing Group in HFUT.
-</article>
+<section class="section section--white">
+  <div class="container split">
+    <div>
+      <h2><span class="lang-en">Frameworks Before Applications</span><span class="lang-zh">框架先行，概念占位</span></h2>
+      <p><span class="lang-en">The next generation of AI should be more than a problem-solving engine. MAC-Lab positions affective AI around two named frameworks: one that makes psychological state computable across everyday environments, and one that gives embodied agents the capacity to perceive, understand, express, and interact emotionally. This is our academic anchor and our public-facing identity.</span><span class="lang-zh">下一代 AI 不应只是回答问题的工具。MAC-Lab 把情感 AI 的发展锚定在两条具备辨识度的框架上：一条把人的心理状态带入普适场景中的连续计算，一条让具身智能体具备情感感知、理解、表达与交互能力。这既是学术主张，也是对外宣传的方向标识。</span></p>
+    </div>
+    <div class="metric-grid">
+      <div><strong>CAAI</strong><span><span class="lang-en">Chair, Natural Language Understanding Committee</span><span class="lang-zh">自然语言理解专委会主任、理事</span></span></div>
+      <div><strong>IEEE</strong><span>Senior Member</span></div>
+      <div><strong>HFUT</strong><span><span class="lang-en">Key Laboratory of Affective Computing and Advanced Intelligent Machines</span><span class="lang-zh">情感计算省重点实验室常务副主任</span></span></div>
+      <div><strong>TOP 1%</strong><span><span class="lang-en">Highly cited scholar by CNKI</span><span class="lang-zh">中国知网高被引学者</span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2><span class="lang-en">Two Frameworks We Are Defining</span><span class="lang-zh">重点占位的两大框架</span></h2>
+      <a href="{{ '/research/' | prepend: site.baseurl }}"><span class="lang-en">Framework Details</span><span class="lang-zh">查看框架详情</span></a>
+    </div>
+    <div class="framework-grid">
+      <article class="framework-card framework-card--dark">
+        <span class="framework-kicker">01 · Ubiquitous Psychological Computing</span>
+        <h3><span class="lang-en">A computing framework for sensing, modeling, and intervening in mental states across everyday scenarios.</span><span class="lang-zh">普适心理计算：面向真实生活场景的心理状态感知、建模、评估与干预框架。</span></h3>
+        <p><span class="lang-en">Compared with conventional affective computing, this framework emphasizes continuous modeling across emotion intensity, time, environment, personality, individual differences, and group-level context. Its goal is to understand complex emotional change, infer psychological state, identify risk, and support personalized intervention.</span><span class="lang-zh">相较传统情感计算，普适心理计算强调从情绪反应程度、时间、环境、个性、个体与群体等多个维度进行连续建模，目标是感知复杂情感变化，理解心理状态，辅助风险判断与个性化干预。</span></p>
+        <div class="framework-axis">
+          <span>Sensing</span><span>Profiling</span><span>Assessment</span><span>Intervention</span>
+        </div>
+      </article>
+
+      <article class="framework-card">
+        <span class="framework-kicker">02 · Embodied Emotional Intelligence</span>
+        <h3><span class="lang-en">A framework that moves embodied AI from task execution toward emotional companionship and trusted interaction.</span><span class="lang-zh">具身情感智能：推动具身 AI 从执行任务走向情感共鸣、陪伴与可信交互的智能框架。</span></h3>
+        <p><span class="lang-en">Embodied Emotional Intelligence connects emotional perception, emotional understanding, emotional expression, and emotional interaction into a full-stack architecture for robots, digital humans, smart cockpits, eldercare companions, and active health systems.</span><span class="lang-zh">具身情感智能把情感感知、情感理解、情感表达和情感交互连接为完整技术链路，面向机器人、数字人、智能座舱、智慧养老陪伴与主动健康场景构建可落地的“情感大脑”。</span></p>
+        <div class="framework-axis">
+          <span>Perception</span><span>Understanding</span><span>Expression</span><span>Interaction</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2><span class="lang-en">What We Study</span><span class="lang-zh">我们解决什么问题</span></h2>
+      <a href="{{ '/research/' | prepend: site.baseurl }}"><span class="lang-en">Full Research Map</span><span class="lang-zh">完整研究版图</span></a>
+    </div>
+    <div class="card-grid card-grid--four">
+      <article class="feature-card">
+        <span>01</span>
+        <h3><span class="lang-en">Emotion-aware language intelligence</span><span class="lang-zh">AI 如何读懂“话里有话”</span></h3>
+        <p><span class="lang-en">We study affective semantics, personality-aware dialogue, emotional support conversation, and LLM-based psychological understanding, moving beyond literal text toward intent, relationship, and mental-state cues.</span><span class="lang-zh">研究中文语言理解、情感语义、个性化对话生成和情感支持对话，让机器理解语义背后的态度、关系和心理需求。</span></p>
+      </article>
+      <article class="feature-card">
+        <span>02</span>
+        <h3><span class="lang-en">Multimodal affect and mental-state modeling</span><span class="lang-zh">AI 如何看见“未说出口”的状态</span></h3>
+        <p><span class="lang-en">We fuse facial expression, voice, gait, gesture, eye movement, physiological signals, and context to model complex emotion, stress, depression risk, anxiety, cognitive load, and behavioral adaptation.</span><span class="lang-zh">融合表情、语音、姿态、步态、眼动和生理信号，面向复杂情绪、压力、抑郁焦虑和认知负荷建模。</span></p>
+      </article>
+      <article class="feature-card">
+        <span>03</span>
+        <h3><span class="lang-en">Ubiquitous psychological computing</span><span class="lang-zh">AI 如何真正进入生活与产业</span></h3>
+        <p><span class="lang-en">We build non-contact assessment, dynamic profiling, early warning, and interactive intervention systems for education, healthcare, healthy living, smart cockpit, and human performance scenarios.</span><span class="lang-zh">在健康居住、教育、驾驶、特种作业和心理服务场景中构建非接触评测、风险预警和智能干预系统。</span></p>
+      </article>
+      <article class="feature-card">
+        <span>04</span>
+        <h3><span class="lang-en">Embodied emotional agents</span><span class="lang-zh">AI 如何拥有“情感大脑”</span></h3>
+        <p><span class="lang-en">We study embodied emotional interaction models and agent architectures that allow robots, digital humans, and smart devices to respond with emotional appropriateness in situated interaction.</span><span class="lang-zh">研究具身情感交互大模型与智能体架构，让机器人、数字人和智能终端在具体环境中实现更自然、更可信的情感回应。</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-heading">
+      <h2><span class="lang-en">From Algorithms to Deployable Platforms</span><span class="lang-zh">从算法到系统产品</span></h2>
+      <a href="{{ '/projects/' | prepend: site.baseurl }}"><span class="lang-en">Project Portfolio</span><span class="lang-zh">项目详情</span></a>
+    </div>
+    <div class="project-list">
+      <article>
+        <h3>MindOS: <span class="lang-en">an emotional and cognitive foundation for AI agents</span><span class="lang-zh">面向情感与认知的大模型底座</span></h3>
+        <p><span class="lang-en">A research line on emotion perception, personality modeling, cognitive regulation, and multi-agent emotional support, designed for AI systems that feel less mechanical and more context-aware.</span><span class="lang-zh">围绕大模型情感感知、人格建模、认知调控和多智能体情感支持，探索更有“心智感”的 AI 系统。</span></p>
+      </article>
+      <article>
+        <h3>MindMirror: <span class="lang-en">ubiquitous psychological sensing and assessment</span><span class="lang-zh">普适心理感知与评测平台</span></h3>
+        <p><span class="lang-en">A multimodal platform that integrates behavioral, physiological, affective, and contextual indicators into dynamic psychological profiles for screening, monitoring, and risk-aware decision support.</span><span class="lang-zh">把多模态心理状态识别、非接触生理感知和动态心理画像整合成可部署的评测与预警系统。</span></p>
+      </article>
+      <article>
+        <h3>MindCare: <span class="lang-en">AI-assisted care and intervention systems</span><span class="lang-zh">智能心理监护与干预应用</span></h3>
+        <p><span class="lang-en">A family of applied systems for child development, mental-health screening, healthy living, cockpit safety, and human performance, including integrated assessment devices and interactive intervention cabins.</span><span class="lang-zh">面向儿童发展、健康人居、教育心理和身心效能提升，形成评测一体机、智能座舱与场景化解决方案。</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container split split--dark">
+    <div>
+      <h2><span class="lang-en">Academic Excellence, Public Value</span><span class="lang-zh">学术影响与社会价值</span></h2>
+      <p><span class="lang-en">Our work appears in IEEE and ACM Transactions, ACL, EMNLP, CVPR, ACM Multimedia, ICASSP, AAAI, and other international venues. Beyond publications, MAC-Lab systems have entered digital health, smart mental-care services, healthy living, education, and smart mobility scenarios, with sustained media attention and industrial collaboration.</span><span class="lang-zh">团队既做基础算法，也做真实应用：论文发表于 IEEE、ACM 汇刊和 ACL、EMNLP、CVPR、ACM MM 等重要会议；系统成果进入数字健康、智能心理服务和健康人居场景，并多次被国内外媒体关注。</span></p>
+    </div>
+    <ul class="award-list">
+      <li><span class="lang-en">First Prize, Anhui Provincial Science and Technology Award</span><span class="lang-zh">安徽省科学技术奖一等奖</span></li>
+      <li><span class="lang-en">First Prize, Ministry of Education Science and Technology Progress Award</span><span class="lang-zh">教育部高等学校科学研究优秀成果奖科学技术进步一等奖</span></li>
+      <li><span class="lang-en">Wu Wenjun AI Science and Technology Progress Award</span><span class="lang-zh">吴文俊人工智能科学技术进步奖三等奖</span></li>
+      <li><span class="lang-en">First Place, National General AI Innovation Application Competition</span><span class="lang-zh">全国通用人工智能创新应用大赛第一名</span></li>
+      <li><span class="lang-en">Selected as a national digital-health exemplary case</span><span class="lang-zh">国家卫健委数字健康典型优秀案例</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-heading">
+      <h2><span class="lang-en">Media and Public Presence</span><span class="lang-zh">媒体关注</span></h2>
+      <a href="{{ '/media/' | prepend: site.baseurl }}"><span class="lang-en">More Coverage</span><span class="lang-zh">更多报道</span></a>
+    </div>
+    <div class="media-grid media-grid--home">
+      <article>
+        <span>Anhui TV · HFUT News</span>
+        <h3><span class="lang-en">The emotional robot “Sisi” featured in regional news</span><span class="lang-zh">国内首台情感机器人“思思”亮相</span></h3>
+        <p><span class="lang-en">The report highlighted the team’s long-term effort to build affective robot knowledge bases and large-scale Chinese emotional conversation resources.</span><span class="lang-zh">报道呈现团队从 2011 年开始攻关情感机器人知识库，围绕自然语言处理、听觉和视觉认知计算等关键技术形成突破。</span></p>
+        <a href="https://news.hfut.edu.cn/info/1015/17088.htm"><span class="lang-en">Read story</span><span class="lang-zh">查看报道</span></a>
+      </article>
+      <article>
+        <span>China Daily / China.com.cn</span>
+        <h3><span class="lang-en">Innovating AI to safeguard mental health</span><span class="lang-zh">创新人工智能，守护心理健康</span></h3>
+        <p><span class="lang-en">A feature story on MAC-Lab’s psychological computing systems, mental-health platforms, and translation from research to social application.</span><span class="lang-zh">系统报道 MAC-Lab 与普适心理计算团队在 AI 心理健康、智能心理监护系统和产业转化中的探索。</span></p>
+        <a href="https://qiye.chinadaily.com.cn/a/202403/21/WS65fc0278a3109f7860dd66e4.html"><span class="lang-en">Read story</span><span class="lang-zh">查看报道</span></a>
+      </article>
+      <article>
+        <span>PaddlePaddle</span>
+        <h3><span class="lang-en">Ubiquitous psychological computing for smart cockpits</span><span class="lang-zh">普适心理计算团队斩获“互联网+”全国银奖</span></h3>
+        <p><span class="lang-en">Coverage of an award-winning student innovation team developing multimodal mental-care hardware and software for mobility scenarios.</span><span class="lang-zh">报道团队面向智能座舱研发心理监护软硬件一体化平台，推动情感计算在智慧交通中的落地。</span></p>
+        <a href="https://www.paddlepaddle.org.cn/support/news?action=detail&id=3262"><span class="lang-en">Read story</span><span class="lang-zh">查看报道</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container public-voice">
+    <div>
+      <h2><span class="lang-en">Public Communication</span><span class="lang-zh">公共表达：把前沿 AI 讲给更多人听</span></h2>
+      <p><span class="lang-en">Professor Xiao Sun actively communicates AI, affective computing, mental health, digital humans, companion robots, and human-machine coexistence to broader audiences, including social platforms such as Xiaohongshu. The lab’s public-facing language keeps scientific credibility while making technical ideas understandable to students, parents, partners, and the general public.</span><span class="lang-zh">在“小红书：合肥工业大学的孙晓”等公共平台，孙晓教授持续用更贴近日常生活的方式讨论 AI、情感、心理健康、数字人、陪伴机器人和人机共生。实验室主页也延续这种表达：既保持学术可信度，也让学生、家长、产业伙伴和普通读者能理解“情感计算为什么重要”。</span></p>
+    </div>
+    <div class="voice-list">
+      <span><span class="lang-en">AI should understand human state, not only optimize tasks.</span><span class="lang-zh">AI 不只是效率工具，也应理解人的状态。</span></span>
+      <span><span class="lang-en">Psychological computing should support people, not label them.</span><span class="lang-zh">心理计算不是标签化人，而是更好地支持人。</span></span>
+      <span><span class="lang-en">Valuable intelligence must be validated in real scenarios.</span><span class="lang-zh">真正有价值的智能，要能进入真实场景并被验证。</span></span>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container team-preview">
+    <div class="team-preview__photo">
+      <img src="{{ '/images/profile/sun-xiao-faculty.png' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
+    </div>
+    <div>
+      <h2><span class="lang-en">Training AI Researchers With Technical Depth and Human Warmth</span><span class="lang-zh">培养有温度的 AI 研究者</span></h2>
+      <p><span class="lang-en">MAC-Lab welcomes students who want to grow through competitions, publish serious research, build deployable systems, and communicate science responsibly. We encourage cross-disciplinary work across AI, psychology, medicine, education, human factors, and product-oriented engineering.</span><span class="lang-zh">MAC-Lab 希望学生能通过竞赛锻炼能力，通过科研产出沉淀成果，也能做出真正被社会需要的系统。这里鼓励跨学科、重实践、敢表达，把自然语言处理、情感计算、心理学和工程落地连接成一条完整成长路径。</span></p>
+      <a class="button button--secondary" href="{{ '/team/' | prepend: site.baseurl }}"><span class="lang-en">People and Training</span><span class="lang-zh">团队与学生</span></a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "industry",
+    "track": "Embodied Emotional Intelligence",
+    "published": "2026-03-12",
+    "title": "Decoding Emotion, Empowering Mind-Body Health",
+    "title_zh": "解码情感，智惠身心",
+    "summary": "External coverage frames Professor Xiao Sun's team as a long-term builder of embodied emotional interaction models, linking affective robots, Chinese emotional resources, Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.",
+    "summary_zh": "外部报道以“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。",
+    "source": "China.com",
+    "url": "https://digi.china.com/articles/20260312/202603121823261.html",
+    "priority": 100
+  },
+  {
+    "kind": "translation",
+    "track": "Ubiquitous Psychological Computing",
+    "published": "2025-08-28",
+    "title": "Multimodal Affective Computing and Intervention Technology Wins Silver Award",
+    "title_zh": "普适场景多模态情感计算与干预技术获国际发明展银奖",
+    "summary": "MAC-Lab's multimodal affective computing and intervention technology for ubiquitous scenarios won a silver award at the 11th International Exhibition of Inventions and BRICS skills-development and technology-innovation competition.",
+    "summary_zh": "实验室“普适场景中的多模态情感计算与干预技术”在第十一届国际发明展览会·“一带一路”暨金砖国家技能发展与技术创新大赛中获得银奖。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1691.htm#article",
+    "priority": 95
+  },
+  {
+    "kind": "paper",
+    "track": "Scene Emotion Perception",
+    "published": "2025-08-28",
+    "title": "UniEmoX Published in IEEE Transactions on Image Processing",
+    "title_zh": "UniEmoX 发表在 IEEE Transactions on Image Processing",
+    "summary": "The student-guided work UniEmoX studies cross-modal semantic-guided large-scale pretraining for universal scene emotion perception, strengthening the lab's high-level publication signal in affective visual intelligence.",
+    "summary_zh": "指导论文 UniEmoX 面向通用场景情绪感知与跨模态语义预训练，发表于 CCF A 类期刊 IEEE Transactions on Image Processing。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1692.htm#article",
+    "priority": 90
+  },
+  {
+    "kind": "standard",
+    "track": "AI + Mind-Body Health",
+    "published": "2025-08-28",
+    "title": "Lab Contributes to a Group Standard for Healthy Residential Environments",
+    "title_zh": "实验室参编健康住区环境保障智能系统设计技术导则",
+    "summary": "The lab's human-factor affective computing technology entered standardization work for intelligent systems supporting healthy residential environments.",
+    "summary_zh": "实验室普适场景人因情感计算技术应用于健康住区环境身心表征与保障，参与编写相关团体标准。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1694.htm#article",
+    "priority": 85
+  }
+]
