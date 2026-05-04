@@ -10,7 +10,7 @@ rank: 4
 ---
 
 <div class="team-intro">
-  <img src="{{ '/images/profile/sun-xiao-faculty.png' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
+  <img src="{{ '/images/profile/sun-xiao-standing.jpg' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
   <div>
     <h2><span class="lang-en">A Lab for AI Researchers Who Build With Human Context</span><span class="lang-zh">不是只做论文的实验室</span></h2>
     <p><span class="lang-en">MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun, trains students to move fluently between algorithmic research, deployable engineering, human-centered evaluation, and public communication. We value rigorous papers, but we also ask whether an idea can become a system that helps people in a real setting.</span><span class="lang-zh">MAC-Lab 全称 Multimedia Affective Computing Lab。我们希望学生既懂算法，也懂人；既能做出高水平论文，也能把系统带到真实场景中验证。</span></p>
