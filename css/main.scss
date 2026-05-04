@@ -2012,7 +2012,7 @@ h2 {
   min-height: auto;
   align-items: center;
   justify-content: center;
-  padding: clamp(42px, 5vw, 68px);
+  padding: clamp(34px, 4vw, 52px);
   background:
     linear-gradient(180deg, rgba(7, 19, 35, 0.98), rgba(9, 28, 50, 0.94)),
     var(--navy);
@@ -2028,17 +2028,18 @@ h2 {
 
 .hero__portrait::after {
   background:
-    linear-gradient(180deg, transparent 0%, rgba(7, 19, 35, 0.16) 62%, rgba(7, 19, 35, 0.72) 100%);
+    linear-gradient(180deg, rgba(7, 19, 35, 0.02) 0%, rgba(7, 19, 35, 0.08) 50%, rgba(7, 19, 35, 0.72) 100%);
 }
 
 .hero__portrait img {
-  width: min(70%, 370px);
+  width: min(100%, 560px);
   height: auto;
-  max-height: 610px;
-  object-fit: contain;
-  object-position: center top;
-  background: #bcc1c4;
-  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.28);
+  max-height: none;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  object-fit: cover;
+  object-position: center;
+  background: #162033;
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.32);
 }
 
 .hero__card {
@@ -2140,11 +2141,11 @@ h2 {
   }
 
   .hero__portrait {
-    min-height: 580px;
+    min-height: 540px;
   }
 
   .hero__portrait img {
-    width: min(60%, 390px);
+    width: min(100%, 620px);
   }
 }
 
@@ -2188,13 +2189,13 @@ h2 {
   }
 
   .hero__portrait {
-    min-height: 520px;
-    padding: 28px 14px 118px;
+    min-height: 430px;
+    padding: 28px 14px 120px;
   }
 
   .hero__portrait img {
-    width: min(86%, 330px);
-    max-height: 390px;
+    width: min(92%, 390px);
+    max-height: none;
   }
 
   .hero__card {
