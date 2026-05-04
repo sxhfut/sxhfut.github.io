@@ -13,7 +13,7 @@ rank: 3
   <div><strong>60+</strong><span><span class="lang-en">high-level papers as first or corresponding author</span><span class="lang-zh">第一/通讯作者 IEEE、ACM 汇刊等高水平论文</span></span></div>
   <div><strong>TOP 1%</strong><span><span class="lang-en">CNKI highly cited scholar, 2024 and 2025</span><span class="lang-zh">2024、2025 中国知网高被引学者</span></span></div>
   <div><strong>18</strong><span><span class="lang-en">papers selected as high-PCSI/high-download CNKI papers</span><span class="lang-zh">篇次入选知网高 PCSI 高被引高下载论文</span></span></div>
-  <div><strong>80+</strong><span><span class="lang-en">patent applications and disclosures</span><span class="lang-zh">申请与公开发明专利，授权 40 余项</span></span></div>
+  <div><strong>80+/40+</strong><span><span class="lang-en">patent applications or disclosures / authorized patents</span><span class="lang-zh">申请公开发明专利 / 授权专利</span></span></div>
 </div>
 
 <h2><span class="lang-en">High-Level Publication Signals</span><span class="lang-zh">高水平论文与发表场域</span></h2>
@@ -80,6 +80,31 @@ rank: 3
   </article>
 </div>
 
+<h2><span class="lang-en">Recognition Beyond Publications</span><span class="lang-zh">论文之外的高水平认可</span></h2>
+
+<div class="card-grid card-grid--four">
+  <article class="feature-card">
+    <span><span class="lang-en">Awards</span><span class="lang-zh">科技奖励</span></span>
+    <h3><span class="lang-en">Provincial and ministry-level first prizes</span><span class="lang-zh">省部级一等奖支撑平台可信度</span></h3>
+    <p><span class="lang-en">Representative recognitions include a First Prize of Anhui Provincial Science and Technology Award and a First Prize of the Ministry of Education Science and Technology Progress Award.</span><span class="lang-zh">代表性成果包括安徽省科学技术奖一等奖、教育部高等学校科学研究优秀成果奖科学技术进步一等奖等。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">AI Recognition</span><span class="lang-zh">人工智能奖项</span></span>
+    <h3><span class="lang-en">Wu Wenjun AI award and national AI competition first place</span><span class="lang-zh">吴文俊奖与全国通用 AI 大赛第一名</span></h3>
+    <p><span class="lang-en">The lab's direction has been recognized through the Wu Wenjun AI Science and Technology Progress Award and first place in the National General AI Innovation Application Competition.</span><span class="lang-zh">团队方向获得吴文俊人工智能科学技术进步奖，并在全国通用人工智能创新应用大赛中取得第一名。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Public Value</span><span class="lang-zh">社会价值</span></span>
+    <h3><span class="lang-en">Digital-health and healthy-China exemplary cases</span><span class="lang-zh">数字健康与健康中国典型案例</span></h3>
+    <p><span class="lang-en">Psychological computing systems have been selected as national digital-health exemplary cases, World Health Expo new-case signals, and Xinhua "Healthy China" practice cases.</span><span class="lang-zh">普适心理计算相关系统入选国家卫健委数字健康典型优秀案例、世界大健康博览会“三新”案例和新华网“健康中国实践案例”。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Translation</span><span class="lang-zh">转化能力</span></span>
+    <h3><span class="lang-en">From patents to standards and deployable products</span><span class="lang-zh">从专利到标准与产品落地</span></h3>
+    <p><span class="lang-en">The lab has completed 20+ patent transfers with total translation value above RMB 3 million, and contributed to a group standard for intelligent healthy-living environments.</span><span class="lang-zh">团队完成 20 余项专利成果转化，转化价值超过 300 万元，并参编健康住区环境保障智能系统设计团体标准。</span></p>
+  </article>
+</div>
+
 <h2><span class="lang-en">Patents, Software, and Translation</span><span class="lang-zh">专利、软件与成果转化</span></h2>
 
-<p><span class="lang-en">The lab has developed a long-term intellectual-property portfolio around sentiment analysis, emotional dialogue generation, multimodal affect recognition, psychological stress prediction, smart mental assessment, and intervention systems. Representative software and patented technologies include Chinese sentiment analysis, public-opinion monitoring, multimodal student psychological analysis, non-contact stress prediction, gait-based emotion recognition, emotion-aware recommendation, and affective semantic regulation.</span><span class="lang-zh">围绕情感分析、情感对话生成、多模态情绪识别、生理心理状态预测、智能心理评测和干预系统形成系列发明专利与软件著作权，并完成多项成果转化。代表方向包括中文情感分析、微博舆情监测、多模态学生心理分析、非接触心理压力预测、走路姿态情绪识别、音乐推荐与情感语义调控等。</span></p>
+<p><span class="lang-en">The lab has developed a long-term intellectual-property portfolio around sentiment analysis, emotional dialogue generation, multimodal affect recognition, psychological stress prediction, smart mental assessment, and intervention systems. Representative software and patented technologies include Chinese sentiment analysis, public-opinion monitoring, multimodal student psychological analysis, non-contact stress prediction, gait-based emotion recognition, emotion-aware recommendation, affective semantic regulation, and interactive mind-body intervention systems.</span><span class="lang-zh">围绕情感分析、情感对话生成、多模态情绪识别、生理心理状态预测、智能心理评测和干预系统形成系列发明专利与软件著作权，并完成多项成果转化。代表方向包括中文情感分析、微博舆情监测、多模态学生心理分析、非接触心理压力预测、步态情绪识别、音乐推荐、情感语义调控和交互式心身干预系统等。</span></p>

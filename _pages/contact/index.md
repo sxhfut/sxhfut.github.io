@@ -77,6 +77,29 @@ rank: 8
 
 <h2><span class="lang-en">Why This Platform Is Different</span><span class="lang-zh">为什么这个平台不一样</span></h2>
 
+<div class="card-grid card-grid--four contact-paths">
+  <article class="feature-card">
+    <span><span class="lang-en">Project-Backed Training</span><span class="lang-zh">项目支撑训练</span></span>
+    <h3><span class="lang-en">Students enter research questions with real funding and scenarios</span><span class="lang-zh">学生进入有项目、有场景的真问题</span></h3>
+    <p><span class="lang-en">National and provincial projects on affective LLMs, non-contact psychological sensing, healthy living, autism support, and special scenarios provide concrete research tracks for students at different levels.</span><span class="lang-zh">大模型情感感知、非接触心理感知、健康人居、儿童孤独症辅助诊断和特殊场景等项目，为不同阶段学生提供真实研究入口。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Competition Pipeline</span><span class="lang-zh">竞赛成长链条</span></span>
+    <h3><span class="lang-en">From undergraduate contests to national innovation stages</span><span class="lang-zh">从本科竞赛走向国家级创新舞台</span></h3>
+    <p><span class="lang-en">Students have been guided in Internet+ style innovation, China International College Students' Innovation Competition, robotics, IoT, digital media, smart transportation, and AI application contests.</span><span class="lang-zh">团队指导学生参加中国国际大学生创新大赛、互联网+ 类创新创业、机器人、物联网、数字媒体、交通科技和人工智能应用等赛事。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Paper + Patent + System</span><span class="lang-zh">论文专利系统</span></span>
+    <h3><span class="lang-en">Good projects are expected to keep growing after the medal</span><span class="lang-zh">好项目不会止步于获奖</span></h3>
+    <p><span class="lang-en">Promising student work can continue into papers, software systems, patents, demos, datasets, and deployable modules inside the lab's long-term platforms.</span><span class="lang-zh">有潜力的学生项目会继续打磨成论文、软著、专利、演示系统、数据集和实验室长期平台中的可复用模块。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Deployment Mindset</span><span class="lang-zh">落地意识</span></span>
+    <h3><span class="lang-en">Research is trained against users, products, and public value</span><span class="lang-zh">科研要经得起用户、产品和社会价值检验</span></h3>
+    <p><span class="lang-en">Psychological monitoring devices, mind-body assessment systems, intervention cabins, smart cockpits, and public-health scenarios help students understand how algorithms become usable capability.</span><span class="lang-zh">心理监护设备、身心评测一体机、心身干预座舱、智能座舱和公共健康场景，让学生理解算法如何真正变成可用能力。</span></p>
+  </article>
+</div>
+
 <div class="framework-grid framework-grid--page">
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Research + Engineering + Deployment</span>
