@@ -2,11 +2,16 @@ name: Update Frontier Radar
 
 on:
   schedule:
-    - cron: "25 22 * * 1"
+    # 06:25 Beijing time. GitHub Actions schedules use UTC.
+    - cron: "25 22 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-frontier-radar
+  cancel-in-progress: false
 
 jobs:
   update-frontiers:

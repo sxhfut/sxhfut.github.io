@@ -76,6 +76,22 @@ _data/frontiers_manual.json
 
 The intended scheduled workflow refreshes `_data/frontiers.json` from open arXiv metadata and curated application, media, and standards updates.
 
+The production site refreshes the radar through GitHub Actions:
+
+- Workflow: `.github/workflows/update-frontiers.yml`
+- Schedule: every day at 06:25 Beijing time
+- Manual run: GitHub repository → Actions → Update Frontier Radar → Run workflow
+- Output: `_data/frontiers.json`
+- Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
+
+Current automatic queries focus on:
+
+- AI + psychology and mental health
+- affective computing and emotion understanding
+- empathetic dialogue and counseling dialogue
+- embodied emotional intelligence
+- ubiquitous psychological computing and psychological assessment
+
 ## Repository Metadata
 
 Repository description:
