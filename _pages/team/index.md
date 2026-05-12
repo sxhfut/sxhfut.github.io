@@ -12,7 +12,7 @@ rank: 4
 <div class="team-intro">
   <img src="{{ '/images/profile/sun-xiao-standing.jpg' | prepend: site.baseurl }}" alt="Professor Xiao Sun">
   <div>
-    <h2><span class="lang-en">A Lab for AI Researchers Who Build With Human Context</span><span class="lang-zh">不是只做论文的实验室</span></h2>
+    <h2><span class="lang-en">A Lab for AI Researchers Who Build With Human Context</span><span class="lang-zh">培养能把研究带进真实场景的 AI 人才</span></h2>
     <p><span class="lang-en">MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun, trains students to move fluently between algorithmic research, deployable engineering, human-centered evaluation, and public communication. The lab now extends its multimodal affective computing foundation toward ubiquitous psychological computing and embodied emotional intelligence.</span><span class="lang-zh">MAC-Lab 全称 Multimedia Affective Computing Lab，即多模态情感计算实验室。今天，实验室在这一基础上进一步延伸到普适心理计算与具身情感智能。我们希望学生既懂算法，也懂人；既能做出高水平论文，也能把系统带到真实场景中验证。</span></p>
     <p><span class="lang-en">The lab's intellectual roots connect Dalian University of Technology's NLP tradition and Tokushima University's affective computing lineage. Professor Sun's doctoral training under Professor Huang Degen, CAS Academician Gao Qingshi, and Professor Fuji Ren gives MAC-Lab a stable academic route rather than a short-term trend portfolio.</span><span class="lang-zh">实验室的学术底色连接大连理工大学自然语言处理传统与日本德岛大学情感计算脉络。孙晓教授曾在大连理工师从黄德根教授和中国科学院院士高庆狮先生，在日本国立德岛大学师从日本工程院院士任福继教授，这使 MAC-Lab 形成了有清晰传承和持续深化的学术路线。</span></p>
     <p><span class="lang-en">The group works across national research programs, digital health, healthy living, smart mobility, psychological services, and human factors. Students are encouraged to develop a compound profile: academic depth, engineering capability, product awareness, interdisciplinary literacy, and the courage to explain science to society.</span><span class="lang-zh">团队长期面向国家级科研项目、数字健康、健康人居、智能心理服务和人因工程等方向开展研究与系统研发，鼓励学生形成“学术深度 + 工程能力 + 公共表达”的综合竞争力。</span></p>
@@ -49,7 +49,7 @@ rank: 4
   <article class="feature-card">
     <span>Research</span>
     <h3><span class="lang-en">Turn projects into research output</span><span class="lang-zh">把项目做成科研成果</span></h3>
-    <p><span class="lang-en">Competition projects are encouraged to grow into papers, patents, software copyrights, datasets, prototypes, and long-term research questions rather than stopping at a demo.</span><span class="lang-zh">实验室鼓励把竞赛项目继续打磨成论文、专利、软著、数据集、原型系统和长期研究问题，而不是比赛结束就停在演示阶段。</span></p>
+    <p><span class="lang-en">Competition projects are encouraged to grow into papers, patents, software copyrights, datasets, prototypes, and long-term research questions.</span><span class="lang-zh">实验室鼓励把竞赛项目继续打磨成论文、专利、软著、数据集、原型系统和长期研究问题，让一次比赛成为长期成长的入口。</span></p>
   </article>
   <article class="feature-card">
     <span>Platforms</span>
@@ -59,7 +59,7 @@ rank: 4
   <article class="feature-card">
     <span>Direction</span>
     <h3><span class="lang-en">Grow inside a stable research line</span><span class="lang-zh">在稳定方向中成长</span></h3>
-    <p><span class="lang-en">The lab has long followed NLP, human-computer interaction, and multimedia affective computing, extending these directions into ubiquitous psychological computing and embodied emotional intelligence instead of being driven by short-lived topics.</span><span class="lang-zh">实验室长期坚持自然语言处理、人机交互和多模态情感计算，并在此基础上延伸到普适心理计算与具身情感智能，强调持续积累，而不是被短期热点牵引。</span></p>
+    <p><span class="lang-en">The lab has long followed NLP, human-computer interaction, and multimedia affective computing, extending these directions into ubiquitous psychological computing and embodied emotional intelligence through sustained accumulation.</span><span class="lang-zh">实验室长期坚持自然语言处理、人机交互和多模态情感计算，并在此基础上延伸到普适心理计算与具身情感智能，强调持续积累和主线深化。</span></p>
   </article>
 </div>
 
@@ -102,7 +102,7 @@ rank: 4
   <article class="feature-card">
     <span>Pipeline</span>
     <h3><span class="lang-en">From Competition to Publication and Platform</span><span class="lang-zh">从竞赛走向论文与平台</span></h3>
-    <p><span class="lang-en">The most valuable outcomes are not only medals, but students who learn to keep improving a problem after the contest: publish stronger work, build reusable systems, and join national-project-level research.</span><span class="lang-zh">最重要的不是“拿奖即结束”，而是让学生学会把竞赛项目继续深化：形成更好的论文、可复用的平台系统，并进入国家级项目支撑的科研训练链条。</span></p>
+    <p><span class="lang-en">The most valuable outcomes are students who learn to keep improving a problem after the contest: publish stronger work, build reusable systems, and join national-project-level research.</span><span class="lang-zh">更有价值的是让学生学会把竞赛项目继续深化：形成更好的论文、可复用的平台系统，并进入国家级项目支撑的科研训练链条。</span></p>
   </article>
 </div>
 
@@ -144,5 +144,5 @@ rank: 4
 
 <div class="media-note">
   <h2><span class="lang-en">Training Philosophy</span><span class="lang-zh">培养理念</span></h2>
-  <p><span class="lang-en">MAC-Lab combines paper-driven research, system engineering, innovation competitions, and industrial collaboration. The lab's student training is built on a stable intellectual route: natural language processing, human-computer interaction, multimedia affective computing, ubiquitous psychological computing, and now embodied emotional intelligence. Joint graduate training and academic exchange with partner universities further broaden students' research context. We welcome students who want to deepen a direction, not only follow a buzzword.</span><span class="lang-zh">团队注重论文研究、工程系统和创新创业竞赛协同培养。我们的学生培养建立在一条稳定的学术路线之上：自然语言处理、人机交互、多模态情感计算、普适心理计算，并进一步深化到具身情感智能。与国防科技大学等单位的研究生联合培养和高校合作交流，也让学生在更开放的学术网络中成长。我们欢迎愿意长期深耕的同学，而不是只围绕短期话题做临时项目。</span></p>
+  <p><span class="lang-en">MAC-Lab combines paper-driven research, system engineering, innovation competitions, and industrial collaboration. The lab's student training is built on a stable intellectual route: natural language processing, human-computer interaction, multimedia affective computing, ubiquitous psychological computing, and now embodied emotional intelligence. Joint graduate training and academic exchange with partner universities further broaden students' research context. We welcome students who want to deepen a direction and grow with a long-term research platform.</span><span class="lang-zh">团队注重论文研究、工程系统和创新创业竞赛协同培养。我们的学生培养建立在一条稳定的学术路线之上：自然语言处理、人机交互、多模态情感计算、普适心理计算，并进一步深化到具身情感智能。与国防科技大学等单位的研究生联合培养和高校合作交流，也让学生在更开放的学术网络中成长。我们欢迎愿意长期深耕、和平台一起成长的同学。</span></p>
 </div>

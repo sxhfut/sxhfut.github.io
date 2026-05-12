@@ -12,7 +12,7 @@ rank: 8
 <div class="contact-panel">
   <div>
     <h2><span class="lang-en">Join a Platform Where Strong Students and Serious Partners Can Build</span><span class="lang-zh">加入一个能让优秀学生与重要伙伴真正做成事的平台</span></h2>
-    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. We are not organized around paper counts, and we are not a short-term outsourcing group. We build a research platform where students and partners can compete, publish, engineer, deploy, and grow inside a long-term direction.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能。这里不是围绕论文数量运转的“刷分式”团队，也不是短期交付导向的外包式队伍，而是一个能让学生和合作伙伴在竞赛、论文、工程系统、产业落地和长期学术方向中真正做成事的平台。</span></p>
+    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. The lab values high-quality publications, but its training and collaboration model also emphasizes engineering systems, field validation, technology transfer, and long-term capability building.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能。团队重视高水平论文，但培养与合作模式同样强调工程系统、场景验证、成果转化和长期能力沉淀。</span></p>
     <ul class="clean-list">
       <li><span class="lang-en">Undergraduates who want to join research projects, innovation competitions, and platform development early</span><span class="lang-zh">希望尽早参与科研项目、创新竞赛和平台研发的本科生</span></li>
       <li><span class="lang-en">Master's students, academic PhD students, and engineering doctoral students in computer science, electronic information, software engineering, artificial intelligence, and related fields</span><span class="lang-zh">计算机、电子信息、软件工程、人工智能等方向的硕士、学术博士与工程博士</span></li>
@@ -129,8 +129,8 @@ rank: 8
 <div class="framework-grid framework-grid--page">
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Research + Engineering + Deployment</span>
-    <h2><span class="lang-en">Not Only Papers, Not Only Projects</span><span class="lang-zh">既不是只刷论文，也不是只做横向</span></h2>
-    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students and partners are expected to see how research becomes real capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生和合作伙伴在这里看到的不只是写论文，也不是单纯完成项目任务，而是科研如何转化为真实能力。</span></p>
+    <h2><span class="lang-en">Research, Engineering, and Deployment in One Route</span><span class="lang-zh">把科研、工程与场景落地放在同一条路线中</span></h2>
+    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students and partners can see how research questions become validated systems and reusable capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生和合作伙伴在这里看到的是科研问题如何进一步变成可验证系统和可复用能力。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>

@@ -35,6 +35,7 @@ Canonical names:
 - Newsroom: https://sxhfut.github.io/news/
 - Frontiers Radar: https://sxhfut.github.io/frontiers/
 - Media Coverage: https://sxhfut.github.io/media/
+- Official Media Kit: https://sxhfut.github.io/media-kit/
 - Join and Collaborate: https://sxhfut.github.io/contact/
 
 ## Long-Term Research Route
