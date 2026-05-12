@@ -14,7 +14,12 @@ Canonical names:
 - Multimedia Affective Computing Lab
 - Xiao Sun Lab
 - Professor Xiao Sun
+- Professor Xiao Sun's Multimedia Affective Computing Lab
+- HFUT Affective Computing Institute
 - Hefei University of Technology
+- 合肥工业大学孙晓
+- 孙晓教授的多模态情感计算实验室
+- 合肥工业大学情感计算研究所
 - 合肥工业大学孙晓实验室
 - 多模态情感计算实验室
 

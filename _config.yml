@@ -1,15 +1,18 @@
 # Site settings
-title: MAC-Lab | Multimedia Affective Computing and Psychological AI
-title_zh: MAC-Lab 孙晓实验室 | 合肥工业大学
+title: MAC-Lab | 孙晓教授的多模态情感计算实验室 | 合肥工业大学情感计算研究所
+title_en: MAC-Lab | Professor Xiao Sun's Multimedia Affective Computing Lab | HFUT Affective Computing Institute
+title_zh: MAC-Lab | 孙晓教授的多模态情感计算实验室 | 合肥工业大学情感计算研究所
 lab_name: MAC-Lab
-lab_name_zh: MAC-Lab 孙晓实验室
+lab_name_zh: 孙晓教授多模态情感计算实验室
+lab_alias_en: Professor Xiao Sun's Multimedia Affective Computing Lab · HFUT Affective Computing Institute
+lab_alias_zh: 孙晓教授的多模态情感计算实验室 · 合肥工业大学情感计算研究所
 author: Xiao Sun
 institution: Hefei University of Technology
 email: sunx@hfut.edu.cn
 description: >
   MAC-Lab, the Multimedia Affective Computing Lab at Hefei University of Technology, advances affective AI from multimodal emotion understanding toward ubiquitous psychological computing and embodied emotional intelligence.
 description_zh: >
-  MAC-Lab 孙晓实验室源于多模态情感计算，进一步延伸到普适心理计算与具身情感智能，致力于让 AI 更懂人、更会陪伴、更能守护真实场景中的身心健康。
+  孙晓教授的多模态情感计算实验室（MAC-Lab）与合肥工业大学情感计算研究所，源于自然语言处理、人机交互和多模态情感计算，进一步延伸到普适心理计算与具身情感智能，致力于让 AI 更懂人、更会陪伴、更能守护真实场景中的身心健康。
 baseurl: ""
 url: "https://sxhfut.github.io"
 github_username: sxhfut
