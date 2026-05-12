@@ -704,6 +704,68 @@ h3 {
   color: var(--ink);
 }
 
+.frontier-lens-board {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
+  gap: 0;
+  margin: 42px 0 34px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.frontier-lens-board > div:first-child {
+  padding: clamp(28px, 4vw, 46px);
+  border-right: 1px solid var(--line);
+}
+
+.frontier-lens-board > div:first-child > span,
+.frontier-method > article > span {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.frontier-lens-board h2 {
+  margin: 16px 0 14px;
+  font-family: Georgia, "Times New Roman", "Songti SC", serif;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.08;
+}
+
+.frontier-lens-board p {
+  color: var(--muted);
+}
+
+.frontier-method {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.frontier-method article {
+  padding: clamp(24px, 3vw, 34px);
+  border-right: 1px solid var(--line);
+}
+
+.frontier-method article:last-child {
+  border-right: 0;
+}
+
+.frontier-method strong {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--blue);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.frontier-method p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
 .frontier-list {
   display: grid;
   gap: 14px;
@@ -747,6 +809,30 @@ h3 {
   color: var(--muted);
 }
 
+.frontier-card__score {
+  display: grid;
+  width: fit-content;
+  min-width: 112px;
+  gap: 3px;
+  margin-top: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.frontier-card__score b {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.frontier-card__score small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
 .frontier-card h2 {
   margin-bottom: 10px;
   font-size: clamp(22px, 2.5vw, 32px);
@@ -763,6 +849,29 @@ h3 {
   font-weight: 750;
 }
 
+.frontier-card__lens {
+  margin: 18px 0 0;
+  padding: 18px 20px;
+  border-left: 3px solid var(--teal);
+  background: #f4f8fa;
+}
+
+.frontier-card__lens strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.frontier-card__lens p {
+  margin: 0;
+  color: #263a52;
+  font-size: 14px;
+}
+
 .frontier-tags {
   display: flex;
   flex-wrap: wrap;
@@ -770,13 +879,18 @@ h3 {
   margin: 16px 0;
 }
 
-.frontier-tags span {
+.frontier-tags > span {
   padding: 4px 8px;
   border-radius: 8px;
   color: var(--navy);
   background: #edf4f8;
   font-size: 12px;
   font-weight: 850;
+}
+
+.frontier-tags--capability > span {
+  color: #fff;
+  background: var(--navy);
 }
 
 .frontier-card a {
@@ -1063,6 +1177,7 @@ h3 {
   .hero__grid,
   .section-heading,
   .split,
+  .frontier-lens-board,
   .frontier-card,
   .news-list article,
   .project-list--page article,
@@ -1098,6 +1213,7 @@ h3 {
   .card-grid--three,
   .card-grid--four,
   .summary-band,
+  .frontier-method,
   .student-grid,
   .research-map,
   .metric-grid,
@@ -1711,6 +1827,7 @@ h3 {
   .split,
   .project-list--page article,
   .news-list article,
+  .frontier-lens-board,
   .frontier-card,
   .team-preview,
   .team-intro,
@@ -1722,6 +1839,7 @@ h3 {
   .card-grid--three,
   .card-grid--four,
   .summary-band,
+  .frontier-method,
   .student-grid,
   .research-map,
   .metric-grid,
@@ -1734,10 +1852,20 @@ h3 {
   .framework-card,
   .feature-card,
   .media-grid article,
+  .frontier-lens-board > div:first-child,
+  .frontier-method article,
   .metric-grid div,
   .summary-band div,
   .hero__facts div {
     border-right: 0;
+  }
+
+  .frontier-method article {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .frontier-method article:last-child {
+    border-bottom: 0;
   }
 }
 

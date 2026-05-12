@@ -25,6 +25,31 @@ rank: 6
   <p><span class="lang-en">The radar is a discovery layer, not a clinical recommendation system. Items should be read as pointers to primary sources.</span><span class="lang-zh">本页是前沿发现层，不是临床或心理咨询建议系统。所有条目都应回到原始来源进一步阅读。</span></p>
 </div>
 
+<div class="frontier-lens-board">
+  <div>
+    <span><span class="lang-en">MAC-Lab Lens</span><span class="lang-zh">MAC-Lab 视角</span></span>
+    <h2><span class="lang-en">A radar for turning external signals into lab capability.</span><span class="lang-zh">不是论文列表，而是面向能力建设的研究雷达。</span></h2>
+    <p><span class="lang-en">Each item is interpreted through MAC-Lab's long-term route: multimedia affective computing, ubiquitous psychological computing, embodied emotional intelligence, and AI for mind-body health.</span><span class="lang-zh">每条内容都放回 MAC-Lab 的长期路线中理解：多模态情感计算、普适心理计算、具身情感智能，以及 AI 身心健康平台。</span></p>
+  </div>
+  <div class="frontier-method">
+    <article>
+      <strong>01</strong>
+      <span><span class="lang-en">Signal</span><span class="lang-zh">发现信号</span></span>
+      <p><span class="lang-en">Capture new papers and selected application news around AI + psychology.</span><span class="lang-zh">捕捉 AI + 心理、情感计算与具身智能的新论文和应用动态。</span></p>
+    </article>
+    <article>
+      <strong>02</strong>
+      <span><span class="lang-en">Capability</span><span class="lang-zh">映射能力</span></span>
+      <p><span class="lang-en">Map signals to affective LLMs, multimodal sensing, assessment, support, and embodied interaction.</span><span class="lang-zh">映射到情感大模型、多模态感知、心理评估、身心支持和具身交互能力。</span></p>
+    </article>
+    <article>
+      <strong>03</strong>
+      <span><span class="lang-en">Translation</span><span class="lang-zh">走向落地</span></span>
+      <p><span class="lang-en">Keep the radar connected with platforms, student projects, standards, and deployment scenarios.</span><span class="lang-zh">把前沿判断连接到平台建设、学生项目、标准工作和真实场景落地。</span></p>
+    </article>
+  </div>
+</div>
+
 <div class="frontier-toolbar" aria-label="Frontier filters">
   <button type="button" data-frontier-filter="all"><span class="lang-en">All</span><span class="lang-zh">全部</span></button>
   <button type="button" data-frontier-filter="paper"><span class="lang-en">Papers</span><span class="lang-zh">论文</span></button>
@@ -44,6 +69,12 @@ rank: 6
         <time>{{ item.published }}</time>
         <span>{{ item.kind | upcase }}</span>
         <strong>{{ item.track }}</strong>
+        {% if item.relevance_score %}
+          <div class="frontier-card__score">
+            <b>{{ item.relevance_score }}</b>
+            <small><span class="lang-en">MAC-Lab relevance</span><span class="lang-zh">相关度</span></small>
+          </div>
+        {% endif %}
       </div>
       <div class="frontier-card__body">
         <h2><span class="lang-en">{{ item.title }}</span><span class="lang-zh">{{ item.title_zh | default: item.title }}</span></h2>
@@ -51,6 +82,19 @@ rank: 6
           <p class="frontier-card__authors">{{ item.authors | join: ", " }}</p>
         {% endif %}
         <p><span class="lang-en">{{ item.summary }}</span><span class="lang-zh">{{ item.summary_zh | default: item.summary }}</span></p>
+        {% if item.lens %}
+          <div class="frontier-card__lens">
+            <strong><span class="lang-en">MAC-Lab Lens</span><span class="lang-zh">实验室视角</span></strong>
+            <p><span class="lang-en">{{ item.lens }}</span><span class="lang-zh">{{ item.lens_zh | default: item.lens }}</span></p>
+          </div>
+        {% endif %}
+        {% if item.capability_tags and item.capability_tags.size > 0 %}
+          <div class="frontier-tags frontier-tags--capability">
+            {% for tag in item.capability_tags %}
+              <span><span class="lang-en">{{ tag }}</span><span class="lang-zh">{{ item.capability_tags_zh[forloop.index0] | default: tag }}</span></span>
+            {% endfor %}
+          </div>
+        {% endif %}
         {% if item.categories and item.categories.size > 0 %}
           <div class="frontier-tags">
             {% for category in item.categories %}

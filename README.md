@@ -83,11 +83,15 @@ The production site refreshes the radar through GitHub Actions:
 - Manual run: GitHub repository → Actions → Update Frontier Radar → Run workflow
 - Output: `_data/frontiers.json`
 - Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
+- MAC-Lab Lens: each item is enriched with relevance score, capability tags, and a short lab-perspective note
+- Resilience: if one arXiv query fails or is rate-limited, the script reuses existing items for that track instead of dropping the direction
 
 Current automatic queries focus on:
 
 - AI + psychology and mental health
+- AI for mind-body health and digital mental-health systems
 - affective computing and emotion understanding
+- multimodal affective computing, speech, voice, and sensing
 - empathetic dialogue and counseling dialogue
 - embodied emotional intelligence
 - ubiquitous psychological computing and psychological assessment
