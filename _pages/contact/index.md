@@ -11,8 +11,8 @@ rank: 8
 
 <div class="contact-panel">
   <div>
-    <h2><span class="lang-en">Join a Platform Where Strong Students Can Actually Grow</span><span class="lang-zh">加入一个能让优秀学生真正发挥能力的平台</span></h2>
-    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. We are not a paper factory, and we are not a contract-work shop. We build a research platform where students can compete, publish, engineer, deploy, and grow inside a long-term direction.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能。这里不是简单“刷论文”的地方，也不是纯粹做横向的“打工式团队”，而是一个能让学生在竞赛、论文、工程系统、产业落地和长期学术方向中真正发挥能力的平台。</span></p>
+    <h2><span class="lang-en">Join a Platform Where Strong Students and Serious Partners Can Build</span><span class="lang-zh">加入一个能让优秀学生与重要伙伴真正做成事的平台</span></h2>
+    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. We are not organized around paper counts, and we are not a short-term outsourcing group. We build a research platform where students and partners can compete, publish, engineer, deploy, and grow inside a long-term direction.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能。这里不是围绕论文数量运转的“刷分式”团队，也不是短期交付导向的外包式队伍，而是一个能让学生和合作伙伴在竞赛、论文、工程系统、产业落地和长期学术方向中真正做成事的平台。</span></p>
     <ul class="clean-list">
       <li><span class="lang-en">Undergraduates who want to join research projects, innovation competitions, and platform development early</span><span class="lang-zh">希望尽早参与科研项目、创新竞赛和平台研发的本科生</span></li>
       <li><span class="lang-en">Master's students, academic PhD students, and engineering doctoral students in computer science, electronic information, software engineering, artificial intelligence, and related fields</span><span class="lang-zh">计算机、电子信息、软件工程、人工智能等方向的硕士、学术博士与工程博士</span></li>
@@ -96,7 +96,33 @@ rank: 8
   <article class="feature-card">
     <span><span class="lang-en">Deployment Mindset</span><span class="lang-zh">落地意识</span></span>
     <h3><span class="lang-en">Research is trained against users, products, and public value</span><span class="lang-zh">科研要经得起用户、产品和社会价值检验</span></h3>
-    <p><span class="lang-en">Psychological monitoring devices, mind-body assessment systems, intervention cabins, smart cockpits, and public-health scenarios help students understand how algorithms become usable capability.</span><span class="lang-zh">心理监护设备、身心评测一体机、心身干预座舱、智能座舱和公共健康场景，让学生理解算法如何真正变成可用能力。</span></p>
+    <p><span class="lang-en">Psychological monitoring devices, mind-body assessment systems, intervention cabins, smart cockpits, and public-health scenarios help students and partners understand how algorithms become usable capability.</span><span class="lang-zh">心理监护设备、身心评测一体机、心身干预座舱、智能座舱和公共健康场景，让学生和合作伙伴理解算法如何真正变成可用能力。</span></p>
+  </article>
+</div>
+
+<h2><span class="lang-en">For Industry and Public-Sector Partners</span><span class="lang-zh">面向产业与公共场景合作伙伴</span></h2>
+<p class="muted"><span class="lang-en">MAC-Lab is suitable for partners who need more than a demo and more than a report: partners who need a research team that understands scientific uncertainty, engineering constraints, user scenarios, delivery risk, and long-cycle capability building.</span><span class="lang-zh">MAC-Lab 适合那些不只需要一个演示系统、也不只需要一份研究报告的合作伙伴：真正需要同时理解科学不确定性、工程约束、用户场景、交付风险和长期能力建设的研究团队。</span></p>
+
+<div class="card-grid card-grid--four contact-paths">
+  <article class="feature-card">
+    <span><span class="lang-en">Problem Definition</span><span class="lang-zh">问题定义</span></span>
+    <h3><span class="lang-en">Turn vague needs into researchable and deliverable problems</span><span class="lang-zh">把模糊需求转成可研究、可交付的问题</span></h3>
+    <p><span class="lang-en">Many AI + psychology projects fail before modeling begins because the task, data boundary, user role, and intervention goal are not defined well. This is one of the places where MAC-Lab can add value early.</span><span class="lang-zh">很多 AI + 心理项目还没到建模阶段就已经失败，因为任务边界、数据边界、用户角色和干预目标没有定义清楚。MAC-Lab 能够在合作早期就帮助把问题定义扎实。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Technical Route</span><span class="lang-zh">技术路线</span></span>
+    <h3><span class="lang-en">Choose the right mix of models, sensing, interaction, and evaluation</span><span class="lang-zh">选择模型、感知、交互和评测的正确组合</span></h3>
+    <p><span class="lang-en">Psychological computing rarely depends on one model alone. It needs multimodal sensing, affective NLP, behavior modeling, human-computer interaction, safety evaluation, and deployment-aware engineering.</span><span class="lang-zh">心理计算很少靠单一模型解决。它需要多模态感知、情感 NLP、行为建模、人机交互、安全评测和面向部署的工程实现一起配合。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Pilot to Deployment</span><span class="lang-zh">从试点到部署</span></span>
+    <h3><span class="lang-en">Navigate the difficult middle between prototype and adoption</span><span class="lang-zh">穿过样机到应用之间最难的中间地带</span></h3>
+    <p><span class="lang-en">The lab has repeatedly worked through field validation, hardware-software integration, scenario adaptation, user feedback, standards awareness, and technology transfer.</span><span class="lang-zh">团队已经反复经历场景验证、软硬件集成、现场适配、用户反馈、标准意识和成果转化等环节，理解从“能跑”到“可用”之间的真实难点。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Long-Term Capability</span><span class="lang-zh">长期能力</span></span>
+    <h3><span class="lang-en">Leave behind platforms, talent, and reusable assets</span><span class="lang-zh">留下平台、人才和可复用资产</span></h3>
+    <p><span class="lang-en">A good collaboration should produce papers when appropriate, but also reusable modules, patents, datasets, evaluation protocols, student training, and a clearer product direction.</span><span class="lang-zh">好的合作可以产出论文，但不应止于论文；还应沉淀可复用模块、专利、数据、评测流程、学生训练和更清晰的产品方向。</span></p>
   </article>
 </div>
 
@@ -104,7 +130,7 @@ rank: 8
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Research + Engineering + Deployment</span>
     <h2><span class="lang-en">Not Only Papers, Not Only Projects</span><span class="lang-zh">既不是只刷论文，也不是只做横向</span></h2>
-    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students are expected to learn how research becomes real capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生在这里学习的不只是写论文，也不是单纯完成项目任务，而是理解科研如何转化为真实能力。</span></p>
+    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students and partners are expected to see how research becomes real capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生和合作伙伴在这里看到的不只是写论文，也不是单纯完成项目任务，而是科研如何转化为真实能力。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>

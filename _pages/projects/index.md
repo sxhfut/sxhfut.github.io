@@ -52,6 +52,32 @@ rank: 2
   </article>
 </div>
 
+<h2><span class="lang-en">From Lab Prototype to Industrial Deployment</span><span class="lang-zh">从实验室样机到产业化部署</span></h2>
+<p class="muted"><span class="lang-en">MAC-Lab's distinctive value is not only that it can publish or build a platform. The lab has worked through the difficult middle where a research result must face data uncertainty, hardware constraints, user behavior, privacy boundaries, product definition, field validation, and partner coordination.</span><span class="lang-zh">MAC-Lab 的特点不只是能发论文，也不只是能做平台。团队真正反复经历过的是科研成果走向真实应用时最难的中间地带：数据不确定性、硬件约束、用户行为、隐私边界、产品定义、场景验证和合作方协同。</span></p>
+
+<div class="card-grid card-grid--four">
+  <article class="feature-card">
+    <span><span class="lang-en">Research Core</span><span class="lang-zh">科研内核</span></span>
+    <h3><span class="lang-en">Start from questions that can support high-level research</span><span class="lang-zh">从能支撑高水平研究的问题出发</span></h3>
+    <p><span class="lang-en">Projects are connected to long-term questions in emotion, cognition, psychological state, multimodal sensing, and embodied interaction.</span><span class="lang-zh">项目与情绪、认知、心理状态、多模态感知和具身交互中的长期科学问题相连接，避免只做一次性工程拼装。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">System Route</span><span class="lang-zh">系统路线</span></span>
+    <h3><span class="lang-en">Build the chain from model to device to platform</span><span class="lang-zh">打通模型、设备与平台链条</span></h3>
+    <p><span class="lang-en">The lab works across sensing modules, affective models, interaction design, edge deployment, user interfaces, and platform-level management.</span><span class="lang-zh">团队跨越感知模块、情感模型、交互设计、边缘部署、用户界面和平台化管理，不把算法孤立在论文或演示里。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Field Validation</span><span class="lang-zh">场景验证</span></span>
+    <h3><span class="lang-en">Test with real people, settings, and constraints</span><span class="lang-zh">在真实人群、真实环境和真实约束中验证</span></h3>
+    <p><span class="lang-en">Psychological computing must be evaluated under realistic interaction, sensor noise, compliance limits, and user trust conditions.</span><span class="lang-zh">心理计算必须在真实交互、传感噪声、合规限制和用户信任条件下验证，才能从“技术可行”走向“场景可用”。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Partner Value</span><span class="lang-zh">合作价值</span></span>
+    <h3><span class="lang-en">Leave partners with reusable capability, not a one-off demo</span><span class="lang-zh">给合作方留下可复用能力，而不是一次性演示</span></h3>
+    <p><span class="lang-en">Good projects should produce reusable assets: methods, patents, standards awareness, datasets, evaluation protocols, student talent, and deployable modules.</span><span class="lang-zh">好的项目应沉淀方法、专利、标准意识、数据、评测流程、学生人才和可部署模块，而不是停留在一次性展示。</span></p>
+  </article>
+</div>
+
 <h2><span class="lang-en">Frameworks and Applied Platforms</span><span class="lang-zh">框架与应用平台</span></h2>
 
 <div class="project-list project-list--page">
