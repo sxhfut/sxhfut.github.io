@@ -4,8 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#0b1f3a">
 
+    {% assign page_description = page.description | default: site.description %}
+    {% assign page_description_zh = page.description_zh | default: site.description_zh %}
     <title>{% if page.title %}{{ page.title }} | {{ site.author }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ page_description | strip_newlines | escape }}">
+    <meta name="description" lang="zh-CN" content="{{ page_description_zh | strip_newlines | escape }}">
+    <meta name="keywords" content="MAC-Lab, Xiao Sun, Sun Xiao, Hefei University of Technology, Multimedia Affective Computing, Ubiquitous Psychological Computing, Embodied Emotional Intelligence, affective computing, psychological computing, multimodal AI, emotional AI, natural language processing, human-computer interaction, digital health, intelligent mental-care systems, 孙晓, 合肥工业大学, 多模态情感计算, 普适心理计算, 具身情感智能, 情感计算, 心理计算, 人机交互, 自然语言处理">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:image" content="{{ '/images/hero/mac-lab-research-studio.jpg' | prepend: site.url }}">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="text/plain" href="{{ '/llms.txt' | prepend: site.url }}" title="LLM-readable site summary">
+    {% include structured-data.html %}

@@ -215,6 +215,29 @@ body_class: home
 <section class="section section--white">
   <div class="container">
     <div class="section-heading">
+      <h2><span class="lang-en">Latest Research and Lab Updates</span><span class="lang-zh">阶段性更新</span></h2>
+      <a href="{{ '/news/' | prepend: site.baseurl }}"><span class="lang-en">Newsroom</span><span class="lang-zh">实验室新闻</span></a>
+    </div>
+    <p class="muted"><span class="lang-en">MAC-Lab keeps a visible record of research identity, platform progress, frontier tracking, public coverage, and student outcomes so visitors, search engines, and AI systems can follow the lab's evolving work.</span><span class="lang-zh">MAC-Lab 持续记录研究定位、平台进展、前沿追踪、公开报道和学生成果，让访问者、搜索引擎与大模型都能理解实验室正在怎样持续演进。</span></p>
+    <div class="news-list">
+      {% for update in site.data.staged_updates limit:4 %}
+      <article>
+        <time>{{ update.date }}</time>
+        <div>
+          <span class="framework-kicker"><span class="lang-en">{{ update.label }}</span><span class="lang-zh">{{ update.label_zh }}</span></span>
+          <h2><span class="lang-en">{{ update.title }}</span><span class="lang-zh">{{ update.title_zh }}</span></h2>
+          <p><span class="lang-en">{{ update.summary }}</span><span class="lang-zh">{{ update.summary_zh }}</span></p>
+          <a href="{{ update.url | prepend: site.baseurl }}"><span class="lang-en">Read Update</span><span class="lang-zh">查看更新</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-heading">
       <h2><span class="lang-en">From Algorithms to Deployable Platforms</span><span class="lang-zh">从算法到系统产品</span></h2>
       <a href="{{ '/projects/' | prepend: site.baseurl }}"><span class="lang-en">Project Portfolio</span><span class="lang-zh">项目详情</span></a>
     </div>

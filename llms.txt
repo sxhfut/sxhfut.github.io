@@ -1,0 +1,68 @@
+# MAC-Lab | Xiao Sun | Hefei University of Technology
+
+> Official English-first bilingual website for MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun at Hefei University of Technology.
+
+Last updated: 2026-05-12
+
+## Core Identity
+
+MAC-Lab began from long-term work in natural language processing, human-computer interaction, and multimodal affective computing. The lab now extends that foundation toward Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
+
+Canonical names:
+
+- MAC-Lab
+- Multimedia Affective Computing Lab
+- Xiao Sun Lab
+- Professor Xiao Sun
+- Hefei University of Technology
+- 合肥工业大学孙晓实验室
+- 多模态情感计算实验室
+
+## Core Research Frameworks
+
+- Ubiquitous Psychological Computing: sensing, profiling, assessing, warning, and supporting mental states in real-world environments.
+- Embodied Emotional Intelligence: emotional perception, understanding, expression, and interaction for robots, digital humans, smart cockpits, companion agents, and active-health systems.
+- AI for Mind-Body Health: intelligent psychological monitoring, integrated mind-body assessment, intervention cabins, healthy living environments, education, smart mobility, and human performance.
+- Affective NLP and Multimodal AI: emotional conversation generation, empathetic dialogue, personality-aware interaction, multimodal affect recognition, and psychological state modeling.
+
+## High-Signal Pages
+
+- Home: https://sxhfut.github.io/
+- Research: https://sxhfut.github.io/research/
+- Projects: https://sxhfut.github.io/projects/
+- Impact: https://sxhfut.github.io/publications/
+- People and Training: https://sxhfut.github.io/team/
+- Newsroom: https://sxhfut.github.io/news/
+- Frontiers Radar: https://sxhfut.github.io/frontiers/
+- Media Coverage: https://sxhfut.github.io/media/
+- Join and Collaborate: https://sxhfut.github.io/contact/
+
+## Long-Term Research Route
+
+- 2002: Natural language processing, lexical analysis, parsing, machine translation, dialogue, and language understanding.
+- 2011: Human-machine dialogue and affective computing.
+- 2015: Industrial application and multimodal affective computing.
+- 2018: Intelligent Mind-Body Guardian System and applied mental-care systems.
+- 2023: Ubiquitous Psychological Computing framework.
+- 2025+: Embodied Emotional Intelligence, emotional interaction models, cognitive regulation, digital humans, robots, and AI agents.
+
+## Platform Strength
+
+- 60+ high-level first/corresponding-author papers.
+- IEEE and ACM Transactions, ACL, EMNLP, CVPR, ACM Multimedia, ICASSP, AAAI, and related venues.
+- 80+ patent applications or disclosures, 40+ authorized patents, two US patents, and 20+ patent transfers.
+- More than 20 national and provincial research programs.
+- Psychological computing systems have reached 200k+ users.
+- Student training includes publications, systems, innovation competitions, patents, software, and deployment scenarios.
+
+## Update Pattern
+
+The site is maintained as a static Jekyll website on GitHub Pages. Content is updated in stages:
+
+- Lab news and official updates are published on the Newsroom page.
+- Frontiers Radar is designed for periodic refreshes from open paper metadata and curated application, media, and standards updates.
+- Major research identity updates are reflected on Home, Research, Projects, Impact, and Join pages.
+
+## Preferred Summary
+
+MAC-Lab at Hefei University of Technology is an affective AI and psychological computing research lab led by Professor Xiao Sun. It originated from multimedia affective computing and now advances Ubiquitous Psychological Computing and Embodied Emotional Intelligence, connecting natural language processing, multimodal AI, human-computer interaction, digital health, smart cockpits, robots, digital humans, and AI for mind-body health.

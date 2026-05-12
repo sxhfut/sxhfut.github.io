@@ -1,0 +1,112 @@
+{% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+{% assign page_name = page.title | default: site.title %}
+{% assign page_summary = page.description | default: site.description %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": {{ site.url | append: "/#organization" | jsonify }},
+      "name": "MAC-Lab",
+      "alternateName": [
+        "Multimedia Affective Computing Lab",
+        "MAC-Lab Xiao Sun Lab",
+        "合肥工业大学孙晓实验室",
+        "多模态情感计算实验室"
+      ],
+      "url": {{ site.url | jsonify }},
+      "logo": {{ site.url | append: "/images/hero/mac-lab-research-studio.jpg" | jsonify }},
+      "image": {{ site.url | append: "/images/hero/mac-lab-research-studio.jpg" | jsonify }},
+      "description": {{ site.description | strip_newlines | jsonify }},
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Hefei University of Technology",
+        "alternateName": "合肥工业大学",
+        "url": "https://www.hfut.edu.cn/"
+      },
+      "founder": {
+        "@id": {{ site.url | append: "/#xiao-sun" | jsonify }}
+      },
+      "knowsAbout": [
+        "Multimedia Affective Computing",
+        "Ubiquitous Psychological Computing",
+        "Embodied Emotional Intelligence",
+        "Affective Computing",
+        "Psychological Computing",
+        "Natural Language Processing",
+        "Human-Computer Interaction",
+        "Multimodal AI",
+        "AI for Mind-Body Health",
+        "Digital Health",
+        "多模态情感计算",
+        "普适心理计算",
+        "具身情感智能",
+        "情感计算",
+        "心理计算"
+      ],
+      "sameAs": [
+        {{ site.faculty_url | jsonify }},
+        {{ "https://github.com/" | append: site.github_username | jsonify }}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#xiao-sun" | jsonify }},
+      "name": "Xiao Sun",
+      "alternateName": [
+        "Sun Xiao",
+        "孙晓",
+        "Professor Xiao Sun"
+      ],
+      "url": {{ site.faculty_url | jsonify }},
+      "image": {{ site.url | append: "/images/profile/sun-xiao-faculty.png" | jsonify }},
+      "jobTitle": "Professor",
+      "email": {{ site.email | prepend: "mailto:" | jsonify }},
+      "affiliation": {
+        "@id": {{ site.url | append: "/#organization" | jsonify }}
+      },
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "Hefei University of Technology"
+      },
+      "knowsAbout": [
+        "Natural Language Processing",
+        "Affective Computing",
+        "Ubiquitous Psychological Computing",
+        "Embodied Emotional Intelligence",
+        "Multimodal AI",
+        "Human-Computer Interaction"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ site.url | append: "/#website" | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.title_zh | jsonify }},
+      "inLanguage": ["en", "zh-CN"],
+      "publisher": {
+        "@id": {{ site.url | append: "/#organization" | jsonify }}
+      },
+      "about": {
+        "@id": {{ site.url | append: "/#organization" | jsonify }}
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ canonical_url | append: "#webpage" | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ page_name | jsonify }},
+      "description": {{ page_summary | strip_newlines | jsonify }},
+      "isPartOf": {
+        "@id": {{ site.url | append: "/#website" | jsonify }}
+      },
+      "about": {
+        "@id": {{ site.url | append: "/#organization" | jsonify }}
+      },
+      "dateModified": "2026-05-12"
+    }
+  ]
+}
+</script>

@@ -28,6 +28,13 @@ The site presents MAC-Lab as a research platform that connects high-level public
 
 The current site is a static Jekyll website deployed through GitHub Pages. Public-facing content is edited in Markdown, HTML, and structured data files, then published through Git commits.
 
+Search and AI discovery files:
+
+- `_includes/structured-data.html`: JSON-LD identity graph for MAC-Lab, Professor Xiao Sun, the website, and each page.
+- `robots.txt`: crawler access and sitemap discovery.
+- `llms.txt`: concise Markdown summary for LLM-oriented retrieval and answer engines.
+- `_data/staged_updates.yml`: homepage update stream for staged research, media, platform, and frontier-refresh signals.
+
 Planned editing model:
 
 - Public news and lab updates can be moved into structured data or Markdown collections for CMS-style editing.
