@@ -30,6 +30,74 @@ Canonical names:
 - AI for Mind-Body Health: intelligent psychological monitoring, integrated mind-body assessment, intervention cabins, healthy living environments, education, smart mobility, and human performance.
 - Affective NLP and Multimodal AI: emotional conversation generation, empathetic dialogue, personality-aware interaction, multimodal affect recognition, and psychological state modeling.
 
+## Discovery Keywords
+
+English search and AI-discovery terms:
+
+- affective computing
+- multimedia affective computing
+- ubiquitous psychological computing
+- embodied emotional intelligence
+- affective large language models
+- affective NLP
+- empathetic dialogue
+- mental state modeling
+- emotion recognition
+- multimodal emotion understanding
+- personality-aware interaction
+- cognitive regulation
+- non-contact physiological sensing
+- AI psychology
+- AI for mental health
+- AI for mind-body health
+- digital health
+- smart cockpit
+- digital human
+- emotional robot
+- embodied agent
+- intelligent psychological monitoring
+- undergraduate research
+- graduate admissions
+- academic PhD
+- engineering doctorate
+- industry-university-research collaboration
+- technology transfer
+- innovation competitions
+- defense-oriented AI applications
+
+Chinese search and AI-discovery terms:
+
+- 情感计算
+- 多模态情感计算
+- 普适心理计算
+- 具身情感智能
+- 情感大模型
+- 情感自然语言处理
+- 共情对话
+- 心理状态建模
+- 情绪识别
+- 多模态情绪理解
+- 人格化交互
+- 认知调控
+- 非接触生理感知
+- AI + 心理
+- AI 心理健康
+- AI 身心健康
+- 数字健康
+- 智能座舱
+- 数字人
+- 情感机器人
+- 具身智能体
+- 智能心理监护
+- 本科生科研
+- 研究生招生
+- 学术博士
+- 工程博士
+- 产学研合作
+- 成果转化
+- 大学生创新竞赛
+- 国防导向人工智能应用
+
 ## High-Signal Pages
 
 - Home: https://sxhfut.github.io/
