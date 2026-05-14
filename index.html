@@ -60,31 +60,6 @@ body_class: home
 </section>
 
 <section class="section section--white">
-  <div class="container">
-    <div class="section-heading">
-      <h2><span class="lang-en">Discovery Keywords</span><span class="lang-zh">检索关键词矩阵</span></h2>
-      <a href="{{ '/media-kit/' | prepend: site.baseurl }}"><span class="lang-en">Media Kit</span><span class="lang-zh">传播资料</span></a>
-    </div>
-    <p class="muted"><span class="lang-en">These canonical terms help search engines, AI systems, students, collaborators, and media channels understand MAC-Lab's identity, frameworks, applications, and collaboration routes.</span><span class="lang-zh">这些规范关键词帮助搜索引擎、大模型、学生、合作伙伴和媒体平台理解 MAC-Lab 的身份别名、核心框架、应用场景和合作路径。</span></p>
-    <div class="keyword-cloud">
-      {% for group in site.data.discovery_keywords %}
-      <article>
-        <h3><span class="lang-en">{{ group.group }}</span><span class="lang-zh">{{ group.group_zh }}</span></h3>
-        <div>
-          {% for term in group.terms %}
-            <span class="lang-en">{{ term }}</span>
-          {% endfor %}
-          {% for term in group.terms_zh %}
-            <span class="lang-zh">{{ term }}</span>
-          {% endfor %}
-        </div>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section section--white">
   <div class="container split">
     <div>
       <h2><span class="lang-en">From Multimedia Affective Computing to Psychological AI</span><span class="lang-zh">从多模态情感计算到心理智能</span></h2>

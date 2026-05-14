@@ -1137,49 +1137,6 @@ h3 {
   font-weight: 750;
 }
 
-.keyword-cloud {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin-top: 24px;
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-}
-
-.keyword-cloud article {
-  min-height: 260px;
-  padding: clamp(22px, 3vw, 34px);
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: #fff;
-}
-
-.keyword-cloud h3 {
-  margin: 0 0 16px;
-  color: var(--ink);
-  font-size: 18px;
-  font-weight: 840;
-}
-
-.keyword-cloud article > div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-}
-
-.keyword-cloud span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  padding: 6px 10px;
-  border-left: 2px solid var(--line);
-  color: #26354c;
-  background: #f6f8f8;
-  font-size: 13px;
-  font-weight: 760;
-  line-height: 1.25;
-}
-
 .site-footer {
   color: rgba(255, 255, 255, 0.74);
   background: var(--navy);
@@ -1255,7 +1212,6 @@ h3 {
 
   .card-grid--three,
   .card-grid--four,
-  .keyword-cloud,
   .summary-band,
   .frontier-method,
   .student-grid,
@@ -1899,7 +1855,6 @@ h3 {
   .frontier-lens-board > div:first-child,
   .frontier-method article,
   .metric-grid div,
-  .keyword-cloud article,
   .summary-band div,
   .hero__facts div {
     border-right: 0;
