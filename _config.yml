@@ -19,6 +19,13 @@ github_username: sxhfut
 faculty_url: "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm"
 images_dir: "/images/"
 
+# Website analytics are disabled until a token or ID is configured.
+# Recommended: Cloudflare Web Analytics for privacy-friendly aggregate insights.
+analytics:
+  cloudflare_token: ""
+  google_measurement_id: ""
+  plausible_domain: ""
+
 # Build settings
 markdown: kramdown
 include: ["_pages"]

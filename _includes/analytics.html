@@ -1,0 +1,22 @@
+{% assign analytics = site.analytics %}
+{% assign cloudflare_token = analytics.cloudflare_token | default: "" %}
+{% assign google_measurement_id = analytics.google_measurement_id | default: "" %}
+{% assign plausible_domain = analytics.plausible_domain | default: "" %}
+
+{% if cloudflare_token != "" %}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ cloudflare_token | escape }}"}'></script>
+{% endif %}
+
+{% if google_measurement_id != "" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google_measurement_id | uri_escape }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "{{ google_measurement_id | escape }}");
+</script>
+{% endif %}
+
+{% if plausible_domain != "" %}
+<script defer data-domain="{{ plausible_domain | escape }}" src="https://plausible.io/js/script.js"></script>
+{% endif %}

@@ -41,6 +41,32 @@ Planned editing model:
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
 - A future `/admin/` workflow can support easier content entry while keeping the public site fast and stable.
 
+## Website Analytics
+
+The site includes an optional analytics module for aggregate visitor statistics. It is disabled by default and only loads third-party analytics scripts after an ID or token is configured in `_config.yml`.
+
+Recommended option:
+
+- **Cloudflare Web Analytics**: privacy-friendly aggregate analytics for page views, referrers, browsers, performance, and approximate country or regional traffic trends.
+
+Supported configuration keys:
+
+```yml
+analytics:
+  cloudflare_token: ""
+  google_measurement_id: ""
+  plausible_domain: ""
+```
+
+To enable Cloudflare Web Analytics:
+
+1. Create a Web Analytics site in the Cloudflare dashboard for `sxhfut.github.io`.
+2. Copy the site token from Cloudflare's JavaScript snippet.
+3. Paste only the token into `_config.yml` under `analytics.cloudflare_token`.
+4. Commit and push. GitHub Pages will rebuild the site and begin collecting aggregate traffic data.
+
+The public site should use analytics for content improvement, international visibility, collaboration reach, and admissions interest. It should not be used to identify individual visitors. If a future internal lab system needs login-based audit records, that should be implemented separately from the public website analytics layer.
+
 ## Local Preview
 
 ```bash
