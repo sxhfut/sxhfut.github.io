@@ -107,6 +107,7 @@ Chinese search and AI-discovery terms:
 - People and Training: https://sxhfut.github.io/team/
 - Newsroom: https://sxhfut.github.io/news/
 - Frontiers Radar: https://sxhfut.github.io/frontiers/
+- Field Notes: https://sxhfut.github.io/notes/
 - Media Coverage: https://sxhfut.github.io/media/
 - Official Media Kit: https://sxhfut.github.io/media-kit/
 - Join and Collaborate: https://sxhfut.github.io/contact/
