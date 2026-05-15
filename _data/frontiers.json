@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T23:17:27+00:00",
+  "generated_at": "2026-05-15T23:16:59+00:00",
   "sources": {
     "papers": "arXiv open metadata API",
     "manual": "Curated industry, media, standards, and lab translation signals"
@@ -132,6 +132,106 @@
         "情感理解"
       ],
       "relevance_score": 100
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-05-14",
+      "title": "Explainable Detection of Depression Status Shifts from User Digital Traces",
+      "summary": "Every day, users generate digital traces (e.g., social media posts, chats, and online interactions) that are inherently timestamped and may reflect aspects of their mental state. These traces can be organized into temporal trajectories that capture how a user's mental health signals evolve, including phases of improvement, deterioration, or stability. In this work, we propose an explainable framework for detecting and...",
+      "source": "arXiv",
+      "authors": [
+        "Loris Belcastro",
+        "Francesco Gervino",
+        "Fabrizio Marozzo",
+        "Domenico Talia",
+        "Paolo Trunfio"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SI"
+      ],
+      "url": "http://arxiv.org/abs/2605.14995",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 59
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-05-14",
+      "title": "HQTN-SER: Speech Emotion Recognition with Hybrid Quantum Tensor Networks",
+      "summary": "Speech emotion recognition (SER) remains fragile in real-world conditions because emotional cues are subtle, speaker-dependent, and easily confounded by recording variability, while high-performing deep models typically rely on large and carefully curated training sets. Quantum machine learning offers an alternative way to introduce nonlinear correlation modeling with compact modules, yet existing quantum SER studies remain...",
+      "source": "arXiv",
+      "authors": [
+        "Mahad Mohtashim",
+        "Nouhaila Innan",
+        "Muhammad Shafique"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "url": "http://arxiv.org/abs/2605.14523",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Mind-Body Support",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "身心支持",
+        "情感理解"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-14",
+      "title": "Let Robots Feel Your Touch: Visuo-Tactile Cortical Alignment for Embodied Mirror Resonance",
+      "summary": "Observing touch on another's body can elicit corresponding tactile sensations in the observer, a phenomenon termed mirror touch that supports empathy and social perception. This visuo-tactile resonance is thought to rely on structural correspondence between visual and somatosensory cortices, yet robotic systems lack computational frameworks that instantiate this principle. Here we demonstrate that cortical correspondence can...",
+      "source": "arXiv",
+      "authors": [
+        "Tianfang Zhu",
+        "Ning An",
+        "Rui Wang",
+        "Jiasi Gao",
+        "Qingming Luo",
+        "Anan Li"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2605.14571",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Mind-Body Support",
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "身心支持",
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 77
     },
     {
       "kind": "paper",
@@ -1016,7 +1116,7 @@
     },
     {
       "kind": "paper",
-      "track": "AI + Psychology",
+      "track": "Empathetic Dialogue",
       "published": "2026-05-05",
       "title": "Detecting Stealth Sycophancy in Mental-Health Dialogue with Dynamic Emotional Signature Graphs",
       "summary": "As conversational AI therapists are increasingly used in psychological support settings, reliable offline evaluation of therapeutic response quality remains an open problem. This paper studies multi-domain support-dialogue evaluation without relying on large language models as final judges. We use a direct LLM judge as a baseline that reads raw dialogue text and predicts whether the target response is harmful, productive, or...",
@@ -1033,8 +1133,8 @@
       ],
       "url": "http://arxiv.org/abs/2605.03472",
       "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
       "capability_tags": [
         "Affective LLMs",
         "Psychological Assessment",
@@ -1109,42 +1209,6 @@
         "可信评测"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-05-04",
-      "title": "ADAPTS: Agentic Decomposition for Automated Protocol-agnostic Tracking of Symptoms",
-      "summary": "Modeling latent clinical constructs from unconstrained clinical interactions is a unique challenge in affective computing. We present ADAPTS (Agentic Decomposition for Automated Protocol-agnostic Tracking of Symptoms), a framework for automated rating of depression and anxiety severity using a mixture-of-agents LLM architecture. This approach decomposes long-form clinical interviews into symptom-specific reasoning tasks,...",
-      "source": "arXiv",
-      "authors": [
-        "Alexandria K. Vail",
-        "Marcelo Cicconet",
-        "Katie Aafjes-van Doorn",
-        "Ryan Maroney",
-        "Marc Aafjes"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.HC",
-        "stat.AP"
-      ],
-      "url": "http://arxiv.org/abs/2605.03212",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估",
-        "情感理解"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -1338,35 +1402,6 @@
     },
     {
       "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-04-29",
-      "title": "Persona-Based Process Design for Assistive Human-Robot Workplaces for Persons with Disabilities",
-      "summary": "Human-robot interaction is emerging as an important paradigm for integrating persons with disabilities into the workplace. While these systems can enable individuals to work, their design is mostly personalized, hindering widespread use beyond the individual user. The universal design paradigm is a central pillar of inclusive design, describing usability of systems by all. To incorporate universal design into process design...",
-      "source": "arXiv",
-      "authors": [
-        "Nils Mandischer",
-        "Daria Eckert and",
-        "Lars Mikelsons"
-      ],
-      "categories": [
-        "cs.HC",
-        "cs.RO",
-        "eess.SY"
-      ],
-      "url": "http://arxiv.org/abs/2604.26527",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 56
-    },
-    {
-      "kind": "paper",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-04-29",
       "title": "Recurrence-Based Nonlinear Vocal Dynamics as Digital Biomarkers for Depression Detection from Conversational Speech",
@@ -1481,36 +1516,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "paper",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-04-27",
-      "title": "Psychologically-Grounded Graph Modeling for Interpretable Depression Detection",
-      "summary": "Automatic depression detection from conversational interactions holds significant promise for scalable screening but remains hindered by severe data scarcity and a lack of clinical interpretability. Existing approaches typically rely on black-box deep learning architectures that struggle to model the subtle, temporal evolution of depressive symptoms or account for participant-specific heterogeneity. In this work, we propose...",
-      "source": "arXiv",
-      "authors": [
-        "Rishitej Reddy Vyalla",
-        "Kritarth Prasad",
-        "Avinash Anand",
-        "Erik Cambria",
-        "Shaoxiong Ji",
-        "Faten S. Alamri"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "url": "http://arxiv.org/abs/2604.24126",
-      "priority": 50,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 59
     }
   ]
 }
