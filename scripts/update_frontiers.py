@@ -77,6 +77,180 @@ ARXIV_QUERIES = [
     },
 ]
 
+RSS_FEEDS = [
+    {
+        "track": "Affective Computing",
+        "source": "Google News",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22affective%20computing%22%20OR%20%22emotion%20AI%22%20OR%20%22emotion%20recognition%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "AI + Mind-Body Health",
+        "source": "Google News",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22AI%20mental%20health%22%20OR%20%22digital%20mental%20health%22%20OR%20%22mental%20health%20chatbot%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "Embodied Emotional Intelligence",
+        "source": "Google News",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22embodied%20AI%22%20OR%20%22emotional%20robot%22%20OR%20%22digital%20human%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "AI + Psychology",
+        "source": "Google News",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22AI%20psychology%22%20OR%20%22psychological%20computing%22%20OR%20%22AI%20therapy%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "AI + Psychology",
+        "source": "Google 新闻",
+        "kind": "industry",
+        "priority": 57,
+        "url": "https://news.google.com/rss/search?q=%E6%83%85%E6%84%9F%E8%AE%A1%E7%AE%97%20OR%20AI%E5%BF%83%E7%90%86%20OR%20%E5%BF%83%E7%90%86%E5%A4%A7%E6%A8%A1%E5%9E%8B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    },
+    {
+        "track": "AI Research",
+        "source": "Google Research",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://research.google/blog/rss/",
+    },
+    {
+        "track": "AI Research",
+        "source": "Google AI",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://blog.google/technology/ai/rss/",
+    },
+    {
+        "track": "AI Research",
+        "source": "MIT News AI",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    },
+    {
+        "track": "AI Research",
+        "source": "BAIR Blog",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://bair.berkeley.edu/blog/feed.xml",
+    },
+    {
+        "track": "AI Research",
+        "source": "Nature Machine Intelligence",
+        "kind": "paper",
+        "priority": 56,
+        "url": "https://www.nature.com/natmachintell.rss",
+    },
+    {
+        "track": "AI Research",
+        "source": "Microsoft Research",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+    },
+    {
+        "track": "AI Research",
+        "source": "OpenAI News",
+        "kind": "industry",
+        "priority": 55,
+        "url": "https://openai.com/news/rss.xml",
+    },
+    {
+        "track": "Open-Source AI",
+        "source": "Hugging Face Blog",
+        "kind": "industry",
+        "priority": 54,
+        "url": "https://huggingface.co/blog/feed.xml",
+    },
+    {
+        "track": "AI Industry",
+        "source": "VentureBeat AI",
+        "kind": "industry",
+        "priority": 53,
+        "url": "https://venturebeat.com/category/ai/feed",
+    },
+    {
+        "track": "AI Industry",
+        "source": "MIT Technology Review AI",
+        "kind": "industry",
+        "priority": 53,
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    },
+    {
+        "track": "AI Industry",
+        "source": "IEEE Spectrum AI",
+        "kind": "industry",
+        "priority": 53,
+        "url": "https://spectrum.ieee.org/rss/artificial-intelligence",
+    },
+    {
+        "track": "Embodied Emotional Intelligence",
+        "source": "IEEE Spectrum Robotics",
+        "kind": "industry",
+        "priority": 53,
+        "url": "https://spectrum.ieee.org/rss/robotics",
+    },
+    {
+        "track": "AI Research",
+        "source": "The Gradient",
+        "kind": "industry",
+        "priority": 53,
+        "url": "https://thegradient.pub/rss/",
+    },
+    {
+        "track": "AI + Psychology",
+        "source": "ScienceDaily Mind & Brain",
+        "kind": "industry",
+        "priority": 52,
+        "url": "https://www.sciencedaily.com/rss/mind_brain.xml",
+    },
+    {
+        "track": "AI Industry",
+        "source": "MarkTechPost",
+        "kind": "industry",
+        "priority": 51,
+        "url": "https://www.marktechpost.com/feed/",
+    },
+    {
+        "track": "AI Industry",
+        "source": "量子位",
+        "kind": "industry",
+        "priority": 52,
+        "url": "https://www.qbitai.com/feed",
+    },
+    {
+        "track": "AI Industry",
+        "source": "InfoQ 中文",
+        "kind": "industry",
+        "priority": 51,
+        "url": "https://www.infoq.cn/feed",
+    },
+    {
+        "track": "AI Industry",
+        "source": "雷峰网",
+        "kind": "industry",
+        "priority": 51,
+        "url": "https://www.leiphone.com/feed",
+    },
+]
+
+RSS_RELEVANCE_PATTERN = re.compile(
+    r"affective|emotion|empathy|mental health|psycholog|wellbeing|well-being|"
+    r"human factors|embodied|robot|digital human|multimodal|speech|voice|"
+    r"agent|artificial intelligence|generative ai|large language model|llm|gpt|"
+    r"foundation model|cognitive|therapy|counsel|benchmark|safety|healthcare|education|"
+    r"情感|心理|身心|具身|多模态|数字人|机器人|认知|心理健康|心理大模型|"
+    r"人工智能|大模型|智能体|开源|医疗|教育",
+    re.IGNORECASE,
+)
+
 TRACK_LENSES = {
     "AI + Psychology": {
         "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
@@ -105,6 +279,18 @@ TRACK_LENSES = {
     "Ubiquitous Psychological Computing": {
         "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
         "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+    },
+    "AI Research": {
+        "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+        "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+    },
+    "Open-Source AI": {
+        "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+        "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+    },
+    "AI Industry": {
+        "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+        "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
     },
 }
 
@@ -163,9 +349,12 @@ def iso_date(value: str | None) -> str:
         return ""
     try:
         return dt.datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
-    except ValueError:
-        parsed = email.utils.parsedate_to_datetime(value)
-        return parsed.date().isoformat()
+    except (ValueError, TypeError, AttributeError):
+        try:
+            parsed = email.utils.parsedate_to_datetime(value)
+        except (TypeError, ValueError, IndexError, AttributeError):
+            return ""
+        return parsed.date().isoformat() if parsed else ""
 
 
 def summarize(text: str, limit: int = 430) -> str:
@@ -174,6 +363,46 @@ def summarize(text: str, limit: int = 430) -> str:
         return text
     cut = text[:limit].rsplit(" ", 1)[0]
     return f"{cut}..."
+
+
+def strip_html(value: str | None) -> str:
+    if not value:
+        return ""
+    value = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", value, flags=re.IGNORECASE | re.DOTALL)
+    value = re.sub(r"<[^>]+>", " ", value)
+    return clean_text(value)
+
+
+def clean_rss_summary(value: str, source: str, track: str) -> str:
+    value = re.sub(r"[\w.#:\-\s>+~,\[\]=\"']+\{[^{}]*\}", " ", value)
+    value = clean_text(value)
+    css_noise = ("display:", "font-size:", "line-height:", "max-width:", "margin-", "padding:")
+    if len(value) < 36 or any(token in value.lower() for token in css_noise):
+        return f"Selected from {source}'s public feed for its relevance to {track} and applied AI systems."
+    return summarize(value, 360)
+
+
+def rss_fallback_summary_zh(summary: str, source: str, track: str) -> str:
+    if not summary.startswith("Selected from "):
+        return ""
+    return f"来自 {source} 公开订阅源，内容与 {track} 及应用型 AI 系统建设相关。"
+
+
+def child_text(element: ET.Element, *names: str) -> str:
+    wanted = set(names)
+    for child in list(element):
+        local = child.tag.rsplit("}", 1)[-1]
+        if local in wanted:
+            return clean_text(child.text or "")
+    return ""
+
+
+def child_attr(element: ET.Element, name: str, attr: str) -> str:
+    for child in list(element):
+        local = child.tag.rsplit("}", 1)[-1]
+        if local == name:
+            return clean_text(child.attrib.get(attr, ""))
+    return ""
 
 
 def parse_bool_env(name: str, default: bool = False) -> bool:
@@ -291,7 +520,10 @@ def source_label(source: str) -> str:
         "github": "GitHub",
         "polymarket": "Polymarket",
         "youtube": "YouTube",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
         "x": "X",
+        "grounding": "Web Grounding",
         "xiaohongshu": "Xiaohongshu",
     }
     return labels.get(source, source.title())
@@ -623,6 +855,80 @@ def fetch_arxiv_items(existing_items: list[dict] | None = None) -> list[dict]:
     return items
 
 
+def fetch_rss_items() -> list[dict]:
+    if parse_bool_env("RSS_DISABLE"):
+        print("RSS: disabled by RSS_DISABLE.")
+        return []
+
+    max_per_feed = parse_int_env("RSS_MAX_PER_FEED", 2)
+    max_total = parse_int_env("RSS_MAX_ITEMS", 18)
+    items: list[dict] = []
+
+    for feed in RSS_FEEDS:
+        if len(items) >= max_total:
+            break
+        try:
+            data = fetch_url(feed["url"], retries=2)
+            root = ET.fromstring(data)
+        except (RuntimeError, ET.ParseError) as error:
+            print(f"RSS: skipped {feed['source']} after fetch failure: {error}")
+            continue
+
+        entries = root.findall("./channel/item")
+        if not entries:
+            entries = [
+                child
+                for child in list(root)
+                if child.tag.rsplit("}", 1)[-1] == "entry"
+            ]
+
+        added_for_feed = 0
+        for entry in entries:
+            title = child_text(entry, "title")
+            link = child_text(entry, "link") or child_attr(entry, "link", "href")
+            source = clean_text(feed["source"])
+            summary = clean_rss_summary(
+                strip_html(child_text(entry, "description", "summary", "content", "encoded")),
+                source,
+                feed["track"],
+            )
+            summary_zh = rss_fallback_summary_zh(summary, source, feed["track"])
+            published = iso_date(
+                child_text(entry, "pubDate", "published", "updated", "date")
+            ) or dt.datetime.now(dt.timezone.utc).date().isoformat()
+
+            if not title or not link:
+                continue
+            relevance_text = f"{title} {summary}"
+            if not RSS_RELEVANCE_PATTERN.search(relevance_text):
+                continue
+
+            items.append(
+                enrich_item(
+                    {
+                        "kind": feed.get("kind", "industry"),
+                        "track": feed["track"],
+                        "published": published,
+                        "title": title,
+                        "summary": summary,
+                        **({"summary_zh": summary_zh} if summary_zh else {}),
+                        "source": f"RSS · {source}",
+                        "authors": [source],
+                        "categories": ["RSS", source],
+                        "url": link,
+                        "priority": int(feed.get("priority", 54)),
+                    }
+                )
+            )
+            added_for_feed += 1
+            if added_for_feed >= max_per_feed or len(items) >= max_total:
+                break
+        print(f"RSS: added {added_for_feed} items from {feed['source']}.")
+        time.sleep(1)
+
+    return items
+
+
 def load_manual_items() -> list[dict]:
     if not MANUAL_PATH.exists():
         return []
@@ -651,10 +957,11 @@ def main() -> None:
     manual_items = [enrich_item(item) for item in load_manual_items()]
     last30days_items = fetch_last30days_items()
     github_recent_items = fetch_github_recent_items() if not last30days_items else []
+    rss_items = fetch_rss_items()
     arxiv_items = [enrich_item(item) for item in fetch_arxiv_items(existing_items)]
 
     recent_signal_items = last30days_items + github_recent_items
-    merged = dedupe_items(manual_items + recent_signal_items + arxiv_items)
+    merged = dedupe_items(manual_items + recent_signal_items + rss_items + arxiv_items)
     merged.sort(key=item_sort_key, reverse=True)
     merged = merged[:MAX_ITEMS]
 
@@ -673,6 +980,7 @@ def main() -> None:
             "last30days_items": len(last30days_items),
             "github_recent_items": len(github_recent_items),
             "recent_signal_items": len(recent_signal_items),
+            "rss_items": len(rss_items),
             "arxiv_items": len(arxiv_items),
             "kind_counts": dict(sorted(kind_counts.items())),
             "source_counts": dict(source_counts.most_common()),
@@ -680,6 +988,7 @@ def main() -> None:
         "sources": {
             "papers": "arXiv open metadata API",
             "last30days": "Recent public discourse, open-source, and market signals via last30days-skill",
+            "rss": "Open RSS and Atom feeds from news, research, and industry sources",
             "manual": "Curated industry, media, standards, and lab translation signals",
         },
         "queries": ARXIV_QUERIES,

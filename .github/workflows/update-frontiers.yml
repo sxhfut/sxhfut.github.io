@@ -47,6 +47,8 @@ jobs:
           LAST30DAYS_DEPTH: default
           LAST30DAYS_TIMEOUT: "240"
           LAST30DAYS_SOURCES: reddit,x,youtube,tiktok,instagram,hackernews,polymarket,github,grounding
+          RSS_MAX_PER_FEED: "2"
+          RSS_MAX_ITEMS: "24"
         run: python scripts/update_frontiers.py
 
       - name: Commit updated data
