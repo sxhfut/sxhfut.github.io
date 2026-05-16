@@ -109,8 +109,10 @@ The production site refreshes the radar through GitHub Actions:
 - Manual run: GitHub repository → Actions → Update Frontier Radar → Run workflow
 - Output: `_data/frontiers.json`
 - Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
+- Last30Days enrichment: the workflow clones `mvanhorn/last30days-skill` and uses it as an optional recent-signal source for Reddit, Hacker News, Polymarket, and GitHub activity from the latest 30-day window
 - MAC-Lab Lens: each item is enriched with relevance score, capability tags, and a short lab-perspective note
 - Resilience: if one arXiv query fails or is rate-limited, the script reuses existing items for that track instead of dropping the direction
+- Resilience: if Last30Days is unavailable or one topic fails, the radar skips that enrichment and still publishes arXiv plus curated items
 
 Current automatic queries focus on:
 
@@ -121,6 +123,19 @@ Current automatic queries focus on:
 - empathetic dialogue and counseling dialogue
 - embodied emotional intelligence
 - ubiquitous psychological computing and psychological assessment
+
+Optional Last30Days controls:
+
+```bash
+LAST30DAYS_SKILL_ROOT=/path/to/last30days-skill/skills/last30days
+LAST30DAYS_MAX_TOPICS=4
+LAST30DAYS_ITEMS_PER_TOPIC=2
+LAST30DAYS_SOURCES=reddit,hn,polymarket,github
+LAST30DAYS_TOPICS="Affective Computing::affective computing emotion AI;Embodied Emotional Intelligence::embodied emotional intelligence robot emotion"
+LAST30DAYS_DISABLE=1
+```
+
+The Last30Days layer is meant to surface fresh public discourse, open-source activity, and industry-adjacent signals. It complements the arXiv paper stream rather than replacing it.
 
 ## Repository Metadata
 

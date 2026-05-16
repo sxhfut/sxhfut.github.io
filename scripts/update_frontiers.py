@@ -12,8 +12,12 @@ import datetime as dt
 import email.utils
 import html
 import json
+import os
 import re
 import socket
+import subprocess
+import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -26,9 +30,20 @@ ROOT = Path(__file__).resolve().parents[1]
 MANUAL_PATH = ROOT / "_data" / "frontiers_manual.json"
 OUTPUT_PATH = ROOT / "_data" / "frontiers.json"
 
-MAX_ITEMS = 48
+MAX_ITEMS = 60
 MAX_RESULTS_PER_QUERY = 12
 USER_AGENT = "MAC-Lab-FrontierRadar/1.0 (https://sxhfut.github.io)"
+
+LAST30DAYS_DEFAULT_TOPICS = [
+    ("AI + Psychology", "AI psychology mental health"),
+    ("AI + Mind-Body Health", "AI mental health digital wellbeing"),
+    ("Affective Computing", "affective computing emotion AI"),
+    ("Multimodal Affective Computing", "multimodal affective computing speech emotion"),
+    ("Empathetic Dialogue", "empathetic dialogue emotional support chatbot"),
+    ("Embodied Emotional Intelligence", "embodied emotional intelligence robot emotion"),
+    ("Ubiquitous Psychological Computing", "ubiquitous psychological computing psychological assessment"),
+]
+LAST30DAYS_DEFAULT_SOURCES = "reddit,hn,polymarket,github"
 
 ARXIV_QUERIES = [
     {
@@ -143,6 +158,23 @@ def summarize(text: str, limit: int = 430) -> str:
     return f"{cut}..."
 
 
+def parse_bool_env(name: str, default: bool = False) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def parse_int_env(name: str, default: int) -> int:
+    value = os.getenv(name)
+    if not value:
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        return default
+
+
 def arxiv_feed_url(query: str, max_results: int = MAX_RESULTS_PER_QUERY) -> str:
     params = urllib.parse.urlencode(
         {
@@ -154,6 +186,215 @@ def arxiv_feed_url(query: str, max_results: int = MAX_RESULTS_PER_QUERY) -> str:
         }
     )
     return f"https://export.arxiv.org/api/query?{params}"
+
+
+def last30days_skill_root() -> Path | None:
+    configured = os.getenv("LAST30DAYS_SKILL_ROOT", "").strip()
+    candidates = []
+    if configured:
+        candidates.append(Path(configured).expanduser())
+    candidates.extend(
+        [
+            Path.home() / ".codex" / "skills" / "last30days",
+            Path.home() / ".agents" / "skills" / "last30days",
+            Path.home() / ".claude" / "skills" / "last30days",
+        ]
+    )
+    for candidate in candidates:
+        if (candidate / "scripts" / "last30days.py").exists():
+            return candidate
+    return None
+
+
+def last30days_topics() -> list[tuple[str, str]]:
+    configured = os.getenv("LAST30DAYS_TOPICS", "").strip()
+    if not configured:
+        return LAST30DAYS_DEFAULT_TOPICS
+
+    topics: list[tuple[str, str]] = []
+    for raw_topic in configured.split(";"):
+        raw_topic = raw_topic.strip()
+        if not raw_topic:
+            continue
+        if "::" in raw_topic:
+            track, topic = raw_topic.split("::", 1)
+            topics.append((track.strip() or "Last 30 Days", topic.strip()))
+        else:
+            topics.append(("Last 30 Days", raw_topic))
+    return topics or LAST30DAYS_DEFAULT_TOPICS
+
+
+def build_last30days_plan(topic: str, sources: list[str]) -> dict:
+    source_weights = {source: round(1 / len(sources), 4) for source in sources}
+    return {
+        "intent": "concept",
+        "freshness_mode": "last_30_days",
+        "cluster_mode": "theme",
+        "raw_topic": topic,
+        "source_weights": source_weights,
+        "notes": [
+            "MAC-Lab frontier radar scheduled enrichment",
+            "Prioritize public discourse, application signals, open-source activity, and community concerns.",
+        ],
+        "subqueries": [
+            {
+                "label": "research",
+                "search_query": topic,
+                "ranking_query": f"Recent high-signal discussion, deployment evidence, and open-source activity about {topic}",
+                "sources": sources,
+                "weight": 1.0,
+            }
+        ],
+    }
+
+
+def extract_json_payload(raw_output: str) -> dict | None:
+    start = raw_output.find("{")
+    end = raw_output.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return None
+    try:
+        return json.loads(raw_output[start : end + 1])
+    except json.JSONDecodeError:
+        return None
+
+
+def first_source_item(candidate: dict) -> dict:
+    source_items = candidate.get("source_items") or []
+    if source_items and isinstance(source_items[0], dict):
+        return source_items[0]
+    return {}
+
+
+def source_label(source: str) -> str:
+    labels = {
+        "reddit": "Reddit",
+        "hackernews": "Hacker News",
+        "github": "GitHub",
+        "polymarket": "Polymarket",
+        "youtube": "YouTube",
+        "x": "X",
+        "xiaohongshu": "Xiaohongshu",
+    }
+    return labels.get(source, source.title())
+
+
+def last30days_item_from_candidate(candidate: dict, track: str, topic: str, range_to: str) -> dict | None:
+    url = clean_text(candidate.get("url"))
+    title = clean_text(candidate.get("title"))
+    if not url or not title:
+        return None
+
+    primary = first_source_item(candidate)
+    source = clean_text(candidate.get("source") or primary.get("source") or "last30days")
+    published = clean_text(primary.get("published_at") or range_to)
+    snippet = clean_text(candidate.get("snippet") or primary.get("snippet") or primary.get("body") or "")
+    container = clean_text(primary.get("container") or "")
+    author = clean_text(primary.get("author") or "")
+    authors = [value for value in (author, container) if value]
+    score = float(candidate.get("final_score") or candidate.get("rerank_score") or 45)
+    summary_parts = []
+    if snippet:
+        summary_parts.append(summarize(snippet, 360))
+    summary_parts.append(
+        f"Last30Days signal for {topic}, surfaced from {source_label(source)} public activity in the latest 30-day window."
+    )
+
+    return {
+        "kind": "community",
+        "track": track,
+        "published": published,
+        "title": title,
+        "summary": " ".join(summary_parts),
+        "source": f"Last30Days · {source_label(source)}",
+        "authors": authors[:3],
+        "categories": [source_label(value) for value in candidate.get("sources", [])[:4]],
+        "url": url,
+        "priority": min(75, 54 + int(score // 8)),
+    }
+
+
+def fetch_last30days_items() -> list[dict]:
+    if parse_bool_env("LAST30DAYS_DISABLE"):
+        print("Last30Days: disabled by LAST30DAYS_DISABLE.")
+        return []
+
+    skill_root = last30days_skill_root()
+    if not skill_root:
+        print("Last30Days: skill root not found; skipping community radar enrichment.")
+        return []
+
+    python = os.getenv("LAST30DAYS_PYTHON") or sys.executable
+    sources_flag = os.getenv("LAST30DAYS_SOURCES", LAST30DAYS_DEFAULT_SOURCES)
+    sources = [source.strip() for source in sources_flag.split(",") if source.strip()]
+    max_topics = parse_int_env("LAST30DAYS_MAX_TOPICS", 4)
+    per_topic = parse_int_env("LAST30DAYS_ITEMS_PER_TOPIC", 2)
+    timeout = parse_int_env("LAST30DAYS_TIMEOUT", 180)
+    use_mock = parse_bool_env("LAST30DAYS_MOCK")
+    items: list[dict] = []
+
+    for track, topic in last30days_topics()[:max_topics]:
+        plan = build_last30days_plan(topic, sources)
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".json", delete=False) as plan_file:
+            json.dump(plan, plan_file, ensure_ascii=False)
+            plan_path = plan_file.name
+        command = [
+            python,
+            str(skill_root / "scripts" / "last30days.py"),
+            "--emit=json",
+            "--quick",
+            "--days",
+            "30",
+            "--search",
+            sources_flag,
+            "--web-backend",
+            "none",
+            "--plan",
+            plan_path,
+            topic,
+        ]
+        if use_mock:
+            command.insert(2, "--mock")
+        try:
+            completed = subprocess.run(
+                command,
+                cwd=skill_root,
+                capture_output=True,
+                text=True,
+                timeout=timeout,
+                check=False,
+            )
+        except (OSError, subprocess.TimeoutExpired) as error:
+            print(f"Last30Days: skipped {topic} after runtime error: {error}")
+            Path(plan_path).unlink(missing_ok=True)
+            continue
+        finally:
+            Path(plan_path).unlink(missing_ok=True)
+
+        if completed.returncode != 0:
+            error_text = summarize(completed.stderr or completed.stdout, 280)
+            print(f"Last30Days: skipped {topic} after exit {completed.returncode}: {error_text}")
+            continue
+
+        payload = extract_json_payload(completed.stdout)
+        if not payload:
+            print(f"Last30Days: skipped {topic}; JSON payload not found.")
+            continue
+
+        range_to = payload.get("range_to") or dt.datetime.now(dt.timezone.utc).date().isoformat()
+        candidates = payload.get("ranked_candidates") or []
+        added_for_topic = 0
+        for candidate in candidates:
+            item = last30days_item_from_candidate(candidate, track, topic, range_to)
+            if not item:
+                continue
+            items.append(enrich_item(item))
+            added_for_topic += 1
+            if added_for_topic >= per_topic:
+                break
+        print(f"Last30Days: added {added_for_topic} items for {topic}.")
+
+    return items
 
 
 def infer_capability_tags(item: dict) -> tuple[list[str], list[str]]:
@@ -208,6 +449,10 @@ def load_existing_items() -> list[dict]:
 
 
 def fetch_arxiv_items(existing_items: list[dict] | None = None) -> list[dict]:
+    if parse_bool_env("ARXIV_DISABLE"):
+        print("arXiv: disabled by ARXIV_DISABLE.")
+        return []
+
     namespace = {
         "atom": "http://www.w3.org/2005/Atom",
         "arxiv": "http://arxiv.org/schemas/atom",
@@ -281,6 +526,19 @@ def load_manual_items() -> list[dict]:
     return json.loads(MANUAL_PATH.read_text(encoding="utf-8"))
 
 
+def dedupe_items(items: list[dict]) -> list[dict]:
+    seen: set[str] = set()
+    deduped: list[dict] = []
+    for item in items:
+        key = item.get("url") or item.get("title", "")
+        key = re.sub(r"v\d+$", "", key)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
+
+
 def item_sort_key(item: dict) -> tuple[str, int]:
     return (f"{int(item.get('priority', 0)):03d}", item.get("published", ""))
 
@@ -288,9 +546,10 @@ def item_sort_key(item: dict) -> tuple[str, int]:
 def main() -> None:
     existing_items = load_existing_items()
     manual_items = [enrich_item(item) for item in load_manual_items()]
+    last30days_items = fetch_last30days_items()
     arxiv_items = [enrich_item(item) for item in fetch_arxiv_items(existing_items)]
 
-    merged = manual_items + arxiv_items
+    merged = dedupe_items(manual_items + last30days_items + arxiv_items)
     merged.sort(key=item_sort_key, reverse=True)
     merged = merged[:MAX_ITEMS]
 
@@ -298,6 +557,7 @@ def main() -> None:
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "sources": {
             "papers": "arXiv open metadata API",
+            "last30days": "Recent public discourse, open-source, and market signals via last30days-skill",
             "manual": "Curated industry, media, standards, and lab translation signals",
         },
         "queries": ARXIV_QUERIES,

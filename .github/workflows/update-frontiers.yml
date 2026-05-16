@@ -23,9 +23,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
+
+      - name: Prepare Last30Days skill
+        run: |
+          git clone --depth 1 https://github.com/mvanhorn/last30days-skill.git /tmp/last30days-skill || true
 
       - name: Fetch frontier metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          LAST30DAYS_SKILL_ROOT: /tmp/last30days-skill/skills/last30days
+          LAST30DAYS_MAX_TOPICS: "4"
+          LAST30DAYS_ITEMS_PER_TOPIC: "2"
+          LAST30DAYS_SOURCES: reddit,hn,polymarket,github
         run: python scripts/update_frontiers.py
 
       - name: Commit updated data
