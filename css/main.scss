@@ -3091,3 +3091,76 @@ h2 {
     letter-spacing: 0.12em;
   }
 }
+
+/* Final readability pass: keep editorial density while avoiding micro text. */
+.site-brand__text small {
+  font-size: clamp(13px, 0.9vw, 14px);
+  line-height: 1.35;
+}
+
+.page-link,
+.language-toggle {
+  font-size: 13.5px;
+  line-height: 1.25;
+}
+
+.button,
+.frontier-load-more button {
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.feature-card > span,
+.media-grid article > span,
+.framework-kicker,
+.frontier-lens-board > div:first-child > span,
+.frontier-method > article > span,
+.hero__agenda > span,
+.section-heading a,
+.lab-visual-grid figcaption,
+.frontier-card__meta span,
+.frontier-card__meta strong,
+.frontier-card__score small,
+.frontier-card__lens strong,
+.frontier-tags > span {
+  font-size: 13.5px;
+  line-height: 1.35;
+}
+
+.platform-visual figcaption,
+.note-visual figcaption {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.platform-pipeline small,
+.note-flow small,
+.note-bridge small,
+.note-ladder small,
+.note-timeline small,
+.platform-orbit > span,
+.note-orbit > span,
+.framework-axis span,
+.hero__facts dd,
+.hero__card > span {
+  font-size: 14px;
+  line-height: 1.48;
+}
+
+.platform-matrix p,
+.note-insights p,
+.frontier-card__lens p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+@media (max-width: 640px) {
+  .page-link,
+  .language-toggle {
+    font-size: 13.5px;
+  }
+
+  .home .hero__headline-subtitle {
+    font-size: 13px;
+  }
+}
