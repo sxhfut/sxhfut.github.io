@@ -23,7 +23,22 @@ rank: 9.5
 
 <div class="media-note">
   <h2><span class="lang-en">Current Admin Status</span><span class="lang-zh">当前后台状态</span></h2>
-  <p><span class="lang-en">Phase 0 is in place: `/admin/` loads a Decap CMS interface, GitHub Issue Forms collect structured news/case/frontier submissions, and GitHub Actions refresh the frontier radar. Phase 1 still requires a GitHub OAuth provider or compatible auth proxy before browser-based login editing can be used safely on the public site.</span><span class="lang-zh">第 0 阶段已经具备：`/admin/` 可加载 Decap CMS 界面，GitHub Issue Forms 可收集新闻、案例和前沿条目，GitHub Actions 可定时刷新前沿雷达。第 1 阶段还需要配置 GitHub OAuth 授权服务或兼容认证代理，之后才能在公开站点上安全地用浏览器登录编辑。</span></p>
+  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab console scaffold for members, student pages, news materials, outputs, and review workflow. Live login for `/console/` requires a Supabase project URL and anon key, plus the database schema in `docs/admin/supabase-schema.sql`.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 用于实验室内部管理，包括成员、学生个人页、新闻素材、成果材料和审核流程。`/console/` 正式登录需要配置 Supabase 项目的 URL 和 anon key，并部署 `docs/admin/supabase-schema.sql` 中的数据库权限模型。</span></p>
+</div>
+
+<div class="framework-grid framework-grid--page">
+  <article class="framework-card framework-card--dark">
+    <span class="framework-kicker">Internal Console</span>
+    <h2><span class="lang-en">Private lab management is staged at `/console/`.</span><span class="lang-zh">内部管理控制台已放在 `/console/`。</span></h2>
+    <p><span class="lang-en">Recommended roles are simple: Professor Sun as owner, a small group of trusted students as admins, and ordinary students as members who can maintain their own pages and submit materials.</span><span class="lang-zh">推荐权限保持清晰：孙晓教授为 owner，少数可信学生为 admin，普通学生为 student，可维护自己的页面并提交新闻、成果和项目材料。</span></p>
+    <a class="text-link" href="/console/"><span class="lang-en">Open Console</span><span class="lang-zh">打开内部控制台</span></a>
+  </article>
+  <article class="framework-card">
+    <span class="framework-kicker">Setup</span>
+    <h2><span class="lang-en">Supabase provides login, database, and role control.</span><span class="lang-zh">Supabase 负责登录、数据库与权限。</span></h2>
+    <p><span class="lang-en">GitHub Pages remains the public website host. Internal data should live in Supabase with Row Level Security, not in this public repository.</span><span class="lang-zh">GitHub Pages 继续承担公开官网托管；内部数据放入带行级权限的 Supabase，不进入公开仓库。</span></p>
+    <a class="text-link" href="/docs/admin/backend-setup/"><span class="lang-en">Read Setup Notes</span><span class="lang-zh">查看部署说明</span></a>
+  </article>
 </div>
 
 <h2><span class="lang-en">Recommended Admin Architecture</span><span class="lang-zh">推荐后台架构</span></h2>

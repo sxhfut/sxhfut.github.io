@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>MAC-Lab Console | 孙晓教授多模态情感计算实验室</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/console/styles.css">
+  </head>
+  <body>
+    <main class="console-shell">
+      <aside class="console-rail">
+        <a class="console-brand" href="/" aria-label="Back to MAC-Lab website">
+          <span>SX</span>
+          <strong>MAC-Lab Console</strong>
+        </a>
+        <nav class="console-nav" aria-label="Console navigation">
+          <button class="is-active" data-view="overview">总览</button>
+          <button data-view="profile">我的页面</button>
+          <button data-view="news">实验室新闻</button>
+          <button data-view="people">成员与权限</button>
+          <button data-view="projects">项目与成果</button>
+          <button data-view="settings">系统设置</button>
+        </nav>
+        <div class="console-rail__foot">
+          <a href="/admin/">公开内容 CMS</a>
+          <a href="/manage/">后台方案说明</a>
+          <a href="/">返回主页</a>
+        </div>
+      </aside>
+
+      <section class="console-main">
+        <header class="console-topbar">
+          <div>
+            <p class="eyebrow">Internal Lab Workspace</p>
+            <h1>实验室后台管理</h1>
+          </div>
+          <div class="console-user">
+            <span id="userRole">未登录</span>
+            <button id="signOutButton" class="ghost-button" hidden>退出</button>
+          </div>
+        </header>
+
+        <section id="setupPanel" class="setup-panel" hidden>
+          <div>
+            <p class="eyebrow">First-time setup</p>
+            <h2>连接 Supabase 后启用登录与内部管理</h2>
+            <p>这里不会保存任何服务端密钥。Supabase URL 和 anon key 是前端可公开使用的配置；真正的安全边界由数据库 RLS 权限控制。</p>
+          </div>
+          <form id="setupForm" class="console-form">
+            <label>
+              Supabase URL
+              <input name="url" type="url" placeholder="https://xxxx.supabase.co" required>
+            </label>
+            <label>
+              Supabase anon key
+              <textarea name="anonKey" rows="3" placeholder="eyJhbGciOi..." required></textarea>
+            </label>
+            <button type="submit">保存到本机并继续</button>
+          </form>
+          <p class="fine-print">正式上线时，把这两个值写入 <code>/console/config.js</code>，不要在网页中放 service_role key。</p>
+        </section>
+
+        <section id="authPanel" class="auth-panel" hidden>
+          <div class="auth-copy">
+            <p class="eyebrow">Secure sign-in</p>
+            <h2>用 GitHub 或邮箱登录</h2>
+            <p>推荐你本人使用 owner 权限，少数学生设置为 admin，普通学生默认只能维护自己的页面、提交新闻线索和更新成果材料。</p>
+          </div>
+          <div class="auth-card">
+            <button id="githubLoginButton" class="primary-button">GitHub 登录</button>
+            <form id="emailLoginForm" class="console-form">
+              <label>
+                邮箱 Magic Link
+                <input name="email" type="email" placeholder="name@hfut.edu.cn" required>
+              </label>
+              <button type="submit">发送登录邮件</button>
+            </form>
+          </div>
+        </section>
+
+        <section id="appPanel" hidden>
+          <div id="statusBanner" class="status-banner" hidden></div>
+          <div id="viewMount"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="overviewTemplate">
+      <section class="dashboard-grid">
+        <article class="metric-card">
+          <span>身份</span>
+          <strong data-profile-role>pending</strong>
+          <p>owner / admin 可管理公开内容与成员，student 聚焦个人页面和提交材料。</p>
+        </article>
+        <article class="metric-card">
+          <span>公开内容</span>
+          <strong>Decap CMS</strong>
+          <p>官网页面、招生介绍、行业方案、新闻与案例仍建议走 GitHub 版本化发布。</p>
+        </article>
+        <article class="metric-card">
+          <span>内部管理</span>
+          <strong>Supabase</strong>
+          <p>成员、个人页、项目线索、成果材料和审核状态进入私有数据库。</p>
+        </article>
+      </section>
+      <section class="work-panel">
+        <div>
+          <p class="eyebrow">Operating model</p>
+          <h2>对外宣传和内部协同分开管理</h2>
+          <p>官网负责稳定、专业、可检索的公开表达；控制台负责团队日常维护、学生页面、新闻素材、项目成果和权限审核。这样既有传播效率，也能把敏感材料留在私有数据库里。</p>
+        </div>
+        <div class="route-list">
+          <span>Owner 审核发布</span>
+          <span>Admin 协助维护</span>
+          <span>Student 自主管理个人材料</span>
+          <span>Public CMS 生成官网内容</span>
+        </div>
+      </section>
+    </template>
+
+    <template id="profileTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Student profile</p>
+          <h2>维护个人展示页</h2>
+          <p>学生可以维护自己的研究方向、代表成果、竞赛经历和项目参与情况。发布到官网前建议由 owner/admin 审核，保持对外口径一致。</p>
+        </div>
+        <form id="studentPageForm" class="console-form wide-form">
+          <label>中文姓名 / 标题<input name="title_zh" required></label>
+          <label>English name / title<input name="title_en"></label>
+          <label>页面短链接<input name="slug" placeholder="student-name"></label>
+          <label>研究标签<input name="research_tags" placeholder="affective computing, HCI, NLP"></label>
+          <label>中文简介<textarea name="body_zh" rows="6"></textarea></label>
+          <label>English Bio<textarea name="body_en" rows="6"></textarea></label>
+          <label>可见性
+            <select name="visibility">
+              <option value="draft">草稿</option>
+              <option value="published">申请发布</option>
+              <option value="hidden">隐藏</option>
+            </select>
+          </label>
+          <button type="submit">保存个人页面</button>
+        </form>
+      </section>
+    </template>
+
+    <template id="newsTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">News desk</p>
+          <h2>提交实验室动态</h2>
+          <p>新闻可以先作为素材进入后台，再由管理员改写成对外可发布的版本。建议保留时间、参与人、成果类型和可公开链接。</p>
+        </div>
+        <form id="newsForm" class="console-form wide-form">
+          <label>标题<input name="title" required></label>
+          <label>类别
+            <select name="category">
+              <option value="lab">实验室动态</option>
+              <option value="paper">论文成果</option>
+              <option value="award">竞赛获奖</option>
+              <option value="project">项目进展</option>
+              <option value="media">媒体报道</option>
+            </select>
+          </label>
+          <label>摘要<textarea name="summary" rows="4"></textarea></label>
+          <label>原始链接<input name="source_url" type="url"></label>
+          <button type="submit">提交新闻素材</button>
+        </form>
+      </section>
+      <section class="table-panel">
+        <h2>近期素材</h2>
+        <div id="newsList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="peopleTemplate">
+      <section class="work-panel">
+        <div>
+          <p class="eyebrow">Roles</p>
+          <h2>成员与权限</h2>
+          <p>owner 负责最终发布和权限分配；admin 可以协助维护新闻、成员和成果；student 只能维护自己的资料与提交素材。权限更新建议只开放给 owner。</p>
+        </div>
+        <div id="peopleList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="projectsTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Projects and outputs</p>
+          <h2>项目、论文、竞赛与平台能力</h2>
+          <p>这里用于沉淀可对外包装的素材：国家级项目、高水平论文、学生竞赛、平台系统、产学研案例和阶段性影响。正式发布仍走公开 CMS 审核。</p>
+        </div>
+        <form id="projectForm" class="console-form wide-form">
+          <label>名称<input name="title" required></label>
+          <label>类型
+            <select name="type">
+              <option value="project">科研项目</option>
+              <option value="paper">论文成果</option>
+              <option value="competition">学生竞赛</option>
+              <option value="platform">平台系统</option>
+              <option value="partner">合作案例</option>
+            </select>
+          </label>
+          <label>公开摘要<textarea name="summary" rows="5"></textarea></label>
+          <label>状态
+            <select name="status">
+              <option value="draft">草稿</option>
+              <option value="review">待审核</option>
+              <option value="public_ready">可公开</option>
+              <option value="private">内部保存</option>
+            </select>
+          </label>
+          <button type="submit">保存材料</button>
+        </form>
+      </section>
+      <section class="table-panel">
+        <h2>材料列表</h2>
+        <div id="projectList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="settingsTemplate">
+      <section class="work-panel">
+        <div>
+          <p class="eyebrow">System</p>
+          <h2>连接与部署状态</h2>
+          <p>本页只使用 Supabase anon key。数据库权限请通过 <code>docs/admin/supabase-schema.sql</code> 部署 RLS 策略后再开放给学生使用。</p>
+        </div>
+        <div class="settings-list">
+          <button id="resetConfigButton" class="ghost-button">重置本机 Supabase 配置</button>
+          <a href="/docs/admin/backend-setup/">查看部署说明</a>
+          <a href="/admin/">打开公开内容 CMS</a>
+        </div>
+      </section>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/console/config.js"></script>
+    <script src="/console/app.js"></script>
+  </body>
+</html>

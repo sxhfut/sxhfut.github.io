@@ -25,7 +25,8 @@ The site presents MAC-Lab as a research platform that connects high-level public
 - `Frontiers`: automatically refreshed AI + psychology and affective-computing frontier radar.
 - `Media`: curated public coverage of Professor Xiao Sun and MAC-Lab.
 - `Join`: admissions and collaboration information for undergraduates, graduate students, academic PhD students, engineering doctoral students, and partners.
-- `Manage`: internal-facing explanation of the GitHub-supported content-management route.
+- `Manage`: explanation of the public CMS and private console architecture.
+- `Console`: private lab-management scaffold for members, student pages, news materials, and output review.
 
 ## Content Workflow
 
@@ -47,7 +48,14 @@ Editing model:
 
 ## Content Admin
 
-The repository includes a lightweight static-CMS scaffold:
+The repository includes two admin layers:
+
+1. Public website CMS for outward-facing content.
+2. Internal lab console for members and operational materials.
+
+### Public CMS
+
+The lightweight static-CMS scaffold lives in:
 
 ```text
 admin/index.html
@@ -74,6 +82,44 @@ GitHub Issue Forms are also available for structured content intake:
 - Frontier radar item suggestions
 
 This keeps submissions reviewable, versioned, and public-safe before they become website content.
+
+### Internal Console
+
+The internal management scaffold lives in:
+
+```text
+console/index.html
+console/app.js
+console/styles.css
+docs/admin/supabase-schema.sql
+docs/admin/backend-setup.md
+```
+
+The console entry is:
+
+```text
+https://sxhfut.github.io/console/
+```
+
+Recommended backend:
+
+- Supabase Auth for GitHub/email login.
+- Supabase Postgres for member records, student pages, news materials, and output materials.
+- Row Level Security for owner/admin/student permissions.
+
+Recommended roles:
+
+- `owner`: Professor Sun, final authority for permissions and publishing.
+- `admin`: a small number of trusted student maintainers.
+- `student`: ordinary lab members who can maintain their own page and submit materials.
+
+To activate the console, create a Supabase project, run `docs/admin/supabase-schema.sql`, then configure:
+
+```text
+console/config.js
+```
+
+with the public Supabase URL and anon key. The anon key is browser-safe when RLS is enabled. Never commit a Supabase service-role key.
 
 ## Website Analytics
 
