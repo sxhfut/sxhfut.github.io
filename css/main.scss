@@ -1139,23 +1139,54 @@ h3 {
   color: var(--muted);
 }
 
-.frontier-load-more {
+.frontier-pagination {
   display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
   justify-content: center;
   padding: 30px 0 4px;
 }
 
-.frontier-load-more button {
+.frontier-pagination button {
   min-height: 46px;
-  padding: 0 24px;
+  min-width: 46px;
+  padding: 0 16px;
   border: 1px solid var(--navy);
+  border-radius: 8px;
+  color: var(--navy);
+  background: var(--surface);
+  font-size: 13px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.frontier-pagination button:hover,
+.frontier-pagination button.is-active {
   color: #fff;
   background: var(--navy);
-  font-size: 12px;
+}
+
+.frontier-pagination button:disabled {
+  border-color: var(--line);
+  color: var(--muted);
+  background: #f7fafb;
+  cursor: not-allowed;
+}
+
+.frontier-pagination__pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.frontier-pagination__pages span {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  color: var(--muted);
   font-weight: 850;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 .frontier-lens-board {
@@ -3105,7 +3136,7 @@ h2 {
 }
 
 .button,
-.frontier-load-more button {
+.frontier-pagination button {
   font-size: 13px;
   line-height: 1.25;
 }

@@ -122,9 +122,11 @@ rank: 6
   <p><span class="lang-en">Try another keyword, switch filters, or check back after the next scheduled update.</span><span class="lang-zh">可以换一个关键词、切换筛选条件，或等待下一次定时更新。</span></p>
 </div>
 
-<div class="frontier-load-more" data-frontier-load-more-wrap hidden>
-  <button type="button" data-frontier-load-more><span class="lang-en">Load More Signals</span><span class="lang-zh">加载更多条目</span></button>
-</div>
+<nav class="frontier-pagination" data-frontier-pagination hidden aria-label="Frontier pagination">
+  <button type="button" data-frontier-prev><span class="lang-en">Previous</span><span class="lang-zh">上一页</span></button>
+  <div class="frontier-pagination__pages" data-frontier-pages></div>
+  <button type="button" data-frontier-next><span class="lang-en">Next</span><span class="lang-zh">下一页</span></button>
+</nav>
 
 <script>
   (function () {
@@ -133,25 +135,89 @@ rank: 6
     var search = document.querySelector("[data-frontier-search]");
     var count = document.querySelector("[data-frontier-count]");
     var empty = document.querySelector("[data-frontier-empty]");
-    var loadMoreWrap = document.querySelector("[data-frontier-load-more-wrap]");
-    var loadMore = document.querySelector("[data-frontier-load-more]");
+    var pagination = document.querySelector("[data-frontier-pagination]");
+    var prev = document.querySelector("[data-frontier-prev]");
+    var next = document.querySelector("[data-frontier-next]");
+    var pages = document.querySelector("[data-frontier-pages]");
     var activeFilter = "all";
-    var pageSize = 24;
-    var visibleLimit = pageSize;
+    var pageSize = 10;
+    var currentPage = 1;
 
-    function update() {
+    function pageNumbers(pageCount) {
+      var numbers = [];
+      var start = Math.max(1, currentPage - 2);
+      var end = Math.min(pageCount, currentPage + 2);
+
+      if (start > 1) {
+        numbers.push(1);
+        if (start > 2) numbers.push("ellipsis-start");
+      }
+
+      for (var page = start; page <= end; page += 1) {
+        numbers.push(page);
+      }
+
+      if (end < pageCount) {
+        if (end < pageCount - 1) numbers.push("ellipsis-end");
+        numbers.push(pageCount);
+      }
+
+      return numbers;
+    }
+
+    function renderPagination(pageCount) {
+      if (!pagination || !pages) return;
+
+      pagination.hidden = pageCount <= 1;
+      pages.innerHTML = "";
+
+      pageNumbers(pageCount).forEach(function (page) {
+        if (typeof page === "string") {
+          var ellipsis = document.createElement("span");
+          ellipsis.textContent = "...";
+          ellipsis.setAttribute("aria-hidden", "true");
+          pages.appendChild(ellipsis);
+          return;
+        }
+
+        var button = document.createElement("button");
+        button.type = "button";
+        button.textContent = page;
+        button.className = page === currentPage ? "is-active" : "";
+        button.setAttribute("aria-label", "Go to page " + page);
+        button.setAttribute("aria-current", page === currentPage ? "page" : "false");
+        button.addEventListener("click", function () {
+          currentPage = page;
+          update(true);
+        });
+        pages.appendChild(button);
+      });
+
+      if (prev) {
+        prev.disabled = currentPage <= 1;
+      }
+      if (next) {
+        next.disabled = currentPage >= pageCount;
+      }
+    }
+
+    function update(shouldScroll) {
       var query = search ? search.value.trim().toLowerCase() : "";
       var matches = cards.filter(function (card) {
         var kindMatches = activeFilter === "all" || card.dataset.kind === activeFilter;
         var textMatches = !query || (card.dataset.search || "").indexOf(query) !== -1;
         return kindMatches && textMatches;
       });
+      var pageCount = Math.max(1, Math.ceil(matches.length / pageSize));
+      currentPage = Math.min(currentPage, pageCount);
+      var start = (currentPage - 1) * pageSize;
+      var end = start + pageSize;
 
       cards.forEach(function (card) {
         card.hidden = true;
       });
 
-      matches.slice(0, visibleLimit).forEach(function (card) {
+      matches.slice(start, end).forEach(function (card) {
         card.hidden = false;
       });
 
@@ -160,36 +226,51 @@ rank: 6
       });
 
       if (count) {
-        var visible = Math.min(matches.length, visibleLimit);
-        count.innerHTML = '<span class="lang-en">Showing ' + visible + ' of ' + matches.length + ' matched items</span><span class="lang-zh">显示 ' + visible + ' / ' + matches.length + ' 条匹配内容</span>';
+        var visibleStart = matches.length === 0 ? 0 : start + 1;
+        var visibleEnd = Math.min(matches.length, end);
+        count.innerHTML = '<span class="lang-en">Showing ' + visibleStart + '-' + visibleEnd + ' of ' + matches.length + ' matched items · Page ' + currentPage + ' of ' + pageCount + '</span><span class="lang-zh">显示第 ' + visibleStart + '-' + visibleEnd + ' 条，共 ' + matches.length + ' 条匹配内容 · 第 ' + currentPage + ' / ' + pageCount + ' 页</span>';
       }
       if (empty) {
         empty.hidden = matches.length !== 0;
       }
-      if (loadMoreWrap) {
-        loadMoreWrap.hidden = matches.length <= visibleLimit;
+      renderPagination(pageCount);
+
+      if (shouldScroll) {
+        var target = document.querySelector(".frontier-results");
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       }
     }
 
     buttons.forEach(function (button) {
       button.addEventListener("click", function () {
         activeFilter = button.dataset.frontierFilter;
-        visibleLimit = pageSize;
+        currentPage = 1;
         update();
       });
     });
 
     if (search) {
       search.addEventListener("input", function () {
-        visibleLimit = pageSize;
+        currentPage = 1;
         update();
       });
     }
 
-    if (loadMore) {
-      loadMore.addEventListener("click", function () {
-        visibleLimit += pageSize;
-        update();
+    if (prev) {
+      prev.addEventListener("click", function () {
+        if (currentPage > 1) {
+          currentPage -= 1;
+          update(true);
+        }
+      });
+    }
+
+    if (next) {
+      next.addEventListener("click", function () {
+        currentPage += 1;
+        update(true);
       });
     }
 
