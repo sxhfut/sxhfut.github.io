@@ -3,22 +3,26 @@
     <a class="site-brand" href="{{ site.baseurl }}/" aria-label="{{ site.title }}">
       <span class="site-brand__mark">SX</span>
       <span class="site-brand__text">
-        <strong>{{ site.author }}</strong>
-        <small><span class="lang-en">{{ site.lab_alias_en }}</span><span class="lang-zh">{{ site.lab_alias_zh }}</span></small>
+        <strong><span class="lang-en">Xiao Sun</span><span class="lang-zh">孙晓 · MAC-Lab</span></strong>
+        <small><span class="lang-en">Multimedia Affective Computing · HFUT</span><span class="lang-zh">多模态情感计算 · 合肥工业大学</span></small>
       </span>
     </a>
 
     <nav class="site-nav" aria-label="Primary navigation">
-      {% assign pages = site.pages | sort: "rank" %}
-      {% for p in pages %}
-        {% if p.title and p.toggle %}
-          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">
-            <span class="lang-en">{{ p.title }}</span><span class="lang-zh">{{ p.title_zh | default: p.title }}</span>
-          </a>
-        {% endif %}
-      {% endfor %}
-      <a class="page-link page-link--external" href="{{ site.faculty_url }}"><span class="lang-en">HFUT Faculty</span><span class="lang-zh">教师主页</span></a>
-      <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+      <div class="site-nav__links">
+        {% assign pages = site.pages | sort: "rank" %}
+        {% for p in pages %}
+          {% if p.title and p.toggle %}
+            <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">
+              <span class="lang-en">{{ p.title }}</span><span class="lang-zh">{{ p.title_zh | default: p.title }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="site-nav__tools">
+        <a class="page-link page-link--external" href="{{ site.faculty_url }}"><span class="lang-en">Faculty</span><span class="lang-zh">教师主页</span></a>
+        <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+      </div>
     </nav>
   </div>
 </header>
