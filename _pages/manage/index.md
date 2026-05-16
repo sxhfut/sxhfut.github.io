@@ -21,6 +21,11 @@ rank: 9.5
   <p><span class="lang-en">GitHub Pages is excellent for a public academic website: fast static pages, strong version history, stable URLs, search-engine crawlability, scheduled GitHub Actions, and safe public documentation. It does not provide a private database or server-side user system by itself. For login-based editing, the best lightweight path is to use GitHub authentication and commit-based content management.</span><span class="lang-zh">GitHub Pages 非常适合公开学术网站：静态页面快、版本历史清楚、URL 稳定、搜索引擎容易抓取，并且可以配合 GitHub Actions 定时更新。它本身不提供私有数据库或服务器端用户系统。若要登录编辑，最稳妥的轻量路线是使用 GitHub 身份认证和基于提交的内容管理。</span></p>
 </div>
 
+<div class="media-note">
+  <h2><span class="lang-en">Current Admin Status</span><span class="lang-zh">当前后台状态</span></h2>
+  <p><span class="lang-en">Phase 0 is in place: `/admin/` loads a Decap CMS interface, GitHub Issue Forms collect structured news/case/frontier submissions, and GitHub Actions refresh the frontier radar. Phase 1 still requires a GitHub OAuth provider or compatible auth proxy before browser-based login editing can be used safely on the public site.</span><span class="lang-zh">第 0 阶段已经具备：`/admin/` 可加载 Decap CMS 界面，GitHub Issue Forms 可收集新闻、案例和前沿条目，GitHub Actions 可定时刷新前沿雷达。第 1 阶段还需要配置 GitHub OAuth 授权服务或兼容认证代理，之后才能在公开站点上安全地用浏览器登录编辑。</span></p>
+</div>
+
 <h2><span class="lang-en">Recommended Admin Architecture</span><span class="lang-zh">推荐后台架构</span></h2>
 
 <div class="card-grid card-grid--four">
