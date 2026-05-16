@@ -19,7 +19,7 @@ rank: 2.5
 <div class="research-lead">
   <h2><span class="lang-en">When emotion and human factors become the core of a scenario, a generic model is not enough.</span><span class="lang-zh">当情感与人因成为场景核心，通用模型就不够了。</span></h2>
   <p><span class="lang-en">Many partners begin with a seemingly simple need: recognize emotion, measure stress, detect fatigue, assess mental state, or improve human performance. In practice, these needs usually require a complete route: define the scene, select reliable signals, design assessment logic, model mind-body state, decide what support is appropriate, and deploy the system in a way that people can trust.</span><span class="lang-zh">很多合作方最初提出的需求看起来很简单：识别情绪、测量压力、检测疲劳、评估心理状态，或者提升身心效能。但真正做起来，往往需要一整条路线：定义场景、选择可靠信号、设计评价逻辑、建模身心状态、判断适合的支持方式，并把系统部署到用户能够信任的环境中。</span></p>
-  <p><span class="lang-en">MAC-Lab is built for this middle ground. The lab can provide algorithm modules, methods, platforms, and pilot validation, while keeping sensitive partner scenarios and internal technical details protected.</span><span class="lang-zh">MAC-Lab 的优势就在这段中间地带。实验室可以提供算法模块、方法体系、平台方案和试点验证，同时对合作方场景和内部技术细节保持必要保护。</span></p>
+  <p><span class="lang-en">MAC-Lab is built for this middle ground. The lab can provide algorithm modules, methods, platforms, and pilot validation, while helping partners move from a scattered requirement to a responsible, testable, and deployable solution route.</span><span class="lang-zh">MAC-Lab 的优势就在这段中间地带。实验室可以提供算法模块、方法体系、平台方案和试点验证，帮助合作方把分散需求整理成负责、可测试、可部署的解决方案路线。</span></p>
 </div>
 
 <h2><span class="lang-en">Core Solution Layers</span><span class="lang-zh">核心能力层</span></h2>
@@ -85,9 +85,9 @@ rank: 2.5
     <p><span class="lang-en">A practical collaboration can begin with a site conversation, problem diagnosis, signal feasibility review, pilot dataset, prototype model, evaluation protocol, or small software-hardware demonstrator. The first goal is to clarify the route before scaling the system.</span><span class="lang-zh">务实合作可以从现场沟通、问题诊断、信号可行性评估、试点数据、原型模型、评测流程或小型软硬件演示系统开始。第一目标是先把路线弄清楚，再考虑规模化。</span></p>
   </article>
   <article class="framework-card">
-    <span class="framework-kicker">Protected Depth</span>
-    <h2><span class="lang-en">Enough to judge capability, not enough to expose the technical core.</span><span class="lang-zh">让人看懂能力，但不暴露技术底牌。</span></h2>
-    <p><span class="lang-en">Public pages describe the lab's route, modules, and scenario experience. Project details, partner data, deployment constraints, model parameters, and system architecture can be discussed through formal collaboration channels.</span><span class="lang-zh">公开页面展示实验室路线、模块和场景经验；项目细节、合作方数据、部署约束、模型参数和系统架构则通过正式合作渠道沟通。</span></p>
+    <span class="framework-kicker">Collaboration Depth</span>
+    <h2><span class="lang-en">Clear enough to start a serious technical conversation.</span><span class="lang-zh">让合作方能开始严肃的技术对话。</span></h2>
+    <p><span class="lang-en">A good collaboration starts with a shared understanding of scenario goals, signals, evaluation standards, deployment constraints, and success criteria. MAC-Lab helps partners turn that shared understanding into pilot systems and long-term research assets.</span><span class="lang-zh">好的合作从共同理解场景目标、信号条件、评价标准、部署约束和成功标准开始。MAC-Lab 帮助合作方把这种共同理解转化为试点系统和长期研究资产。</span></p>
   </article>
 </div>
 

@@ -185,7 +185,7 @@ rank: 2
 
   <article>
     <h2>MindOS</h2>
-    <p><span class="lang-en">MindOS is our affective mind-computing foundation. Publicly, it is positioned as a research route for psychological digital twins, long-term embodied agents, and scenario reasoning from individuals to groups, while the internal architecture remains protected.</span><span class="lang-zh">MindOS 是我们的情感心智计算底座。对外定位为支撑心理数字孪生、长期具身智能体以及个体到群体场景推演的研究路线，内部架构与实现细节不公开。</span></p>
+    <p><span class="lang-en">MindOS is our affective mind-computing foundation. It is positioned as a research route for psychological digital twins, long-term embodied agents, and scenario reasoning from individuals to groups.</span><span class="lang-zh">MindOS 是我们的情感心智计算底座，定位为支撑心理数字孪生、长期具身智能体以及个体到群体场景推演的研究路线。</span></p>
     <dl><dt>Focus</dt><dd>Affective mind modeling, embodied cognition, long-term agent evolution, psychological digital twins, individual-to-group reasoning</dd><dt>Application</dt><dd>Digital humans, companion AI, counseling training, education, human-machine coexistence, organizational simulation</dd></dl>
   </article>
 

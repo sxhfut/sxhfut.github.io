@@ -17,8 +17,8 @@ rank: 3.5
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">Capability, Not Blueprint</span><span class="lang-zh">展示能力，不展示配方</span></h2>
-  <p><span class="lang-en">These names help partners understand the maturity of MAC-Lab's platform lines. The page describes problem classes, capability routes, and collaboration value; the technical core is reserved for controlled research and partnership discussions.</span><span class="lang-zh">这些名称用于帮助合作伙伴理解 MAC-Lab 的平台能力成熟度。页面介绍问题类型、能力路线和合作价值；真正的技术内核保留在受控科研与合作沟通中。</span></p>
+  <h2><span class="lang-en">From Research Route to Deployable Capability</span><span class="lang-zh">从研究路线到可交付能力</span></h2>
+  <p><span class="lang-en">These cases help partners read MAC-Lab's capability map: what kinds of human-state problems we work on, how we organize sensing, modeling, evaluation, and support, and where a research idea can become a field-ready system.</span><span class="lang-zh">这些案例帮助合作伙伴理解 MAC-Lab 的能力图谱：我们面向哪些人状态问题，如何组织感知、建模、评价与支持，以及一个研究想法如何走向可在场景中验证的系统。</span></p>
 </div>
 
 <h2><span class="lang-en">Representative Capability Cases</span><span class="lang-zh">代表性能力案例</span></h2>
@@ -40,7 +40,7 @@ rank: 3.5
           <span><strong><span class="lang-en">Profile</span><span class="lang-zh">心理画像</span></strong><small><span class="lang-en">interpretable evidence</span><span class="lang-zh">可解释证据</span></small></span>
           <span><strong><span class="lang-en">Report</span><span class="lang-zh">评估报告</span></strong><small><span class="lang-en">review and support</span><span class="lang-zh">复核与支持</span></small></span>
         </div>
-        <div class="case-visual__note"><span class="lang-en">Shows assessment maturity without exposing model chains, prompts, databases, or deployment configuration.</span><span class="lang-zh">展示评估成熟度，但不暴露模型链路、提示词、数据库和部署配置。</span></div>
+        <div class="case-visual__note"><span class="lang-en">A route for turning multimodal evidence into interpretable assessment and reviewable support.</span><span class="lang-zh">把多模态证据转化为可解释评估与可复核支持的能力路线。</span></div>
       </figure>
       <div class="case-pill-row">
         <span><span class="lang-en">Counseling rooms</span><span class="lang-zh">咨询室</span></span>
@@ -86,7 +86,7 @@ rank: 3.5
       <p><span class="lang-en">A public-facing route for affective mind computing, psychological digital twins, and long-term embodied agents.</span><span class="lang-zh">面向情感心智计算、心理数字孪生和长期具身智能体的公开能力路线。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MindOS is the lab's affective mind-computing foundation. Publicly, it can be understood as a backbone for agents that need state continuity, persona stability, embodied response, and individual-to-group scenario reasoning. The message stays strong but controlled: emotional AI needs a mind-computing backbone, not only fluent language output.</span><span class="lang-zh">MindOS 是实验室的情感心智计算底座。对外可理解为支撑状态连续性、人格稳定性、具身回应和个体到群体场景推演的能力骨架。它的表达要有力量但保持克制：情感 AI 需要稳定的心智计算骨架，而不只是流畅的语言输出。</span></p>
+      <p><span class="lang-en">MindOS is the lab's affective mind-computing foundation. It can be understood as a backbone for agents that need state continuity, persona stability, embodied response, and individual-to-group scenario reasoning. The central idea is simple: emotional AI needs a mind-computing backbone, not only fluent language output.</span><span class="lang-zh">MindOS 是实验室的情感心智计算底座，可理解为支撑状态连续性、人格稳定性、具身回应和个体到群体场景推演的能力骨架。它的核心判断很清楚：情感 AI 需要稳定的心智计算骨架，而不只是流畅的语言输出。</span></p>
       <figure class="case-visual case-visual--os">
         <figcaption><span class="lang-en">Affective mind-computing backbone</span><span class="lang-zh">情感心智计算骨架</span></figcaption>
         <div class="case-stack">
@@ -122,7 +122,7 @@ rank: 3.5
           <span><span class="lang-en">Response</span><span class="lang-zh">回应</span></span>
           <span><span class="lang-en">Review</span><span class="lang-zh">复盘</span></span>
         </div>
-        <div class="case-visual__note"><span class="lang-en">A route for training, evaluation, and research dashboards without exposing sensitive clinical or strategy logic.</span><span class="lang-zh">支撑训练、评估和研究看板，同时不公开敏感临床逻辑和策略细节。</span></div>
+        <div class="case-visual__note"><span class="lang-en">A route for scenario training, evaluation evidence, and research dashboards that can evolve with real users.</span><span class="lang-zh">支撑场景训练、评估证据和研究看板，并能随真实用户反馈持续演进。</span></div>
       </figure>
       <div class="case-pill-row">
         <span><span class="lang-en">Counseling training</span><span class="lang-zh">咨询训练</span></span>
@@ -214,9 +214,9 @@ rank: 3.5
 
 <div class="framework-grid framework-grid--page">
   <article class="framework-card framework-card--dark">
-    <span class="framework-kicker">Not a public product catalog</span>
-    <h2><span class="lang-en">The page shows maturity without revealing the recipe.</span><span class="lang-zh">展示成熟度，但不公开配方。</span></h2>
-    <p><span class="lang-en">These case names help visitors understand the lab's capability map. They should not be read as exhaustive product specifications. The most valuable parts of a system often sit in data governance, model orchestration, evaluation, field adaptation, and long-term operation.</span><span class="lang-zh">这些案例名称帮助访问者理解实验室能力图谱，但不等于完整产品规格。系统最有价值的部分，往往在数据治理、模型编排、评测、现场适配和长期运行中。</span></p>
+    <span class="framework-kicker">Capability map</span>
+    <h2><span class="lang-en">The valuable work is often in the middle layer.</span><span class="lang-zh">真正有价值的能力，往往在中间层。</span></h2>
+    <p><span class="lang-en">Human-state systems succeed when data governance, model orchestration, evaluation, field adaptation, and long-term operation work together. MAC-Lab's cases are designed to make that middle layer visible and discussable.</span><span class="lang-zh">人状态系统能否真正落地，取决于数据治理、模型编排、评测、现场适配和长期运行能否协同。MAC-Lab 的案例设计，就是把这层关键能力变得可看见、可讨论、可合作。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Partner fit</span>

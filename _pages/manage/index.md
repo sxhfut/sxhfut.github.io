@@ -51,11 +51,11 @@ rank: 9.5
 <div class="project-list project-list--page">
   <article>
     <h2><span class="lang-en">Solutions Page</span><span class="lang-zh">行业解决方案页</span></h2>
-    <p><span class="lang-en">Supported directly by GitHub Pages. The new Solutions page can be expanded by scenario without exposing confidential project details.</span><span class="lang-zh">GitHub Pages 直接支持。新的行业方案页可以按场景持续扩展，同时不暴露敏感项目细节。</span></p>
+    <p><span class="lang-en">Supported directly by GitHub Pages. The new Solutions page can grow by scenario, partner type, and application domain, keeping public communication focused on value, maturity, and collaboration entry points.</span><span class="lang-zh">GitHub Pages 直接支持。新的行业方案页可以按场景、合作对象和应用领域持续扩展，让公开表达聚焦价值、成熟度和合作入口。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Cases Page</span><span class="lang-zh">代表性案例页</span></h2>
-    <p><span class="lang-en">Supported directly by GitHub Pages. Capability cases can show maturity while protecting product architecture, data, partner names, and model internals.</span><span class="lang-zh">GitHub Pages 直接支持。能力案例可以展示成熟度，同时保护产品架构、数据、合作方名称和模型内部细节。</span></p>
+    <p><span class="lang-en">Supported directly by GitHub Pages. Capability cases can present scenario value, research depth, delivery routes, and representative outcomes in a form suitable for public reading.</span><span class="lang-zh">GitHub Pages 直接支持。能力案例可以用适合公开阅读的方式呈现场景价值、研究深度、交付路线和代表性成果。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Collaboration Flow</span><span class="lang-zh">合作流程</span></h2>
@@ -63,7 +63,7 @@ rank: 9.5
   </article>
   <article>
     <h2><span class="lang-en">Visual Evidence</span><span class="lang-zh">视觉证据</span></h2>
-    <p><span class="lang-en">Supported through static images and diagrams. The site can add architecture diagrams, scenario maps, and transformation routes while keeping sensitive details abstracted.</span><span class="lang-zh">可通过静态图片和图文模块支持。可以增加架构图、场景图和转化路径图，同时对敏感细节做抽象处理。</span></p>
+    <p><span class="lang-en">Supported through static images and diagrams. The site can add architecture diagrams, scenario maps, transformation routes, and visual case narratives to make complex capabilities easier to read.</span><span class="lang-zh">可通过静态图片和图文模块支持。可以增加架构图、场景图、转化路径图和案例视觉叙事，让复杂能力更容易被理解。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">SEO and AI Search</span><span class="lang-zh">SEO 与大模型抓取</span></h2>
