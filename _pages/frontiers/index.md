@@ -66,6 +66,11 @@ rank: 6
   </label>
 </div>
 
+<div class="frontier-results" aria-live="polite">
+  <p data-frontier-count></p>
+  <span><span class="lang-en">Newest and highest-relevance items are shown first. Use filters and search to narrow the radar as the archive grows.</span><span class="lang-zh">默认优先显示最新且相关度高的条目。随着归档增长，可通过筛选与搜索快速收敛到具体方向。</span></span>
+</div>
+
 <div class="frontier-list">
   {% for item in items %}
     <article class="frontier-card" data-frontier-card data-kind="{{ item.kind | slugify }}" data-search="{{ item.title | append: ' ' | append: item.title_zh | append: ' ' | append: item.summary | append: ' ' | append: item.summary_zh | append: ' ' | append: item.track | downcase | escape }}">
@@ -112,34 +117,80 @@ rank: 6
   {% endfor %}
 </div>
 
+<div class="frontier-empty" data-frontier-empty hidden>
+  <strong><span class="lang-en">No matching radar item yet.</span><span class="lang-zh">暂时没有匹配条目。</span></strong>
+  <p><span class="lang-en">Try another keyword, switch filters, or check back after the next scheduled update.</span><span class="lang-zh">可以换一个关键词、切换筛选条件，或等待下一次定时更新。</span></p>
+</div>
+
+<div class="frontier-load-more" data-frontier-load-more-wrap hidden>
+  <button type="button" data-frontier-load-more><span class="lang-en">Load More Signals</span><span class="lang-zh">加载更多条目</span></button>
+</div>
+
 <script>
   (function () {
     var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-filter]"));
     var cards = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-card]"));
     var search = document.querySelector("[data-frontier-search]");
+    var count = document.querySelector("[data-frontier-count]");
+    var empty = document.querySelector("[data-frontier-empty]");
+    var loadMoreWrap = document.querySelector("[data-frontier-load-more-wrap]");
+    var loadMore = document.querySelector("[data-frontier-load-more]");
     var activeFilter = "all";
+    var pageSize = 24;
+    var visibleLimit = pageSize;
 
     function update() {
       var query = search ? search.value.trim().toLowerCase() : "";
-      cards.forEach(function (card) {
+      var matches = cards.filter(function (card) {
         var kindMatches = activeFilter === "all" || card.dataset.kind === activeFilter;
         var textMatches = !query || (card.dataset.search || "").indexOf(query) !== -1;
-        card.hidden = !(kindMatches && textMatches);
+        return kindMatches && textMatches;
       });
+
+      cards.forEach(function (card) {
+        card.hidden = true;
+      });
+
+      matches.slice(0, visibleLimit).forEach(function (card) {
+        card.hidden = false;
+      });
+
       buttons.forEach(function (button) {
         button.classList.toggle("is-active", button.dataset.frontierFilter === activeFilter);
       });
+
+      if (count) {
+        var visible = Math.min(matches.length, visibleLimit);
+        count.innerHTML = '<span class="lang-en">Showing ' + visible + ' of ' + matches.length + ' matched items</span><span class="lang-zh">显示 ' + visible + ' / ' + matches.length + ' 条匹配内容</span>';
+      }
+      if (empty) {
+        empty.hidden = matches.length !== 0;
+      }
+      if (loadMoreWrap) {
+        loadMoreWrap.hidden = matches.length <= visibleLimit;
+      }
     }
 
     buttons.forEach(function (button) {
       button.addEventListener("click", function () {
         activeFilter = button.dataset.frontierFilter;
+        visibleLimit = pageSize;
         update();
       });
     });
 
     if (search) {
-      search.addEventListener("input", update);
+      search.addEventListener("input", function () {
+        visibleLimit = pageSize;
+        update();
+      });
+    }
+
+    if (loadMore) {
+      loadMore.addEventListener("click", function () {
+        visibleLimit += pageSize;
+        update();
+      });
     }
 
     update();

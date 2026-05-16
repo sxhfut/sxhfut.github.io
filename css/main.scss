@@ -917,6 +917,66 @@ h3 {
   color: var(--ink);
 }
 
+.frontier-results {
+  display: grid;
+  grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin: -4px 0 22px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.frontier-results p {
+  margin: 0;
+  color: var(--navy);
+  font-size: 22px;
+  font-weight: 850;
+}
+
+.frontier-results > span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.frontier-empty {
+  margin-top: 20px;
+  padding: 34px;
+  border: 1px solid var(--line);
+  background: #f7fafb;
+}
+
+.frontier-empty strong {
+  display: block;
+  color: var(--navy);
+  font-size: 22px;
+}
+
+.frontier-empty p {
+  color: var(--muted);
+}
+
+.frontier-load-more {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 4px;
+}
+
+.frontier-load-more button {
+  min-height: 46px;
+  padding: 0 24px;
+  border: 1px solid var(--navy);
+  color: #fff;
+  background: var(--navy);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 .frontier-lens-board {
   display: grid;
   grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
@@ -2735,5 +2795,76 @@ h2 {
 
   .note-orbit .note-orbit__core {
     grid-column: 1 / -1;
+  }
+}
+
+.home .hero__grid {
+  min-height: min(720px, calc(100vh - 64px));
+}
+
+.home .hero__content {
+  padding-top: clamp(58px, 6.2vw, 104px);
+}
+
+.home .hero__content h1 {
+  max-width: 820px;
+  line-height: 1.02;
+}
+
+.home .hero__headline-main {
+  letter-spacing: -0.01em;
+}
+
+.home .hero__headline-subtitle {
+  max-width: 780px;
+  margin-top: clamp(22px, 2.4vw, 34px);
+  padding-top: 4px;
+  color: #a01824;
+  font-size: clamp(13px, 1.08vw, 17px);
+  font-weight: 860;
+  letter-spacing: 0.19em;
+  line-height: 1.55;
+}
+
+.home .hero__lead {
+  margin-top: clamp(34px, 3.2vw, 48px);
+}
+
+.home .hero__lead::before {
+  width: 86px;
+  margin-bottom: 26px;
+}
+
+.home .hero__agenda {
+  margin-top: 34px;
+  padding: 20px 0;
+}
+
+.home .hero__facts {
+  margin-top: 30px;
+}
+
+.home .hero__portrait {
+  padding: clamp(42px, 4.6vw, 68px);
+}
+
+.home .hero__portrait img {
+  transform: translateY(-4px);
+}
+
+.home .hero__card {
+  bottom: 38px;
+}
+
+@media (max-width: 900px) {
+  .frontier-results {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .home .hero__headline-subtitle {
+    margin-top: 18px;
+    font-size: 12px;
+    letter-spacing: 0.12em;
   }
 }
