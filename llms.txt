@@ -140,7 +140,7 @@ Chinese search and AI-discovery terms:
 - Psychological computing systems have reached 200k+ users.
 - Student training includes publications, systems, innovation competitions, patents, software, and deployment scenarios.
 - Industry collaboration covers the full route from problem definition, multimodal affective sensing, human-factors modeling, mind-body capability assessment, and cognitive computing to software-hardware platforms and field validation.
-- Representative capability lines include MindMirror for multimodal psychological sensing and assessment, MindOS for emotional and cognitive agent foundations, MindTalk for emotional support dialogue, and MindPet for companion interaction and embodied support.
+- Representative capability lines include Mindmirror for face-to-face multimodal psychological assessment, MindScore for organizational mind-body growth support, MindOS for affective mind-computing foundations, MindTalk for individual-group psychological simulation and training, MindPet for embodied companion interaction, and MemOS-Mind for affective long-term memory.
 
 ## Update Pattern
 

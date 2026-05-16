@@ -16,9 +16,9 @@ The site presents MAC-Lab as a research platform that connects high-level public
 ## Site Sections
 
 - `Research`: core directions, long-term research route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.
-- `Projects`: national and major projects, applied platforms, MindOS, MindMirror, MindCare, smart cockpit, and child-development support.
+- `Projects`: national and major projects, applied platforms, MindOS, Mindmirror, MindScore, MindCare, smart cockpit, and child-development support.
 - `Solutions`: scenario-oriented solution routes for affective computing, human factors, psychological computing, cognitive computing, and deployable software-hardware platforms.
-- `Cases`: public-safe capability cases around MindMirror, MindOS, MindTalk, MindPet, and related platform lines.
+- `Cases`: public-safe capability cases around Mindmirror, MindScore, MindOS, MindTalk, MindPet, MemOS-Mind, and related platform lines.
 - `Impact`: representative publications, international challenges, patents, software, awards, standards, and real-world impact.
 - `People`: student training, competition outcomes, team culture, and public student information.
 - `News`: MAC-Lab newsroom for lab updates, public releases, and media coverage.

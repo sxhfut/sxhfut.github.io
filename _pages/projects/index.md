@@ -185,14 +185,20 @@ rank: 2
 
   <article>
     <h2>MindOS</h2>
-    <p><span class="lang-en">MindOS is our forward-looking research line on emotional and cognitive AI agents. It supports the two frameworks above by exploring how large models can perceive affect, represent personality, regulate cognition, collaborate as multi-agent systems, and provide emotionally appropriate support in long-term human interaction.</span><span class="lang-zh">MindOS 服务于上述两大框架，围绕大模型情感感知、人格建模、认知调控、多智能体协作与情感支持对话，探索更接近人类心智活动规律的 AI 底座。</span></p>
-    <dl><dt>Focus</dt><dd>LLMs, emotional support conversation, personality modeling, multi-agent collaboration, cognitive regulation</dd><dt>Application</dt><dd>Digital humans, companion AI, psychological support, education, human-machine coexistence</dd></dl>
+    <p><span class="lang-en">MindOS is our affective mind-computing foundation. Publicly, it is positioned as a research route for psychological digital twins, long-term embodied agents, and scenario reasoning from individuals to groups, while the internal architecture remains protected.</span><span class="lang-zh">MindOS 是我们的情感心智计算底座。对外定位为支撑心理数字孪生、长期具身智能体以及个体到群体场景推演的研究路线，内部架构与实现细节不公开。</span></p>
+    <dl><dt>Focus</dt><dd>Affective mind modeling, embodied cognition, long-term agent evolution, psychological digital twins, individual-to-group reasoning</dd><dt>Application</dt><dd>Digital humans, companion AI, counseling training, education, human-machine coexistence, organizational simulation</dd></dl>
   </article>
 
   <article>
-    <h2>MindMirror</h2>
-    <p><span class="lang-en">MindMirror is a multimodal psychological sensing and assessment platform. It integrates facial, speech, behavioral, physiological, and contextual signals to build dynamic psychological profiles for screening, monitoring, risk assessment, and personalized support.</span><span class="lang-zh">把多模态心理状态识别、非接触生理感知和动态心理画像整合成可部署的评测与预警系统。</span></p>
-    <dl><dt>Focus</dt><dd>Non-contact sensing, multimodal fusion, psychological profiling, stress and depression-risk estimation</dd><dt>Application</dt><dd>Schools, hospitals, healthy living environments, public safety, human-performance assessment</dd></dl>
+    <h2>Mindmirror</h2>
+    <p><span class="lang-en">Mindmirror is a face-to-face AI mirror for guided psychological assessment. It brings multimodal interaction, voice dialogue, posture and expression cues, and scale-informed profiling into a reflective assessment experience.</span><span class="lang-zh">Mindmirror 是面向面对面心理评估的 AI 心镜能力线，把多模态交互、语音对话、姿态与表情线索、量表启发的心理画像组织成一种可解释的反思式评估体验。</span></p>
+    <dl><dt>Focus</dt><dd>Multimodal assessment, reflective dialogue, psychological profiling, camera and voice interaction, report-level interpretation</dd><dt>Application</dt><dd>Schools, counseling rooms, organizational screening, healthy living environments, human-performance assessment</dd></dl>
+  </article>
+
+  <article>
+    <h2>MindScore</h2>
+    <p><span class="lang-en">MindScore extends assessment into organizational mind-body growth support. It connects non-contact multimodal sensing, long-term psychological archives, baseline comparison, trend awareness, and intervention workflow for institutions that need continuous care rather than one-off screening.</span><span class="lang-zh">MindScore 将评估能力延伸到组织场景中的心身成长守护，把非接触多模态感知、长期心理档案、基线对比、趋势感知和干预闭环连接起来，服务需要持续关怀而不是一次性筛查的机构场景。</span></p>
+    <dl><dt>Focus</dt><dd>Mind-body assessment, longitudinal profiles, baseline comparison, growth support, intervention coordination</dd><dt>Application</dt><dd>Education, enterprise health, public service, safety-critical teams, human-factor management</dd></dl>
   </article>
 
   <article>
