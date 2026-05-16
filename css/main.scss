@@ -485,6 +485,215 @@ h3 {
   color: var(--muted);
 }
 
+.note-title p {
+  max-width: 360px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.note-body {
+  display: grid;
+  gap: 18px;
+}
+
+.note-body > p {
+  max-width: 980px;
+  margin: 0;
+}
+
+.note-visual {
+  margin: 8px 0 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(24, 169, 153, 0.08), transparent 42%),
+    #fbfcfd;
+}
+
+.note-visual figcaption {
+  margin-bottom: 16px;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note-flow,
+.note-bridge,
+.note-ladder,
+.note-timeline {
+  display: grid;
+  gap: 0;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.note-flow,
+.note-bridge,
+.note-ladder {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.note-flow > span,
+.note-bridge > span,
+.note-ladder > span,
+.note-timeline > span {
+  position: relative;
+  min-height: 118px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--line);
+}
+
+.note-flow > span:last-child,
+.note-bridge > span:last-child,
+.note-ladder > span:last-child,
+.note-timeline > span:last-child {
+  border-right: 0;
+}
+
+.note-flow > span:not(:last-child)::after,
+.note-bridge > span:not(:last-child)::after,
+.note-ladder > span:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 24px;
+  right: -7px;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid var(--gold);
+  border-right: 2px solid var(--gold);
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.note-flow b,
+.note-bridge b,
+.note-ladder b,
+.note-timeline b {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.note-flow small,
+.note-bridge small,
+.note-ladder small,
+.note-timeline small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.note-bridge > span:nth-child(2),
+.note-bridge > span:nth-child(3),
+.note-ladder > span:nth-child(2),
+.note-ladder > span:nth-child(3) {
+  background: #f6faf9;
+}
+
+.note-insights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.note-insights--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.note-insights > div {
+  padding: 18px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.note-insights strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--navy);
+  font-size: 14px;
+}
+
+.note-insights p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.note-orbit {
+  position: relative;
+  min-height: 300px;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(24, 169, 153, 0.16), transparent 34%),
+    #fff;
+}
+
+.note-orbit::before,
+.note-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 42px 92px;
+  border: 1px solid rgba(11, 31, 58, 0.16);
+  border-radius: 999px;
+}
+
+.note-orbit::after {
+  inset: 78px 168px;
+}
+
+.note-orbit > span {
+  position: absolute;
+  min-width: 112px;
+  padding: 10px 12px;
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.note-orbit .note-orbit__core {
+  top: 50%;
+  left: 50%;
+  min-width: 140px;
+  padding: 20px 18px;
+  color: #fff;
+  background: var(--navy);
+  border-color: var(--navy);
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+}
+
+.note-orbit > span:nth-child(2) { top: 28px; left: 50%; transform: translateX(-50%); }
+.note-orbit > span:nth-child(3) { top: 92px; right: 36px; }
+.note-orbit > span:nth-child(4) { right: 96px; bottom: 36px; }
+.note-orbit > span:nth-child(5) { bottom: 36px; left: 96px; }
+.note-orbit > span:nth-child(6) { top: 92px; left: 36px; }
+.note-orbit > span:nth-child(7) { left: 50%; bottom: 28px; transform: translateX(-50%); }
+
+.note-timeline {
+  grid-template-columns: 0.72fr 0.95fr 1.05fr 1.05fr 1.6fr;
+}
+
+.note-timeline > span {
+  min-height: 134px;
+}
+
+.note-timeline b {
+  color: var(--gold);
+  font-size: 22px;
+}
+
 .framework-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2461,5 +2670,70 @@ h2 {
     left: 22px;
     bottom: 24px;
     width: calc(100% - 44px);
+  }
+}
+
+.note-title p {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.note-body > p {
+  color: #4d5c70;
+  font-size: 17px;
+  line-height: 1.78;
+}
+
+@media (max-width: 900px) {
+  .note-flow,
+  .note-bridge,
+  .note-ladder,
+  .note-timeline,
+  .note-insights,
+  .note-insights--three {
+    grid-template-columns: 1fr;
+  }
+
+  .note-flow > span,
+  .note-bridge > span,
+  .note-ladder > span,
+  .note-timeline > span,
+  .note-insights > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .note-flow > span:not(:last-child)::after,
+  .note-bridge > span:not(:last-child)::after,
+  .note-ladder > span:not(:last-child)::after {
+    top: auto;
+    right: 24px;
+    bottom: -7px;
+    transform: rotate(135deg);
+  }
+
+  .note-orbit {
+    min-height: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .note-orbit::before,
+  .note-orbit::after {
+    display: none;
+  }
+
+  .note-orbit > span,
+  .note-orbit .note-orbit__core {
+    position: static;
+    min-width: 0;
+    transform: none;
+  }
+
+  .note-orbit .note-orbit__core {
+    grid-column: 1 / -1;
   }
 }
