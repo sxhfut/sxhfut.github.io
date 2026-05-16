@@ -485,6 +485,187 @@ h3 {
   color: var(--muted);
 }
 
+.platform-article {
+  align-items: start;
+}
+
+.platform-title dl {
+  margin-top: 34px;
+}
+
+.platform-title dt {
+  margin-top: 20px;
+}
+
+.platform-title dd {
+  max-width: 340px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.platform-body {
+  display: grid;
+  gap: 18px;
+}
+
+.platform-body > p {
+  margin: 0;
+  color: #4d5c70;
+  font-size: 17px;
+  line-height: 1.78;
+}
+
+.platform-visual {
+  margin: 8px 0 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(24, 169, 153, 0.08), transparent 42%),
+    #fbfcfd;
+}
+
+.platform-visual figcaption {
+  margin-bottom: 16px;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.platform-pipeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.platform-pipeline > span {
+  position: relative;
+  min-height: 124px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--line);
+}
+
+.platform-pipeline > span:last-child {
+  border-right: 0;
+}
+
+.platform-pipeline > span:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 24px;
+  right: -7px;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid var(--gold);
+  border-right: 2px solid var(--gold);
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.platform-pipeline b {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.platform-pipeline small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.platform-pipeline > span:nth-child(2),
+.platform-pipeline > span:nth-child(3) {
+  background: #f6faf9;
+}
+
+.platform-matrix {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.platform-matrix > div {
+  padding: 18px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.platform-matrix strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--navy);
+  font-size: 14px;
+}
+
+.platform-matrix p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.platform-orbit {
+  position: relative;
+  min-height: 300px;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(24, 169, 153, 0.16), transparent 34%),
+    #fff;
+}
+
+.platform-orbit::before,
+.platform-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 42px 92px;
+  border: 1px solid rgba(11, 31, 58, 0.16);
+  border-radius: 999px;
+}
+
+.platform-orbit::after {
+  inset: 78px 168px;
+}
+
+.platform-orbit > span {
+  position: absolute;
+  min-width: 112px;
+  padding: 10px 12px;
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.platform-orbit .platform-orbit__core {
+  top: 50%;
+  left: 50%;
+  min-width: 140px;
+  padding: 20px 18px;
+  color: #fff;
+  background: var(--navy);
+  border-color: var(--navy);
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+}
+
+.platform-orbit > span:nth-child(2) { top: 28px; left: 50%; transform: translateX(-50%); }
+.platform-orbit > span:nth-child(3) { top: 92px; right: 36px; }
+.platform-orbit > span:nth-child(4) { right: 96px; bottom: 36px; }
+.platform-orbit > span:nth-child(5) { bottom: 36px; left: 96px; }
+.platform-orbit > span:nth-child(6) { top: 92px; left: 36px; }
+.platform-orbit > span:nth-child(7) { left: 50%; bottom: 28px; transform: translateX(-50%); }
+
 .note-title p {
   max-width: 360px;
   color: var(--muted);
@@ -2857,6 +3038,48 @@ h2 {
 }
 
 @media (max-width: 900px) {
+  .platform-pipeline,
+  .platform-matrix {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-pipeline > span,
+  .platform-matrix > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .platform-pipeline > span:not(:last-child)::after {
+    top: auto;
+    right: 24px;
+    bottom: -7px;
+    transform: rotate(135deg);
+  }
+
+  .platform-orbit {
+    min-height: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .platform-orbit::before,
+  .platform-orbit::after {
+    display: none;
+  }
+
+  .platform-orbit > span,
+  .platform-orbit .platform-orbit__core {
+    position: static;
+    min-width: 0;
+    transform: none;
+  }
+
+  .platform-orbit .platform-orbit__core {
+    grid-column: 1 / -1;
+  }
+
   .frontier-results {
     grid-template-columns: 1fr;
     gap: 8px;

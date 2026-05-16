@@ -81,16 +81,67 @@ rank: 2
 <h2><span class="lang-en">Frameworks and Applied Platforms</span><span class="lang-zh">框架与应用平台</span></h2>
 
 <div class="project-list project-list--page">
-  <article>
-    <h2><span class="lang-en">Ubiquitous Psychological Computing Framework</span><span class="lang-zh">普适心理计算框架</span></h2>
-    <p><span class="lang-en">This is MAC-Lab's core framework for moving affective computing into everyday environments. It models emotion and psychological state continuously across time, context, individual difference, physiological-behavioral signals, and group-level indicators, then connects sensing, assessment, warning, and intervention into one technical route.</span><span class="lang-zh">这是 MAC-Lab 推动情感计算进入真实生活环境的核心框架。它从时间、环境、个体差异、生理行为信号与群体指标等维度对情绪与心理状态进行连续建模，并把感知、评估、预警与干预连接成一条完整技术路线。</span></p>
-    <dl><dt>Focus</dt><dd>Continuous psychological modeling, non-contact sensing, dynamic profiling, risk warning, individualized intervention</dd><dt>Application</dt><dd>Smart cockpit, education, healthcare, healthy living, public safety, human-performance support</dd></dl>
+  <article class="platform-article">
+    <div class="platform-title">
+      <h2><span class="lang-en">Ubiquitous Psychological Computing Framework</span><span class="lang-zh">普适心理计算框架</span></h2>
+      <dl>
+        <dt><span class="lang-en">Focus</span><span class="lang-zh">研究焦点</span></dt>
+        <dd><span class="lang-en">Continuous psychological modeling, non-contact sensing, dynamic profiling, risk warning, individualized intervention</span><span class="lang-zh">连续心理建模、非接触感知、动态画像、风险预警与个体化干预</span></dd>
+        <dt><span class="lang-en">Application</span><span class="lang-zh">应用场景</span></dt>
+        <dd><span class="lang-en">Smart cockpit, education, healthcare, healthy living, public safety, human-performance support</span><span class="lang-zh">智能座舱、教育、医疗健康、健康人居、公共安全与人因效能支持</span></dd>
+      </dl>
+    </div>
+    <div class="platform-body">
+      <p><span class="lang-en">This is MAC-Lab's core framework for moving affective computing into everyday environments. It models emotion and psychological state continuously across time, context, individual difference, physiological-behavioral signals, and group-level indicators, then connects sensing, assessment, warning, and intervention into one technical route.</span><span class="lang-zh">这是 MAC-Lab 推动情感计算进入真实生活环境的核心框架。它从时间、环境、个体差异、生理行为信号与群体指标等维度对情绪与心理状态进行连续建模，并把感知、评估、预警与干预连接成一条完整技术路线。</span></p>
+      <p><span class="lang-en">The framework is designed for scenes where psychological state cannot be understood from a single utterance or a single image. It treats emotion as a temporal and situated process, using multimodal sensing, behavioral context, and human feedback to support more responsible assessment and intervention.</span><span class="lang-zh">该框架面向那些无法依靠一句话或一张图理解心理状态的场景。它把情绪看作具有时间性和情境性的过程，利用多模态感知、行为情境和人类反馈，支持更负责任的评估与干预。</span></p>
+      <figure class="platform-visual platform-visual--pipeline">
+        <figcaption><span class="lang-en">Technical route</span><span class="lang-zh">技术路线</span></figcaption>
+        <div class="platform-pipeline">
+          <span><b><span class="lang-en">Sensing</span><span class="lang-zh">感知</span></b><small><span class="lang-en">speech, vision, behavior, physiology, context</span><span class="lang-zh">语音、视觉、行为、生理、情境</span></small></span>
+          <span><b><span class="lang-en">Profiling</span><span class="lang-zh">画像</span></b><small><span class="lang-en">temporal evidence, individual baseline, group reference</span><span class="lang-zh">时间证据、个体基线、群体参照</span></small></span>
+          <span><b><span class="lang-en">Assessment</span><span class="lang-zh">评估</span></b><small><span class="lang-en">risk, stress, fatigue, mood, cognitive load</span><span class="lang-zh">风险、压力、疲劳、情绪、认知负荷</span></small></span>
+          <span><b><span class="lang-en">Support</span><span class="lang-zh">支持</span></b><small><span class="lang-en">warning, feedback, intervention, referral</span><span class="lang-zh">预警、反馈、干预、转介</span></small></span>
+        </div>
+      </figure>
+      <div class="platform-matrix">
+        <div><strong><span class="lang-en">Smart Cockpit</span><span class="lang-zh">智能座舱</span></strong><p><span class="lang-en">emotion, fatigue, stress, and cognitive-load monitoring for safer mobility.</span><span class="lang-zh">面向出行安全的情绪、疲劳、压力和认知负荷监测。</span></p></div>
+        <div><strong><span class="lang-en">Healthy Living</span><span class="lang-zh">健康人居</span></strong><p><span class="lang-en">environment-human state coupling for active health and living-space intelligence.</span><span class="lang-zh">连接环境状态与人的身心状态，服务主动健康与人居智能。</span></p></div>
+        <div><strong><span class="lang-en">Education & Care</span><span class="lang-zh">教育与关护</span></strong><p><span class="lang-en">screening, early warning, and supportive feedback for students and special groups.</span><span class="lang-zh">为学生和特殊群体提供筛查、预警与支持性反馈。</span></p></div>
+      </div>
+    </div>
   </article>
 
-  <article>
-    <h2><span class="lang-en">Embodied Emotional Intelligence Framework</span><span class="lang-zh">具身情感智能框架</span></h2>
-    <p><span class="lang-en">This framework gives embodied AI an emotional interaction layer. Built around embodied emotional interaction models and modular emotional capabilities, it supports the full chain of emotional perception, emotional understanding, emotional expression, and emotional interaction for robots, digital humans, smart devices, and active-health systems.</span><span class="lang-zh">该框架为具身 AI 增加情感交互层，以具身情感交互大模型和模块化情感能力为核心，覆盖情感感知、情感理解、情感表达与情感交互全链路，面向机器人、数字人、智能终端和主动健康系统提供“情感大脑”。</span></p>
-    <dl><dt>Focus</dt><dd>Embodied emotional interaction models, multimodal affective perception, expressive generation, situated interaction</dd><dt>Application</dt><dd>Companion robots, digital life partners, eldercare, medical rehabilitation, education, intelligent vehicles</dd></dl>
+  <article class="platform-article">
+    <div class="platform-title">
+      <h2><span class="lang-en">Embodied Emotional Intelligence Framework</span><span class="lang-zh">具身情感智能框架</span></h2>
+      <dl>
+        <dt><span class="lang-en">Focus</span><span class="lang-zh">研究焦点</span></dt>
+        <dd><span class="lang-en">Embodied emotional interaction models, multimodal affective perception, expressive generation, situated interaction</span><span class="lang-zh">具身情感交互模型、多模态情感感知、情感表达生成与场景化交互</span></dd>
+        <dt><span class="lang-en">Application</span><span class="lang-zh">应用场景</span></dt>
+        <dd><span class="lang-en">Companion robots, digital life partners, eldercare, medical rehabilitation, education, intelligent vehicles</span><span class="lang-zh">陪伴机器人、数字生活伙伴、养老照护、医疗康复、教育与智能车辆</span></dd>
+      </dl>
+    </div>
+    <div class="platform-body">
+      <p><span class="lang-en">This framework gives embodied AI an emotional interaction layer. Built around embodied emotional interaction models and modular emotional capabilities, it supports the full chain of emotional perception, emotional understanding, emotional expression, and emotional interaction for robots, digital humans, smart devices, and active-health systems.</span><span class="lang-zh">该框架为具身 AI 增加情感交互层，以具身情感交互大模型和模块化情感能力为核心，覆盖情感感知、情感理解、情感表达与情感交互全链路，面向机器人、数字人、智能终端和主动健康系统提供“情感大脑”。</span></p>
+      <p><span class="lang-en">The key is not to make a device appear emotional, but to make its response appropriate to the situation. That requires multimodal perception, social timing, expressive control, memory, safety boundaries, and the ability to act with restraint in sensitive contexts.</span><span class="lang-zh">关键不是让设备“看起来有情绪”，而是让它在具体情境中的回应更合适。这需要多模态感知、社会时机理解、表达控制、长期记忆、安全边界，以及在敏感场景中克制行动的能力。</span></p>
+      <figure class="platform-visual platform-visual--brain">
+        <figcaption><span class="lang-en">Emotional brain for embodied systems</span><span class="lang-zh">面向具身系统的情感大脑</span></figcaption>
+        <div class="platform-orbit">
+          <span class="platform-orbit__core"><span class="lang-en">Emotional<br>Brain</span><span class="lang-zh">情感<br>大脑</span></span>
+          <span><span class="lang-en">Perceive</span><span class="lang-zh">感知</span></span>
+          <span><span class="lang-en">Understand</span><span class="lang-zh">理解</span></span>
+          <span><span class="lang-en">Express</span><span class="lang-zh">表达</span></span>
+          <span><span class="lang-en">Interact</span><span class="lang-zh">交互</span></span>
+          <span><span class="lang-en">Remember</span><span class="lang-zh">记忆</span></span>
+          <span><span class="lang-en">Stay Safe</span><span class="lang-zh">安全</span></span>
+        </div>
+      </figure>
+      <div class="platform-matrix">
+        <div><strong><span class="lang-en">Robots</span><span class="lang-zh">机器人</span></strong><p><span class="lang-en">emotional perception and situated support for companionship, care, and service.</span><span class="lang-zh">面向陪伴、照护和服务的情感感知与场景化支持。</span></p></div>
+        <div><strong><span class="lang-en">Digital Humans</span><span class="lang-zh">数字人</span></strong><p><span class="lang-en">voice, expression, personality, and long-term interaction memory.</span><span class="lang-zh">融合语音、表情、人格和长期交互记忆。</span></p></div>
+        <div><strong><span class="lang-en">Active Health</span><span class="lang-zh">主动健康</span></strong><p><span class="lang-en">emotion-aware interaction for rehabilitation, eldercare, and mental support.</span><span class="lang-zh">服务康复、养老和心理支持的情感化交互。</span></p></div>
+      </div>
+    </div>
   </article>
 
   <article>
