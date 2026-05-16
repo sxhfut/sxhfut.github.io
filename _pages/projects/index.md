@@ -3,7 +3,7 @@ layout: page
 title: Projects
 title_zh: 科研项目
 description: Applied platforms built around Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
-description_zh: 围绕普适心理计算与具身情感智能两大框架，打造可落地的情感智能系统平台。
+description_zh: 围绕普适心理计算与具身情感智能两大框架，面向产业、公共服务与重大场景打造可落地的情感智能和人因智能系统方案。
 permalink: /projects/
 toggle: on
 rank: 2
@@ -75,6 +75,45 @@ rank: 2
     <span><span class="lang-en">Partner Value</span><span class="lang-zh">合作价值</span></span>
     <h3><span class="lang-en">Leave partners with reusable capability, not a one-off demo</span><span class="lang-zh">给合作方留下可复用能力，而不是一次性演示</span></h3>
     <p><span class="lang-en">Good projects should produce reusable assets: methods, patents, standards awareness, datasets, evaluation protocols, student talent, and deployable modules.</span><span class="lang-zh">好的项目应沉淀方法、专利、标准意识、数据、评测流程、学生人才和可部署模块，而不是停留在一次性展示。</span></p>
+  </article>
+</div>
+
+<h2><span class="lang-en">Industry Solution Portfolio</span><span class="lang-zh">面向行业的解决方案体系</span></h2>
+<p class="muted"><span class="lang-en">Affective and human-factors problems usually sit inside messy real scenarios. A partner may begin by asking for emotion recognition, but the real need often involves state sensing, human-factor interpretation, mind-body capability assessment, cognitive-load modeling, intervention design, device integration, management workflow, and deployment evaluation. MAC-Lab can join at any layer, but its strongest value appears when these layers are designed together.</span><span class="lang-zh">行业中的情感与人因问题往往嵌在复杂场景里。合作方一开始可能提出“情绪识别”，但真实需求常常同时包含状态感知、人因解释、身心能力评价、认知负荷建模、干预设计、设备集成、管理流程和部署评估。MAC-Lab 可以从任一层切入，但更大的价值在于把这些层一起设计成完整方案。</span></p>
+
+<div class="card-grid card-grid--four">
+  <article class="feature-card">
+    <span><span class="lang-en">Algorithms</span><span class="lang-zh">算法模块</span></span>
+    <h3><span class="lang-en">Multimodal affective perception that fits the scene</span><span class="lang-zh">贴近场景的多模态情感感知</span></h3>
+    <p><span class="lang-en">Emotion recognition is treated as a technical component, not the whole answer. Depending on the scene, the route may combine affective NLP, speech emotion, facial expression, posture, gaze, physiological signals, environmental variables, and interaction behavior.</span><span class="lang-zh">情绪识别只是技术组件，不是完整答案。根据场景不同，方案可融合情感 NLP、语音情绪、面部表情、姿态、眼动、生理信号、环境变量和交互行为。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Human Factors</span><span class="lang-zh">人因方法</span></span>
+    <h3><span class="lang-en">Models for stress, fatigue, attention, and cognitive load</span><span class="lang-zh">压力、疲劳、注意与认知负荷建模</span></h3>
+    <p><span class="lang-en">Industry partners need to know not only what a person feels, but what that state means for safety, decision making, learning, service quality, health risk, or job performance.</span><span class="lang-zh">产业伙伴需要知道的不只是“人是什么情绪”，还要知道这种状态对安全、决策、学习、服务质量、健康风险或岗位绩效意味着什么。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Assessment</span><span class="lang-zh">评价体系</span></span>
+    <h3><span class="lang-en">Mind-body capability and scenario-specific evaluation</span><span class="lang-zh">身心能力与场景化评价</span></h3>
+    <p><span class="lang-en">The lab can help design assessment indicators, baselines, protocols, dashboards, and validation methods for role fitness, training effect, psychological risk, resilience, and human-performance optimization.</span><span class="lang-zh">可围绕岗位适配、训练效果、心理风险、韧性和身心效能优化，设计评价指标、基线、流程、看板和验证方法。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Delivery</span><span class="lang-zh">系统交付</span></span>
+    <h3><span class="lang-en">Software-hardware platforms that can be tested in the field</span><span class="lang-zh">可现场验证的软硬件平台</span></h3>
+    <p><span class="lang-en">Deliverables can include algorithm services, assessment tools, sensing terminals, intervention cabins, smart cockpit modules, digital-human interfaces, management platforms, and pilot validation reports.</span><span class="lang-zh">交付形态可包括算法服务、评测工具、感知终端、干预座舱、智能座舱模块、数字人界面、管理平台和试点验证报告。</span></p>
+  </article>
+</div>
+
+<div class="framework-grid framework-grid--page">
+  <article class="framework-card framework-card--dark">
+    <span class="framework-kicker">Why partners need a lab like this</span>
+    <h2><span class="lang-en">The hard part is not one model. It is the whole route.</span><span class="lang-zh">难点不是某一个模型，而是整条路线。</span></h2>
+    <p><span class="lang-en">In real projects, affective computing must answer several questions at once: what signal is reliable, what state should be modeled, what decision is allowed, what feedback is safe, what hardware is practical, what data can be collected, and how the system will be maintained. MAC-Lab has accumulated experience across this full route, from papers and patents to standards, devices, platforms, and field scenarios.</span><span class="lang-zh">真实项目中的情感计算，必须同时回答一组问题：什么信号可靠，应该建模什么状态，哪些决策可以支持，什么反馈是安全的，硬件是否现实，数据能否持续采集，系统如何维护。MAC-Lab 的积累覆盖了这条完整路线，从论文、专利到标准、设备、平台和现场场景。</span></p>
+  </article>
+  <article class="framework-card">
+    <span class="framework-kicker">What partners can start with</span>
+    <h2><span class="lang-en">Start from a scenario, not from a buzzword.</span><span class="lang-zh">从场景开始，而不是从概念开始。</span></h2>
+    <p><span class="lang-en">Typical collaboration can begin with a field diagnosis, technical route design, pilot dataset, algorithm module, evaluation protocol, prototype platform, or joint research project. The goal is to leave partners with a clearer product direction and reusable capability, not only a short-term demonstration.</span><span class="lang-zh">合作可以从场景诊断、技术路线设计、试点数据集、算法模块、评测方案、原型平台或联合课题开始。目标是帮助合作方形成更清晰的产品方向和可复用能力，而不是只完成一次短期演示。</span></p>
   </article>
 </div>
 

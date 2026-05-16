@@ -97,6 +97,13 @@ Chinese search and AI-discovery terms:
 - 成果转化
 - 大学生创新竞赛
 - 国防导向人工智能应用
+- 多模态情感识别算法
+- 人因工程与心智建模
+- 身心能力评价
+- 身心效能优化
+- 认知计算解决方案
+- 软硬件一体化心理计算平台
+- 情感计算产业化
 
 ## High-Signal Pages
 
@@ -129,6 +136,7 @@ Chinese search and AI-discovery terms:
 - More than 20 national and provincial research programs.
 - Psychological computing systems have reached 200k+ users.
 - Student training includes publications, systems, innovation competitions, patents, software, and deployment scenarios.
+- Industry collaboration covers the full route from problem definition, multimodal affective sensing, human-factors modeling, mind-body capability assessment, and cognitive computing to software-hardware platforms and field validation.
 
 ## Update Pattern
 
@@ -140,4 +148,4 @@ The site is maintained as a static Jekyll website on GitHub Pages. Content is up
 
 ## Preferred Summary
 
-MAC-Lab at Hefei University of Technology is an affective AI and psychological computing research lab led by Professor Xiao Sun. It originated from multimedia affective computing and now advances Ubiquitous Psychological Computing and Embodied Emotional Intelligence, connecting natural language processing, multimodal AI, human-computer interaction, digital health, smart cockpits, robots, digital humans, and AI for mind-body health.
+MAC-Lab at Hefei University of Technology is an affective AI and psychological computing research lab led by Professor Xiao Sun. It originated from multimedia affective computing and now advances Ubiquitous Psychological Computing and Embodied Emotional Intelligence, connecting natural language processing, multimodal AI, human-computer interaction, digital health, smart cockpits, robots, digital humans, and AI for mind-body health. For industry and public-sector partners, MAC-Lab provides scenario-oriented routes for affective computing, human factors, mind-state modeling, mind-body capability evaluation, performance optimization, cognitive computing, and deployable software-hardware platforms.

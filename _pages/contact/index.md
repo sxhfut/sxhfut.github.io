@@ -101,28 +101,46 @@ rank: 8
 </div>
 
 <h2><span class="lang-en">For Industry and Public-Sector Partners</span><span class="lang-zh">面向产业与公共场景合作伙伴</span></h2>
-<p class="muted"><span class="lang-en">MAC-Lab is suitable for partners who need more than a demo and more than a report: partners who need a research team that understands scientific uncertainty, engineering constraints, user scenarios, delivery risk, and long-cycle capability building.</span><span class="lang-zh">MAC-Lab 适合那些不只需要一个演示系统、也不只需要一份研究报告的合作伙伴：真正需要同时理解科学不确定性、工程约束、用户场景、交付风险和长期能力建设的研究团队。</span></p>
+<p class="muted"><span class="lang-en">MAC-Lab is suitable for partners whose problems cannot be solved by buying an off-the-shelf emotion-recognition model. If your scene involves human state, affect, stress, cognitive load, fatigue, motivation, role fitness, safety, health, service quality, or human performance, the real task is usually a full route: define the problem, sense the right signals, model the state, evaluate risk or capability, design support, and deploy the system responsibly.</span><span class="lang-zh">MAC-Lab 适合那些不能靠购买一个通用情绪识别模型解决问题的合作伙伴。只要你的场景涉及人的状态、情绪、压力、认知负荷、疲劳、动机、岗位适配、安全、健康、服务质量或身心效能，真正要做的通常是一整条路线：定义问题、选择信号、建模状态、评价风险或能力、设计支持方式，并负责任地部署系统。</span></p>
 
 <div class="card-grid card-grid--four contact-paths">
   <article class="feature-card">
     <span><span class="lang-en">Problem Definition</span><span class="lang-zh">问题定义</span></span>
-    <h3><span class="lang-en">Turn vague needs into researchable and deliverable problems</span><span class="lang-zh">把模糊需求转成可研究、可交付的问题</span></h3>
-    <p><span class="lang-en">Many AI + psychology projects fail before modeling begins because the task, data boundary, user role, and intervention goal are not defined well. This is one of the places where MAC-Lab can add value early.</span><span class="lang-zh">很多 AI + 心理项目还没到建模阶段就已经失败，因为任务边界、数据边界、用户角色和干预目标没有定义清楚。MAC-Lab 能够在合作早期就帮助把问题定义扎实。</span></p>
+    <h3><span class="lang-en">Turn a scene pain point into a solvable route</span><span class="lang-zh">把场景痛点变成可解决路线</span></h3>
+    <p><span class="lang-en">Many AI + psychology projects fail before modeling begins because the task boundary, user role, signal source, evaluation target, and intervention goal are not defined together. This is where MAC-Lab can add value early.</span><span class="lang-zh">很多 AI + 心理项目还没建模就已经出问题，因为任务边界、用户角色、信号来源、评价目标和干预目标没有一起定义清楚。MAC-Lab 可以在合作早期把问题定义扎实。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Technical Route</span><span class="lang-zh">技术路线</span></span>
-    <h3><span class="lang-en">Choose the right mix of models, sensing, interaction, and evaluation</span><span class="lang-zh">选择模型、感知、交互和评测的正确组合</span></h3>
-    <p><span class="lang-en">Psychological computing rarely depends on one model alone. It needs multimodal sensing, affective NLP, behavior modeling, human-computer interaction, safety evaluation, and deployment-aware engineering.</span><span class="lang-zh">心理计算很少靠单一模型解决。它需要多模态感知、情感 NLP、行为建模、人机交互、安全评测和面向部署的工程实现一起配合。</span></p>
+    <h3><span class="lang-en">Design models, methods, devices, and workflows together</span><span class="lang-zh">把模型、方法、设备和流程一起设计</span></h3>
+    <p><span class="lang-en">Psychological computing rarely depends on one model alone. It needs multimodal sensing, affective NLP, behavior modeling, human-computer interaction, assessment protocols, and deployment-aware engineering.</span><span class="lang-zh">心理计算很少靠单一模型解决。它需要多模态感知、情感 NLP、行为建模、人机交互、评测流程和面向部署的工程实现一起配合。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Pilot to Deployment</span><span class="lang-zh">从试点到部署</span></span>
-    <h3><span class="lang-en">Navigate the difficult middle between prototype and adoption</span><span class="lang-zh">穿过样机到应用之间最难的中间地带</span></h3>
-    <p><span class="lang-en">The lab has repeatedly worked through field validation, hardware-software integration, scenario adaptation, user feedback, standards awareness, and technology transfer.</span><span class="lang-zh">团队已经反复经历场景验证、软硬件集成、现场适配、用户反馈、标准意识和成果转化等环节，理解从“能跑”到“可用”之间的真实难点。</span></p>
+    <h3><span class="lang-en">Move from prototype to field-tested capability</span><span class="lang-zh">从原型走向现场验证能力</span></h3>
+    <p><span class="lang-en">The lab has repeatedly worked through field validation, hardware-software integration, scenario adaptation, user feedback, standards awareness, technology transfer, and platform operation.</span><span class="lang-zh">团队已经反复经历场景验证、软硬件集成、现场适配、用户反馈、标准意识、成果转化和平台运行等环节，理解从“能跑”到“可用”之间的真实难点。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Long-Term Capability</span><span class="lang-zh">长期能力</span></span>
-    <h3><span class="lang-en">Leave behind platforms, talent, and reusable assets</span><span class="lang-zh">留下平台、人才和可复用资产</span></h3>
-    <p><span class="lang-en">A good collaboration should produce papers when appropriate, but also reusable modules, patents, datasets, evaluation protocols, student training, and a clearer product direction.</span><span class="lang-zh">好的合作可以产出论文，但不应止于论文；还应沉淀可复用模块、专利、数据、评测流程、学生训练和更清晰的产品方向。</span></p>
+    <h3><span class="lang-en">Build assets that partners can keep using</span><span class="lang-zh">沉淀合作方能继续使用的资产</span></h3>
+    <p><span class="lang-en">A good collaboration should produce papers when appropriate, but also reusable modules, patents, datasets, evaluation protocols, student talent, software-hardware platforms, and a clearer product direction.</span><span class="lang-zh">好的合作可以产出论文，但不应止于论文；还应沉淀可复用模块、专利、数据、评测流程、学生人才、软硬件平台和更清晰的产品方向。</span></p>
+  </article>
+</div>
+
+<div class="card-grid card-grid--three contact-paths">
+  <article class="feature-card">
+    <span><span class="lang-en">Typical Entry</span><span class="lang-zh">合作切入</span></span>
+    <h3><span class="lang-en">Bring a real scene, not a polished brief</span><span class="lang-zh">带着真实场景来，而不必先写完美需求书</span></h3>
+    <p><span class="lang-en">A collaboration can start from a site visit, pain-point diagnosis, pilot dataset, technical feasibility study, algorithm module, or prototype system.</span><span class="lang-zh">合作可以从现场调研、痛点诊断、试点数据、技术可行性分析、算法模块或原型系统开始。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Deliverables</span><span class="lang-zh">可交付形态</span></span>
+    <h3><span class="lang-en">Methods, algorithms, platforms, and validation</span><span class="lang-zh">方法、算法、平台与验证一起交付</span></h3>
+    <p><span class="lang-en">Possible outputs include multimodal models, human-factor assessment methods, dashboards, sensing terminals, intervention devices, digital-human interfaces, and field evaluation reports.</span><span class="lang-zh">可能产出包括多模态模型、人因评价方法、管理看板、感知终端、干预设备、数字人界面和现场评估报告。</span></p>
+  </article>
+  <article class="feature-card">
+    <span><span class="lang-en">Best Fit</span><span class="lang-zh">最适合的合作</span></span>
+    <h3><span class="lang-en">Long-cycle problems where affect and human factors matter</span><span class="lang-zh">适合情感与人因真正重要的长期问题</span></h3>
+    <p><span class="lang-en">The lab is especially suited to scenarios where scientific credibility, engineering maturity, product definition, responsible deployment, and industry impact must be developed together.</span><span class="lang-zh">尤其适合那些需要同时发展科学可信度、工程成熟度、产品定义、负责任部署和产业价值的长期问题。</span></p>
   </article>
 </div>
 

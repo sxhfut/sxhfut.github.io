@@ -47,7 +47,9 @@ rank: 7.5
 
   <p>这种路径也决定了 MAC-Lab 的学生培养方式。团队鼓励本科生和研究生从真实问题出发，参与创新竞赛、科研论文、专利软著、系统平台和产业合作。一个好的学生项目，不应在获奖或演示后停止，而应继续沉淀为论文、数据、系统模块和长期研究问题。</p>
 
-  <p>面向合作伙伴，MAC-Lab 的价值也不只是“做一个模型”或“搭一个平台”。AI + 心理、AI + 健康、AI + 教育、AI + 人因工程等场景往往存在很强的不确定性。真正可靠的合作，需要同时理解科学问题、工程约束、场景需求、伦理边界和产业落地。MAC-Lab 适合参与这类长期、严肃、能够沉淀能力的产学研合作。</p>
+  <p>面向合作伙伴，MAC-Lab 的价值也不只是“做一个模型”或“搭一个平台”。行业里的情感与人因问题，常常需要从场景痛点开始，逐步明确可采集的信号、需要建模的状态、可以支撑的决策、适合的反馈方式，以及系统如何在现场长期运行。无论是多模态情感识别、人因与心智状态建模、岗位身心能力评价、身心效能优化，还是认知计算与具身情感交互，真正可靠的合作都需要把科学问题、工程约束、伦理边界和产业落地放在同一条路线中设计。</p>
+
+  <p>因此，MAC-Lab 更适合参与长期、严肃、能够沉淀能力的产学研合作。合作成果可以是算法模块，也可以是评价方法、试点数据、软硬件终端、管理平台、干预座舱、数字人接口、场景验证报告和可继续迭代的产品方向。</p>
 
   <p>从多模态情感计算到普适心理计算，再到具身情感智能，MAC-Lab 的研究主线始终围绕一个核心问题展开：如何让 AI 更懂人的状态，并在真实场景中更好地支持人。</p>
 </div>
@@ -67,7 +69,9 @@ rank: 7.5
 
   <p>At the system level, the lab translates affective AI into platforms such as intelligent psychological monitoring systems, mind-body assessment devices, intervention cabins, smart cockpit state sensing, digital humans, and embodied emotional agents. These platforms connect models, data, sensing modules, interaction design, deployment constraints, and user scenarios.</p>
 
-  <p>For industry and public-sector partners, MAC-Lab offers more than a model or a demonstration. AI + psychology, AI + health, AI + education, and AI + human factors all require careful problem definition, technical route design, field validation, evaluation protocols, and responsible deployment. The lab is well suited for long-cycle partnerships where scientific depth, engineering realism, and application value must be developed together.</p>
+  <p>For industry and public-sector partners, MAC-Lab offers more than a model or a demonstration. Affective and human-factors problems in real scenarios often require a full route: define the scene, identify reliable signals, model the right state, design assessment protocols, decide what support is appropriate, and deploy the system responsibly. Multimodal affect recognition, human-factors modeling, mind-body capability evaluation, performance support, cognitive computing, and embodied emotional interaction have to be connected rather than treated as separate buzzwords.</p>
+
+  <p>This makes the lab well suited for long-cycle partnerships where scientific depth, engineering realism, and application value must be developed together. Collaboration can lead to algorithm modules, evaluation methods, pilot datasets, software-hardware terminals, management platforms, intervention cabins, digital-human interfaces, field validation reports, and product directions that partners can continue to build on.</p>
 
   <p>From multimedia affective computing to ubiquitous psychological computing and embodied emotional intelligence, MAC-Lab follows a consistent research route: building AI systems that better understand human state and can be validated in real-world environments.</p>
 </div>
@@ -113,4 +117,3 @@ rank: 7.5
     <p><span class="lang-en">Xiaohongshu, Bilibili, WeChat Channels, and short-video platforms can use shorter public-facing explanations that point back to this page.</span><span class="lang-zh">小红书、B 站、视频号和短视频平台适合发布更短、更自然的科普内容，并链接回本页作为权威来源。</span></p>
   </article>
 </div>
-
