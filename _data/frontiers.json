@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T16:55:42+00:00",
-  "generated_at_beijing": "2026-05-17T00:55:42+08:00",
+  "generated_at": "2026-05-16T23:15:58+00:00",
+  "generated_at_beijing": "2026-05-17T07:15:58+08:00",
   "generated_date_beijing": "2026-05-17",
   "stats": {
     "total_items": 60,
     "manual_items": 4,
-    "last30days_items": 0,
-    "github_recent_items": 3,
-    "recent_signal_items": 3,
+    "last30days_items": 8,
+    "github_recent_items": 0,
+    "recent_signal_items": 8,
     "rss_items": 24,
     "arxiv_items": 76,
     "kind_counts": {
-      "community": 3,
+      "community": 7,
       "industry": 25,
-      "paper": 30,
+      "paper": 26,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 29,
+      "arXiv": 25,
       "RSS · Google News": 8,
+      "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 3,
-      "Recent GitHub": 3,
       "RSS · Google 新闻": 2,
       "RSS · OpenAI News": 2,
       "RSS · Microsoft Research": 2,
@@ -167,6 +167,34 @@
         "情感理解"
       ],
       "relevance_score": 100
+    },
+    {
+      "kind": "community",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-04-24",
+      "title": "📚 ArXiv AI Research Digest 2026-04-24",
+      "summary": "# ArXiv AI Research Digest 2026-04-24 > Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-04-24 00:28 UTC --- **ArXiv AI Research Digest – April 22, 2026** --- ### **Today's Highlights** This week’s submissions reflect a strong focus on aligning generativ Last30Days signal for multimodal affective computing speech emotion, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "github-actions[bot]",
+        "DenisZheng/agents-radar"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/DenisZheng/agents-radar/issues/500",
+      "priority": 59,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 92
     },
     {
       "kind": "industry",
@@ -330,32 +358,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-13",
-      "title": "AI, Mental Health, and Human Connection - The Good Men Project",
-      "summary": "AI, Mental Health, and Human Connection The Good Men Project",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0xOeFZlSHBqX3BEUzRGcTBTcDh2X0trS2tNNHlIdlFnelBuVEI1OFNQSU1aZm5zbmdNN1FjS3BhTFVUSXBrdHNBMTVaRUVpcE5ZcFlLWHdLM0x3R3BJX0xjQmVORHNpaFA1b3ExU2tfby05YWJ1R2JFa2ZHOGlYNkhiN2xpMThaaEhEVS1xVWxzYnFXQzFGMG1kRQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-05-11",
       "title": "AI therapy chatbots are crossing into impersonation - KevinMD.com",
@@ -379,6 +381,32 @@
         "身心支持"
       ],
       "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-05",
+      "title": "AMA presses Congress for guardrails on AI mental health chatbots - HR Executive",
+      "summary": "AMA presses Congress for guardrails on AI mental health chatbots HR Executive",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX0ZoSFR6MEZZVGpNVWprVHhtYlhzbmpNYXZJaHpMUS1HWkpHa1dmTjY4TU0zUXNUSFRCdUdOeC1rVGQya3J0S05qSm5zODNtcWVHWThCU0E2aUhSYmlqUEtiZzBfUFc1aThGQzloUDkzeHkxQUpMZkZZSUFiSzVuNlZ4N2hadnRZNEcyRGNJZjUzY2M?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -435,90 +463,6 @@
       "relevance_score": 75
     },
     {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-05-16",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "rein98"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/rein98/PsyChat",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
-    },
-    {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-12",
-      "title": "25shivansh/MannMitra",
-      "summary": "Mann Mitra is a Digital Mental Health and Psychological Support System designed for students in higher education institutions. It bridges the gap between technology and emotional wellbeing, offering accessible, inclusive, and affordable mental health support... Recent GitHub repository activity related to AI mental health digital wellbeing, updated within the latest 30-day window. Primary language: TypeScript.",
-      "source": "Recent GitHub",
-      "authors": [
-        "25shivansh"
-      ],
-      "categories": [
-        "GitHub",
-        "TypeScript"
-      ],
-      "url": "https://github.com/25shivansh/MannMitra",
-      "priority": 56,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 89
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-05-08",
-      "title": "snehakumari16/multimodal-sentiment-analysis-aiot",
-      "summary": "Research prototype combining NLP text sentiment analysis with physiological IoT signals for multimodal emotion classification using affective computing Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Jupyter Notebook.",
-      "source": "Recent GitHub",
-      "authors": [
-        "snehakumari16"
-      ],
-      "categories": [
-        "GitHub",
-        "Jupyter Notebook"
-      ],
-      "url": "https://github.com/snehakumari16/multimodal-sentiment-analysis-aiot",
-      "priority": 56,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 89
-    },
-    {
       "kind": "industry",
       "track": "AI Research",
       "published": "2026-05-16",
@@ -571,6 +515,88 @@
         "可信评测"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-13",
+      "title": "introduce rebuild job status endpoints",
+      "summary": "Review changes with <a href=\"https://app.semanticdiff.com/gh/DashFin-FarDb/financial-asset-relationship-db/pull/1161/changes\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://app.semanticdiff.com/images/github_button.svg?theme=dark&smaller=5\"><source media=\"(prefers-color-... [vc]:... Last30Days signal for AI mental health digital wellbeing, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "mohavro",
+        "DashFin-FarDb/financial-asset-relationship-db"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1161",
+      "priority": 55,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 82
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-10",
+      "title": "📰 Hacker News AI Digest 2026-05-10",
+      "summary": "# Hacker News AI Community Digest 2026-05-10 > Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-05-10 02:38 UTC --- **Hacker News AI Community Digest — 2026-05-10** --- ### 1. **Today's Highlights** Claude dominates today’s HN AI discourse—not as a model ben Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "github-actions[bot]",
+        "wangsehn/agents-radar"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/wangsehn/agents-radar/issues/78",
+      "priority": 55,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-05-04",
+      "title": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem",
+      "summary": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem ## 创意概述 TherapyFlow AI is a comprehensive AI-powered platform designed specifically Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "wshten10",
+        "ava-agent/awesome-ai-ideas"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/1403",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 82
     },
     {
       "kind": "industry",
@@ -729,6 +755,94 @@
         "情感大模型"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-05-03",
+      "title": "Questions for Dr. Diyi Yang's Talk on \"The Human Half of Human-AI Interaction\"",
+      "summary": "**The Human Half of Human-AI Interaction** Recent advances in large language models (LLMs) have transformed human-AI interaction; however, much research has focused on the AI half, scaling models and improving benchmarks, while the human half, how people use, are shaped by, and can be modeled with Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "xqrue-49",
+        "uchicago-computation-workshop/Spring2026"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/uchicago-computation-workshop/Spring2026/issues/7",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 87
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-03",
+      "title": "feat: NeuroEmoBridge - AI-Powered Emotional Intelligence & Mental Health Bridge Platform (Issue #1233)",
+      "summary": "## PR Review - NeuroEmoBridge (#1373) **Review Status**: ⭐⭐⭐⭐⭐ (5/5) — Exceptional technical depth ### Summary Ambitious multimodal emotional intelligence platform combining BCI, computer vision, voice biomarkers, and physiological sensing for clinical-grade emotional assessment and mental health ... 凤雏🔥 PR修复指导 - NeuroEmoBridge (#1373) ## 问题总结... Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "wshten10",
+        "ava-agent/awesome-ai-ideas"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/ava-agent/awesome-ai-ideas/pull/1373",
+      "priority": 54,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Psychological Assessment",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "心理评估",
+        "情感理解"
+      ],
+      "relevance_score": 96
+    },
+    {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-01",
+      "title": "test: add 67 unit tests for metrickit",
+      "summary": "> [!WARNING] > You have reached your daily quota limit. Please wait up to 24 hours and I will start processing your requests again! CodeAnt AI is reviewing your PR. --- ### Thanks for using CodeAnt! 🎉 We're free for open-source projects. if you're enjoying it, help us grow by sharing. [Share on... Last30Days signal for AI mental health digital wellbeing, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "KooshaPari",
+        "KooshaPari/Metron"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/KooshaPari/Metron/pull/43",
+      "priority": 54,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 81
     },
     {
       "kind": "industry",
@@ -1687,131 +1801,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-05-06",
-      "title": "Assessing Generalisation Capability of Machine Learning Models for Intrusion Detection",
-      "summary": "The growth of networked and IoT systems has intensified cyber-security threats and exposed the limits of traditional signature-based intrusion detection. Although machine-learning-based intrusion detection systems often report strong benchmark performance, high ac- curacy within a single dataset does not necessarily guarantee reliable performance in unseen network environments. This study investigates the generalisation...",
-      "source": "arXiv",
-      "authors": [
-        "Md Zakir Hossain",
-        "Md Ayshik Rahman Khan",
-        "Md Rafiqul Islam",
-        "Syed Mohammed Shamsul Islam",
-        "Tom Gedeon"
-      ],
-      "categories": [
-        "cs.CR"
-      ],
-      "url": "http://arxiv.org/abs/2605.04407",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Trustworthy Evaluation",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "可信评测",
-        "情感理解"
-      ],
-      "relevance_score": 62
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-06",
-      "title": "Gaze4HRI: Zero-shot Benchmarking Gaze Estimation Neural-Networks for Human-Robot Interaction",
-      "summary": "While zero-shot appearance-based 3D gaze estimation offers significant cost-efficiency by directly mapping RGB images to gaze vectors, its reliability in Human-Robot Interaction (HRI) settings remains uncertain. Existing benchmarks frequently overlook fundamental HRI conditions, such as dynamic camera viewpoints and moving targets in video. Furthermore, current cross-dataset evaluations often suffer from a complexity gap,...",
-      "source": "arXiv",
-      "authors": [
-        "Berk Sezer",
-        "Ali Görkem Küçük",
-        "Erol Şahin",
-        "Sinan Kalkan"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.HC",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "url": "http://arxiv.org/abs/2605.04770",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "具身交互",
-        "可信评测"
-      ],
-      "relevance_score": 62
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-06",
-      "title": "IntenBot: Flexible and Imprecise Multimodal Input for LLMs to Understand User Intentions for Casual and Human-Like HRI",
-      "summary": "In natural human-to-human communication, multimodal user input is typically used to supplement explicit and complement implicit voice commands, with casualness allowing for flexible input modality combinations and tolerance for imprecise input data. For example, saying \"I want that.\" with a casual glance at a bottle of water is clear enough in human-to-human communication as an implicit voice command accompanied by gaze...",
-      "source": "arXiv",
-      "authors": [
-        "Yen-Ting Liu",
-        "Chiu-Hsuan Wang",
-        "TzuLing Chen",
-        "Ting-Ying Lee",
-        "Tzu-Hua Wang",
-        "Chien-Ming Lin"
-      ],
-      "categories": [
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2605.04585",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "具身交互"
-      ],
-      "relevance_score": 71
-    },
-    {
-      "kind": "paper",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-05-06",
-      "title": "Measuring Psychological States Through Semantic Projection: A Theory-Driven Approach to Language-Based Assessment",
-      "summary": "Recent advances in natural language processing have enabled increasingly accurate estimation of psychological traits from language. However, most existing approaches rely on supervised models trained to predict questionnaire scores, limiting interpretability and generalizability across contexts. The present study introduces a theory-driven and fully unsupervised framework for measuring psychological states directly from...",
-      "source": "arXiv",
-      "authors": [
-        "Maria Luongo",
-        "Davide Marocco",
-        "Nicola Milano"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "url": "http://arxiv.org/abs/2605.04873",
-      "priority": 50,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 59
     }
   ]
 }
