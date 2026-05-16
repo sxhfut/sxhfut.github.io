@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-05-15T23:16:59+00:00",
+  "generated_at": "2026-05-16T16:27:59+00:00",
+  "generated_at_beijing": "2026-05-17T00:27:59+08:00",
+  "generated_date_beijing": "2026-05-17",
+  "stats": {
+    "total_items": 60,
+    "manual_items": 4,
+    "last30days_items": 0,
+    "github_recent_items": 3,
+    "recent_signal_items": 3,
+    "arxiv_items": 76,
+    "kind_counts": {
+      "community": 3,
+      "industry": 1,
+      "paper": 54,
+      "standard": 1,
+      "translation": 1
+    },
+    "source_counts": {
+      "arXiv": 53,
+      "HFUT Faculty Blog": 3,
+      "Recent GitHub": 3,
+      "China.com": 1
+    }
+  },
   "sources": {
     "papers": "arXiv open metadata API",
+    "last30days": "Recent public discourse, open-source, and market signals via last30days-skill",
     "manual": "Curated industry, media, standards, and lab translation signals"
   },
   "queries": [
@@ -132,6 +156,90 @@
         "情感理解"
       ],
       "relevance_score": 100
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-05-16",
+      "title": "rein98/PsyChat",
+      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "rein98"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/rein98/PsyChat",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-12",
+      "title": "25shivansh/MannMitra",
+      "summary": "Mann Mitra is a Digital Mental Health and Psychological Support System designed for students in higher education institutions. It bridges the gap between technology and emotional wellbeing, offering accessible, inclusive, and affordable mental health support... Recent GitHub repository activity related to AI mental health digital wellbeing, updated within the latest 30-day window. Primary language: TypeScript.",
+      "source": "Recent GitHub",
+      "authors": [
+        "25shivansh"
+      ],
+      "categories": [
+        "GitHub",
+        "TypeScript"
+      ],
+      "url": "https://github.com/25shivansh/MannMitra",
+      "priority": 56,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 89
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-08",
+      "title": "snehakumari16/multimodal-sentiment-analysis-aiot",
+      "summary": "Research prototype combining NLP text sentiment analysis with physiological IoT signals for multimodal emotion classification using affective computing Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Jupyter Notebook.",
+      "source": "Recent GitHub",
+      "authors": [
+        "snehakumari16"
+      ],
+      "categories": [
+        "GitHub",
+        "Jupyter Notebook"
+      ],
+      "url": "https://github.com/snehakumari16/multimodal-sentiment-analysis-aiot",
+      "priority": 56,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 89
     },
     {
       "kind": "paper",
@@ -1516,6 +1624,294 @@
         "情感理解"
       ],
       "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-27",
+      "title": "Psychologically-Grounded Graph Modeling for Interpretable Depression Detection",
+      "summary": "Automatic depression detection from conversational interactions holds significant promise for scalable screening but remains hindered by severe data scarcity and a lack of clinical interpretability. Existing approaches typically rely on black-box deep learning architectures that struggle to model the subtle, temporal evolution of depressive symptoms or account for participant-specific heterogeneity. In this work, we propose...",
+      "source": "arXiv",
+      "authors": [
+        "Rishitej Reddy Vyalla",
+        "Kritarth Prasad",
+        "Avinash Anand",
+        "Erik Cambria",
+        "Shaoxiong Ji",
+        "Faten S. Alamri"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.24126",
+      "priority": 50,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 59
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-04-26",
+      "title": "Modeling Induced Pleasure through Cognitive Appraisal Prediction via Multimodal Fusion",
+      "summary": "Multimodal affective computing analyzes user-generated social media content to predict emotional states. However, a critical gap remains in understanding how visual content shapes cognitive interpretations and elicits specific affective experiences such as pleasure. This study introduces a novel computational model to infer video-induced pleasure via cognitive appraisal variables. The proposed model addresses four challenges:...",
+      "source": "arXiv",
+      "authors": [
+        "Nastaran Dab",
+        "Raziyeh Zall",
+        "Mohammadreza Kangavari"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23753",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-26",
+      "title": "K-SENSE: A Knowledge-Guided Self-Augmented Encoder for Neuro-Semantic Evaluation of Mental Health Conditions on Social Media",
+      "summary": "Early detection of mental health conditions, particularly stress and depression, from social media text remains a challenging open problem in computational psychiatry and natural language processing. Automated systems must contend with figurative language, implicit emotional expression, and the high noise inherent in user-generated content. Existing approaches either leverage external commonsense knowledge to model mental...",
+      "source": "arXiv",
+      "authors": [
+        "Vijay Yadav"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2604.23493",
+      "priority": 50,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 62
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-04-25",
+      "title": "AI Safety Training Can be Clinically Harmful",
+      "summary": "Large language models are being deployed as mental health support agents at scale, yet only 16% of LLM-based chatbot interventions have undergone rigorous clinical efficacy testing, and simulations reveal psychological deterioration in over one-third of cases. We evaluate four generative models on 250 Prolonged Exposure (PE) therapy scenarios and 146 CBT cognitive restructuring exercises (plus 29 severity-escalated variants),...",
+      "source": "arXiv",
+      "authors": [
+        "Suhas BN",
+        "Andrew M. Sherrill",
+        "Rosa I. Arriaga",
+        "Chris W. Wiese",
+        "Saeed Abdullah"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23445",
+      "priority": 50,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment",
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估",
+        "身心支持",
+        "可信评测"
+      ],
+      "relevance_score": 80
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-04-25",
+      "title": "Channel Adaptation for EEG Foundation Models: A Systematic Benchmark Across Architectures, Tasks, and Training Regimes",
+      "summary": "Scaling EEG foundation models requires pooling data across heterogeneous electrode montages, a prerequisite both for larger pretraining corpora and for downstream deployment. We present the first systematic comparison of four channel adaptation methods (Conv1d projection, spherical spline interpolation (SSI), source-space decomposition, and Riemannian re-centering) across five pretrained EEG foundation models (5M--157M...",
+      "source": "arXiv",
+      "authors": [
+        "Kuntal Kokate",
+        "Bruno Aristimunha",
+        "Dung Truong",
+        "Arnaud Delorme"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.23091",
+      "priority": 50,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 74
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-22",
+      "title": "Graph2Counsel: Clinically Grounded Synthetic Counseling Dialogue Generation from Client Psychological Graphs",
+      "summary": "Rising demand for mental health support has increased interest in using Large Language Models (LLMs) for counseling. However, adapting LLMs to this high-risk safety-critical domain is hindered by the scarcity of real-world counseling data due to privacy constraints. Synthetic datasets provide a promising alternative, but existing approaches often rely on unstructured or semi-structured text inputs and overlook structural...",
+      "source": "arXiv",
+      "authors": [
+        "Aishik Mandal",
+        "Hiba Arnaout",
+        "Clarissa W. Ong",
+        "Juliet Bockhorst",
+        "Kate Sheehan",
+        "Rachael Moldow"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.20382",
+      "priority": 50,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment",
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估",
+        "身心支持",
+        "可信评测"
+      ],
+      "relevance_score": 80
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-04-20",
+      "title": "Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective",
+      "summary": "Multimodal affective computing aims to predict humans' sentiment, emotion, intention, and opinion using language, acoustic, and visual modalities. However, current models often learn spurious correlations that harm generalization under distribution shifts or noisy modalities. To address this, we propose a causal modality-invariant representation (CmIR) learning framework for robust multimodal learning. At its core, we...",
+      "source": "arXiv",
+      "authors": [
+        "Sijie Mai",
+        "Shiqin Han"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2604.18460",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-04-20",
+      "title": "FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots with Frozen LLMs",
+      "summary": "Empathy is essential for fostering natural interactions in spoken dialogue systems, as it enables machines to recognize the emotional tone of human speech and deliver empathetic responses. Recent research has made significant progress in developing empathetic spoken chatbots based on large language models (LLMs). However, several challenges still exist when training such models, including reliance on costly empathetic speech...",
+      "source": "arXiv",
+      "authors": [
+        "Yun Hong",
+        "Yan Zhou",
+        "Yang Feng"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.18159",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Empathetic Dialogue",
+      "published": "2026-04-20",
+      "title": "ComPASS: Towards Personalized Agentic Social Support via Tool-Augmented Companionship",
+      "summary": "Developing compassionate interactive systems requires agents to not only understand user emotions but also provide diverse, substantive support. While recent works explore empathetic dialogue generation, they remain limited in response form and content, struggling to satisfy diverse needs across users and contexts. To address this, we explore empowering agents with external tools to execute diverse actions. Grounded in the...",
+      "source": "arXiv",
+      "authors": [
+        "Zhaopei Huang",
+        "Yanfeng Jia",
+        "Jiayi Zhao",
+        "Xinjie Zhang",
+        "Wenxuan Wang",
+        "Qin Jin"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2604.18356",
+      "priority": 50,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Mind-Body Support",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "身心支持",
+        "具身交互"
+      ],
+      "relevance_score": 71
     }
   ]
 }

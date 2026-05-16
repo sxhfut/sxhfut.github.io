@@ -16,13 +16,13 @@ rank: 6
 <div class="summary-band">
   <div><strong>{{ items | size }}</strong><span><span class="lang-en">curated and automatically fetched items</span><span class="lang-zh">条前沿论文与产业动态</span></span></div>
   <div><strong>arXiv</strong><span><span class="lang-en">open paper metadata refreshed by script</span><span class="lang-zh">开放论文元数据自动抓取</span></span></div>
-  <div><strong>Last30Days</strong><span><span class="lang-en">recent community and open-source signals</span><span class="lang-zh">近 30 天社区与开源信号</span></span></div>
-  <div><strong>UTC</strong><span><span class="lang-en">last updated {{ frontier.generated_at | slice: 0, 10 }}</span><span class="lang-zh">最近更新 {{ frontier.generated_at | slice: 0, 10 }}</span></span></div>
+  <div><strong>{{ frontier.stats.recent_signal_items | default: frontier.stats.last30days_items | default: 0 }}</strong><span><span class="lang-en">recent community and open-source signals</span><span class="lang-zh">条近 30 天社区与开源信号</span></span></div>
+  <div><strong>BJT</strong><span><span class="lang-en">last updated {{ frontier.generated_date_beijing | default: frontier.generated_at | slice: 0, 10 }}</span><span class="lang-zh">北京时间更新 {{ frontier.generated_date_beijing | default: frontier.generated_at | slice: 0, 10 }}</span></span></div>
 </div>
 
 <div class="media-note">
   <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">本页如何自动更新</span></h2>
-  <p><span class="lang-en">This page is refreshed by a scheduled GitHub Actions workflow. It fetches open arXiv metadata, enriches selected directions with recent Last30Days community and open-source signals, merges curated industry applications, media reports, and standards updates, then regenerates the page as static content.</span><span class="lang-zh">本页由 GitHub Actions 定时更新：自动抓取开放 arXiv 论文元数据，并用 Last30Days 补充近 30 天社区与开源信号，再合并人工精选的产业应用、媒体报道与标准成果，最终生成静态页面。</span></p>
+  <p><span class="lang-en">This page is refreshed by a scheduled GitHub Actions workflow. It fetches open arXiv metadata, enriches selected directions with recent Last30Days community and open-source signals when usable signals are available, merges curated industry applications, media reports, and standards updates, then regenerates the page as static content.</span><span class="lang-zh">本页由 GitHub Actions 定时更新：自动抓取开放 arXiv 论文元数据；当 Last30Days 在近 30 天内发现可用社区与开源信号时，会同步并入；同时合并人工精选的产业应用、媒体报道与标准成果，最终生成静态页面。</span></p>
   <p><span class="lang-en">The radar is a discovery layer, not a clinical recommendation system. Items should be read as pointers to primary sources.</span><span class="lang-zh">本页是前沿发现层，不是临床或心理咨询建议系统。所有条目都应回到原始来源进一步阅读。</span></p>
 </div>
 

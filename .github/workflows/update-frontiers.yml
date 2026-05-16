@@ -28,14 +28,25 @@ jobs:
       - name: Prepare Last30Days skill
         run: |
           git clone --depth 1 https://github.com/mvanhorn/last30days-skill.git /tmp/last30days-skill || true
+          python -m pip install --upgrade yt-dlp
 
       - name: Fetch frontier metadata
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          SCRAPECREATORS_API_KEY: ${{ secrets.SCRAPECREATORS_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          CT0: ${{ secrets.X_CT0 }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
           LAST30DAYS_SKILL_ROOT: /tmp/last30days-skill/skills/last30days
           LAST30DAYS_MAX_TOPICS: "4"
           LAST30DAYS_ITEMS_PER_TOPIC: "2"
-          LAST30DAYS_SOURCES: reddit,hn,polymarket,github
+          LAST30DAYS_DEPTH: default
+          LAST30DAYS_TIMEOUT: "240"
+          LAST30DAYS_SOURCES: reddit,x,youtube,tiktok,instagram,hackernews,polymarket,github,grounding
         run: python scripts/update_frontiers.py
 
       - name: Commit updated data

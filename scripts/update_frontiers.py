@@ -23,6 +23,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from pathlib import Path
 
 
@@ -43,7 +44,7 @@ LAST30DAYS_DEFAULT_TOPICS = [
     ("Embodied Emotional Intelligence", "embodied emotional intelligence robot emotion"),
     ("Ubiquitous Psychological Computing", "ubiquitous psychological computing psychological assessment"),
 ]
-LAST30DAYS_DEFAULT_SOURCES = "reddit,hn,polymarket,github"
+LAST30DAYS_DEFAULT_SOURCES = "reddit,x,youtube,tiktok,instagram,hackernews,polymarket,github,grounding"
 
 ARXIV_QUERIES = [
     {
@@ -130,6 +131,23 @@ def fetch_url(url: str, retries: int = 3) -> bytes:
             if attempt < retries:
                 time.sleep(8 * attempt)
     raise RuntimeError(f"Unable to fetch {url}: {last_error}") from last_error
+
+
+def fetch_json(url: str, headers: dict[str, str] | None = None, retries: int = 2) -> dict:
+    request_headers = {"User-Agent": USER_AGENT, "Accept": "application/vnd.github+json"}
+    if headers:
+        request_headers.update(headers)
+    request = urllib.request.Request(url, headers=request_headers)
+    last_error: Exception | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (urllib.error.URLError, TimeoutError, socket.timeout, json.JSONDecodeError) as error:
+            last_error = error
+            if attempt < retries:
+                time.sleep(5 * attempt)
+    raise RuntimeError(f"Unable to fetch JSON {url}: {last_error}") from last_error
 
 
 def clean_text(value: str | None) -> str:
@@ -327,9 +345,20 @@ def fetch_last30days_items() -> list[dict]:
     python = os.getenv("LAST30DAYS_PYTHON") or sys.executable
     sources_flag = os.getenv("LAST30DAYS_SOURCES", LAST30DAYS_DEFAULT_SOURCES)
     sources = [source.strip() for source in sources_flag.split(",") if source.strip()]
+    web_backend = os.getenv("LAST30DAYS_WEB_BACKEND", "").strip().lower()
+    if not web_backend:
+        web_backend = (
+            "auto"
+            if any(
+                os.getenv(name)
+                for name in ("BRAVE_API_KEY", "EXA_API_KEY", "SERPER_API_KEY", "PARALLEL_API_KEY")
+            )
+            else "none"
+        )
     max_topics = parse_int_env("LAST30DAYS_MAX_TOPICS", 4)
     per_topic = parse_int_env("LAST30DAYS_ITEMS_PER_TOPIC", 2)
     timeout = parse_int_env("LAST30DAYS_TIMEOUT", 180)
+    depth = os.getenv("LAST30DAYS_DEPTH", "default").strip().lower()
     use_mock = parse_bool_env("LAST30DAYS_MOCK")
     items: list[dict] = []
 
@@ -342,17 +371,20 @@ def fetch_last30days_items() -> list[dict]:
             python,
             str(skill_root / "scripts" / "last30days.py"),
             "--emit=json",
-            "--quick",
             "--days",
             "30",
             "--search",
             sources_flag,
             "--web-backend",
-            "none",
+            web_backend,
             "--plan",
             plan_path,
             topic,
         ]
+        if depth == "quick":
+            command.insert(3, "--quick")
+        elif depth == "deep":
+            command.insert(3, "--deep")
         if use_mock:
             command.insert(2, "--mock")
         try:
@@ -393,6 +425,77 @@ def fetch_last30days_items() -> list[dict]:
             if added_for_topic >= per_topic:
                 break
         print(f"Last30Days: added {added_for_topic} items for {topic}.")
+
+    return items
+
+
+def fetch_github_recent_items() -> list[dict]:
+    if parse_bool_env("GITHUB_RECENT_DISABLE"):
+        print("GitHub recent signals: disabled by GITHUB_RECENT_DISABLE.")
+        return []
+
+    max_topics = parse_int_env("GITHUB_RECENT_MAX_TOPICS", parse_int_env("LAST30DAYS_MAX_TOPICS", 4))
+    per_topic = parse_int_env("GITHUB_RECENT_ITEMS_PER_TOPIC", 1)
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).date().isoformat()
+    token = os.getenv("GITHUB_TOKEN", "").strip()
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+    items: list[dict] = []
+
+    for track, topic in last30days_topics()[:max_topics]:
+        query = f"{topic} pushed:>={since}"
+        params = urllib.parse.urlencode(
+            {
+                "q": query,
+                "sort": "updated",
+                "order": "desc",
+                "per_page": min(max(per_topic * 3, 3), 10),
+            }
+        )
+        url = f"https://api.github.com/search/repositories?{params}"
+        try:
+            payload = fetch_json(url, headers=headers)
+        except RuntimeError as error:
+            print(f"GitHub recent signals: skipped {topic} after fetch failure: {error}")
+            continue
+
+        added_for_topic = 0
+        for repo in payload.get("items", []):
+            title = clean_text(repo.get("full_name"))
+            repo_url = clean_text(repo.get("html_url"))
+            if not title or not repo_url:
+                continue
+            description = clean_text(repo.get("description") or "")
+            language = clean_text(repo.get("language") or "")
+            stars = int(repo.get("stargazers_count") or 0)
+            pushed = iso_date(repo.get("pushed_at"))
+            summary_bits = []
+            if description:
+                summary_bits.append(summarize(description, 260))
+            summary_bits.append(
+                f"Recent GitHub repository activity related to {topic}, updated within the latest 30-day window."
+            )
+            if language:
+                summary_bits.append(f"Primary language: {language}.")
+            items.append(
+                enrich_item(
+                    {
+                        "kind": "community",
+                        "track": track,
+                        "published": pushed or since,
+                        "title": title,
+                        "summary": " ".join(summary_bits),
+                        "source": "Recent GitHub",
+                        "authors": [clean_text(repo.get("owner", {}).get("login"))],
+                        "categories": [value for value in ("GitHub", language) if value],
+                        "url": repo_url,
+                        "priority": min(72, 56 + min(stars, 80) // 10),
+                    }
+                )
+            )
+            added_for_topic += 1
+            if added_for_topic >= per_topic:
+                break
+        print(f"GitHub recent signals: added {added_for_topic} items for {topic}.")
 
     return items
 
@@ -547,14 +650,33 @@ def main() -> None:
     existing_items = load_existing_items()
     manual_items = [enrich_item(item) for item in load_manual_items()]
     last30days_items = fetch_last30days_items()
+    github_recent_items = fetch_github_recent_items() if not last30days_items else []
     arxiv_items = [enrich_item(item) for item in fetch_arxiv_items(existing_items)]
 
-    merged = dedupe_items(manual_items + last30days_items + arxiv_items)
+    recent_signal_items = last30days_items + github_recent_items
+    merged = dedupe_items(manual_items + recent_signal_items + arxiv_items)
     merged.sort(key=item_sort_key, reverse=True)
     merged = merged[:MAX_ITEMS]
 
+    now_utc = dt.datetime.now(dt.timezone.utc)
+    now_beijing = now_utc.astimezone(dt.timezone(dt.timedelta(hours=8)))
+    kind_counts = Counter(str(item.get("kind") or "unknown") for item in merged)
+    source_counts = Counter(str(item.get("source") or "unknown") for item in merged)
+
     payload = {
-        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "generated_at": now_utc.isoformat(timespec="seconds"),
+        "generated_at_beijing": now_beijing.isoformat(timespec="seconds"),
+        "generated_date_beijing": now_beijing.date().isoformat(),
+        "stats": {
+            "total_items": len(merged),
+            "manual_items": len(manual_items),
+            "last30days_items": len(last30days_items),
+            "github_recent_items": len(github_recent_items),
+            "recent_signal_items": len(recent_signal_items),
+            "arxiv_items": len(arxiv_items),
+            "kind_counts": dict(sorted(kind_counts.items())),
+            "source_counts": dict(source_counts.most_common()),
+        },
         "sources": {
             "papers": "arXiv open metadata API",
             "last30days": "Recent public discourse, open-source, and market signals via last30days-skill",
