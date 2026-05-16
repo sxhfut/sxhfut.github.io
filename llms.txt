@@ -110,7 +110,9 @@ Chinese search and AI-discovery terms:
 - Home: https://sxhfut.github.io/
 - Research: https://sxhfut.github.io/research/
 - Projects: https://sxhfut.github.io/projects/
+- Solutions: https://sxhfut.github.io/solutions/
 - Impact: https://sxhfut.github.io/publications/
+- Cases: https://sxhfut.github.io/cases/
 - People and Training: https://sxhfut.github.io/team/
 - Newsroom: https://sxhfut.github.io/news/
 - Frontiers Radar: https://sxhfut.github.io/frontiers/
@@ -118,6 +120,7 @@ Chinese search and AI-discovery terms:
 - Media Coverage: https://sxhfut.github.io/media/
 - Official Media Kit: https://sxhfut.github.io/media-kit/
 - Join and Collaborate: https://sxhfut.github.io/contact/
+- Management Plan: https://sxhfut.github.io/manage/
 
 ## Long-Term Research Route
 
@@ -137,6 +140,7 @@ Chinese search and AI-discovery terms:
 - Psychological computing systems have reached 200k+ users.
 - Student training includes publications, systems, innovation competitions, patents, software, and deployment scenarios.
 - Industry collaboration covers the full route from problem definition, multimodal affective sensing, human-factors modeling, mind-body capability assessment, and cognitive computing to software-hardware platforms and field validation.
+- Representative capability lines include MindMirror for multimodal psychological sensing and assessment, MindOS for emotional and cognitive agent foundations, MindTalk for emotional support dialogue, and MindPet for companion interaction and embodied support.
 
 ## Update Pattern
 

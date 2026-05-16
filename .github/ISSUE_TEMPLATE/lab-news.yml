@@ -1,0 +1,49 @@
+name: Lab News Update
+description: Submit a public MAC-Lab news item for review.
+title: "[News] "
+labels: ["content", "news"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: Use YYYY-MM-DD.
+      placeholder: "2026-05-16"
+    validations:
+      required: true
+  - type: input
+    id: title_en
+    attributes:
+      label: English title
+    validations:
+      required: true
+  - type: input
+    id: title_zh
+    attributes:
+      label: Chinese title
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Public summary
+      description: Keep it public-safe. Do not include unpublished data, private partner details, or sensitive technical information.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source links or evidence
+      description: Add official links, publication DOI, award notice, or internal public-release evidence.
+    validations:
+      required: true
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: Sensitivity level
+      options:
+        - Public
+        - Public after wording review
+        - Needs PI approval before publication
+    validations:
+      required: true

@@ -1,0 +1,89 @@
+backend:
+  name: github
+  repo: sxhfut/sxhfut.github.io
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+site_url: "https://sxhfut.github.io"
+display_url: "https://sxhfut.github.io"
+logo_url: "/favicon.svg"
+
+collections:
+  - name: "pages"
+    label: "Public Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "index.html"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Body Class", name: "body_class", widget: "hidden", default: "home" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Solutions"
+        name: "solutions"
+        file: "_pages/solutions/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Chinese Title", name: "title_zh", widget: "string" }
+          - { label: "English Description", name: "description", widget: "text" }
+          - { label: "Chinese Description", name: "description_zh", widget: "text" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/solutions/" }
+          - { label: "Show In Navigation", name: "toggle", widget: "hidden", default: true }
+          - { label: "Rank", name: "rank", widget: "hidden", default: 2.5 }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Cases"
+        name: "cases"
+        file: "_pages/cases/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Chinese Title", name: "title_zh", widget: "string" }
+          - { label: "English Description", name: "description", widget: "text" }
+          - { label: "Chinese Description", name: "description_zh", widget: "text" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/cases/" }
+          - { label: "Show In Navigation", name: "toggle", widget: "hidden", default: true }
+          - { label: "Rank", name: "rank", widget: "hidden", default: 3.5 }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "News"
+        name: "news"
+        file: "_pages/news/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Chinese Title", name: "title_zh", widget: "string" }
+          - { label: "English Description", name: "description", widget: "text" }
+          - { label: "Chinese Description", name: "description_zh", widget: "text" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/news/" }
+          - { label: "Show In Navigation", name: "toggle", widget: "hidden", default: true }
+          - { label: "Rank", name: "rank", widget: "hidden", default: 5 }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Join"
+        name: "contact"
+        file: "_pages/contact/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Chinese Title", name: "title_zh", widget: "string" }
+          - { label: "English Description", name: "description", widget: "text" }
+          - { label: "Chinese Description", name: "description_zh", widget: "text" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contact/" }
+          - { label: "Show In Navigation", name: "toggle", widget: "hidden", default: true }
+          - { label: "Rank", name: "rank", widget: "hidden", default: 8 }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Admin Plan"
+        name: "manage"
+        file: "_pages/manage/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Chinese Title", name: "title_zh", widget: "string" }
+          - { label: "English Description", name: "description", widget: "text" }
+          - { label: "Chinese Description", name: "description_zh", widget: "text" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/manage/" }
+          - { label: "Show In Navigation", name: "toggle", widget: "hidden", default: false }
+          - { label: "Rank", name: "rank", widget: "hidden", default: 9.5 }
+          - { label: "Body", name: "body", widget: "markdown" }

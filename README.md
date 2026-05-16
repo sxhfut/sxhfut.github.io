@@ -17,12 +17,15 @@ The site presents MAC-Lab as a research platform that connects high-level public
 
 - `Research`: core directions, long-term research route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.
 - `Projects`: national and major projects, applied platforms, MindOS, MindMirror, MindCare, smart cockpit, and child-development support.
+- `Solutions`: scenario-oriented solution routes for affective computing, human factors, psychological computing, cognitive computing, and deployable software-hardware platforms.
+- `Cases`: public-safe capability cases around MindMirror, MindOS, MindTalk, MindPet, and related platform lines.
 - `Impact`: representative publications, international challenges, patents, software, awards, standards, and real-world impact.
 - `People`: student training, competition outcomes, team culture, and public student information.
 - `News`: MAC-Lab newsroom for lab updates, public releases, and media coverage.
 - `Frontiers`: automatically refreshed AI + psychology and affective-computing frontier radar.
 - `Media`: curated public coverage of Professor Xiao Sun and MAC-Lab.
 - `Join`: admissions and collaboration information for undergraduates, graduate students, academic PhD students, engineering doctoral students, and partners.
+- `Manage`: internal-facing explanation of the GitHub-supported content-management route.
 
 ## Content Workflow
 
@@ -35,11 +38,42 @@ Search and AI discovery files:
 - `llms.txt`: concise Markdown summary for LLM-oriented retrieval and answer engines.
 - `_data/staged_updates.yml`: homepage update stream for staged research, media, platform, and frontier-refresh signals.
 
-Planned editing model:
+Editing model:
 
-- Public news and lab updates can be moved into structured data or Markdown collections for CMS-style editing.
+- Public page updates can be edited through Markdown/HTML files or the `/admin/` Decap CMS scaffold after GitHub OAuth is configured.
+- Public news, cases, and frontier suggestions can be collected through GitHub Issue Forms and reviewed before publication.
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
-- A future `/admin/` workflow can support easier content entry while keeping the public site fast and stable.
+- Sensitive internal information, unpublished technical details, raw data, partner contracts, student records, and private management work should not be stored in this public GitHub Pages repository.
+
+## Content Admin
+
+The repository includes a lightweight static-CMS scaffold:
+
+```text
+admin/index.html
+admin/config.yml
+```
+
+The public admin entry is:
+
+```text
+https://sxhfut.github.io/admin/
+```
+
+Important notes:
+
+- The admin UI is public, but editing requires GitHub authentication and repository permission once OAuth is configured.
+- Decap CMS with the GitHub backend needs a GitHub OAuth provider or compatible auth proxy before live editing works on GitHub Pages.
+- Local CMS testing can be enabled temporarily with Decap's local backend server, but the committed config is oriented toward GitHub-authenticated editing.
+- The CMS is intentionally limited to public-facing pages. It is not a private lab-management database.
+
+GitHub Issue Forms are also available for structured content intake:
+
+- Lab news updates
+- Capability case updates
+- Frontier radar item suggestions
+
+This keeps submissions reviewable, versioned, and public-safe before they become website content.
 
 ## Website Analytics
 

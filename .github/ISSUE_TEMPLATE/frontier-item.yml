@@ -1,0 +1,47 @@
+name: Frontier Radar Item
+description: Suggest a paper, industry signal, standard, or public report for the frontier radar.
+title: "[Frontier] "
+labels: ["content", "frontier"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Item type
+      options:
+        - Paper
+        - Industry
+        - Application
+        - Standard
+        - Media
+        - Open-source signal
+    validations:
+      required: true
+  - type: dropdown
+    id: track
+    attributes:
+      label: MAC-Lab track
+      options:
+        - Ubiquitous Psychological Computing
+        - Embodied Emotional Intelligence
+        - Affective NLP
+        - Multimodal Affective Computing
+        - AI for Mind-Body Health
+        - Smart Cockpit and Human Factors
+        - Digital Human or Robot
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: Explain why this item is useful for MAC-Lab's research, solutions, or public communication.
+    validations:
+      required: true

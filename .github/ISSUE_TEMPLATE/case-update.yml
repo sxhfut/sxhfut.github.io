@@ -1,0 +1,52 @@
+name: Capability Case Update
+description: Submit a public-safe capability case or solution update.
+title: "[Case] "
+labels: ["content", "case"]
+body:
+  - type: dropdown
+    id: case_family
+    attributes:
+      label: Case family
+      options:
+        - MindMirror
+        - MindOS
+        - MindTalk
+        - MindPet
+        - Smart Cockpit
+        - Healthy Living
+        - Education or Campus Mental Health
+        - Public Safety or Mission-Oriented Human Factors
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: public_value
+    attributes:
+      label: Public value
+      description: What can be said publicly about the capability, scenario, or partner value?
+    validations:
+      required: true
+  - type: textarea
+    id: protected_details
+    attributes:
+      label: Details that must not be published
+      description: List partner names, data, deployment architecture, model details, or internal methods that should stay private.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or proof point
+      description: Add public links, award notices, publications, patents, standards, demos, or approved claims.
+    validations:
+      required: true
+  - type: dropdown
+    id: approval
+    attributes:
+      label: Approval status
+      options:
+        - Public-safe draft
+        - Needs wording review
+        - Needs PI approval
+    validations:
+      required: true
