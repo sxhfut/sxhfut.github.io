@@ -28,6 +28,15 @@
     return config;
   }
 
+  function getPartialConfig() {
+    const runtimeConfig = window.MACLAB_CONSOLE_CONFIG || {};
+    const localConfig = JSON.parse(localStorage.getItem("maclab_console_config") || "{}");
+    return {
+      supabaseUrl: runtimeConfig.supabaseUrl || localConfig.supabaseUrl || "",
+      supabaseAnonKey: runtimeConfig.supabaseAnonKey || localConfig.supabaseAnonKey || ""
+    };
+  }
+
   function showStatus(message, type) {
     statusBanner.hidden = false;
     statusBanner.textContent = message;
@@ -54,6 +63,12 @@
     const config = getConfig();
     if (!config) {
       setupPanel.hidden = false;
+      const partial = getPartialConfig();
+      const form = $("#setupForm");
+      if (form) {
+        form.url.value = partial.supabaseUrl;
+        form.anonKey.value = partial.supabaseAnonKey;
+      }
       authPanel.hidden = true;
       appPanel.hidden = true;
       return;
