@@ -1,36 +1,35 @@
 {
-  "generated_at": "2026-05-19T23:15:50+00:00",
-  "generated_at_beijing": "2026-05-20T07:15:50+08:00",
+  "generated_at": "2026-05-19T23:39:51+00:00",
+  "generated_at_beijing": "2026-05-20T07:39:51+08:00",
   "generated_date_beijing": "2026-05-20",
   "stats": {
     "total_items": 60,
     "manual_items": 4,
-    "last30days_items": 7,
-    "last30days_reused_items": 7,
-    "github_recent_items": 3,
-    "recent_signal_items": 10,
+    "last30days_items": 8,
+    "last30days_reused_items": 0,
+    "github_recent_items": 0,
+    "recent_signal_items": 8,
     "rss_items": 24,
     "arxiv_items": 81,
     "kind_counts": {
-      "community": 7,
+      "community": 4,
       "industry": 19,
-      "paper": 32,
+      "paper": 35,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 31,
+      "arXiv": 34,
       "RSS · Google News": 8,
-      "Recent GitHub": 3,
+      "Last30Days · Hacker News": 3,
       "HFUT Faculty Blog": 3,
       "RSS · MIT News AI": 2,
       "RSS · OpenAI News": 2,
       "RSS · Hugging Face Blog": 2,
-      "Last30Days · Hacker News": 2,
       "RSS · Microsoft Research": 2,
-      "Last30Days · GitHub": 2,
       "RSS · Google 新闻": 1,
       "RSS · Google AI": 1,
+      "Last30Days · GitHub": 1,
       "China.com": 1
     }
   },
@@ -175,34 +174,6 @@
         "AI + Psychology"
       ],
       "relevance_score": 75
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-05-19",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "rein98"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/rein98/PsyChat",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
     },
     {
       "kind": "industry",
@@ -1012,6 +983,32 @@
       "relevance_score": 82
     },
     {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-13",
+      "title": "I don't use any of my SaaS AI tools. Here's what I built instead with MCPs",
+      "summary": "I don't use any of my SaaS AI tools. Here's what I built instead with MCPs Last30Days signal for affective computing emotion AI, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "realsharkymark",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://twitter.com/sharkymark123/status/2053154200679600617",
+      "priority": 55,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "industry",
       "track": "AI Research",
       "published": "2026-05-13",
@@ -1159,34 +1156,6 @@
         "具身交互"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-12",
-      "title": "25shivansh/MannMitra",
-      "summary": "Mann Mitra is a Digital Mental Health and Psychological Support System designed for students in higher education institutions. It bridges the gap between technology and emotional wellbeing, offering accessible, inclusive, and affordable mental health support... Recent GitHub repository activity related to AI mental health digital wellbeing, updated within the latest 30-day window. Primary language: TypeScript.",
-      "source": "Recent GitHub",
-      "authors": [
-        "25shivansh"
-      ],
-      "categories": [
-        "GitHub",
-        "TypeScript"
-      ],
-      "url": "https://github.com/25shivansh/MannMitra",
-      "priority": 56,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 89
     },
     {
       "kind": "industry",
@@ -1499,32 +1468,6 @@
     },
     {
       "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-05-10",
-      "title": "📰 Hacker News AI Digest 2026-05-10",
-      "summary": "# Hacker News AI Community Digest 2026-05-10 > Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-05-10 02:38 UTC --- **Hacker News AI Community Digest — 2026-05-10** --- ### 1. **Today's Highlights** Claude dominates today’s HN AI discourse—not as a model ben Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "github-actions[bot]",
-        "wangsehn/agents-radar"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/wangsehn/agents-radar/issues/78",
-      "priority": 55,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "community",
       "track": "Multimodal Affective Computing",
       "published": "2026-05-10",
       "title": "Gemini API File Search is now multimodal",
@@ -1613,34 +1556,6 @@
         "可信评测"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-05-08",
-      "title": "snehakumari16/multimodal-sentiment-analysis-aiot",
-      "summary": "Research prototype combining NLP text sentiment analysis with physiological IoT signals for multimodal emotion classification using affective computing Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Jupyter Notebook.",
-      "source": "Recent GitHub",
-      "authors": [
-        "snehakumari16"
-      ],
-      "categories": [
-        "GitHub",
-        "Jupyter Notebook"
-      ],
-      "url": "https://github.com/snehakumari16/multimodal-sentiment-analysis-aiot",
-      "priority": 56,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 89
     },
     {
       "kind": "paper",
@@ -1733,6 +1648,101 @@
         "情感理解"
       ],
       "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-05-07",
+      "title": "AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition",
+      "summary": "Open-Vocabulary Multimodal Emotion Recognition (OV-MER) aims to predict emotions without being constrained by predefined label spaces, thereby enabling fine-grained emotion understanding. Unlike traditional discriminative methods, OV-MER leverages generative models to capture the full spectrum of emotions and employs emotion wheels (EWs) for metric calculation. Previous approaches primarily rely on token-level loss during...",
+      "source": "arXiv",
+      "authors": [
+        "Zheng Lian",
+        "Fan Zhang",
+        "Lan Chen",
+        "Yazhou Zhang",
+        "Rui Liu",
+        "Jinyang Wu"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2605.06126",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-07",
+      "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+      "summary": "Progress in embodied intelligence increasingly depends on scalable data infrastructure. While vision and language have scaled with internet corpora, learning physical interaction remains constrained by the lack of large, diverse, and richly annotated human activity data. We present HumanNet, a one-million-hour human-centric video corpus that captures how humans interact with the physical world at scale. HumanNet spans both...",
+      "source": "arXiv",
+      "authors": [
+        "Yufan Deng",
+        "Daquan Zhou"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "http://arxiv.org/abs/2605.06747",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "具身交互"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-06",
+      "title": "IntenBot: Flexible and Imprecise Multimodal Input for LLMs to Understand User Intentions for Casual and Human-Like HRI",
+      "summary": "In natural human-to-human communication, multimodal user input is typically used to supplement explicit and complement implicit voice commands, with casualness allowing for flexible input modality combinations and tolerance for imprecise input data. For example, saying \"I want that.\" with a casual glance at a bottle of water is clear enough in human-to-human communication as an implicit voice command accompanied by gaze...",
+      "source": "arXiv",
+      "authors": [
+        "Yen-Ting Liu",
+        "Chiu-Hsuan Wang",
+        "TzuLing Chen",
+        "Ting-Ying Lee",
+        "Tzu-Hua Wang",
+        "Chien-Ming Lin"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2605.04585",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "具身交互"
+      ],
+      "relevance_score": 71
     },
     {
       "kind": "industry",
