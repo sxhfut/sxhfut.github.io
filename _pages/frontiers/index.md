@@ -56,7 +56,8 @@ rank: 6
   <div class="frontier-latest__head">
     <span><span class="lang-en">Latest Updates</span><span class="lang-zh">最新抓取</span></span>
     <h2 id="frontier-latest-title"><span class="lang-en">Fresh signals from the latest scheduled run.</span><span class="lang-zh">让最近一次定时采集先被看见。</span></h2>
-    <p><span class="lang-en">The full archive remains searchable below; this strip surfaces the newest open papers, RSS signals, and Last30Days community items so daily updates are visible at a glance.</span><span class="lang-zh">完整归档仍在下方检索；这里优先展示最新开放论文、RSS 信号与 Last30Days 社区条目，让每日更新一眼可见。</span></p>
+    <p><span class="lang-en">This strip intentionally shows only the newest four signals. The full archive below contains {{ items | size }} items, with search, filters, and pagination.</span><span class="lang-zh">这里有意只展示最新 4 条信号；下方完整归档共 {{ items | size }} 条，支持搜索、筛选和分页。</span></p>
+    <a class="frontier-latest__jump" href="#frontier-archive"><span class="lang-en">View the full archive</span><span class="lang-zh">查看全部 {{ items | size }} 条</span></a>
   </div>
   <div class="frontier-latest__grid">
     {% for item in items limit:4 %}
@@ -68,6 +69,11 @@ rank: 6
     {% endfor %}
   </div>
 </section>
+
+<div class="frontier-archive-heading" id="frontier-archive">
+  <span><span class="lang-en">Full Archive</span><span class="lang-zh">完整归档</span></span>
+  <h2><span class="lang-en">Search and page through every radar item.</span><span class="lang-zh">所有前沿条目都在这里分页浏览。</span></h2>
+</div>
 
 <div class="frontier-toolbar" aria-label="Frontier filters">
   <button type="button" data-frontier-filter="all"><span class="lang-en">All</span><span class="lang-zh">全部</span></button>

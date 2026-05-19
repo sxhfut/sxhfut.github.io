@@ -1286,6 +1286,24 @@ h3 {
   font-size: 15px;
 }
 
+.frontier-latest__jump {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  margin-top: 12px;
+  padding: 0 16px;
+  border: 1px solid var(--navy);
+  border-radius: 8px;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.frontier-latest__jump:hover {
+  color: #fff;
+  background: var(--navy);
+}
+
 .frontier-latest__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1338,6 +1356,26 @@ h3 {
 .frontier-list {
   display: grid;
   gap: 14px;
+}
+
+.frontier-archive-heading {
+  margin: 32px 0 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.frontier-archive-heading > span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.frontier-archive-heading h2 {
+  max-width: 820px;
+  margin: 10px 0 0;
+  font-size: clamp(26px, 3.2vw, 44px);
 }
 
 .frontier-card {

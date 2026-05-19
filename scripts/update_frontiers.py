@@ -960,11 +960,30 @@ def item_sort_key(item: dict) -> tuple[str, int, int]:
     )
 
 
+def existing_last30days_items(existing_items: list[dict]) -> list[dict]:
+    items: list[dict] = []
+    for item in existing_items:
+        source = str(item.get("source") or "")
+        if source.startswith("Last30Days"):
+            items.append(item)
+    return items
+
+
 def main() -> None:
     existing_items = load_existing_items()
     manual_items = [enrich_item(item) for item in load_manual_items()]
-    last30days_items = fetch_last30days_items()
-    github_recent_items = fetch_github_recent_items() if not last30days_items else []
+    fetched_last30days_items = fetch_last30days_items()
+    reused_last30days_items: list[dict] = []
+    if fetched_last30days_items:
+        last30days_items = fetched_last30days_items
+    else:
+        reused_last30days_items = existing_last30days_items(existing_items)
+        last30days_items = reused_last30days_items
+        if reused_last30days_items:
+            print(
+                f"Last30Days: reused {len(reused_last30days_items)} existing items after an empty run."
+            )
+    github_recent_items = fetch_github_recent_items() if not fetched_last30days_items else []
     rss_items = fetch_rss_items()
     arxiv_items = [enrich_item(item) for item in fetch_arxiv_items(existing_items)]
 
@@ -989,6 +1008,7 @@ def main() -> None:
             "total_items": len(merged),
             "manual_items": len(manual_items),
             "last30days_items": len(last30days_items),
+            "last30days_reused_items": len(reused_last30days_items),
             "github_recent_items": len(github_recent_items),
             "recent_signal_items": len(recent_signal_items),
             "rss_items": len(rss_items),
