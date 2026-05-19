@@ -1251,6 +1251,90 @@ h3 {
   font-size: 14px;
 }
 
+.frontier-latest {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.42fr) minmax(0, 1fr);
+  gap: 0;
+  margin: 34px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.frontier-latest__head {
+  padding: clamp(24px, 3vw, 34px);
+  border-right: 1px solid var(--line);
+  background: #f7fafb;
+}
+
+.frontier-latest__head > span {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.frontier-latest__head h2 {
+  margin: 14px 0 12px;
+  font-size: clamp(24px, 2.6vw, 34px);
+}
+
+.frontier-latest__head p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.frontier-latest__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.frontier-latest__item {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-height: 178px;
+  padding: 24px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.frontier-latest__item:nth-child(2n) {
+  border-right: 0;
+}
+
+.frontier-latest__item:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.frontier-latest__item:hover {
+  color: var(--navy);
+  background: #f3f7fb;
+}
+
+.frontier-latest__item time {
+  color: var(--blue);
+  font-size: 15px;
+  font-weight: 850;
+}
+
+.frontier-latest__item strong {
+  color: var(--navy);
+  font-size: clamp(18px, 2vw, 23px);
+  line-height: 1.25;
+}
+
+.frontier-latest__item > span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .frontier-list {
   display: grid;
   gap: 14px;
@@ -3959,6 +4043,25 @@ body {
   .frontier-toolbar label,
   .frontier-results {
     grid-template-columns: 1fr;
+  }
+
+  .frontier-latest,
+  .frontier-latest__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .frontier-latest__head,
+  .frontier-latest__item {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .frontier-latest__item:nth-last-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .frontier-latest__item:last-child {
+    border-bottom: 0;
   }
 
   .frontier-results {

@@ -52,6 +52,23 @@ rank: 6
   </div>
 </div>
 
+<section class="frontier-latest" aria-labelledby="frontier-latest-title">
+  <div class="frontier-latest__head">
+    <span><span class="lang-en">Latest Updates</span><span class="lang-zh">最新抓取</span></span>
+    <h2 id="frontier-latest-title"><span class="lang-en">Fresh signals from the latest scheduled run.</span><span class="lang-zh">让最近一次定时采集先被看见。</span></h2>
+    <p><span class="lang-en">The full archive remains searchable below; this strip surfaces the newest open papers, RSS signals, and Last30Days community items so daily updates are visible at a glance.</span><span class="lang-zh">完整归档仍在下方检索；这里优先展示最新开放论文、RSS 信号与 Last30Days 社区条目，让每日更新一眼可见。</span></p>
+  </div>
+  <div class="frontier-latest__grid">
+    {% for item in items limit:4 %}
+      <a class="frontier-latest__item" href="{{ item.url }}">
+        <time>{{ item.published }}</time>
+        <strong><span class="lang-en">{{ item.title }}</span><span class="lang-zh">{{ item.title_zh | default: item.title }}</span></strong>
+        <span>{{ item.kind | upcase }} · {{ item.track }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
 <div class="frontier-toolbar" aria-label="Frontier filters">
   <button type="button" data-frontier-filter="all"><span class="lang-en">All</span><span class="lang-zh">全部</span></button>
   <button type="button" data-frontier-filter="paper"><span class="lang-en">Papers</span><span class="lang-zh">论文</span></button>
@@ -69,7 +86,7 @@ rank: 6
 
 <div class="frontier-results" aria-live="polite">
   <p data-frontier-count></p>
-  <span><span class="lang-en">Newest and highest-relevance items are shown first. Use filters and search to narrow the radar as the archive grows.</span><span class="lang-zh">默认优先显示最新且相关度高的条目。随着归档增长，可通过筛选与搜索快速收敛到具体方向。</span></span>
+  <span><span class="lang-en">The archive is ordered by recency first, then MAC-Lab relevance. Use filters and search to narrow the radar as it grows.</span><span class="lang-zh">归档默认按时间优先、实验室相关度辅助排序。随着内容增长，可通过筛选与搜索快速收敛到具体方向。</span></span>
 </div>
 
 <div class="frontier-list">

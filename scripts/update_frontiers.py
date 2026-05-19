@@ -948,8 +948,16 @@ def dedupe_items(items: list[dict]) -> list[dict]:
     return deduped
 
 
-def item_sort_key(item: dict) -> tuple[str, int]:
-    return (f"{int(item.get('priority', 0)):03d}", item.get("published", ""))
+def item_key(item: dict) -> str:
+    return re.sub(r"v\d+$", "", item.get("url") or item.get("title", ""))
+
+
+def item_sort_key(item: dict) -> tuple[str, int, int]:
+    return (
+        item.get("published", ""),
+        int(item.get("priority", 0)),
+        int(item.get("relevance_score", 0)),
+    )
 
 
 def main() -> None:
@@ -962,8 +970,11 @@ def main() -> None:
 
     recent_signal_items = last30days_items + github_recent_items
     merged = dedupe_items(manual_items + recent_signal_items + rss_items + arxiv_items)
+    manual_keys = {item_key(item) for item in manual_items}
     merged.sort(key=item_sort_key, reverse=True)
-    merged = merged[:MAX_ITEMS]
+    pinned_manual = [item for item in merged if item_key(item) in manual_keys]
+    recent_items = [item for item in merged if item_key(item) not in manual_keys]
+    merged = recent_items[: max(0, MAX_ITEMS - len(pinned_manual))] + pinned_manual
 
     now_utc = dt.datetime.now(dt.timezone.utc)
     now_beijing = now_utc.astimezone(dt.timezone(dt.timedelta(hours=8)))
