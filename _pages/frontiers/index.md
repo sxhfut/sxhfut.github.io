@@ -95,6 +95,12 @@ rank: 6
   <span><span class="lang-en">The archive is ordered by recency first, then MAC-Lab relevance. Use filters and search to narrow the radar as it grows.</span><span class="lang-zh">归档默认按时间优先、实验室相关度辅助排序。随着内容增长，可通过筛选与搜索快速收敛到具体方向。</span></span>
 </div>
 
+<nav class="frontier-pagination frontier-pagination--top" data-frontier-pagination hidden aria-label="Frontier pagination top">
+  <button type="button" data-frontier-prev><span class="lang-en">Previous</span><span class="lang-zh">上一页</span></button>
+  <div class="frontier-pagination__pages" data-frontier-pages></div>
+  <button type="button" data-frontier-next><span class="lang-en">Next</span><span class="lang-zh">下一页</span></button>
+</nav>
+
 <div class="frontier-list">
   {% for item in items %}
     <article class="frontier-card" data-frontier-card data-kind="{{ item.kind | slugify }}" data-search="{{ item.title | append: ' ' | append: item.title_zh | append: ' ' | append: item.summary | append: ' ' | append: item.summary_zh | append: ' ' | append: item.track | downcase | escape }}">
@@ -146,7 +152,7 @@ rank: 6
   <p><span class="lang-en">Try another keyword, switch filters, or check back after the next scheduled update.</span><span class="lang-zh">可以换一个关键词、切换筛选条件，或等待下一次定时更新。</span></p>
 </div>
 
-<nav class="frontier-pagination" data-frontier-pagination hidden aria-label="Frontier pagination">
+<nav class="frontier-pagination frontier-pagination--bottom" data-frontier-pagination hidden aria-label="Frontier pagination bottom">
   <button type="button" data-frontier-prev><span class="lang-en">Previous</span><span class="lang-zh">上一页</span></button>
   <div class="frontier-pagination__pages" data-frontier-pages></div>
   <button type="button" data-frontier-next><span class="lang-en">Next</span><span class="lang-zh">下一页</span></button>
@@ -159,10 +165,10 @@ rank: 6
     var search = document.querySelector("[data-frontier-search]");
     var count = document.querySelector("[data-frontier-count]");
     var empty = document.querySelector("[data-frontier-empty]");
-    var pagination = document.querySelector("[data-frontier-pagination]");
-    var prev = document.querySelector("[data-frontier-prev]");
-    var next = document.querySelector("[data-frontier-next]");
-    var pages = document.querySelector("[data-frontier-pages]");
+    var paginations = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-pagination]"));
+    var prevButtons = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-prev]"));
+    var nextButtons = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-next]"));
+    var pageContainers = Array.prototype.slice.call(document.querySelectorAll("[data-frontier-pages]"));
     var activeFilter = "all";
     var pageSize = 10;
     var currentPage = 1;
@@ -190,39 +196,44 @@ rank: 6
     }
 
     function renderPagination(pageCount) {
-      if (!pagination || !pages) return;
+      if (!paginations.length || !pageContainers.length) return;
 
-      pagination.hidden = pageCount <= 1;
-      pages.innerHTML = "";
-
-      pageNumbers(pageCount).forEach(function (page) {
-        if (typeof page === "string") {
-          var ellipsis = document.createElement("span");
-          ellipsis.textContent = "...";
-          ellipsis.setAttribute("aria-hidden", "true");
-          pages.appendChild(ellipsis);
-          return;
-        }
-
-        var button = document.createElement("button");
-        button.type = "button";
-        button.textContent = page;
-        button.className = page === currentPage ? "is-active" : "";
-        button.setAttribute("aria-label", "Go to page " + page);
-        button.setAttribute("aria-current", page === currentPage ? "page" : "false");
-        button.addEventListener("click", function () {
-          currentPage = page;
-          update(true);
-        });
-        pages.appendChild(button);
+      paginations.forEach(function (pagination) {
+        pagination.hidden = pageCount <= 1;
       });
 
-      if (prev) {
+      pageContainers.forEach(function (pages) {
+        pages.innerHTML = "";
+
+        pageNumbers(pageCount).forEach(function (page) {
+          if (typeof page === "string") {
+            var ellipsis = document.createElement("span");
+            ellipsis.textContent = "...";
+            ellipsis.setAttribute("aria-hidden", "true");
+            pages.appendChild(ellipsis);
+            return;
+          }
+
+          var button = document.createElement("button");
+          button.type = "button";
+          button.textContent = page;
+          button.className = page === currentPage ? "is-active" : "";
+          button.setAttribute("aria-label", "Go to page " + page);
+          button.setAttribute("aria-current", page === currentPage ? "page" : "false");
+          button.addEventListener("click", function () {
+            currentPage = page;
+            update(true);
+          });
+          pages.appendChild(button);
+        });
+      });
+
+      prevButtons.forEach(function (prev) {
         prev.disabled = currentPage <= 1;
-      }
-      if (next) {
+      });
+      nextButtons.forEach(function (next) {
         next.disabled = currentPage >= pageCount;
-      }
+      });
     }
 
     function update(shouldScroll) {
@@ -282,21 +293,21 @@ rank: 6
       });
     }
 
-    if (prev) {
+    prevButtons.forEach(function (prev) {
       prev.addEventListener("click", function () {
         if (currentPage > 1) {
           currentPage -= 1;
           update(true);
         }
       });
-    }
+    });
 
-    if (next) {
+    nextButtons.forEach(function (next) {
       next.addEventListener("click", function () {
         currentPage += 1;
         update(true);
       });
-    }
+    });
 
     update();
   })();
