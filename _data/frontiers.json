@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-20T23:47:52+00:00",
-  "generated_at_beijing": "2026-05-21T07:47:52+08:00",
-  "generated_date_beijing": "2026-05-21",
+  "generated_at": "2026-05-21T23:41:27+00:00",
+  "generated_at_beijing": "2026-05-22T07:41:27+08:00",
+  "generated_date_beijing": "2026-05-22",
   "stats": {
     "total_items": 60,
     "manual_items": 4,
@@ -10,23 +10,23 @@
     "github_recent_items": 0,
     "recent_signal_items": 8,
     "rss_items": 24,
-    "arxiv_items": 79,
+    "arxiv_items": 62,
     "kind_counts": {
       "community": 4,
-      "industry": 18,
-      "paper": 36,
+      "industry": 19,
+      "paper": 35,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 35,
-      "RSS · Google News": 7,
+      "arXiv": 34,
+      "RSS · Google News": 8,
       "Last30Days · Hacker News": 3,
       "HFUT Faculty Blog": 3,
       "RSS · OpenAI News": 2,
+      "RSS · Microsoft Research": 2,
       "RSS · MIT News AI": 2,
       "RSS · Hugging Face Blog": 2,
-      "RSS · Microsoft Research": 2,
       "RSS · Google 新闻": 1,
       "RSS · Google AI": 1,
       "Last30Days · GitHub": 1,
@@ -72,10 +72,10 @@
   "items": [
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-20",
-      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds - Crunchbase News",
-      "summary": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds Crunchbase News",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-21",
+      "title": "Tony Robbins AI mental health startup The Path raises $14.3M - MobiHealthNews",
+      "summary": "Tony Robbins AI mental health startup The Path raises $14.3M MobiHealthNews",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -84,7 +84,33 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPekZhSHpjR0xjVXR6cThjTkN3Z1FJVDFBUy1UbGRYQm1SZjFoMWJDQWRtRTBUU1RkOFgwb2NqbnVpU1pQVkVndlpHa3VPR1BpQWpROWU0NGxxM1ZkMkJPRnQwUUQzNkFVQ3BWX0ZOVnBINHJOSVJxTEVKb0RacEJDVFRRaUNKc0ZTOUwtTVFhUzhOVm5sNGdabGFnQ2U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2ttcVZzYk40ajc3MEFodVZSbXJDeU12b2hvaG12NzRORFJGLWVBSF9RWENhY3pYOEt3Tm12Yzh0ZmkydGotS011RXlZYVQ2LXh4cmRzcGZUdjVOY0RVSm1mbnNiU2o5M25uWmEyQ1ZNVmdaWWdYWGFMQmFtT0hNSWptVDR5MXBKVUxDZUQ4ckRORXJz?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-21",
+      "title": "Embodied AI steps out of the lab but scaling challenges remain - Computer Weekly",
+      "summary": "Embodied AI steps out of the lab but scaling challenges remain Computer Weekly",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS1FwSHJwX3JQeHBSTnZMbWJNWUV0VEM0LVBodjRUZXFGMHF0R25BV0VwM0d3RzNZdFloYmFocUhnV04tNEdrV29GU2FjZWhZdWM3WkF4WVRQTnlSOXduSFpGSk9TRC1abUVGeTRJcFUyWFo5UE9BeHBFcG5IcjdfTVZzM2dVaEFxc01Vd0JpVXlKYnRsMFdPN0VuVjRtVlZjdUhBMm5PTEdnLWh4?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -99,9 +125,9 @@
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-20",
-      "title": "D-Robotics, Spirit AI team up on embodied AI deployment solutions - Gasgoo",
-      "summary": "D-Robotics, Spirit AI team up on embodied AI deployment solutions Gasgoo",
+      "published": "2026-05-21",
+      "title": "Pickett to host Digital Human Trafficking Awareness and Prevention seminar - MyHometownToday.com",
+      "summary": "Pickett to host Digital Human Trafficking Awareness and Prevention seminar MyHometownToday.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -110,7 +136,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZXVSaEVKRTl2VWN5Mk5mcXZBNnFONVpScmFQWkprazZTLW9FWTJnNUo5bEx3TDJoRFFUU2NHUG4zSkVLMGNfMUhNOEFzY0hQQlE5S1BPdU5weXZVYnFmT3ZxRHJONzh4eGtKNW5FM0NybzQ2RmJqblBsUHJmSWNucGltUXhabnA1TXJKQ3JCQXREc3Q2WU1NY2ZHTlhqX0ZXQkFMaXFINUFZZmkwSlk4ZDRNR2E5WjYzbGpHa1VNampfUHJB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTlBPSEhuYmJ1NHpBX1RZZVh5dU9PcElFOE45TlJJaFRRMU40NHkwWnNyTk1WMjRxUEZjdWZLbDlRZlBXYVM2RGV3MmlKSkNMSEsxcWx6REwycU1yX2gtN0RXaE1RZVhJQWJPejkyNXRhS0dzQ1djMDUxVkplWE1rdHZHdXI2Z2Q0b1lBUkNOX3YyYlk4eEh1YWhraVVrTVZXV3R0cTJyNUxPMjJyRGFKVVNWYXoxRGhtc2w3MlFzMW9RRE1yRzVWNjAzR1JDdUJtY1FQc2hsNlNtUQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -120,34 +146,113 @@
       "capability_tags_zh": [
         "具身交互"
       ],
-      "relevance_score": 79
+      "relevance_score": 76
     },
     {
       "kind": "industry",
       "track": "AI + Psychology",
-      "published": "2026-05-20",
-      "title": "威海市立医院携手浙江大学开展AI心理健康进校园公益筛查活动 - 搜狐网",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
+      "published": "2026-05-21",
+      "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy - TechCrunch",
+      "summary": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy TechCrunch",
+      "source": "RSS · Google News",
       "authors": [
-        "Google 新闻"
+        "Google News"
       ],
       "categories": [
         "RSS",
-        "Google 新闻"
+        "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXR2V6MmtrMVRkT05LOEhvN2hmbkp5eXhUN3RlazItcndiZk5LZWtyNzJULUFYc29MMnc3T1ZLS0ZfSzFyZm04elJOcXdoYXk3ZktjUGFn?oc=5",
-      "priority": 57,
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVHlwU2YtcWx2S2dWZzgwRkMzNDJNbnJtZ2VSRm84SERscm1wVXFDLW10Y2JMT29DSlZ1WlFiNG45YkgwN25CS0pfd2FCQUhlclBkb3lTbFVPcmxTVE5QaEk2M2VUMnZhV0thYUYtNjRNLTVZVEdyT2lXaDdVMmxEWnZSazJIQ2cza0tCRllLRm1xNFRkUkxBZXhMcFN3WERlQUxVWHUxMEhJWUlFbDlTQTRERGI?oc=5",
+      "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "AI + Psychology"
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "AI + Psychology"
+        "身心支持"
       ],
-      "relevance_score": 75
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-05-21",
+      "title": "The Path Raises $14.3M to Scale AI Therapy Platform for Mental Wellness - Ventureburn",
+      "summary": "The Path Raises $14.3M to Scale AI Therapy Platform for Mental Wellness Ventureburn",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iZzloSG5JUmp2NHZkN1V2NXdnNVRTQ0RQbWR5b1hSYWJXVDVSVjBpN3pqZktLY2RTSzAyTUF6eFNwN1lfZTJNanlmeDRqYXVsLTBhMjNWRVhXR1U0ZFdSRldrYmJXSWs5ZWhrQms1Yzc1b09JUmowOUdDcXnSAXxBVV95cUxNYmc5aEhuSVJqdjR2ZDdVdjV3ZzVUU0NEUG1keW9YUmFiV1Q1UlYwaTd6amZLS2NkU0swMk1BenhTcDdZX2UyTWp5Zng0amF1bC0wYTIzVkVYV0dVNGRXUkZXa2JiV0lrOWVoa0JrNWM3NW9PSVJqMDlHQ3F5?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-05-21",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/index/adventhealth",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 73
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-05-21",
+      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft...",
+      "source": "RSS · Microsoft Research",
+      "authors": [
+        "Microsoft Research"
+      ],
+      "categories": [
+        "RSS",
+        "Microsoft Research"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "身心支持"
+      ],
+      "relevance_score": 78
     },
     {
       "kind": "industry",
@@ -176,30 +281,29 @@
       "relevance_score": 73
     },
     {
-      "kind": "industry",
-      "track": "AI Research",
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
       "published": "2026-05-20",
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "source": "RSS · OpenAI News",
+      "title": "Building Arabic NLP from the Ground Up: Twenty Years of Lessons, Failures, and Open Problems",
+      "summary": "This paper reflects on twenty years of building NLP resources and research infrastructure for Arabic, a language spoken by hundreds of millions yet historically underserved relative to languages such as English or Chinese. The first decade focused on foundational linguistic infrastructure; the second shifted toward computational social science, social media analysis, and socially oriented applications. Rather than cataloguing...",
+      "source": "arXiv",
       "authors": [
-        "OpenAI News"
+        "Wajdi Zaghouani"
       ],
       "categories": [
-        "RSS",
-        "OpenAI News"
+        "cs.CL"
       ],
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "url": "http://arxiv.org/abs/2605.20786",
+      "priority": 50,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
       "capability_tags": [
-        "AI Research"
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "AI Research"
+        "心理评估"
       ],
-      "relevance_score": 73
+      "relevance_score": 56
     },
     {
       "kind": "industry",
@@ -226,6 +330,33 @@
         "心理评估"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-05-19",
+      "title": "威海市立医院携手浙江大学开展AI心理健康进校园公益筛查活动 - 威海新闻网",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VR05sVkFSdGNjUVpRTVpiRllQakIzSjdjU3ZqTGRBY1RqX2E4M19fVENuV2NEdGFWTGJYeFNqNjRpS3cxTXljcy1hR1laYXR0bU4yUkw3VHFkV1dvaU9kTExuV2xMcEVBSWR0czRn?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
     },
     {
       "kind": "industry",
@@ -444,32 +575,6 @@
         "情感理解"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-18",
-      "title": "Digital Mental Health and Its Discontents: Assumptions About Technology That Create Barriers to Equitable Access - Psychiatry Online",
-      "summary": "Digital Mental Health and Its Discontents: Assumptions About Technology That Create Barriers to Equitable Access Psychiatry Online",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SQS1Wbzk2NDR0XzIzZWx4eTNRa3pfNFNCOWhiZ29NQW5WQ0FLZVhVYmdOZVJDRkZsUkJtVjNMVWVCVHpkQk90UDRPUXN0X1pUSFhNR2U3dGhjVV9lX084VGJwV1BQd3N6LU1YNXJvTHNBcnM?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1062,32 +1167,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-14",
-      "title": "Dangerous Deepfakes and AI Therapy: What Parents Need to Know | Generation AI - AZ Family",
-      "summary": "Dangerous Deepfakes and AI Therapy: What Parents Need to Know | Generation AI AZ Family",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTEJxRHpYX2VqZDUzalNsZHFZMy1temxYZGVVZ0dEa0JBLXE2YlQzOWpPX290RVBtSTg1ZWphRy0yYmkxaXo4OVpvTU1fTTBRaW0xZzRWeU5GY3ROdW9YSmszUjhxeGhNemR1YzBwUjNZRG9sUWxRNnBDNjNjUklDX3h1a1h5QzVjMm5sbk5HTE1wTk9DeDBHeHdVU0YtTGkyZWl4aHJVYnBEV1cySDgw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "paper",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-05-14",
@@ -1230,7 +1309,7 @@
         "Hacker News"
       ],
       "url": "https://twitter.com/sharkymark123/status/2053154200679600617",
-      "priority": 55,
+      "priority": 54,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -1239,33 +1318,7 @@
       "capability_tags_zh": [
         "情感理解"
       ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-05-13",
-      "title": "GridSFM: A new, small foundation model for the electric grid",
-      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health. The post GridSFM: A new, small foundation model for the electric grid appeared first on Microsoft...",
-      "source": "RSS · Microsoft Research",
-      "authors": [
-        "Microsoft Research"
-      ],
-      "categories": [
-        "RSS",
-        "Microsoft Research"
-      ],
-      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
+      "relevance_score": 78
     },
     {
       "kind": "paper",
@@ -1593,7 +1646,7 @@
         "Hacker News"
       ],
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "priority": 54,
+      "priority": 59,
       "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
       "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
       "capability_tags": [
@@ -1604,7 +1657,7 @@
         "多模态感知",
         "情感理解"
       ],
-      "relevance_score": 87
+      "relevance_score": 92
     },
     {
       "kind": "paper",
@@ -1695,69 +1748,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-07",
-      "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
-      "summary": "Progress in embodied intelligence increasingly depends on scalable data infrastructure. While vision and language have scaled with internet corpora, learning physical interaction remains constrained by the lack of large, diverse, and richly annotated human activity data. We present HumanNet, a one-million-hour human-centric video corpus that captures how humans interact with the physical world at scale. HumanNet spans both...",
-      "source": "arXiv",
-      "authors": [
-        "Yufan Deng",
-        "Daquan Zhou"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "url": "http://arxiv.org/abs/2605.06747",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "具身交互"
-      ],
-      "relevance_score": 65
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-06",
-      "title": "IntenBot: Flexible and Imprecise Multimodal Input for LLMs to Understand User Intentions for Casual and Human-Like HRI",
-      "summary": "In natural human-to-human communication, multimodal user input is typically used to supplement explicit and complement implicit voice commands, with casualness allowing for flexible input modality combinations and tolerance for imprecise input data. For example, saying \"I want that.\" with a casual glance at a bottle of water is clear enough in human-to-human communication as an implicit voice command accompanied by gaze...",
-      "source": "arXiv",
-      "authors": [
-        "Yen-Ting Liu",
-        "Chiu-Hsuan Wang",
-        "TzuLing Chen",
-        "Ting-Ying Lee",
-        "Tzu-Hua Wang",
-        "Chien-Ming Lin"
-      ],
-      "categories": [
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2605.04585",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "具身交互"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "industry",
