@@ -31,8 +31,8 @@ ROOT = Path(__file__).resolve().parents[1]
 MANUAL_PATH = ROOT / "_data" / "frontiers_manual.json"
 OUTPUT_PATH = ROOT / "_data" / "frontiers.json"
 
-MAX_ITEMS = 60
-MAX_RESULTS_PER_QUERY = 12
+MAX_ITEMS = 120
+MAX_RESULTS_PER_QUERY = 16
 USER_AGENT = "MAC-Lab-FrontierRadar/1.0 (https://sxhfut.github.io)"
 
 LAST30DAYS_DEFAULT_TOPICS = [
@@ -105,6 +105,27 @@ RSS_FEEDS = [
         "kind": "industry",
         "priority": 58,
         "url": 'https://news.google.com/rss/search?q=%22AI%20psychology%22%20OR%20%22psychological%20computing%22%20OR%20%22AI%20therapy%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "AI + Mind-Body Health",
+        "source": "Google News School Mental Health",
+        "kind": "industry",
+        "priority": 59,
+        "url": 'https://news.google.com/rss/search?q=%22school%20mental%20health%22%20%22AI%22%20OR%20%22student%20wellbeing%22%20%22AI%22%20OR%20%22campus%20mental%20health%22%20%22AI%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "Ubiquitous Psychological Computing",
+        "source": "Google News Human Factors",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22human%20factors%22%20%22AI%22%20OR%20%22operator%20performance%22%20%22AI%22%20OR%20%22cognitive%20workload%22%20%22AI%22&hl=en-US&gl=US&ceid=US:en',
+    },
+    {
+        "track": "Multimodal Affective Computing",
+        "source": "Google News Multimodal Emotion",
+        "kind": "industry",
+        "priority": 58,
+        "url": 'https://news.google.com/rss/search?q=%22multimodal%20emotion%22%20OR%20%22speech%20emotion%22%20OR%20%22facial%20expression%20recognition%22%20%22AI%22&hl=en-US&gl=US&ceid=US:en',
     },
     {
         "track": "AI + Psychology",
@@ -239,6 +260,13 @@ RSS_FEEDS = [
         "priority": 51,
         "url": "https://www.leiphone.com/feed",
     },
+    {
+        "track": "AI + Mind-Body Health",
+        "source": "Google 新闻 校园心理",
+        "kind": "industry",
+        "priority": 58,
+        "url": "https://news.google.com/rss/search?q=AI%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%20OR%20%E6%A0%A1%E5%9B%AD%E5%BF%83%E7%90%86%20OR%20%E5%AD%A6%E7%94%9F%E5%BF%83%E7%90%86%E5%A4%A7%E6%A8%A1%E5%9E%8B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    },
 ]
 
 RSS_RELEVANCE_PATTERN = re.compile(
@@ -308,9 +336,10 @@ CAPABILITY_RULES = [
 def fetch_url(url: str, retries: int = 3) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     last_error: Exception | None = None
+    timeout = parse_int_env("FRONTIER_FETCH_TIMEOUT", 30)
     for attempt in range(1, retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read()
         except (urllib.error.URLError, TimeoutError, socket.timeout) as error:
             last_error = error
@@ -325,9 +354,10 @@ def fetch_json(url: str, headers: dict[str, str] | None = None, retries: int = 2
         request_headers.update(headers)
     request = urllib.request.Request(url, headers=request_headers)
     last_error: Exception | None = None
+    timeout = parse_int_env("FRONTIER_FETCH_TIMEOUT", 30)
     for attempt in range(1, retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=45) as response:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
                 return json.loads(response.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError, socket.timeout, json.JSONDecodeError) as error:
             last_error = error
@@ -970,6 +1000,7 @@ def existing_last30days_items(existing_items: list[dict]) -> list[dict]:
 
 
 def main() -> None:
+    max_items = parse_int_env("FRONTIER_MAX_ITEMS", MAX_ITEMS)
     existing_items = load_existing_items()
     manual_items = [enrich_item(item) for item in load_manual_items()]
     fetched_last30days_items = fetch_last30days_items()
@@ -993,7 +1024,7 @@ def main() -> None:
     merged.sort(key=item_sort_key, reverse=True)
     pinned_manual = [item for item in merged if item_key(item) in manual_keys]
     recent_items = [item for item in merged if item_key(item) not in manual_keys]
-    merged = recent_items[: max(0, MAX_ITEMS - len(pinned_manual))] + pinned_manual
+    merged = recent_items[: max(0, max_items - len(pinned_manual))] + pinned_manual
 
     now_utc = dt.datetime.now(dt.timezone.utc)
     now_beijing = now_utc.astimezone(dt.timezone(dt.timedelta(hours=8)))
@@ -1006,6 +1037,7 @@ def main() -> None:
         "generated_date_beijing": now_beijing.date().isoformat(),
         "stats": {
             "total_items": len(merged),
+            "max_items": max_items,
             "manual_items": len(manual_items),
             "last30days_items": len(last30days_items),
             "last30days_reused_items": len(reused_last30days_items),

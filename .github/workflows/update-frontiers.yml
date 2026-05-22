@@ -2,8 +2,8 @@ name: Update Frontier Radar
 
 on:
   schedule:
-    # 06:25 Beijing time. GitHub Actions schedules use UTC.
-    - cron: "25 22 * * *"
+    # 08:25, 12:25, 18:25, and 22:25 Beijing time. GitHub Actions schedules use UTC.
+    - cron: "25 0,4,10,14 * * *"
   workflow_dispatch:
 
 permissions:
@@ -41,14 +41,16 @@ jobs:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
+          FRONTIER_FETCH_TIMEOUT: "25"
           LAST30DAYS_SKILL_ROOT: /tmp/last30days-skill/skills/last30days
-          LAST30DAYS_MAX_TOPICS: "4"
-          LAST30DAYS_ITEMS_PER_TOPIC: "2"
+          FRONTIER_MAX_ITEMS: "120"
+          LAST30DAYS_MAX_TOPICS: "6"
+          LAST30DAYS_ITEMS_PER_TOPIC: "3"
           LAST30DAYS_DEPTH: default
           LAST30DAYS_TIMEOUT: "240"
           LAST30DAYS_SOURCES: reddit,x,youtube,tiktok,instagram,hackernews,polymarket,github,grounding
-          RSS_MAX_PER_FEED: "2"
-          RSS_MAX_ITEMS: "24"
+          RSS_MAX_PER_FEED: "3"
+          RSS_MAX_ITEMS: "54"
         run: python scripts/update_frontiers.py
 
       - name: Commit updated data
