@@ -70,6 +70,49 @@ rank: 2.5
   </div>
 </section>
 
+<section class="solution-section solution-section--evidence">
+  <div class="solution-heading solution-heading--split">
+    <div>
+      <span class="solution-kicker"><span class="lang-en">What Partners Usually Need</span><span class="lang-zh">合作方真正需要的能力</span></span>
+      <h2><span class="lang-en">The value is not a single algorithm, but a complete human-state operating system for the scene.</span><span class="lang-zh">价值不在单点算法，而在面向场景的人状态能力体系。</span></h2>
+    </div>
+    <p><span class="lang-en">A real deployment normally asks four questions at once: what can be sensed, what the state means, what decision it should support, and how the organization can keep using it responsibly.</span><span class="lang-zh">真实部署通常会同时提出四个问题：能感知什么，状态意味着什么，应支撑什么决策，以及组织怎样长期、负责地使用这一能力。</span></p>
+  </div>
+
+  <div class="solution-capability-map">
+    <article>
+      <span>Near</span>
+      <h3><span class="lang-en">Close-range mind-body assessment</span><span class="lang-zh">近距离身心评估</span></h3>
+      <p><span class="lang-en">For counseling rooms, assessment cabins, interviews, training reviews, and guided interaction, multimodal evidence can be collected through voice, expression, gaze, posture, dialogue, and task behavior.</span><span class="lang-zh">面向咨询室、评估舱、访谈、训练复盘和引导式交互，可融合语音、表情、视线、姿态、对话和任务行为形成多模态证据。</span></p>
+    </article>
+    <article>
+      <span>Mid</span>
+      <h3><span class="lang-en">Ambient sensing and organizational awareness</span><span class="lang-zh">中距离无感感知与组织态势</span></h3>
+      <p><span class="lang-en">For campuses, teams, public service spaces, and safety-critical environments, non-contact sensing and longitudinal baselines can support early awareness, trend tracking, and human-in-the-loop review.</span><span class="lang-zh">面向校园、团队、公共服务空间和安全关键环境，非接触感知与长期基线可支撑早期感知、趋势跟踪和人在回路复核。</span></p>
+    </article>
+    <article>
+      <span>Far</span>
+      <h3><span class="lang-en">Remote signal analysis and group-level insight</span><span class="lang-zh">远距离信号分析与群体洞察</span></h3>
+      <p><span class="lang-en">For public communication, service feedback, online communities, and scenario simulation, text, audio, video, and interaction traces can be organized into individual and group-level affective insight.</span><span class="lang-zh">面向公共传播、服务反馈、线上社群和场景推演，可将文本、音视频与交互痕迹组织为个体和群体层面的情感洞察。</span></p>
+    </article>
+  </div>
+
+  <div class="solution-proof-grid">
+    <div>
+      <strong><span class="lang-en">Research depth</span><span class="lang-zh">研究深度</span></strong>
+      <p><span class="lang-en">A long research route across affective NLP, multimodal affective computing, human-computer interaction, psychological computing, and embodied emotional intelligence.</span><span class="lang-zh">长期覆盖情感自然语言处理、多模态情感计算、人机交互、心理计算和具身情感智能。</span></p>
+    </div>
+    <div>
+      <strong><span class="lang-en">System maturity</span><span class="lang-zh">系统成熟度</span></strong>
+      <p><span class="lang-en">Platform lines such as Mindmirror, MindScore, MindTalk, MindOS, and embodied interaction systems show that the lab has moved beyond isolated demos.</span><span class="lang-zh">Mindmirror、MindScore、MindTalk、MindOS 与具身交互系统等平台线说明团队已经走过单点演示阶段。</span></p>
+    </div>
+    <div>
+      <strong><span class="lang-en">Field route</span><span class="lang-zh">现场路线</span></strong>
+      <p><span class="lang-en">Deployment work requires scenario definition, signal validation, user acceptance, privacy design, edge constraints, dashboards, operation, and iteration.</span><span class="lang-zh">落地工作需要场景定义、信号验证、用户接受度、隐私设计、边缘约束、看板、运维和持续迭代。</span></p>
+    </div>
+  </div>
+</section>
+
 <section class="solution-section solution-section--scenarios">
   <div class="solution-heading solution-heading--split">
     <div>

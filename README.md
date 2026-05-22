@@ -38,6 +38,7 @@ Search and AI discovery files:
 - `robots.txt`: crawler access and sitemap discovery.
 - `llms.txt`: concise Markdown summary for LLM-oriented retrieval and answer engines.
 - `_data/staged_updates.yml`: homepage update stream for staged research, media, platform, and frontier-refresh signals.
+- `images/hero/mac-lab-real-workshop-xiao-sun.jpg`: realistic lab-scene hero image for public sharing and structured previews.
 
 Editing model:
 
@@ -105,6 +106,7 @@ Recommended backend:
 
 - Supabase Auth for GitHub/email login.
 - Supabase Postgres for member records, student pages, news materials, and output materials.
+- Partner lead intake for scenario requirements, contact context, and follow-up status.
 - Row Level Security for owner/admin/student permissions.
 
 Recommended roles:

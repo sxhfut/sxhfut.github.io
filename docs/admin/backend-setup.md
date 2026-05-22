@@ -84,6 +84,7 @@ Use `/console/` for:
 - Student profile drafts.
 - Lab news source materials.
 - Project and output materials.
+- Partner and scenario leads.
 - Member permissions.
 - Internal review states.
 
@@ -92,7 +93,7 @@ Keep contracts, budgets, raw datasets, unpublished technical details, sensitive 
 ## Next Backend Milestones
 
 1. Connect Supabase and verify GitHub/email login.
-2. Add owner-only role editing controls in `/console/`.
+2. Use the owner-only people panel to activate accounts and promote selected admins.
 3. Add export buttons that generate reviewed Markdown snippets for `/admin/`.
 4. Add storage buckets for approved public images and private attachments.
 5. Add audit logs for important admin actions.

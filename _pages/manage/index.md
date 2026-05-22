@@ -23,7 +23,28 @@ rank: 9.5
 
 <div class="media-note">
   <h2><span class="lang-en">Current Admin Status</span><span class="lang-zh">当前后台状态</span></h2>
-  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab console scaffold for members, student pages, news materials, outputs, and review workflow. Live login for `/console/` requires a Supabase project URL and anon key, plus the database schema in `docs/admin/supabase-schema.sql`.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 用于实验室内部管理，包括成员、学生个人页、新闻素材、成果材料和审核流程。`/console/` 正式登录需要配置 Supabase 项目的 URL 和 anon key，并部署 `docs/admin/supabase-schema.sql` 中的数据库权限模型。</span></p>
+  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab console for members, student pages, lab news materials, partner leads, outputs, and review workflow. The console is designed around owner, admin, and student roles, with private records stored in Supabase rather than the public GitHub Pages repository.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 用于实验室内部管理，包括成员、学生个人页、实验室新闻素材、合作线索、项目成果和审核流程。控制台按 owner、admin、student 三类角色设计，内部记录放在 Supabase，不进入公开 GitHub Pages 仓库。</span></p>
+</div>
+
+<h2><span class="lang-en">Operational Console Model</span><span class="lang-zh">后台工作台模型</span></h2>
+
+<div class="project-list project-list--page">
+  <article>
+    <h2><span class="lang-en">People and Permissions</span><span class="lang-zh">成员与权限</span></h2>
+    <p><span class="lang-en">New users enter as pending students. The owner can activate accounts, promote trusted admins, and keep ordinary students focused on their own pages and material submissions.</span><span class="lang-zh">新用户默认进入待审核学生状态。owner 可以激活账号、设置可信学生管理员，并让普通学生主要维护自己的页面和提交材料。</span></p>
+  </article>
+  <article>
+    <h2><span class="lang-en">Material Intake</span><span class="lang-zh">素材沉淀</span></h2>
+    <p><span class="lang-en">News, student achievements, papers, projects, system progress, competition results, and partner-facing proof points can be entered first as internal materials, then rewritten into public website language after review.</span><span class="lang-zh">新闻、学生成果、论文、项目、系统进展、竞赛结果和合作证明点可先进入内部素材池，审核后再改写成适合官网发布的文字。</span></p>
+  </article>
+  <article>
+    <h2><span class="lang-en">Partner Pipeline</span><span class="lang-zh">合作线索</span></h2>
+    <p><span class="lang-en">Scenario requests can be recorded with organization, contact, application domain, available signals, constraints, and expected decision value. This makes later project proposals and pilot designs easier to trace.</span><span class="lang-zh">合作需求可按单位、联系人、应用方向、可用信号、约束条件和预期决策价值记录，方便后续申报书、技术方案和试点设计追溯。</span></p>
+  </article>
+  <article>
+    <h2><span class="lang-en">Public Publishing</span><span class="lang-zh">公开发布</span></h2>
+    <p><span class="lang-en">Approved materials can be converted into Markdown snippets, public news, student pages, capability cases, and solutions pages. Git commits preserve every public change.</span><span class="lang-zh">审核后的材料可转成 Markdown 片段、公开新闻、学生页面、能力案例和行业方案页面；所有公开修改都通过 Git 提交保留版本记录。</span></p>
+  </article>
 </div>
 
 <div class="framework-grid framework-grid--page">

@@ -360,6 +360,43 @@ h2 {
   color: var(--muted);
 }
 
+.record-item--person {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.record-item--person strong,
+.record-item--person span,
+.record-item--person p {
+  grid-column: 1;
+}
+
+.person-actions {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  display: grid;
+  grid-template-columns: 120px 130px auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.person-actions select,
+.person-actions button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0 10px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.person-actions button {
+  color: #fff;
+  background: var(--navy);
+  cursor: pointer;
+}
+
 code {
   padding: 2px 6px;
   border-radius: 6px;
@@ -389,6 +426,16 @@ code {
   .split-panel,
   .dashboard-grid {
     grid-template-columns: 1fr;
+  }
+
+  .record-item--person,
+  .person-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .person-actions {
+    grid-column: 1;
+    grid-row: auto;
   }
 }
 

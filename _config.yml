@@ -18,6 +18,7 @@ url: "https://sxhfut.github.io"
 github_username: sxhfut
 faculty_url: "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm"
 images_dir: "/images/"
+default_hero_image: "/images/hero/mac-lab-real-workshop-xiao-sun.jpg"
 
 # Website analytics are disabled until a token or ID is configured.
 # Recommended: Cloudflare Web Analytics for privacy-friendly aggregate insights.

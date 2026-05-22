@@ -19,6 +19,7 @@
           <button class="is-active" data-view="overview">总览</button>
           <button data-view="profile">我的页面</button>
           <button data-view="news">实验室新闻</button>
+          <button data-view="partners">合作线索</button>
           <button data-view="people">成员与权限</button>
           <button data-view="projects">项目与成果</button>
           <button data-view="settings">系统设置</button>
@@ -115,6 +116,7 @@
           <span>Owner 审核发布</span>
           <span>Admin 协助维护</span>
           <span>Student 自主管理个人材料</span>
+          <span>Partner 需求进入线索池</span>
           <span>Public CMS 生成官网内容</span>
         </div>
       </section>
@@ -175,12 +177,43 @@
       </section>
     </template>
 
+    <template id="partnersTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Partner pipeline</p>
+          <h2>记录合作需求与场景线索</h2>
+          <p>合作线索先记录真实场景、用户角色、信号条件和需求边界，再判断适合走联合申报、横向合作、试点验证、平台部署或学生项目。这里保存的是内部工作流，不直接对外发布。</p>
+        </div>
+        <form id="partnerForm" class="console-form wide-form">
+          <label>单位或场景名称<input name="organization" required></label>
+          <label>联系人<input name="contact_name"></label>
+          <label>联系邮箱<input name="contact_email" type="email"></label>
+          <label>场景类型
+            <select name="scenario">
+              <option value="campus">校园心理与学生成长</option>
+              <option value="mobility">智能座舱与交通安全</option>
+              <option value="health">主动健康与健康人居</option>
+              <option value="human_factors">人因效能与岗位能力</option>
+              <option value="embodied_ai">数字人、机器人与具身交互</option>
+              <option value="other">其他场景</option>
+            </select>
+          </label>
+          <label>需求摘要<textarea name="need_summary" rows="5" placeholder="真实问题、可用信号、部署环境、预期决策或服务目标"></textarea></label>
+          <button type="submit">保存合作线索</button>
+        </form>
+      </section>
+      <section class="table-panel">
+        <h2>线索池</h2>
+        <div id="partnerList" class="record-list"></div>
+      </section>
+    </template>
+
     <template id="peopleTemplate">
       <section class="work-panel">
         <div>
           <p class="eyebrow">Roles</p>
           <h2>成员与权限</h2>
-          <p>owner 负责最终发布和权限分配；admin 可以协助维护新闻、成员和成果；student 只能维护自己的资料与提交素材。权限更新建议只开放给 owner。</p>
+          <p>owner 负责最终发布和权限分配；admin 可以协助维护新闻、成员和成果；student 只能维护自己的资料与提交素材。权限更新只对 owner 开放，避免后台权限扩散。</p>
         </div>
         <div id="peopleList" class="record-list"></div>
       </section>

@@ -135,6 +135,7 @@
     if (view === "overview") hydrateOverview();
     if (view === "profile") hydrateProfile();
     if (view === "news") hydrateNews();
+    if (view === "partners") hydratePartners();
     if (view === "people") hydratePeople();
     if (view === "projects") hydrateProjects();
     if (view === "settings") hydrateSettings();
@@ -222,11 +223,47 @@
     const client = requireClient();
     const query = client
       .from("profiles")
-      .select("full_name, email, role, status, github_username, updated_at")
+      .select("id, full_name, email, role, status, github_username, updated_at")
       .order("updated_at", { ascending: false })
       .limit(30);
     const { data, error } = await query;
-    renderRecords(list, data, error, isAdmin() ? "暂无成员记录。" : "成员列表仅对 owner/admin 开放。");
+    renderPeople(list, data, error);
+  }
+
+  async function hydratePartners() {
+    const form = $("#partnerForm");
+    const list = $("#partnerList");
+    const client = requireClient();
+
+    async function loadPartners() {
+      const { data, error } = await client
+        .from("partner_requests")
+        .select("organization, contact_name, scenario, need_summary, status, created_at")
+        .order("created_at", { ascending: false })
+        .limit(12);
+      renderRecords(list, data, error, isAdmin() ? "暂无合作线索。" : "合作线索仅对 owner/admin 开放。");
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = {
+        organization: form.organization.value.trim(),
+        contact_name: form.contact_name.value.trim() || null,
+        contact_email: form.contact_email.value.trim() || null,
+        scenario: form.scenario.value,
+        need_summary: form.need_summary.value.trim(),
+        status: "submitted",
+        owner_id: isAdmin() ? state.session.user.id : null
+      };
+      const { error } = await client.from("partner_requests").insert(payload);
+      showStatus(error ? error.message : "合作线索已保存。", error ? "error" : "success");
+      if (!error) {
+        form.reset();
+        loadPartners();
+      }
+    });
+
+    loadPartners();
   }
 
   async function hydrateProjects() {
@@ -289,14 +326,72 @@
     rows.forEach((row) => {
       const node = document.createElement("article");
       node.className = "record-item";
-      const title = row.title || row.full_name || row.email || "Untitled";
-      const meta = [row.category, row.type, row.role, row.status].filter(Boolean).join(" · ");
+      const title = row.title || row.organization || row.full_name || row.email || "Untitled";
+      const meta = [row.category, row.type, row.scenario, row.role, row.status].filter(Boolean).join(" · ");
       node.innerHTML = `
         <strong>${escapeHtml(title)}</strong>
         <span>${escapeHtml(meta)}</span>
-        <p>${escapeHtml(row.summary || row.github_username || row.created_at || "")}</p>
+        <p>${escapeHtml(row.summary || row.need_summary || row.github_username || row.created_at || "")}</p>
       `;
       container.appendChild(node);
+    });
+  }
+
+  function renderPeople(container, rows, error) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取成员</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = isAdmin() ? "暂无成员记录。" : "成员列表仅对 owner/admin 开放。";
+      container.appendChild(node);
+      return;
+    }
+
+    rows.forEach((row) => {
+      const node = document.createElement("article");
+      node.className = "record-item record-item--person";
+      const title = row.full_name || row.email || "Pending user";
+      const actions = state.profile?.role === "owner"
+        ? `
+          <div class="person-actions" data-user-id="${escapeHtml(row.id)}">
+            <select data-role>
+              ${["student", "admin", "owner"].map((role) => `<option value="${role}" ${row.role === role ? "selected" : ""}>${role}</option>`).join("")}
+            </select>
+            <select data-status>
+              ${["pending", "active", "suspended"].map((status) => `<option value="${status}" ${row.status === status ? "selected" : ""}>${status}</option>`).join("")}
+            </select>
+            <button type="button" data-save-person>更新</button>
+          </div>
+        `
+        : "";
+      node.innerHTML = `
+        <strong>${escapeHtml(title)}</strong>
+        <span>${escapeHtml([row.role, row.status, row.github_username].filter(Boolean).join(" · "))}</span>
+        <p>${escapeHtml(row.updated_at || "")}</p>
+        ${actions}
+      `;
+      container.appendChild(node);
+    });
+
+    container.querySelectorAll("[data-save-person]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const wrapper = button.closest("[data-user-id]");
+        const userId = wrapper?.dataset.userId;
+        const role = wrapper?.querySelector("[data-role]")?.value;
+        const status = wrapper?.querySelector("[data-status]")?.value;
+        if (!userId || !role || !status) return;
+        const client = requireClient();
+        const { error } = await client.from("profiles").update({ role, status }).eq("id", userId);
+        showStatus(error ? error.message : "成员权限已更新。", error ? "error" : "success");
+        if (!error) hydratePeople();
+      });
     });
   }
 
