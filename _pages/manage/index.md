@@ -43,7 +43,7 @@ rank: 9.5
   </article>
   <article>
     <h2><span class="lang-en">Public Publishing</span><span class="lang-zh">公开发布</span></h2>
-    <p><span class="lang-en">Approved materials can be converted into Markdown snippets, public news, student pages, capability cases, and solutions pages. Git commits preserve every public change.</span><span class="lang-zh">审核后的材料可转成 Markdown 片段、公开新闻、学生页面、能力案例和行业方案页面；所有公开修改都通过 Git 提交保留版本记录。</span></p>
+    <p><span class="lang-en">Approved materials can now generate public Markdown/YAML drafts for news, frontier items, student pages, capability cases, and solutions pages. Git commits preserve every public change.</span><span class="lang-zh">审核后的材料现在可以生成公开 Markdown/YAML 草稿，用于新闻、前沿精选、学生页面、能力案例和行业方案页面；所有公开修改都通过 Git 提交保留版本记录。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Review Queue and Audit Trail</span><span class="lang-zh">审核队列与操作日志</span></h2>

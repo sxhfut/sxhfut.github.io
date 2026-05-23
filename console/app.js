@@ -6,6 +6,28 @@
     view: "overview"
   };
 
+  const REVIEW_STATUSES = ["submitted", "review", "approved", "public_ready", "archived"];
+  const STATUS_LABELS = {
+    draft: "草稿",
+    submitted: "已提交",
+    review: "审核中",
+    approved: "已通过",
+    public_ready: "可公开",
+    private: "内部保存",
+    archived: "已归档"
+  };
+  const TASK_TYPE_LABELS = {
+    news: "新闻发布",
+    case: "能力案例",
+    frontier: "前沿精选",
+    student_page: "学生页面",
+    solution: "行业方案",
+    publication: "论文成果",
+    output: "成果材料",
+    public_update: "公开更新"
+  };
+  const SOURCE_TABLES = new Set(["lab_news", "lab_outputs", "partner_requests", "frontier_curations", "student_pages"]);
+
   const $ = (selector) => document.querySelector(selector);
   const viewMount = $("#viewMount");
   const setupPanel = $("#setupPanel");
@@ -57,6 +79,113 @@
 
   function isAdmin() {
     return ["owner", "admin"].includes(state.profile?.role);
+  }
+
+  function labelStatus(status) {
+    return STATUS_LABELS[status] || status || "未设置";
+  }
+
+  function labelTaskType(type) {
+    return TASK_TYPE_LABELS[type] || type || "公开更新";
+  }
+
+  function safeUrl(value) {
+    const url = String(value || "").trim();
+    if (!url) return "";
+    try {
+      const parsed = new URL(url, window.location.origin);
+      return parsed.protocol === "http:" || parsed.protocol === "https:" ? parsed.href : "";
+    } catch (_error) {
+      return "";
+    }
+  }
+
+  function normalizePath(value, fallback) {
+    const path = String(value || "").trim() || fallback;
+    return path.startsWith("/") ? path : `/${path}`;
+  }
+
+  function taskTargetFor(type) {
+    return {
+      news: "/news/",
+      case: "/cases/",
+      frontier: "/frontiers/",
+      student_page: "/team/",
+      solution: "/solutions/",
+      publication: "/publications/",
+      output: "/projects/"
+    }[type] || "/";
+  }
+
+  function taskTypeForOutput(type) {
+    return {
+      project: "output",
+      paper: "publication",
+      competition: "news",
+      platform: "case",
+      partner: "case"
+    }[type] || "output";
+  }
+
+  async function createWorkflowTask(options) {
+    const client = requireClient();
+    const taskType = options.taskType || "public_update";
+    const payload = {
+      task_type: taskType,
+      title: options.title,
+      summary: options.summary || "",
+      source_url: options.sourceUrl || null,
+      target_url: options.targetUrl || taskTargetFor(taskType),
+      priority: options.priority || 3,
+      status: "submitted",
+      submitted_by: state.session.user.id,
+      metadata: {
+        source_table: options.sourceTable || null,
+        source_id: options.sourceId || null,
+        origin_label: options.originLabel || "",
+        publish_hint: options.publishHint || "",
+        created_by_console: true
+      }
+    };
+    const { error } = await client.from("content_tasks").insert(payload);
+    return error;
+  }
+
+  async function createWorkflowTaskFromInsert(result, fallback) {
+    const row = result?.data;
+    return createWorkflowTask({
+      ...fallback,
+      sourceId: row?.id || null,
+      title: fallback.title || row?.title || row?.organization || "待整理素材",
+      summary: fallback.summary || row?.summary || row?.need_summary || "",
+      sourceUrl: fallback.sourceUrl || row?.source_url || ""
+    });
+  }
+
+  async function syncLinkedSourceStatus(row, status) {
+    const metadata = row?.metadata || {};
+    const table = metadata.source_table;
+    const id = metadata.source_id;
+    if (!table || !id || !SOURCE_TABLES.has(table)) return null;
+    const client = requireClient();
+    if (table === "student_pages") {
+      const payload = {
+        visibility: status === "public_ready" ? "published" : status === "archived" ? "hidden" : "draft",
+        ...(isAdmin() ? { reviewed_by: state.session.user.id } : {}),
+        ...(status === "public_ready" ? { published_at: new Date().toISOString() } : {})
+      };
+      const { error } = await client.from(table).update(payload).eq("id", id);
+      return error;
+    }
+    const payload = { status };
+    if (["lab_news", "frontier_curations", "student_pages"].includes(table) && isAdmin()) {
+      payload.reviewed_by = state.session.user.id;
+    }
+    if (["frontier_curations", "student_pages"].includes(table) && status === "public_ready") {
+      payload.published_at = new Date().toISOString();
+    }
+    const { error } = await client.from(table).update(payload).eq("id", id);
+    return error;
   }
 
   async function init() {
@@ -207,8 +336,22 @@
         visibility: form.visibility.value,
         updated_at: new Date().toISOString()
       };
-      const { error } = await client.from("student_pages").upsert(payload, { onConflict: "owner_id" });
-      showStatus(error ? error.message : "个人页面已保存。", error ? "error" : "success");
+      const { data: savedPage, error } = await client
+        .from("student_pages")
+        .upsert(payload, { onConflict: "owner_id" })
+        .select("id, title_zh, title_en, slug, body_zh, visibility")
+        .single();
+      if (!error && payload.visibility === "published") {
+        await createWorkflowTaskFromInsert({ data: savedPage }, {
+          sourceTable: "student_pages",
+          taskType: "student_page",
+          targetUrl: "/team/",
+          title: `学生页面审核：${payload.title_zh}`,
+          summary: payload.body_zh,
+          publishHint: "审核学生个人页，确认研究方向、成果、竞赛经历和公开表述后再进入官网团队页面。"
+        });
+      }
+      showStatus(error ? error.message : "个人页面已保存。申请发布时会自动进入审核队列。", error ? "error" : "success");
     });
   }
 
@@ -236,11 +379,28 @@
         submitted_by: state.session.user.id,
         status: isAdmin() ? "approved" : "submitted"
       };
-      const { error } = await client.from("lab_news").insert(payload);
-      showStatus(error ? error.message : "新闻素材已提交。", error ? "error" : "success");
+      const { data: savedNews, error } = await client
+        .from("lab_news")
+        .insert(payload)
+        .select("id, title, summary, source_url, category")
+        .single();
+      let taskError = null;
+      if (!error) {
+        taskError = await createWorkflowTaskFromInsert({ data: savedNews }, {
+          sourceTable: "lab_news",
+          taskType: "news",
+          targetUrl: "/news/",
+          title: `新闻发布：${payload.title}`,
+          summary: payload.summary,
+          sourceUrl: payload.source_url,
+          publishHint: "核对事实、时间、参与人、公开链接和英文摘要后，可转入实验室新闻页。"
+        });
+      }
+      showStatus(error ? error.message : taskError ? `新闻已保存，但审核任务创建失败：${taskError.message}` : "新闻素材已提交，并已进入审核队列。", error || taskError ? "error" : "success");
       if (!error) {
         form.reset();
         loadNews();
+        loadDashboardCounts();
       }
     });
 
@@ -285,10 +445,24 @@
         owner_id: isAdmin() ? state.session.user.id : null
       };
       const { error } = await client.from("partner_requests").insert(payload);
-      showStatus(error ? error.message : "合作线索已保存。", error ? "error" : "success");
+      let taskError = null;
+      if (!error) {
+        taskError = await createWorkflowTask({
+          sourceTable: "partner_requests",
+          sourceId: null,
+          taskType: "solution",
+          title: `合作线索梳理：${payload.organization}`,
+          summary: payload.need_summary,
+          targetUrl: "/solutions/",
+          priority: 4,
+          publishHint: "先做场景诊断和合作路径判断，适合公开时再转为行业方案、能力案例或联合申报材料。"
+        });
+      }
+      showStatus(error ? error.message : taskError ? `线索已保存，但审核任务创建失败：${taskError.message}` : "合作线索已保存，并已进入方案审核队列。", error || taskError ? "error" : "success");
       if (!error) {
         form.reset();
         loadPartners();
+        loadDashboardCounts();
       }
     });
 
@@ -303,7 +477,7 @@
     async function loadTasks() {
       const { data, error } = await client
         .from("content_tasks")
-        .select("id, title, task_type, summary, priority, status, source_url, target_url, created_at")
+        .select("id, title, task_type, summary, priority, status, source_url, target_url, metadata, created_at")
         .order("created_at", { ascending: false })
         .limit(20);
       renderReviewTasks(list, data, error, "暂无审核任务。");
@@ -360,8 +534,24 @@
         status: "submitted",
         submitted_by: state.session.user.id
       };
-      const { error } = await client.from("frontier_curations").upsert(payload, { onConflict: "source_url" });
-      showStatus(error ? error.message : "前沿精选已保存。", error ? "error" : "success");
+      const { data: savedCuration, error } = await client
+        .from("frontier_curations")
+        .upsert(payload, { onConflict: "source_url" })
+        .select("id, title, source_url, track, summary, takeaway_zh, relevance")
+        .single();
+      let taskError = null;
+      if (!error) {
+        taskError = await createWorkflowTaskFromInsert({ data: savedCuration }, {
+          sourceTable: "frontier_curations",
+          taskType: "frontier",
+          targetUrl: "/frontiers/",
+          title: `前沿精选：${payload.title}`,
+          summary: payload.takeaway_zh || payload.summary,
+          sourceUrl: payload.source_url,
+          publishHint: "判断是否适合进入前沿雷达人工精选、月度观察或实验室方向笔记。"
+        });
+      }
+      showStatus(error ? error.message : taskError ? `前沿条目已保存，但审核任务创建失败：${taskError.message}` : "前沿精选已保存，并已进入审核队列。", error || taskError ? "error" : "success");
       if (!error) {
         form.reset();
         loadCurations();
@@ -395,11 +585,28 @@
         status: form.status.value,
         submitted_by: state.session.user.id
       };
-      const { error } = await client.from("lab_outputs").insert(payload);
-      showStatus(error ? error.message : "材料已保存。", error ? "error" : "success");
+      const { data: savedOutput, error } = await client
+        .from("lab_outputs")
+        .insert(payload)
+        .select("id, title, type, summary, status")
+        .single();
+      let taskError = null;
+      if (!error && payload.status !== "private") {
+        const taskType = taskTypeForOutput(payload.type);
+        taskError = await createWorkflowTaskFromInsert({ data: savedOutput }, {
+          sourceTable: "lab_outputs",
+          taskType,
+          targetUrl: taskTargetFor(taskType),
+          title: `成果材料审核：${payload.title}`,
+          summary: payload.summary,
+          publishHint: "核对项目级别、论文出处、学生贡献、可公开边界和对外包装角度。"
+        });
+      }
+      showStatus(error ? error.message : taskError ? `材料已保存，但审核任务创建失败：${taskError.message}` : "材料已保存，并按状态进入审核流。", error || taskError ? "error" : "success");
       if (!error) {
         form.reset();
         loadProjects();
+        loadDashboardCounts();
       }
     });
 
@@ -444,9 +651,10 @@
       const node = document.createElement("article");
       node.className = "record-item";
       const title = row.title || row.organization || row.full_name || row.email || "Untitled";
-      const meta = [row.category, row.type, row.scenario, row.role, row.status].filter(Boolean).join(" · ");
+      const meta = [row.category, row.type, row.scenario, row.role].filter(Boolean).join(" · ");
       node.innerHTML = `
         <strong>${escapeHtml(title)}</strong>
+        ${row.status ? `<span class="record-status">${escapeHtml(labelStatus(row.status))}</span>` : ""}
         <span>${escapeHtml(meta)}</span>
         <p>${escapeHtml(row.summary || row.need_summary || row.github_username || row.created_at || "")}</p>
       `;
@@ -529,24 +737,26 @@
       return;
     }
 
-    rows.forEach((row) => {
+    rows.forEach((row, index) => {
       const node = document.createElement("article");
       node.className = "record-item record-item--review";
       const meta = [
-        row.task_type || row.track,
-        row.status,
+        labelTaskType(row.task_type) || row.track,
+        labelStatus(row.status),
         row.priority ? `P${row.priority}` : null,
         row.relevance ? `R${row.relevance}` : null,
+        row.metadata?.origin_label || null,
         row.created_at
       ].filter(Boolean).join(" · ");
       const detail = row.summary || row.takeaway_zh || row.target_url || row.source_url || "";
       const actions = isAdmin()
         ? `
-          <div class="review-actions" data-record-id="${escapeHtml(row.id)}" data-table="${row.track ? "frontier_curations" : "content_tasks"}">
+          <div class="review-actions" data-record-id="${escapeHtml(row.id)}" data-row-index="${index}" data-table="${row.track ? "frontier_curations" : "content_tasks"}">
             <select data-status>
-              ${["submitted", "review", "approved", "public_ready", "archived"].map((status) => `<option value="${status}" ${row.status === status ? "selected" : ""}>${status}</option>`).join("")}
+              ${REVIEW_STATUSES.map((status) => `<option value="${status}" ${row.status === status ? "selected" : ""}>${labelStatus(status)}</option>`).join("")}
             </select>
             <button type="button" data-save-review>更新状态</button>
+            <button class="review-action-button" type="button" data-generate-draft>生成公开草稿</button>
           </div>
         `
         : "";
@@ -554,7 +764,7 @@
         <strong>${escapeHtml(row.title)}</strong>
         <span>${escapeHtml(meta)}</span>
         <p>${escapeHtml(detail)}</p>
-        ${row.source_url ? `<a href="${escapeHtml(row.source_url)}" target="_blank" rel="noreferrer">打开来源</a>` : ""}
+        ${safeUrl(row.source_url) ? `<a href="${escapeHtml(safeUrl(row.source_url))}" target="_blank" rel="noreferrer">打开来源</a>` : ""}
         ${actions}
       `;
       container.appendChild(node);
@@ -566,6 +776,7 @@
         const id = wrapper?.dataset.recordId;
         const table = wrapper?.dataset.table;
         const status = wrapper?.querySelector("[data-status]")?.value;
+        const row = rows[Number(wrapper?.dataset.rowIndex)];
         if (!id || !table || !status) return;
         const client = requireClient();
         const { error } = await client.from(table).update({
@@ -573,10 +784,163 @@
           reviewed_by: state.session.user.id,
           ...(status === "public_ready" ? { published_at: new Date().toISOString() } : {})
         }).eq("id", id);
-        showStatus(error ? error.message : "状态已更新。", error ? "error" : "success");
+        const syncError = !error && table === "content_tasks" ? await syncLinkedSourceStatus(row, status) : null;
+        showStatus(error ? error.message : syncError ? `任务已更新，但源记录同步失败：${syncError.message}` : "状态已更新，关联素材也已同步。", error || syncError ? "error" : "success");
         if (!error) renderView(state.view);
       });
     });
+
+    container.querySelectorAll("[data-generate-draft]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const wrapper = button.closest("[data-row-index]");
+        const row = rows[Number(wrapper?.dataset.rowIndex)];
+        if (!row) return;
+        const draft = await buildPublicDraft(row);
+        showDraft(draft);
+      });
+    });
+  }
+
+  async function fetchLinkedSource(row) {
+    const metadata = row?.metadata || {};
+    const table = metadata.source_table;
+    const id = metadata.source_id;
+    if (!table || !id || !SOURCE_TABLES.has(table)) return {};
+    const client = requireClient();
+    const { data, error } = await client.from(table).select("*").eq("id", id).maybeSingle();
+    if (error) {
+      showStatus(`关联素材读取失败：${error.message}`, "error");
+      return {};
+    }
+    return data || {};
+  }
+
+  async function buildPublicDraft(row) {
+    const source = await fetchLinkedSource(row);
+    const taskType = row.task_type || (row.track ? "frontier" : "public_update");
+    const title = source.title || row.title || source.organization || "待发布内容";
+    const summary = source.summary || source.need_summary || row.summary || row.takeaway_zh || "";
+    const sourceUrl = source.source_url || row.source_url || "";
+    const targetUrl = normalizePath(row.target_url, taskTargetFor(taskType));
+    const today = new Date().toISOString().slice(0, 10);
+    const label = labelTaskType(taskType);
+    const origin = row.metadata?.origin_label || source.category || source.type || source.scenario || "";
+    const publishHint = row.metadata?.publish_hint || "发布前请核对事实、署名、公开链接、敏感边界和中英文表达。";
+
+    if (taskType === "news") {
+      return [
+        "# 官网新闻草稿",
+        "",
+        `目标页面：${targetUrl}`,
+        `素材状态：${labelStatus(row.status)}`,
+        `来源类型：${origin || "实验室动态"}`,
+        "",
+        "## 建议加入 `_data/staged_updates.yml` 的摘要",
+        "",
+        `- date: \"${today}\"`,
+        "  label: \"Lab News\"",
+        "  label_zh: \"实验室动态\"",
+        `  title: \"${yamlText(title)}\"`,
+        `  title_zh: \"${yamlText(title)}\"`,
+        `  summary: \"${yamlText(summary)}\"`,
+        `  summary_zh: \"${yamlText(summary)}\"`,
+        `  url: \"${targetUrl}\"`,
+        "",
+        "## 新闻正文初稿",
+        "",
+        `### ${title}`,
+        "",
+        summary || "请补充新闻事实、参与人员、成果价值、合作单位和可公开链接。",
+        "",
+        sourceUrl ? `原始来源：${sourceUrl}` : "",
+        "",
+        `发布提示：${publishHint}`
+      ].filter(Boolean).join("\n");
+    }
+
+    if (taskType === "frontier") {
+      return [
+        "# 前沿雷达精选草稿",
+        "",
+        `目标页面：${targetUrl}`,
+        `方向：${source.track || row.track || "AI + Psychology"}`,
+        `相关度：${source.relevance || row.relevance || "待评估"}`,
+        "",
+        `## ${title}`,
+        "",
+        summary || "请补充论文、产业动态或开源项目的核心贡献。",
+        "",
+        source.takeaway_zh || row.takeaway_zh ? `实验室观点：${source.takeaway_zh || row.takeaway_zh}` : "实验室观点：请说明它与普适心理计算、具身情感智能、多模态情感计算或行业场景的关系。",
+        "",
+        sourceUrl ? `原始来源：${sourceUrl}` : "",
+        "",
+        `发布提示：${publishHint}`
+      ].filter(Boolean).join("\n");
+    }
+
+    if (taskType === "solution" || taskType === "case") {
+      return [
+        taskType === "solution" ? "# 行业方案草稿" : "# 能力案例草稿",
+        "",
+        `目标页面：${targetUrl}`,
+        `素材状态：${labelStatus(row.status)}`,
+        "",
+        `## ${title}`,
+        "",
+        "### 场景问题",
+        summary || "请补充合作方真实场景、用户角色、可用信号、现有痛点和预期价值。",
+        "",
+        "### MAC-Lab 可提供的能力",
+        "- 多模态情感与身心状态感知",
+        "- 人因与心智画像建模",
+        "- 场景化评价、预警、反馈与干预流程",
+        "- 软硬件一体化平台、试点验证和阶段性报告",
+        "",
+        "### 下一步合作路径",
+        "先进行场景诊断和数据条件确认，再形成技术路线、试点方案、交付边界与联合成果规划。",
+        "",
+        `发布提示：${publishHint}`
+      ].join("\n");
+    }
+
+    return [
+      "# 公开内容草稿",
+      "",
+      `目标页面：${targetUrl}`,
+      `任务类型：${label}`,
+      `素材状态：${labelStatus(row.status)}`,
+      "",
+      `## ${title}`,
+      "",
+      summary || "请补充可公开摘要。",
+      "",
+      sourceUrl ? `原始来源：${sourceUrl}` : "",
+      "",
+      `发布提示：${publishHint}`
+    ].filter(Boolean).join("\n");
+  }
+
+  function yamlText(value) {
+    return String(value || "").replaceAll("\\", "\\\\").replaceAll('"', '\\"').replace(/\s+/g, " ").trim();
+  }
+
+  function showDraft(draft) {
+    const panel = $("#publicDraftPanel");
+    const output = $("#publicDraftOutput");
+    const copyButton = $("#copyDraftButton");
+    if (!panel || !output) return;
+    output.value = draft;
+    panel.hidden = false;
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(output.value);
+        showStatus("公开草稿已复制，可以粘贴到公开 CMS 或 GitHub 内容文件中。", "success");
+      } catch (_error) {
+        output.select();
+        showStatus("浏览器未允许自动复制，已选中草稿文本。", "error");
+      }
+    }, { once: true });
   }
 
   function renderAuditLogs(container, rows, error) {

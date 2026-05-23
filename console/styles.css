@@ -179,7 +179,8 @@ h2 {
 .auth-panel,
 .work-panel,
 .split-panel,
-.table-panel {
+.table-panel,
+.draft-panel {
   border: 1px solid rgba(215, 224, 234, 0.9);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.86);
@@ -424,6 +425,52 @@ h2 {
   padding: 24px;
 }
 
+.draft-panel {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+  margin-bottom: 18px;
+  padding: 24px;
+}
+
+.draft-panel textarea {
+  width: 100%;
+  min-height: 320px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  color: var(--ink);
+  background: #f8fbfd;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 13.5px;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.draft-actions {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.draft-actions button,
+.draft-actions a,
+.review-action-button {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0 12px;
+  color: var(--navy);
+  background: #fff;
+  font-weight: 850;
+  cursor: pointer;
+}
+
 .record-list {
   display: grid;
   gap: 10px;
@@ -446,6 +493,19 @@ h2 {
 .record-item span,
 .record-item p {
   color: var(--muted);
+}
+
+.record-status {
+  display: inline-flex;
+  width: max-content;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 9px;
+  border-radius: 999px;
+  color: #123c36;
+  background: #e4f6f2;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 .record-item--person {
@@ -499,7 +559,8 @@ h2 {
 }
 
 .review-actions {
-  grid-template-columns: 140px auto;
+  grid-template-columns: 140px auto auto;
+  align-content: center;
 }
 
 .record-item a {
@@ -534,6 +595,7 @@ code {
   .setup-panel,
   .auth-panel,
   .split-panel,
+  .draft-panel,
   .dashboard-grid,
   .console-stat-strip,
   .console-workspace-grid {
@@ -551,6 +613,10 @@ code {
   .review-actions {
     grid-column: 1;
     grid-row: auto;
+  }
+
+  .draft-actions {
+    grid-column: 1;
   }
 
   .console-stat-strip div {

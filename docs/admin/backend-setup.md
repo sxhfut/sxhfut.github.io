@@ -93,14 +93,26 @@ Use `/console/` for:
 
 Keep contracts, budgets, raw datasets, unpublished technical details, sensitive student records, and partner confidential files outside this public repository.
 
+## Content Workflow
+
+The internal console now uses `content_tasks` as the bridge from private records to public website updates:
+
+1. A student or admin submits a student page, lab news item, project/output material, partner lead, or frontier curation.
+2. The console creates a linked review task with source metadata, target page, priority, and publishing hint.
+3. The owner/admin moves the task through submitted, review, approved, public-ready, or archived.
+4. When a linked task changes status, the source record is updated where the table supports review status.
+5. The review queue can generate a public Markdown/YAML draft for the GitHub/Decap CMS layer.
+
+This keeps raw working material in Supabase while making the final public site explicit, versioned, and searchable.
+
 ## Next Backend Milestones
 
 1. Connect Supabase and verify GitHub/email login.
 2. Use the owner-only people panel to activate accounts and promote selected admins.
 3. Use the review queue to move news, cases, student pages, and frontier items from submitted to public-ready.
-4. Add export buttons that generate reviewed Markdown snippets for `/admin/`.
-5. Add storage buckets for approved public images and private attachments.
-6. Add analytics dashboards for traffic trends and partner-interest signals.
+4. Add Supabase Storage buckets for approved public images and private attachments.
+5. Add analytics dashboards for traffic trends and partner-interest signals.
+6. Add GitHub issue or pull-request creation for public-ready content.
 
 ## Backend Features Already Modeled
 

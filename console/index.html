@@ -197,6 +197,18 @@
           <button type="submit">提交到审核队列</button>
         </form>
       </section>
+      <section id="publicDraftPanel" class="draft-panel" hidden>
+        <div>
+          <p class="eyebrow">Public draft</p>
+          <h2>官网公开草稿</h2>
+          <p>这里生成的是给公开 CMS 或 GitHub 提交使用的初稿。发布前仍需要人工核对事实、署名、链接和敏感边界。</p>
+        </div>
+        <textarea id="publicDraftOutput" rows="14" readonly></textarea>
+        <div class="draft-actions">
+          <button type="button" id="copyDraftButton">复制草稿</button>
+          <a href="/admin/" target="_blank" rel="noreferrer">打开公开 CMS</a>
+        </div>
+      </section>
       <section class="table-panel">
         <h2>待处理任务</h2>
         <div id="taskList" class="record-list"></div>
