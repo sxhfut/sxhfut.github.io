@@ -20,8 +20,11 @@
           <button data-view="profile">我的页面</button>
           <button data-view="news">实验室新闻</button>
           <button data-view="partners">合作线索</button>
+          <button data-view="review">审核队列</button>
+          <button data-view="frontiers">前沿精选</button>
           <button data-view="people">成员与权限</button>
           <button data-view="projects">项目与成果</button>
+          <button data-view="audit">操作日志</button>
           <button data-view="settings">系统设置</button>
         </nav>
         <div class="console-rail__foot">
@@ -106,6 +109,12 @@
           <p>成员、个人页、项目线索、成果材料和审核状态进入私有数据库。</p>
         </article>
       </section>
+      <section class="console-stat-strip">
+        <div><span>待审核任务</span><strong data-count="content_tasks">—</strong></div>
+        <div><span>新闻素材</span><strong data-count="lab_news">—</strong></div>
+        <div><span>合作线索</span><strong data-count="partner_requests">—</strong></div>
+        <div><span>前沿精选</span><strong data-count="frontier_curations">—</strong></div>
+      </section>
       <section class="console-workspace-grid">
         <article>
           <span>News desk</span>
@@ -118,6 +127,12 @@
           <h3>合作场景线索池</h3>
           <p>记录单位、联系人、场景类型、可用信号和预期价值，后续可转成技术方案或申报材料。</p>
           <button type="button" data-console-view="partners">查看合作线索</button>
+        </article>
+        <article>
+          <span>Review queue</span>
+          <h3>公开发布审核队列</h3>
+          <p>把新闻、案例、前沿精选和学生页面转成可追踪任务，明确状态、优先级和负责人。</p>
+          <button type="button" data-console-view="review">进入审核队列</button>
         </article>
         <article>
           <span>People review</span>
@@ -145,6 +160,88 @@
           <span>Partner 需求进入线索池</span>
           <span>Public CMS 生成官网内容</span>
         </div>
+      </section>
+    </template>
+
+    <template id="reviewTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Review queue</p>
+          <h2>公开发布审核队列</h2>
+          <p>把需要对外发布的新闻、案例、前沿精选、学生页面和合作材料先变成任务。owner/admin 可以调整状态和优先级，普通成员可以提交自己的素材任务。</p>
+        </div>
+        <form id="taskForm" class="console-form wide-form">
+          <label>任务标题<input name="title" required></label>
+          <label>任务类型
+            <select name="task_type">
+              <option value="news">新闻发布</option>
+              <option value="case">能力案例</option>
+              <option value="frontier">前沿精选</option>
+              <option value="student_page">学生页面</option>
+              <option value="solution">行业方案</option>
+              <option value="publication">论文成果</option>
+            </select>
+          </label>
+          <label>优先级
+            <select name="priority">
+              <option value="3">普通</option>
+              <option value="4">较高</option>
+              <option value="5">紧急</option>
+              <option value="2">较低</option>
+              <option value="1">存档</option>
+            </select>
+          </label>
+          <label>来源链接<input name="source_url" type="url"></label>
+          <label>目标页面<input name="target_url" placeholder="/news/ 或 /cases/"></label>
+          <label>任务说明<textarea name="summary" rows="5"></textarea></label>
+          <button type="submit">提交到审核队列</button>
+        </form>
+      </section>
+      <section class="table-panel">
+        <h2>待处理任务</h2>
+        <div id="taskList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="frontiersTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Frontier curation</p>
+          <h2>前沿雷达人工精选</h2>
+          <p>自动雷达负责抓取，人工精选负责判断。这里可以把真正值得 MAC-Lab 关注的论文、产业动态和开源项目沉淀成“实验室观点”。</p>
+        </div>
+        <form id="frontierCurationForm" class="console-form wide-form">
+          <label>标题<input name="title" required></label>
+          <label>原文链接<input name="source_url" type="url" required></label>
+          <label>方向
+            <select name="track">
+              <option>AI + Psychology</option>
+              <option>AI + Mind-Body Health</option>
+              <option>Affective Computing</option>
+              <option>Multimodal Affective Computing</option>
+              <option>Embodied Emotional Intelligence</option>
+              <option>Ubiquitous Psychological Computing</option>
+              <option>Human Factors Intelligence</option>
+            </select>
+          </label>
+          <label>相关度
+            <select name="relevance">
+              <option value="5">非常相关</option>
+              <option value="4">高度相关</option>
+              <option value="3">一般相关</option>
+              <option value="2">弱相关</option>
+              <option value="1">暂存</option>
+            </select>
+          </label>
+          <label>摘要<textarea name="summary" rows="4"></textarea></label>
+          <label>中文实验室观点<textarea name="takeaway_zh" rows="4"></textarea></label>
+          <label>English Lab Takeaway<textarea name="takeaway_en" rows="4"></textarea></label>
+          <button type="submit">保存精选条目</button>
+        </form>
+      </section>
+      <section class="table-panel">
+        <h2>精选池</h2>
+        <div id="frontierCurationList" class="record-list"></div>
       </section>
     </template>
 
@@ -278,6 +375,17 @@
       <section class="table-panel">
         <h2>材料列表</h2>
         <div id="projectList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="auditTemplate">
+      <section class="work-panel">
+        <div>
+          <p class="eyebrow">Audit trail</p>
+          <h2>后台操作日志</h2>
+          <p>重要内容的新增、更新和状态变化会进入审计日志。这里用于追踪谁在什么时候改了什么，避免后台多人协作时丢失责任链。</p>
+        </div>
+        <div id="auditList" class="record-list"></div>
       </section>
     </template>
 

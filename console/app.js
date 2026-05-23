@@ -137,20 +137,42 @@
     if (view === "profile") hydrateProfile();
     if (view === "news") hydrateNews();
     if (view === "partners") hydratePartners();
+    if (view === "review") hydrateReviewQueue();
+    if (view === "frontiers") hydrateFrontierCurations();
     if (view === "people") hydratePeople();
     if (view === "projects") hydrateProjects();
+    if (view === "audit") hydrateAudit();
     if (view === "settings") hydrateSettings();
   }
 
   function hydrateOverview() {
     const roleNode = viewMount.querySelector("[data-profile-role]");
     if (roleNode) roleNode.textContent = state.profile?.role || "pending";
+    loadDashboardCounts();
   }
 
   function hydrateViewLinks() {
     viewMount.querySelectorAll("[data-console-view]").forEach((node) => {
       node.addEventListener("click", () => renderView(node.dataset.consoleView));
     });
+  }
+
+  async function loadDashboardCounts() {
+    const client = requireClient();
+    const specs = [
+      { key: "content_tasks", table: "content_tasks", statuses: ["submitted", "review"] },
+      { key: "lab_news", table: "lab_news", statuses: ["submitted", "review", "public_ready"] },
+      { key: "partner_requests", table: "partner_requests", statuses: ["submitted", "review"] },
+      { key: "frontier_curations", table: "frontier_curations", statuses: ["submitted", "review", "public_ready"] }
+    ];
+    await Promise.all(specs.map(async (spec) => {
+      const node = viewMount.querySelector(`[data-count="${spec.key}"]`);
+      if (!node) return;
+      let query = client.from(spec.table).select("id", { count: "exact", head: true });
+      if (spec.statuses) query = query.in("status", spec.statuses);
+      const { count, error } = await query;
+      node.textContent = error ? "—" : String(count || 0);
+    }));
   }
 
   async function hydrateProfile() {
@@ -273,6 +295,83 @@
     loadPartners();
   }
 
+  async function hydrateReviewQueue() {
+    const form = $("#taskForm");
+    const list = $("#taskList");
+    const client = requireClient();
+
+    async function loadTasks() {
+      const { data, error } = await client
+        .from("content_tasks")
+        .select("id, title, task_type, summary, priority, status, source_url, target_url, created_at")
+        .order("created_at", { ascending: false })
+        .limit(20);
+      renderReviewTasks(list, data, error, "暂无审核任务。");
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = {
+        title: form.title.value.trim(),
+        task_type: form.task_type.value,
+        priority: Number(form.priority.value),
+        source_url: form.source_url.value.trim() || null,
+        target_url: form.target_url.value.trim() || null,
+        summary: form.summary.value.trim(),
+        status: "submitted",
+        submitted_by: state.session.user.id
+      };
+      const { error } = await client.from("content_tasks").insert(payload);
+      showStatus(error ? error.message : "审核任务已提交。", error ? "error" : "success");
+      if (!error) {
+        form.reset();
+        loadTasks();
+        loadDashboardCounts();
+      }
+    });
+
+    loadTasks();
+  }
+
+  async function hydrateFrontierCurations() {
+    const form = $("#frontierCurationForm");
+    const list = $("#frontierCurationList");
+    const client = requireClient();
+
+    async function loadCurations() {
+      const { data, error } = await client
+        .from("frontier_curations")
+        .select("id, title, source_url, track, summary, takeaway_zh, relevance, status, created_at")
+        .order("created_at", { ascending: false })
+        .limit(20);
+      renderReviewTasks(list, data, error, "暂无人工精选条目。");
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = {
+        title: form.title.value.trim(),
+        source_url: form.source_url.value.trim(),
+        track: form.track.value,
+        summary: form.summary.value.trim(),
+        takeaway_zh: form.takeaway_zh.value.trim(),
+        takeaway_en: form.takeaway_en.value.trim(),
+        relevance: Number(form.relevance.value),
+        status: "submitted",
+        submitted_by: state.session.user.id
+      };
+      const { error } = await client.from("frontier_curations").upsert(payload, { onConflict: "source_url" });
+      showStatus(error ? error.message : "前沿精选已保存。", error ? "error" : "success");
+      if (!error) {
+        form.reset();
+        loadCurations();
+        loadDashboardCounts();
+      }
+    });
+
+    loadCurations();
+  }
+
   async function hydrateProjects() {
     const form = $("#projectForm");
     const list = $("#projectList");
@@ -312,6 +411,17 @@
       localStorage.removeItem("maclab_console_config");
       window.location.reload();
     });
+  }
+
+  async function hydrateAudit() {
+    const list = $("#auditList");
+    const client = requireClient();
+    const { data, error } = await client
+      .from("content_audit_logs")
+      .select("table_name, row_id, action, old_status, new_status, changed_at")
+      .order("changed_at", { ascending: false })
+      .limit(30);
+    renderAuditLogs(list, data, error);
   }
 
   function renderRecords(container, rows, error, emptyText) {
@@ -399,6 +509,101 @@
         showStatus(error ? error.message : "成员权限已更新。", error ? "error" : "success");
         if (!error) hydratePeople();
       });
+    });
+  }
+
+  function renderReviewTasks(container, rows, error, emptyText) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = emptyText;
+      container.appendChild(node);
+      return;
+    }
+
+    rows.forEach((row) => {
+      const node = document.createElement("article");
+      node.className = "record-item record-item--review";
+      const meta = [
+        row.task_type || row.track,
+        row.status,
+        row.priority ? `P${row.priority}` : null,
+        row.relevance ? `R${row.relevance}` : null,
+        row.created_at
+      ].filter(Boolean).join(" · ");
+      const detail = row.summary || row.takeaway_zh || row.target_url || row.source_url || "";
+      const actions = isAdmin()
+        ? `
+          <div class="review-actions" data-record-id="${escapeHtml(row.id)}" data-table="${row.track ? "frontier_curations" : "content_tasks"}">
+            <select data-status>
+              ${["submitted", "review", "approved", "public_ready", "archived"].map((status) => `<option value="${status}" ${row.status === status ? "selected" : ""}>${status}</option>`).join("")}
+            </select>
+            <button type="button" data-save-review>更新状态</button>
+          </div>
+        `
+        : "";
+      node.innerHTML = `
+        <strong>${escapeHtml(row.title)}</strong>
+        <span>${escapeHtml(meta)}</span>
+        <p>${escapeHtml(detail)}</p>
+        ${row.source_url ? `<a href="${escapeHtml(row.source_url)}" target="_blank" rel="noreferrer">打开来源</a>` : ""}
+        ${actions}
+      `;
+      container.appendChild(node);
+    });
+
+    container.querySelectorAll("[data-save-review]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const wrapper = button.closest("[data-record-id]");
+        const id = wrapper?.dataset.recordId;
+        const table = wrapper?.dataset.table;
+        const status = wrapper?.querySelector("[data-status]")?.value;
+        if (!id || !table || !status) return;
+        const client = requireClient();
+        const { error } = await client.from(table).update({
+          status,
+          reviewed_by: state.session.user.id,
+          ...(status === "public_ready" ? { published_at: new Date().toISOString() } : {})
+        }).eq("id", id);
+        showStatus(error ? error.message : "状态已更新。", error ? "error" : "success");
+        if (!error) renderView(state.view);
+      });
+    });
+  }
+
+  function renderAuditLogs(container, rows, error) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取日志</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = isAdmin() ? "暂无操作日志。" : "操作日志仅对 owner/admin 开放。";
+      container.appendChild(node);
+      return;
+    }
+    rows.forEach((row) => {
+      const node = document.createElement("article");
+      node.className = "record-item";
+      node.innerHTML = `
+        <strong>${escapeHtml(row.table_name)} · ${escapeHtml(row.action)}</strong>
+        <span>${escapeHtml([row.old_status, row.new_status].filter(Boolean).join(" → "))}</span>
+        <p>${escapeHtml(row.changed_at)} · ${escapeHtml(row.row_id || "")}</p>
+      `;
+      container.appendChild(node);
     });
   }
 

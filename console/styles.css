@@ -244,9 +244,45 @@ h2 {
   line-height: 1.1;
 }
 
-.console-workspace-grid {
+.console-stat-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin-bottom: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.console-stat-strip div {
+  min-height: 106px;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: 20px;
+  border-right: 1px solid var(--line);
+}
+
+.console-stat-strip div:last-child {
+  border-right: 0;
+}
+
+.console-stat-strip span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.console-stat-strip strong {
+  color: var(--ink);
+  font-size: 34px;
+  line-height: 1;
+}
+
+.console-workspace-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
   margin-bottom: 18px;
 }
@@ -417,13 +453,23 @@ h2 {
   align-items: center;
 }
 
+.record-item--review {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+}
+
 .record-item--person strong,
 .record-item--person span,
-.record-item--person p {
+.record-item--person p,
+.record-item--review strong,
+.record-item--review span,
+.record-item--review p,
+.record-item--review a {
   grid-column: 1;
 }
 
-.person-actions {
+.person-actions,
+.review-actions {
   grid-column: 2;
   grid-row: 1 / span 3;
   display: grid;
@@ -433,7 +479,9 @@ h2 {
 }
 
 .person-actions select,
-.person-actions button {
+.person-actions button,
+.review-actions select,
+.review-actions button {
   min-height: 38px;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -443,10 +491,20 @@ h2 {
   font-weight: 800;
 }
 
-.person-actions button {
+.person-actions button,
+.review-actions button {
   color: #fff;
   background: var(--navy);
   cursor: pointer;
+}
+
+.review-actions {
+  grid-template-columns: 140px auto;
+}
+
+.record-item a {
+  color: var(--blue);
+  font-weight: 850;
 }
 
 code {
@@ -477,18 +535,31 @@ code {
   .auth-panel,
   .split-panel,
   .dashboard-grid,
+  .console-stat-strip,
   .console-workspace-grid {
     grid-template-columns: 1fr;
   }
 
   .record-item--person,
-  .person-actions {
+  .record-item--review,
+  .person-actions,
+  .review-actions {
     grid-template-columns: 1fr;
   }
 
-  .person-actions {
+  .person-actions,
+  .review-actions {
     grid-column: 1;
     grid-row: auto;
+  }
+
+  .console-stat-strip div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .console-stat-strip div:last-child {
+    border-bottom: 0;
   }
 }
 

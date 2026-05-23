@@ -85,6 +85,9 @@ Use `/console/` for:
 - Lab news source materials.
 - Project and output materials.
 - Partner and scenario leads.
+- Review tasks for public publishing.
+- Manually selected frontier radar items.
+- Audit logs for important content changes.
 - Member permissions.
 - Internal review states.
 
@@ -94,6 +97,22 @@ Keep contracts, budgets, raw datasets, unpublished technical details, sensitive 
 
 1. Connect Supabase and verify GitHub/email login.
 2. Use the owner-only people panel to activate accounts and promote selected admins.
-3. Add export buttons that generate reviewed Markdown snippets for `/admin/`.
-4. Add storage buckets for approved public images and private attachments.
-5. Add audit logs for important admin actions.
+3. Use the review queue to move news, cases, student pages, and frontier items from submitted to public-ready.
+4. Add export buttons that generate reviewed Markdown snippets for `/admin/`.
+5. Add storage buckets for approved public images and private attachments.
+6. Add analytics dashboards for traffic trends and partner-interest signals.
+
+## Backend Features Already Modeled
+
+The SQL schema now includes:
+
+- `profiles`: member identity, role, and account status.
+- `student_pages`: student-maintained profile drafts.
+- `lab_news`: news source materials and review states.
+- `lab_outputs`: papers, projects, competitions, platforms, and partner-facing evidence.
+- `partner_requests`: collaboration leads and scenario requirements.
+- `content_tasks`: public-publishing review queue.
+- `frontier_curations`: manually selected frontier radar items and lab takeaways.
+- `content_audit_logs`: append-only audit trail for content changes.
+
+The console is designed so public communication and internal operations stay separate: public pages are published through GitHub/Decap CMS, while private review state, partner leads, member permissions, and logs stay in Supabase with Row Level Security.
