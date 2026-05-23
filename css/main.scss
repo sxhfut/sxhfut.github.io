@@ -4662,3 +4662,202 @@ body {
     padding: 22px;
   }
 }
+
+/* Serious typography pass: unify the lab site around a calmer institutional
+   reading system and remove the jumpy micro-label feel from evidence modules. */
+body,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+.site-brand__text strong,
+.hero__content h1,
+.page-hero h1,
+.framework-card h2,
+.framework-card h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.78;
+}
+
+h2,
+.page-hero h1 {
+  font-weight: 820;
+  line-height: 1.12;
+}
+
+h3 {
+  font-weight: 780;
+}
+
+.hero__headline-subtitle,
+.page-link,
+.button,
+.section-heading a,
+.feature-card > span,
+.media-grid article > span,
+.framework-kicker,
+.case-card__kicker,
+.frontier-card__meta span,
+.frontier-card__meta strong,
+.frontier-card__score small,
+.frontier-card__lens strong,
+.lab-visual-grid figcaption {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.section-heading a,
+.feature-card > span,
+.media-grid article > span,
+.framework-kicker,
+.case-card__kicker {
+  color: #4d5a6a;
+  font-size: 14.5px;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
+.feature-card h3,
+.media-grid h2,
+.media-grid h3 {
+  font-size: clamp(20px, 1.6vw, 23px);
+  line-height: 1.34;
+}
+
+.feature-card p,
+.media-grid p,
+.project-list p,
+.frontier-card p,
+.news-list p,
+.summary-band span,
+.proof-band span {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.proof-chain {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-color: rgba(9, 17, 31, 0.16);
+  background: #fff;
+}
+
+.proof-chain article,
+.proof-chain article:nth-child(2),
+.proof-chain article:nth-child(4) {
+  min-height: 250px;
+  padding: clamp(34px, 3vw, 46px);
+  background: #fff;
+  border-color: rgba(9, 17, 31, 0.16);
+}
+
+.proof-chain article {
+  display: grid;
+  align-content: start;
+}
+
+.proof-chain article > span {
+  width: max-content;
+  margin: 0 0 30px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(9, 17, 31, 0.28);
+  color: #3d4654;
+  font-size: 15px;
+  font-weight: 720;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.proof-chain h3 .lang-en,
+.proof-chain p .lang-en,
+body.lang-zh-active .proof-chain h3 .lang-zh,
+body.lang-zh-active .proof-chain p .lang-zh {
+  display: inline !important;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: 0;
+  line-height: inherit;
+}
+
+body.lang-zh-active .proof-chain h3 .lang-en,
+body.lang-zh-active .proof-chain p .lang-en {
+  display: none !important;
+}
+
+.proof-chain h3 {
+  max-width: 260px;
+  margin-bottom: 16px;
+  color: var(--ink);
+  font-size: clamp(21px, 1.65vw, 27px);
+  font-weight: 800;
+  line-height: 1.28;
+}
+
+.proof-chain p {
+  max-width: 330px;
+  color: #485566;
+  font-size: 16.5px;
+  font-weight: 460;
+  line-height: 1.86;
+}
+
+.proof-band {
+  margin-top: 20px;
+}
+
+.proof-band > div {
+  min-height: 112px;
+  padding: 24px 28px;
+  background: #fff;
+  border-color: rgba(9, 17, 31, 0.16);
+}
+
+.proof-band strong {
+  font-size: 21px;
+  font-weight: 800;
+}
+
+@media (max-width: 980px) {
+  .proof-chain {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .proof-chain article {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: min(100% - 32px, 1280px);
+  }
+
+  .proof-chain,
+  .proof-band {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-chain article,
+  .proof-band > div {
+    padding: 26px 22px;
+  }
+
+  .proof-chain article > span {
+    margin-bottom: 20px;
+  }
+}
