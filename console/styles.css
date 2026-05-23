@@ -22,9 +22,7 @@
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 85% 8%, rgba(11, 159, 146, 0.16), transparent 30%),
-    linear-gradient(135deg, #f8fbfe 0%, var(--bg) 100%);
+  background: linear-gradient(135deg, #f8fbfe 0%, var(--bg) 100%);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   line-height: 1.65;
@@ -52,18 +50,19 @@ select {
   position: sticky;
   top: 0;
   height: 100vh;
-  padding: 28px 20px;
+  padding: 22px 18px;
   display: flex;
   flex-direction: column;
   color: #eaf2fb;
   background: linear-gradient(180deg, #071426, #0d2742);
+  overflow-y: auto;
 }
 
 .console-brand {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 
 .console-brand span {
@@ -82,7 +81,7 @@ select {
 
 .console-nav {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .console-nav button,
@@ -94,7 +93,7 @@ select {
 }
 
 .console-nav button {
-  min-height: 42px;
+  min-height: 38px;
   padding: 0 14px;
   border-radius: 10px;
   color: rgba(234, 242, 251, 0.76);
@@ -123,7 +122,7 @@ select {
 
 .console-main {
   min-width: 0;
-  padding: 30px clamp(20px, 4vw, 58px) 60px;
+  padding: 24px clamp(20px, 4vw, 58px) 60px;
 }
 
 .console-topbar {
@@ -151,8 +150,8 @@ p {
 }
 
 h1 {
-  font-size: clamp(34px, 5vw, 58px);
-  line-height: 1.05;
+  font-size: clamp(32px, 4.2vw, 50px);
+  line-height: 1.15;
 }
 
 h2 {
@@ -247,7 +246,7 @@ h2 {
 
 .console-stat-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0;
   margin-bottom: 18px;
   border: 1px solid var(--line);
@@ -283,7 +282,7 @@ h2 {
 
 .console-workspace-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 14px;
   margin-bottom: 18px;
 }
@@ -331,6 +330,46 @@ h2 {
   background: #fff;
   font-weight: 850;
   cursor: pointer;
+}
+
+.ops-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.ops-board article,
+.analytics-grid article {
+  border: 1px solid rgba(215, 224, 234, 0.92);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 24px;
+}
+
+.compact-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.compact-item {
+  display: grid;
+  gap: 4px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fbfd;
+}
+
+.compact-item strong {
+  font-size: 16px;
+}
+
+.compact-item span,
+.compact-item p {
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .split-panel {
@@ -423,6 +462,18 @@ h2 {
 
 .table-panel {
   padding: 24px;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.panel-heading p {
+  max-width: 680px;
+  color: var(--muted);
 }
 
 .draft-panel {
@@ -568,6 +619,172 @@ h2 {
   font-weight: 850;
 }
 
+.pipeline-board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(220px, 1fr));
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.pipeline-lane {
+  min-height: 260px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f7fafc;
+}
+
+.pipeline-lane h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.pipeline-lane h3 span {
+  color: var(--muted);
+}
+
+.pipeline-card {
+  display: grid;
+  gap: 7px;
+  margin-bottom: 10px;
+  padding: 14px;
+  border: 1px solid rgba(215, 224, 234, 0.9);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.pipeline-card strong {
+  font-size: 16px;
+}
+
+.pipeline-card span,
+.pipeline-card p,
+.pipeline-card em {
+  color: var(--muted);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.partner-actions {
+  display: grid;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.partner-actions select,
+.partner-actions input,
+.partner-actions button,
+.filter-toolbar button,
+.backup-actions button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0 10px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.partner-actions button,
+.backup-actions button {
+  color: #fff;
+  background: var(--navy);
+  cursor: pointer;
+}
+
+.filter-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.filter-toolbar button {
+  cursor: pointer;
+}
+
+.filter-toolbar button.is-active {
+  color: #fff;
+  background: var(--navy);
+}
+
+.output-list {
+  display: grid;
+  gap: 10px;
+}
+
+.output-card p + p {
+  margin-top: 2px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.analytics-grid span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.analytics-grid strong {
+  display: block;
+  margin: 10px 0 8px;
+  font-size: 22px;
+}
+
+.analytics-grid p,
+.metric-snapshot p {
+  color: var(--muted);
+}
+
+.backup-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 22px 0;
+}
+
+.backup-grid label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fbfd;
+  font-weight: 800;
+}
+
+.backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.backup-manifest {
+  max-height: 380px;
+  overflow: auto;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #071426;
+  color: #eaf2fb;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 code {
   padding: 2px 6px;
   border-radius: 6px;
@@ -597,8 +814,11 @@ code {
   .split-panel,
   .draft-panel,
   .dashboard-grid,
+  .ops-board,
   .console-stat-strip,
-  .console-workspace-grid {
+  .console-workspace-grid,
+  .analytics-grid,
+  .backup-grid {
     grid-template-columns: 1fr;
   }
 

@@ -107,10 +107,14 @@ create table if not exists public.partner_requests (
   organization text not null,
   contact_name text,
   contact_email text,
+  contact_phone text,
   scenario text,
   need_summary text,
+  priority smallint not null default 3 check (priority between 1 and 5),
+  next_step text,
   status public.review_status not null default 'submitted',
   owner_id uuid references public.profiles(id),
+  metadata jsonb not null default '{}'::jsonb,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
@@ -165,16 +169,64 @@ create table if not exists public.content_audit_logs (
   metadata jsonb not null default '{}'::jsonb
 );
 
+create table if not exists public.partner_touchpoints (
+  id uuid primary key default gen_random_uuid(),
+  partner_id uuid references public.partner_requests(id) on delete cascade,
+  channel text not null default 'meeting',
+  summary text not null,
+  next_step text,
+  due_at timestamptz,
+  created_by uuid references public.profiles(id),
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.site_metric_snapshots (
+  id uuid primary key default gen_random_uuid(),
+  source text not null default 'manual',
+  period_start date not null,
+  period_end date not null,
+  page_views integer check (page_views is null or page_views >= 0),
+  unique_visitors integer check (unique_visitors is null or unique_visitors >= 0),
+  top_pages jsonb not null default '[]'::jsonb,
+  referrers jsonb not null default '[]'::jsonb,
+  countries jsonb not null default '[]'::jsonb,
+  notes text,
+  captured_by uuid references public.profiles(id),
+  created_at timestamptz not null default now(),
+  constraint site_metric_snapshots_period_check check (period_end >= period_start)
+);
+
+create table if not exists public.content_backup_snapshots (
+  id uuid primary key default gen_random_uuid(),
+  label text not null,
+  scope text not null default 'console_selected_tables',
+  row_counts jsonb not null default '{}'::jsonb,
+  manifest jsonb not null default '{}'::jsonb,
+  created_by uuid references public.profiles(id),
+  created_at timestamptz not null default now()
+);
+
+alter table public.partner_requests add column if not exists contact_phone text;
+alter table public.partner_requests add column if not exists priority smallint not null default 3 check (priority between 1 and 5);
+alter table public.partner_requests add column if not exists next_step text;
+alter table public.partner_requests add column if not exists metadata jsonb not null default '{}'::jsonb;
+alter table public.lab_news add column if not exists metadata jsonb not null default '{}'::jsonb;
+
 create index if not exists profiles_role_status_idx on public.profiles (role, status);
 create index if not exists student_pages_owner_idx on public.student_pages (owner_id);
 create index if not exists lab_news_status_created_idx on public.lab_news (status, created_at desc);
 create index if not exists lab_outputs_status_created_idx on public.lab_outputs (status, created_at desc);
 create index if not exists partner_requests_status_created_idx on public.partner_requests (status, created_at desc);
+create index if not exists partner_requests_priority_idx on public.partner_requests (priority desc, updated_at desc);
 create index if not exists content_tasks_status_created_idx on public.content_tasks (status, created_at desc);
 create index if not exists content_tasks_assignee_idx on public.content_tasks (assignee_id, status);
 create index if not exists frontier_curations_status_created_idx on public.frontier_curations (status, created_at desc);
 create index if not exists content_audit_logs_actor_idx on public.content_audit_logs (actor_id, changed_at desc);
 create index if not exists content_audit_logs_table_idx on public.content_audit_logs (table_name, row_id, changed_at desc);
+create index if not exists partner_touchpoints_partner_idx on public.partner_touchpoints (partner_id, created_at desc);
+create index if not exists site_metric_snapshots_period_idx on public.site_metric_snapshots (period_end desc, source);
+create index if not exists content_backup_snapshots_created_idx on public.content_backup_snapshots (created_at desc);
 
 create or replace function public.current_console_role()
 returns text
@@ -351,6 +403,9 @@ alter table public.partner_requests enable row level security;
 alter table public.content_tasks enable row level security;
 alter table public.frontier_curations enable row level security;
 alter table public.content_audit_logs enable row level security;
+alter table public.partner_touchpoints enable row level security;
+alter table public.site_metric_snapshots enable row level security;
+alter table public.content_backup_snapshots enable row level security;
 
 drop policy if exists "profiles_select_self_or_admin" on public.profiles;
 create policy "profiles_select_self_or_admin"
@@ -464,6 +519,48 @@ create policy "content_audit_logs_select_scope"
   on public.content_audit_logs for select
   using (actor_id = auth.uid() or public.is_console_admin());
 
+drop policy if exists "partner_touchpoints_select_admin" on public.partner_touchpoints;
+create policy "partner_touchpoints_select_admin"
+  on public.partner_touchpoints for select
+  using (public.is_console_admin());
+
+drop policy if exists "partner_touchpoints_insert_admin" on public.partner_touchpoints;
+create policy "partner_touchpoints_insert_admin"
+  on public.partner_touchpoints for insert
+  with check (public.is_console_admin() and created_by = auth.uid());
+
+drop policy if exists "partner_touchpoints_update_admin" on public.partner_touchpoints;
+create policy "partner_touchpoints_update_admin"
+  on public.partner_touchpoints for update
+  using (public.is_console_admin())
+  with check (public.is_console_admin());
+
+drop policy if exists "site_metric_snapshots_select_admin" on public.site_metric_snapshots;
+create policy "site_metric_snapshots_select_admin"
+  on public.site_metric_snapshots for select
+  using (public.is_console_admin());
+
+drop policy if exists "site_metric_snapshots_insert_admin" on public.site_metric_snapshots;
+create policy "site_metric_snapshots_insert_admin"
+  on public.site_metric_snapshots for insert
+  with check (public.is_console_admin() and captured_by = auth.uid());
+
+drop policy if exists "site_metric_snapshots_update_owner" on public.site_metric_snapshots;
+create policy "site_metric_snapshots_update_owner"
+  on public.site_metric_snapshots for update
+  using (public.is_console_owner())
+  with check (public.is_console_owner());
+
+drop policy if exists "content_backup_snapshots_select_admin" on public.content_backup_snapshots;
+create policy "content_backup_snapshots_select_admin"
+  on public.content_backup_snapshots for select
+  using (public.is_console_admin());
+
+drop policy if exists "content_backup_snapshots_insert_admin" on public.content_backup_snapshots;
+create policy "content_backup_snapshots_insert_admin"
+  on public.content_backup_snapshots for insert
+  with check (public.is_console_admin() and created_by = auth.uid());
+
 grant usage on schema public to anon, authenticated;
 grant select, insert, update on public.profiles to authenticated;
 grant select, insert, update on public.student_pages to authenticated;
@@ -473,6 +570,9 @@ grant select, insert, update on public.partner_requests to authenticated;
 grant select, insert, update on public.content_tasks to authenticated;
 grant select, insert, update on public.frontier_curations to authenticated;
 grant select on public.content_audit_logs to authenticated;
+grant select, insert, update on public.partner_touchpoints to authenticated;
+grant select, insert, update on public.site_metric_snapshots to authenticated;
+grant select, insert on public.content_backup_snapshots to authenticated;
 grant execute on function public.current_console_role() to authenticated;
 grant execute on function public.is_console_admin() to authenticated;
 grant execute on function public.is_console_owner() to authenticated;

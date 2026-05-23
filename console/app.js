@@ -27,6 +27,30 @@
     public_update: "公开更新"
   };
   const SOURCE_TABLES = new Set(["lab_news", "lab_outputs", "partner_requests", "frontier_curations", "student_pages"]);
+  const PARTNER_STAGE_LABELS = {
+    submitted: "新线索",
+    review: "需求澄清",
+    approved: "方案成型",
+    public_ready: "可公开案例",
+    archived: "归档"
+  };
+  const OUTPUT_TYPE_LABELS = {
+    project: "科研项目",
+    paper: "论文成果",
+    competition: "学生竞赛",
+    platform: "平台系统",
+    partner: "合作案例"
+  };
+  const BACKUP_TABLES = [
+    "profiles",
+    "student_pages",
+    "lab_news",
+    "lab_outputs",
+    "partner_requests",
+    "content_tasks",
+    "frontier_curations",
+    "content_audit_logs"
+  ];
 
   const $ = (selector) => document.querySelector(selector);
   const viewMount = $("#viewMount");
@@ -87,6 +111,57 @@
 
   function labelTaskType(type) {
     return TASK_TYPE_LABELS[type] || type || "公开更新";
+  }
+
+  function labelPartnerStage(status) {
+    return PARTNER_STAGE_LABELS[status] || labelStatus(status);
+  }
+
+  function labelOutputType(type) {
+    return OUTPUT_TYPE_LABELS[type] || type || "成果材料";
+  }
+
+  function formatDate(value) {
+    if (!value) return "";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return String(value);
+    return date.toLocaleDateString("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" });
+  }
+
+  function parseLines(value) {
+    return String(value || "")
+      .split(/\r?\n/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  function stringifyList(value) {
+    if (!Array.isArray(value)) return "";
+    return value.map((item) => {
+      if (typeof item === "string") return item;
+      if (item && typeof item === "object") return item.title || item.name || item.summary || JSON.stringify(item);
+      return String(item || "");
+    }).filter(Boolean).join("\n");
+  }
+
+  function parseMetricLines(value) {
+    return parseLines(value).map((line) => {
+      const [label, rawValue] = line.split("|").map((part) => part.trim());
+      const count = Number(rawValue || 0);
+      return {
+        label: label || line,
+        count: Number.isFinite(count) && count > 0 ? count : null
+      };
+    });
+  }
+
+  function numberOrNull(value) {
+    const number = Number(String(value || "").trim());
+    return Number.isFinite(number) && number >= 0 ? number : null;
+  }
+
+  function isMissingRelation(error) {
+    return Boolean(error && ["42P01", "42703", "PGRST200", "PGRST204", "PGRST205"].includes(error.code));
   }
 
   function safeUrl(value) {
@@ -259,6 +334,10 @@
       button.classList.toggle("is-active", button.dataset.view === view);
     });
 
+    if (!state.session) {
+      return;
+    }
+
     const template = $(`#${view}Template`);
     viewMount.replaceChildren(template.content.cloneNode(true));
     hydrateViewLinks();
@@ -270,6 +349,8 @@
     if (view === "frontiers") hydrateFrontierCurations();
     if (view === "people") hydratePeople();
     if (view === "projects") hydrateProjects();
+    if (view === "analytics") hydrateAnalytics();
+    if (view === "backup") hydrateBackup();
     if (view === "audit") hydrateAudit();
     if (view === "settings") hydrateSettings();
   }
@@ -278,6 +359,7 @@
     const roleNode = viewMount.querySelector("[data-profile-role]");
     if (roleNode) roleNode.textContent = state.profile?.role || "pending";
     loadDashboardCounts();
+    loadOverviewLists();
   }
 
   function hydrateViewLinks() {
@@ -290,18 +372,56 @@
     const client = requireClient();
     const specs = [
       { key: "content_tasks", table: "content_tasks", statuses: ["submitted", "review"] },
+      { key: "review_focus", table: "content_tasks", statuses: ["submitted", "review"] },
+      { key: "public_ready", table: "content_tasks", statuses: ["public_ready"] },
       { key: "lab_news", table: "lab_news", statuses: ["submitted", "review", "public_ready"] },
+      { key: "lab_outputs", table: "lab_outputs", statuses: ["draft", "submitted", "review", "approved", "public_ready"] },
       { key: "partner_requests", table: "partner_requests", statuses: ["submitted", "review"] },
-      { key: "frontier_curations", table: "frontier_curations", statuses: ["submitted", "review", "public_ready"] }
+      { key: "frontier_curations", table: "frontier_curations", statuses: ["submitted", "review", "public_ready"] },
+      { key: "active_profiles", table: "profiles", statuses: ["active"], statusColumn: "status" }
     ];
     await Promise.all(specs.map(async (spec) => {
       const node = viewMount.querySelector(`[data-count="${spec.key}"]`);
       if (!node) return;
       let query = client.from(spec.table).select("id", { count: "exact", head: true });
-      if (spec.statuses) query = query.in("status", spec.statuses);
+      if (spec.statuses) query = query.in(spec.statusColumn || "status", spec.statuses);
       const { count, error } = await query;
       node.textContent = error ? "—" : String(count || 0);
     }));
+  }
+
+  async function loadOverviewLists() {
+    const focusList = $("#overviewFocusList");
+    const activityList = $("#overviewActivityList");
+    const client = requireClient();
+
+    if (focusList) {
+      const { data, error } = await client
+        .from("content_tasks")
+        .select("title, task_type, priority, status, target_url, created_at")
+        .in("status", ["submitted", "review", "public_ready"])
+        .order("priority", { ascending: false })
+        .order("created_at", { ascending: false })
+        .limit(6);
+      renderCompactItems(focusList, data, error, "暂无待处理任务。", (row) => ({
+        title: row.title,
+        meta: [labelTaskType(row.task_type), labelStatus(row.status), row.priority ? `P${row.priority}` : ""].filter(Boolean).join(" · "),
+        text: row.target_url || formatDate(row.created_at)
+      }));
+    }
+
+    if (activityList) {
+      const { data, error } = await client
+        .from("content_audit_logs")
+        .select("table_name, action, old_status, new_status, changed_at")
+        .order("changed_at", { ascending: false })
+        .limit(6);
+      renderCompactItems(activityList, data, error, "暂无近期后台动态。", (row) => ({
+        title: `${row.table_name} · ${row.action}`,
+        meta: [row.old_status, row.new_status].filter(Boolean).join(" → ") || "record change",
+        text: formatDate(row.changed_at)
+      }));
+    }
   }
 
   async function hydrateProfile() {
@@ -320,6 +440,9 @@
       form.research_tags.value = (data.research_tags || []).join(", ");
       form.body_zh.value = data.body_zh || "";
       form.body_en.value = data.body_en || "";
+      form.publications.value = stringifyList(data.publications);
+      form.projects.value = stringifyList(data.projects);
+      form.achievements.value = stringifyList(data.achievements);
       form.visibility.value = data.visibility || "draft";
     }
 
@@ -333,6 +456,9 @@
         research_tags: form.research_tags.value.split(",").map((item) => item.trim()).filter(Boolean),
         body_zh: form.body_zh.value.trim(),
         body_en: form.body_en.value.trim(),
+        publications: parseLines(form.publications.value),
+        projects: parseLines(form.projects.value),
+        achievements: parseLines(form.achievements.value),
         visibility: form.visibility.value,
         updated_at: new Date().toISOString()
       };
@@ -425,12 +551,19 @@
     const client = requireClient();
 
     async function loadPartners() {
-      const { data, error } = await client
+      let result = await client
         .from("partner_requests")
-        .select("organization, contact_name, scenario, need_summary, status, created_at")
+        .select("id, organization, contact_name, contact_email, contact_phone, scenario, need_summary, status, priority, next_step, owner_id, created_at, updated_at")
         .order("created_at", { ascending: false })
         .limit(12);
-      renderRecords(list, data, error, isAdmin() ? "暂无合作线索。" : "合作线索仅对 owner/admin 开放。");
+      if (isMissingRelation(result.error)) {
+        result = await client
+          .from("partner_requests")
+          .select("id, organization, contact_name, contact_email, scenario, need_summary, status, owner_id, created_at, updated_at")
+          .order("created_at", { ascending: false })
+          .limit(12);
+      }
+      renderPartnerRecords(list, result.data, result.error, isAdmin() ? "暂无合作线索。" : "合作线索仅对 owner/admin 开放。");
     }
 
     form.addEventListener("submit", async (event) => {
@@ -439,22 +572,43 @@
         organization: form.organization.value.trim(),
         contact_name: form.contact_name.value.trim() || null,
         contact_email: form.contact_email.value.trim() || null,
+        contact_phone: form.contact_phone.value.trim() || null,
         scenario: form.scenario.value,
         need_summary: form.need_summary.value.trim(),
+        priority: Number(form.priority.value),
+        next_step: form.next_step.value.trim() || null,
         status: "submitted",
         owner_id: isAdmin() ? state.session.user.id : null
       };
-      const { error } = await client.from("partner_requests").insert(payload);
+      let { data: savedPartner, error } = await client
+        .from("partner_requests")
+        .insert(payload)
+        .select("id")
+        .single();
+      if (isMissingRelation(error)) {
+        const fallbackPayload = {
+          organization: payload.organization,
+          contact_name: payload.contact_name,
+          contact_email: payload.contact_email,
+          scenario: payload.scenario,
+          need_summary: [payload.need_summary, payload.next_step ? `下一步：${payload.next_step}` : ""].filter(Boolean).join("\n\n"),
+          status: payload.status,
+          owner_id: payload.owner_id
+        };
+        const fallback = await client.from("partner_requests").insert(fallbackPayload).select("id").single();
+        savedPartner = fallback.data;
+        error = fallback.error;
+      }
       let taskError = null;
       if (!error) {
         taskError = await createWorkflowTask({
           sourceTable: "partner_requests",
-          sourceId: null,
+          sourceId: savedPartner?.id || null,
           taskType: "solution",
           title: `合作线索梳理：${payload.organization}`,
-          summary: payload.need_summary,
+          summary: [payload.need_summary, payload.next_step ? `下一步：${payload.next_step}` : ""].filter(Boolean).join("\n\n"),
           targetUrl: "/solutions/",
-          priority: 4,
+          priority: payload.priority || 4,
           publishHint: "先做场景诊断和合作路径判断，适合公开时再转为行业方案、能力案例或联合申报材料。"
         });
       }
@@ -570,10 +724,10 @@
     async function loadProjects() {
       const { data, error } = await client
         .from("lab_outputs")
-        .select("title, type, summary, status, created_at")
+        .select("id, title, type, summary, status, public_url, metadata, created_at")
         .order("created_at", { ascending: false })
-        .limit(12);
-      renderRecords(list, data, error, "暂无项目或成果材料。");
+        .limit(24);
+      renderOutputRecords(list, data, error, "暂无项目或成果材料。");
     }
 
     form.addEventListener("submit", async (event) => {
@@ -582,13 +736,19 @@
         title: form.title.value.trim(),
         type: form.type.value,
         summary: form.summary.value.trim(),
+        public_url: form.public_url.value.trim() || null,
+        metadata: {
+          year: form.year.value.trim() || null,
+          venue: form.venue.value.trim() || null,
+          contributors: form.contributors.value.split(",").map((item) => item.trim()).filter(Boolean)
+        },
         status: form.status.value,
         submitted_by: state.session.user.id
       };
       const { data: savedOutput, error } = await client
         .from("lab_outputs")
         .insert(payload)
-        .select("id, title, type, summary, status")
+        .select("id, title, type, summary, status, public_url, metadata")
         .single();
       let taskError = null;
       if (!error && payload.status !== "private") {
@@ -598,7 +758,8 @@
           taskType,
           targetUrl: taskTargetFor(taskType),
           title: `成果材料审核：${payload.title}`,
-          summary: payload.summary,
+          summary: [payload.summary, payload.metadata.venue ? `场域/级别：${payload.metadata.venue}` : "", payload.metadata.year ? `年份：${payload.metadata.year}` : ""].filter(Boolean).join("\n"),
+          sourceUrl: payload.public_url,
           publishHint: "核对项目级别、论文出处、学生贡献、可公开边界和对外包装角度。"
         });
       }
@@ -620,6 +781,191 @@
     });
   }
 
+  async function hydrateAnalytics() {
+    const form = $("#analyticsForm");
+    const list = $("#analyticsList");
+    const client = requireClient();
+    const today = new Date().toISOString().slice(0, 10);
+    if (form) {
+      form.period_end.value = today;
+      const start = new Date();
+      start.setDate(start.getDate() - 30);
+      form.period_start.value = start.toISOString().slice(0, 10);
+    }
+
+    async function loadSnapshots() {
+      const { data, error } = await client
+        .from("site_metric_snapshots")
+        .select("id, source, period_start, period_end, page_views, unique_visitors, top_pages, referrers, notes, created_at")
+        .order("period_end", { ascending: false })
+        .limit(12);
+      renderMetricSnapshots(list, data, error);
+    }
+
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = {
+        source: form.source.value,
+        period_start: form.period_start.value,
+        period_end: form.period_end.value,
+        page_views: numberOrNull(form.page_views.value),
+        unique_visitors: numberOrNull(form.unique_visitors.value),
+        top_pages: parseMetricLines(form.top_pages.value),
+        referrers: parseMetricLines(form.referrers.value),
+        notes: form.notes.value.trim() || null,
+        captured_by: state.session.user.id
+      };
+      const { error } = await client.from("site_metric_snapshots").insert(payload);
+      showStatus(error ? `${error.message}。如提示表不存在，请在 Supabase 重新执行增强版 schema。` : "访问统计快照已保存。", error ? "error" : "success");
+      if (!error) {
+        form.reset();
+        loadSnapshots();
+      }
+    });
+
+    loadSnapshots();
+  }
+
+  function renderMetricSnapshots(container, rows, error) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>访问统计表尚未可用</strong><p>${escapeHtml(error.message)}。请在 Supabase SQL Editor 重新运行 <code>docs/admin/supabase-schema.sql</code> 的最新版。</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = "暂无统计快照。可以先从 Cloudflare Web Analytics 或 Plausible 手动录入一条 30 天数据。";
+      container.appendChild(node);
+      return;
+    }
+    rows.forEach((row) => {
+      const topPages = Array.isArray(row.top_pages) ? row.top_pages.slice(0, 3).map((item) => `${item.label}${item.count ? `(${item.count})` : ""}`).join(" · ") : "";
+      const referrers = Array.isArray(row.referrers) ? row.referrers.slice(0, 3).map((item) => `${item.label}${item.count ? `(${item.count})` : ""}`).join(" · ") : "";
+      const node = document.createElement("article");
+      node.className = "record-item metric-snapshot";
+      node.innerHTML = `
+        <strong>${escapeHtml(row.source)} · ${escapeHtml(row.period_start)} 至 ${escapeHtml(row.period_end)}</strong>
+        <span>${escapeHtml([row.page_views != null ? `${row.page_views} PV` : "", row.unique_visitors != null ? `${row.unique_visitors} visitors` : ""].filter(Boolean).join(" · "))}</span>
+        ${topPages ? `<p>热门页面：${escapeHtml(topPages)}</p>` : ""}
+        ${referrers ? `<p>主要来源：${escapeHtml(referrers)}</p>` : ""}
+        ${row.notes ? `<p>${escapeHtml(row.notes)}</p>` : ""}
+      `;
+      container.appendChild(node);
+    });
+  }
+
+  function hydrateBackup() {
+    const button = $("#downloadBackupButton");
+    const copyButton = $("#copyBackupManifestButton");
+    const manifestNode = $("#backupManifest");
+    let latestManifest = "";
+
+    button?.addEventListener("click", async () => {
+      const selectedTables = Array.from(document.querySelectorAll(".backup-grid input:checked"))
+        .map((input) => input.value)
+        .filter((table) => BACKUP_TABLES.includes(table));
+      if (!selectedTables.length) {
+        showStatus("请至少选择一张表。", "error");
+        return;
+      }
+      button.disabled = true;
+      button.textContent = "正在生成...";
+      try {
+        const backup = await buildConsoleBackup(selectedTables);
+        latestManifest = JSON.stringify({
+          generated_at: backup.generated_at,
+          actor: backup.actor,
+          row_counts: backup.row_counts,
+          warnings: backup.warnings
+        }, null, 2);
+        manifestNode.textContent = latestManifest;
+        downloadJson(`maclab-console-backup-${backup.generated_at.slice(0, 10)}.json`, backup);
+        copyButton.disabled = false;
+        await recordBackupSnapshot(backup);
+        showStatus("备份已生成并下载。", "success");
+      } catch (error) {
+        manifestNode.textContent = error.message;
+        showStatus(error.message, "error");
+      } finally {
+        button.disabled = false;
+        button.textContent = "生成 JSON 备份";
+      }
+    });
+
+    copyButton?.addEventListener("click", async () => {
+      if (!latestManifest) return;
+      await navigator.clipboard.writeText(latestManifest);
+      showStatus("备份摘要已复制。", "success");
+    });
+  }
+
+  async function buildConsoleBackup(tables) {
+    const client = requireClient();
+    const generatedAt = new Date().toISOString();
+    const backup = {
+      generated_at: generatedAt,
+      site: "sxhfut.github.io",
+      actor: {
+        id: state.session.user.id,
+        email: state.session.user.email,
+        role: state.profile?.role || "pending"
+      },
+      row_counts: {},
+      warnings: [],
+      tables: {}
+    };
+
+    for (const table of tables) {
+      const { data, error } = await client
+        .from(table)
+        .select("*")
+        .limit(1000);
+      if (error) {
+        backup.warnings.push(`${table}: ${error.message}`);
+        backup.tables[table] = [];
+        backup.row_counts[table] = 0;
+      } else {
+        backup.tables[table] = data || [];
+        backup.row_counts[table] = backup.tables[table].length;
+      }
+    }
+    return backup;
+  }
+
+  async function recordBackupSnapshot(backup) {
+    const client = requireClient();
+    const { error } = await client.from("content_backup_snapshots").insert({
+      label: `Console export ${backup.generated_at.slice(0, 10)}`,
+      scope: "console_selected_tables",
+      row_counts: backup.row_counts,
+      manifest: {
+        generated_at: backup.generated_at,
+        warnings: backup.warnings,
+        tables: Object.keys(backup.tables)
+      },
+      created_by: state.session.user.id
+    });
+    if (error && !isMissingRelation(error)) {
+      showStatus(`备份已下载，但备份记录写入失败：${error.message}`, "error");
+    }
+  }
+
+  function downloadJson(filename, payload) {
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
   async function hydrateAudit() {
     const list = $("#auditList");
     const client = requireClient();
@@ -629,6 +975,35 @@
       .order("changed_at", { ascending: false })
       .limit(30);
     renderAuditLogs(list, data, error);
+  }
+
+  function renderCompactItems(container, rows, error, emptyText, mapRow) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "compact-item";
+      node.innerHTML = `<strong>无法读取</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "compact-item";
+      node.textContent = emptyText;
+      container.appendChild(node);
+      return;
+    }
+    rows.forEach((row) => {
+      const item = mapRow(row);
+      const node = document.createElement("article");
+      node.className = "compact-item";
+      node.innerHTML = `
+        <strong>${escapeHtml(item.title)}</strong>
+        <span>${escapeHtml(item.meta || "")}</span>
+        <p>${escapeHtml(item.text || "")}</p>
+      `;
+      container.appendChild(node);
+    });
   }
 
   function renderRecords(container, rows, error, emptyText) {
@@ -660,6 +1035,146 @@
       `;
       container.appendChild(node);
     });
+  }
+
+  function renderPartnerRecords(container, rows, error, emptyText) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取合作线索</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = emptyText;
+      container.appendChild(node);
+      return;
+    }
+
+    const groups = ["submitted", "review", "approved", "public_ready", "archived"];
+    const board = document.createElement("div");
+    board.className = "pipeline-board";
+    groups.forEach((status) => {
+      const lane = document.createElement("section");
+      lane.className = "pipeline-lane";
+      const laneRows = rows.filter((row) => row.status === status);
+      lane.innerHTML = `<h3>${escapeHtml(labelPartnerStage(status))}<span>${laneRows.length}</span></h3>`;
+      laneRows.forEach((row) => {
+        const card = document.createElement("article");
+        card.className = "pipeline-card";
+        const contact = [row.contact_name, row.contact_email].filter(Boolean).join(" · ");
+        const priority = row.priority ? `P${row.priority}` : "P3";
+        const actions = isAdmin()
+          ? `
+            <div class="partner-actions" data-partner-id="${escapeHtml(row.id)}">
+              <select data-partner-status>
+                ${groups.map((item) => `<option value="${item}" ${row.status === item ? "selected" : ""}>${labelPartnerStage(item)}</option>`).join("")}
+              </select>
+              <input data-partner-next-step value="${escapeHtml(row.next_step || "")}" placeholder="下一步动作">
+              <button type="button" data-save-partner>保存</button>
+            </div>
+          `
+          : "";
+        card.innerHTML = `
+          <strong>${escapeHtml(row.organization)}</strong>
+          <span>${escapeHtml([row.scenario, priority, formatDate(row.created_at)].filter(Boolean).join(" · "))}</span>
+          ${contact ? `<p>${escapeHtml(contact)}</p>` : ""}
+          <p>${escapeHtml(row.need_summary || "")}</p>
+          ${row.next_step ? `<em>下一步：${escapeHtml(row.next_step)}</em>` : ""}
+          ${actions}
+        `;
+        lane.appendChild(card);
+      });
+      board.appendChild(lane);
+    });
+    container.appendChild(board);
+
+    container.querySelectorAll("[data-save-partner]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const wrapper = button.closest("[data-partner-id]");
+        const id = wrapper?.dataset.partnerId;
+        const status = wrapper?.querySelector("[data-partner-status]")?.value;
+        const nextStep = wrapper?.querySelector("[data-partner-next-step]")?.value.trim();
+        if (!id || !status) return;
+        const client = requireClient();
+        let { error } = await client
+          .from("partner_requests")
+          .update({ status, next_step: nextStep || null, owner_id: state.session.user.id })
+          .eq("id", id);
+        if (isMissingRelation(error)) {
+          const fallback = await client
+            .from("partner_requests")
+            .update({ status, owner_id: state.session.user.id })
+            .eq("id", id);
+          error = fallback.error;
+        }
+        showStatus(error ? error.message : "合作线索状态已更新。", error ? "error" : "success");
+        if (!error) hydratePartners();
+      });
+    });
+  }
+
+  function renderOutputRecords(container, rows, error, emptyText) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取成果库</strong><p>${escapeHtml(error.message)}</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = emptyText;
+      container.appendChild(node);
+      return;
+    }
+
+    const toolbar = document.createElement("div");
+    toolbar.className = "filter-toolbar";
+    toolbar.innerHTML = `
+      <button type="button" data-output-filter="all" class="is-active">全部</button>
+      ${Object.entries(OUTPUT_TYPE_LABELS).map(([value, label]) => `<button type="button" data-output-filter="${value}">${label}</button>`).join("")}
+    `;
+    const list = document.createElement("div");
+    list.className = "output-list";
+    container.append(toolbar, list);
+
+    function draw(filter) {
+      list.replaceChildren();
+      rows.filter((row) => filter === "all" || row.type === filter).forEach((row) => {
+        const node = document.createElement("article");
+        node.className = "record-item output-card";
+        const metadata = row.metadata || {};
+        const contributors = Array.isArray(metadata.contributors) ? metadata.contributors.join("、") : "";
+        node.innerHTML = `
+          <strong>${escapeHtml(row.title)}</strong>
+          <span>${escapeHtml([labelOutputType(row.type), labelStatus(row.status), metadata.year, metadata.venue].filter(Boolean).join(" · "))}</span>
+          <p>${escapeHtml(row.summary || "")}</p>
+          ${contributors ? `<p>参与：${escapeHtml(contributors)}</p>` : ""}
+          ${safeUrl(row.public_url) ? `<a href="${escapeHtml(safeUrl(row.public_url))}" target="_blank" rel="noreferrer">打开公开证据</a>` : ""}
+        `;
+        list.appendChild(node);
+      });
+      if (!list.children.length) {
+        const empty = document.createElement("div");
+        empty.className = "record-item";
+        empty.textContent = "当前筛选下暂无材料。";
+        list.appendChild(empty);
+      }
+    }
+
+    toolbar.querySelectorAll("[data-output-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        toolbar.querySelectorAll("button").forEach((item) => item.classList.toggle("is-active", item === button));
+        draw(button.dataset.outputFilter);
+      });
+    });
+    draw("all");
   }
 
   function renderPeople(container, rows, error) {

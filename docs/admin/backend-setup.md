@@ -87,6 +87,8 @@ Use `/console/` for:
 - Partner and scenario leads.
 - Review tasks for public publishing.
 - Manually selected frontier radar items.
+- Access analytics snapshots from Cloudflare, Plausible, Google Analytics, or manual monthly summaries.
+- Lightweight JSON backups of console tables for owner/admin handoff.
 - Audit logs for important content changes.
 - Member permissions.
 - Internal review states.
@@ -105,14 +107,26 @@ The internal console now uses `content_tasks` as the bridge from private records
 
 This keeps raw working material in Supabase while making the final public site explicit, versioned, and searchable.
 
+## Lab Operations Workflow
+
+The console is now organized as an operating workspace rather than only a set of forms:
+
+- **Operations overview**: live counts, recent review focus, and audit activity.
+- **Partner CRM**: partner requests move through new lead, requirement clarification, proposal-ready, public-case, and archived stages.
+- **Output library**: papers, projects, competitions, platforms, and partner cases keep public evidence links, venue/level, year, and contributor notes.
+- **Frontier review**: automatic radar items can be refined into lab-curated viewpoints before public release.
+- **Analytics snapshots**: aggregate traffic data can be recorded periodically to observe which pages, topics, and entry sources are working.
+- **Backup export**: owner/admin can download a JSON package of the tables they can access under RLS.
+
+If the console shows that analytics or backup snapshot tables are missing, rerun the latest `docs/admin/supabase-schema.sql` in Supabase SQL Editor. The file is idempotent and can be rerun after upgrades.
+
 ## Next Backend Milestones
 
-1. Connect Supabase and verify GitHub/email login.
-2. Use the owner-only people panel to activate accounts and promote selected admins.
-3. Use the review queue to move news, cases, student pages, and frontier items from submitted to public-ready.
-4. Add Supabase Storage buckets for approved public images and private attachments.
-5. Add analytics dashboards for traffic trends and partner-interest signals.
-6. Add GitHub issue or pull-request creation for public-ready content.
+1. Add Supabase Storage buckets for approved public images and private attachments.
+2. Add scheduled export from Cloudflare or Plausible API into `site_metric_snapshots`.
+3. Add GitHub issue or pull-request creation for public-ready content.
+4. Add file attachments and owner-only notes for partner CRM records.
+5. Add periodic database export to private storage for disaster recovery.
 
 ## Backend Features Already Modeled
 
@@ -126,5 +140,8 @@ The SQL schema now includes:
 - `content_tasks`: public-publishing review queue.
 - `frontier_curations`: manually selected frontier radar items and lab takeaways.
 - `content_audit_logs`: append-only audit trail for content changes.
+- `partner_touchpoints`: follow-up records for partner CRM interactions.
+- `site_metric_snapshots`: aggregate website traffic snapshots.
+- `content_backup_snapshots`: records of console export manifests.
 
 The console is designed so public communication and internal operations stay separate: public pages are published through GitHub/Decap CMS, while private review state, partner leads, member permissions, and logs stay in Supabase with Row Level Security.

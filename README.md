@@ -105,8 +105,9 @@ https://sxhfut.github.io/console/
 Recommended backend:
 
 - Supabase Auth for GitHub/email login.
-- Supabase Postgres for member records, student pages, news materials, and output materials.
-- Partner lead intake for scenario requirements, contact context, and follow-up status.
+- Supabase Postgres for member records, student pages, news materials, output materials, review tasks, analytics snapshots, and backup manifests.
+- Partner CRM for scenario requirements, contact context, priority, next step, and follow-up status.
+- Browser-side JSON export for owner/admin handoff backups under Row Level Security.
 - Row Level Security for owner/admin/student permissions.
 
 Recommended roles:
@@ -122,6 +123,8 @@ console/config.js
 ```
 
 with the public Supabase URL and anon key. The anon key is browser-safe when RLS is enabled. Never commit a Supabase service-role key.
+
+If the console shows missing analytics or backup tables, rerun the latest `docs/admin/supabase-schema.sql` in the Supabase SQL Editor. The schema is written to be rerunnable after console upgrades.
 
 ## Website Analytics
 

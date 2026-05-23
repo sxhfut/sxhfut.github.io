@@ -16,7 +16,7 @@
           <strong>MAC-Lab Console</strong>
         </a>
         <nav class="console-nav" aria-label="Console navigation">
-          <button class="is-active" data-view="overview">总览</button>
+          <button class="is-active" data-view="overview">运营总览</button>
           <button data-view="profile">我的页面</button>
           <button data-view="news">实验室新闻</button>
           <button data-view="partners">合作线索</button>
@@ -24,6 +24,8 @@
           <button data-view="frontiers">前沿精选</button>
           <button data-view="people">成员与权限</button>
           <button data-view="projects">项目与成果</button>
+          <button data-view="analytics">访问统计</button>
+          <button data-view="backup">数据备份</button>
           <button data-view="audit">操作日志</button>
           <button data-view="settings">系统设置</button>
         </nav>
@@ -38,7 +40,7 @@
         <header class="console-topbar">
           <div>
             <p class="eyebrow">Internal Lab Workspace</p>
-            <h1>实验室后台管理</h1>
+          <h1>实验室运营工作台</h1>
           </div>
           <div class="console-user">
             <span id="userRole">未登录</span>
@@ -96,24 +98,38 @@
         <article class="metric-card">
           <span>身份</span>
           <strong data-profile-role>pending</strong>
-          <p>owner / admin 可管理公开内容与成员，student 聚焦个人页面和提交材料。</p>
+          <p>owner / admin 管理公开内容、成员权限和合作线索；student 维护个人页面与提交材料。</p>
         </article>
         <article class="metric-card">
-          <span>公开内容</span>
-          <strong>Decap CMS</strong>
-          <p>官网页面、招生介绍、行业方案、新闻与案例仍建议走 GitHub 版本化发布。</p>
+          <span>今日重点</span>
+          <strong data-count="review_focus">—</strong>
+          <p>待审核、需跟进、可发布的内容汇总到这里，避免素材沉在聊天记录和文档里。</p>
         </article>
         <article class="metric-card">
-          <span>内部管理</span>
-          <strong>Supabase</strong>
-          <p>成员、个人页、项目线索、成果材料和审核状态进入私有数据库。</p>
+          <span>公开发布</span>
+          <strong data-count="public_ready">—</strong>
+          <p>已到 public-ready 的内容进入 GitHub/Decap CMS 发布层，形成可检索的官网资产。</p>
         </article>
       </section>
       <section class="console-stat-strip">
         <div><span>待审核任务</span><strong data-count="content_tasks">—</strong></div>
         <div><span>新闻素材</span><strong data-count="lab_news">—</strong></div>
         <div><span>合作线索</span><strong data-count="partner_requests">—</strong></div>
+        <div><span>成果材料</span><strong data-count="lab_outputs">—</strong></div>
         <div><span>前沿精选</span><strong data-count="frontier_curations">—</strong></div>
+        <div><span>活跃成员</span><strong data-count="active_profiles">—</strong></div>
+      </section>
+      <section class="ops-board">
+        <article>
+          <p class="eyebrow">Work Queue</p>
+          <h2>近期需要处理</h2>
+          <div id="overviewFocusList" class="compact-list"></div>
+        </article>
+        <article>
+          <p class="eyebrow">Activity</p>
+          <h2>后台动态</h2>
+          <div id="overviewActivityList" class="compact-list"></div>
+        </article>
       </section>
       <section class="console-workspace-grid">
         <article>
@@ -141,10 +157,16 @@
           <button type="button" data-console-view="people">管理成员权限</button>
         </article>
         <article>
-          <span>Public publishing</span>
-          <h3>公开内容发布链路</h3>
-          <p>内部材料通过审核后，再进入公开 CMS，保证对外表达稳定、专业、可追溯。</p>
-          <a href="/admin/">打开公开 CMS</a>
+          <span>Analytics</span>
+          <h3>访问统计与传播反馈</h3>
+          <p>把 Cloudflare/Plausible 等聚合统计沉淀成快照，观察哪些页面正在形成真实影响。</p>
+          <button type="button" data-console-view="analytics">查看访问统计</button>
+        </article>
+        <article>
+          <span>Backup</span>
+          <h3>数据备份与交接</h3>
+          <p>owner 可以导出后台关键表，形成轻量备份和阶段性资料包，方便交接和留档。</p>
+          <button type="button" data-console-view="backup">生成备份</button>
         </article>
       </section>
       <section class="work-panel">
@@ -271,6 +293,9 @@
           <label>研究标签<input name="research_tags" placeholder="affective computing, HCI, NLP"></label>
           <label>中文简介<textarea name="body_zh" rows="6"></textarea></label>
           <label>English Bio<textarea name="body_en" rows="6"></textarea></label>
+          <label>代表成果（每行一条）<textarea name="publications" rows="4" placeholder="论文、专利、软著、开源项目等"></textarea></label>
+          <label>项目与平台经历（每行一条）<textarea name="projects" rows="4" placeholder="参与的系统、平台、项目或工程实践"></textarea></label>
+          <label>竞赛与荣誉（每行一条）<textarea name="achievements" rows="4" placeholder="竞赛获奖、学生科研、社会实践等"></textarea></label>
           <label>可见性
             <select name="visibility">
               <option value="draft">草稿</option>
@@ -323,6 +348,7 @@
           <label>单位或场景名称<input name="organization" required></label>
           <label>联系人<input name="contact_name"></label>
           <label>联系邮箱<input name="contact_email" type="email"></label>
+          <label>联系电话<input name="contact_phone" placeholder="选填，内部保存"></label>
           <label>场景类型
             <select name="scenario">
               <option value="campus">校园心理与学生成长</option>
@@ -333,12 +359,25 @@
               <option value="other">其他场景</option>
             </select>
           </label>
+          <label>优先级
+            <select name="priority">
+              <option value="4">重点跟进</option>
+              <option value="3">正常推进</option>
+              <option value="5">近期必须处理</option>
+              <option value="2">观察</option>
+              <option value="1">暂存</option>
+            </select>
+          </label>
           <label>需求摘要<textarea name="need_summary" rows="5" placeholder="真实问题、可用信号、部署环境、预期决策或服务目标"></textarea></label>
+          <label>下一步动作<textarea name="next_step" rows="3" placeholder="例如：约现场调研、补充材料、形成技术路线、准备试点方案"></textarea></label>
           <button type="submit">保存合作线索</button>
         </form>
       </section>
       <section class="table-panel">
-        <h2>线索池</h2>
+        <div class="panel-heading">
+          <h2>合作 CRM 管道</h2>
+          <p>按新线索、需求澄清、方案成型、可公开案例和归档进行推进。</p>
+        </div>
         <div id="partnerList" class="record-list"></div>
       </section>
     </template>
@@ -373,6 +412,10 @@
             </select>
           </label>
           <label>公开摘要<textarea name="summary" rows="5"></textarea></label>
+          <label>公开证据或链接<input name="public_url" type="url" placeholder="DOI、项目页、新闻链接、获奖通知等"></label>
+          <label>年份<input name="year" inputmode="numeric" placeholder="2026"></label>
+          <label>场域/级别<input name="venue" placeholder="IEEE Transactions / 国家级项目 / 省部级平台等"></label>
+          <label>参与学生或合作方<input name="contributors" placeholder="用逗号分隔，可选"></label>
           <label>状态
             <select name="status">
               <option value="draft">草稿</option>
@@ -387,6 +430,83 @@
       <section class="table-panel">
         <h2>材料列表</h2>
         <div id="projectList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="analyticsTemplate">
+      <section class="split-panel">
+        <div>
+          <p class="eyebrow">Analytics</p>
+          <h2>访问统计与传播反馈</h2>
+          <p>公开网站的访问统计适合做匿名聚合观察：哪些页面被真正阅读、哪些方向带来合作兴趣、哪些英文页面更容易被外部访问。具体个人访问身份不在这里追踪。</p>
+        </div>
+        <form id="analyticsForm" class="console-form wide-form">
+          <label>统计来源
+            <select name="source">
+              <option value="cloudflare">Cloudflare Web Analytics</option>
+              <option value="plausible">Plausible</option>
+              <option value="google">Google Analytics</option>
+              <option value="manual">人工整理</option>
+            </select>
+          </label>
+          <label>开始日期<input name="period_start" type="date" required></label>
+          <label>结束日期<input name="period_end" type="date" required></label>
+          <label>页面访问量<input name="page_views" inputmode="numeric" placeholder="例如 1280"></label>
+          <label>访客数<input name="unique_visitors" inputmode="numeric" placeholder="例如 430"></label>
+          <label>热门页面（每行：页面 | 数量）<textarea name="top_pages" rows="4" placeholder="/frontiers/ | 120"></textarea></label>
+          <label>主要来源（每行：来源 | 数量）<textarea name="referrers" rows="4" placeholder="Google | 80"></textarea></label>
+          <label>观察备注<textarea name="notes" rows="4" placeholder="例如：英文首页访问增加，前沿雷达带来合作页点击。"></textarea></label>
+          <button type="submit">保存统计快照</button>
+        </form>
+      </section>
+      <section class="analytics-grid">
+        <article>
+          <span>Provider</span>
+          <strong>Cloudflare / Plausible</strong>
+          <p>建议继续使用隐私友好的聚合统计。控制台保存的是阶段性快照，不追踪个人身份。</p>
+        </article>
+        <article>
+          <span>Insight</span>
+          <strong>页面兴趣</strong>
+          <p>重点看首页、研究方向、行业方案、前沿雷达、加入我们和合作入口的访问趋势。</p>
+        </article>
+        <article>
+          <span>Action</span>
+          <strong>内容迭代</strong>
+          <p>访问增长的方向可转成新闻、案例、英文摘要或合作沟通材料。</p>
+        </article>
+      </section>
+      <section class="table-panel">
+        <div class="panel-heading">
+          <h2>统计快照</h2>
+          <p>如增强 SQL 尚未部署，这里会提示需要更新 Supabase schema。</p>
+        </div>
+        <div id="analyticsList" class="record-list"></div>
+      </section>
+    </template>
+
+    <template id="backupTemplate">
+      <section class="work-panel">
+        <div>
+          <p class="eyebrow">Backup</p>
+          <h2>后台数据备份与交接</h2>
+          <p>这里生成的是当前账号按 RLS 权限可读取的数据包。owner 登录时可导出完整后台工作数据；普通成员只能导出自己有权查看的内容。</p>
+        </div>
+        <div class="backup-grid">
+          <label><input type="checkbox" value="profiles" checked> 成员与权限</label>
+          <label><input type="checkbox" value="student_pages" checked> 学生页面</label>
+          <label><input type="checkbox" value="lab_news" checked> 新闻素材</label>
+          <label><input type="checkbox" value="lab_outputs" checked> 项目成果</label>
+          <label><input type="checkbox" value="partner_requests" checked> 合作线索</label>
+          <label><input type="checkbox" value="content_tasks" checked> 审核任务</label>
+          <label><input type="checkbox" value="frontier_curations" checked> 前沿精选</label>
+          <label><input type="checkbox" value="content_audit_logs"> 操作日志</label>
+        </div>
+        <div class="backup-actions">
+          <button id="downloadBackupButton" type="button">生成 JSON 备份</button>
+          <button id="copyBackupManifestButton" class="ghost-button" type="button" disabled>复制备份摘要</button>
+        </div>
+        <pre id="backupManifest" class="backup-manifest">尚未生成备份。</pre>
       </section>
     </template>
 

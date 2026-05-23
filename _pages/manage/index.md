@@ -23,7 +23,7 @@ rank: 9.5
 
 <div class="media-note">
   <h2><span class="lang-en">Current Admin Status</span><span class="lang-zh">当前后台状态</span></h2>
-  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab console for members, student pages, lab news materials, partner leads, outputs, review tasks, frontier curation, and audit logs. The console is designed around owner, admin, and student roles, with private records stored in Supabase rather than the public GitHub Pages repository.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 用于实验室内部管理，包括成员、学生个人页、实验室新闻素材、合作线索、项目成果、审核队列、前沿精选和操作日志。控制台按 owner、admin、student 三类角色设计，内部记录放在 Supabase，不进入公开 GitHub Pages 仓库。</span></p>
+  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab operations workspace for members, student pages, lab news materials, partner CRM, outputs, review tasks, frontier curation, analytics snapshots, backup exports, and audit logs. The console is designed around owner, admin, and student roles, with private records stored in Supabase rather than the public GitHub Pages repository.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 已升级为实验室内部运营工作台，包括成员、学生个人页、实验室新闻素材、合作 CRM、项目成果、审核队列、前沿精选、访问统计快照、备份导出和操作日志。控制台按 owner、admin、student 三类角色设计，内部记录放在 Supabase，不进入公开 GitHub Pages 仓库。</span></p>
 </div>
 
 <h2><span class="lang-en">Operational Console Model</span><span class="lang-zh">后台工作台模型</span></h2>
@@ -48,6 +48,10 @@ rank: 9.5
   <article>
     <h2><span class="lang-en">Review Queue and Audit Trail</span><span class="lang-zh">审核队列与操作日志</span></h2>
     <p><span class="lang-en">Content tasks, frontier curation, and audit logs make the console more than a form collection: materials can move through submitted, review, approved, public-ready, and archived states with traceable changes.</span><span class="lang-zh">审核任务、前沿精选和操作日志让控制台不只是表单收集，而是能让素材按 submitted、review、approved、public_ready、archived 等状态流转，并保留可追踪修改记录。</span></p>
+  </article>
+  <article>
+    <h2><span class="lang-en">Analytics and Backup</span><span class="lang-zh">访问统计与备份</span></h2>
+    <p><span class="lang-en">Aggregate traffic snapshots and JSON exports turn the website into a maintainable lab asset: the team can see which public pages are working, preserve operational data, and hand over work without losing context.</span><span class="lang-zh">聚合访问统计快照与 JSON 导出让网站成为可运营的实验室资产：团队可以观察哪些公开页面有效，保留后台数据，并在学生管理员交接时不丢上下文。</span></p>
   </article>
 </div>
 
