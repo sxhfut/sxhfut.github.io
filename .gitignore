@@ -4,3 +4,21 @@ _site/
 .bundle/
 vendor/
 .DS_Store
+
+# Local secrets and private workspace material.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+_private/
+internal/
+_internal/
+backups/
+*.sql.gz
+*.dump
+*.bak
