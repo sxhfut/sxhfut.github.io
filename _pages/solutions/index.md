@@ -70,6 +70,55 @@ rank: 2.5
   </div>
 </section>
 
+<section class="solution-section" id="delivery-map">
+  <div class="solution-heading solution-heading--split">
+    <div>
+      <span class="solution-kicker"><span class="lang-en">Capability · Scenario · Delivery</span><span class="lang-zh">能力 · 场景 · 交付</span></span>
+      <h2><span class="lang-en">Partners usually need a route they can pilot, not a model they can only watch.</span><span class="lang-zh">合作方需要的是可试点的路线，而不是只能观看的模型。</span></h2>
+    </div>
+    <p><span class="lang-en">The same technical base can take different forms in schools, mobility, public-service spaces, human-factor teams, and embodied interaction products. The important step is to translate a human-state question into measurable signals, meaningful indicators, and usable delivery.</span><span class="lang-zh">同一技术底座在学校、出行、公共服务、人因团队和具身交互产品中会呈现不同形态。关键是把人的状态问题转化为可测信号、有意义指标和可使用交付物。</span></p>
+  </div>
+
+  <div class="solution-delivery-map">
+    <article>
+      <div>
+        <span><span class="lang-en">Campus</span><span class="lang-zh">校园</span></span>
+        <h3><span class="lang-en">Student mind-body growth and campus care</span><span class="lang-zh">学生心身成长与校园关护</span></h3>
+      </div>
+      <p><strong><span class="lang-en">Need</span><span class="lang-zh">场景需求</span></strong><span class="lang-en"> screening, growth support, early awareness, teacher-student collaboration, and non-stigmatizing intervention.</span><span class="lang-zh">筛查、成长支持、早期感知、师生协同和非标签化干预。</span></p>
+      <p><strong><span class="lang-en">Route</span><span class="lang-zh">实验室路线</span></strong><span class="lang-en"> combine campus data boundaries, multimodal assessment, mind-body profiles, and human-in-the-loop review.</span><span class="lang-zh">结合校园数据边界、多模态评估、身心画像与人在回路复核。</span></p>
+      <p><strong><span class="lang-en">Delivery</span><span class="lang-zh">可交付形态</span></strong><span class="lang-en"> student growth dashboard, assessment devices, counseling support tools, and staged pilot reports.</span><span class="lang-zh">学生成长看板、评测设备、咨询支持工具和阶段性试点报告。</span></p>
+    </article>
+    <article>
+      <div>
+        <span><span class="lang-en">Mobility</span><span class="lang-zh">出行</span></span>
+        <h3><span class="lang-en">Smart cockpit emotion and safety intelligence</span><span class="lang-zh">智能座舱情感与安全智能</span></h3>
+      </div>
+      <p><strong><span class="lang-en">Need</span><span class="lang-zh">场景需求</span></strong><span class="lang-en"> fatigue, stress, trust, attention, passenger experience, and timing of interaction.</span><span class="lang-zh">疲劳、压力、信任、注意、乘员体验和交互时机。</span></p>
+      <p><strong><span class="lang-en">Route</span><span class="lang-zh">实验室路线</span></strong><span class="lang-en"> fuse voice, vision, behavior, task context, and emotional interaction policies.</span><span class="lang-zh">融合语音、视觉、行为、任务情境与情感交互策略。</span></p>
+      <p><strong><span class="lang-en">Delivery</span><span class="lang-zh">可交付形态</span></strong><span class="lang-en"> cockpit state model, interaction prototype, evaluation protocol, and partner-side integration route.</span><span class="lang-zh">座舱状态模型、交互原型、评测流程和合作方集成路线。</span></p>
+    </article>
+    <article>
+      <div>
+        <span><span class="lang-en">Human Factors</span><span class="lang-zh">人因</span></span>
+        <h3><span class="lang-en">Role-fit assessment and performance support</span><span class="lang-zh">岗位适配评价与身心效能支持</span></h3>
+      </div>
+      <p><strong><span class="lang-en">Need</span><span class="lang-zh">场景需求</span></strong><span class="lang-en"> cognitive workload, resilience, risk trend, training effect, and scenario-specific capability.</span><span class="lang-zh">认知负荷、韧性、风险趋势、训练效果和场景化能力。</span></p>
+      <p><strong><span class="lang-en">Route</span><span class="lang-zh">实验室路线</span></strong><span class="lang-en"> connect baseline modeling, task-state inference, stress response, and reviewable indicators.</span><span class="lang-zh">连接基线建模、任务状态推断、压力反应和可复核指标。</span></p>
+      <p><strong><span class="lang-en">Delivery</span><span class="lang-zh">可交付形态</span></strong><span class="lang-en"> evaluation protocol, operator dashboard, training feedback, and field-validation report.</span><span class="lang-zh">评价流程、人员状态看板、训练反馈和现场验证报告。</span></p>
+    </article>
+    <article>
+      <div>
+        <span><span class="lang-en">Embodied AI</span><span class="lang-zh">具身智能</span></span>
+        <h3><span class="lang-en">Digital humans, robots, and companion agents</span><span class="lang-zh">数字人、机器人与陪伴智能体</span></h3>
+      </div>
+      <p><strong><span class="lang-en">Need</span><span class="lang-zh">场景需求</span></strong><span class="lang-en"> emotional perception, memory, personality, expression control, safety, and long-term trust.</span><span class="lang-zh">情感感知、记忆、人格、表达控制、安全边界和长期信任。</span></p>
+      <p><strong><span class="lang-en">Route</span><span class="lang-zh">实验室路线</span></strong><span class="lang-en"> build affective mind-state layers over multimodal grounding and scenario reasoning.</span><span class="lang-zh">在多模态接地和场景推演之上构建情感心智状态层。</span></p>
+      <p><strong><span class="lang-en">Delivery</span><span class="lang-zh">可交付形态</span></strong><span class="lang-en"> embodied interaction demo, role design, safety review, and product-facing evaluation.</span><span class="lang-zh">具身交互演示、角色设计、安全复核和面向产品的评测。</span></p>
+    </article>
+  </div>
+</section>
+
 <section class="solution-section solution-section--evidence">
   <div class="solution-heading solution-heading--split">
     <div>

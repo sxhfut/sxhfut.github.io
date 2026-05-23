@@ -1049,6 +1049,81 @@ h3 {
   font-weight: 850;
 }
 
+.proof-chain {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  background: #fff;
+}
+
+.proof-chain article {
+  min-height: 300px;
+  padding: clamp(24px, 2.7vw, 36px);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.proof-chain article:nth-child(2),
+.proof-chain article:nth-child(4) {
+  background: #f7faf9;
+}
+
+.proof-chain span {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 880;
+  letter-spacing: 0.14em;
+}
+
+.proof-chain h3 {
+  margin-bottom: 14px;
+  color: var(--ink);
+  font-size: clamp(23px, 2.2vw, 32px);
+  line-height: 1.08;
+}
+
+.proof-chain p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+.proof-band {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.proof-band > div {
+  min-height: 118px;
+  padding: 22px 24px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(243, 246, 248, 0.96)),
+    #fff;
+}
+
+.proof-band strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 860;
+}
+
+.proof-band span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .frontier-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -1836,7 +1911,9 @@ h3 {
   .metric-grid,
   .framework-grid,
   .media-grid--home,
-  .media-grid--page {
+  .media-grid--page,
+  .proof-chain,
+  .proof-band {
     grid-template-columns: 1fr;
   }
 
@@ -4291,6 +4368,64 @@ body {
   line-height: 1.68;
 }
 
+.solution-delivery-map {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.solution-delivery-map article {
+  display: grid;
+  gap: 14px;
+  min-height: 420px;
+  padding: clamp(26px, 3vw, 40px);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.solution-delivery-map article:nth-child(4n + 2),
+.solution-delivery-map article:nth-child(4n + 3) {
+  background: #f7faf9;
+}
+
+.solution-delivery-map article > div > span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 880;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.solution-delivery-map h3 {
+  max-width: 620px;
+  color: var(--ink);
+  font-size: clamp(24px, 2.5vw, 36px);
+  line-height: 1.08;
+}
+
+.solution-delivery-map p {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 18px;
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 15.5px;
+  line-height: 1.65;
+}
+
+.solution-delivery-map p strong {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 880;
+}
+
 .solution-scenario-grid {
   display: grid;
   grid-template-columns: 1.1fr repeat(2, minmax(0, 1fr));
@@ -4463,7 +4598,8 @@ body {
   .solution-layer-grid,
   .solution-scenario-grid,
   .solution-capability-map,
-  .solution-proof-grid {
+  .solution-proof-grid,
+  .solution-delivery-map {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -4497,15 +4633,22 @@ body {
   .solution-layer-grid,
   .solution-scenario-grid,
   .solution-capability-map,
-  .solution-proof-grid {
+  .solution-proof-grid,
+  .solution-delivery-map {
     grid-template-columns: 1fr;
   }
 
   .solution-layer-grid article,
   .solution-scenario-grid article,
-  .solution-capability-map article {
+  .solution-capability-map article,
+  .solution-delivery-map article {
     min-height: 0;
     padding: 24px 22px;
+  }
+
+  .solution-delivery-map p {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 
   .solution-layer-grid article > span,

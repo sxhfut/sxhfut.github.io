@@ -132,6 +132,7 @@
 
     const template = $(`#${view}Template`);
     viewMount.replaceChildren(template.content.cloneNode(true));
+    hydrateViewLinks();
     if (view === "overview") hydrateOverview();
     if (view === "profile") hydrateProfile();
     if (view === "news") hydrateNews();
@@ -144,6 +145,12 @@
   function hydrateOverview() {
     const roleNode = viewMount.querySelector("[data-profile-role]");
     if (roleNode) roleNode.textContent = state.profile?.role || "pending";
+  }
+
+  function hydrateViewLinks() {
+    viewMount.querySelectorAll("[data-console-view]").forEach((node) => {
+      node.addEventListener("click", () => renderView(node.dataset.consoleView));
+    });
   }
 
   async function hydrateProfile() {

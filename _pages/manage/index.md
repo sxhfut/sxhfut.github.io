@@ -78,7 +78,7 @@ rank: 9.5
   <article class="feature-card">
     <span><span class="lang-en">3. Automation</span><span class="lang-zh">3. 自动化</span></span>
     <h3><span class="lang-en">Use GitHub Actions for scheduled refreshes</span><span class="lang-zh">用 GitHub Actions 定时刷新</span></h3>
-    <p><span class="lang-en">The frontier radar already uses a scheduled workflow. The same pattern can support monthly summaries, publication refreshes, sitemap updates, and content-health checks.</span><span class="lang-zh">前沿雷达已经使用定时工作流。相同模式可扩展到月度观察、论文刷新、站点地图更新和内容健康检查。</span></p>
+    <p><span class="lang-en">The frontier radar runs twice daily through GitHub Actions. The same pattern can support monthly summaries, publication refreshes, sitemap updates, and content-health checks.</span><span class="lang-zh">前沿雷达已经通过 GitHub Actions 每天两次刷新。相同模式可扩展到月度观察、论文刷新、站点地图更新和内容健康检查。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">4. Private Work</span><span class="lang-zh">4. 私有工作</span></span>
@@ -112,7 +112,7 @@ rank: 9.5
   </article>
   <article>
     <h2><span class="lang-en">Frontier Radar as Knowledge Asset</span><span class="lang-zh">前沿雷达知识资产化</span></h2>
-    <p><span class="lang-en">Supported through GitHub Actions and data files. The radar can grow into topic clusters, monthly lab observations, and capability-linked trend summaries.</span><span class="lang-zh">可通过 GitHub Actions 和数据文件支持。雷达可继续扩展为方向聚类、月度观察和能力关联趋势总结。</span></p>
+    <p><span class="lang-en">Supported through GitHub Actions and data files. The radar now keeps a larger archive and can grow into topic clusters, weekly selected signals, monthly lab observations, and capability-linked trend summaries.</span><span class="lang-zh">可通过 GitHub Actions 和数据文件支持。雷达现在保留更大的归档池，可继续扩展为方向聚类、每周精选、月度观察和能力关联趋势总结。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Backend Management</span><span class="lang-zh">后台管理</span></h2>

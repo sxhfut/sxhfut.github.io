@@ -244,6 +244,58 @@ h2 {
   line-height: 1.1;
 }
 
+.console-workspace-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.console-workspace-grid article {
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  border: 1px solid rgba(215, 224, 234, 0.92);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.console-workspace-grid span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.console-workspace-grid h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 21px;
+  line-height: 1.18;
+}
+
+.console-workspace-grid p {
+  color: var(--muted);
+}
+
+.console-workspace-grid button,
+.console-workspace-grid a {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--navy);
+  background: #fff;
+  font-weight: 850;
+  cursor: pointer;
+}
+
 .split-panel {
   padding: clamp(24px, 4vw, 42px);
   margin-bottom: 18px;
@@ -424,7 +476,8 @@ code {
   .setup-panel,
   .auth-panel,
   .split-panel,
-  .dashboard-grid {
+  .dashboard-grid,
+  .console-workspace-grid {
     grid-template-columns: 1fr;
   }
 
