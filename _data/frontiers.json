@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T04:18:19+00:00",
-  "generated_at_beijing": "2026-05-23T12:18:19+08:00",
+  "generated_at": "2026-05-23T14:12:59+00:00",
+  "generated_at_beijing": "2026-05-23T22:12:59+08:00",
   "generated_date_beijing": "2026-05-23",
   "stats": {
     "total_items": 120,
@@ -28,14 +28,14 @@
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
+      "RSS · Google 新闻": 3,
       "RSS · MIT News AI": 3,
       "RSS · Hugging Face Blog": 3,
       "HFUT Faculty Blog": 3,
-      "RSS · Google 新闻": 2,
-      "RSS · Google News Human Factors": 2,
       "RSS · Google AI": 2,
       "RSS · Google News School Mental Health": 1,
       "RSS · IEEE Spectrum Robotics": 1,
+      "RSS · Google News Human Factors": 1,
       "China.com": 1
     }
   },
@@ -79,6 +79,32 @@
     {
       "kind": "industry",
       "track": "AI + Mind-Body Health",
+      "published": "2026-05-23",
+      "title": "Data Imbalances Distort AI Mental Health Guidance - Let's Data Science",
+      "summary": "Data Imbalances Distort AI Mental Health Guidance Let's Data Science",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMkpxX3JxcWYxUk93eHFBVHVUWEF4SzQ0cWpoX3RCbkVhcElBMGk5ZklFdXVUbjZEckxYTE1ETHNFejBnMVRfSmItLUgxNzBhWVNWaXo2N0FVZjhwdXZ3b3Q2ekZxbFk1dVVVTXhEQWZDZ0VGLXp4VFoxUV9fNkFWUnJ1bHJmMmpUNlZrZ0xUWE1hU0M2Y1E?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
       "published": "2026-05-22",
       "title": "Meta settles first US case over school costs tied to youth mental health, court filing shows - Indiatimes",
       "summary": "Meta settles first US case over school costs tied to youth mental health, court filing shows Indiatimes",
@@ -117,32 +143,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeXVFRHJCb1o2QWNnaThsUHFpZFlhQk1rZDlJSFotSGxDMzRYVU9YNGtLdWZsaHY3bXJTR2s1QlJRdzlqSTdZWkVXd3VfX0VvVUJZRVlVbDVxdndJMDJmXy1aaFpFdzNOOUE3NDBwZm5SdzlGZ2ljc1NOVkJIVUowSnRTLUNHRjRXQ0tmUy1ZOW5CZ3VVMkZRRmR4a3dYRUtmaGRpbTZJY1lhZlpaVi02cHJPa3ZBSzNheWFaQ19QQ3hWdw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-22",
-      "title": "AI Mental Health Startup The Path Raises $14.3M - HLTH",
-      "summary": "AI Mental Health Startup The Path Raises $14.3M HLTH",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQko5QlRPRWtySU41WHc0UGRNOGJKSDgxOU9kdF9JYzNBdzYxdmdUTnFDTU5obmUweFh2TS1QQzV3YWg5SHJMUTBpNnNQVExXWjA3bXRNSHQ3OEktMFM0MTVnR05SQ2p3dDRaVUFTNHVZN0RZM0pFZFRkcGZpRHFmSzFtYw?oc=5",
       "priority": 58,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
@@ -257,32 +257,6 @@
       ],
       "capability_tags_zh": [
         "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-21",
-      "title": "Embodied AI steps out of the lab but scaling challenges remain - Computer Weekly",
-      "summary": "Embodied AI steps out of the lab but scaling challenges remain Computer Weekly",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS1FwSHJwX3JQeHBSTnZMbWJNWUV0VEM0LVBodjRUZXFGMHF0R25BV0VwM0d3RzNZdFloYmFocUhnV04tNEdrV29GU2FjZWhZdWM3WkF4WVRQTnlSOXduSFpGSk9TRC1abUVGeTRJcFUyWFo5UE9BeHBFcG5IcjdfTVZzM2dVaEFxc01Vd0JpVXlKYnRsMFdPN0VuVjRtVlZjdUhBMm5PTEdnLWh4?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -783,6 +757,32 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-05-20",
+      "title": "D-Robotics, Spirit AI team up on embodied AI deployment solutions - Gasgoo",
+      "summary": "D-Robotics, Spirit AI team up on embodied AI deployment solutions Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZXVSaEVKRTl2VWN5Mk5mcXZBNnFONVpScmFQWkprazZTLW9FWTJnNUo5bEx3TDJoRFFUU2NHUG4zSkVLMGNfMUhNOEFzY0hQQlE5S1BPdU5weXZVYnFmT3ZxRHJONzh4eGtKNW5FM0NybzQ2RmJqblBsUHJmSWNucGltUXhabnA1TXJKQ3JCQXREc3Q2WU1NY2ZHTlhqX0ZXQkFMaXFINUFZZmkwSlk4ZDRNR2E5WjYzbGpHa1VNampfUHJB?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-20",
       "title": "Martur Fompak International Boosts Throughput and Efficiency with Intelligent Robotics Enabled by Joule and Embodied AI - SAP News Center",
       "summary": "Martur Fompak International Boosts Throughput and Efficiency with Intelligent Robotics Enabled by Joule and Embodied AI SAP News Center",
       "source": "RSS · Google News",
@@ -1167,32 +1167,6 @@
         "情感理解"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-05-19",
-      "title": "Growthspace Highlights Human Factors in Enterprise AI Learning Adoption - TipRanks",
-      "summary": "Growthspace Highlights Human Factors in Enterprise AI Learning Adoption TipRanks",
-      "source": "RSS · Google News Human Factors",
-      "authors": [
-        "Google News Human Factors"
-      ],
-      "categories": [
-        "RSS",
-        "Google News Human Factors"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeUFVQ3hneUFjM0JnY3AxUFRsdHNQX21zZjEzRktYNjNpRWNQLWhBOTJZbEFnMEt4ZV9XOUNManBaM05IVGR1VTBKYmYyZTYyVTN6M2tnLXBzUkN0SFJIWTQ2dk01SWd2ZXItN01mUWdOaTRFLUMzNFBsbWxDLXR3dGlZSkFXZy05dzFJeS1YX2xTLWNnbWRfdUtMQXBNTjNiRXl2ZmNnM1MyTEZ6YTYxUzVfOFZQUEdKcThr?oc=5",
-      "priority": 58,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -2369,6 +2343,33 @@
         "身心支持"
       ],
       "relevance_score": 82
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-05-11",
+      "title": "智观察 | 「情感计算」重新定义陪伴机器人 - AgeClub",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TdVZYd0hjbUtjd3JUTXZOVDZKNXUxMWthbzNyUlFoODhZWXVGbm9kUnloUHIxQm82ZU9odXk5VHhaMkFNVmhkQnlscll2cWZwZFlmWTBR?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
     },
     {
       "kind": "community",
