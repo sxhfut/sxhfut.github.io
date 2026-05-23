@@ -4861,3 +4861,165 @@ body.lang-zh-active .proof-chain p .lang-en {
     margin-bottom: 20px;
   }
 }
+
+/* Executive typography pass: reduce visual jumps across the site. The public
+   site should read like one serious lab publication, not a collage of styles. */
+:root {
+  --accent: #8f1d26;
+  --accent-soft: rgba(143, 29, 38, 0.08);
+}
+
+body,
+.site-header,
+.site-nav,
+.hero,
+.page-hero,
+.section,
+.page-section,
+.frontier-lens-board,
+.frontier-card,
+.solution-brief,
+.solution-section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+.frontier-lens-board h2,
+.frontier-method strong,
+.frontier-card__score b,
+.solution-capability-map article > span,
+.case-card__metric strong,
+.hero__facts dt,
+.metric-grid strong,
+.summary-band strong {
+  font-family: inherit;
+}
+
+.home .hero__headline-subtitle {
+  max-width: 820px;
+  margin-top: clamp(20px, 2.2vw, 30px);
+  color: #344256;
+  font-size: clamp(15px, 1.04vw, 18px);
+  font-weight: 760;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+}
+
+.home .hero__lead::before,
+.page-hero h1::after {
+  background: var(--accent);
+}
+
+.feature-card > span,
+.media-grid article > span,
+.framework-kicker,
+.case-card__kicker,
+.solution-kicker,
+.solution-layer-grid article > span,
+.solution-scenario-grid article > span,
+.solution-delivery-map article > div > span,
+.frontier-lens-board > div:first-child > span,
+.frontier-method > article > span,
+.frontier-latest__head > span,
+.frontier-latest__item > span,
+.frontier-archive-heading > span,
+.frontier-card__meta span,
+.frontier-card__meta strong,
+.frontier-card__lens strong,
+.frontier-tags > span {
+  color: #4d5a6a;
+  font-size: 14.5px;
+  font-weight: 760;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+  text-transform: none;
+}
+
+.hero__agenda > span {
+  color: #4d5a6a;
+}
+
+.solution-route b,
+.solution-route strong,
+.solution-capability-map article > span,
+.page-link--external,
+.section-heading a {
+  color: var(--accent);
+}
+
+.feature-card p,
+.framework-card p,
+.media-grid p,
+.project-list p,
+.news-list p,
+.frontier-card p,
+.solution-layer-grid p,
+.solution-scenario-grid p,
+.solution-delivery-map p,
+.solution-proof-grid p,
+.solution-capability-map p,
+.timeline span,
+.partner-cloud span {
+  font-size: 16.5px;
+  line-height: 1.78;
+}
+
+.feature-card h3,
+.media-grid h2,
+.media-grid h3,
+.solution-layer-grid h3,
+.solution-scenario-grid h3,
+.solution-capability-map h3 {
+  line-height: 1.26;
+}
+
+.proof-chain h3 {
+  max-width: none;
+  font-size: clamp(22px, 1.75vw, 28px);
+  line-height: 1.26;
+}
+
+.proof-chain p {
+  max-width: none;
+  color: #3f4d5f;
+  font-size: 17px;
+  line-height: 1.82;
+}
+
+.proof-chain article > span {
+  color: #4c5563;
+  border-bottom-color: rgba(9, 17, 31, 0.22);
+}
+
+.proof-band strong {
+  color: var(--ink);
+}
+
+.frontier-card__score,
+.solution-capability-map article > span {
+  border-color: rgba(143, 29, 38, 0.22);
+  background: var(--accent-soft);
+}
+
+@media (max-width: 760px) {
+  .home .hero__headline-subtitle {
+    font-size: 14.5px;
+    letter-spacing: 0.01em;
+  }
+
+  .feature-card p,
+  .framework-card p,
+  .media-grid p,
+  .project-list p,
+  .news-list p,
+  .frontier-card p,
+  .solution-layer-grid p,
+  .solution-scenario-grid p,
+  .solution-delivery-map p,
+  .solution-proof-grid p,
+  .solution-capability-map p,
+  .timeline span,
+  .partner-cloud span,
+  .proof-chain p {
+    font-size: 16px;
+  }
+}
