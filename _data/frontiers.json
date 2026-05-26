@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26T04:45:40+00:00",
-  "generated_at_beijing": "2026-05-26T12:45:40+08:00",
-  "generated_date_beijing": "2026-05-26",
+  "generated_at": "2026-05-26T16:24:45+00:00",
+  "generated_at_beijing": "2026-05-27T00:24:45+08:00",
+  "generated_date_beijing": "2026-05-27",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 0,
     "recent_signal_items": 17,
     "rss_items": 54,
-    "arxiv_items": 105,
+    "arxiv_items": 75,
     "kind_counts": {
       "community": 14,
       "industry": 36,
@@ -21,17 +21,17 @@
     },
     "source_counts": {
       "arXiv": 67,
-      "RSS · Google News": 10,
-      "Last30Days · GitHub": 9,
-      "Last30Days · Hacker News": 5,
+      "RSS · Google News": 9,
+      "Last30Days · GitHub": 8,
+      "Last30Days · Hacker News": 6,
+      "RSS · Google 新闻": 3,
+      "RSS · MIT Technology Review AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · Microsoft Research": 3,
-      "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
       "HFUT Faculty Blog": 3,
-      "RSS · Google 新闻": 2,
       "RSS · Google AI": 2,
       "RSS · Google News School Mental Health": 1,
       "RSS · IEEE Spectrum Robotics": 1,
@@ -78,6 +78,32 @@
   "items": [
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-26",
+      "title": "Is Embodied AI the Next Frontier, and How is BOTZ Positioned - Kavout",
+      "summary": "Is Embodied AI the Next Frontier, and How is BOTZ Positioned Kavout",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT1FqUmxvd1hhc3A0QldpV1NkeS1EV085X1pzLTVKRDM1VWdNazk2bWNzbDJqcW5rSmZPTDFnUWpzN1JDTkwtdEVzbFRHMVFkVmZwcVZ3ODE4WVF5RzdRaUpnckVxWDRxcndDRmFzNnlKZTROS2V0TnlzTm5DOEI2X0Rza3NrSHdDNzFPRjl4RF9nUFpqYms5elNn?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-05-26",
       "title": "京东健康携手北航发布AI心理平台 启动心理评估大模型研发 - 搜狐网",
@@ -105,29 +131,59 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-25",
-      "title": "Embodied AI tests limits of current governance frameworks - MLex",
-      "summary": "Embodied AI tests limits of current governance frameworks MLex",
-      "source": "RSS · Google News",
+      "track": "AI Industry",
+      "published": "2026-05-26",
+      "title": "Rethinking organizational design in the age of agentic AI",
+      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution. Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows....",
+      "source": "RSS · MIT Technology Review AI",
       "authors": [
-        "Google News"
+        "MIT Technology Review AI"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "MIT Technology Review AI"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZGYyM3UxdEVhLTl4b2FyNnFFc2JQTmZlNDdSNDE3cGlJT1BudFlVOUJFdmZCMDF3cnBGUk9KYk01bTI5Q1g3THZqZWVZcktDajBiUXU1bmRWN2tneUNFelpqS1M0U2Z6YVlldFdKeXlNVDBYN3p6OWZ2T0tzVnJESUJhOS15a0ppNjdOdi1Kek82RGNxRnRZbm9vSE90aUNRWVHSAVpBVV95cUxNQm1YcFkxSElsMllZaEV1V0RTWjcyNWxvMEpMZXEtal9SM0RpT3M2c1dDQklscGhyNVB6ZDFiQmYzczluWExKMk1WTlFGdUFPMEFBNXBBSmNnLUE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Affective LLMs",
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "情感大模型",
+        "身心支持"
       ],
-      "relevance_score": 79
+      "relevance_score": 77
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-05-26",
+      "title": "It’s time to address the looming crisis in entry-level work.",
+      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career…",
+      "source": "RSS · MIT Technology Review AI",
+      "authors": [
+        "MIT Technology Review AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT Technology Review AI"
+      ],
+      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 77
     },
     {
       "kind": "industry",
@@ -144,6 +200,32 @@
         "Google 新闻"
       ],
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sOVQ1Y0N3X0xvN2JKT1hmYzAwMGIzMkh1bnA3eXUzU0dKSnZOYVk5blJvY2VuamMzSlZJUGFqaTBGZGtNVGlJRnRaaFp4S2FyTFlyUlN4QjQ0TmdBdEpMaldjeUh1Q1FpXzUyLVd3?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-05-25",
+      "title": "京东健康携手北航发布AI心理平台 启动“心光公益”校园守护行动 - 新浪财经",
+      "summary": "京东健康携手北航发布AI心理平台 启动“心光公益”校园守护行动 新浪财经",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yQWZMTzZVdkhwUzZFUmFGb29UeGFSQXZfRVQ4bElkWjREV19RRXVXdlgyRHdWbVZxWko3U0QwVTRJTjdoYWhCWEhZZVlZbEVuT2RLeFNvOUhNR0R5RTBjOUtRbkpMMnc3V1ZWc0RB?oc=5",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -329,32 +411,6 @@
         "身心支持"
       ],
       "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-24",
-      "title": "Column: World Models—taxonomy and technical foundations in embodied AI - digitimes",
-      "summary": "Column: World Models—taxonomy and technical foundations in embodied AI digitimes",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pRVhJNmdmTGVrSHlDZFJXWDREaW9GYjRTd1kxSjBBSm8tdEVxdWJuVGtkTHZlVG84eDRYZlFNNEZVUlFsYmZOOVlJRHZJZnpOTjduV2Vxa0dTWll0SzZWbVA2c0ltUQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "paper",
@@ -821,6 +877,32 @@
         "身心支持"
       ],
       "relevance_score": 76
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-21",
+      "title": "Ask HN: Does anyone believe role-play AI is effective for training?",
+      "summary": "Ask HN: Does anyone believe role-play AI is effective for training? Last30Days signal for affective computing emotion AI, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "socratizeio",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://news.ycombinator.com/item?id=48221788",
+      "priority": 55,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1302,6 +1384,32 @@
         "具身交互"
       ],
       "relevance_score": 89
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-20",
+      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds - Crunchbase News",
+      "summary": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds Crunchbase News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPekZhSHpjR0xjVXR6cThjTkN3Z1FJVDFBUy1UbGRYQm1SZjFoMWJDQWRtRTBUU1RkOFgwb2NqbnVpU1pQVkVndlpHa3VPR1BpQWpROWU0NGxxM1ZkMkJPRnQwUUQzNkFVQ3BWX0ZOVnBINHJOSVJxTEVKb0RacEJDVFRRaUNKc0ZTOUwtTVFhUzhOVm5sNGdabGFnQ2U?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "paper",
@@ -1851,60 +1959,6 @@
       "relevance_score": 72
     },
     {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-05-18",
-      "title": "Inside Anduril and Meta’s quest to make smart glasses for warfare",
-      "summary": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the efforts as a vice president at Anduril following a career in the Army’s Special Operations Command, says his...",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "身心支持"
-      ],
-      "relevance_score": 77
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-05-18",
-      "title": "What to expect from Google this week",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O…",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 71
-    },
-    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-05-18",
@@ -2067,32 +2121,6 @@
         "情感理解"
       ],
       "relevance_score": 77
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-05-15",
-      "title": "Top Emotion AI Tools Tested - AIMultiple",
-      "summary": "Top Emotion AI Tools Tested AIMultiple",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iWkFXd244ZVcyR18wRVM2M3N5N2Q0ak1oeGhlVnhKYkoxSUxkNzI4akdCc25oZ2dwM3ZQYkFueGpkMkVyVjhzWklvMW5NOGVJ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "community",
@@ -2586,34 +2614,6 @@
     },
     {
       "kind": "community",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-10",
-      "title": "Latest 50 Papers - May 11, 2026",
-      "summary": "**Please check the [Github](https://github.com/NeoFii/Daily_ArXiv) page for a better reading experience and more papers.** ## LLM Reasoning | **Title** | **Date** | **Comment** | | --- | --- | --- | | **[Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key](https://arxiv.org/abs/2605. Last30Days signal for embodied emotional intelligence robot emotion, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "github-actions[bot]",
-        "NeoFii/DailyArXiv"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/NeoFii/DailyArXiv/issues/76",
-      "priority": 59,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 89
-    },
-    {
-      "kind": "community",
       "track": "AI + Psychology",
       "published": "2026-05-10",
       "title": "Local AI needs to be the norm",
@@ -3035,32 +3035,6 @@
       "relevance_score": 92
     },
     {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-05-04",
-      "title": "Feature: Impersonations and Mimicry",
-      "summary": "Deepseek Expert Here is a comprehensive glossary of terms that fall under the broad feature of Impersonation and Mimicry, spanning performance, biology, deception, technology, and culture. Each entry includes a definition, a traditional example, and a modern manifestation. --- 1. Impersonation D... google-3.1-pro-preview ### Analysis, Assessment, and Review... Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "Transparency-X",
-        "Transparency-X/Genocide"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/Transparency-X/Genocide/issues/6",
-      "priority": 59,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 83
-    },
-    {
       "kind": "paper",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-05-04",
@@ -3088,6 +3062,32 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "community",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-03",
+      "title": "chore: seal Santis OS architectural sovereignty layer",
+      "summary": "## Architectural Decision: Concierge Language Engine Decision sealed: **Algorithmic Sentence Synthesizer with bounded phrase-bank**. Reasoning: - Static i18n dictionaries are too rigid for computed biological truth. They cannot explain alignment, synergy, constraint pruning, confidence, and tier ... ## Architectural Decision: Full Cinematic Concierge... Last30Days signal for embodied emotional intelligence robot emotion, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "bashasnoglu-jpg",
+        "bashasnoglu-jpg/SANTIS_SITE"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/bashasnoglu-jpg/SANTIS_SITE/pull/76",
+      "priority": 59,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 83
     },
     {
       "kind": "community",
