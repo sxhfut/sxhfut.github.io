@@ -125,7 +125,7 @@ Chinese search and AI-discovery terms:
 ## Long-Term Research Route
 
 - 2002: Natural language processing, lexical analysis, parsing, machine translation, dialogue, and language understanding.
-- 2011: Human-machine dialogue and affective computing; with Professor Fuji Ren's visit to HFUT, the HFUT Affective Computing Institute was established, Professor Xiao Sun served as director, and the route further supported the Anhui Key Laboratory of Affective Computing and Advanced Intelligent Machines where he continues as deputy director.
+- 2011: Human-machine dialogue and affective computing; Professor Xiao Sun and Professor Fuji Ren jointly came to Hefei and HFUT to advance affective computing, establishing the HFUT Affective Computing Institute with Professor Sun as director and further supporting the Anhui Key Laboratory of Affective Computing and Advanced Intelligent Machines where he continues as deputy director.
 - 2015: Industrial application and multimodal affective computing.
 - 2018: Intelligent Mind-Body Guardian System and applied mental-care systems.
 - 2023: Ubiquitous Psychological Computing framework.
