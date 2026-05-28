@@ -21,7 +21,7 @@ The site presents MAC-Lab as a research platform that connects high-level public
 - `Cases`: public-safe capability cases around Mindmirror, MindScore, MindOS, MindTalk, MindPet, MemOS-Mind, and related platform lines.
 - `Impact`: representative publications, international challenges, patents, software, awards, standards, and real-world impact.
 - `People`: student training, competition outcomes, team culture, and public student information.
-- `News`: MAC-Lab newsroom for lab updates, public releases, and media coverage.
+- `News`: MAC-Lab newsroom for lab updates, public releases, media coverage, and HFUT faculty-blog synchronization.
 - `Frontiers`: automatically refreshed AI + psychology and affective-computing frontier radar.
 - `Media`: curated public coverage of Professor Xiao Sun and MAC-Lab.
 - `Join`: admissions and collaboration information for undergraduates, graduate students, academic PhD students, engineering doctoral students, and partners.
@@ -45,6 +45,7 @@ Editing model:
 - Public page updates can be edited through Markdown/HTML files or the `/admin/` Decap CMS scaffold after GitHub OAuth is configured.
 - Public news, cases, and frontier suggestions can be collected through GitHub Issue Forms and reviewed before publication.
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
+- The 2026-05-29 HFUT faculty-blog updates have been synchronized into the News and Frontiers data, including the MAC-Lab website release, two IEEE Transactions on Affective Computing papers, and one IEEE Transactions on Artificial Intelligence paper.
 - Sensitive internal information, unpublished technical details, raw data, partner contracts, student records, and private management work should not be stored in this public GitHub Pages repository.
 
 ## Content Admin

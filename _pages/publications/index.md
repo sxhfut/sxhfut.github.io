@@ -45,6 +45,9 @@ rank: 3
 <h2><span class="lang-en">Selected Publications</span><span class="lang-zh">代表论文</span></h2>
 
 <ol class="publication-list">
+  <li><strong>CausalSymptom: Learning Causal Disentangled Representation for Depression Severity Estimation on Transcribed Clinical Interviews.</strong> IEEE Transactions on Affective Computing, 2026.</li>
+  <li><strong>Modeling Latent Background Information in Multiturn Dialogues Using Diffusion Model.</strong> IEEE Transactions on Artificial Intelligence, 2026.</li>
+  <li><strong>ERMoV: Modeling Affective Mental States via Emotion Regulation for Dialogue Emotion Recognition.</strong> IEEE Transactions on Affective Computing, 2026.</li>
   <li><strong>MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation.</strong> EMNLP 2025.</li>
   <li><strong>FacialPulse: An Efficient RNN-based Depression Detection via Temporal Facial Landmarks.</strong> ACM MM 2025.</li>
   <li><strong>GRPose: Learning Graph Relations for Human Image Generation with Pose Priors.</strong> AAAI 2025.</li>

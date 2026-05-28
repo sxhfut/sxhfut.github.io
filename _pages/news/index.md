@@ -11,9 +11,9 @@ rank: 5
 
 <div class="summary-band">
   <div><strong>Newsroom</strong><span><span class="lang-en">first-hand MAC-Lab announcements</span><span class="lang-zh">实验室一手动态发布</span></span></div>
-  <div><strong>Updates</strong><span><span class="lang-en">research, awards, platforms, and student progress</span><span class="lang-zh">科研、获奖、平台与学生成长</span></span></div>
+  <div><strong>2026-05-29</strong><span><span class="lang-en">latest official faculty-blog updates</span><span class="lang-zh">合工大教师博客最新同步</span></span></div>
+  <div><strong>56</strong><span><span class="lang-en">public faculty-blog entries archived</span><span class="lang-zh">教师博客公开动态条目</span></span></div>
   <div><strong>Media Radar</strong><span><span class="lang-en">public coverage on MAC-Lab and Prof. Sun</span><span class="lang-zh">聚合实验室与孙晓教授相关报道</span></span></div>
-  <div><strong>Archive</strong><span><span class="lang-en">public stories kept for long-term visibility</span><span class="lang-zh">沉淀可长期传播的公开故事</span></span></div>
 </div>
 
 <div class="media-note">
@@ -37,6 +37,38 @@ rank: 5
 <p class="muted"><span class="lang-en">A curated stream of MAC-Lab progress across research platforms, publications, student training, competitions, standards, media visibility, and real-world applications.</span><span class="lang-zh">这里汇集 MAC-Lab 在科研平台、论文成果、学生培养、竞赛获奖、标准建设、媒体传播和成果转化方面的阶段性进展。</span></p>
 
 <div class="news-list">
+  <article>
+    <time>2026-05-29</time>
+    <div>
+      <h2><span class="lang-en">MAC-Lab Official Website Released</span><span class="lang-zh">实验室主页发布：sxhfut.github.io</span></h2>
+      <p><span class="lang-en">The new MAC-Lab website presents research directions, industry solutions, academic impact, lab news, frontier sharing, media coverage, student training, and collaboration channels as a long-term bilingual window for the lab.</span><span class="lang-zh">实验室主页 sxhfut.github.io 正式发布，集中呈现研究方向、行业方案、学术影响、实验室新闻、前沿分享、媒体关注、团队培养与合作入口，作为 MAC-Lab 对外展示和持续更新的双语窗口。</span></p>
+      <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1774.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
+    </div>
+  </article>
+  <article>
+    <time>2026-05-29</time>
+    <div>
+      <h2><span class="lang-en">Joint HFUT-USTC Work Accepted by IEEE Transactions on Affective Computing</span><span class="lang-zh">与中国科学技术大学联合研究成果被 IEEE Transactions on Affective Computing 录用</span></h2>
+      <p><span class="lang-en">The paper CausalSymptom studies causal disentangled representation learning for depression severity estimation from transcribed clinical interviews, strengthening the lab's research line in interpretable affective and psychological computing.</span><span class="lang-zh">论文 CausalSymptom: Learning Causal Disentangled Representation for Depression Severity Estimation on Transcribed Clinical Interviews 被 IEEE Transactions on Affective Computing 录用，面向临床访谈文本中的抑郁严重程度估计与因果解耦表示学习。</span></p>
+      <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1773.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
+    </div>
+  </article>
+  <article>
+    <time>2026-05-29</time>
+    <div>
+      <h2><span class="lang-en">Paper Accepted by IEEE Transactions on Artificial Intelligence</span><span class="lang-zh">实验室论文被 IEEE Transactions on Artificial Intelligence 录用</span></h2>
+      <p><span class="lang-en">The accepted work models latent background information in multi-turn dialogues using diffusion models, connecting dialogue understanding, background reasoning, and affective interaction.</span><span class="lang-zh">论文 Modeling Latent Background Information in Multiturn Dialogues Using Diffusion Model 被 IEEE Transactions on Artificial Intelligence 录用，围绕多轮对话中的潜在背景信息建模、扩散模型与对话理解展开研究。</span></p>
+      <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1772.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
+    </div>
+  </article>
+  <article>
+    <time>2026-05-29</time>
+    <div>
+      <h2><span class="lang-en">Dialogue Emotion Recognition Work Accepted by IEEE Transactions on Affective Computing</span><span class="lang-zh">对话情绪识别研究被 IEEE Transactions on Affective Computing 录用</span></h2>
+      <p><span class="lang-en">ERMoV models affective mental states through emotion regulation for dialogue emotion recognition, continuing the lab's long-term route from affective dialogue to psychological-state modeling.</span><span class="lang-zh">论文 ERMoV: Modeling Affective Mental States via Emotion Regulation for Dialogue Emotion Recognition 被 IEEE Transactions on Affective Computing 录用，延续团队从情感对话走向心理状态建模的研究主线。</span></p>
+      <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1771.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
+    </div>
+  </article>
   <article>
     <time>2025-08-28</time>
     <div>

@@ -128,13 +128,13 @@ rank: 6.5
       <p><span class="lang-en">The carriers change. The central question keeps accumulating.</span><span class="lang-zh">载体会变，但核心问题会不断积累。</span></p>
     </div>
     <div class="note-body">
-      <p><span class="lang-en">MAC-Lab's route has moved from natural language processing to dialogue, affective computing, multimodal affective computing, ubiquitous psychological computing, and embodied emotional intelligence. The carriers changed; the core question stayed steady: how can AI understand and support human state?</span><span class="lang-zh">MAC-Lab 的路线从自然语言处理、人机对话、情感计算、多模态情感计算，延伸到普适心理计算和具身情感智能。载体在变化，核心问题一直稳定：AI 如何理解并支持人的状态？</span></p>
+      <p><span class="lang-en">MAC-Lab's route has moved from natural language processing to dialogue, affective computing, multimodal affective computing, ubiquitous psychological computing, and embodied emotional intelligence. Around 2011, Professor Fuji Ren's visit to HFUT and the founding of the HFUT Affective Computing Institute made affective computing a visible organizational direction, with Professor Xiao Sun serving as institute director and helping build the Anhui Key Laboratory of Affective Computing and Advanced Intelligent Machines. The carriers changed; the core question stayed steady: how can AI understand and support human state?</span><span class="lang-zh">MAC-Lab 的路线从自然语言处理、人机对话、情感计算、多模态情感计算，延伸到普适心理计算和具身情感智能。2011 年前后，任福继院士来合肥、到合肥工业大学推动情感计算方向建设，合肥工业大学情感计算研究所成立，孙晓教授担任研究所所长，并进一步参与建设情感计算与先进智能机器安徽省重点实验室、担任副主任至今。载体在变化，核心问题一直稳定：AI 如何理解并支持人的状态？</span></p>
       <p><span class="lang-en">A stable spine lets students, systems, papers, patents, platforms, and partners accumulate around one expanding problem space. That accumulation is why the lab can speak to both frontier research and real industry needs without becoming either a paper factory or a pure outsourcing workshop.</span><span class="lang-zh">稳定主线让学生、系统、论文、专利、平台和合作伙伴围绕同一个不断扩展的问题空间持续积累。正因为有这种积累，实验室才能同时面向前沿科研和真实产业需求，而不是变成单一产出形态。</span></p>
       <figure class="note-visual note-visual--timeline">
         <figcaption><span class="lang-en">One route, expanding carriers</span><span class="lang-zh">一条主线，不断扩展的载体</span></figcaption>
         <div class="note-timeline">
           <span><b>2002</b><small><span class="lang-en">NLP</span><span class="lang-zh">自然语言处理</span></small></span>
-          <span><b>2011</b><small><span class="lang-en">Dialogue + affective computing</span><span class="lang-zh">人机对话与情感计算</span></small></span>
+          <span><b>2011</b><small><span class="lang-en">Affective Computing Institute</span><span class="lang-zh">情感计算研究所</span></small></span>
           <span><b>2015</b><small><span class="lang-en">Multimodal + industrialization</span><span class="lang-zh">多模态与产业化</span></small></span>
           <span><b>2018</b><small><span class="lang-en">Mind-body guardian system</span><span class="lang-zh">智能心身守护系统</span></small></span>
           <span><b>Now</b><small><span class="lang-en">Ubiquitous psychological computing + embodied emotional intelligence</span><span class="lang-zh">普适心理计算与具身情感智能</span></small></span>

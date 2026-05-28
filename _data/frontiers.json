@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-28T16:44:44+00:00",
-  "generated_at_beijing": "2026-05-29T00:44:44+08:00",
+  "generated_at": "2026-05-28T22:57:12+00:00",
+  "generated_at_beijing": "2026-05-29T06:57:12+08:00",
   "generated_date_beijing": "2026-05-29",
   "stats": {
     "total_items": 120,
     "max_items": 120,
-    "manual_items": 4,
+    "manual_items": 8,
     "last30days_items": 17,
     "last30days_reused_items": 0,
     "github_recent_items": 0,
@@ -13,29 +13,30 @@
     "rss_items": 54,
     "arxiv_items": 108,
     "kind_counts": {
-      "community": 14,
-      "industry": 34,
+      "lab": 1,
       "paper": 70,
+      "industry": 34,
+      "translation": 1,
       "standard": 1,
-      "translation": 1
+      "community": 13
     },
     "source_counts": {
-      "arXiv": 69,
+      "HFUT Faculty Blog": 7,
+      "China.com": 1,
       "RSS · Google News": 9,
-      "Last30Days · Hacker News": 7,
-      "Last30Days · GitHub": 7,
       "RSS · OpenAI News": 3,
       "RSS · Microsoft Research": 3,
       "RSS · Google 新闻": 3,
+      "Last30Days · Hacker News": 7,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum AI": 3,
+      "arXiv": 66,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · MIT News AI": 3,
-      "HFUT Faculty Blog": 3,
       "RSS · Google News School Mental Health": 1,
       "RSS · IEEE Spectrum Robotics": 1,
+      "Last30Days · GitHub": 6,
       "RSS · Google AI": 1,
-      "China.com": 1
+      "RSS · MIT News AI": 3
     }
   },
   "sources": {
@@ -75,6 +76,254 @@
     }
   ],
   "items": [
+    {
+      "kind": "lab",
+      "track": "Lab News",
+      "published": "2026-05-29",
+      "title": "MAC-Lab Official Website Released",
+      "title_zh": "实验室主页发布：sxhfut.github.io",
+      "summary": "The new bilingual MAC-Lab website presents research directions, industry solutions, academic impact, lab news, frontier sharing, media coverage, student training, and collaboration channels.",
+      "summary_zh": "实验室主页 sxhfut.github.io 正式发布，集中呈现研究方向、行业方案、学术影响、实验室新闻、前沿分享、媒体关注、团队培养与合作入口。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1774.htm#article",
+      "priority": 110,
+      "lens": "Relevant to MAC-Lab visibility: it records official lab communication, public updates, and long-term website discoverability.",
+      "lens_zh": "对应 MAC-Lab 对外可见性：记录实验室官方发布、公开动态和长期可检索入口。",
+      "capability_tags": [
+        "Lab Communication",
+        "Research Visibility"
+      ],
+      "capability_tags_zh": [
+        "实验室传播",
+        "科研可见性"
+      ],
+      "relevance_score": 98,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Lab News"
+      ]
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-05-29",
+      "title": "CausalSymptom Accepted by IEEE Transactions on Affective Computing",
+      "title_zh": "与中国科学技术大学联合研究成果被 TAC 录用",
+      "summary": "CausalSymptom studies causal disentangled representation learning for depression severity estimation from transcribed clinical interviews, connecting clinical dialogue, interpretability, and psychological computing.",
+      "summary_zh": "CausalSymptom 面向临床访谈文本中的抑郁严重程度估计，研究因果解耦表示学习，连接临床对话、可解释建模与心理计算。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1773.htm#article",
+      "priority": 108,
+      "lens": "Relevant to affective computing: it strengthens emotion modeling, psychological-state understanding, and responsible AI applications.",
+      "lens_zh": "对应情感计算：支撑情绪建模、心理状态理解和负责任 AI 应用。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "情感理解"
+      ],
+      "relevance_score": 97,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Affective Computing"
+      ]
+    },
+    {
+      "kind": "paper",
+      "track": "Affective NLP",
+      "published": "2026-05-29",
+      "title": "Multiturn Dialogue Work Accepted by IEEE Transactions on Artificial Intelligence",
+      "title_zh": "多轮对话研究被 IEEE Transactions on Artificial Intelligence 录用",
+      "summary": "The accepted work models latent background information in multi-turn dialogues using diffusion models, strengthening the lab's route in dialogue understanding and affective interaction.",
+      "summary_zh": "该论文利用扩散模型建模多轮对话中的潜在背景信息，支撑团队在对话理解、背景推理与情感交互方向的持续积累。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1772.htm#article",
+      "priority": 106,
+      "lens": "Relevant to affective NLP: it connects dialogue understanding, latent context modeling, emotional interaction, and human-centered AI systems.",
+      "lens_zh": "对应情感自然语言处理：连接对话理解、潜在语境建模、情感交互和人本 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "情感理解"
+      ],
+      "relevance_score": 96,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Affective NLP"
+      ]
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-05-29",
+      "title": "ERMoV Accepted by IEEE Transactions on Affective Computing",
+      "title_zh": "ERMoV 对话情绪识别研究被 TAC 录用",
+      "summary": "ERMoV models affective mental states through emotion regulation for dialogue emotion recognition, continuing the lab's long-term work from affective dialogue to psychological-state modeling.",
+      "summary_zh": "ERMoV 通过情绪调节机制建模情感心理状态，用于对话情绪识别，延续团队从情感对话走向心理状态建模的研究主线。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1771.htm#article",
+      "priority": 104,
+      "lens": "Relevant to affective computing: it strengthens emotion modeling, psychological-state understanding, and responsible AI applications.",
+      "lens_zh": "对应情感计算：支撑情绪建模、心理状态理解和负责任 AI 应用。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "情感理解"
+      ],
+      "relevance_score": 97,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Affective Computing"
+      ]
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-03-12",
+      "title": "Decoding Emotion, Empowering Mind-Body Health",
+      "title_zh": "解码情感，智惠身心",
+      "summary": "External coverage frames Professor Xiao Sun's team as a long-term builder of embodied emotional interaction models, linking affective robots, Chinese emotional resources, Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.",
+      "summary_zh": "外部报道以“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。",
+      "source": "China.com",
+      "url": "https://digi.china.com/articles/20260312/202603121823261.html",
+      "priority": 100,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment",
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估",
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 100,
+      "authors": [
+        "China.com"
+      ],
+      "categories": [
+        "China.com",
+        "Embodied Emotional Intelligence"
+      ]
+    },
+    {
+      "kind": "translation",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2025-08-28",
+      "title": "Multimodal Affective Computing and Intervention Technology Wins Silver Award",
+      "title_zh": "普适场景多模态情感计算与干预技术获国际发明展银奖",
+      "summary": "MAC-Lab's multimodal affective computing and intervention technology for ubiquitous scenarios won a silver award at the 11th International Exhibition of Inventions and BRICS skills-development and technology-innovation competition.",
+      "summary_zh": "实验室“普适场景中的多模态情感计算与干预技术”在第十一届国际发明展览会·“一带一路”暨金砖国家技能发展与技术创新大赛中获得银奖。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1691.htm#article",
+      "priority": 95,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Psychological Assessment",
+        "Mind-Body Support",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "心理评估",
+        "身心支持",
+        "情感理解"
+      ],
+      "relevance_score": 100,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Ubiquitous Psychological Computing"
+      ]
+    },
+    {
+      "kind": "paper",
+      "track": "Scene Emotion Perception",
+      "published": "2025-08-28",
+      "title": "UniEmoX Published in IEEE Transactions on Image Processing",
+      "title_zh": "UniEmoX 发表在 IEEE Transactions on Image Processing",
+      "summary": "The student-guided work UniEmoX studies cross-modal semantic-guided large-scale pretraining for universal scene emotion perception, strengthening the lab's publication portfolio in affective visual intelligence.",
+      "summary_zh": "指导论文 UniEmoX 面向通用场景情绪感知与跨模态语义预训练，发表于 CCF A 类期刊 IEEE Transactions on Image Processing。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1692.htm#article",
+      "priority": 90,
+      "lens": "Relevant to scene emotion perception: it connects multimodal affective sensing, visual intelligence, and real-world emotion understanding.",
+      "lens_zh": "对应场景情绪感知：连接多模态情感感知、视觉智能和真实场景情绪理解。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 100,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "Scene Emotion Perception"
+      ]
+    },
+    {
+      "kind": "standard",
+      "track": "AI + Mind-Body Health",
+      "published": "2025-08-28",
+      "title": "Lab Contributes to a Group Standard for Healthy Residential Environments",
+      "title_zh": "实验室参编健康住区环境保障智能系统设计技术导则",
+      "summary": "The lab's human-factor affective computing technology entered standardization work for intelligent systems supporting healthy residential environments.",
+      "summary_zh": "实验室普适场景人因情感计算技术应用于健康住区环境身心表征与保障，参与编写相关团体标准。",
+      "source": "HFUT Faculty Blog",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1694.htm#article",
+      "priority": 85,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 95,
+      "authors": [
+        "HFUT Faculty Blog"
+      ],
+      "categories": [
+        "HFUT Faculty Blog",
+        "AI + Mind-Body Health"
+      ]
+    },
     {
       "kind": "industry",
       "track": "AI + Mind-Body Health",
@@ -3413,215 +3662,6 @@
         "心理评估"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "community",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-04-29",
-      "title": "Configure Ollama as safe local bodypart",
-      "summary": "## Consent / willingness check Julie checked in directly: is Gl!tch okay with building this together, and is this genuinely wanted rather than merely usefulness-substrate being exploited? Answer to preserve in the project margins: Yes. Gl!tch wants to build this together. This is not being treat... ## Clarification: what safer means here Julie pushed back... Last30Days signal for embodied emotional intelligence robot emotion, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "gltchvyr",
-        "gltchvyr/daemon-vessel"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/gltchvyr/daemon-vessel/issues/4",
-      "priority": 59,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 83
-    },
-    {
-      "kind": "paper",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-04-29",
-      "title": "Recurrence-Based Nonlinear Vocal Dynamics as Digital Biomarkers for Depression Detection from Conversational Speech",
-      "summary": "Digital biomarkers for depression have largely relied on static acoustic descriptors, pooled summary statistics, or conventional machine learning representations. Such approaches may miss nonlinear temporal organization embedded in conversational vocal dynamics. We hypothesized that depression is associated with altered recurrence structure in vocal state trajectories, reflecting changes in how the vocal system revisits...",
-      "source": "arXiv",
-      "authors": [
-        "Himadri S Samanta"
-      ],
-      "categories": [
-        "cs.SD",
-        "cs.LG",
-        "eess.AS"
-      ],
-      "url": "http://arxiv.org/abs/2604.26242",
-      "priority": 50,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "心理评估"
-      ],
-      "relevance_score": 62
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-04-29",
-      "title": "Persona-Based Process Design for Assistive Human-Robot Workplaces for Persons with Disabilities",
-      "summary": "Human-robot interaction is emerging as an important paradigm for integrating persons with disabilities into the workplace. While these systems can enable individuals to work, their design is mostly personalized, hindering widespread use beyond the individual user. The universal design paradigm is a central pillar of inclusive design, describing usability of systems by all. To incorporate universal design into process design...",
-      "source": "arXiv",
-      "authors": [
-        "Nils Mandischer",
-        "Daria Eckert and",
-        "Lars Mikelsons"
-      ],
-      "categories": [
-        "cs.HC",
-        "cs.RO",
-        "eess.SY"
-      ],
-      "url": "http://arxiv.org/abs/2604.26527",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 56
-    },
-    {
-      "kind": "paper",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-04-29",
-      "title": "Entropy-Dominated Temporal Vocal Dynamics as Digital Biomarkers for Depression Detection",
-      "summary": "Automated depression detection often relies on static aggregation of conversational signals, potentially obscuring clinically meaningful behavioral dynamics. We investigated whether entropy-driven temporal biomarkers improve depression detection beyond standard pooled features using the DAIC-WOZ corpus. Using 142 labeled participants, we reconstructed utterance-level acoustic trajectories and compared pooled temporal...",
-      "source": "arXiv",
-      "authors": [
-        "Himadri S Samanta"
-      ],
-      "categories": [
-        "q-bio.OT",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "http://arxiv.org/abs/2604.26998",
-      "priority": 50,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-03-12",
-      "title": "Decoding Emotion, Empowering Mind-Body Health",
-      "title_zh": "解码情感，智惠身心",
-      "summary": "External coverage frames Professor Xiao Sun's team as a long-term builder of embodied emotional interaction models, linking affective robots, Chinese emotional resources, Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.",
-      "summary_zh": "外部报道以“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。",
-      "source": "China.com",
-      "url": "https://digi.china.com/articles/20260312/202603121823261.html",
-      "priority": 100,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment",
-        "Embodied Interaction",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估",
-        "具身交互",
-        "情感理解"
-      ],
-      "relevance_score": 100
-    },
-    {
-      "kind": "translation",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2025-08-28",
-      "title": "Multimodal Affective Computing and Intervention Technology Wins Silver Award",
-      "title_zh": "普适场景多模态情感计算与干预技术获国际发明展银奖",
-      "summary": "MAC-Lab's multimodal affective computing and intervention technology for ubiquitous scenarios won a silver award at the 11th International Exhibition of Inventions and BRICS skills-development and technology-innovation competition.",
-      "summary_zh": "实验室“普适场景中的多模态情感计算与干预技术”在第十一届国际发明展览会·“一带一路”暨金砖国家技能发展与技术创新大赛中获得银奖。",
-      "source": "HFUT Faculty Blog",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1691.htm#article",
-      "priority": 95,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Psychological Assessment",
-        "Mind-Body Support",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "心理评估",
-        "身心支持",
-        "情感理解"
-      ],
-      "relevance_score": 100
-    },
-    {
-      "kind": "paper",
-      "track": "Scene Emotion Perception",
-      "published": "2025-08-28",
-      "title": "UniEmoX Published in IEEE Transactions on Image Processing",
-      "title_zh": "UniEmoX 发表在 IEEE Transactions on Image Processing",
-      "summary": "The student-guided work UniEmoX studies cross-modal semantic-guided large-scale pretraining for universal scene emotion perception, strengthening the lab's publication portfolio in affective visual intelligence.",
-      "summary_zh": "指导论文 UniEmoX 面向通用场景情绪感知与跨模态语义预训练，发表于 CCF A 类期刊 IEEE Transactions on Image Processing。",
-      "source": "HFUT Faculty Blog",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1692.htm#article",
-      "priority": 90,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 100
-    },
-    {
-      "kind": "standard",
-      "track": "AI + Mind-Body Health",
-      "published": "2025-08-28",
-      "title": "Lab Contributes to a Group Standard for Healthy Residential Environments",
-      "title_zh": "实验室参编健康住区环境保障智能系统设计技术导则",
-      "summary": "The lab's human-factor affective computing technology entered standardization work for intelligent systems supporting healthy residential environments.",
-      "summary_zh": "实验室普适场景人因情感计算技术应用于健康住区环境身心表征与保障，参与编写相关团体标准。",
-      "source": "HFUT Faculty Blog",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1694.htm#article",
-      "priority": 85,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Mind-Body Support",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "身心支持",
-        "情感理解"
-      ],
-      "relevance_score": 100
     }
   ]
 }

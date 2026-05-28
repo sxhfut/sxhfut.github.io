@@ -1,5 +1,53 @@
 [
   {
+    "kind": "lab",
+    "track": "Lab News",
+    "published": "2026-05-29",
+    "title": "MAC-Lab Official Website Released",
+    "title_zh": "实验室主页发布：sxhfut.github.io",
+    "summary": "The new bilingual MAC-Lab website presents research directions, industry solutions, academic impact, lab news, frontier sharing, media coverage, student training, and collaboration channels.",
+    "summary_zh": "实验室主页 sxhfut.github.io 正式发布，集中呈现研究方向、行业方案、学术影响、实验室新闻、前沿分享、媒体关注、团队培养与合作入口。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1774.htm#article",
+    "priority": 110
+  },
+  {
+    "kind": "paper",
+    "track": "Affective Computing",
+    "published": "2026-05-29",
+    "title": "CausalSymptom Accepted by IEEE Transactions on Affective Computing",
+    "title_zh": "与中国科学技术大学联合研究成果被 TAC 录用",
+    "summary": "CausalSymptom studies causal disentangled representation learning for depression severity estimation from transcribed clinical interviews, connecting clinical dialogue, interpretability, and psychological computing.",
+    "summary_zh": "CausalSymptom 面向临床访谈文本中的抑郁严重程度估计，研究因果解耦表示学习，连接临床对话、可解释建模与心理计算。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1773.htm#article",
+    "priority": 108
+  },
+  {
+    "kind": "paper",
+    "track": "Affective NLP",
+    "published": "2026-05-29",
+    "title": "Multiturn Dialogue Work Accepted by IEEE Transactions on Artificial Intelligence",
+    "title_zh": "多轮对话研究被 IEEE Transactions on Artificial Intelligence 录用",
+    "summary": "The accepted work models latent background information in multi-turn dialogues using diffusion models, strengthening the lab's route in dialogue understanding and affective interaction.",
+    "summary_zh": "该论文利用扩散模型建模多轮对话中的潜在背景信息，支撑团队在对话理解、背景推理与情感交互方向的持续积累。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1772.htm#article",
+    "priority": 106
+  },
+  {
+    "kind": "paper",
+    "track": "Affective Computing",
+    "published": "2026-05-29",
+    "title": "ERMoV Accepted by IEEE Transactions on Affective Computing",
+    "title_zh": "ERMoV 对话情绪识别研究被 TAC 录用",
+    "summary": "ERMoV models affective mental states through emotion regulation for dialogue emotion recognition, continuing the lab's long-term work from affective dialogue to psychological-state modeling.",
+    "summary_zh": "ERMoV 通过情绪调节机制建模情感心理状态，用于对话情绪识别，延续团队从情感对话走向心理状态建模的研究主线。",
+    "source": "HFUT Faculty Blog",
+    "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1771.htm#article",
+    "priority": 104
+  },
+  {
     "kind": "industry",
     "track": "Embodied Emotional Intelligence",
     "published": "2026-03-12",
