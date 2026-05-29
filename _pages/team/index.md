@@ -149,29 +149,26 @@ rank: 4
   <div><strong>陈维</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
   <div><strong>李春彬</strong><span>MAC-Lab</span></div>
   <div><strong>孙重远</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
-  <div><strong>陈炜亮</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>唐陈意</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>赵同学</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
-  <div><strong>彭晓琪</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>何家劲</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>吕曼</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>待补充成员 A</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
-  <div><strong>夏平平</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>曹馨月</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>魏传征</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>裴正蒙</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>洪涛</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>柳素红</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>李春杉</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>张习伟</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>郑仕鑫</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>李园林</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>苏凯</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>时雨涛</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>宋京泽</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>饶轩衡</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
-  <div><strong>待补充成员 B</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
-  <div><strong>王鑫宇</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>陈炜亮</strong><span>MAC-Lab</span></div>
+  <div><strong>唐陈意</strong><span>MAC-Lab</span></div>
+  <div><strong>赵同学</strong><span>MAC-Lab</span></div>
+  <div><strong>彭晓琪</strong><span>MAC-Lab</span></div>
+  <div><strong>何家劲</strong><span>MAC-Lab</span></div>
+  <div><strong>吕曼</strong><span>MAC-Lab</span></div>
+  <div><strong>夏平平</strong><span>MAC-Lab</span></div>
+  <div><strong>曹馨月</strong><span>MAC-Lab</span></div>
+  <div><strong>魏传征</strong><span>MAC-Lab</span></div>
+  <div><strong>裴正蒙</strong><span>MAC-Lab</span></div>
+  <div><strong>洪涛</strong><span>MAC-Lab</span></div>
+  <div><strong>柳素红</strong><span>MAC-Lab</span></div>
+  <div><strong>李春杉</strong><span>MAC-Lab</span></div>
+  <div><strong>郑仕鑫</strong><span>MAC-Lab</span></div>
+  <div><strong>李园林</strong><span>MAC-Lab</span></div>
+  <div><strong>苏凯</strong><span>MAC-Lab</span></div>
+  <div><strong>时雨涛</strong><span>MAC-Lab</span></div>
+  <div><strong>宋京泽</strong><span>MAC-Lab</span></div>
+  <div><strong>饶轩衡</strong><span>MAC-Lab</span></div>
+  <div><strong>王鑫宇</strong><span>MAC-Lab</span></div>
 </div>
 
 <div class="media-note">
