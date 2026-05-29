@@ -106,8 +106,8 @@ rank: 4
   </article>
 </div>
 
-<h2><span class="lang-en">Student Community</span><span class="lang-zh">学生信息</span></h2>
-<p class="muted"><span class="lang-en">The following public student roster is synchronized from Professor Xiao Sun's HFUT faculty page. Program labels are translated or lightly normalized for an international readership.</span><span class="lang-zh">以下名单同步自合肥工业大学教师主页公开“学生信息”栏目，并对专业名称做了适合网页展示的轻度整理。</span></p>
+<h2><span class="lang-en">Student Community</span><span class="lang-zh">学生与团队成员</span></h2>
+<p class="muted"><span class="lang-en">This unified roster combines confirmed public student records from Professor Xiao Sun's HFUT faculty page with additional MAC-Lab family members whose detailed program, year, and role information will be completed later.</span><span class="lang-zh">以下名单以孙晓教授合工大教师主页公开学生信息为基础，并统一纳入 MAC-Lab 大家庭中待进一步完善信息的成员；后续可继续补充年级、方向、角色和往届信息。</span></p>
 
 <div class="student-grid">
   <div><strong>侯婷婷</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
@@ -133,15 +133,45 @@ rank: 4
   <div><strong>江月琪</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
   <div><strong>郎俊杰</strong><span><span class="lang-en">Electronic Information</span><span class="lang-zh">电子信息</span></span></div>
   <div><strong>高升</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
+  <div><strong>王佳敏</strong><span>MAC-Lab</span></div>
   <div><strong>张金涛</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
+  <div><strong>檀才东</strong><span>MAC-Lab</span></div>
+  <div><strong>陈倩</strong><span>MAC-Lab</span></div>
   <div><strong>雷盼盼</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
   <div><strong>丁兵兵</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
   <div><strong>张陈</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
+  <div><strong>叶嘉麒</strong><span>MAC-Lab</span></div>
   <div><strong>高飞</strong><span><span class="lang-en">Information and Communication Engineering</span><span class="lang-zh">信息与通信工程</span></span></div>
   <div><strong>丁锋</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>陈鑫淼</strong><span>MAC-Lab</span></div>
   <div><strong>李承程</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
+  <div><strong>丁小龙</strong><span>MAC-Lab</span></div>
   <div><strong>陈维</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>李春彬</strong><span>MAC-Lab</span></div>
   <div><strong>孙重远</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
+  <div><strong>陈炜亮</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>唐陈意</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>赵同学</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
+  <div><strong>彭晓琪</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>何家劲</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>吕曼</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>待补充成员 A</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
+  <div><strong>夏平平</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>曹馨月</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>魏传征</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>裴正蒙</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>洪涛</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>柳素红</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>李春杉</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>张习伟</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>郑仕鑫</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>李园林</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>苏凯</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>时雨涛</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>宋京泽</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>饶轩衡</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
+  <div><strong>待补充成员 B</strong><span><span class="lang-en">Formal name to be updated</span><span class="lang-zh">正式姓名待补充</span></span></div>
+  <div><strong>王鑫宇</strong><span><span class="lang-en">Details to be updated</span><span class="lang-zh">信息待补充</span></span></div>
 </div>
 
 <div class="media-note">
