@@ -151,7 +151,7 @@ rank: 4
   <div><strong>孙重远</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
   <div><strong>陈炜亮</strong><span>MAC-Lab</span></div>
   <div><strong>唐陈意</strong><span>MAC-Lab</span></div>
-  <div><strong>赵同学</strong><span>MAC-Lab</span></div>
+  <div><strong>赵世辉</strong><span>MAC-Lab</span></div>
   <div><strong>彭晓琪</strong><span>MAC-Lab</span></div>
   <div><strong>何家劲</strong><span>MAC-Lab</span></div>
   <div><strong>吕曼</strong><span>MAC-Lab</span></div>
