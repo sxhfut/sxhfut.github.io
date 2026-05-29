@@ -107,9 +107,18 @@ rank: 4
 </div>
 
 <h2><span class="lang-en">Student Community</span><span class="lang-zh">学生信息</span></h2>
-<p class="muted"><span class="lang-en">The following public student roster is summarized from Professor Xiao Sun's HFUT faculty page. Program labels are translated or lightly normalized for an international readership.</span><span class="lang-zh">以下名单整理自合肥工业大学教师主页公开“学生信息”栏目，并对专业名称做了适合网页展示的轻度整理。</span></p>
+<p class="muted"><span class="lang-en">The following public student roster is synchronized from Professor Xiao Sun's HFUT faculty page. Program labels are translated or lightly normalized for an international readership.</span><span class="lang-zh">以下名单同步自合肥工业大学教师主页公开“学生信息”栏目，并对专业名称做了适合网页展示的轻度整理。</span></p>
 
 <div class="student-grid">
+  <div><strong>侯婷婷</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>姚怡彤</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
+  <div><strong>班永平</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
+  <div><strong>于一鸣</strong><span><span class="lang-en">Artificial Intelligence</span><span class="lang-zh">人工智能</span></span></div>
+  <div><strong>李庚辰</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>高钰</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>王佳帅</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>徐宝川</strong><span><span class="lang-en">Information and Communication Engineering</span><span class="lang-zh">信息与通信工程</span></span></div>
+  <div><strong>严诚</strong><span><span class="lang-en">Artificial Intelligence</span><span class="lang-zh">人工智能</span></span></div>
   <div><strong>郭歆仪</strong><span><span class="lang-en">Software Engineering</span><span class="lang-zh">软件工程</span></span></div>
   <div><strong>王雨</strong><span><span class="lang-en">Information and Communication Engineering</span><span class="lang-zh">信息与通信工程</span></span></div>
   <div><strong>沈康</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
@@ -120,25 +129,18 @@ rank: 4
   <div><strong>安鎏玮</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
   <div><strong>徐骜</strong><span><span class="lang-en">Software Engineering</span><span class="lang-zh">软件工程</span></span></div>
   <div><strong>董腾腾</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
-  <div><strong>张梓洋</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
+  <div><strong>张梓洋</strong><span><span class="lang-en">Computer Technology (Engineering Master)</span><span class="lang-zh">计算机技术（工程硕士）</span></span></div>
   <div><strong>江月琪</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
   <div><strong>郎俊杰</strong><span><span class="lang-en">Electronic Information</span><span class="lang-zh">电子信息</span></span></div>
   <div><strong>高升</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
-  <div><strong>王佳敏</strong><span>MAC-Lab</span></div>
   <div><strong>张金涛</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
-  <div><strong>檀才东</strong><span>MAC-Lab</span></div>
-  <div><strong>陈倩</strong><span>MAC-Lab</span></div>
   <div><strong>雷盼盼</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
   <div><strong>丁兵兵</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
   <div><strong>张陈</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
-  <div><strong>叶嘉麒</strong><span>MAC-Lab</span></div>
   <div><strong>高飞</strong><span><span class="lang-en">Information and Communication Engineering</span><span class="lang-zh">信息与通信工程</span></span></div>
   <div><strong>丁锋</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
-  <div><strong>陈鑫淼</strong><span>MAC-Lab</span></div>
   <div><strong>李承程</strong><span><span class="lang-en">Computer Science and Technology</span><span class="lang-zh">计算机科学与技术</span></span></div>
-  <div><strong>丁小龙</strong><span>MAC-Lab</span></div>
   <div><strong>陈维</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>
-  <div><strong>李春彬</strong><span>MAC-Lab</span></div>
   <div><strong>孙重远</strong><span><span class="lang-en">Computer Application Technology</span><span class="lang-zh">计算机应用技术</span></span></div>
 </div>
 
