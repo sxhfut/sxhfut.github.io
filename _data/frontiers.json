@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-30T04:37:24+00:00",
-  "generated_at_beijing": "2026-05-30T12:37:24+08:00",
+  "generated_at": "2026-05-30T14:17:06+00:00",
+  "generated_at_beijing": "2026-05-30T22:17:06+08:00",
   "generated_date_beijing": "2026-05-30",
   "stats": {
     "total_items": 120,
@@ -13,28 +13,28 @@
     "rss_items": 54,
     "arxiv_items": 107,
     "kind_counts": {
-      "community": 14,
-      "industry": 37,
+      "community": 15,
+      "industry": 35,
       "lab": 1,
-      "paper": 66,
+      "paper": 67,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 62,
-      "RSS · Google News": 12,
+      "arXiv": 63,
+      "RSS · Google News": 11,
       "Last30Days · Hacker News": 7,
       "HFUT Faculty Blog": 7,
       "Last30Days · Reddit": 5,
-      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
+      "Last30Days · GitHub": 3,
+      "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 2,
-      "Last30Days · GitHub": 2,
       "RSS · Google AI": 1,
       "China.com": 1
     }
@@ -78,6 +78,58 @@
   "items": [
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-30",
+      "title": "Technology&Life | Embodied AI takes center stage at World Intelligence Expo 2026 - Xinhua",
+      "summary": "Technology&Life | Embodied AI takes center stage at World Intelligence Expo 2026 Xinhua",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WQ2lLTHgwU1U2UjdsSUFKU0FNUGpmcjVSZE01YkhCSThhSVYyVmI3aWZnTGdPZzdnTUktTXh3ckRoYmFGVm9NamdtVFFHaFFUVzVDSFc0TUMxejN1MlZiVEUzcHRWd0ZiaHlTdHZqUlRBUkIxX0IzLW9fQjE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-30",
+      "title": "2026 WIE Opens: Chongqing Showcases Smart Manufacturing, Embodied AI, and NEVs | Video - iChongqing",
+      "summary": "2026 WIE Opens: Chongqing Showcases Smart Manufacturing, Embodied AI, and NEVs | Video iChongqing",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPck80Ymp1OWZpRTctSlg1R0xkWFFma3NJWW15VjhRRERyMjBWMFMyWkg4dzhDN3I3NHZGdWNVakVXZ1FHUmFJakl3c0lLMmMxWXI2VFBiTDRzT1Y3MVhyNnFoRFFJdUFNWHFuWll6VUJYLTB6S2tRMGRGb1d0S18tanJuTl8yZlV3enZWRnlySjJlWGNMaE5yWl95VkU3THhlUVNDWGtYVFd5Qy16N0wyRzRwcTRucHZwRTF6Tnln0gHDAUFVX3lxTE50UXAyR010emNHSVdIN2lUWnM1Vl9HWnJ5YXJpS3hyRnJGMkcyZmUzakx3UGY0WDZGdmgxZG8wTG4zTjdVZFZSRmQycUJPbXlhSERNYTdSZDhPOUVLZ0J5ZnhoTGZQV0o1bGRUNXFMNTZMS3pjVkhydXgwOVRfZTVtbDFlVDYwTmJoNnVEM1ZscFRjRzRrb2VxYm96MVN0MmdHWGd6RTlqY3lQbmpJLWJCOHd1N0F3Y1RObEhJWGhua0FnYw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-05-29",
       "title": "Report finds serious safety gaps in AI mental health apps for tweens/teens - Seattle's Child",
@@ -101,34 +153,6 @@
       "capability_tags_zh": [
         "心理评估",
         "可信评测"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-29",
-      "title": "Researchers say using digital mental health tool just once can provide exam season support to students - News-Medical",
-      "summary": "Researchers say using digital mental health tool just once can provide exam season support to students News-Medical",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNLTRBX1p3eWNTd09CNDQyb1g1YkZtS0lqa3hxaE8xd0hKeGNTTHh6RVpHTEVZdDNHMU5Pc2VySWVGNG5wYlFZYjdfbllsOUwtUXg0MTJ2NnBhSGE1bFB6bWFKNl9rbmprcllBZEMwekdDVFFmR1RGb3JPRVhpdFNwUXZjdTluNnBQY2JGOWdpc2o3MVhmb1ZOV1VDODlNQjh4YWNqd2FxU3lIVUQzSTBreF9hVDVHNDZ5ZEJOVm1qSnVmQkpjUlBTb2R1eXpDbEJ0MWJ5RDR4cnQ5V3VGeHFjX2RsZ3c?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
       ],
       "relevance_score": 85
     },
@@ -201,58 +225,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2lqWDBnSDhlcG1DcE94Q2JkaFNqZ3IzS0htUzctWGlZY3NPSU9Yam9vOTJYT1l1alRSLUs5SXZ6cjBZN3RLVjlFVlktVjlDOC1nYlNXWHB5SVZ3U1VCTG1VOEFmTDR6TnZJUFZ0OUtRODZET0FYUFRJYjR4UnQybWUwTjdBaWlTYjFpY3I1ME9iYlRLM1ZPSl9mSUF3amdk?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-29",
-      "title": "New embodied AI system realizes first AI-created graphene and graphene FET - Graphene-Info",
-      "summary": "New embodied AI system realizes first AI-created graphene and graphene FET Graphene-Info",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTlZiSHZ3bm8xV2JFc3F5WEN3YmgycVV5UDJLYWZBWDRUMWxYNlBOejQ4MHdtQkJwZXQ1czYtdm4tdTQ2X0stcERiQjJ2NkFpTVNwWVhMSGJ6MkdseVE2WGZYcUlFY2FIWk5vTnJXaU1jMGJnU0VIemQtbEtHaFh2VldYTUN3SHIwZE1qOFdoZDNJU0t3dzZvdE9KRmFxWERMOEdfWjNpaw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-29",
-      "title": "Unified Embodied AI with Qwen-VLA - StartupHub.ai",
-      "summary": "Unified Embodied AI with Qwen-VLA StartupHub.ai",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX1U5UDFiMlRvckp0UHBHRzJLWU5zaldGQUVQMXo2dFJ2N3BXdUM4QzYwalJ5NFNjWHBoNmZNUFBlZTFIVVRQc0dRUk5fMFFVWEN2MXBXRzNQNEZmcGZxR2FNeGszejFuX0FhMk45Z25tTldKdktMNDhTNXFLN3IzZlFqdFA1bHZZaHVYUg?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -777,6 +749,32 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-27",
+      "title": "Digital Mental Health Company Acquires Nora Mental Health - Behavioral Health Business",
+      "summary": "Digital Mental Health Company Acquires Nora Mental Health Behavioral Health Business",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZVpTQjRCZnBHeDZBZEpuUUtXRlZOUlA5b1FmSmR0QlBWZ2xiZGtBMFdUTF9GYzgwM1ZBXzFucEdTaDJkX1piX0Z4MDhLTzI2bW5IMnRPVmNFV3BDZ0RmWEtNazNZUDhTWHVKaUwydmh1Mkt2ekwwTC1ZYUJjS1AxRzFJa1MwYlZ1bmhLRTVXdXFTQjhueFNv?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-05-27",
       "title": "北航携手京东健康发布AI心理平台 启动心理评估大模型研发 - 北航新闻网",
@@ -1067,33 +1065,6 @@
         "可信评测"
       ],
       "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-26",
-      "title": "京东健康携手北航发布AI心理平台 启动心理评估大模型研发 - 搜狐网",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUwwUWlxek9vemxXMVJkcnNlT2ZtcVplcjR1RmtuMFVyRmNOYUJSbWJiYmljYkdPQURIU3VSeFNKR19qOUx2TjZqbGhLcmpXSEFrUVNJM1JranJXVGl2dDNxbEFzOG12c2NrZUZPQkhMbkw1dTU5UDFpNWc1clhKaDFpMllVNFlh?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
     },
     {
       "kind": "community",
@@ -1449,34 +1420,6 @@
         "心理评估"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-24",
-      "title": "The Path: $14.3 Million Seed Raised For AI Therapy Platform Focused On Proactive Mental Health Care - Pulse 2.0",
-      "summary": "The Path: $14.3 Million Seed Raised For AI Therapy Platform Focused On Proactive Mental Health Care Pulse 2.0",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2NjakJvNk1iODhJM0dsTWlER1hoSy1mNFhQNnl0ZXRESzlldW1LeU1aYmdUS0F3ZzA4VDJ2V1k1MzdnYnhwV3h6eUY4cG8zckthNFBqb2ZHTzdabkNzWkh4SmgtbUNoMmtjcnBIc20wT0pUR25rVlNDT1FVRlBybktlbVA5UDBmdlJ5Z2lELVFaY2U2NGNUeGNlR0RVenpDN1A0a1J5eFJZRl9yUmt3ZmFuWmd2QV9t0gG-AUFVX3lxTFBmU0wyQlAwS013eGtvV2tjY1FOZ0g3enhEcHcwdlAzaVBFVlIxRXc2UEpwRXB6YW1aeDFlSV9GLTVLYmJlLWhsY1BKU3NMb0dsNTA4bTU5Q3p4bVpyNTdsZHVwdFZLOVJGUVpjS2s0RVZ6eVJ2RU9GcDhLUWZSYTJJSWZDRmEwWG11RHZTeXZCUWV5SWhhME9WTUpjY05nMWlDSl9URnJrQ0NKUlZ1SUI0Rm9LbUxMLTg1LXJQNmc?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "paper",
@@ -3391,6 +3334,63 @@
         "可信评测"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-04",
+      "title": "Update README.md",
+      "summary": "​🚀 Announcing HNL-INTL-2026: The Bio-Digital Singularity Framework ​After months of rigorous internal R&D, I am officially releasing the technical dossier for Hussain-Nilpori Legacy (HNL). This architecture bridges the gap between simulated AI and embodied bio-digital reality, utilizing the power of... Caption: ​Witness the future of the Bio-Digital era! 🚀... Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "HussainNilporiLegacy",
+        "HussainNilporiLegacy/EHARS-35.5-Initial-Release"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/HussainNilporiLegacy/EHARS-35.5-Initial-Release/pull/1",
+      "priority": 59,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 92
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-04",
+      "title": "Robotic Affection -- Opportunities of AI-based haptic interactions to improve social robotic touch through a multi-deep-learning approach",
+      "summary": "Despite the advancement in robotic grasping and dexterity through haptic information, affective social touch, such as handshaking or reassuring stroking, remains a major challenge in Human-Robot-Interaction. This position paper examines current progress and limitations across artificial intelligence, haptics and robotics research, and proposes a novel multi-model architecture to address these gaps. Drawing inspiration from...",
+      "source": "arXiv",
+      "authors": [
+        "Ali Askari",
+        "Jens Gerken"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.RO"
+      ],
+      "url": "http://arxiv.org/abs/2605.02538",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 65
     },
     {
       "kind": "lab",
