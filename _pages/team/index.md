@@ -168,7 +168,6 @@ rank: 4
   <div><strong>时雨涛</strong><span>MAC-Lab</span></div>
   <div><strong>宋京泽</strong><span>MAC-Lab</span></div>
   <div><strong>饶轩衡</strong><span>MAC-Lab</span></div>
-  <div><strong>王鑫宇</strong><span>MAC-Lab</span></div>
 </div>
 
 <div class="media-note">
