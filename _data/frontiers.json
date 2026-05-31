@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-31T05:11:29+00:00",
-  "generated_at_beijing": "2026-05-31T13:11:29+08:00",
+  "generated_at": "2026-05-31T14:21:31+00:00",
+  "generated_at_beijing": "2026-05-31T22:21:31+08:00",
   "generated_date_beijing": "2026-05-31",
   "stats": {
     "total_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 0,
     "recent_signal_items": 18,
     "rss_items": 54,
-    "arxiv_items": 63,
+    "arxiv_items": 107,
     "kind_counts": {
       "community": 14,
       "industry": 37,
@@ -22,17 +22,17 @@
     },
     "source_counts": {
       "arXiv": 62,
-      "RSS · Google News": 11,
+      "RSS · Google News": 10,
       "Last30Days · Hacker News": 9,
       "HFUT Faculty Blog": 7,
       "Last30Days · Reddit": 4,
+      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
-      "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 2,
       "RSS · Google News School Mental Health": 1,
       "RSS · Google AI": 1,
@@ -105,6 +105,33 @@
       "relevance_score": 79
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-05-31",
+      "title": "树洞还是魔镜？深圳学界业界探讨AI心理服务机遇与风险 - 搜狐网",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2NUSVRxd1RGQUkxQzhmbUlIcjQ4VVNrUlFxTk1EME9GOHpPOE56dkoyOEFOVlFFckRQZ0RsbG1hOXExeHZQekZwcTU4Y1RNUjNrRVhnam9MY2JlalREbEhSN3dicjBrUHBEWDZzQVVoUmpHZFpudFd2Q0tVYzJsMTRCZUg0Qk50?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "community",
       "track": "Empathetic Dialogue",
       "published": "2026-05-31",
@@ -133,48 +160,20 @@
     },
     {
       "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-05-30",
-      "title": "How Parkinson's disease affects emotion recognition of voices - MSN",
-      "summary": "How Parkinson's disease affects emotion recognition of voices MSN",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNTmU2aWZMQm5MWUE4R0V1Nm9EZ2ZLY05FTmxCam1mNk9seldkdndGcW1KQWp4U1ZzLWZBQndjQUhrY19VdEJHU3J1UnNPN0xUTzktWGxTMTNRWjZ5blRLLWU0X2FhdFhRUFZfU1o2ZGRnbkhuSnFKTGJBdmVsT3JneEk4dXJJeHhSSTRoeFdRbXA4RUM2cDRIWHZWR1VIaExaR0lKbkZpdXg1aHZOaFE3LW1HMTU2M1B3cG91ckRZNGR5NTVlcU93T0JYdjh3MnhWSTNGOTJWRlhFYlpaaXdCM2QySFVIUGlGV3JzMzYzV0RtSWJ4ajBQZkpjeFJnRVhYVEZ5U0ZoSVNQYzRubU9rZlNMdnhLLTFxT1hsZDJ1SnNMQW5pZ1RlWVVlSG9KNG83SFFORHRaM05sWE81WlMwY2stTVJzeTg?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
       "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-30",
-      "title": "EDGE: Embodied AI and the Rise of Humanoid Robots - Morgan Stanley",
-      "summary": "EDGE: Embodied AI and the Rise of Humanoid Robots Morgan Stanley",
-      "source": "RSS · Google News",
+      "published": "2026-05-31",
+      "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+      "summary": "In 1987, Richard Greenhill , a British photographer who was fascinated by (but had no actual training in) robotics, decided he wanted to build a life-size humanoid that could do useful things, like carrying luggage. He was working at a startup called Intergalactic Robots, but he couldn’t convince anyone there to build such a machine, so he set about...",
+      "source": "RSS · IEEE Spectrum Robotics",
       "authors": [
-        "Google News"
+        "IEEE Spectrum Robotics"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "IEEE Spectrum Robotics"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV2JhRk5zR0hpajQ2c1dubVVGLXBoMTBYcmpJSVVwV0UxNlFvQ0xTakZ5WG15bGJSendqOXVHemZjOVpOMk8tUFQ4ZUxrWGFDdVNEbTdRVko3Yks5NzJPa0MxQnFIUUxCcVh2QXhEN0xnUkFpc3JYbHNSSDFLejhuUFBPZUdLMzVneTdLTmtOcU12V25vcVoyOTk4Q2h5ZDFHOEpndlpFaTJ4NFhtcUxBS1F0V0xRWUI5ajVXRXN5aS03QQ?oc=5",
-      "priority": 58,
+      "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+      "priority": 53,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
       "capability_tags": [
@@ -183,7 +182,7 @@
       "capability_tags_zh": [
         "具身交互"
       ],
-      "relevance_score": 79
+      "relevance_score": 71
     },
     {
       "kind": "industry",
@@ -480,6 +479,32 @@
     },
     {
       "kind": "industry",
+      "track": "Affective Computing",
+      "published": "2026-05-28",
+      "title": "EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026 - Towards Data Science",
+      "summary": "EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026 Towards Data Science",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWmJKb1A1cHplWnA0aS1NNWoxNE1qbzgxQVFDTUdHbm9IY2pXUFc2cmc1SEswc2s4OERqQnJ0MjlzZ0tsay0zR3liWXk2Z1lGQUNlUWIxY2NEWG11TDZaS1VBQ0UzbnFZYWs1aWUyNHFTbGhKZ2E1WkJfWDlvejFxeklocGg3a2RHSk5ZTXZhSzNjZmMtX19BV1VFd0ZtdFptRTZQOHZSN2p3V2tkdnJtbWVrcUxmanRUbmFSZGZjdXNha3RVdUE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-05-28",
       "title": "Some AI mental health apps are harmful for kids, says report—what experts say parents should keep in mind - CNBC",
@@ -519,6 +544,32 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1FSZlZ3S3F1RFFpcE5FZ2xaN21tdmxQVE9qUGxiR05zR3NkUlV1NGVPYzd2VzI3aTVNa2dKUGx6bEVuWGpqSnVBZVV0XzJsQmRfX3lKWUFEV05ZYXpYdDI1SEFfM3RtYnR4WXhLNFprTko4VlBfc0gyOFdSTmVIODNVdkViNEgxWWNoRTEzeFQxc2ZXSGpNT19IV3RJVmRWRW9MVzFzTzZqZmZjcHFCcHFZZk5QNzVUcjFraw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-28",
+      "title": "Alibaba, Tencent lead pivot from chatbots to embodied AI for robotics - South China Morning Post",
+      "summary": "Alibaba, Tencent lead pivot from chatbots to embodied AI for robotics South China Morning Post",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDdSbXhfTjgyVXZnWjd1VDZoZW53clFDdFJFa2ZFZE56VGJRajRtTmcwYU0xZU9JM3VrNnY5WmZLMHRJTUF0Sk4zTVdoc1RmZEZubENtS3FabE0wSWQ1Qm5Eczc3ajZCS0dxUFoyc25USVhCcUIxZXFqcXlFN2lTYklWdXRBeW91NVBVMUlzVGFlbWQ5amxVSXlUVnlEOG4zaGxRZU9xcXUzSVhVbGRv0gGvAUFVX3lxTFAwQkZiYUtLU3A1SjlMbFB3TE5pdXhFRXV5ZVVrN3h4RkVEdlVHS1YxYTU5OW8xTVNLUnZ4WC05ZC1DTTlvZTVhWVBaVUR3eDVHWWd6eVloTUh3aWxNYXZRMko5R2o1NHhZZHpEVk9aRlZCVmFnLWpSd2Nfd1BOTW1ZbHhfOTVveFhvQ1V4Z0dTNEFzLUxSOUlxY1E5ajR6YXIydTVPN1VVRTFEVmtoNVE?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -1302,34 +1353,6 @@
     },
     {
       "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-05-25",
-      "title": "Mixture-of-experts framework improves cross-subject EEG emotion recognition - EurekAlert!",
-      "summary": "Mixture-of-experts framework improves cross-subject EEG emotion recognition EurekAlert!",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4SjhEcy1RUDkxSHI1YS00Vjl3RGFVTThWbF8yeFd1NUo2eFpvZGQtX0h4d01EXzVqT2ZtNmVLYmhId3NJcWVMd1A4MkE1a3k5TW1ROERjR1Nhc0g4?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-05-25",
       "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
@@ -1664,32 +1687,6 @@
         "心理评估"
       ],
       "relevance_score": 80
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-22",
-      "title": "Video Friday: Atlas Versus a Fridge",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA RSS 2026 : 13–17 July 2026, SYDNEY Summer School on Multi-Robot Systems : 29...",
-      "source": "RSS · IEEE Spectrum Robotics",
-      "authors": [
-        "IEEE Spectrum Robotics"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum Robotics"
-      ],
-      "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
-      "priority": 53,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
