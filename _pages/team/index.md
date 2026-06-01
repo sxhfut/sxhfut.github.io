@@ -107,7 +107,7 @@ rank: 4
 </div>
 
 <h2><span class="lang-en">Student Community</span><span class="lang-zh">学生与团队成员</span></h2>
-<p class="muted"><span class="lang-en">This unified roster combines confirmed public student records from Professor Xiao Sun's HFUT faculty page with additional MAC-Lab family members whose detailed program, year, and role information will be completed later.</span><span class="lang-zh">以下名单以孙晓教授合工大教师主页公开学生信息为基础，并统一纳入 MAC-Lab 大家庭中待进一步完善信息的成员；后续可继续补充年级、方向、角色和往届信息。</span></p>
+<p class="muted"><span class="lang-en">This roster presents MAC-Lab's student community, including current students, alumni, and closely connected members in the lab's training network. It is maintained as a living record of the group's research mentorship and talent-development ecosystem.</span><span class="lang-zh">本名单呈现 MAC-Lab 的学生共同体，包括在读学生、往届成员以及与实验室培养网络保持紧密联系的团队成员。名单将随团队建设持续更新，用于展示实验室的人才培养梯队、学术传承与共同成长生态。</span></p>
 
 <div class="student-grid">
   <div><strong>侯婷婷</strong><span><span class="lang-en">Computer Technology</span><span class="lang-zh">计算机技术</span></span></div>

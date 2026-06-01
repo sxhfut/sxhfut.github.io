@@ -3550,6 +3550,10 @@ h2 {
   padding: 0;
 }
 
+.home .hero__portrait::before {
+  display: none;
+}
+
 .home .hero__portrait img {
   width: 100%;
   height: 100%;
