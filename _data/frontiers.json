@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T04:39:27+00:00",
-  "generated_at_beijing": "2026-06-06T12:39:27+08:00",
+  "generated_at": "2026-06-06T14:20:35+00:00",
+  "generated_at_beijing": "2026-06-06T22:20:35+08:00",
   "generated_date_beijing": "2026-06-06",
   "stats": {
     "total_items": 120,
@@ -23,13 +23,13 @@
     "source_counts": {
       "arXiv": 60,
       "RSS · Google News": 10,
-      "Last30Days · Hacker News": 7,
-      "Last30Days · GitHub": 7,
+      "Last30Days · GitHub": 8,
       "HFUT Faculty Blog": 7,
+      "Last30Days · Hacker News": 6,
       "Last30Days · Reddit": 3,
-      "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · OpenAI News": 3,
+      "RSS · Hugging Face Blog": 3,
       "RSS · MIT News AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Microsoft Research": 3,
@@ -79,6 +79,34 @@
     }
   ],
   "items": [
+    {
+      "kind": "community",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-06",
+      "title": "Embodied Cognition and Agentic AI",
+      "summary": "Embodied Cognition and Agentic AI Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "tosh",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+      "priority": 55,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "具身交互"
+      ],
+      "relevance_score": 85
+    },
     {
       "kind": "industry",
       "track": "Affective Computing",
@@ -146,32 +174,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMmpUQW5QZEE2eTZqUHNQX2dnSWtaV3BOVG1acmI3TW5nVFNhZlpRcl9SNW5ub2VzRm1ycHcteEhkWjB2aFlUbVNBWHh3bmRGR2daNU1IX0dpZlZ3a2hndERsdTl5NkNjVEduY1BTYXJiUXlVUmRxTFdZYnBsT3dhN3lhWENsYThOaUJ5M0JMcWxYNTFsUFAyX0toMlNaN3ZCTVFDaEtXN25TZzN4RVRLc2ZxUzQ1aVBTeWNQTDN3V19XVGpaZ2NYMWpDbjdfMVQ4QVFiRjI0dVJjTnlPYUd4WjlLempWdWFNMXo0OC1PSklXaWxiN2FVNUtMWQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-05",
-      "title": "Quantgroup seals strategic robotics alliance to advance embodied AI in home and auto markets - The Globe and Mail",
-      "summary": "Quantgroup seals strategic robotics alliance to advance embodied AI in home and auto markets The Globe and Mail",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUEJEbE11Vk9CYktfLVVyQS1ic3c5aGFjR1J5cEVxaTNjekVPREp3aUNXTThZbnZnb0dWMVpwQjBlR011cW55T1FxVzNyaFlXYWxBeTdtMWpoUU0tSDYxbFZwOEtmQ0FPMnptblp2M0RIOUZFN2dSWlU5WGJHR3BkdUJZLVdaYmkwclNMdnI2REtPRmJBYU5GV2xGMkxqMTM2X1k3ekluVUV0Y3RJV1N2ZmtsaVZFNUFMLUxiOV9ic0RMVVlfU0Zqc3NYekpNakpXYjJWM3dtR3JYcmhjcjB6ZGpXM09XRDI4SjlFa2NpUnZVcWhXbzBaWHRYNGhSaFY5Mlhz?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -252,33 +254,6 @@
       "priority": 54,
       "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
       "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-06-05",
-      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
       "capability_tags": [
         "Affective LLMs"
       ],
@@ -945,6 +920,33 @@
     },
     {
       "kind": "industry",
+      "track": "Open-Source AI",
+      "published": "2026-06-02",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
+      "authors": [
+        "Hugging Face Blog"
+      ],
+      "categories": [
+        "RSS",
+        "Hugging Face Blog"
+      ],
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
+    },
+    {
+      "kind": "industry",
       "track": "AI Industry",
       "published": "2026-06-02",
       "title": "Rehumanizing global health care with agentic AI",
@@ -1058,6 +1060,32 @@
         "具身交互"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-01",
+      "title": "The next wave of AI: Analyst explains how embodied AI is taking shape - CNBC",
+      "summary": "The next wave of AI: Analyst explains how embodied AI is taking shape CNBC",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWc1QXVhek85UmNxWXlsSDlTT2pBcEVTWktEbUFxVVBYaGhjV2F0T1dHRUhOVm9Da3VaTFRIRFVpdmFzOWI3M3VESEtZaVQ0NnllSmhJcnVkck1oNHgzMG5Ic2lHbHJnZk1vNXlqR0NlbC1IeFV5S1drT090YzlXUDluMWZTVW9nMm15eW1fRUdVazJCeXhacFR6TW4wNVBuSHhwX2F6R2hUV2hJbGNaNg?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1442,34 +1470,6 @@
       "relevance_score": 82
     },
     {
-      "kind": "community",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-29",
-      "title": "Embodied Cognition and Agentic AI",
-      "summary": "Embodied Cognition and Agentic AI Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "ibobev",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
-      "priority": 54,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 84
-    },
-    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-05-29",
@@ -1848,6 +1848,34 @@
         "情感理解"
       ],
       "relevance_score": 68
+    },
+    {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-05-27",
+      "title": "v1.5+ wire-format candidates from trio mapping (9 T-3 + 5 ergonomic) — Phase 3 + 4 results",
+      "summary": "## Additional v1.5 candidate — `need:{domain}:{kind}` (NodeCore-owned, UI-blocked) Proposing one more candidate for the v1.5 workshop list — surfaced by [`CIRISAgent#800`](https://github.com/CIRISAI/CIRISAgent/issues/800) / [`CIRISNodeCore#12`](https://github.com/CIRISAI/CIRISNodeCore/issues/12) (t... ## v1.5 candidates partially absorbed into v1.4 Per the... Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "emooreatx",
+        "CIRISAI/CIRISRegistry"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/CIRISAI/CIRISRegistry/issues/20",
+      "priority": 59,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "情感理解"
+      ],
+      "relevance_score": 89
     },
     {
       "kind": "industry",
@@ -2393,32 +2421,6 @@
         "心理评估"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-05-21",
-      "title": "Ask HN: Does anyone believe role-play AI is effective for training?",
-      "summary": "Ask HN: Does anyone believe role-play AI is effective for training? Last30Days signal for affective computing emotion AI, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "socratizeio",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://news.ycombinator.com/item?id=48221788",
-      "priority": 54,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 78
     },
     {
       "kind": "industry",
