@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T05:09:11+00:00",
-  "generated_at_beijing": "2026-06-07T13:09:11+08:00",
+  "generated_at": "2026-06-07T14:31:05+00:00",
+  "generated_at_beijing": "2026-06-07T22:31:05+08:00",
   "generated_date_beijing": "2026-06-07",
   "stats": {
     "total_items": 120,
@@ -14,15 +14,15 @@
     "arxiv_items": 105,
     "kind_counts": {
       "community": 17,
-      "industry": 36,
+      "industry": 38,
       "lab": 1,
-      "paper": 64,
+      "paper": 62,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 60,
-      "RSS · Google News": 10,
+      "arXiv": 58,
+      "RSS · Google News": 11,
       "Last30Days · Hacker News": 7,
       "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
@@ -34,8 +34,8 @@
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google News School Mental Health": 2,
       "RSS · Google Research": 1,
-      "RSS · Google News School Mental Health": 1,
       "RSS · Google 新闻": 1,
       "RSS · Google AI": 1,
       "RSS · Google News Multimodal Emotion": 1,
@@ -190,8 +190,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-05",
-      "title": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 - PR Newswire",
-      "summary": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 PR Newswire",
+      "title": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 | Corporate - EQS News",
+      "summary": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 | Corporate EQS News",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -200,7 +200,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMmpUQW5QZEE2eTZqUHNQX2dnSWtaV3BOVG1acmI3TW5nVFNhZlpRcl9SNW5ub2VzRm1ycHcteEhkWjB2aFlUbVNBWHh3bmRGR2daNU1IX0dpZlZ3a2hndERsdTl5NkNjVEduY1BTYXJiUXlVUmRxTFdZYnBsT3dhN3lhWENsYThOaUJ5M0JMcWxYNTFsUFAyX0toMlNaN3ZCTVFDaEtXN25TZzN4RVRLc2ZxUzQ1aVBTeWNQTDN3V19XVGpaZ2NYMWpDbjdfMVQ4QVFiRjI0dVJjTnlPYUd4WjlLempWdWFNMXo0OC1PSklXaWxiN2FVNUtMWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPaGFjd1kzbWxwb0w4OWE4QzFnc0RBUC1OT1Mtd2pwbnhrWWFZdjJnOGc4WjNGTFY4RGI5bTZyMkhNbmEtMGxET3B3NGx4VG9aTjFyTUIwQm5lZXVGb01zZ3cwX25BcThmdzAzZlZnc3BicW54SEw5MHBVTGs5bENLczZfQVBUZEJGdEtMXzdtVC16ZzlVZklYOXlTVkRKNGp2S0FNSjlNQlpTQUFlMEg3bTQwYnRRNHFJNXMzNXI1UTV2YXlaYUdhcEVQS016OGJ1MmN3a2RXVnVvbFl2MHg5T2dxLUlHVnQ2ZGhLS1hJajJqTFZrYjJWWW5KQ1B4a1plRGp5N1hKR181T0syblJ6UGllT1ZsdjdHcWN3?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -896,6 +896,32 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-06-02",
+      "title": "AI therapy cannot replace human connection - The European Magazine",
+      "summary": "AI therapy cannot replace human connection The European Magazine",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORXVfTHJMSklNUUJoa3B0dTM5NWQ2ZWNrTGMxc0JUa0lZYV9SbnZZdTVMOXZqekhLVkpDM3RvOVEzSE1Scldpektzc2ZtUUFrcmd6YmxiTUZXMDU5TjJpZHM2Zzdnd2FVdGpkeUpKaTZ3TjVWbmVFQWpZSzRwekFyNlA2UnMtNlc3cVE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-06-02",
       "title": "Holo3.1: Fast & Local Computer Use Agents",
@@ -1062,6 +1088,32 @@
         "具身交互"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-06-01",
+      "title": "$2,700 donated to Jack & Kathy Lucey foundation to give AI therapy dogs to people with Alzheimer's - WXOW",
+      "summary": "$2,700 donated to Jack & Kathy Lucey foundation to give AI therapy dogs to people with Alzheimer's WXOW",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWDdrSFp2WkZpMU0tX0lZSnVDTjJvZGkwZVFFblVDcWxuaHVqRlpoRjhEN0NOcnVIN1I1Tk5LLXFyWEJNcmxfa1NsYVBIY0hreHRZeDUtZW9IUEVLOHEwc294LVNUTnZHclRDSUo5SFdNWTh6Q3NtVW5nb25kSFJ4aU1CcmgzRWlnUFAxbWxQaExnWG5XLXY1cGNIR1V3WUIyOVFzRW1IQ1JDVTJUNXgtcy1OSG94NnBzQTloUkhDUHNwOURCOWFQRDgzdXIxWEpiUlg1VXBfZTZDT2w5dG9FRVFZNkNkSEV5c3ZaaFpEb2NqSEZqTHJn?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -2332,6 +2384,32 @@
       "relevance_score": 71
     },
     {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-22",
+      "title": "Meta settles first US case over school costs tied to youth mental health, court filing shows - Indiatimes",
+      "summary": "Meta settles first US case over school costs tied to youth mental health, court filing shows Indiatimes",
+      "source": "RSS · Google News School Mental Health",
+      "authors": [
+        "Google News School Mental Health"
+      ],
+      "categories": [
+        "RSS",
+        "Google News School Mental Health"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNE5lUV9iZzZJQWFpcklHUVhfQ1F5dVVCbG9XVmFhc1hienlnbTI0Z19xSjZfZEFhUnZLMWtYWGhoWi02ck02b1pNTTR5Yk1GUVlvQUw4VXJqeVpfbGN4VHNyNHFWTURNb0VSR1Fwd01TRk51OXIzWXNqeFRYUXdwdTcwdl84c2VkOGQyNXVuWlVsU0tkbGU2dXltTXBjLTgzQ25aM1VsTkhKVG1kZ3k0dlVrSjdrY1RWOHctMUwza0ZTcVBoUTdNMWlBdUFNakt6N25JSVZna2x2MS1aX2tFUEdwUFM5LXByckYzdWxjOFRwUdIB9wFBVV95cUxON1ozTUZTX2tsVktaVXUxTEd6M3hCN3lXUWVzZ29pcm9HdUxhSXExNGYwUmpqMHNYYVhVX2JpY2w2YzNLaTZNNTB6TkJ3VDJvNDJ0ZTZXaTlLSnJVbmlYRUpLSVVlZ2VTWVFrVlZOSjZMT2NhZGlocFVXdkdGeEdub1N1Qld5al9BQnV4VEV3NGd6RENpc3NXWHhhQjFraTVCOTJIMEpQdnBKYjc4Q0RHZFlvNzhNUkFvWl9JZW0wd2xVTkxhMVVscDdZYjU0MGZBOTRtc2x3UTA5RUt2cE1OSndKLWp3bzdiNzk1cnpZSlRhZ01SZ1Zn?oc=5",
+      "priority": 59,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 80
+    },
+    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-05-22",
@@ -3000,6 +3078,34 @@
       "relevance_score": 77
     },
     {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-15",
+      "title": "I believe there are entire companies right now under AI psychosis",
+      "summary": "I believe there are entire companies right now under AI psychosis Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "reasonableklout",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+      "priority": 59,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 86
+    },
+    {
       "kind": "industry",
       "track": "Multimodal Affective Computing",
       "published": "2026-05-15",
@@ -3269,120 +3375,6 @@
         "AI Research"
       ],
       "relevance_score": 72
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-12",
-      "title": "Mapping Embodied Affective Touch Strategies on a Humanoid Robot",
-      "summary": "Affective touch in human-robot interaction is shaped not only by emotional intent, but also by robot embodiment, including touch location, physical constraints, and perceived agency or social role. Existing HRI studies typically focus on one or two isolated body parts, limiting understanding of how affective touch generalises across the full humanoid body. We present a study with 32 participants interacting with the iCub...",
-      "source": "arXiv",
-      "authors": [
-        "Qiaoqiao Ren",
-        "Omar Eldardeer",
-        "Francesca Cocchella",
-        "Rea Francesco",
-        "Alessandra Sciutti",
-        "Tony Belpaeme"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "url": "http://arxiv.org/abs/2605.11825",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "具身交互",
-        "情感理解"
-      ],
-      "relevance_score": 71
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-12",
-      "title": "Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini",
-      "summary": "Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire. In an online...",
-      "source": "arXiv",
-      "authors": [
-        "Amit Rogel",
-        "Elmira Yadollahi",
-        "Guy Laban"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2605.12786",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-11",
-      "title": "AI therapy chatbots are crossing into impersonation - KevinMD.com",
-      "summary": "AI therapy chatbots are crossing into impersonation KevinMD.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUlZyOVZYTHVId0dsY3FYSHVzTkFpNmFDYUd4eHRQZkE5OWJJbmRzOXZJT3Z0bnRvNEV0Wms3VTNiTlVvVVRGYTVZb1k0bTdLME5TdTFtT2lBSmRfWGgwUUloRHg2eDc3dWJEbVlNbXZKdHNhV0tBci1qcTlTMFZoQ2F4TjNUeHpKZUk2Qg?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-05-10",
-      "title": "Gemini API File Search is now multimodal",
-      "summary": "Gemini API File Search is now multimodal Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "gmays",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "priority": 59,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 92
     },
     {
       "kind": "lab",
