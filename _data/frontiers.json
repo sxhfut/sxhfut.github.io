@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-07T14:31:05+00:00",
-  "generated_at_beijing": "2026-06-07T22:31:05+08:00",
-  "generated_date_beijing": "2026-06-07",
+  "generated_at": "2026-06-08T05:15:06+00:00",
+  "generated_at_beijing": "2026-06-08T13:15:06+08:00",
+  "generated_date_beijing": "2026-06-08",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -11,28 +11,28 @@
     "github_recent_items": 0,
     "recent_signal_items": 18,
     "rss_items": 54,
-    "arxiv_items": 105,
+    "arxiv_items": 104,
     "kind_counts": {
-      "community": 17,
-      "industry": 38,
+      "community": 15,
+      "industry": 36,
       "lab": 1,
-      "paper": 62,
+      "paper": 66,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 58,
-      "RSS · Google News": 11,
-      "Last30Days · Hacker News": 7,
+      "arXiv": 62,
+      "RSS · Google News": 9,
       "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
-      "Last30Days · Reddit": 3,
+      "Last30Days · Hacker News": 6,
       "RSS · MIT Technology Review AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT News AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Microsoft Research": 3,
+      "Last30Days · Reddit": 2,
       "RSS · IEEE Spectrum Robotics": 2,
       "RSS · Google News School Mental Health": 2,
       "RSS · Google Research": 1,
@@ -82,6 +82,57 @@
     {
       "kind": "community",
       "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-08",
+      "title": "Exclusive Post-Launch Interview: Honor CEO Li Jian & Executives on the Magic V6, Robot Phone, ARRI Collaboration, and the Road to 100M Units",
+      "summary": "Interview 1 Honor introduced numerous innovations at MWC Barcelona. What is the thinking and logic behind this wave of changes? Li Jian — CEO Honor is changing — but that change is being driven by the changing times. We can all see the rapid advancement of AI and how it is propelling the entire era forward. Both Honor and the smartphone industry as a whole... Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Reddit public activity in the latest 30-day window.",
+      "source": "Last30Days · Reddit",
+      "authors": [
+        "Honor"
+      ],
+      "categories": [
+        "Reddit"
+      ],
+      "url": "https://www.reddit.com/r/Honor/comments/1tzwr0d/exclusive_postlaunch_interview_honor_ceo_li_jian/",
+      "priority": 54,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 78
+    },
+    {
+      "kind": "industry",
+      "track": "Affective Computing",
+      "published": "2026-06-07",
+      "title": "Emotion recognition issues linked to chronic pain - MSN",
+      "summary": "Emotion recognition issues linked to chronic pain MSN",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZXV4cUFqLWE5VlRlVkpVMmNtNlVwQUVLRk1rTnd2WXhuaVFsQ3RqSmxGd0ctdi1hMGNaaEZHdnhRN3F5S3lDT01qMEJKLUlLaFVQOHo2cWFkYXZsYi1yOTlVaUtVSlRkZExmc1VkYXNVby1RX2k4R1YzaFM4ejlsSVVmdWQzWWNHQzdCOGxaQ2wzWTZXeTcwN1kxOWdZRGVLc0E?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "community",
+      "track": "Embodied Emotional Intelligence",
       "published": "2026-06-06",
       "title": "Embodied Cognition and Agentic AI",
       "summary": "Embodied Cognition and Agentic AI Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Hacker News public activity in the latest 30-day window.",
@@ -106,33 +157,6 @@
         "具身交互"
       ],
       "relevance_score": 85
-    },
-    {
-      "kind": "community",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-06",
-      "title": "Why 3D Embodied AI Agents Could Be the Next Big Leap Beyond Text-Based LLMs",
-      "summary": "We’ve seen massive progress with LLMs and text-based agents, but the real leap toward more capable, human-like AI might come from giving them bodies and spatial presence — aka 3D embodied agents. Why 3D Agents Matter 1. Embodied Cognition & Better Reasoning Intelligence isn’t just abstract symbols — it’s grounded in interaction with the physical (or... Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "AI_Agents"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/AI_Agents/comments/1tylrnb/why_3d_embodied_ai_agents_could_be_the_next_big/",
-      "priority": 54,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 84
     },
     {
       "kind": "industry",
@@ -164,8 +188,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-05",
-      "title": "May Embodied AI Financing: Hype Recedes, Mass Production Accelerates - Gasgoo",
-      "summary": "May Embodied AI Financing: Hype Recedes, Mass Production Accelerates Gasgoo",
+      "title": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 - PR Newswire",
+      "summary": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 PR Newswire",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -174,7 +198,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTTVKN284RTNaZllhX21wWTFteGZyZU1QQUEyQy1INEJuelBScGpfTlZwWlVkSHM1d1RSUFVwOUZYZHNRYnlTR2RBOW1TU0tGaGVvT0FCRTZGdU04SjFWUVhfekY1ZGVXWFdtb3dGRkVhV3U3bEFzX2t0ZzNvV1VEMnV2QkNQUWZzWkVqSkpwZ1pCTkdOemtSZHc0X18tQlhQWHZUbjYybEx0dHdqd0h2ZFNqTHc5VVRfS3RnZnE5Z0U0dXpJZlNBY0ZTeVY5TGx4MG8xUVBB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMmpUQW5QZEE2eTZqUHNQX2dnSWtaV3BOVG1acmI3TW5nVFNhZlpRcl9SNW5ub2VzRm1ycHcteEhkWjB2aFlUbVNBWHh3bmRGR2daNU1IX0dpZlZ3a2hndERsdTl5NkNjVEduY1BTYXJiUXlVUmRxTFdZYnBsT3dhN3lhWENsYThOaUJ5M0JMcWxYNTFsUFAyX0toMlNaN3ZCTVFDaEtXN25TZzN4RVRLc2ZxUzQ1aVBTeWNQTDN3V19XVGpaZ2NYMWpDbjdfMVQ4QVFiRjI0dVJjTnlPYUd4WjlLempWdWFNMXo0OC1PSklXaWxiN2FVNUtMWQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -185,57 +209,6 @@
         "具身交互"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-05",
-      "title": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 | Corporate - EQS News",
-      "summary": "AGIBOT WORLD CHALLENGE 2026 Advances Embodied AI Competition from Simulation to Real-Robot Testing at ICRA 2026 | Corporate EQS News",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPaGFjd1kzbWxwb0w4OWE4QzFnc0RBUC1OT1Mtd2pwbnhrWWFZdjJnOGc4WjNGTFY4RGI5bTZyMkhNbmEtMGxET3B3NGx4VG9aTjFyTUIwQm5lZXVGb01zZ3cwX25BcThmdzAzZlZnc3BicW54SEw5MHBVTGs5bENLczZfQVBUZEJGdEtMXzdtVC16ZzlVZklYOXlTVkRKNGp2S0FNSjlNQlpTQUFlMEg3bTQwYnRRNHFJNXMzNXI1UTV2YXlaYUdhcEVQS016OGJ1MmN3a2RXVnVvbFl2MHg5T2dxLUlHVnQ2ZGhLS1hJajJqTFZrYjJWWW5KQ1B4a1plRGp5N1hKR181T0syblJ6UGllT1ZsdjdHcWN3?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-06-05",
-      "title": "Looking for a Technical Cofounder for a Mental Health Startup",
-      "summary": "Hi, I am a 3rd doctoral student in clinical psychology and have noticed a substantial gap in the current market. There is a major player in the space who is currently losing much of their goodwill through an extremely outdated and ineffective service, and there is an opportunity to create a better service for relatively low upfront cost that will be easily... Last30Days signal for AI psychology mental health, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "cofounderhunt"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/cofounderhunt/comments/1txuqoi/looking_for_a_technical_cofounder_for_a_mental/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 75
     },
     {
       "kind": "industry",
@@ -319,6 +292,164 @@
       "relevance_score": 71
     },
     {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-06-05",
+      "title": "Beyond Universality: The GCC-FER Dataset and Culture-Aware Adaptation for Dynamic Facial Expression Recognition",
+      "summary": "Dynamic Facial Expression Recognition (DFER) is a key enabling technology in affective computing, human-computer interaction, and intelligent multimedia systems. Despite the significant influence of cultural nuances on FER performance, most existing FER systems assume that emotional expressions are universally consistent across populations. This variation can be attributed to systematic differences in facial muscle activation...",
+      "source": "arXiv",
+      "authors": [
+        "Sonalika Singh",
+        "Jyotirindra Dandapat",
+        "Avishi Razdan",
+        "Kshipra V. Moghe",
+        "Puneet Gupta",
+        "Lalan Kumar"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2606.07063",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-06-05",
+      "title": "Moodie: An Early-Stage Design Exploration for Supporting Fear of Missing Out with LLM-based Chatbots",
+      "summary": "The excessive use of social media has led to the challenge known as Fear of Missing Out (FoMO). Existing studies fail to provide accessible, interactive tools that focus on the emotional and cognitive aspects of FoMO. This work presents Moodie, a chatbot designed using Large Language Models to support emotion regulation and reduce FoMO. We conducted a formative study to understand the needs of individuals with FoMO and...",
+      "source": "arXiv",
+      "authors": [
+        "Hsin-Yu Tsai",
+        "Jingxian Liao",
+        "Fu-Yin Cherng",
+        "Tzu-Hsiang Huang"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2606.07231",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "身心支持"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-06-05",
+      "title": "Exploring Reinforcement Learning for Fluid Transitions Between Clinical Mental Healthcare and Everyday Wellness Support",
+      "summary": "Mental health struggles wax and wane, yet clinical and wellness interventions typically operate separately, causing frequent breakdowns at care transitions. We explore reinforcement learning (RL) as a means to build digital health systems that deliver clinical and wellness interventions proactively, as part of a coherent care journey. We ask: what complexities does designing such a system involve? We built a contextual bandit...",
+      "source": "arXiv",
+      "authors": [
+        "Tony Wang",
+        "Qian Yang"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2606.06800",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-06-05",
+      "title": "Acoustic Cue Alignment in Audio Language Models for Speech Emotion Recognition",
+      "summary": "Instruction-following audio language models (ALMs) can be augmented with explicit acoustic cues, yet it remains unclear whether such cues are used in a grounded way when the raw audio is already available. We study this question in speech emotion recognition (SER) by deriving six interpretable acoustic concept tokens from the standardised eGeMAPS paralinguistic feature set. These tokens summarise energy, pitch, dynamics,...",
+      "source": "arXiv",
+      "authors": [
+        "Iosif Tsangko",
+        "Andreas Triantafyllopoulos",
+        "Björn W. Schuller"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2606.07309",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-05",
+      "title": "Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability",
+      "summary": "The ISO 26262 standard defines functional safety for road vehicles through risk assessments based on Severity, Exposure, and Controllability, grounded in a human-driven vehicle paradigm. In the context of autonomous vehicles (AVs), the absence of a human driver necessitates revisiting these principles. This paper decomposes the Controllability placeholder into two auditable evidence dimensions of ISO 26262 by introducing two...",
+      "source": "arXiv",
+      "authors": [
+        "Chaitanya Shinde",
+        "Hadi Hajieghrary",
+        "Paul Schmitt",
+        "Adam Shoemaker",
+        "Bodo Seifert",
+        "Steve Kenner"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC",
+        "cs.SE"
+      ],
+      "url": "http://arxiv.org/abs/2606.07437",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "可信评测"
+      ],
+      "relevance_score": 62
+    },
+    {
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-06-04",
@@ -341,6 +472,32 @@
       ],
       "capability_tags_zh": [
         "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-04",
+      "title": "Beijing's robot 4S store showcases embodied AI in action - China Daily",
+      "summary": "Beijing's robot 4S store showcases embodied AI in action China Daily",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03N2ZLNXU4anVkbFIyLWpUV1ktQ2N1TEFmVkZBeEgybWpjbmFLNVBLNTBfUDRXZ29DU3czSGN3MFdMeHJYOFFKVXEzcy1WNFQ4UjRtNXVjVE50SHJmcy03cDA0WW5VRlU5ajlmNUlrTlFZV053d3R4TnZaZm5yUQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -676,6 +833,37 @@
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-06-04",
+      "title": "Geometric Second-Order Feature Correlation Learning for Self-Supervised Speech Emotion Recognition",
+      "summary": "Self-supervised learning (SSL) yields powerful, context-rich representations for speech emotion recognition (SER), yet aggregating these representations into holistic descriptors remains a bottleneck. Conventional first-order aggregation implicitly assumes feature independence, which overlooks the latent Riemannian geometry and discards higher-order relationships essential to the representational power of the backbone. To...",
+      "source": "arXiv",
+      "authors": [
+        "Shuanglin Li",
+        "Ruxiao Qian",
+        "Siyang Song"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "url": "http://arxiv.org/abs/2606.06550",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-06-04",
       "title": "Emotion-Aware Image Generation from Korean Diary Text via LLM-based Prompt Translation and LoRA Fine-Tuning",
       "summary": "T2I models cannot effectively capture sentiment from various types of text, including diaries, as they primarily focus on visual object-related patterns rather than contextual emotional understanding. This paper proposes an emotion-aware text-to-image pipeline that generates children's hand drawing style images from short Korean diary entries. The proposed pipeline employs Qwen3-8B for recognising implicit sentiment from...",
       "source": "arXiv",
@@ -701,6 +889,32 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-03",
+      "title": "Seeds | 1 Billion Yuan in 10 Months, XYZ Embodied AI Completes Pre-A Financing - Gasgoo",
+      "summary": "Seeds | 1 Billion Yuan in 10 Months, XYZ Embodied AI Completes Pre-A Financing Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZUIzbkt0TkdaYVpXUm90cTF6ZnM5aEhwV2I4U3FEczdoYy1xLTZSVGJ4UFlpU0VrcDJRVl85RU04dVU0Sl9QSWs5N042OWpUVExkc3UwbE51WWJpUHc4QjZDY3BoSURjWnNGWWRMSG1RNUc3UTk4bG9nVUQtWm80U25WSEpCRzluNjRIQk4zc09maEV1M3dHTEl3M09SRTVLYzhadFRhTmJ1Y1FQVms1UzdaYy1QZHpaYVVMSWtENmd0Q3VxOUVxdVY1aTluc2xaU1A0?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "community",
@@ -896,32 +1110,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-06-02",
-      "title": "AI therapy cannot replace human connection - The European Magazine",
-      "summary": "AI therapy cannot replace human connection The European Magazine",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORXVfTHJMSklNUUJoa3B0dTM5NWQ2ZWNrTGMxc0JUa0lZYV9SbnZZdTVMOXZqekhLVkpDM3RvOVEzSE1Scldpektzc2ZtUUFrcmd6YmxiTUZXMDU5TjJpZHM2Zzdnd2FVdGpkeUpKaTZ3TjVWbmVFQWpZSzRwekFyNlA2UnMtNlc3cVE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-06-02",
       "title": "Holo3.1: Fast & Local Computer Use Agents",
@@ -1062,32 +1250,6 @@
         "具身交互"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-01",
-      "title": "The next wave of AI: Analyst explains how embodied AI is taking shape - CNBC",
-      "summary": "The next wave of AI: Analyst explains how embodied AI is taking shape CNBC",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWc1QXVhek85UmNxWXlsSDlTT2pBcEVTWktEbUFxVVBYaGhjV2F0T1dHRUhOVm9Da3VaTFRIRFVpdmFzOWI3M3VESEtZaVQ0NnllSmhJcnVkck1oNHgzMG5Ic2lHbHJnZk1vNXlqR0NlbC1IeFV5S1drT090YzlXUDluMWZTVW9nMm15eW1fRUdVazJCeXhacFR6TW4wNVBuSHhwX2F6R2hUV2hJbGNaNg?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1321,10 +1483,10 @@
     },
     {
       "kind": "community",
-      "track": "AI + Psychology",
+      "track": "AI + Mind-Body Health",
       "published": "2026-05-30",
       "title": "Please Do Not Vibe Fuck Up This Software",
-      "summary": "Looks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral social media posts. Either... Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
+      "summary": "Looks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral social media posts. Either... Last30Days signal for AI mental health digital wellbeing, surfaced from GitHub public activity in the latest 30-day window.",
       "source": "Last30Days · GitHub",
       "authors": [
         "II-Paulus-II",
@@ -1335,17 +1497,19 @@
       ],
       "url": "https://github.com/RsyncProject/rsync/issues/929",
       "priority": 55,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
       "capability_tags": [
         "Psychological Assessment",
+        "Mind-Body Support",
         "Embodied Interaction"
       ],
       "capability_tags_zh": [
         "心理评估",
+        "身心支持",
         "具身交互"
       ],
-      "relevance_score": 82
+      "relevance_score": 88
     },
     {
       "kind": "paper",
@@ -1438,62 +1602,6 @@
         "情感理解"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-29",
-      "title": "Report finds serious safety gaps in AI mental health apps for tweens/teens - Seattle's Child",
-      "summary": "Report finds serious safety gaps in AI mental health apps for tweens/teens Seattle's Child",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Ma3pLRUxYUHJfMTRYSjFPTm4tWEZia2llN1lKNnBHcTVhU1ZxZzh5X3lleE1lMUx5WGVvQ0FBYTY0ODFlOHVwM1VkWDFRb2VrTEd2LTk0XzVQZmJERUJQSzQxNUp2b0lxS3drdnFNN1ptUQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-29",
-      "title": "AI 'Therapy Session' Reveals Credit Unions' Balancing Act Between Innovation & Trust - CUTimes",
-      "summary": "AI 'Therapy Session' Reveals Credit Unions' Balancing Act Between Innovation & Trust CUTimes",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVHdJcWJ2LVNKcEJiS2p0VHVlVm9uYUdiOHJKNjFnc0lyeGE0ZWFKMXQ1QTdnNkpZcTI2dFJwZDNFZDc3aTdqNmVYa1paM1Y1TUIyUXp6NFJOSkhDWUZWaWljWW0tVWcxVl9YREMxcGdlWXBsWDdDSUdHWDBPM2tqUUQ2d3Q4YkZMenRVTHlZNVJPclNtWGtXekM5WUg1U08xSW9vMUZZUS1KV3B4a2VqUzYzby14SVk?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "身心支持",
-        "可信评测"
-      ],
-      "relevance_score": 82
     },
     {
       "kind": "paper",
@@ -1784,39 +1892,7 @@
     },
     {
       "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-05-28",
-      "title": "Benchmarking Positional Encoding Strategies for Transformer-Based EEG Foundation Models",
-      "summary": "Electroencephalography (EEG) is a widely used non-invasive technique for measuring brain activity in brain-computer interface (BCI) applications. Supervised EEG decoding models often struggle to generalize across tasks, subjects, and datasets, motivating transformer-based EEG foundation models trained with self-supervised learning. Since transformers are permutation-invariant, they require explicit positional information....",
-      "source": "arXiv",
-      "authors": [
-        "Ayse Betul Yuce",
-        "Sebastian Stober"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2605.29754",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Trustworthy Evaluation",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "可信评测",
-        "情感理解"
-      ],
-      "relevance_score": 74
-    },
-    {
-      "kind": "paper",
-      "track": "Affective Computing",
+      "track": "Multimodal Affective Computing",
       "published": "2026-05-28",
       "title": "State-Anchored Complete-View Distillation for Robust Conversational Multimodal Emotion Recognition",
       "summary": "Conversational multimodal emotion recognition (MER) requires reliable prediction when language, acoustic, or visual observations are missing or unreliable. Many missing-modality methods reconstruct absent inputs, yet such recovery can be non-unique in dialogue context, and nonverbal cues may conflict with the target utterance. To this end, we propose CoRe-KD (Complete-view Reference-guided Knowledge Distillation), a...",
@@ -1834,43 +1910,14 @@
       ],
       "url": "http://arxiv.org/abs/2605.29590",
       "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
       "capability_tags": [
         "Multimodal Sensing",
         "Affective Understanding"
       ],
       "capability_tags_zh": [
         "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 68
-    },
-    {
-      "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-05-28",
-      "title": "Expecting Empathy: How Interaction Context Shapes Norms for Empathic Response in Digital Communication",
-      "summary": "A central challenge in affective computing is determining appropriate empathy levels for different interaction contexts. Prior work has characterized two poles: task-focused interactions, where empathy demand is near zero, and emotional disclosure, where empathy demand is high. This paper identifies a distinct intermediate type, decision support under stress, in which a sender faces a consequential choice while experiencing...",
-      "source": "arXiv",
-      "authors": [
-        "Tao Wang",
-        "Chi-Ching Juan"
-      ],
-      "categories": [
-        "cs.HC",
-        "cs.SI"
-      ],
-      "url": "http://arxiv.org/abs/2605.29399",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Mind-Body Support",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "身心支持",
         "情感理解"
       ],
       "relevance_score": 68
@@ -1930,10 +1977,10 @@
     },
     {
       "kind": "community",
-      "track": "AI + Mind-Body Health",
+      "track": "AI + Psychology",
       "published": "2026-05-27",
       "title": "I'm Tired of Talking to AI",
-      "summary": "I'm Tired of Talking to AI Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
+      "summary": "I'm Tired of Talking to AI Last30Days signal for AI psychology mental health, surfaced from Hacker News public activity in the latest 30-day window.",
       "source": "Last30Days · Hacker News",
       "authors": [
         "theorchid",
@@ -1944,24 +1991,22 @@
       ],
       "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
       "priority": 55,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
+        "心理评估"
       ],
-      "relevance_score": 82
+      "relevance_score": 76
     },
     {
       "kind": "community",
-      "track": "AI + Mind-Body Health",
+      "track": "AI + Psychology",
       "published": "2026-05-27",
       "title": "YouTube to automatically label AI-generated videos",
-      "summary": "YouTube to automatically label AI-generated videos Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
+      "summary": "YouTube to automatically label AI-generated videos Last30Days signal for AI psychology mental health, surfaced from Hacker News public activity in the latest 30-day window.",
       "source": "Last30Days · Hacker News",
       "authors": [
         "nopg",
@@ -1972,17 +2017,15 @@
       ],
       "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
       "priority": 54,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
+        "心理评估"
       ],
-      "relevance_score": 81
+      "relevance_score": 75
     },
     {
       "kind": "industry",
@@ -2662,67 +2705,6 @@
       "relevance_score": 71
     },
     {
-      "kind": "paper",
-      "track": "AI + Psychology",
-      "published": "2026-05-21",
-      "title": "DreamerNLplus: Interpretable Modeling of Mental Health Dynamics from Social Media Timelines using Hybrid Rule-Based and RAG Methods",
-      "summary": "We present DreamerNLplus, a hybrid framework for modeling mental health dynamics from social media timelines in the CLPsych 2026 shared task. Our system addresses three tasks: psychological state modeling, temporal change detection, and sequence-level summarization. For Task 1, we combine LLM-based data augmentation, DeBERTa classification, and Random Forest regression for structured state prediction. For Task 2, we use...",
-      "source": "arXiv",
-      "authors": [
-        "Maryia Zhyrko",
-        "Daisy Monika Lal",
-        "Erik van Mulligen",
-        "Lifeng Han"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2605.23052",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估"
-      ],
-      "relevance_score": 68
-    },
-    {
-      "kind": "paper",
-      "track": "AI + Psychology",
-      "published": "2026-05-21",
-      "title": "Towards a General Intelligence and Interface for Wearable Health Data",
-      "summary": "While ubiquitous wearable sensors capture a wealth of behavioral and physiological information, effectively transforming these signals into personalized health insights is challenging. Specifically, converting low-level sensor data into representations capable of characterizing higher-level states is difficult due to high phenotypic diversity and variation in individual baseline health, physiology, and lifestyle factors....",
-      "source": "arXiv",
-      "authors": [
-        "Girish Narayanswamy",
-        "Maxwell A. Xu",
-        "A. Ali Heydari",
-        "Samy Abdel-Ghaffar",
-        "Marius Guerard",
-        "Kara Vaillancourt"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2605.22759",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Multimodal Sensing"
-      ],
-      "capability_tags_zh": [
-        "多模态感知"
-      ],
-      "relevance_score": 56
-    },
-    {
       "kind": "community",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-05-20",
@@ -3078,34 +3060,6 @@
       "relevance_score": 77
     },
     {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-15",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "summary": "I believe there are entire companies right now under AI psychosis Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "reasonableklout",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "priority": 59,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 86
-    },
-    {
       "kind": "industry",
       "track": "Multimodal Affective Computing",
       "published": "2026-05-15",
@@ -3375,6 +3329,66 @@
         "AI Research"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-12",
+      "title": "Mapping Embodied Affective Touch Strategies on a Humanoid Robot",
+      "summary": "Affective touch in human-robot interaction is shaped not only by emotional intent, but also by robot embodiment, including touch location, physical constraints, and perceived agency or social role. Existing HRI studies typically focus on one or two isolated body parts, limiting understanding of how affective touch generalises across the full humanoid body. We present a study with 32 participants interacting with the iCub...",
+      "source": "arXiv",
+      "authors": [
+        "Qiaoqiao Ren",
+        "Omar Eldardeer",
+        "Francesca Cocchella",
+        "Rea Francesco",
+        "Alessandra Sciutti",
+        "Tony Belpaeme"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "url": "http://arxiv.org/abs/2605.11825",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-05-12",
+      "title": "Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini",
+      "summary": "Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire. In an online...",
+      "source": "arXiv",
+      "authors": [
+        "Amit Rogel",
+        "Elmira Yadollahi",
+        "Guy Laban"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2605.12786",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 59
     },
     {
       "kind": "lab",
