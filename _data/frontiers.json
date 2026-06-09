@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T04:48:39+00:00",
-  "generated_at_beijing": "2026-06-09T12:48:39+08:00",
+  "generated_at": "2026-06-09T15:42:21+00:00",
+  "generated_at_beijing": "2026-06-09T23:42:21+08:00",
   "generated_date_beijing": "2026-06-09",
   "stats": {
     "total_items": 120,
@@ -13,28 +13,29 @@
     "rss_items": 54,
     "arxiv_items": 104,
     "kind_counts": {
-      "community": 15,
+      "community": 16,
       "industry": 37,
       "lab": 1,
-      "paper": 65,
+      "paper": 64,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 61,
-      "RSS · Google News": 11,
+      "arXiv": 60,
+      "RSS · Google News": 10,
+      "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
       "Last30Days · Hacker News": 6,
-      "Last30Days · GitHub": 6,
       "Last30Days · Reddit": 3,
-      "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
+      "RSS · OpenAI News": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · IEEE Spectrum Robotics": 2,
       "RSS · MIT News AI": 2,
       "RSS · Google News School Mental Health": 2,
+      "RSS · Google News Human Factors": 1,
       "RSS · Google Research": 1,
       "RSS · Google 新闻": 1,
       "RSS · Google AI": 1,
@@ -79,6 +80,84 @@
     }
   ],
   "items": [
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-09",
+      "title": "Black Sesame Technologies, SIIC Tech Capital join forces to advance embodied AI robotics ecosystem - Gasgoo",
+      "summary": "Black Sesame Technologies, SIIC Tech Capital join forces to advance embodied AI robotics ecosystem Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV0Njd25zRER4enRtS2FZekVMRVpYR0FucVZIMnB3LWhvc1EzUDBHWWFKX0hnRTJ1Qjl0NlVhYXVYTm5rRXZNcW5QaW53YnNTV0p2el9TdlMybDVKQ3lWUy1MV3Y5azB1dnZkXzZEX3dMTjVrazUzckREWWxOWXFpc19TMEJpOEVDSy1uSmZhcVktak5oWnRFRDhHbGx0N2Mtdl84dDIwbjk1cWdmc21BVDFnd3dpVGJkbUJTSTYtRmRIT21YZmlFOGFOOC1aSUl0dUI0TXgxSnIxNUFjR09kMmNqcUwtZnJjT2RYajdOZw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-09",
+      "title": "VinDynamics and Skild AI sign MoU to advance humanoid robotics and embodied AI - Vietnam Investment Review - VIR",
+      "summary": "VinDynamics and Skild AI sign MoU to advance humanoid robotics and embodied AI Vietnam Investment Review - VIR",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1pReUZzWnkzSGNxV0VwWW50bFUwdWo3b1RWS0NrckpWSHF5UkREWHV4bERZWUdQY3dtM29oV1plaXp4cGJWbHdFTmx4dW9FckdOSDlMZkplTmNEVENuSzdtSzUwUUVYUHBCMG56c2d6dXRhelJaQV9kQ21TODIxaUllWGM2TEQxR3JxVmR0OXNmclR2cV9jRjFEWHVLdnJBd2ZMNDN2LW0zQVVoUWc?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-09",
+      "title": "Gasgoo Daily: Black Sesame, SIIC Tech Capital to advance embodied AI robotics ecosystem - Gasgoo",
+      "summary": "Gasgoo Daily: Black Sesame, SIIC Tech Capital to advance embodied AI robotics ecosystem Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdHVnWXJKeFlmeXg2bWZDVVlKaEtKcU9Lcm5iaUJvWkpTZVYwd3F3aG53eFVuVnVLSGJYWURWeUdOeUU4Tk9ZeEVvamlldmZZazZMeGNmRFhBTkFMT3Q4dElBMWxRMm1ZNDBVNEQ4WU1LTi1jaGptZFU4QlZlYjNaS2VQbGJPbDlWckhqREpFWW94TmtvVHRfN05aZzBaQWpGaGh1X0w4Rkphc2xSSjhwLWx6bVQzU3VDUUU0WktCazBoWGdxbWdObFYxcjFxLWxhMHdueG1sLWE5aFUyN01tbQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "industry",
       "track": "AI + Psychology",
@@ -134,46 +213,75 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-08",
-      "title": "TARS Brings Real-Life Embodied AI to ICRA 2026 Robotics Conference - PR Newswire",
-      "summary": "TARS Brings Real-Life Embodied AI to ICRA 2026 Robotics Conference PR Newswire",
-      "source": "RSS · Google News",
+      "track": "Open-Source AI",
+      "published": "2026-06-09",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
       "authors": [
-        "Google News"
+        "Hugging Face Blog"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "Hugging Face Blog"
       ],
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUI1NmwzaGlWeFliNUxfSHVsU1Ytd1ItdFRManBOYzNzSkJZZnpYeUc5bmF2eTNVU3NVUTFVcGw2czFvLXZKT3NYM2ROWDE1dlhOM0xxYkNDdFNYbVllOUVzakdoU0JHVnN6RWhCTVRsV1BIcEhYZnlwLUhGYnhrRFF4TkQtRlhxelFpMFZzb2NJbzJqWDhrSWJmbmJtY01uTDNtdTNQUFp3SU5tOVRFb2ZuRXpZTDlhdDNoTHFIZw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Affective LLMs"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "情感大模型"
       ],
-      "relevance_score": 79
+      "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-06-09",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and...",
+      "source": "RSS · MIT Technology Review AI",
+      "authors": [
+        "MIT Technology Review AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT Technology Review AI"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "身心支持"
+      ],
+      "relevance_score": 77
     },
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-08",
-      "title": "Embodied AI and Deployment-First Robotics: AI Gets a Body – Why Humanoid Robots Are Now Conquering Our Factories - Xpert.Digital - Konrad Wolfenstein",
-      "summary": "Embodied AI and Deployment-First Robotics: AI Gets a Body – Why Humanoid Robots Are Now Conquering Our Factories Xpert.Digital - Konrad Wolfenstein",
-      "source": "RSS · Google News",
+      "published": "2026-06-09",
+      "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
+      "summary": "This article is brought to you by AGILINK . Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attention. Two robotic hands were making a balloon dog. Slowly and deliberately, the robot twisted a long balloon into loops, bends, and joints...",
+      "source": "RSS · IEEE Spectrum Robotics",
       "authors": [
-        "Google News"
+        "IEEE Spectrum Robotics"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "IEEE Spectrum Robotics"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETHB5eHI2bzVUbHl3NnVadlpMYU9MaW1Uek96VWI0VVpQSGdjUEpyZ00ySmdjS1hSM3NkcFQ0ektfNzBQdWdUN1RFRGI5cTZjYzd2Snl1eGljUQ?oc=5",
-      "priority": 58,
+      "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+      "priority": 53,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
       "capability_tags": [
@@ -182,7 +290,33 @@
       "capability_tags_zh": [
         "具身交互"
       ],
-      "relevance_score": 79
+      "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-06-08",
+      "title": "UX Roundup: Empowering Users Again | Marketese | Impulse Buying | Human Factors Hero | Chinese Prompts - Jakob Nielsen on UX",
+      "summary": "UX Roundup: Empowering Users Again | Marketese | Impulse Buying | Human Factors Hero | Chinese Prompts Jakob Nielsen on UX",
+      "source": "RSS · Google News Human Factors",
+      "authors": [
+        "Google News Human Factors"
+      ],
+      "categories": [
+        "RSS",
+        "Google News Human Factors"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51VXBmRi1MR2wzdlRvcUNYM0NJTVJvX1hPMzQtVlp4NE9TNm5hbFVaSjBhUmRqTW9CWFhnRGxDQ0hKMHhmemNQckJyUWV4UUU0blFEMXZlNVp6NWN4VHFmRXFNYzZhUVhIY3c?oc=5",
+      "priority": 58,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -346,7 +480,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZXV4cUFqLWE5VlRlVkpVMmNtNlVwQUVLRk1rTnd2WXhuaVFsQ3RqSmxGd0ctdi1hMGNaaEZHdnhRN3F5S3lDT01qMEJKLUlLaFVQOHo2cWFkYXZsYi1yOTlVaUtVSlRkZExmc1VkYXNVby1RX2k4R1YzaFM4ejlsSVVmdWQzWWNHQzdCOGxaQ2wzWTZXeTcwN1kxOWdZRGVLc0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPUWk0QUViRnUtekoybi0zVXM4bGlYLWJ4b3c4eWNuWHVqUFNwVm9UZGdRQWRqYmoxN2VxQ3Jqa2Uxd19CMDlzV0hZb281Y1k2MmJaaHBXZHBQT3dUdnhxZEQxZjdwZTU5M3BVTTUwZEg4Wk1ROUNOS2JZWlhzMWRMTl96MmRNS3dZbVIxZ3h3eDdBaFdOU29uOWNybTQ4aTZWenR0d0taaEZ6UnhJOWpKZDhTUTduU1ZBVy04dGwwNUtYSmkzSkFfdG9wSzVSQnd6d3cyX3VxQVhNRGpzQndxUlNBUUZFTFFQM29hV2IwNHVQQXVxdWE4S291OFRkYjdsU2JTTlh6R2hlYW5FT1VIdzktVjlOVUx1ckxPY3dqUnRwT3lzMUpla0FyUnVreFRvSEliQ1A3WQ?oc=5",
       "priority": 58,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
@@ -537,32 +671,6 @@
       ],
       "capability_tags_zh": [
         "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-05",
-      "title": "May Embodied AI Financing: Hype Recedes, Mass Production Accelerates - Gasgoo",
-      "summary": "May Embodied AI Financing: Hype Recedes, Mass Production Accelerates Gasgoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYXNsX2ZZcTlHbTdXNGRmUnJiWksyVXRWSmFsdldOTFdocjVRaGE4ck5CQXdtaHdkVWdqMnBuWnhpd0lacFdveEFncXZQQmNKSVF0cFFNbVMxczY2NHp1V19hZ3pDaVl1a2wzRk9kb2pfSUpwOG9rcEhvV0FDVXY2bVZ0aDM5YU9PY1lFVGx5TFR2LWVYaHpDRlhrZ21IbjlPVDlQY2gzdExYZkVSWjhGbWttOXZsM041OFMxbXR6c0lxak1SZWs0?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -968,33 +1076,6 @@
         "可信评测"
       ],
       "relevance_score": 81
-    },
-    {
-      "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-06-04",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
     },
     {
       "kind": "paper",
@@ -1448,32 +1529,6 @@
       "relevance_score": 83
     },
     {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-06-02",
-      "title": "How small businesses can leverage AI",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large company can hire experts to…",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 71
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-06-02",
@@ -1680,32 +1735,6 @@
       "relevance_score": 59
     },
     {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-05-31",
-      "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
-      "summary": "In 1987, Richard Greenhill , a British photographer who was fascinated by (but had no actual training in) robotics, decided he wanted to build a life-size humanoid that could do useful things, like carrying luggage. He was working at a startup called Intergalactic Robots, but he couldn’t convince anyone there to build such a machine, so he set about...",
-      "source": "RSS · IEEE Spectrum Robotics",
-      "authors": [
-        "IEEE Spectrum Robotics"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum Robotics"
-      ],
-      "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
-      "priority": 53,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 71
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-05-31",
@@ -1736,6 +1765,36 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-05-30",
+      "title": "Please Do Not Vibe Fuck Up This Software",
+      "summary": "Looks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral social media posts. Either... Last30Days signal for AI mental health digital wellbeing, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "II-Paulus-II",
+        "RsyncProject/rsync"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/RsyncProject/rsync/issues/929",
+      "priority": 54,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持",
+        "具身交互"
+      ],
+      "relevance_score": 87
     },
     {
       "kind": "paper",
@@ -1828,34 +1887,6 @@
         "情感理解"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-29",
-      "title": "Report finds serious safety gaps in AI mental health apps for tweens/teens - Seattle's Child",
-      "summary": "Report finds serious safety gaps in AI mental health apps for tweens/teens Seattle's Child",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Ma3pLRUxYUHJfMTRYSjFPTm4tWEZia2llN1lKNnBHcTVhU1ZxZzh5X3lleE1lMUx5WGVvQ0FBYTY0ODFlOHVwM1VkWDFRb2VrTEd2LTk0XzVQZmJERUJQSzQxNUp2b0lxS3drdnFNN1ptUQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -3362,37 +3393,6 @@
         "情感理解"
       ],
       "relevance_score": 77
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-05-14",
-      "title": "HQTN-SER: Speech Emotion Recognition with Hybrid Quantum Tensor Networks",
-      "summary": "Speech emotion recognition (SER) remains fragile in real-world conditions because emotional cues are subtle, speaker-dependent, and easily confounded by recording variability, while high-performing deep models typically rely on large and carefully curated training sets. Quantum machine learning offers an alternative way to introduce nonlinear correlation modeling with compact modules, yet existing quantum SER studies remain...",
-      "source": "arXiv",
-      "authors": [
-        "Mahad Mohtashim",
-        "Nouhaila Innan",
-        "Muhammad Shafique"
-      ],
-      "categories": [
-        "quant-ph"
-      ],
-      "url": "http://arxiv.org/abs/2605.14523",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Mind-Body Support",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "身心支持",
-        "情感理解"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "lab",
