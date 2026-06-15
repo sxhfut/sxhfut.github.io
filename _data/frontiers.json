@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-06-15T05:39:25+00:00",
-  "generated_at_beijing": "2026-06-15T13:39:25+08:00",
-  "generated_date_beijing": "2026-06-15",
+  "generated_at": "2026-06-15T17:35:26+00:00",
+  "generated_at_beijing": "2026-06-16T01:35:26+08:00",
+  "generated_date_beijing": "2026-06-16",
   "stats": {
     "total_items": 120,
     "max_items": 120,
     "manual_items": 8,
-    "last30days_items": 18,
+    "last30days_items": 16,
     "last30days_reused_items": 0,
     "github_recent_items": 0,
-    "recent_signal_items": 18,
+    "recent_signal_items": 16,
     "rss_items": 54,
     "arxiv_items": 101,
     "kind_counts": {
-      "community": 16,
-      "industry": 35,
+      "community": 14,
+      "industry": 36,
       "lab": 1,
-      "paper": 66,
+      "paper": 67,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 62,
+      "arXiv": 63,
       "RSS · Google News": 11,
       "Last30Days · Hacker News": 7,
       "HFUT Faculty Blog": 7,
-      "Last30Days · GitHub": 5,
-      "Last30Days · Reddit": 4,
+      "Last30Days · GitHub": 4,
+      "Last30Days · Reddit": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Hugging Face Blog": 3,
+      "RSS · MIT News AI": 2,
       "RSS · Google News School Mental Health": 2,
       "RSS · Microsoft Research": 2,
       "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google Research": 1,
-      "RSS · MIT News AI": 1,
       "RSS · Google News Human Factors": 1,
       "RSS · Google AI": 1,
       "China.com": 1
@@ -80,20 +80,73 @@
   ],
   "items": [
     {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-06-14",
-      "title": "AI-Decoded Brain Signals in Computer Interfaces Create Direct Pathways for Mental Data Interception and Loss of Private Thought Control",
-      "summary": "Brain-computer interfaces capture electrical signals from neurons firing in the brain and route them around the body to operate external devices such as tablets or prosthetic limbs. The systems operate across a spectrum of invasiveness where some versions require surgical placement of electrodes directly into brain tissue or on its surface while others sit... Last30Days signal for affective computing emotion AI, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-15",
+      "title": "Humanoid robot football match showcases advances in embodied AI - news.cgtn.com",
+      "summary": "Humanoid robot football match showcases advances in embodied AI news.cgtn.com",
+      "source": "RSS · Google News",
       "authors": [
-        "ObscurePatentDangers"
+        "Google News"
       ],
       "categories": [
-        "Reddit"
+        "RSS",
+        "Google News"
       ],
-      "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1u5rz16/aidecoded_brain_signals_in_computer_interfaces/",
-      "priority": 59,
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUVpKcVNHMTRLcG5Wd21zMmJsVUs3X0hKODUyTDgyUkw0LW16aUtCZFVzTWd6MzNQeDFXSEI0MkZ2cUdjWDdsLWlYVEUzQUZZbGMtMDhWVVRwMzRadjktYmM4Z1gwTmxwWjdqUmJyRlBWYml1RnQ4Y3JBWDlLaDlfUUo0QVdBQ193cFFadkJoX2p3MmlyMXNmbzdMNXBLRjE0X1VsWEpiSllDOFhUSXI2MkRzRVZNT1Bnc2JFVA?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-15",
+      "title": "Chinese judge addresses legal questions as embodied AI industry booms - MLex",
+      "summary": "Chinese judge addresses legal questions as embodied AI industry booms MLex",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FUHJLWEhMYTNlR1lxelFrZ0JkS0V4N3U1SWYwcVJIVnlzcWRnbWdEVUFoMjZHX3dFZ2dOMGs1UURNUDY2emVkcVRLeS0taHBPbjN0WFowUkpEQdIBWkFVX3lxTE9FUHJLWEhMYTNlR1lxelFrZ0JkS0V4N3U1SWYwcVJIVnlzcWRnbWdEVUFoMjZHX3dFZ2dOMGs1UURNUDY2emVkcVRLeS0taHBPbjN0WFowUkpEQQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Affective Computing",
+      "published": "2026-06-14",
+      "title": "Emotion recognition issues linked to chronic pain - MSN",
+      "summary": "Emotion recognition issues linked to chronic pain MSN",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOdDMtQ3p6Z3JvdW51VnhRZEJtNy1zdng0OVdoTjMzc3FXT2RFZEpBYjhvRDdCUU9CSWNGTWRaczItRWNMZ0lRc1lqWS1QeDdYNk1lVDQ2bUZDQzQ2Y1N3dDIwZFdGc0dKT2FNY2MxTXc4c1RsXzZybGM1bnM0OHRfNFVGY1R2QTRlV2l0UUxpdThYbGRaMjdRY0p1V0xudUVpVDZyeGQ3N2pxaVpqUC1BRUFnZFFCLXMxNkdYdm5LXzhHNnNRZUxiZk9MZnlsNEZ4elNQTHB3cVhjOUpodzBfWWFUT1JiOWRFSEhQMExGclBXc0JDNUJfOTl3eWFQSmJjMDhRdXBjS2ZHMGtaQm9JWnRzaGptc09RUUZHMEFNVlhfX3JqcXdDUjZzai10dzNUWFJNQk1URjNWQzl4cmZjY1JyejJOQ2lK?oc=5",
+      "priority": 58,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -102,7 +155,7 @@
       "capability_tags_zh": [
         "情感理解"
       ],
-      "relevance_score": 83
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -153,32 +206,6 @@
       ],
       "capability_tags_zh": [
         "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-06-13",
-      "title": "How AI therapy apps support self-improvement and emotional wellness - AZ Big Media",
-      "summary": "How AI therapy apps support self-improvement and emotional wellness AZ Big Media",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORzZvQUdoUkFDb1l4Umh2NVExTjhLSF9Vc0JqbUg4RGk5UXVVS2tmOE5LZ0tlcXBVTmpVaTJZNVJoNDgwdzNMdVpKLXRBMUdlbUhhcmZwclZTQjRWbTFoaEtiRU04M3VMMF9JTFpCTnp4OUE3WDRsX2FKRnhWUEo0REZmUXNLX2UzZlluLTVoa0N3anJJMUE0SUFmWWhMOGttZXJn?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
       ],
       "relevance_score": 79
     },
@@ -484,34 +511,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-11",
-      "title": "IMTS 2026 Conference: Embodied AI Improving Safety and Throughput in Hazardous Finishing Environments - Aerospace Manufacturing and Design",
-      "summary": "IMTS 2026 Conference: Embodied AI Improving Safety and Throughput in Hazardous Finishing Environments Aerospace Manufacturing and Design",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSGJJTVYtUkFtOFVpRS1BNllwTk9sUkFLQUpLMjhxZTVuTG8yTG5FdEwzMGc0SmpYRDZQRFR3MjVPTFplbFBpOFlCWDRJOFRaUS1yTVh0b25JUS1lSGd1MjZ0Mk9tZG1kOFlTZVJwck1mcU9LMlhlUEM5QWphNTBWWEU0bEVHUTFRVTF3Z3hmNGQyRkpVajVWZDkxbVA4bkRaZUVaQmNlM2xjd3JaLWNQUlREWlpoWGpSUGdfZWNPeUFadXZOeFdJdExSaDh1WkFSWFBRRUZVbHZ4aTdWZHBLeWJrOWZlV3Y1bkE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "具身交互",
-        "可信评测"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-06-11",
       "title": "Emotion AI Market Key Trends, Strategic Insights, Emerging Opportunities, Healthy CAGR and Future Outlook by 2030 - Barchart.com",
@@ -535,31 +534,6 @@
         "情感理解"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "community",
-      "track": "Empathetic Dialogue",
-      "published": "2026-06-11",
-      "title": "She gifts him her Buchimaru calculator to be his emotional support calculator while they're apart 🥹",
-      "summary": "This dialogue change in Royal further drives my headcanon that this basic calculator has been with her since her elementary school days and she's essentially gifting him a piece of her childhood to remember her by. submitted by /u/VerbingWeirdsLang to r/shumako [link] [comments] Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "shumako"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/shumako/comments/1u2sc8k/she_gifts_him_her_buchimaru_calculator_to_be_his/",
-      "priority": 55,
-      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
-      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -848,32 +822,6 @@
         "情感理解"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-10",
-      "title": "Embodied AI Backed by Systematic Progress - 中国科技网",
-      "summary": "Embodied AI Backed by Systematic Progress 中国科技网",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1WTJ5Z1Nqb2wyeDZkMnYya0t3N3EzLVZORWZNNEE1enpZZi16NC11SUU1REtOeGE3dVlZcUdtWGRMT21ZRnJZZkpKaWxsNkpmRXZ1ZDFHVjI0M3g0RDRGTnVBZ0ktQU9LZ0FtS203bTRpai1a?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1338,6 +1286,31 @@
         "具身交互"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "community",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-08",
+      "title": "Exclusive Post-Launch Interview: Honor CEO Li Jian & Executives on the Magic V6, Robot Phone, ARRI Collaboration, and the Road to 100M Units",
+      "summary": "Interview 1 Honor introduced numerous innovations at MWC Barcelona. What is the thinking and logic behind this wave of changes? Li Jian — CEO Honor is changing — but that change is being driven by the changing times. We can all see the rapid advancement of AI and how it is propelling the entire era forward. Both Honor and the smartphone industry as a whole... Last30Days signal for embodied emotional intelligence robot emotion, surfaced from Reddit public activity in the latest 30-day window.",
+      "source": "Last30Days · Reddit",
+      "authors": [
+        "Honor"
+      ],
+      "categories": [
+        "Reddit"
+      ],
+      "url": "https://www.reddit.com/r/Honor/comments/1tzwr0d/exclusive_postlaunch_interview_honor_ceo_li_jian/",
+      "priority": 54,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 78
     },
     {
       "kind": "industry",
@@ -2135,36 +2108,6 @@
         "可信评测"
       ],
       "relevance_score": 83
-    },
-    {
-      "kind": "community",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-02",
-      "title": "🪞 Affective Mirror — Real-Time Emotion Recognition, Voice Prosody & Longitudinal Emotional Intelligence",
-      "summary": "## Overview A planetary consciousness OS must know not just *what* you are saying, but *how* you feel when you say it. The Affective Mirror module gives GAIA real-time awareness of emotional state through three non-invasive local channels: voice prosody analysis, optional facial micro-expression de Last30Days signal for embodied emotional intelligence robot emotion, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "R0GV3TheAlchemist",
-        "R0GV3TheAlchemist/GAIA-OS"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/R0GV3TheAlchemist/GAIA-OS/issues/161",
-      "priority": 54,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Embodied Interaction",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "具身交互",
-        "情感理解"
-      ],
-      "relevance_score": 93
     },
     {
       "kind": "paper",
@@ -3385,6 +3328,66 @@
         "情感大模型"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-05-19",
+      "title": "Justin Solomon appointed associate dean of engineering education",
+      "summary": "MIT faculty member in electrical engineering and computer science to focus on innovation in engineering education and new pedagogical approaches.",
+      "source": "RSS · MIT News AI",
+      "authors": [
+        "MIT News AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT News AI"
+      ],
+      "url": "https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "AI Research"
+      ],
+      "capability_tags_zh": [
+        "AI Research"
+      ],
+      "relevance_score": 72
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-05-19",
+      "title": "AffectVerse: Emotional World Models for Multimodal Affective Computing",
+      "summary": "Humans infer emotions by integrating observed multimodal cues with expectations about how affective states may unfold. Existing multimodal large language models (MLLMs), however, often treat emotion recognition as static fusion over complete audiovisual-text inputs, leaving affective dynamics implicit. We propose AffectVerse, a Qwen2.5-Omni-based model equipped with an Emotion World Module (EWM), an action-free...",
+      "source": "arXiv",
+      "authors": [
+        "Bo Zhao",
+        "Fanghua Ye",
+        "Yixin Ji",
+        "Sicheng Zhao",
+        "Xiaojiang Peng",
+        "Zitong YU"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2605.19950",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 77
     },
     {
       "kind": "lab",
