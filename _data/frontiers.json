@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21T05:29:49+00:00",
-  "generated_at_beijing": "2026-06-21T13:29:49+08:00",
+  "generated_at": "2026-06-21T14:44:26+00:00",
+  "generated_at_beijing": "2026-06-21T22:44:26+08:00",
   "generated_date_beijing": "2026-06-21",
   "stats": {
     "total_items": 120,
@@ -13,8 +13,8 @@
     "rss_items": 54,
     "arxiv_items": 104,
     "kind_counts": {
-      "community": 16,
-      "industry": 31,
+      "community": 17,
+      "industry": 30,
       "lab": 1,
       "paper": 70,
       "standard": 1,
@@ -22,20 +22,20 @@
     },
     "source_counts": {
       "arXiv": 66,
-      "Last30Days · GitHub": 10,
+      "Last30Days · GitHub": 12,
       "RSS · Google News": 9,
       "HFUT Faculty Blog": 7,
-      "Last30Days · Reddit": 6,
+      "Last30Days · Reddit": 5,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum Robotics": 2,
       "RSS · MIT News AI": 2,
-      "RSS · Google 新闻": 2,
       "RSS · Google Research": 1,
       "RSS · Google News School Mental Health": 1,
       "RSS · Microsoft Research": 1,
+      "RSS · Google 新闻": 1,
       "China.com": 1
     }
   },
@@ -76,6 +76,58 @@
     }
   ],
   "items": [
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-21",
+      "title": "Embodied AI Track Sketch: Smart Minds, Top-Tier Models, Valued at $10B or a Unicorn - 36 Kr",
+      "summary": "Embodied AI Track Sketch: Smart Minds, Top-Tier Models, Valued at $10B or a Unicorn 36 Kr",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4WERDcW9IQ1hxR3lQRE1Gbmh1cUNwZlBuaWc2ekE5dGJGdGVwbXA4ZE5JUTE0a3pHWlZ2cFA3ZUp3dUdtNFZ3aGNmRzI5UDd0OVFR?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-21",
+      "title": "Billions Pour Into Embodied AI But Factory Deployment Remains Elusive - Pandaily",
+      "summary": "Billions Pour Into Embodied AI But Factory Deployment Remains Elusive Pandaily",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoOEdEazRxY2IxSEhMRWZvVHBtZ0dtcWRYTjlyNEhKRVZ1QTlHWUdYNEY0VlF3c3I2a1ZoM2tqcDhXeU5SbnNPU2swUzlwSmxtUDh4emxicDBrWklVSk5IbTF0ZFhmcUNfOHpnUFVReU8yLUxCZFJz?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "community",
       "track": "AI + Psychology",
@@ -350,10 +402,10 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "AI + Mind-Body Health",
       "published": "2026-06-18",
-      "title": "Seeds | Embodied AI firm Noematrix raises hundreds of millions in latest funding round - Gasgoo",
-      "summary": "Seeds | Embodied AI firm Noematrix raises hundreds of millions in latest funding round Gasgoo",
+      "title": "Strathclyde opens digital mental health procurement - Health Tech World",
+      "summary": "Strathclyde opens digital mental health procurement Health Tech World",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -362,15 +414,15 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT19PVWZUbGJSODVKYW9wcVdTRFpPXzhoXzBBa2VHYzEwQnBYS1JyZVppeWF1bUtTeFlQbHhuQzRnN0kxcjF5d19pZ3NYSE44SkptYXNGZ0tMZkdwZ050azh4Rl96Ml82QTM4c0ozcjllWm5DaGw0Um5GVDBMUE9aLUZjM0FITUh5dnRnTTJVU0JkbnhMNnBzYTg4Q1RMa09SMG55aGxobzNabklLU25SVjlOdUFRQURMYnJMUWt1c0RDRHVCSXVYeEVQTWtyckZYV09PYWlJZ2lEQ3d6YkU4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlFSbGl4V2NYamZ2dTZiREM1TWpSMlB2aF9fNzZfOFF1Nkx6bFFZd2NSMzVSTnI0d2xrYW5BclQ1eFNSOElHNlFGZmdoWEpIS1FDM3o2ckU2ZDZlWFlsaS1UMmpEcG83aVZCa2UzdHFfRTBsc1U2S3ZkMnBSaVNfWDV0RE5FaVVIdXptRWpsQmZkY0U2TEJPblAtSk5CcDZ1SFE?oc=5",
       "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "心理评估"
       ],
       "relevance_score": 79
     },
@@ -563,32 +615,6 @@
       ],
       "capability_tags_zh": [
         "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-17",
-      "title": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris - AgiBot",
-      "summary": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris AgiBot",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MamdYSS1OVU1TTlE5OEF2SGZXQ2JLeklkSjYwV054UUUyOXJxV1daZzJaZ0g2cEZocU93MFdoN0FiSjZoYWRKazdvUlhrUVFLQk11WWV0dkJ1dGVuSnc?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -911,33 +937,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-06-16",
-      "title": "The Iatrogenic Algorithm: How AI’s Logical Bias and Emotional Invalidity Amplify Burnout, Psychosis, and Systemic Distress in Vulnerable Populations",
-      "summary": "The Iatrogenic Algorithm: How AI’s Logical Bias and Emotional Invalidity Amplify Burnout, Psychosis, and Systemic Distress in Vulnerable Populations I. Executive Summary of Critical Findings 1.1. Core Thesis Validation The analysis confirms that the observation regarding a critical systemic vulnerability in Artificial Intelligence (AI) design is correct and... Last30Days signal for AI mental health digital wellbeing, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "cooporation"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/cooporation/comments/1u7hqai/the_iatrogenic_algorithm_how_ais_logical_bias_and/",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 88
-    },
-    {
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-06-16",
@@ -1154,6 +1153,34 @@
         "情感理解"
       ],
       "relevance_score": 68
+    },
+    {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-06-15",
+      "title": "fix(homepage): prevent input text overlapping \"Tab to search\" button",
+      "summary": "## Problem On the AI-first project homepage, the chat input's action buttons (\"Tab to search\", the optional mic, and the submit arrow) were absolutely positioned on top of a full-width textarea. No horizontal space was reserved for them, so once a user typed a single line long enough, the text slid Last30Days signal for AI mental health digital wellbeing, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "pauldambra",
+        "PostHog/posthog"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/PostHog/posthog/pull/63629",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 85
     },
     {
       "kind": "paper",
@@ -3137,32 +3164,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-05-28",
-      "title": "Some AI mental health apps are harmful for kids, says report—what experts say parents should keep in mind - CNBC",
-      "summary": "Some AI mental health apps are harmful for kids, says report—what experts say parents should keep in mind CNBC",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeVY1MG9JVVR4TlRGZllkYlRETVd2X2NQNlFfTTI3NW5ja2xoVm5LdTRPSzNhWWlaNV9yWVJwNHVRcTRNeVlsQlp1TjEyTFVhRU5GZlN2cEpzR2Nzak5xN2pET1F1YS1YMnhKbU1GTGJkc0VuYTBwcm5wenJXQjR5WTk2YU9NMkl4Uk4xMm90cEZTSm81dmFQNjFCNlN4UFhQZ01wMXBxb0FRc01EamEtYUtmd9IBuAFBVV95cUxPUHBqZno3Nk11RXk5NE8xbmljemlCOF8zTXV4R2pPU1NKVDFzdWpHemFYd3FpQzZGYkxRb3JuV08zNl9jZWhhV0xHeDMxWXlqdFlnUUktUllFVzFEd0NrMV9UbWVsMnZEMi1nNVo0WERUaDFuX2hwUjBZcHZUcS1DRHFzeUtnZnc4SVl5N2hIMS1GX3pCRzQ1RzNSZ0VZZnBqQjBvTThIcWF1c3RBTkx2MmFwUTRMdzNF?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-05-28",
       "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
@@ -3372,30 +3373,32 @@
       "relevance_score": 71
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-05-25",
-      "title": "情感计算市场规模、行业份额|预测，2026-2034 - Fortune Business Insights",
-      "summary": "情感计算市场规模、行业份额|预测，2026-2034 Fortune Business Insights",
-      "source": "RSS · Google 新闻",
+      "kind": "community",
+      "track": "Empathetic Dialogue",
+      "published": "2026-05-23",
+      "title": "E17-2 — Action skill-card registry for move, observe, build, craft, gather, conversation, and safety",
+      "summary": "## AI Implementation Notes warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead. Reading prompt from stdin... OpenAI Codex v0.130.0 -------- workdir: /Users/bradtaylor/Documents/GitHub/livestreamtoagi/.worktrees/issue-778 model: gpt-5.5 provider: openai approval: never sand... Automated implementation complete. **PR**:... Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
       "authors": [
-        "Google 新闻"
+        "bradtaylorsf",
+        "bradtaylorsf/livestreamtoagi"
       ],
       "categories": [
-        "RSS",
-        "Google 新闻"
+        "GitHub"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTk4WkNVWE1kUl9vendBejhqNWpseXlfLU1fQm95QS0xeVlfZldvM19LWGJmOEhoWFk1R2tib20tRXdhWmw3TlhNZjNydnVRaFF0VlcxWUVNOWh3TDRXM0pVYzVIbmNJNURRMU04bXBnRjR2ZHlNel9fMlhtLXdmdnlB?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "url": "https://github.com/bradtaylorsf/livestreamtoagi/issues/778",
+      "priority": 59,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
       "capability_tags": [
-        "AI + Psychology"
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
       ],
       "capability_tags_zh": [
-        "AI + Psychology"
+        "身心支持",
+        "可信评测"
       ],
-      "relevance_score": 75
+      "relevance_score": 86
     },
     {
       "kind": "lab",
