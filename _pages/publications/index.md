@@ -45,10 +45,18 @@ rank: 3
 <h2><span class="lang-en">Selected Publications</span><span class="lang-zh">代表论文</span></h2>
 
 <ol class="publication-list">
+  <li><strong>Moderating Roles of the Big Five in Valence-Arousal Dynamics: A TFace-Bi-GRU-SE and CTSEM Study.</strong> Information, 2026.</li>
+  <li><strong>Clustering Analysis of Emotional Expression, Personality Traits, and Psychological Symptoms.</strong> Brain Sciences, 2026.</li>
   <li><strong>CausalSymptom: Learning Causal Disentangled Representation for Depression Severity Estimation on Transcribed Clinical Interviews.</strong> IEEE Transactions on Affective Computing, 2026.</li>
+  <li><strong>Causal-ESC: Capture the Dynamics in Cause-and-Effect Detection for Emotional Support Conversation.</strong> IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2026.</li>
   <li><strong>Modeling Latent Background Information in Multiturn Dialogues Using Diffusion Model.</strong> IEEE Transactions on Artificial Intelligence, 2026.</li>
   <li><strong>ERMoV: Modeling Affective Mental States via Emotion Regulation for Dialogue Emotion Recognition.</strong> IEEE Transactions on Affective Computing, 2026.</li>
+  <li><strong>Fuzzy Membership-Driven Adaptive Sample Mining for Facial Expression Recognition.</strong> IEEE Transactions on Fuzzy Systems, 2025.</li>
+  <li><strong>Empathy Level Alignment via Reinforcement Learning for Empathetic Response Generation.</strong> IEEE Transactions on Affective Computing, 2025.</li>
+  <li><strong>PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation.</strong> IEEE Transactions on Computational Social Systems, 2025.</li>
   <li><strong>MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation.</strong> EMNLP 2025.</li>
+  <li><strong>Temporal-Frequency State Space Duality: An Efficient Paradigm for Speech Emotion Recognition.</strong> ICASSP 2025.</li>
+  <li><strong>Social-Psychological Dual-Dimensional Clustering Modeling: Heterogeneity Analysis of Smoking Cessation Success Based on Machine Learning.</strong> IPMLP 2025.</li>
   <li><strong>FacialPulse: An Efficient RNN-based Depression Detection via Temporal Facial Landmarks.</strong> ACM MM 2025.</li>
   <li><strong>GRPose: Learning Graph Relations for Human Image Generation with Pose Priors.</strong> AAAI 2025.</li>
   <li><strong>DEFormer: DCT-driven Enhancement Transformer for Low-light Image and Dark Vision.</strong> ICASSP 2025.</li>

@@ -2,7 +2,7 @@
 
 > Official English-first bilingual website for MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun at Hefei University of Technology.
 
-Last updated: 2026-05-29
+Last updated: 2026-06-22
 
 ## Core Identity
 
@@ -29,6 +29,12 @@ Canonical names:
 - Embodied Emotional Intelligence: emotional perception, understanding, expression, and interaction for robots, digital humans, smart cockpits, companion agents, and active-health systems.
 - AI for Mind-Body Health: intelligent psychological monitoring, integrated mind-body assessment, intervention cabins, healthy living environments, education, smart mobility, and human performance.
 - Affective NLP and Multimodal AI: emotional conversation generation, empathetic dialogue, personality-aware interaction, multimodal affect recognition, and psychological state modeling.
+
+## Recent Publication Signals
+
+- 2026 ORCID/DOI publication signals include works in Information, Brain Sciences, IEEE/ACM Transactions on Audio, Speech, and Language Processing, IEEE Transactions on Affective Computing, and IEEE Transactions on Artificial Intelligence.
+- 2025-2026 publication signals from DBLP, ORCID, DOI, and ACM include EMNLP 2025 MultiAgentESC, ICASSP 2025 speech emotion recognition and low-light perception work, and IPMLP 2025 social-psychological clustering research.
+- Recent representative themes include personality-aware valence-arousal modeling, emotional expression and psychological symptom clustering, causal modeling for emotional support conversation, depression severity estimation, latent background modeling in multiturn dialogue, speech emotion recognition, and health-behavior psychological modeling.
 
 ## Discovery Keywords
 

@@ -1022,9 +1022,12 @@ def main() -> None:
     merged = dedupe_items(manual_items + recent_signal_items + rss_items + arxiv_items)
     manual_keys = {item_key(item) for item in manual_items}
     merged.sort(key=item_sort_key, reverse=True)
-    pinned_manual = [item for item in merged if item_key(item) in manual_keys]
-    recent_items = [item for item in merged if item_key(item) not in manual_keys]
-    merged = recent_items[: max(0, max_items - len(pinned_manual))] + pinned_manual
+    manual_selected = [item for item in merged if item_key(item) in manual_keys]
+    automatic_selected = [
+        item for item in merged if item_key(item) not in manual_keys
+    ][: max(0, max_items - len(manual_selected))]
+    merged = manual_selected + automatic_selected
+    merged.sort(key=item_sort_key, reverse=True)
 
     now_utc = dt.datetime.now(dt.timezone.utc)
     now_beijing = now_utc.astimezone(dt.timezone(dt.timedelta(hours=8)))
