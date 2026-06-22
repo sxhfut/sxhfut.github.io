@@ -49,30 +49,6 @@
   },
   {
     "kind": "paper",
-    "track": "Affective Psychology Modeling",
-    "published": "2026-04-01",
-    "title": "Big Five Personality Moderates Valence-Arousal Dynamics",
-    "title_zh": "人格特质调节效价-唤醒动态研究发表于 Information",
-    "summary": "Professor Xiao Sun's ORCID publication record adds a 2026 Information paper on how Big Five personality traits moderate valence-arousal dynamics, combining facial affect modeling and continuous-time structural equation modeling.",
-    "summary_zh": "孙晓教授 ORCID 论文记录新增 2026 年 Information 论文，围绕大五人格如何调节效价-唤醒动态展开研究，结合面部情感建模与连续时间结构方程模型。",
-    "source": "ORCID / DOI",
-    "url": "https://doi.org/10.3390/info17040334",
-    "priority": 118
-  },
-  {
-    "kind": "paper",
-    "track": "AI + Psychology",
-    "published": "2026-03-25",
-    "title": "Emotional Expression, Personality Traits, and Psychological Symptoms",
-    "title_zh": "情绪表达、人格特质与心理症状聚类研究发表于 Brain Sciences",
-    "summary": "A 2026 Brain Sciences paper connects emotional expression, personality traits, and psychological symptoms through clustering analysis, strengthening MAC-Lab's route from affective computing to psychological-state modeling.",
-    "summary_zh": "2026 年 Brain Sciences 论文通过聚类分析连接情绪表达、人格特质与心理症状，进一步支撑 MAC-Lab 从情感计算走向心理状态建模的研究路线。",
-    "source": "ORCID / DOI",
-    "url": "https://doi.org/10.3390/brainsci16040353",
-    "priority": 116
-  },
-  {
-    "kind": "paper",
     "track": "Empathetic Dialogue",
     "published": "2026-01-20",
     "title": "Causal-ESC Accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing",

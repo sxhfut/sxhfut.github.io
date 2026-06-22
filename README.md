@@ -46,7 +46,7 @@ Editing model:
 - Public news, cases, and frontier suggestions can be collected through GitHub Issue Forms and reviewed before publication.
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
 - The 2026-05-29 HFUT faculty-blog updates have been synchronized into the News and Frontiers data, including the MAC-Lab website release, two IEEE Transactions on Affective Computing papers, and one IEEE Transactions on Artificial Intelligence paper.
-- The 2026-06-22 newsroom refresh adds ORCID/DOI/DBLP publication signals for recent works in Information, Brain Sciences, IEEE/ACM TASLP, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP.
+- The 2026-06-22 newsroom refresh adds ORCID/DOI/DBLP publication signals for recent works in IEEE/ACM TASLP, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP.
 - Sensitive internal information, unpublished technical details, raw data, partner contracts, student records, and private management work should not be stored in this public GitHub Pages repository.
 
 ## Content Admin

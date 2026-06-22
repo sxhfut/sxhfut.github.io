@@ -32,9 +32,9 @@ Canonical names:
 
 ## Recent Publication Signals
 
-- 2026 ORCID/DOI publication signals include works in Information, Brain Sciences, IEEE/ACM Transactions on Audio, Speech, and Language Processing, IEEE Transactions on Affective Computing, and IEEE Transactions on Artificial Intelligence.
+- 2026 ORCID/DOI publication signals highlighted on the site include works in IEEE/ACM Transactions on Audio, Speech, and Language Processing, IEEE Transactions on Affective Computing, and IEEE Transactions on Artificial Intelligence.
 - 2025-2026 publication signals from DBLP, ORCID, DOI, and ACM include EMNLP 2025 MultiAgentESC, ICASSP 2025 speech emotion recognition and low-light perception work, and IPMLP 2025 social-psychological clustering research.
-- Recent representative themes include personality-aware valence-arousal modeling, emotional expression and psychological symptom clustering, causal modeling for emotional support conversation, depression severity estimation, latent background modeling in multiturn dialogue, speech emotion recognition, and health-behavior psychological modeling.
+- Recent representative themes include causal modeling for emotional support conversation, depression severity estimation, latent background modeling in multiturn dialogue, speech emotion recognition, facial expression recognition, empathy alignment, and health-behavior psychological modeling.
 
 ## Discovery Keywords
 

@@ -41,7 +41,7 @@ rank: 5
     <time>2026-06-22</time>
     <div>
       <h2><span class="lang-en">Recent Publication Record Strengthens MAC-Lab's AI + Psychology Route</span><span class="lang-zh">近期论文成果继续夯实 AI + 心理与情感计算主线</span></h2>
-      <p><span class="lang-en">Recent publication records add works in Information, Brain Sciences, IEEE/ACM Transactions on Audio, Speech, and Language Processing, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP. These studies connect personality-aware affect modeling, psychological symptom analysis, emotional support conversation, dialogue generation, facial expression recognition, empathy alignment, speech emotion recognition, and psychological understanding with large language models.</span><span class="lang-zh">近期论文成果覆盖 Information、Brain Sciences、IEEE/ACM Transactions on Audio, Speech, and Language Processing、IEEE Transactions on Artificial Intelligence、IEEE Transactions on Fuzzy Systems、IEEE Transactions on Affective Computing、IEEE Transactions on Computational Social Systems、EMNLP、ICASSP 和 IPMLP 等期刊会议，围绕人格参与的情感动态建模、心理症状分析、情感支持对话、对话生成、表情识别、共情对齐、语音情绪识别与大模型心理理解等方向展开，进一步强化实验室 AI + 心理与情感计算主线。</span></p>
+      <p><span class="lang-en">Recent publication records add works in IEEE/ACM Transactions on Audio, Speech, and Language Processing, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP. These studies connect emotional support conversation, dialogue generation, facial expression recognition, empathy alignment, speech emotion recognition, psychological understanding with large language models, and health-behavior modeling.</span><span class="lang-zh">近期论文成果覆盖 IEEE/ACM Transactions on Audio, Speech, and Language Processing、IEEE Transactions on Artificial Intelligence、IEEE Transactions on Fuzzy Systems、IEEE Transactions on Affective Computing、IEEE Transactions on Computational Social Systems、EMNLP、ICASSP 和 IPMLP 等期刊会议，围绕情感支持对话、对话生成、表情识别、共情对齐、语音情绪识别、大模型心理理解与健康行为建模等方向展开，进一步强化实验室 AI + 心理与情感计算主线。</span></p>
       <a href="{{ '/publications/' | prepend: site.baseurl }}"><span class="lang-en">Selected Publications</span><span class="lang-zh">查看代表论文</span></a>
     </div>
   </article>
@@ -83,22 +83,6 @@ rank: 5
       <h2><span class="lang-en">ERMoV Published in IEEE Transactions on Affective Computing</span><span class="lang-zh">ERMoV 情绪调节驱动对话情绪识别研究发表于 IEEE Transactions on Affective Computing</span></h2>
       <p><span class="lang-en">Xiao Sun, Xuxiong Liu, and Yueqi Jiang published ERMoV: Modeling Affective Mental States via Emotion Regulation for Dialogue Emotion Recognition in IEEE Transactions on Affective Computing, a leading journal in affective computing. The work models affective mental states through emotion-regulation mechanisms, moving dialogue emotion recognition from surface labels toward psychologically grounded state modeling.</span><span class="lang-zh">孙晓、刘旭雄、姜月琪合作论文 ERMoV: Modeling Affective Mental States via Emotion Regulation for Dialogue Emotion Recognition 发表在情感计算领域顶级期刊 IEEE Transactions on Affective Computing。论文通过情绪调节机制建模情感心理状态，使对话情绪识别从浅层标签识别进一步走向具有心理机制支撑的状态建模。</span></p>
       <a href="https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1771.htm#article"><span class="lang-en">Details</span><span class="lang-zh">查看详情</span></a>
-    </div>
-  </article>
-  <article>
-    <time>2026-04-01</time>
-    <div>
-      <h2><span class="lang-en">Personality-Aware Valence-Arousal Modeling Published in Information</span><span class="lang-zh">人格特质参与的效价-唤醒动态建模研究发表于 Information</span></h2>
-      <p><span class="lang-en">The paper studies how Big Five personality traits moderate valence-arousal dynamics, combining facial affect modeling with continuous-time structural equation modeling. It provides another piece of evidence for the lab's view that affective computing should move from isolated emotion labels toward richer psychological modeling.</span><span class="lang-zh">该论文研究大五人格特质如何调节效价-唤醒动态，将面部情感建模与连续时间结构方程模型结合起来，体现团队从单一情绪识别走向更丰富心理建模的研究取向。</span></p>
-      <a href="https://doi.org/10.3390/info17040334"><span class="lang-en">DOI</span><span class="lang-zh">论文链接</span></a>
-    </div>
-  </article>
-  <article>
-    <time>2026-03-25</time>
-    <div>
-      <h2><span class="lang-en">Emotional Expression, Personality, and Psychological Symptoms Study Published in Brain Sciences</span><span class="lang-zh">情绪表达、人格特质与心理症状聚类研究发表于 Brain Sciences</span></h2>
-      <p><span class="lang-en">The work analyzes emotional expression, personality traits, and psychological symptoms together through clustering. It directly supports MAC-Lab's long-term effort to connect multimodal affective signals with interpretable mind-body profiles.</span><span class="lang-zh">该研究通过聚类分析把情绪表达、人格特质和心理症状放在同一框架下考察，为实验室将多模态情感信号与可解释心身画像连接起来提供了新的研究支撑。</span></p>
-      <a href="https://doi.org/10.3390/brainsci16040353"><span class="lang-en">DOI</span><span class="lang-zh">论文链接</span></a>
     </div>
   </article>
   <article>

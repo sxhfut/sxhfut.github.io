@@ -45,8 +45,6 @@ rank: 3
 <h2><span class="lang-en">Selected Publications</span><span class="lang-zh">代表论文</span></h2>
 
 <ol class="publication-list">
-  <li><strong>Moderating Roles of the Big Five in Valence-Arousal Dynamics: A TFace-Bi-GRU-SE and CTSEM Study.</strong> Information, 2026.</li>
-  <li><strong>Clustering Analysis of Emotional Expression, Personality Traits, and Psychological Symptoms.</strong> Brain Sciences, 2026.</li>
   <li><strong>CausalSymptom: Learning Causal Disentangled Representation for Depression Severity Estimation on Transcribed Clinical Interviews.</strong> IEEE Transactions on Affective Computing, 2026.</li>
   <li><strong>Causal-ESC: Capture the Dynamics in Cause-and-Effect Detection for Emotional Support Conversation.</strong> IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2026.</li>
   <li><strong>Modeling Latent Background Information in Multiturn Dialogues Using Diffusion Model.</strong> IEEE Transactions on Artificial Intelligence, 2026.</li>
