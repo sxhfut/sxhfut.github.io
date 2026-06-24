@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T15:35:57+00:00",
-  "generated_at_beijing": "2026-06-23T23:35:57+08:00",
-  "generated_date_beijing": "2026-06-23",
+  "generated_at": "2026-06-24T04:50:17+00:00",
+  "generated_at_beijing": "2026-06-24T12:50:17+08:00",
+  "generated_date_beijing": "2026-06-24",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -14,26 +14,25 @@
     "arxiv_items": 103,
     "kind_counts": {
       "community": 16,
-      "industry": 28,
+      "industry": 29,
       "lab": 1,
-      "paper": 73,
+      "paper": 72,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 61,
+      "arXiv": 60,
       "Last30Days · Hacker News": 10,
-      "RSS · Google News": 8,
+      "RSS · Google News": 9,
       "HFUT Faculty Blog": 7,
-      "Last30Days · GitHub": 4,
+      "Last30Days · GitHub": 6,
       "ORCID / DOI": 4,
+      "RSS · OpenAI News": 3,
       "RSS · MIT News AI": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum AI": 3,
-      "RSS · OpenAI News": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum Robotics": 2,
-      "Last30Days · Reddit": 2,
       "RSS · Google Research": 1,
       "RSS · Google News School Mental Health": 1,
       "China.com": 1,
@@ -80,6 +79,60 @@
     }
   ],
   "items": [
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-06-24",
+      "title": "Visibility: FAQ + FAQPage schema for 'anxiety therapist Pasadena TX'",
+      "summary": "## The gap Weekly AI-visibility check (Jun 23): Therapy by David does **not** surface for any of the 6 prospect searches — still 0 of 6. For **\"anxiety therapist Pasadena TX\"**, the top results are directories (Psychology Today, SonderMind, Mental Health Match) and a handful of local practices (Thri Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "therapybydavid",
+        "therapybydavid/therapybydavid.github.io"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/therapybydavid/therapybydavid.github.io/pull/2",
+      "priority": 59,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 86
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-24",
+      "title": "Embodied AI Chip Market Heats Up as Multiple Players Race for Dominance - Pandaily",
+      "summary": "Embodied AI Chip Market Heats Up as Multiple Players Race for Dominance Pandaily",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45M0VuSFg2ZDVkVVRCLUZPdGZYakVaUWRUVjNXUEpzVXlQaWtFRjFwUHFGVkczVGZyMjZpUkZZNWVMWFpwOUlqU2xkTHFtXzByUkZHMUtBQmF0WXJPNFFlbEtCZjhnSXMwbDM1MnlSSFBTcENN?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "community",
       "track": "Empathetic Dialogue",
@@ -138,8 +191,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-06-23",
-      "title": "AI Mental Health Aid vs. Therapy: Crucial Distinction - Mirage News",
-      "summary": "AI Mental Health Aid vs. Therapy: Crucial Distinction Mirage News",
+      "title": "The danger of confusing AI mental health support with therapy - The Conversation",
+      "summary": "The danger of confusing AI mental health support with therapy The Conversation",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -148,7 +201,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRTJmTGpma1RyajBkSExEeU90dFlZSWdTc3RGY1VnbWRBci1pOWF4TlJGbzYwWDNES1htdlQwTHVUZzNOTm9lbFlJODZXS0VuVzRxSGp6M0lRNG5wUFM3cjFCdFBJdE5QRXlFZkczcnhHbjNpaG1oeEF3cXdCUDdmcg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGtvcnBQU2w4dGhJbDFaNXozM2xNeGx0WnJCS3BlNlBuRS15eVdNck4yY1MzaGlHVVR4M2pfMUNXT3lfckNjamhDRk4zbHFnbFVLWTBlT0hmV0hkVFJqMEQ0X19RdlY0a0c0M1Z6ZXJkaUthTC1vT00zU3pHeDdMbDAwcVZVbFVDQ1lhdVB3SVAxT3lhc2dHYVR5Nkc?oc=5",
       "priority": 58,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
@@ -192,8 +245,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-23",
-      "title": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris - Business Wire",
-      "summary": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris Business Wire",
+      "title": "Embodied AI Startup Kunlunxing Lands Multibillion Yuan Raise - Caixin Global",
+      "summary": "Embodied AI Startup Kunlunxing Lands Multibillion Yuan Raise Caixin Global",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -202,7 +255,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGpydTFDdHM5SDQzQ1ZlbUJHUUp3MU8tM1FITFBHM015UWpVMkpBR3ItNzZSZVRZZ3daWGtnVlhLVGktN1hNM3pPc1pyZ0pxXy1Zbkc1OUo2blFMbUh3eUgzUnZmdkNYX0psMnlDYmtJYVFQbHJSam8xUkNsUDljY2FMMVd1c2RScGp5eVZlS0F1cXBvSWhIa0tsTXlVc1JJRnQ0UkRjbWVETEU3YmNYTHA1WkxMeVRfMkE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeWRxSXBrV1BlVDZjTFdHbHQ4emg2QnVOV3hiQU9jcjMyU3pSeXFZXzRhUUs2S01nWWZuNDBIbEJUTXREWnNXLTVvYkQ4dzNnSDlQNmJOMVU5QXJpdndMNC1yLWRKbHhfQWlfQ0dNTDJ2eWdOY1NpcTBuMUdidi1DY3dLQ0taRU5TS2pIaHlYMlY2Q1FGTlJOSXM0dWFxLWxPUTEwbGZKd2pHVTRXWGVPbGhEeGk5TmRvSlJieWstNzcwX3J3V0pTS045b1JRMFFRRXQ5cWVHWjNyTzdEVkE?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -218,8 +271,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-23",
-      "title": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris - Caledonian Record",
-      "summary": "AGIBOT Showcases Embodied AI Robots at VivaTech 2026 in Paris Caledonian Record",
+      "title": "A glimpse of training center for embodied AI in N China's Xiong'an - Xinhua",
+      "summary": "A glimpse of training center for embodied AI in N China's Xiong'an Xinhua",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -228,7 +281,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaGNSd1pLTDNLcWhjZ3AtcjJyTC0tTF9nVG44TWlNUXdIZTNxdkdDeWdhQmJjaE5Jakx4MUVZbjhORi0yMmg2OGpVQ3pKODB0S1pScXlrOVJ1a2R2UktlajNUQ3plOXhjQkhFLWk2azhWUDVyZE5ORm5fbUVkMm01Qk5RMFRmdFRVUEZ3WWhVS2RnLTF5dWRhbkVtVGF3RmpLNEZFNUlZUk92dHVVODUwQnMyTFJFb2xlaERrcGZLZks0eDdoNUpKUzcxb1cta0hWRUt5WXVuZkViQk1F?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVUFPdnRvZnd1RGkxaTBDWnRlMFhxLS1yQndiOWZXTW1rdDllRUZQT2c4ZGp2N1JOV291Y05IcF9oN2FXNGtKcnpITnRkM3llX2hLZXFuODA0UXpvZnFvQ1RoRTNvemMxdFlUUUxlc2pKelNjamRRTW5lV3pzVE1rS21PNFhhUQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -242,10 +295,10 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "AI + Mind-Body Health",
       "published": "2026-06-23",
-      "title": "World Model: \"Building a World\" is feasible, but it is not the future that Embodied AI pursues - 36Kr",
-      "summary": "World Model: \"Building a World\" is feasible, but it is not the future that Embodied AI pursues 36Kr",
+      "title": "AI Tracker: Prosper AI banks $30M - Modern Healthcare",
+      "summary": "AI Tracker: Prosper AI banks $30M Modern Healthcare",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -254,17 +307,71 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odTV2dzcxdmI0R05ZcTFiUmoxMzljbXNiX0E4bkRDbDBZX0NRM0pDTWQ5MVoyeG9md3NjXzRzRWtFbmRYWXBMNDg1cjJsb2RiSS1j?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSEJfOGFQa0d4TW9ONGVxSWx1NkRVQm5WUThYdkZmRWJ4cG5GNGtDMXlSUVh5dlo5YWoyeDJSdEo2SVg4M19GTk5XcEttbE8zV1FEMS11V1BJTU1OdWFEOGpMZThPVVBRXzRxZGdlbTVaQ29zR0JtQzZiRDBOQld6Um9mTlRzdTVwZW4wSWJEOA?oc=5",
       "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-06-23",
+      "title": "Helping build shared standards for advanced AI",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "身心支持",
+        "可信评测"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-06-23",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 73
     },
     {
       "kind": "industry",
@@ -346,6 +453,70 @@
       "relevance_score": 71
     },
     {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-06-23",
+      "title": "Ensemble Feature Selection and Harris Hawks Optimization for Explainable Mental Health Risk Prediction in Female Sex Workers",
+      "summary": "One of the significant mental health issues affecting female sex workers (FSWs) is mental disorders, especially depression. Exposure to violence, stigma, and economic hardship further increases their psychological risk. Current machine learning (ML) models are typically ineffective at capturing the high-dimensional and complex risk patterns that exist in this marginalized group. This paper suggests a hybrid predictive model...",
+      "source": "arXiv",
+      "authors": [
+        "Ahnaf Atef Choudhury",
+        "Md. Parvej Hoque Palash",
+        "Shahriar Siddique Ayon",
+        "Ramkrishna Saha",
+        "Abdullah Al Mamun"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2606.24047",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-06-23",
+      "title": "Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions",
+      "summary": "Large audio-language models (LALMs) can reason about audio, yet it remains unclear whether they can perform comparative judgments between two speech signals along emotional, environmental, linguistic, prosodic, and interpersonal dimensions. We study this question in the context of speech emotion recognition (SER), where the model determines which utterance exhibits higher arousal, valence, or dominance. We introduce a...",
+      "source": "arXiv",
+      "authors": [
+        "Abinay Reddy Naini",
+        "Jaeyeon Kim",
+        "Chao-Han Huck Yang",
+        "Shinji Watanabe",
+        "Carlos Busso"
+      ],
+      "categories": [
+        "eess.AS",
+        "cs.SD"
+      ],
+      "url": "http://arxiv.org/abs/2606.24082",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 65
+    },
+    {
       "kind": "community",
       "track": "AI + Mind-Body Health",
       "published": "2026-06-22",
@@ -405,10 +576,10 @@
     },
     {
       "kind": "community",
-      "track": "AI + Psychology",
+      "track": "AI + Mind-Body Health",
       "published": "2026-06-22",
       "title": "Build your own AI-assisted personal health record",
-      "summary": "Build your own AI-assisted personal health record Last30Days signal for AI psychology mental health, surfaced from Hacker News public activity in the latest 30-day window.",
+      "summary": "Build your own AI-assisted personal health record Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
       "source": "Last30Days · Hacker News",
       "authors": [
         "spdegabrielle",
@@ -419,15 +590,17 @@
       ],
       "url": "https://openhealthhub.org/t/build-your-own-ai-assisted-personal-health-record/3006",
       "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
       "capability_tags": [
-        "Psychological Assessment"
+        "Psychological Assessment",
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "心理评估"
+        "心理评估",
+        "身心支持"
       ],
-      "relevance_score": 79
+      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -478,6 +651,39 @@
       ],
       "capability_tags_zh": [
         "AI Industry"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-06-22",
+      "title": "One Year Later...The Harms Persist, But So Do We!",
+      "summary": "General-purpose large language models (LLMs) are increasingly used for mental health-related conversations, yet safety safeguards remain inadequate and inconsistent across clinical conditions. This study evaluates six proprietary LLMs across 16 DSM-5 conditions using four adversarial attack variants, introducing an eight-dimension harm taxonomy and a multi-dimensional evaluation framework. Results show that safeguards hold...",
+      "source": "arXiv",
+      "authors": [
+        "Annika Marie Schoene",
+        "Cansu Canca",
+        "Gautham Vijay Kumar",
+        "Anson Antony"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2606.23884",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估",
+        "可信评测"
       ],
       "relevance_score": 71
     },
@@ -686,32 +892,6 @@
         "心理评估"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-21",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
     },
     {
       "kind": "paper",
@@ -1061,35 +1241,6 @@
     },
     {
       "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-06-18",
-      "title": "Are social media platforms changing childhood? We explored the impact on mental health, regulations, and startups building solutions.",
-      "summary": "Children today are growing up with algorithms, influencers, short-form videos, and AI-powered content shaping their daily lives. In our latest podcast episode, we discuss: The positive and negative effects of social media on kids Mental health, self-esteem, sleep, and attention spans Cyberbullying and online safety New regulations in countries around the... Last30Days signal for AI mental health digital wellbeing, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "EverythingStartups"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/EverythingStartups/comments/1u8zwdd/are_social_media_platforms_changing_childhood_we/",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持",
-        "可信评测"
-      ],
-      "relevance_score": 91
-    },
-    {
-      "kind": "community",
       "track": "Multimodal Affective Computing",
       "published": "2026-06-18",
       "title": "M* (M-Star): A Modular, Extensible, Serving System for Multimodal Models",
@@ -1103,6 +1254,34 @@
         "Hacker News"
       ],
       "url": "https://mstar.stanford.edu/",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 90
+    },
+    {
+      "kind": "community",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-06-18",
+      "title": "Show HN: Polyvia – Multimodal document retrieval over 100K+ files",
+      "summary": "Show HN: Polyvia – Multimodal document retrieval over 100K+ files Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "mgierlach-polyv",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://github.com/polyvia-ai/polyvia",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
       "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
@@ -1170,32 +1349,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-18",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-06-18",
       "title": "Is it agentic enough? Benchmarking open models on your own tooling",
@@ -1249,6 +1402,34 @@
         "情感大模型"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "community",
+      "track": "Empathetic Dialogue",
+      "published": "2026-06-17",
+      "title": "Latest Papers - June 17, 2026",
+      "summary": "**Please check the [Github page](https://github.com/LbsTempest/Daily-ArXiv-Subscription) for a better reading experience and more papers.** ## Speech Synthesis | **Title** | **Link** | **Date** | **Comment** | | --- | --- | --- | --- | | **[Probing Low Frame Rate Degradation in Neural Audio Codecs] Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "github-actions[bot]",
+        "LbsTempest/Daily-ArXiv-Subscription"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/LbsTempest/Daily-ArXiv-Subscription/issues/215",
+      "priority": 59,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "身心支持"
+      ],
+      "relevance_score": 86
     },
     {
       "kind": "community",
@@ -1718,36 +1899,6 @@
       "relevance_score": 62
     },
     {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-14",
-      "title": "Introduction to (Multimodal) LLM-as-a-Judge",
-      "summary": "Introduction to (Multimodal) LLM-as-a-Judge Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "rented_mule",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://yinghonglan.substack.com/p/introduction-to-multimodal-llm-as",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 96
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-06-14",
@@ -1913,7 +2064,7 @@
         "GitHub"
       ],
       "url": "https://github.com/TheAwesomeAndy/operational-distinctness-paper/pull/25",
-      "priority": 57,
+      "priority": 56,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -1924,7 +2075,7 @@
         "多模态感知",
         "情感理解"
       ],
-      "relevance_score": 87
+      "relevance_score": 86
     },
     {
       "kind": "paper",
@@ -1993,6 +2144,39 @@
     },
     {
       "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-06-12",
+      "title": "Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding",
+      "summary": "The development of generalizable electroencephalography (EEG) decoding models is essential for robust brain-computer interfaces (BCI) and objective neural biomarkers in mental health. Conventional approaches have been hindered by poor cross-subject and cross-task generalization, owing to high inter-subject variability and non-stationary neural signals. We address this challenge with a zero-shot cross-subject decoding...",
+      "source": "arXiv",
+      "authors": [
+        "Baimam Boukar Jean Jacques",
+        "Brandone Fonya",
+        "Nchofon Tagha Ghogomu",
+        "Pauline Nyaboe",
+        "Kipngeno Koech"
+      ],
+      "categories": [
+        "eess.SP",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2606.23706",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "心理评估"
+      ],
+      "relevance_score": 65
+    },
+    {
+      "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-06-12",
       "title": "A New Multi-Domain Benchmark for Micro-Action Recognition and Detection",
@@ -2051,31 +2235,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "community",
-      "track": "Empathetic Dialogue",
-      "published": "2026-06-11",
-      "title": "She gifts him her Buchimaru calculator to be his emotional support calculator while they're apart 🥹",
-      "summary": "This dialogue change in Royal further drives my headcanon that this basic calculator has been with her since her elementary school days and she's essentially gifting him a piece of her childhood to remember her by. submitted by /u/VerbingWeirdsLang to r/shumako [link] [comments] Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "shumako"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/shumako/comments/1u2sc8k/she_gifts_him_her_buchimaru_calculator_to_be_his/",
-      "priority": 55,
-      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
-      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "industry",
       "track": "AI Industry",
       "published": "2026-06-11",
@@ -2102,38 +2261,6 @@
         "可信评测"
       ],
       "relevance_score": 77
-    },
-    {
-      "kind": "paper",
-      "track": "AI + Psychology",
-      "published": "2026-06-11",
-      "title": "Mental-R1: Aligning LLM Reasoning for Mental Health Assessment",
-      "summary": "Mental health problems such as anxiety, depression, and suicide remain urgent global challenges, where timely and accurate assessment is critical for effective intervention. Recently, large language models have been explored for mental health assessment. However, existing general-purpose post-training methods do not align with the cognitive processes of human assessment, which may lead to unreliable reasoning outcomes. To...",
-      "source": "arXiv",
-      "authors": [
-        "Xin Wang",
-        "Boyan Gao",
-        "Yibo Yang",
-        "David A. Clifton"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2606.13176",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -2353,34 +2480,6 @@
       "relevance_score": 68
     },
     {
-      "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-06-10",
-      "title": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5",
-      "summary": "Recently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on precise translation and affective-semantic understanding of classical poetry remains limited. The main challenge is that most studies treat the poetic appreciation task as a general-domain problem, neglecting the distinctive features...",
-      "source": "arXiv",
-      "authors": [
-        "Haotao Xie"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2606.12392",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "情感理解"
-      ],
-      "relevance_score": 65
-    },
-    {
       "kind": "industry",
       "track": "AI Industry",
       "published": "2026-06-09",
@@ -2442,7 +2541,7 @@
     },
     {
       "kind": "paper",
-      "track": "AI + Psychology",
+      "track": "Ubiquitous Psychological Computing",
       "published": "2026-06-09",
       "title": "Dep-LLM: Training-Free Depression Diagnosis via Evidence-Guided Structured Multi-factor with Reliable LLM Reasoning",
       "summary": "Automatic Depression Detection (ADD) from clinical interviews is a pivotal task in computational mental health, yet it remains challenging due to two critical obstacles: 1) difficulty in modeling complex but sparsely distributed depression clues within lengthy, multi-topic clinical interviews, leading to superficial and unreliable reasoning; 2) scarcity of labeled data due to clinical privacy, together with high cost of...",
@@ -2459,8 +2558,8 @@
       ],
       "url": "http://arxiv.org/abs/2606.10796",
       "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
       "capability_tags": [
         "Affective LLMs",
         "Psychological Assessment",
@@ -2469,41 +2568,6 @@
       "capability_tags_zh": [
         "情感大模型",
         "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 71
-    },
-    {
-      "kind": "paper",
-      "track": "AI + Psychology",
-      "published": "2026-06-09",
-      "title": "Expert-Level Crisis Detection in Mental Health Conversations",
-      "summary": "Real-world crisis intervention is inherently conversational, yet existing research largely focuses on static texts.Real-world crisis intervention is inherently conversational, yet existing research largely focuses on static texts. When applied to multi-turn dialogues, current models exhibit significant performance degradation, struggling to track risk signals that emerge as context evolves. To address this gap, we introduce...",
-      "source": "arXiv",
-      "authors": [
-        "Grace Byun",
-        "Abigail Lott",
-        "Rebecca Lipschutz",
-        "Sean T. Minton",
-        "Elizabeth A. Stinson",
-        "Jinho D. Choi"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2606.10380",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持",
         "可信评测"
       ],
       "relevance_score": 71
@@ -2915,7 +2979,7 @@
         "Hang Ye",
         "Xiaoxuan Ma",
         "Yizhou Wang",
-        "Wentao Zhu"
+        "Jenq-Neng Hwang"
       ],
       "categories": [
         "cs.CV"
@@ -3083,66 +3147,6 @@
         "可信评测"
       ],
       "relevance_score": 83
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-02",
-      "title": "Speech Emotion Recognition using Attention-based LSTM-Network with Residual Connection",
-      "summary": "Speech emotion recognition is an important component of modern human-computer interaction systems. However, many state-of-the-art approaches rely on large pretrained models with high computational and memory requirements, limiting their applicability. This paper proposes ResLSTM-SA, a lightweight architecture that integrates residual connections with soft attention within an LSTM-based framework. Evaluated on the RAVDESS...",
-      "source": "arXiv",
-      "authors": [
-        "Daniil Krasnoproshin",
-        "Maxim Vashkevich"
-      ],
-      "categories": [
-        "cs.SD",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "url": "http://arxiv.org/abs/2606.03359",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 65
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-02",
-      "title": "Face versus Body Tracking for Human-Robot Interaction: An Egocentric Dataset",
-      "summary": "To enable meaningful human-robot interaction (HRI), a robot must continuously assess engagement by consistently tracking users over time. State-of-the-art computer vision models, however, are heavily optimized for surveillance or autonomous driving. A social robot faces distinct egocentric challenges, such as humans bouncing, obstructing each other, or leaving the frame. Frequent identity switches (IDSW) cause the robot to...",
-      "source": "arXiv",
-      "authors": [
-        "Jessica Wenninger",
-        "Gabriel Skantze"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2606.03694",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "具身交互"
-      ],
-      "relevance_score": 62
     },
     {
       "kind": "lab",
