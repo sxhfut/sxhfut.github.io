@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T04:50:17+00:00",
-  "generated_at_beijing": "2026-06-24T12:50:17+08:00",
+  "generated_at": "2026-06-24T15:22:30+00:00",
+  "generated_at_beijing": "2026-06-24T23:22:30+08:00",
   "generated_date_beijing": "2026-06-24",
   "stats": {
     "total_items": 120,
@@ -14,16 +14,16 @@
     "arxiv_items": 103,
     "kind_counts": {
       "community": 16,
-      "industry": 29,
+      "industry": 28,
       "lab": 1,
-      "paper": 72,
+      "paper": 73,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 60,
+      "arXiv": 61,
       "Last30Days · Hacker News": 10,
-      "RSS · Google News": 9,
+      "RSS · Google News": 8,
       "HFUT Faculty Blog": 7,
       "Last30Days · GitHub": 6,
       "ORCID / DOI": 4,
@@ -108,11 +108,69 @@
       "relevance_score": 86
     },
     {
+      "kind": "community",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-06-24",
+      "title": "GELab-Zero: Android automation framework for multimodal LLMs",
+      "summary": "GELab-Zero: Android automation framework for multimodal LLMs Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "ignoramous",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://github.com/stepfun-ai/gelab-zero",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 97
+    },
+    {
+      "kind": "community",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-06-24",
+      "title": "Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible",
+      "summary": "Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "danissimo8",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://news.ycombinator.com/item?id=48657403",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 91
+    },
+    {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-24",
-      "title": "Embodied AI Chip Market Heats Up as Multiple Players Race for Dominance - Pandaily",
-      "summary": "Embodied AI Chip Market Heats Up as Multiple Players Race for Dominance Pandaily",
+      "title": "CATL, Galbot partner to scale embodied AI robots for industrial deployment - Gasgoo",
+      "summary": "CATL, Galbot partner to scale embodied AI robots for industrial deployment Gasgoo",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -121,7 +179,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45M0VuSFg2ZDVkVVRCLUZPdGZYakVaUWRUVjNXUEpzVXlQaWtFRjFwUHFGVkczVGZyMjZpUkZZNWVMWFpwOUlqU2xkTHFtXzByUkZHMUtBQmF0WXJPNFFlbEtCZjhnSXMwbDM1MnlSSFBTcENN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWjY1VUJtaWRyQW0tTEUyVWN2SjVST0IyMnFqTzhzTEFYdlczNEVOOEV3TUJvVmNoMDNxQ0s3WkZsNlJTWmlzNjN1dnB4SVpfQkxOSzF4UW1sSVljbkY4QVJULUNpcTZWUkdHQjVmbk9rb01RNDlHZjYtSnhzdm1fVWFzWE1reHBKb2JfSFo5bmtNYVYwWlJtZ21ZUHl3NndWdkp4bjdjTnkwUWMwSE5lZUtHc2thMWpfLTRnWkJNVnhIOWd3WV9EUk85WEN2MjNh?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -132,6 +190,84 @@
         "具身交互"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-24",
+      "title": "Seer Robotics makes market debut, says Hong Kong is 'gateway' for embodied AI - CNBC",
+      "summary": "Seer Robotics makes market debut, says Hong Kong is 'gateway' for embodied AI CNBC",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZFlWN2daWXMzbzJBWU1pbjJIWUIxZUZTYVVQOWZ2cU93RlI3cXl5a3NIMTk2bVBSdEZKWFgtYUF6NnZXbzBvSlJmMm1JWlcyT29TSjhRNlE0Mk9aQVZGV1FXUGRuUENzS0o5czJOaHdoU0tGUmV1OXFrZklPX2F1Tnk1R25yc3JDckd3aFYzZTh3aUpNejdldVNndjlKNU55U1ZCcnlPQ0xlUnExSlNZ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-24",
+      "title": "A glimpse of training center for embodied AI in N China's Xiong'an - People's Daily Online",
+      "summary": "A glimpse of training center for embodied AI in N China's Xiong'an People's Daily Online",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MQXdmUkJmbzY3TDdrQ1dKUlp4ckdORzJ2QS1LTHByQUN1cFpxWE4yRXU0UldPeUpQdVE2RzRKQjNiNVV2LUVqejk0bGdPdUdJSHBZSTQyWkxqLU9JV1Z6ZXZDaw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-06-24",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 73
     },
     {
       "kind": "community",
@@ -240,84 +376,6 @@
         "情感理解"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-23",
-      "title": "Embodied AI Startup Kunlunxing Lands Multibillion Yuan Raise - Caixin Global",
-      "summary": "Embodied AI Startup Kunlunxing Lands Multibillion Yuan Raise Caixin Global",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeWRxSXBrV1BlVDZjTFdHbHQ4emg2QnVOV3hiQU9jcjMyU3pSeXFZXzRhUUs2S01nWWZuNDBIbEJUTXREWnNXLTVvYkQ4dzNnSDlQNmJOMVU5QXJpdndMNC1yLWRKbHhfQWlfQ0dNTDJ2eWdOY1NpcTBuMUdidi1DY3dLQ0taRU5TS2pIaHlYMlY2Q1FGTlJOSXM0dWFxLWxPUTEwbGZKd2pHVTRXWGVPbGhEeGk5TmRvSlJieWstNzcwX3J3V0pTS045b1JRMFFRRXQ5cWVHWjNyTzdEVkE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-23",
-      "title": "A glimpse of training center for embodied AI in N China's Xiong'an - Xinhua",
-      "summary": "A glimpse of training center for embodied AI in N China's Xiong'an Xinhua",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVUFPdnRvZnd1RGkxaTBDWnRlMFhxLS1yQndiOWZXTW1rdDllRUZQT2c4ZGp2N1JOV291Y05IcF9oN2FXNGtKcnpITnRkM3llX2hLZXFuODA0UXpvZnFvQ1RoRTNvemMxdFlUUUxlc2pKelNjamRRTW5lV3pzVE1rS21PNFhhUQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-06-23",
-      "title": "AI Tracker: Prosper AI banks $30M - Modern Healthcare",
-      "summary": "AI Tracker: Prosper AI banks $30M Modern Healthcare",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSEJfOGFQa0d4TW9ONGVxSWx1NkRVQm5WUThYdkZmRWJ4cG5GNGtDMXlSUVh5dlo5YWoyeDJSdEo2SVg4M19GTk5XcEttbE8zV1FEMS11V1BJTU1OdWFEOGpMZThPVVBRXzRxZGdlbTVaQ29zR0JtQzZiRDBOQld6Um9mTlRzdTVwZW4wSWJEOA?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -601,32 +659,6 @@
         "身心支持"
       ],
       "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-22",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
     },
     {
       "kind": "industry",
@@ -1238,62 +1270,6 @@
         "可信评测"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-18",
-      "title": "M* (M-Star): A Modular, Extensible, Serving System for Multimodal Models",
-      "summary": "M* (M-Star): A Modular, Extensible, Serving System for Multimodal Models Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "matt_d",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://mstar.stanford.edu/",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 90
-    },
-    {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-18",
-      "title": "Show HN: Polyvia – Multimodal document retrieval over 100K+ files",
-      "summary": "Show HN: Polyvia – Multimodal document retrieval over 100K+ files Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "mgierlach-polyv",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://github.com/polyvia-ai/polyvia",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 90
     },
     {
       "kind": "community",
@@ -3147,6 +3123,36 @@
         "可信评测"
       ],
       "relevance_score": 83
+    },
+    {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-06-02",
+      "title": "Speech Emotion Recognition using Attention-based LSTM-Network with Residual Connection",
+      "summary": "Speech emotion recognition is an important component of modern human-computer interaction systems. However, many state-of-the-art approaches rely on large pretrained models with high computational and memory requirements, limiting their applicability. This paper proposes ResLSTM-SA, a lightweight architecture that integrates residual connections with soft attention within an LSTM-based framework. Evaluated on the RAVDESS...",
+      "source": "arXiv",
+      "authors": [
+        "Daniil Krasnoproshin",
+        "Maxim Vashkevich"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "http://arxiv.org/abs/2606.03359",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 65
     },
     {
       "kind": "lab",
