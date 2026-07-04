@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T04:19:45+00:00",
-  "generated_at_beijing": "2026-07-04T12:19:45+08:00",
+  "generated_at": "2026-07-04T14:12:42+00:00",
+  "generated_at_beijing": "2026-07-04T22:12:42+08:00",
   "generated_date_beijing": "2026-07-04",
   "stats": {
     "total_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 0,
     "recent_signal_items": 18,
     "rss_items": 54,
-    "arxiv_items": 90,
+    "arxiv_items": 103,
     "kind_counts": {
       "community": 16,
       "industry": 38,
@@ -85,10 +85,10 @@
   "items": [
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "AI + Psychology",
       "published": "2026-07-04",
-      "title": "Unitree Robotics' Record-Breaking IPO Approval: The Embodied AI Trillion-Dollar Track Shifts from \"Showing Off\" to \"Getting Paid\" - finance.biggo.com",
-      "summary": "Unitree Robotics' Record-Breaking IPO Approval: The Embodied AI Trillion-Dollar Track Shifts from \"Showing Off\" to \"Getting Paid\" finance.biggo.com",
+      "title": "American Psychological Association warns against AI therapy - AOL.com",
+      "summary": "American Psychological Association warns against AI therapy AOL.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -97,7 +97,35 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XNS0wTnM4NmRSa0IyU2o2UnN6empqMVlRSWJhN0hLM21LS0M1OFFjQlFFdXlOOHpic2JDZ05tVlh3U2d5aFNNeTlmMzU5MlNSUDZZZVJmNGZoRTFmMW1FQk5wRk5BT0VGa2plTEE0MjVnQzJlV1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0dWZ2plM1lBU2lHQm4xbmFVYmZOc2xpRHhrVjV2YVAzcm1RZVBxeDJGUmNETVN0cEZzMnpZRVB1a0xaVUNSX3Y3ZXk4VWtrNDFuajFrWndZWnFBa09HeHctZ0FaT3dDekU2ZUMzdHQyOHBVYlJoNkV4VjdRMVhuWThvcWNhREl3d0lWS0tYbEJLUQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-04",
+      "title": "74 Yuan for 3 Hours: Embodied AI Robots Begin Entering Chinese Homes for Household Chores - Pandaily",
+      "summary": "74 Yuan for 3 Hours: Embodied AI Robots Begin Entering Chinese Homes for Household Chores Pandaily",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWGI5dXI3MFNURzJtaEVRTjdGR2hHdEpLRUVYQVFCcUJHeFBOYWJFYUlneU4wellfeW5ybmFxbUZtRmZDOHhJY3NKNDgzZjhQclNfOS14Nmt4Slo1R1hxX1VZSHRodndZaktQSy1lcGdjNVl6S0xXNXZrUWwwNmVBbFVCMTI?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -150,32 +178,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNmlaVy1palZFNnhKc0tUR2lhOFVCbjVVWUM2Y2poVHNFdndnWU5lNUFTQXNlWVhIYXdFaWpDcUl1OFk5Z0RKamxMaW5mNFJLRnV0VTJRVEEwNlgxTnczb2pKdTNyNm5pOE5VaG1SdER2aXQteF9RTUwwcktIcmNMYWZzejVWVU1ZanVpUHNYX0dJTUlVSFlLREZYbTl4SnpQX1ZaVW84VEdEMGlza1M4T3REck81Um4zVmtxMFV4MzZUZHNFbXY0RGpaQjdtSTNBRlE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-03",
-      "title": "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics - Robotics & Automation News",
-      "summary": "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics Robotics & Automation News",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONkVLeF92LVVIVF83N29VR3RhaWJBQWlPbktHUVZOTmJZZjFOeS15Rk13VjEyTVJsVVRhTFh4aVpmZ3lWQ3V0RHdHYXBaNnhzQnFpVjk4MWltdTlmQlRPTF9aY282ek5LTzRxWjZpTnJrYWx5TWpwR1FXS1pJcUp3QkNacVNldEdvWEVBRlNOUXpIcUxTOTFVdFRaam9FSENTcnplTUZkSVRTd1Naak9CSUFkdkstYjRDV1NuZEZaMmsxSkZaNUktWW1BaG5LRENVUTZmZ2pSMEFoS3I1?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -522,6 +524,32 @@
     },
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-01",
+      "title": "BRAHMA AI and Hakuhodo Technologies Announce Partnership for Digital Human Deployment in Japan and APAC - Sports Video Group",
+      "summary": "BRAHMA AI and Hakuhodo Technologies Announce Partnership for Digital Human Deployment in Japan and APAC Sports Video Group",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUHB5OG80dk9Ja01KalFCOEJqTC1Na0NrdjVaV2VFbXduU1NpQk5jVlljZC1fOXpmYW9IWlN4LVVvUVg0NWM3NXVYTVBtZUltNFhDTWxmd0QydmRzTG0xQldvX3k1QkxQdjhCX1dVcUlpZDNLX2hBQ1BIVzIzMk5aanFrY2xfUnJYcGl0M2FheWVYNGdUQ0R1cG5oVzEzNkU1Qk5fRjNkNHJ1Mk9tV09zWGNUZVo1S1JmOXRWMU5oWFJGWHEtM2NJZUZraTdBTW9ibXYtc09NXzBoSVU?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-01",
       "title": "2026 BAIR Graduate Showcase",
@@ -719,34 +747,6 @@
         "情感理解"
       ],
       "relevance_score": 91
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-06-30",
-      "title": "American Psychological Association warns against AI therapy - AOL.com",
-      "summary": "American Psychological Association warns against AI therapy AOL.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0dWZ2plM1lBU2lHQm4xbmFVYmZOc2xpRHhrVjV2YVAzcm1RZVBxeDJGUmNETVN0cEZzMnpZRVB1a0xaVUNSX3Y3ZXk4VWtrNDFuajFrWndZWnFBa09HeHctZ0FaT3dDekU2ZUMzdHQyOHBVYlJoNkV4VjdRMVhuWThvcWNhREl3d0lWS0tYbEJLUQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
