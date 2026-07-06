@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T04:55:22+00:00",
-  "generated_at_beijing": "2026-07-06T12:55:22+08:00",
-  "generated_date_beijing": "2026-07-06",
+  "generated_at": "2026-07-06T16:04:04+00:00",
+  "generated_at_beijing": "2026-07-07T00:04:04+08:00",
+  "generated_date_beijing": "2026-07-07",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -13,8 +13,8 @@
     "rss_items": 54,
     "arxiv_items": 103,
     "kind_counts": {
-      "community": 15,
-      "industry": 37,
+      "community": 14,
+      "industry": 38,
       "lab": 1,
       "paper": 65,
       "standard": 1,
@@ -23,20 +23,21 @@
     "source_counts": {
       "arXiv": 53,
       "RSS · Google News": 10,
-      "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
-      "Last30Days · Hacker News": 6,
+      "Last30Days · GitHub": 6,
+      "Last30Days · Hacker News": 5,
       "ORCID / DOI": 4,
+      "RSS · Hugging Face Blog": 3,
+      "Last30Days · Reddit": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · IEEE Spectrum Robotics": 3,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · Hugging Face Blog": 3,
       "RSS · OpenAI News": 3,
       "RSS · MIT News AI": 3,
       "RSS · Google 新闻": 2,
       "RSS · Google Research": 2,
       "RSS · Microsoft Research": 2,
-      "Last30Days · Reddit": 2,
+      "RSS · Google News Human Factors": 1,
       "RSS · BAIR Blog": 1,
       "RSS · Google News School Mental Health": 1,
       "China.com": 1,
@@ -84,6 +85,166 @@
   ],
   "items": [
     {
+      "kind": "industry",
+      "track": "Open-Source AI",
+      "published": "2026-07-07",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
+      "authors": [
+        "Hugging Face Blog"
+      ],
+      "categories": [
+        "RSS",
+        "Hugging Face Blog"
+      ],
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 72
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-06",
+      "title": "Looking for Collaborators and Feedback | AI Hiring Startup Combining Psychology and Astrology",
+      "summary": "Hi everyone, I'm one of the co-founders of PHAE (Predictive Human Analytics Engine) . We're building an AI-powered hiring and talent analytics platform that combines psychology, behavioural science, AI, and explores Vedic astrology as an additional research variable. Alongside this, our startup also provides mental health services through two qualified... Last30Days signal for AI psychology mental health, surfaced from Reddit public activity in the latest 30-day window.",
+      "source": "Last30Days · Reddit",
+      "authors": [
+        "IndianEntrepreneur"
+      ],
+      "categories": [
+        "Reddit"
+      ],
+      "url": "https://www.reddit.com/r/IndianEntrepreneur/comments/1uotaqr/looking_for_collaborators_and_feedback_ai_hiring/",
+      "priority": 59,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 80
+    },
+    {
+      "kind": "community",
+      "track": "Empathetic Dialogue",
+      "published": "2026-07-06",
+      "title": "Release: dev → main (v2.3.0 quality infra + code-review follow-ups)",
+      "summary": "👋 Hi @dragonnite1221-lgtm, thanks for your contribution! All community PRs should target the `dev` branch, not `main`. The `main` branch is reserved for releases. **How to fix:** 1. Close this PR 2. Reopen it targeting `dev` instead of `main` Or I can do it for you — just click \"Edit\" at the top ... ## 🔒 Skill Security Audit Results ### ✅... Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from GitHub public activity in the latest 30-day window.",
+      "source": "Last30Days · GitHub",
+      "authors": [
+        "dragonnite1221-lgtm",
+        "dragonnite1221-lgtm/claude-skills"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/dragonnite1221-lgtm/claude-skills/pull/23",
+      "priority": 59,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 80
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-06",
+      "title": "Why investors are betting billions on X Square Robot's embodied AI vision - Gulf News",
+      "summary": "Why investors are betting billions on X Square Robot's embodied AI vision Gulf News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRU5tZ2FBREw2azVhaVNwVU1aUFloVjRFLWx6RjNJaDBaN1pLTllDN0E5X2RBbE1taUtBYjhUVzJNUUliaklXZlFxbkxWRHhZd0VoZHpMYjZMQklSdzZKdmJjaHRoa3c1ZHlURDNfZlpVVUNEVW9EM1FYdTJIQ3BXdzZyZjk5c3ktRHJ2SEpqYXZsV1IzRThrV19kMVVLUHJjMmJtOXB4cEpqSWZOSGlxcUR1ZllNUW_SAccBQVVfeXFMUGlwQWU3bWVTQ21HVWhYMjRjUkRwcmE1X2d0Q0FuWUducjJjLXJSQzJnX2VDVnVVaTlZNjVlY3RyRUVWQ0dHU01PblE5N3kzM3FYekVsT3NySDdjWWdzSXRoamtsZ3YteWUxazdOYWFjdW1QNDl1SmtKRDhOT19OMUd0YUllSW5kY0kxaFk5X2pGVkN4RGFrYy1DVFJQeDFkS2JqVzNYdmFMRk5rYnNvakFBbm10OGZjZmNRYXhhLVdXMTFaNFhSTQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "具身交互"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-06",
+      "title": "Why the American Psychological Association Should Focus on Electrochemical Psychiatry Not AI Therapy - The Good Men Project",
+      "summary": "Why the American Psychological Association Should Focus on Electrochemical Psychiatry Not AI Therapy The Good Men Project",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNDdOMGotbU9ReE9ObGlpdmZUYTUxNFZTakNTcmZrX29qMVloWHc4d3hhNGM2Q3ZNallPTTFuaEZBX1Z1OWVGcDQxNU1fS1NQcjYtdHdkaUpibjZPVWtxdHNfeE8zdVBZY0FhVWJsWVVYYWhNRVFZMzFDNkt4QnFkQWpMMnp6LTlOYURsUzJQOTZ4RVBvTXFSRi1JU0dKM0d5UmVnWWtVN2hPUTM2bzdzZk90a1VxRjNaQ2tMLWQ2SUluSDNhX0h4aU9qSFVJQ3UzcmNkVWtpNUowdG1EV2c?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-06",
+      "title": "China becomes one of the fastest-growing markets for embodied AI - China Daily - Global Edition",
+      "summary": "China becomes one of the fastest-growing markets for embodied AI China Daily - Global Edition",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXJ0ek1sUE5IQnE1d2ZESUt1SHB5TXUwSEtIbzU1S08yckE4NV8tQjNhVjk1NkFpUjk2ZWRuSVNKVEo5R2VpaGRSa2prWGtYM2VUVVpxd1VxdkZpRmstTTFpZzgzdkxwb01DOWNQVXMtRkpQTl9OaFl2enh4TGwzRGFn?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "community",
       "track": "Multimodal Affective Computing",
       "published": "2026-07-05",
@@ -110,32 +271,6 @@
         "情感理解"
       ],
       "relevance_score": 91
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-05",
-      "title": "Chinese team defends RoboCup 2026 title as embodied AI in sports draws global attention - Global Times",
-      "summary": "Chinese team defends RoboCup 2026 title as embodied AI in sports draws global attention Global Times",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1VmtOODVKMkdyaXNSZWhzRkFLR3dVdmdwMEMwM0VkbHp4N3ZELS1paFVwWTZyTG9LQ2QtUHdZZnhEVUxCbUZ0MEhzTmpQTE9GMkdYTktRaDlRNlZ0YUtGcFNn?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -494,32 +629,6 @@
       "relevance_score": 85
     },
     {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-07-01",
-      "title": "Godot will no longer accept AI-authored code contributions",
-      "summary": "Godot will no longer accept AI-authored code contributions Last30Days signal for AI psychology mental health, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "pjmlp",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-01",
@@ -547,29 +656,29 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-01",
-      "title": "BRAHMA AI and Hakuhodo Technologies Announce Partnership for Digital Human Deployment in Japan and APAC - Sports Video Group",
-      "summary": "BRAHMA AI and Hakuhodo Technologies Announce Partnership for Digital Human Deployment in Japan and APAC Sports Video Group",
-      "source": "RSS · Google News",
+      "title": "How AI is reshaping human skills and thinking - American Psychological Association (APA)",
+      "summary": "How AI is reshaping human skills and thinking American Psychological Association (APA)",
+      "source": "RSS · Google News Human Factors",
       "authors": [
-        "Google News"
+        "Google News Human Factors"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "Google News Human Factors"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUHB5OG80dk9Ja01KalFCOEJqTC1Na0NrdjVaV2VFbXduU1NpQk5jVlljZC1fOXpmYW9IWlN4LVVvUVg0NWM3NXVYTVBtZUltNFhDTWxmd0QydmRzTG0xQldvX3k1QkxQdjhCX1dVcUlpZDNLX2hBQ1BIVzIzMk5aanFrY2xfUnJYcGl0M2FheWVYNGdUQ0R1cG5oVzEzNkU1Qk5fRjNkNHJ1Mk9tV09zWGNUZVo1S1JmOXRWMU5oWFJGWHEtM2NJZUZraTdBTW9ibXYtc09NXzBoSVU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtVGRxSjR5UDdndzc5Z1lYeGhFV09lYUdDa19veFBpQjg4RUtoZHpQUUpnaWZpMzNIUDlGa1ZCWUdnSzlPemZCZWdvQnQ2NGVNVVdiamoxWnBjSDhBekZscHZpLXRDTVkzY292NHNB?oc=5",
       "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "心理评估"
       ],
-      "relevance_score": 76
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1091,34 +1200,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSnNTNFpKekZ2RVJoSzV6N3E2SVE5NW5reTBlLXJhdlB5eDVITFFaZnduVTZ4NXVla1lqakNLb3diMGxLV3VTWVNnSFlUM0FaVkw5OW1GWFdyN0k4WGNHWG9aQ19kNE03dmZsOVUzcmp0dmxaQXhlS1hxRXNUTzdMbFQ3V0VhRmRYSWU2RjU1cko1U05YVG5tSk9CUEt1T2xIS21TbTFLdVBQY0Z6VlRtRVJCVUlpZmtHM2d6OW5aTXNaTmFJaEdzNWgzX1hYcGFnelZGN19uMA?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-06-29",
-      "title": "American Psychological Association warns against AI therapy - The Anniston Star",
-      "summary": "American Psychological Association warns against AI therapy The Anniston Star",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPb0xObXlwV1hmd0o4ZkR2Tng5clBuRVVWcnBnVmhsNklnV2p6X1NXYlJib3U1Zklwc19laVhoc2VUVkVMRUJzOWVmZUdHQmc4UVFjQVUxQkMteXMzVkFrQTNUWkVkNXBjaHdwZno2QjI2a1NoZlpEZWZSazA2OEVPc0RhTzBMSVpJVENOc09mdjA0bzRhbjNha3BZU0NldnNCQ2VESlVHaDBXMXRPWHh0bGpPQldHMDhPYngyOTVGTF9FaEM1OHlTTjBkZmhzaDN5R0tfazhGQlhmU1VBNUpHNWpjVGNXREVJanltMQ?oc=5",
       "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -1672,33 +1753,6 @@
     },
     {
       "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-06-26",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-06-26",
       "title": "Video Friday: Give Robots a Hand",
@@ -1814,6 +1868,33 @@
         "情感理解"
       ],
       "relevance_score": 88
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-06-25",
+      "title": "Use of AI chatbots for mental health support",
+      "summary": "Hi all, I am a psychology honours student aiming to explore user perspectives and real world experiences of Generative AI on mental health. If you have ever utilised an AI chatbot (such as Claude) to manage your mental health, we would love to hear from you! Our study is qualitative, has ethics approval, and is completely anonymous. There are no right or... Last30Days signal for AI psychology mental health, surfaced from Reddit public activity in the latest 30-day window.",
+      "source": "Last30Days · Reddit",
+      "authors": [
+        "claudexplorers"
+      ],
+      "categories": [
+        "Reddit"
+      ],
+      "url": "https://www.reddit.com/r/claudexplorers/comments/1uf4xhn/use_of_ai_chatbots_for_mental_health_support/",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 85
     },
     {
       "kind": "community",
@@ -2000,34 +2081,6 @@
         "可信评测"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-06-24",
-      "title": "Visibility: FAQ + FAQPage schema for 'anxiety therapist Pasadena TX'",
-      "summary": "## The gap Weekly AI-visibility check (Jun 23): Therapy by David does **not** surface for any of the 6 prospect searches — still 0 of 6. For **\"anxiety therapist Pasadena TX\"**, the top results are directories (Psychology Today, SonderMind, Mental Health Match) and a handful of local practices (Thri Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "therapybydavid",
-        "therapybydavid/therapybydavid.github.io"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/therapybydavid/therapybydavid.github.io/pull/2",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "community",
@@ -2276,32 +2329,6 @@
         "具身交互"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "community",
-      "track": "Empathetic Dialogue",
-      "published": "2026-06-23",
-      "title": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44",
-      "summary": "You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage). <h3>PR Summary by Qodo</h3> Rewrite README to document OmniRoster DJ management agency framework <code>📝 Documentation</code> <code>🕐 20-40 Minutes</code> <img... Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "getaivids",
-        "getaivids/agency-agents"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/getaivids/agency-agents/pull/2",
-      "priority": 59,
-      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
-      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 80
     },
     {
       "kind": "paper",
@@ -3094,31 +3121,6 @@
         "心理评估"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "community",
-      "track": "Empathetic Dialogue",
-      "published": "2026-06-09",
-      "title": "I think my [36F] partner [38F] of over a decade has been having an emotional affair with an AI chatbot",
-      "summary": "I've noticed over the last few months that my [36F] partner [38F] has been really distant and kind of \"checked out\" when we spend time together - spending a lot of time on her phone, unable to put her phone down for the length of a conversation, unable to remember things we've talked about even shortly after talking about them, etc. About 2 or 3 weeks ago... Last30Days signal for empathetic dialogue emotional support chatbot, surfaced from Reddit public activity in the latest 30-day window.",
-      "source": "Last30Days · Reddit",
-      "authors": [
-        "relationships"
-      ],
-      "categories": [
-        "Reddit"
-      ],
-      "url": "https://www.reddit.com/r/relationships/comments/1u1ajfw/i_think_my_36f_partner_38f_of_over_a_decade_has/",
-      "priority": 59,
-      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
-      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 80
     },
     {
       "kind": "lab",
