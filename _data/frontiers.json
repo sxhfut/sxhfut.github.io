@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T05:04:54+00:00",
-  "generated_at_beijing": "2026-07-07T13:04:54+08:00",
+  "generated_at": "2026-07-07T15:28:28+00:00",
+  "generated_at_beijing": "2026-07-07T23:28:28+08:00",
   "generated_date_beijing": "2026-07-07",
   "stats": {
     "total_items": 120,
@@ -14,26 +14,26 @@
     "arxiv_items": 107,
     "kind_counts": {
       "community": 18,
-      "industry": 37,
+      "industry": 36,
       "lab": 1,
-      "paper": 62,
+      "paper": 63,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 50,
-      "RSS · Google News": 9,
-      "Last30Days · GitHub": 9,
+      "arXiv": 51,
+      "RSS · Google News": 8,
+      "Last30Days · GitHub": 8,
+      "Last30Days · Hacker News": 7,
       "HFUT Faculty Blog": 7,
-      "Last30Days · Hacker News": 6,
       "ORCID / DOI": 4,
+      "RSS · MIT News AI": 3,
       "RSS · Hugging Face Blog": 3,
+      "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum Robotics": 3,
       "RSS · IEEE Spectrum AI": 3,
-      "RSS · MIT Technology Review AI": 3,
       "Last30Days · Reddit": 3,
       "RSS · OpenAI News": 3,
-      "RSS · MIT News AI": 3,
       "RSS · Google 新闻": 2,
       "RSS · Google Research": 2,
       "RSS · Microsoft Research": 2,
@@ -45,9 +45,7 @@
       "ACM Digital Library / ORCID": 1,
       "DBLP / arXiv": 1,
       "DBLP / ICASSP": 1
-    },
-    "manual_sync_only": true,
-    "last_manual_sync_at_beijing": "2026-07-07T13:04:54+08:00"
+    }
   },
   "sources": {
     "papers": "arXiv open metadata API",
@@ -90,6 +88,34 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-07",
+      "title": "Lumos Robotics tops global benchmark test for zero-shot embodied AI - Robotics & Automation News",
+      "summary": "Lumos Robotics tops global benchmark test for zero-shot embodied AI Robotics & Automation News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3VGRXI1YThZNFlWU0tPRTJBSWZWN0hHeEtLSmc4Z1Q5WXRrRHFnZWp2V0ZTV3g3RG5pTkp5MlB4Q25YZWlwYnJYQ25KNWZ6MzYxQjBkMk5Sb29lNFRFV0JTNlR5dl9ZR2dZb2RuVS1INU91OGtUcmM3THZtdTFIa0cyWUhoem50NktkSUtVWm1WdlNheFlQLTF0cFByaTh2QU9mUmN1Y3NrOU5QTU9OWm9EalRSb0NaOV85enMwSVFBZw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "可信评测"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-07",
       "title": "Embodied AI sector posts robust growth - China Daily",
       "summary": "Embodied AI sector posts robust growth China Daily",
       "source": "RSS · Google News",
@@ -111,6 +137,58 @@
         "具身交互"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-07",
+      "title": "Glass crashes slashed? Ant Group AI unit claims robot sensing advance - South China Morning Post",
+      "summary": "Glass crashes slashed? Ant Group AI unit claims robot sensing advance South China Morning Post",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOHVKMFlCenlRbE96M1hRd2l3b3VmbEM0NEJaQmEyc3RHWV9qSjdHSGhuUVo1SnZvNE9oaV9id21VLTNjcU15b2tVYzlKbkJEcW1ScDctNU1aZjFYT3F1MXFqanZpOGVmVDc0OTNyRW55eE91Mm9OSml3MzdUQWNJVmZFQUlfbkNYRTZtMWtucmExdzl6MzBpWGEwQ1pheVllUzlEa0dYUVJNQkl6ajE0a0lQRFoyMDNxU2w0OWQzR2xseDRGUDlhcUVpYWN3Z9IBzgFBVV95cUxQeUNsdzFCVVlRcHFRNmlzSzREUW4tTkdCTkJVWWRmX3owMjZTRlJ0TUFLTFE4azFMbWxZVXpjMnRsWEpBYTJIME9HMFhuanI2MkgzcG9JUThOQ3BxWjE0SXowbW5tNjNyRkl6OE94YWdtUERYTHd6WXdkTUdLNUtFOEJhcVVhZ0FMVUZWaGRfRW5pbW9tckhpQ0dfUXRZY2JXenp2UW9MeDhNSzdpaG1ON1VPOUZqc2VlZjRlMDBfZkJZaU5FMTFZaE9BaXAtdw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-07",
+      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
+      "summary": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
+      "source": "RSS · MIT News AI",
+      "authors": [
+        "MIT News AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT News AI"
+      ],
+      "url": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "AI Research"
+      ],
+      "capability_tags_zh": [
+        "AI Research"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "industry",
@@ -138,6 +216,60 @@
         "具身交互"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-07-07",
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI...",
+      "source": "RSS · MIT Technology Review AI",
+      "authors": [
+        "MIT Technology Review AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT Technology Review AI"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "可信评测"
+      ],
+      "relevance_score": 77
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-06",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "summary": "GLM 5.2 and the coming AI margin collapse Last30Days signal for AI psychology mental health, surfaced from Hacker News public activity in the latest 30-day window.",
+      "source": "Last30Days · Hacker News",
+      "authors": [
+        "martinald",
+        "Hacker News"
+      ],
+      "categories": [
+        "Hacker News"
+      ],
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "priority": 59,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 80
     },
     {
       "kind": "community",
@@ -626,58 +758,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-03",
-      "title": "The Dream of \"General-Purpose\" Embodied AI: Is the Starting Point the Factory? - Gasgoo",
-      "summary": "The Dream of \"General-Purpose\" Embodied AI: Is the Starting Point the Factory? Gasgoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNmlaVy1palZFNnhKc0tUR2lhOFVCbjVVWUM2Y2poVHNFdndnWU5lNUFTQXNlWVhIYXdFaWpDcUl1OFk5Z0RKamxMaW5mNFJLRnV0VTJRVEEwNlgxTnczb2pKdTNyNm5pOE5VaG1SdER2aXQteF9RTUwwcktIcmNMYWZzejVWVU1ZanVpUHNYX0dJTUlVSFlLREZYbTl4SnpQX1ZaVW84VEdEMGlza1M4T3REck81Um4zVmtxMFV4MzZUZHNFbXY0RGpaQjdtSTNBRlE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-03",
-      "title": "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics - Robotics & Automation News",
-      "summary": "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics Robotics & Automation News",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONkVLeF92LVVIVF83N29VR3RhaWJBQWlPbktHUVZOTmJZZjFOeS15Rk13VjEyTVJsVVRhTFh4aVpmZ3lWQ3V0RHdHYXBaNnhzQnFpVjk4MWltdTlmQlRPTF9aY282ek5LTzRxWjZpTnJrYWx5TWpwR1FXS1pJcUp3QkNacVNldEdvWEVBRlNOUXpIcUxTOTFVdFRaam9FSENTcnplTUZkSVRTd1Naak9CSUFkdkstYjRDV1NuZEZaMmsxSkZaNUktWW1BaG5LRENVUTZmZ2pSMEFoS3I1?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI Industry",
       "published": "2026-07-03",
       "title": "AI’s Volatile Power Use Quietly Tests Grid Limits",
@@ -1010,7 +1090,7 @@
       "kind": "industry",
       "track": "AI Industry",
       "published": "2026-07-02",
-      "title": "Teaching AI to run with the turbines",
+      "title": "Building the foundation for an autonomous enterprise",
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial...",
       "source": "RSS · MIT Technology Review AI",
       "authors": [
@@ -1020,7 +1100,7 @@
         "RSS",
         "MIT Technology Review AI"
       ],
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "url": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
       "priority": 53,
       "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
       "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
@@ -1455,32 +1535,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-06-30",
-      "title": "Loop Engineering Gets Newly Applied To AI Mental Health Chats - Forbes",
-      "summary": "Loop Engineering Gets Newly Applied To AI Mental Health Chats Forbes",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYWozbUw5NUVtdVNtT2s2dU1pbkR0ZDVYdlI0WWZzNm4yNGNjdFFQOXEzYXE5c0FmdnhRSVg5bjRsSXV1T05fdk01ZFZkSDlVbWNXb1k0anZvWlRCbXJQV3JTQUlhMUlhb1lmUjBLell3TTd0TXRpN1BERUpMWk1aUTVxdUVfTzI3Zk03bmdDMnI5OHNzM1lSTlhGcUlsNEU5NVh5Z2hjaVVmbGdEZ0RHOWt6OA?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-06-30",
       "title": "How ChatGPT adoption has expanded",
@@ -1638,32 +1692,6 @@
         "情感大模型"
       ],
       "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-06-30",
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled...",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "AI Industry"
-      ],
-      "capability_tags_zh": [
-        "AI Industry"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -2246,34 +2274,6 @@
       "kind": "industry",
       "track": "AI Research",
       "published": "2026-06-26",
-      "title": "LLMs help robots understand vague instructions and focus on key details",
-      "summary": "To help robots do chores in places like homes and factories, a new approach from MIT uses one language model to clarify users’ instructions, then another to ignore irrelevant info.",
-      "source": "RSS · MIT News AI",
-      "authors": [
-        "MIT News AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT News AI"
-      ],
-      "url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 78
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-26",
       "title": "David Autor named head of the Department of Economics",
       "summary": "A faculty member since 1999, Autor is a leading researcher in artificial intelligence and the work of the future.",
       "source": "RSS · MIT News AI",
@@ -2599,34 +2599,6 @@
         "可信评测"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-06-24",
-      "title": "Visibility: FAQ + FAQPage schema for 'anxiety therapist Pasadena TX'",
-      "summary": "## The gap Weekly AI-visibility check (Jun 23): Therapy by David does **not** surface for any of the 6 prospect searches — still 0 of 6. For **\"anxiety therapist Pasadena TX\"**, the top results are directories (Psychology Today, SonderMind, Mental Health Match) and a handful of local practices (Thri Last30Days signal for AI psychology mental health, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "therapybydavid",
-        "therapybydavid/therapybydavid.github.io"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/therapybydavid/therapybydavid.github.io/pull/2",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "community",
@@ -3103,6 +3075,36 @@
       ],
       "capability_tags_zh": [
         "情感大模型"
+      ],
+      "relevance_score": 56
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-06-17",
+      "title": "Seeing Through Occlusion: Deterministic Arm Kinematic Correction for Robot Teleoperation",
+      "summary": "Markerless, single-RGB-D-camera motion capture provides a low-cost and non-invasive alternative to conventional marker-based systems for robot teleoperation; however, depth estimation often degrades in the presence of self-occlusion, particularly during upper-limb motion. This paper presents an Arm Kinematic Correction (AKC) method that improves depth estimation by enforcing geometric constraints based on constant arm...",
+      "source": "arXiv",
+      "authors": [
+        "Thomas M. Kwok",
+        "Nicholas Koenig",
+        "Yue Hu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.HC",
+        "eess.SY"
+      ],
+      "url": "http://arxiv.org/abs/2606.19240",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
       ],
       "relevance_score": 56
     },
