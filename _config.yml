@@ -24,7 +24,7 @@ default_hero_image: "/images/hero/mac-lab-real-workshop-xiao-sun.jpg"
 # Recommended: GoatCounter or Cloudflare Web Analytics for privacy-friendly aggregate insights.
 analytics:
   cloudflare_token: ""
-  goatcounter_code: ""
+  goatcounter_code: "sxhfut"
   goatcounter_domain: ""
   google_measurement_id: ""
   plausible_domain: ""
