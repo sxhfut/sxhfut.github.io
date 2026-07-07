@@ -1859,8 +1859,34 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 14px;
   font-size: 14px;
+}
+
+.footer-traffic {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.76);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.footer-traffic[hidden] {
+  display: none !important;
+}
+
+.footer-traffic strong {
+  color: #fff;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
 }
 
 @media (max-width: 900px) {

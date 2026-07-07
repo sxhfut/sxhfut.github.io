@@ -1,4 +1,13 @@
 <footer class="site-footer">
+  {% assign analytics = site.analytics %}
+  {% assign goatcounter_code = analytics.goatcounter_code | default: "" %}
+  {% assign goatcounter_domain = analytics.goatcounter_domain | default: "" %}
+  {% assign goatcounter_show_counter = analytics.goatcounter_show_counter | default: false %}
+  {% assign goatcounter_counter_path = analytics.goatcounter_counter_path | default: "TOTAL" %}
+  {% assign goatcounter_ready = false %}
+  {% if goatcounter_code != "" or goatcounter_domain != "" %}
+    {% assign goatcounter_ready = true %}
+  {% endif %}
   <div class="site-footer__inner">
     <div>
       <strong>孙晓 Xiao Sun</strong>
@@ -9,6 +18,45 @@
       <a href="https://github.com/{{ site.github_username }}">GitHub</a>
       <a href="{{ site.faculty_url }}">HFUT Faculty</a>
       <a href="{{ '/privacy/' | prepend: site.baseurl }}"><span class="lang-en">Privacy</span><span class="lang-zh">隐私与统计</span></a>
+      {% if goatcounter_show_counter and goatcounter_ready %}
+        <span class="footer-traffic" data-goatcounter-visible-counter hidden>
+          <span class="lang-en">Visits</span><span class="lang-zh">累计访问</span>
+          <strong data-goatcounter-count></strong>
+        </span>
+      {% endif %}
     </div>
   </div>
+  {% if goatcounter_show_counter and goatcounter_ready %}
+    {% if goatcounter_domain != "" %}
+      {% assign goatcounter_counter_base = goatcounter_domain %}
+    {% else %}
+      {% assign goatcounter_counter_base = "https://" | append: goatcounter_code | append: ".goatcounter.com" %}
+    {% endif %}
+    <script>
+      (function () {
+        var wrap = document.querySelector("[data-goatcounter-visible-counter]");
+        var count = document.querySelector("[data-goatcounter-count]");
+        if (!wrap || !count || !window.fetch) return;
+
+        var base = "{{ goatcounter_counter_base | escape }}".replace(/\/+$/, "");
+        var path = "{{ goatcounter_counter_path | escape }}" || "TOTAL";
+        var endpoint = base + "/counter/" + encodeURIComponent(path) + ".json";
+
+        window.fetch(endpoint, { cache: "force-cache", credentials: "omit" })
+          .then(function (response) {
+            if (!response.ok) throw new Error("Counter unavailable");
+            return response.json();
+          })
+          .then(function (data) {
+            if (!data || !data.count) return;
+            count.textContent = data.count;
+            wrap.hidden = false;
+            wrap.setAttribute("aria-label", "Total website visits: " + data.count);
+          })
+          .catch(function () {
+            wrap.hidden = true;
+          });
+      })();
+    </script>
+  {% endif %}
 </footer>

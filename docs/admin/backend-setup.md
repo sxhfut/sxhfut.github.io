@@ -128,6 +128,8 @@ It stays disabled until one of the following `_config.yml` fields is filled:
 ```yml
 analytics:
   goatcounter_code: ""
+  goatcounter_show_counter: false
+  goatcounter_counter_path: "TOTAL"
   cloudflare_token: ""
   plausible_domain: ""
 ```
@@ -135,9 +137,10 @@ analytics:
 Recommended path:
 
 1. Use GoatCounter for the fastest setup, or Cloudflare Web Analytics if a Cloudflare account is already being used.
-2. Keep the public site analytics aggregate-only: page views, referrers, popular pages, browser/device category, and approximate geography.
-3. Every month, copy the key dashboard numbers into `/console/` → Analytics as a `site_metric_snapshots` record.
-4. Use the trend to improve homepage sections, research pages, industry solutions, frontiers, media pages, and recruitment text.
+2. If a public total counter is wanted, enable `goatcounter_show_counter` and turn on visitor counters in GoatCounter site settings.
+3. Keep the public site analytics aggregate-only: page views, referrers, popular pages, browser/device category, and approximate geography.
+4. Every month, copy the key dashboard numbers into `/console/` → Analytics as a `site_metric_snapshots` record.
+5. Use the trend to improve homepage sections, research pages, industry solutions, frontiers, media pages, and recruitment text.
 
 This separates public visibility analytics from internal user activity logs. Public analytics should not be used to identify individual visitors.
 

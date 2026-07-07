@@ -26,6 +26,8 @@ analytics:
   cloudflare_token: ""
   goatcounter_code: "sxhfut"
   goatcounter_domain: ""
+  goatcounter_show_counter: true
+  goatcounter_counter_path: "TOTAL"
   google_measurement_id: ""
   plausible_domain: ""
   plausible_script_url: "https://plausible.io/js/script.js"
