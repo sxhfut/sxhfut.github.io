@@ -4,6 +4,7 @@
   {% assign goatcounter_domain = analytics.goatcounter_domain | default: "" %}
   {% assign goatcounter_show_counter = analytics.goatcounter_show_counter | default: false %}
   {% assign goatcounter_counter_path = analytics.goatcounter_counter_path | default: "TOTAL" %}
+  {% assign goatcounter_display_offset = analytics.goatcounter_display_offset | default: 0 %}
   {% assign goatcounter_ready = false %}
   {% if goatcounter_code != "" or goatcounter_domain != "" %}
     {% assign goatcounter_ready = true %}
@@ -40,6 +41,7 @@
 
         var base = "{{ goatcounter_counter_base | escape }}".replace(/\/+$/, "");
         var path = "{{ goatcounter_counter_path | escape }}" || "TOTAL";
+        var displayOffset = Number("{{ goatcounter_display_offset | escape }}") || 0;
         var endpoint = base + "/counter/" + encodeURIComponent(path) + ".json";
 
         window.fetch(endpoint, { cache: "force-cache", credentials: "omit" })
@@ -49,9 +51,16 @@
           })
           .then(function (data) {
             if (!data || !data.count) return;
-            count.textContent = data.count;
+            var rawCount = String(data.count).replace(/[^\d]/g, "");
+            var liveCount = Number.parseInt(rawCount, 10);
+            var displayCount = Number.isFinite(liveCount) ? liveCount + displayOffset : data.count;
+            var formattedCount = Number.isFinite(displayCount)
+              ? displayCount.toLocaleString("en-US")
+              : displayCount;
+
+            count.textContent = formattedCount;
             wrap.hidden = false;
-            wrap.setAttribute("aria-label", "Total website visits: " + data.count);
+            wrap.setAttribute("aria-label", "Total website visits: " + formattedCount);
           })
           .catch(function () {
             wrap.hidden = true;

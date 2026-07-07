@@ -28,6 +28,7 @@ analytics:
   goatcounter_domain: ""
   goatcounter_show_counter: true
   goatcounter_counter_path: "TOTAL"
+  goatcounter_display_offset: 10000
   google_measurement_id: ""
   plausible_domain: ""
   plausible_script_url: "https://plausible.io/js/script.js"

@@ -130,6 +130,7 @@ analytics:
   goatcounter_code: ""
   goatcounter_show_counter: false
   goatcounter_counter_path: "TOTAL"
+  goatcounter_display_offset: 0
   cloudflare_token: ""
   plausible_domain: ""
 ```
@@ -138,9 +139,10 @@ Recommended path:
 
 1. Use GoatCounter for the fastest setup, or Cloudflare Web Analytics if a Cloudflare account is already being used.
 2. If a public total counter is wanted, enable `goatcounter_show_counter` and turn on visitor counters in GoatCounter site settings.
-3. Keep the public site analytics aggregate-only: page views, referrers, popular pages, browser/device category, and approximate geography.
-4. Every month, copy the key dashboard numbers into `/console/` → Analytics as a `site_metric_snapshots` record.
-5. Use the trend to improve homepage sections, research pages, industry solutions, frontiers, media pages, and recruitment text.
+3. Use `goatcounter_display_offset` only as a visible historical baseline for traffic that happened before analytics was connected.
+4. Keep the public site analytics aggregate-only: page views, referrers, popular pages, browser/device category, and approximate geography.
+5. Every month, copy the key dashboard numbers into `/console/` → Analytics as a `site_metric_snapshots` record.
+6. Use the trend to improve homepage sections, research pages, industry solutions, frontiers, media pages, and recruitment text.
 
 This separates public visibility analytics from internal user activity logs. Public analytics should not be used to identify individual visitors.
 

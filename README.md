@@ -147,6 +147,7 @@ analytics:
   goatcounter_domain: ""
   goatcounter_show_counter: false
   goatcounter_counter_path: "TOTAL"
+  goatcounter_display_offset: 0
   google_measurement_id: ""
   plausible_domain: ""
   plausible_script_url: "https://plausible.io/js/script.js"
@@ -158,7 +159,8 @@ Fastest path with GoatCounter:
 2. Copy the site code, for example `maclab` from `https://maclab.goatcounter.com`.
 3. Put that code into `_config.yml` under `analytics.goatcounter_code`.
 4. To show a small public footer counter, set `analytics.goatcounter_show_counter` to `true` and enable "Allow adding visitor counts on your website" in GoatCounter site settings.
-5. Commit and push. GitHub Pages will rebuild and start collecting aggregate trend data.
+5. If the site had meaningful traffic before analytics was added, set `analytics.goatcounter_display_offset` as the historical baseline added to the visible public count.
+6. Commit and push. GitHub Pages will rebuild and start collecting aggregate trend data.
 
 Cloudflare Web Analytics is also suitable:
 
