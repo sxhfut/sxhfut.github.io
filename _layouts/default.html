@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" class="lang-zh-active">
   <head>
     {% include head.html %}
     {% seo %}
@@ -16,30 +16,37 @@
 
     <script>
       (function () {
-        var key = "maclab-language";
         var button = document.querySelector("[data-language-toggle]");
+        var controller = window.MACLAB_LANGUAGE || {};
+        var key = controller.key || "maclab-language";
 
-        function setLanguage(lang) {
+        function applyDocumentLanguage(lang) {
           var isZh = lang === "zh";
           document.documentElement.lang = isZh ? "zh-CN" : "en";
+          document.documentElement.classList.toggle("lang-zh-active", isZh);
           document.body.classList.toggle("lang-zh-active", isZh);
           if (button) {
             button.textContent = isZh ? "EN" : "中文";
           }
+        }
+
+        function setLanguage(lang, persist) {
+          applyDocumentLanguage(lang);
+          if (!persist) return;
           try {
             window.localStorage.setItem(key, lang);
           } catch (error) {}
         }
 
-        var saved = "en";
+        var active = controller.initialLanguage || "zh";
         try {
-          saved = window.localStorage.getItem(key) || "en";
+          active = window.localStorage.getItem(key) || active;
         } catch (error) {}
-        setLanguage(saved);
+        applyDocumentLanguage(active);
 
         if (button) {
           button.addEventListener("click", function () {
-            setLanguage(document.body.classList.contains("lang-zh-active") ? "en" : "zh");
+            setLanguage(document.body.classList.contains("lang-zh-active") ? "en" : "zh", true);
           });
         }
       })();

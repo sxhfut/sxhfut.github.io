@@ -33,10 +33,12 @@ body {
   display: none !important;
 }
 
+html.lang-zh-active .lang-en,
 body.lang-zh-active .lang-en {
   display: none !important;
 }
 
+html.lang-zh-active .lang-zh,
 body.lang-zh-active .lang-zh {
   display: inline !important;
 }
@@ -4807,6 +4809,8 @@ h3 {
 
 .proof-chain h3 .lang-en,
 .proof-chain p .lang-en,
+html.lang-zh-active .proof-chain h3 .lang-zh,
+html.lang-zh-active .proof-chain p .lang-zh,
 body.lang-zh-active .proof-chain h3 .lang-zh,
 body.lang-zh-active .proof-chain p .lang-zh {
   display: inline !important;
@@ -4820,6 +4824,8 @@ body.lang-zh-active .proof-chain p .lang-zh {
   line-height: inherit;
 }
 
+html.lang-zh-active .proof-chain h3 .lang-en,
+html.lang-zh-active .proof-chain p .lang-en,
 body.lang-zh-active .proof-chain h3 .lang-en,
 body.lang-zh-active .proof-chain p .lang-en {
   display: none !important;

@@ -3,6 +3,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#0b1f3a">
+    <script>
+      (function () {
+        var key = "maclab-language";
+        var domesticTimeZones = {
+          "Asia/Shanghai": true,
+          "Asia/Chongqing": true,
+          "Asia/Harbin": true,
+          "Asia/Urumqi": true,
+          "Asia/Hong_Kong": true,
+          "Asia/Macau": true,
+          "Asia/Taipei": true
+        };
+
+        function readSavedLanguage() {
+          try {
+            var saved = window.localStorage.getItem(key);
+            return saved === "zh" || saved === "en" ? saved : "";
+          } catch (error) {
+            return "";
+          }
+        }
+
+        function detectLanguage() {
+          var saved = readSavedLanguage();
+          if (saved) return saved;
+
+          var languages = [];
+          if (navigator.languages && navigator.languages.length) {
+            languages = navigator.languages;
+          } else if (navigator.language) {
+            languages = [navigator.language];
+          }
+
+          var timeZone = "";
+          try {
+            timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+            if (domesticTimeZones[timeZone]) return "zh";
+          } catch (error) {}
+
+          if (timeZone) return "en";
+
+          if (languages[0] && /^zh\b/i.test(languages[0])) return "zh";
+
+          return languages.length ? "en" : "zh";
+        }
+
+        function applyLanguage(lang) {
+          var isZh = lang === "zh";
+          document.documentElement.lang = isZh ? "zh-CN" : "en";
+          document.documentElement.classList.toggle("lang-zh-active", isZh);
+        }
+
+        var initialLanguage = detectLanguage();
+        applyLanguage(initialLanguage);
+        window.MACLAB_LANGUAGE = {
+          key: key,
+          initialLanguage: initialLanguage,
+          applyDocumentLanguage: applyLanguage
+        };
+      })();
+    </script>
 
     {% assign page_description = page.description | default: site.description %}
     {% assign page_description_zh = page.description_zh | default: site.description_zh %}
