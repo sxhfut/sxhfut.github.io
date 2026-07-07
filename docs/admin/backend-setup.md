@@ -87,7 +87,7 @@ Use `/console/` for:
 - Partner and scenario leads.
 - Review tasks for public publishing.
 - Manually selected frontier radar items.
-- Access analytics snapshots from Cloudflare, Plausible, Google Analytics, or manual monthly summaries.
+- Access analytics snapshots from GoatCounter, Cloudflare, Plausible, Google Analytics, or manual monthly summaries.
 - Lightweight JSON backups of console tables for owner/admin handoff.
 - Audit logs for important content changes.
 - Member permissions.
@@ -120,10 +120,31 @@ The console is now organized as an operating workspace rather than only a set of
 
 If the console shows that analytics or backup snapshot tables are missing, rerun the latest `docs/admin/supabase-schema.sql` in Supabase SQL Editor. The file is idempotent and can be rerun after upgrades.
 
+## Website Analytics Setup
+
+The public site has a lightweight analytics include at `_includes/analytics.html`.
+It stays disabled until one of the following `_config.yml` fields is filled:
+
+```yml
+analytics:
+  goatcounter_code: ""
+  cloudflare_token: ""
+  plausible_domain: ""
+```
+
+Recommended path:
+
+1. Use GoatCounter for the fastest setup, or Cloudflare Web Analytics if a Cloudflare account is already being used.
+2. Keep the public site analytics aggregate-only: page views, referrers, popular pages, browser/device category, and approximate geography.
+3. Every month, copy the key dashboard numbers into `/console/` → Analytics as a `site_metric_snapshots` record.
+4. Use the trend to improve homepage sections, research pages, industry solutions, frontiers, media pages, and recruitment text.
+
+This separates public visibility analytics from internal user activity logs. Public analytics should not be used to identify individual visitors.
+
 ## Next Backend Milestones
 
 1. Add Supabase Storage buckets for approved public images and private attachments.
-2. Add scheduled export from Cloudflare or Plausible API into `site_metric_snapshots`.
+2. Add scheduled export from GoatCounter, Cloudflare, or Plausible API into `site_metric_snapshots`.
 3. Add GitHub issue or pull-request creation for public-ready content.
 4. Add file attachments and owner-only notes for partner CRM records.
 5. Add periodic database export to private storage for disaster recovery.

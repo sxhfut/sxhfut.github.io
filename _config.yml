@@ -21,11 +21,14 @@ images_dir: "/images/"
 default_hero_image: "/images/hero/mac-lab-real-workshop-xiao-sun.jpg"
 
 # Website analytics are disabled until a token or ID is configured.
-# Recommended: Cloudflare Web Analytics for privacy-friendly aggregate insights.
+# Recommended: GoatCounter or Cloudflare Web Analytics for privacy-friendly aggregate insights.
 analytics:
   cloudflare_token: ""
+  goatcounter_code: ""
+  goatcounter_domain: ""
   google_measurement_id: ""
   plausible_domain: ""
+  plausible_script_url: "https://plausible.io/js/script.js"
 
 # Build settings
 markdown: kramdown

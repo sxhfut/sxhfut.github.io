@@ -132,25 +132,39 @@ If the console shows missing analytics or backup tables, rerun the latest `docs/
 
 The site includes an optional analytics module for aggregate visitor statistics. It is disabled by default and only loads third-party analytics scripts after an ID or token is configured in `_config.yml`.
 
-Recommended option:
+Recommended options:
 
+- **GoatCounter**: the simplest privacy-friendly option for a GitHub Pages academic site. It gives page views, referrers, browser/device information, country-level trends, and a small public or private dashboard without cookies.
 - **Cloudflare Web Analytics**: privacy-friendly aggregate analytics for page views, referrers, browsers, performance, and approximate country or regional traffic trends.
+- **Plausible**: a polished paid/open-source analytics option if a more product-like dashboard is preferred.
 
 Supported configuration keys:
 
 ```yml
 analytics:
   cloudflare_token: ""
+  goatcounter_code: ""
+  goatcounter_domain: ""
   google_measurement_id: ""
   plausible_domain: ""
+  plausible_script_url: "https://plausible.io/js/script.js"
 ```
 
-To enable Cloudflare Web Analytics:
+Fastest path with GoatCounter:
+
+1. Create a GoatCounter site for `sxhfut.github.io`.
+2. Copy the site code, for example `maclab` from `https://maclab.goatcounter.com`.
+3. Put that code into `_config.yml` under `analytics.goatcounter_code`.
+4. Commit and push. GitHub Pages will rebuild and start collecting aggregate trend data.
+
+Cloudflare Web Analytics is also suitable:
 
 1. Create a Web Analytics site in the Cloudflare dashboard for `sxhfut.github.io`.
 2. Copy the site token from Cloudflare's JavaScript snippet.
 3. Paste only the token into `_config.yml` under `analytics.cloudflare_token`.
 4. Commit and push. GitHub Pages will rebuild the site and begin collecting aggregate traffic data.
+
+The internal `/console/` analytics page can store monthly snapshots copied from GoatCounter, Cloudflare, Plausible, or Google Analytics. This keeps long-term page-trend history in Supabase even if the external analytics dashboard only keeps a limited window.
 
 The public site should use analytics for content improvement, international visibility, collaboration reach, and admissions interest. It should not be used to identify individual visitors. If a future internal lab system needs login-based audit records, that should be implemented separately from the public website analytics layer.
 
@@ -175,6 +189,12 @@ Refresh the frontier dataset locally:
 python3 scripts/update_frontiers.py
 ```
 
+Fast-sync only curated manual items without crawling remote sources:
+
+```bash
+python3 scripts/sync_frontiers_manual.py
+```
+
 The generated data lives in:
 
 ```text
@@ -192,8 +212,10 @@ The intended scheduled workflow refreshes `_data/frontiers.json` from open arXiv
 The production site refreshes the radar through GitHub Actions:
 
 - Workflow: `.github/workflows/update-frontiers.yml`
-- Schedule: every day at 06:25 Beijing time
-- Manual run: GitHub repository → Actions → Update Frontier Radar → Run workflow
+- Fast manual-sync workflow: `.github/workflows/sync-frontiers-manual.yml`
+- Schedule: every day at 08:25 and 20:25 Beijing time
+- Manual full run: GitHub repository → Actions → Update Frontier Radar → Run workflow
+- Manual curated-only run: GitHub repository → Actions → Sync Curated Frontier Items → Run workflow
 - Output: `_data/frontiers.json`
 - Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
 - Last30Days enrichment: the workflow clones `mvanhorn/last30days-skill` and uses it as an optional recent-signal source for Reddit, Hacker News, Polymarket, and GitHub activity from the latest 30-day window

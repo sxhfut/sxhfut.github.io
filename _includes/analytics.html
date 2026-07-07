@@ -1,10 +1,19 @@
 {% assign analytics = site.analytics %}
 {% assign cloudflare_token = analytics.cloudflare_token | default: "" %}
+{% assign goatcounter_code = analytics.goatcounter_code | default: "" %}
+{% assign goatcounter_domain = analytics.goatcounter_domain | default: "" %}
 {% assign google_measurement_id = analytics.google_measurement_id | default: "" %}
 {% assign plausible_domain = analytics.plausible_domain | default: "" %}
+{% assign plausible_script_url = analytics.plausible_script_url | default: "https://plausible.io/js/script.js" %}
 
 {% if cloudflare_token != "" %}
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ cloudflare_token | escape }}"}'></script>
+{% endif %}
+
+{% if goatcounter_domain != "" %}
+<script data-goatcounter="{{ goatcounter_domain | escape }}/count" async src="https://gc.zgo.at/count.js"></script>
+{% elsif goatcounter_code != "" %}
+<script data-goatcounter="https://{{ goatcounter_code | escape }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 {% endif %}
 
 {% if google_measurement_id != "" %}
@@ -18,5 +27,5 @@
 {% endif %}
 
 {% if plausible_domain != "" %}
-<script defer data-domain="{{ plausible_domain | escape }}" src="https://plausible.io/js/script.js"></script>
+<script defer data-domain="{{ plausible_domain | escape }}" src="{{ plausible_script_url | escape }}"></script>
 {% endif %}

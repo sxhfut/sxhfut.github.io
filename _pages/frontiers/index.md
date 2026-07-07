@@ -23,7 +23,7 @@ rank: 6
 
 <div class="media-note">
   <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">本页如何自动更新</span></h2>
-  <p><span class="lang-en">This page is refreshed by a scheduled GitHub Actions workflow. It fetches open arXiv metadata, scans selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, enriches selected directions with recent Last30Days community and open-source signals when usable signals are available, then merges curated lab applications, media reports, and standards updates into static content.</span><span class="lang-zh">本页由 GitHub Actions 定时更新：自动抓取开放 arXiv 论文元数据；扫描研究机构、期刊、AI 媒体与产业渠道的 RSS / Atom 订阅源；当 Last30Days 在近 30 天内发现可用社区与开源信号时同步并入；再合并实验室精选应用、媒体报道与标准成果，最终生成静态页面。</span></p>
+  <p><span class="lang-en">This page is refreshed by scheduled and manual GitHub Actions workflows. Full refreshes fetch open arXiv metadata, scan selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, enrich selected directions with recent Last30Days community and open-source signals when usable signals are available, then merge curated lab applications, media reports, and standards updates into static content. Curated-only refreshes can update the lab-selected items quickly without crawling remote sources.</span><span class="lang-zh">本页由 GitHub Actions 定时或手动更新：全量刷新会自动抓取开放 arXiv 论文元数据，扫描研究机构、期刊、AI 媒体与产业渠道的 RSS / Atom 订阅源；当 Last30Days 在近 30 天内发现可用社区与开源信号时同步并入；再合并实验室精选应用、媒体报道与标准成果，最终生成静态页面。精选同步则可在不全网抓取的情况下快速更新实验室人工选择的条目。</span></p>
   <p><span class="lang-en">The radar is a discovery layer, not a clinical recommendation system. Items should be read as pointers to primary sources.</span><span class="lang-zh">本页是前沿发现层，不是临床或心理咨询建议系统。所有条目都应回到原始来源进一步阅读。</span></p>
 </div>
 
@@ -55,7 +55,7 @@ rank: 6
 <section class="frontier-latest" aria-labelledby="frontier-latest-title">
   <div class="frontier-latest__head">
     <span><span class="lang-en">Latest Updates</span><span class="lang-zh">最新抓取</span></span>
-    <h2 id="frontier-latest-title"><span class="lang-en">Fresh signals from the latest scheduled run.</span><span class="lang-zh">让最近一次定时采集先被看见。</span></h2>
+    <h2 id="frontier-latest-title"><span class="lang-en">Fresh signals from the latest radar refresh.</span><span class="lang-zh">让最近一次雷达更新先被看见。</span></h2>
     <p><span class="lang-en">This strip intentionally shows only the newest four signals. The full archive below contains {{ items | size }} items, with search, filters, and pagination.</span><span class="lang-zh">这里有意只展示最新 4 条信号；下方完整归档共 {{ items | size }} 条，支持搜索、筛选和分页。</span></p>
     <a class="frontier-latest__jump" href="#frontier-archive"><span class="lang-en">View the full archive</span><span class="lang-zh">查看全部 {{ items | size }} 条</span></a>
   </div>

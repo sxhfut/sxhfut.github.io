@@ -51,7 +51,7 @@ rank: 9.5
   </article>
   <article>
     <h2><span class="lang-en">Analytics and Backup</span><span class="lang-zh">访问统计与备份</span></h2>
-    <p><span class="lang-en">Aggregate traffic snapshots and JSON exports turn the website into a maintainable lab asset: the team can see which public pages are working, preserve operational data, and hand over work without losing context.</span><span class="lang-zh">聚合访问统计快照与 JSON 导出让网站成为可运营的实验室资产：团队可以观察哪些公开页面有效，保留后台数据，并在学生管理员交接时不丢上下文。</span></p>
+    <p><span class="lang-en">Aggregate traffic snapshots and JSON exports turn the website into a maintainable lab asset: the team can see which public pages are working, preserve operational data, and hand over work without losing context. The fastest analytics path is GoatCounter or Cloudflare Web Analytics on the public site, with monthly snapshots copied into the console.</span><span class="lang-zh">聚合访问统计快照与 JSON 导出让网站成为可运营的实验室资产：团队可以观察哪些公开页面有效，保留后台数据，并在学生管理员交接时不丢上下文。最快的访问趋势方案是在公开站点接入 GoatCounter 或 Cloudflare Web Analytics，再按月把关键快照沉淀到控制台。</span></p>
   </article>
 </div>
 

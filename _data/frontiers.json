@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T04:36:09+00:00",
-  "generated_at_beijing": "2026-07-07T12:36:09+08:00",
+  "generated_at": "2026-07-07T05:04:54+00:00",
+  "generated_at_beijing": "2026-07-07T13:04:54+08:00",
   "generated_date_beijing": "2026-07-07",
   "stats": {
     "total_items": 120,
@@ -45,7 +45,9 @@
       "ACM Digital Library / ORCID": 1,
       "DBLP / arXiv": 1,
       "DBLP / ICASSP": 1
-    }
+    },
+    "manual_sync_only": true,
+    "last_manual_sync_at_beijing": "2026-07-07T13:04:54+08:00"
   },
   "sources": {
     "papers": "arXiv open metadata API",
@@ -3115,6 +3117,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1774.htm#article",
       "priority": 110,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3136,6 +3139,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1773.htm#article",
       "priority": 108,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3159,6 +3163,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1772.htm#article",
       "priority": 106,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3180,6 +3185,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1771.htm#article",
       "priority": 104,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3201,6 +3207,7 @@
       "source": "China.com",
       "url": "https://digi.china.com/articles/20260312/202603121823261.html",
       "priority": 100,
+      "curated": true,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
       "capability_tags": [
@@ -3228,6 +3235,7 @@
       "source": "ORCID / DOI",
       "url": "https://doi.org/10.1109/TASLPRO.2025.3648885",
       "priority": 114,
+      "curated": true,
       "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
       "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
       "capability_tags": [
@@ -3255,6 +3263,7 @@
       "source": "ORCID / DOI",
       "url": "https://doi.org/10.1109/TFUZZ.2025.3593951",
       "priority": 112,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3278,6 +3287,7 @@
       "source": "DBLP / EMNLP",
       "url": "https://dblp.org/rec/conf/emnlp/XuHZDSY25",
       "priority": 109,
+      "curated": true,
       "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
       "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
       "capability_tags": [
@@ -3303,6 +3313,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1691.htm#article",
       "priority": 95,
+      "curated": true,
       "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
       "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
       "capability_tags": [
@@ -3330,6 +3341,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1692.htm#article",
       "priority": 90,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
@@ -3351,6 +3363,7 @@
       "source": "HFUT Faculty Blog",
       "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1694.htm#article",
       "priority": 85,
+      "curated": true,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
       "capability_tags": [
@@ -3374,6 +3387,7 @@
       "source": "ACM Digital Library / ORCID",
       "url": "https://doi.org/10.1145/3759928.3759953",
       "priority": 106,
+      "curated": true,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
@@ -3395,6 +3409,7 @@
       "source": "ORCID / DOI",
       "url": "https://doi.org/10.1109/TAFFC.2025.3544594",
       "priority": 110,
+      "curated": true,
       "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
       "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
       "capability_tags": [
@@ -3420,6 +3435,7 @@
       "source": "ORCID / DOI",
       "url": "https://doi.org/10.1109/TCSS.2024.3497725",
       "priority": 108,
+      "curated": true,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
@@ -3445,6 +3461,7 @@
       "source": "DBLP / arXiv",
       "url": "https://arxiv.org/abs/2412.16904",
       "priority": 107,
+      "curated": true,
       "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
       "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
       "capability_tags": [
@@ -3468,6 +3485,7 @@
       "source": "DBLP / ICASSP",
       "url": "https://dblp.org/rec/conf/icassp/YinYGS25",
       "priority": 104,
+      "curated": true,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [

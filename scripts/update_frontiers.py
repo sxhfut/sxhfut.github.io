@@ -1002,7 +1002,10 @@ def existing_last30days_items(existing_items: list[dict]) -> list[dict]:
 def main() -> None:
     max_items = parse_int_env("FRONTIER_MAX_ITEMS", MAX_ITEMS)
     existing_items = load_existing_items()
-    manual_items = [enrich_item(item) for item in load_manual_items()]
+    manual_items = [
+        enrich_item({**item, "curated": True})
+        for item in load_manual_items()
+    ]
     fetched_last30days_items = fetch_last30days_items()
     reused_last30days_items: list[dict] = []
     if fetched_last30days_items:

@@ -15,7 +15,7 @@ body_class: privacy-page
     <h2><span class="lang-en">Traffic signals, not personal identities.</span><span class="lang-zh">统计访问趋势，而不是识别个人身份。</span></h2>
   </div>
   <div class="prose">
-    <p><span class="lang-en">The analytics module is designed for aggregate indicators such as page views, popular pages, referring websites, browser or device categories, and approximate country or regional distribution.</span><span class="lang-zh">访问统计模块主要用于聚合指标，例如页面访问量、热门页面、访问来源、浏览器或设备类别，以及大致国家或地区分布。</span></p>
+    <p><span class="lang-en">The analytics module is designed for aggregate indicators such as page views, popular pages, referring websites, browser or device categories, and approximate country or regional distribution. The site prioritizes privacy-friendly services such as GoatCounter, Cloudflare Web Analytics, or Plausible.</span><span class="lang-zh">访问统计模块主要用于聚合指标，例如页面访问量、热门页面、访问来源、浏览器或设备类别，以及大致国家或地区分布。网站优先采用 GoatCounter、Cloudflare Web Analytics 或 Plausible 这类更注重隐私的聚合统计服务。</span></p>
     <p><span class="lang-en">The public website should not be used to identify individual visitors. If future internal systems require login-based activity records, they should be managed separately with explicit permissions and access control.</span><span class="lang-zh">公开主页不应被用于识别具体访客个人。如果后续实验室内部系统需要基于登录的操作记录，应在独立权限和访问控制下单独管理。</span></p>
   </div>
 </div>
