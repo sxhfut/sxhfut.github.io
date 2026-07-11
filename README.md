@@ -21,10 +21,14 @@ High-trust public sources used by the site:
 - Anhui Artificial Intelligence Society affective-computing committee page: [https://aaai.net.cn/list/qgjszwh](https://aaai.net.cn/list/qgjszwh)
 - External academic report on Professor Xiao Sun's multimodal affective computing in pervasive scenarios: [https://jdxy.cjlu.edu.cn/info/1052/20338.htm](https://jdxy.cjlu.edu.cn/info/1052/20338.htm)
 - Earlier affective-computing paper connecting Xiao Sun, Fuji Ren, HFUT, and the Anhui affective-computing key-lab affiliation: [https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975)
+- CCF YOCSEF Hefei report mentioning HFUT Affective Computing Institute research achievements: [https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml](https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml)
+- HFUT affective-computing lineage page: [https://sxhfut.github.io/lineage/](https://sxhfut.github.io/lineage/)
+- Concept pages for AI-search extraction: [Ubiquitous Psychological Computing](https://sxhfut.github.io/concepts/ubiquitous-psychological-computing/), [Embodied Emotional Intelligence](https://sxhfut.github.io/concepts/embodied-emotional-intelligence/), and [HFUT Affective Computing Institute](https://sxhfut.github.io/concepts/hfut-affective-computing-institute/)
 
 ## Site Sections
 
 - `Research`: core directions, long-term research route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.
+- `Lineage`: source-backed HFUT affective-computing lineage and citable concept entry points.
 - `Projects`: national and major projects, applied platforms, MindOS, Mindmirror, MindScore, MindCare, smart cockpit, and child-development support.
 - `Solutions`: scenario-oriented solution routes for affective computing, human factors, psychological computing, cognitive computing, and deployable software-hardware platforms.
 - `Cases`: public-safe capability cases around Mindmirror, MindScore, MindOS, MindTalk, MindPet, MemOS-Mind, and related platform lines.
@@ -44,9 +48,11 @@ The current site is a static Jekyll website deployed through GitHub Pages. Publi
 Search and AI discovery files:
 
 - `_includes/structured-data.html`: JSON-LD identity graph for MAC-Lab, Professor Xiao Sun, the website, and each page.
+- FAQ Schema is emitted automatically when a page defines `faq` in front matter.
 - `robots.txt`: crawler access and sitemap discovery.
 - `llms.txt`: concise Markdown summary for LLM-oriented retrieval and answer engines.
 - `_data/staged_updates.yml`: homepage update stream for staged research, media, platform, and frontier-refresh signals.
+- `_data/lab_sources.json`: scheduled public-source synchronization data from the HFUT faculty blog, ORCID, and DBLP when available.
 - `images/hero/mac-lab-real-workshop-xiao-sun.jpg`: realistic lab-scene hero image for public sharing and structured previews.
 
 Editing model:
@@ -54,6 +60,7 @@ Editing model:
 - Public page updates can be edited through Markdown/HTML files or the `/admin/` Decap CMS scaffold after GitHub OAuth is configured.
 - Public news, cases, and frontier suggestions can be collected through GitHub Issue Forms and reviewed before publication.
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
+- The `Update Lab Source Signals` GitHub Action refreshes `_data/lab_sources.json` twice daily from public sources and feeds the Newsroom/RSS surfaces.
 - The 2026-05-29 HFUT faculty-blog updates have been synchronized into the News and Frontiers data, including the MAC-Lab website release, two IEEE Transactions on Affective Computing papers, and one IEEE Transactions on Artificial Intelligence paper.
 - The 2026-06-22 newsroom refresh adds ORCID/DOI/DBLP publication signals for recent works in IEEE/ACM TASLP, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP.
 - Sensitive internal information, unpublished technical details, raw data, partner contracts, student records, and private management work should not be stored in this public GitHub Pages repository.

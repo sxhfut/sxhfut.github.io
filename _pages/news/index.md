@@ -9,17 +9,34 @@ toggle: on
 rank: 5
 ---
 
+{% assign lab_sources = site.data.lab_sources %}
+
 <div class="summary-band">
   <div><strong>Newsroom</strong><span><span class="lang-en">first-hand MAC-Lab announcements</span><span class="lang-zh">实验室一手动态发布</span></span></div>
-  <div><strong>2026-06-22</strong><span><span class="lang-en">latest newsroom refresh</span><span class="lang-zh">新闻中心最新整理</span></span></div>
-  <div><strong>56</strong><span><span class="lang-en">public faculty-blog entries archived</span><span class="lang-zh">教师博客公开动态条目</span></span></div>
-  <div><strong>ORCID + Media</strong><span><span class="lang-en">public publication and media signals</span><span class="lang-zh">论文成果与媒体信号</span></span></div>
+  <div><strong>{{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</strong><span><span class="lang-en">latest public-source refresh</span><span class="lang-zh">最新公开来源同步</span></span></div>
+  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">public faculty-blog entries tracked</span><span class="lang-zh">教师博客公开动态条目</span></span></div>
+  <div><strong>ORCID</strong><span><span class="lang-en">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} high-signal publication records in the source pool</span><span class="lang-zh">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} 条高信号成果进入来源池</span></span></div>
 </div>
 
 <div class="media-note">
   <h2><span class="lang-en">MAC-Lab Newsroom</span><span class="lang-zh">MAC-Lab 实验室新闻中心</span></h2>
   <p><span class="lang-en">MAC-Lab Newsroom publishes research progress, platform releases, student achievements, competitions, collaborations, and public communication. It brings together first-hand lab releases and media-radar coverage about MAC-Lab and Professor Xiao Sun.</span><span class="lang-zh">MAC-Lab 新闻中心发布科研进展、平台发布、学生成果、竞赛获奖、合作交流与社会传播动态，汇集实验室一手发布和媒体雷达发现的公开报道。</span></p>
   <p><a href="{{ '/frontiers/' | prepend: site.baseurl }}"><span class="lang-en">AI + Psychology Frontier Radar</span><span class="lang-zh">查看 AI + 心理前沿雷达</span></a></p>
+</div>
+
+<h2><span class="lang-en">Source-Synced Updates</span><span class="lang-zh">公开来源同步动态</span></h2>
+<p class="muted"><span class="lang-en">This stream is refreshed by scheduled GitHub Actions from the HFUT faculty blog and public publication records. It is intentionally selective: official lab posts and high-signal publication venues are surfaced first.</span><span class="lang-zh">这一栏由 GitHub Actions 定时从合工大教师博客和公开论文记录同步。它会有选择地展示：优先呈现实验室官方动态和高信号发表来源。</span></p>
+
+<div class="news-list news-list--compact">
+  {% for item in lab_sources.publication_news_items limit:8 %}
+    <article>
+      <time>{{ item.published }}</time>
+      <div>
+        <h2><a href="{{ item.url }}"><span class="lang-en">{{ item.title }}</span><span class="lang-zh">{{ item.title_zh | default: item.title }}</span></a></h2>
+        <p><span class="lang-en">{{ item.source }}{% if item.venue %} · {{ item.venue }}{% endif %} · {{ item.track }}</span><span class="lang-zh">{{ item.source }}{% if item.venue %} · {{ item.venue }}{% endif %} · {{ item.track_zh | default: item.track }}</span></p>
+      </div>
+    </article>
+  {% endfor %}
 </div>
 
 <h2><span class="lang-en">Recent Media Coverage</span><span class="lang-zh">近期媒体报道</span></h2>

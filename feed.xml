@@ -11,6 +11,18 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% assign lab_sources = site.data.lab_sources %}
+    {% for item in lab_sources.publication_news_items limit:20 %}
+      <item>
+        <title>{{ item.title_zh | default: item.title | xml_escape }}</title>
+        <description>{{ item.summary_zh | default: item.summary | xml_escape }}</description>
+        <pubDate>{{ item.published | date_to_rfc822 }}</pubDate>
+        <link>{{ item.url | xml_escape }}</link>
+        <guid isPermaLink="false">{{ item.url | append: "#" | append: item.published | xml_escape }}</guid>
+        <category>{{ item.source | xml_escape }}</category>
+        <category>{{ item.track_zh | default: item.track | xml_escape }}</category>
+      </item>
+    {% endfor %}
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>

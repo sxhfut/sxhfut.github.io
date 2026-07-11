@@ -1,0 +1,41 @@
+name: Update Lab Source Signals
+
+on:
+  schedule:
+    # 09:40 and 21:40 Beijing time. GitHub Actions schedules use UTC.
+    - cron: "40 1,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lab-sources
+  cancel-in-progress: false
+
+jobs:
+  update-lab-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch public source signals
+        run: python scripts/update_lab_sources.py
+
+      - name: Commit updated source data
+        run: |
+          if git diff --quiet -- _data/lab_sources.json; then
+            echo "No lab source updates."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/lab_sources.json
+          git commit -m "Update lab source signals"
+          git push

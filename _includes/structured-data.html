@@ -113,7 +113,8 @@
         {{ "https://github.com/" | append: site.github_username | jsonify }},
         "https://aaai.net.cn/list/qgjszwh",
         "https://jdxy.cjlu.edu.cn/info/1052/20338.htm",
-        "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975"
+        "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975",
+        "https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml"
       ],
       "subjectOf": [
         {
@@ -130,6 +131,11 @@
           "@type": "ScholarlyArticle",
           "name": "Affective computing paper connecting Xiao Sun, Fuji Ren, HFUT, and the Anhui affective-computing key laboratory",
           "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975"
+        },
+        {
+          "@type": "WebPage",
+          "name": "CCF YOCSEF Hefei report mentioning HFUT Affective Computing Institute research achievements",
+          "url": "https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml"
         },
         {
           "@type": "WebPage",
@@ -201,6 +207,7 @@
         {{ site.faculty_url | jsonify }},
         "https://aaai.net.cn/list/qgjszwh",
         "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975",
+        "https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml",
         "https://jdxy.cjlu.edu.cn/info/1052/20338.htm"
       ],
       "subjectOf": [
@@ -228,7 +235,29 @@
       },
       "about": {
         "@id": {{ site.url | append: "/#organization" | jsonify }}
-      }
+      },
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "name": "HFUT Affective Computing Lineage",
+          "url": {{ site.url | append: "/lineage/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "Ubiquitous Psychological Computing",
+          "url": {{ site.url | append: "/concepts/ubiquitous-psychological-computing/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "Embodied Emotional Intelligence",
+          "url": {{ site.url | append: "/concepts/embodied-emotional-intelligence/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "HFUT Affective Computing Institute",
+          "url": {{ site.url | append: "/concepts/hfut-affective-computing-institute/" | jsonify }}
+        }
+      ]
     },
     {
       "@type": "WebPage",
@@ -247,3 +276,24 @@
   ]
 }
 </script>
+{% if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": {{ canonical_url | append: "#faq" | jsonify }},
+  "mainEntity": [
+    {% for item in page.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.question | append: " / " | append: item.question_zh | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.answer | append: " " | append: item.answer_zh | strip_html | strip_newlines | jsonify }}
+        }
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

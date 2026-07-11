@@ -1,0 +1,15 @@
+{% if page.faq %}
+<section class="faq-section">
+  <div class="section-heading section-heading--wide">
+    <h2><span class="lang-en">Frequently Asked Questions</span><span class="lang-zh">常见问题</span></h2>
+  </div>
+  <div class="faq-list">
+    {% for item in page.faq %}
+      <article>
+        <h3><span class="lang-en">{{ item.question }}</span><span class="lang-zh">{{ item.question_zh | default: item.question }}</span></h3>
+        <p><span class="lang-en">{{ item.answer }}</span><span class="lang-zh">{{ item.answer_zh | default: item.answer }}</span></p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
