@@ -12,7 +12,7 @@ body_class: privacy-page
 <div class="split">
   <div>
     <p class="eyebrow"><span class="lang-en">What We Measure</span><span class="lang-zh">统计内容</span></p>
-    <h2><span class="lang-en">Traffic signals, not personal identities.</span><span class="lang-zh">统计访问趋势，而不是识别个人身份。</span></h2>
+    <h2><span class="lang-en">Aggregate traffic signals for public-site improvement.</span><span class="lang-zh">用于公开主页优化的聚合访问趋势。</span></h2>
   </div>
   <div class="prose">
     <p><span class="lang-en">The analytics module is designed for aggregate indicators such as page views, popular pages, referring websites, browser or device categories, and approximate country or regional distribution. The site prioritizes privacy-friendly services such as GoatCounter, Cloudflare Web Analytics, or Plausible.</span><span class="lang-zh">访问统计模块主要用于聚合指标，例如页面访问量、热门页面、访问来源、浏览器或设备类别，以及大致国家或地区分布。网站优先采用 GoatCounter、Cloudflare Web Analytics 或 Plausible 这类更注重隐私的聚合统计服务。</span></p>

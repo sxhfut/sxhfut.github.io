@@ -17,7 +17,7 @@ rank: 2
 </div>
 
 <h2><span class="lang-en">Selected National and Major Projects</span><span class="lang-zh">代表性国家级与重大项目</span></h2>
-<p class="muted"><span class="lang-en">The lab's research is supported by a focused portfolio of national, provincial, and mission-oriented projects. The list below is intentionally selective: it highlights project level, technical direction, and platform value rather than every administrative detail.</span><span class="lang-zh">团队长期承担国家级、省部级和任务牵引型科研项目。这里选择性展示项目层级、技术方向和平台价值，不把网页做成完整项目账本。</span></p>
+<p class="muted"><span class="lang-en">The research portfolio includes national, provincial, and mission-oriented projects. The page highlights project level, technical direction, and platform value, with administrative details kept to the formal project record.</span><span class="lang-zh">团队长期承担国家级、省部级和任务牵引型科研项目。本页突出项目层级、技术方向和平台价值，完整行政信息以正式项目档案为准。</span></p>
 
 <div class="card-grid card-grid--three">
   <article class="feature-card">
@@ -53,7 +53,7 @@ rank: 2
 </div>
 
 <h2><span class="lang-en">From Lab Prototype to Industrial Deployment</span><span class="lang-zh">从实验室样机到产业化部署</span></h2>
-<p class="muted"><span class="lang-en">MAC-Lab's distinctive value is not only that it can publish or build a platform. The lab has worked through the difficult middle where a research result must face data uncertainty, hardware constraints, user behavior, privacy boundaries, product definition, field validation, and partner coordination.</span><span class="lang-zh">MAC-Lab 的特点不只是能发论文，也不只是能做平台。团队真正反复经历过的是科研成果走向真实应用时最难的中间地带：数据不确定性、硬件约束、用户行为、隐私边界、产品定义、场景验证和合作方协同。</span></p>
+<p class="muted"><span class="lang-en">MAC-Lab's project value comes from the middle ground where research results meet data uncertainty, hardware constraints, user behavior, privacy boundaries, product definition, field validation, and partner coordination.</span><span class="lang-zh">MAC-Lab 的项目价值，来自科研成果走向真实应用时反复经历的中间地带：数据不确定性、硬件约束、用户行为、隐私边界、产品定义、场景验证和合作方协同。</span></p>
 
 <div class="card-grid card-grid--four">
   <article class="feature-card">
@@ -64,7 +64,7 @@ rank: 2
   <article class="feature-card">
     <span><span class="lang-en">System Route</span><span class="lang-zh">系统路线</span></span>
     <h3><span class="lang-en">Build the chain from model to device to platform</span><span class="lang-zh">打通模型、设备与平台链条</span></h3>
-    <p><span class="lang-en">The lab works across sensing modules, affective models, interaction design, edge deployment, user interfaces, and platform-level management.</span><span class="lang-zh">团队跨越感知模块、情感模型、交互设计、边缘部署、用户界面和平台化管理，不把算法孤立在论文或演示里。</span></p>
+    <p><span class="lang-en">Projects cover sensing modules, affective models, interaction design, edge deployment, user interfaces, and platform-level management.</span><span class="lang-zh">项目覆盖感知模块、情感模型、交互设计、边缘部署、用户界面和平台化管理，让算法在系统链条中接受检验。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Field Validation</span><span class="lang-zh">场景验证</span></span>
@@ -73,8 +73,8 @@ rank: 2
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Partner Value</span><span class="lang-zh">合作价值</span></span>
-    <h3><span class="lang-en">Leave partners with reusable capability, not a one-off demo</span><span class="lang-zh">给合作方留下可复用能力，而不是一次性演示</span></h3>
-    <p><span class="lang-en">Good projects should produce reusable assets: methods, patents, standards awareness, datasets, evaluation protocols, student talent, and deployable modules.</span><span class="lang-zh">好的项目应沉淀方法、专利、标准意识、数据、评测流程、学生人才和可部署模块，而不是停留在一次性展示。</span></p>
+    <h3><span class="lang-en">Leave partners with reusable capability</span><span class="lang-zh">给合作方留下可复用能力</span></h3>
+    <p><span class="lang-en">Good projects produce reusable assets: methods, patents, standards awareness, datasets, evaluation protocols, student talent, and deployable modules.</span><span class="lang-zh">好的项目会沉淀方法、专利、标准意识、数据、评测流程、学生人才和可部署模块，使合作成果能够继续迭代。</span></p>
   </article>
 </div>
 
@@ -85,12 +85,12 @@ rank: 2
   <article class="feature-card">
     <span><span class="lang-en">Algorithms</span><span class="lang-zh">算法模块</span></span>
     <h3><span class="lang-en">Multimodal affective perception that fits the scene</span><span class="lang-zh">贴近场景的多模态情感感知</span></h3>
-    <p><span class="lang-en">Emotion recognition is treated as a technical component, not the whole answer. Depending on the scene, the route may combine affective NLP, speech emotion, facial expression, posture, gaze, physiological signals, environmental variables, and interaction behavior.</span><span class="lang-zh">情绪识别只是技术组件，不是完整答案。根据场景不同，方案可融合情感 NLP、语音情绪、面部表情、姿态、眼动、生理信号、环境变量和交互行为。</span></p>
+    <p><span class="lang-en">Emotion recognition is one technical component in a larger route. Depending on the scene, the route may combine affective NLP, speech emotion, facial expression, posture, gaze, physiological signals, environmental variables, and interaction behavior.</span><span class="lang-zh">情绪识别是完整方案中的一个技术组件。根据场景不同，方案可融合情感 NLP、语音情绪、面部表情、姿态、眼动、生理信号、环境变量和交互行为。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Human Factors</span><span class="lang-zh">人因方法</span></span>
     <h3><span class="lang-en">Models for stress, fatigue, attention, and cognitive load</span><span class="lang-zh">压力、疲劳、注意与认知负荷建模</span></h3>
-    <p><span class="lang-en">Industry partners need to know not only what a person feels, but what that state means for safety, decision making, learning, service quality, health risk, or job performance.</span><span class="lang-zh">产业伙伴需要知道的不只是“人是什么情绪”，还要知道这种状态对安全、决策、学习、服务质量、健康风险或岗位绩效意味着什么。</span></p>
+    <p><span class="lang-en">Industry partners need to know what a person's state means for safety, decision making, learning, service quality, health risk, or job performance.</span><span class="lang-zh">产业伙伴需要理解人的状态对安全、决策、学习、服务质量、健康风险或岗位绩效意味着什么。</span></p>
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Assessment</span><span class="lang-zh">评价体系</span></span>
@@ -107,13 +107,13 @@ rank: 2
 <div class="framework-grid framework-grid--page">
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Why partners need a lab like this</span>
-    <h2><span class="lang-en">The hard part is not one model. It is the whole route.</span><span class="lang-zh">难点不是某一个模型，而是整条路线。</span></h2>
+    <h2><span class="lang-en">The hard part is the whole route.</span><span class="lang-zh">难点在整条路线。</span></h2>
     <p><span class="lang-en">In real projects, affective computing must answer several questions at once: what signal is reliable, what state should be modeled, what decision is allowed, what feedback is safe, what hardware is practical, what data can be collected, and how the system will be maintained. MAC-Lab has accumulated experience across this full route, from papers and patents to standards, devices, platforms, and field scenarios.</span><span class="lang-zh">真实项目中的情感计算，必须同时回答一组问题：什么信号可靠，应该建模什么状态，哪些决策可以支持，什么反馈是安全的，硬件是否现实，数据能否持续采集，系统如何维护。MAC-Lab 的积累覆盖了这条完整路线，从论文、专利到标准、设备、平台和现场场景。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">What partners can start with</span>
-    <h2><span class="lang-en">Start from a scenario, not from a buzzword.</span><span class="lang-zh">从场景开始，而不是从概念开始。</span></h2>
-    <p><span class="lang-en">Typical collaboration can begin with a field diagnosis, technical route design, pilot dataset, algorithm module, evaluation protocol, prototype platform, or joint research project. The goal is to leave partners with a clearer product direction and reusable capability, not only a short-term demonstration.</span><span class="lang-zh">合作可以从场景诊断、技术路线设计、试点数据集、算法模块、评测方案、原型平台或联合课题开始。目标是帮助合作方形成更清晰的产品方向和可复用能力，而不是只完成一次短期演示。</span></p>
+    <h2><span class="lang-en">Start from the scenario.</span><span class="lang-zh">从场景开始。</span></h2>
+    <p><span class="lang-en">Typical collaboration can begin with a field diagnosis, technical route design, pilot dataset, algorithm module, evaluation protocol, prototype platform, or joint research project. The goal is to leave partners with a clearer product direction and reusable capability that can grow after the pilot.</span><span class="lang-zh">合作可以从场景诊断、技术路线设计、试点数据集、算法模块、评测方案、原型平台或联合课题开始。目标是帮助合作方形成更清晰的产品方向和可复用能力，并在试点之后继续成长。</span></p>
   </article>
 </div>
 
@@ -162,7 +162,7 @@ rank: 2
     </div>
     <div class="platform-body">
       <p><span class="lang-en">This framework gives embodied AI an emotional interaction layer. Built around embodied emotional interaction models and modular emotional capabilities, it supports the full chain of emotional perception, emotional understanding, emotional expression, and emotional interaction for robots, digital humans, smart devices, and active-health systems.</span><span class="lang-zh">该框架为具身 AI 增加情感交互层，以具身情感交互大模型和模块化情感能力为核心，覆盖情感感知、情感理解、情感表达与情感交互全链路，面向机器人、数字人、智能终端和主动健康系统提供“情感大脑”。</span></p>
-      <p><span class="lang-en">The key is not to make a device appear emotional, but to make its response appropriate to the situation. That requires multimodal perception, social timing, expressive control, memory, safety boundaries, and the ability to act with restraint in sensitive contexts.</span><span class="lang-zh">关键不是让设备“看起来有情绪”，而是让它在具体情境中的回应更合适。这需要多模态感知、社会时机理解、表达控制、长期记忆、安全边界，以及在敏感场景中克制行动的能力。</span></p>
+      <p><span class="lang-en">The key is appropriate response in context. That requires multimodal perception, social timing, expressive control, memory, safety boundaries, and the ability to act with restraint in sensitive contexts.</span><span class="lang-zh">关键在于具体情境中的合适回应。这需要多模态感知、社会时机理解、表达控制、长期记忆、安全边界，以及在敏感场景中克制行动的能力。</span></p>
       <figure class="platform-visual platform-visual--brain">
         <figcaption><span class="lang-en">Emotional brain for embodied systems</span><span class="lang-zh">面向具身系统的情感大脑</span></figcaption>
         <div class="platform-orbit">
@@ -197,7 +197,7 @@ rank: 2
 
   <article>
     <h2>MindScore</h2>
-    <p><span class="lang-en">MindScore extends assessment into organizational mind-body growth support. It connects non-contact multimodal sensing, long-term psychological archives, baseline comparison, trend awareness, and intervention workflow for institutions that need continuous care rather than one-off screening.</span><span class="lang-zh">MindScore 将评估能力延伸到组织场景中的心身成长守护，把非接触多模态感知、长期心理档案、基线对比、趋势感知和干预闭环连接起来，服务需要持续关怀而不是一次性筛查的机构场景。</span></p>
+    <p><span class="lang-en">MindScore extends assessment into organizational mind-body growth support. It connects non-contact multimodal sensing, long-term psychological archives, baseline comparison, trend awareness, and intervention workflow for institutions that need continuous care and staged follow-up.</span><span class="lang-zh">MindScore 将评估能力延伸到组织场景中的心身成长守护，把非接触多模态感知、长期心理档案、基线对比、趋势感知和干预闭环连接起来，服务需要持续关怀和阶段性跟进的机构场景。</span></p>
     <dl><dt>Focus</dt><dd>Mind-body assessment, longitudinal profiles, baseline comparison, growth support, intervention coordination</dd><dt>Application</dt><dd>Education, enterprise health, public service, safety-critical teams, human-factor management</dd></dl>
   </article>
 

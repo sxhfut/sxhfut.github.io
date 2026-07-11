@@ -14,7 +14,7 @@ rank: 4
   <div>
     <h2><span class="lang-en">A Lab for AI Researchers Who Build With Human Context</span><span class="lang-zh">培养能把研究带进真实场景的 AI 人才</span></h2>
     <p><span class="lang-en">MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun, trains students to move fluently between algorithmic research, deployable engineering, human-centered evaluation, and public communication. The lab now extends its multimodal affective computing foundation toward ubiquitous psychological computing and embodied emotional intelligence.</span><span class="lang-zh">MAC-Lab 全称 Multimedia Affective Computing Lab，即多模态情感计算实验室。今天，实验室在这一基础上进一步延伸到普适心理计算与具身情感智能。我们希望学生既懂算法，也懂人；既能做出高水平论文，也能把系统带到真实场景中验证。</span></p>
-    <p><span class="lang-en">The lab's intellectual roots connect Dalian University of Technology's NLP tradition and Tokushima University's affective computing lineage. Professor Sun's doctoral training under Professor Huang Degen, CAS Academician Gao Qingshi, and Professor Fuji Ren gives MAC-Lab a stable academic route rather than a short-term trend portfolio.</span><span class="lang-zh">实验室的学术底色连接大连理工大学自然语言处理传统与日本德岛大学情感计算脉络。孙晓教授曾在大连理工师从黄德根教授和中国科学院院士高庆狮先生，在日本国立德岛大学师从日本工程院院士任福继教授，这使 MAC-Lab 形成了有清晰传承和持续深化的学术路线。</span></p>
+    <p><span class="lang-en">The lab's intellectual roots connect Dalian University of Technology's NLP tradition and Tokushima University's affective computing lineage. Professor Sun's doctoral training under Professor Huang Degen, CAS Academician Gao Qingshi, and Professor Fuji Ren gives MAC-Lab a stable academic route with clear inheritance and long-term development.</span><span class="lang-zh">实验室的学术底色连接大连理工大学自然语言处理传统与日本德岛大学情感计算脉络。孙晓教授曾在大连理工师从黄德根教授和中国科学院院士高庆狮先生，在日本国立德岛大学师从日本工程院院士任福继教授，这使 MAC-Lab 形成了有清晰传承和持续深化的学术路线。</span></p>
     <p><span class="lang-en">The group works across national research programs, digital health, healthy living, smart mobility, psychological services, and human factors. Students are encouraged to develop a compound profile: academic depth, engineering capability, product awareness, interdisciplinary literacy, and the courage to explain science to society.</span><span class="lang-zh">团队长期面向国家级科研项目、数字健康、健康人居、智能心理服务和人因工程等方向开展研究与系统研发，鼓励学生形成“学术深度 + 工程能力 + 公共表达”的综合竞争力。</span></p>
   </div>
 </div>
@@ -59,7 +59,7 @@ rank: 4
   <article class="feature-card">
     <span>Direction</span>
     <h3><span class="lang-en">Grow inside a stable research line</span><span class="lang-zh">在稳定方向中成长</span></h3>
-    <p><span class="lang-en">The lab has long followed NLP, human-computer interaction, and multimedia affective computing, extending these directions into ubiquitous psychological computing and embodied emotional intelligence through sustained accumulation.</span><span class="lang-zh">实验室长期坚持自然语言处理、人机交互和多模态情感计算，并在此基础上延伸到普适心理计算与具身情感智能，强调持续积累和主线深化。</span></p>
+    <p><span class="lang-en">The group has long worked on NLP, human-computer interaction, and multimedia affective computing, extending these directions into ubiquitous psychological computing and embodied emotional intelligence through sustained accumulation.</span><span class="lang-zh">团队长期坚持自然语言处理、人机交互和多模态情感计算，并在此基础上延伸到普适心理计算与具身情感智能，强调持续积累和主线深化。</span></p>
   </article>
 </div>
 
@@ -71,7 +71,7 @@ rank: 4
 </div>
 
 <h2><span class="lang-en">Selected Student Competition Outcomes</span><span class="lang-zh">指导学生代表性竞赛成果</span></h2>
-<p class="muted"><span class="lang-en">We do not treat competitions as isolated trophies. Strong projects are selected, refined, and connected to papers, patents, prototypes, and long-term research platforms.</span><span class="lang-zh">我们不会把竞赛只当成奖项展示，而是把有潜力的项目继续沉淀为论文、专利、原型系统和长期研究平台。下面仅列代表性成果，避免把页面做成完整履历清单。</span></p>
+<p class="muted"><span class="lang-en">Competition projects with potential are selected, refined, and connected to papers, patents, prototypes, and long-term research platforms.</span><span class="lang-zh">有潜力的竞赛项目会继续沉淀为论文、专利、原型系统和长期研究平台。下面仅列代表性成果，完整信息以正式材料为准。</span></p>
 
 <div class="card-grid card-grid--three">
   <article class="feature-card">

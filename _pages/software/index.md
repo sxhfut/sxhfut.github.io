@@ -15,8 +15,8 @@ rank: 1
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">A Long-Term Route, Not a Hotspot Portfolio</span><span class="lang-zh">长期坚持方向，而不是追逐热点</span></h2>
-  <p><span class="lang-en">The lab's route grows from Professor Sun's doctoral training at Dalian University of Technology and Tokushima University, and from years of work in natural language processing, human-computer interaction, and multimodal affective computing. Large models, digital humans, smart cockpits, and embodied agents are treated as new carriers for the same long-term question: how can AI better understand and support people?</span><span class="lang-zh">实验室的研究路线，来自孙晓教授在大连理工大学和日本国立德岛大学的中日双博士训练，也来自团队多年在自然语言处理、人机交互和多模态情感计算方向的积累。大模型、数字人、智能座舱和具身智能不是孤立热点，而是同一个长期问题的新载体：AI 如何更好地理解和支持人。</span></p>
+  <h2><span class="lang-en">A Route That Keeps the Same Center</span><span class="lang-zh">一条保持中心的问题路线</span></h2>
+  <p><span class="lang-en">The lab's route grows from Professor Sun's doctoral training at Dalian University of Technology and Tokushima University, and from years of work in natural language processing, human-computer interaction, and multimodal affective computing. Large models, digital humans, smart cockpits, and embodied agents are new carriers for the same long-term question: how can AI better understand and support people?</span><span class="lang-zh">实验室的研究路线，来自孙晓教授在大连理工大学和日本国立德岛大学的中日双博士训练，也来自团队多年在自然语言处理、人机交互和多模态情感计算方向的积累。大模型、数字人、智能座舱和具身智能，都是同一个长期问题的新载体：AI 如何更好地理解和支持人。</span></p>
 </div>
 
 <div class="framework-grid framework-grid--page">
@@ -41,7 +41,7 @@ rank: 1
 <div class="research-map">
   <section>
     <h2><span class="lang-en">Affective NLP and Emotional Dialogue</span><span class="lang-zh">语言智能与情感对话</span></h2>
-    <p><span class="lang-en">We develop models for Chinese language understanding, affective semantics, emotional conversation generation, empathetic response, personality-aware dialogue, and LLM-based emotional support. The goal is to help AI understand not only what is said, but also the emotional intent, social relationship, and psychological need behind the words.</span><span class="lang-zh">研究中文语言理解、情感语义、人格建模、情感支持对话和多智能体协作，让大模型不仅会回答，更能理解“为什么这样说”。</span></p>
+    <p><span class="lang-en">We develop models for Chinese language understanding, affective semantics, emotional conversation generation, empathetic response, personality-aware dialogue, and LLM-based emotional support. The goal is to help AI read emotional intent, social relationship, and psychological need behind the words.</span><span class="lang-zh">研究中文语言理解、情感语义、人格建模、情感支持对话和多智能体协作，让大模型读懂话语背后的情绪意图、社会关系和心理需求。</span></p>
   </section>
   <section>
     <h2><span class="lang-en">Multimodal Affective Computing</span><span class="lang-zh">多模态情绪与心理状态建模</span></h2>

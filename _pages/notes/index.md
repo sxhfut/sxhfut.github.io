@@ -24,12 +24,12 @@ rank: 6.5
 <div class="project-list project-list--page">
   <article class="note-article">
     <div class="note-title">
-      <h2><span class="lang-en">AI psychology is not emotion labeling</span><span class="lang-zh">AI 心理计算不是给情绪贴标签</span></h2>
-      <p><span class="lang-en">The task is not to name a feeling. The task is to understand a changing person in a changing situation.</span><span class="lang-zh">这件事的核心不是给情绪命名，而是在变化的情境中理解一个正在变化的人。</span></p>
+      <h2><span class="lang-en">AI psychology begins after emotion labels</span><span class="lang-zh">AI 心理计算从情绪标签之后开始</span></h2>
+      <p><span class="lang-en">A useful system has to understand a changing person in a changing situation.</span><span class="lang-zh">真正有用的系统，要在变化的情境中理解一个正在变化的人。</span></p>
     </div>
     <div class="note-body">
       <p><span class="lang-en">Emotion labels are useful starting points, but they are too thin for real psychological computing. A person's state is shaped by time, context, personality, language, body signals, social relationships, task pressure, and the person's willingness to be understood.</span><span class="lang-zh">情绪标签有用，但不足以支撑真实的心理计算。人的状态由时间、环境、个性、语言、生理行为信号、社会关系、任务压力以及“是否愿意被理解”共同塑造。</span></p>
-      <p><span class="lang-en">MAC-Lab treats Ubiquitous Psychological Computing as a full pipeline: sensing, temporal evidence, psychological profiling, risk assessment, early warning, and supportive feedback. The point is not to make the model sound certain. The point is to make uncertainty visible enough for responsible human-machine collaboration.</span><span class="lang-zh">MAC-Lab 把普适心理计算理解为一条完整链路：感知、时间证据、心理画像、风险评估、早期预警和支持性反馈。关键不是让模型显得很确定，而是让不确定性被看见，从而支持负责任的人机协同。</span></p>
+      <p><span class="lang-en">MAC-Lab treats Ubiquitous Psychological Computing as a full pipeline: sensing, temporal evidence, psychological profiling, risk assessment, early warning, and supportive feedback. Responsible collaboration depends on keeping uncertainty visible and reviewable.</span><span class="lang-zh">MAC-Lab 把普适心理计算理解为一条完整链路：感知、时间证据、心理画像、风险评估、早期预警和支持性反馈。负责任的人机协同，需要让不确定性保持可见、可复核。</span></p>
       <figure class="note-visual note-visual--flow">
         <figcaption><span class="lang-en">From affect labels to psychological computing</span><span class="lang-zh">从情绪标签到心理计算</span></figcaption>
         <div class="note-flow">
@@ -53,7 +53,7 @@ rank: 6.5
     </div>
     <div class="note-body">
       <p><span class="lang-en">A model can work in a benchmark and still fail in a classroom, hospital, cockpit, counseling room, or home environment. Deployment exposes sensor noise, missing data, user trust, privacy boundaries, device constraints, and maintenance cost.</span><span class="lang-zh">模型可以在基准数据上有效，却未必能在学校、医院、座舱、咨询场景或家庭环境中稳定运行。真实部署会暴露传感噪声、数据缺失、用户信任、隐私边界、设备约束和长期维护成本。</span></p>
-      <p><span class="lang-en">This is where MAC-Lab's experience becomes distinctive. Research translation is treated as a design discipline: define the task, the data boundary, the user's role, the evaluation protocol, the feedback loop, and the handoff mechanism before chasing model complexity.</span><span class="lang-zh">这正是 MAC-Lab 的经验价值所在。科研转化本身是一种设计能力：先定义任务、数据边界、用户角色、评测流程、反馈闭环和交付机制，再谈模型复杂度。</span></p>
+      <p><span class="lang-en">MAC-Lab treats research translation as a design discipline: define the task, the data boundary, the user's role, the evaluation protocol, the feedback loop, and the handoff mechanism before chasing model complexity.</span><span class="lang-zh">MAC-Lab 把科研转化视为一种设计能力：先定义任务、数据边界、用户角色、评测流程、反馈闭环和交付机制，再谈模型复杂度。</span></p>
       <figure class="note-visual note-visual--bridge">
         <figcaption><span class="lang-en">The middle ground MAC-Lab works through</span><span class="lang-zh">MAC-Lab 反复穿越的中间地带</span></figcaption>
         <div class="note-bridge">
@@ -77,7 +77,7 @@ rank: 6.5
       <p><span class="lang-en">A medal is a checkpoint. The better question is what the project becomes next.</span><span class="lang-zh">奖项是一个节点，更重要的是项目之后还能长成什么。</span></p>
     </div>
     <div class="note-body">
-      <p><span class="lang-en">Competition is a powerful entry point for undergraduate and master's students because it compresses problem definition, coding, presentation, teamwork, and scenario thinking into one cycle. But the medal is not the end of the research value.</span><span class="lang-zh">竞赛对本科生和硕士生很有价值，因为它把问题定义、代码实现、表达汇报、团队协作和场景思维压缩到一个周期里。但奖项不是科研价值的终点。</span></p>
+      <p><span class="lang-en">Competition is a powerful entry point for undergraduate and master's students because it compresses problem definition, coding, presentation, teamwork, and scenario thinking into one cycle. The medal is a checkpoint; the stronger value comes from what the project becomes afterward.</span><span class="lang-zh">竞赛对本科生和硕士生很有价值，因为它把问题定义、代码实现、表达汇报、团队协作和场景思维压缩到一个周期里。奖项是一个节点，更大的价值来自项目之后还能长成什么。</span></p>
       <p><span class="lang-en">MAC-Lab tries to keep strong student work alive after the final: sharpen the research question, clean the system architecture, build reusable modules, write papers, protect intellectual property, and connect the work with a longer platform route.</span><span class="lang-zh">MAC-Lab 更看重竞赛之后的继续生长：把研究问题打磨清楚，把系统架构整理干净，把模块沉淀出来，把论文、专利、软著和长期平台路线连接起来。</span></p>
       <figure class="note-visual">
         <figcaption><span class="lang-en">How a student project compounds</span><span class="lang-zh">学生项目如何继续增值</span></figcaption>
@@ -98,10 +98,10 @@ rank: 6.5
   <article class="note-article">
     <div class="note-title">
       <h2><span class="lang-en">Embodied emotional intelligence is about situated response</span><span class="lang-zh">具身情感智能，核心是场景化回应能力</span></h2>
-      <p><span class="lang-en">A good answer is not always a good response.</span><span class="lang-zh">回答正确，不等于回应合适。</span></p>
+      <p><span class="lang-en">A correct answer still has to become an appropriate response.</span><span class="lang-zh">正确回答，还要变成合适回应。</span></p>
     </div>
     <div class="note-body">
-      <p><span class="lang-en">The next step for AI is not only to answer correctly, but to respond appropriately in context. Robots, digital humans, smart cockpits, and companion agents must read multimodal signals, understand social timing, and express support with restraint.</span><span class="lang-zh">AI 的下一步，不只是回答正确，而是在具体情境中回应得合适。机器人、数字人、智能座舱和陪伴智能体，需要读取多模态信号，理解社会时机，并以克制、可信的方式表达支持。</span></p>
+      <p><span class="lang-en">The next step for AI is appropriate response in context. Robots, digital humans, smart cockpits, and companion agents must read multimodal signals, understand social timing, and express support with restraint.</span><span class="lang-zh">AI 的下一步，是在具体情境中回应得合适。机器人、数字人、智能座舱和陪伴智能体，需要读取多模态信号，理解社会时机，并以克制、可信的方式表达支持。</span></p>
       <p><span class="lang-en">Embodied Emotional Intelligence connects perception, understanding, expression, action, safety, and long-term interaction memory. It is where affective computing meets physical presence, voice, gaze, motion, and responsibility.</span><span class="lang-zh">具身情感智能连接感知、理解、表达、行动、安全和长期交互记忆。它是情感计算与身体在场、语音、视线、动作和责任边界相遇的地方。</span></p>
       <figure class="note-visual note-visual--orbit">
         <figcaption><span class="lang-en">Capabilities that must move together</span><span class="lang-zh">必须协同演进的能力</span></figcaption>
@@ -129,7 +129,7 @@ rank: 6.5
     </div>
     <div class="note-body">
       <p><span class="lang-en">MAC-Lab's route has moved from natural language processing to dialogue, affective computing, multimodal affective computing, ubiquitous psychological computing, and embodied emotional intelligence. Around 2011, Professor Xiao Sun and Professor Fuji Ren jointly came to Hefei and HFUT to advance affective computing, establishing the HFUT Affective Computing Institute with Professor Sun as director and further supporting the Anhui Key Laboratory of Affective Computing and Advanced Intelligent Machines. The carriers changed; the core question stayed steady: how can AI understand and support human state?</span><span class="lang-zh">MAC-Lab 的路线从自然语言处理、人机对话、情感计算、多模态情感计算，延伸到普适心理计算和具身情感智能。2011 年前后，孙晓教授与任福继院士共同到合肥、到合肥工业大学，联合推动情感计算方向建设，成立合肥工业大学情感计算研究所，孙晓教授担任研究所所长，并进一步参与建设情感计算与先进智能机器安徽省重点实验室、担任副主任至今。载体在变化，核心问题一直稳定：AI 如何理解并支持人的状态？</span></p>
-      <p><span class="lang-en">A stable spine lets students, systems, papers, patents, platforms, and partners accumulate around one expanding problem space. That accumulation is why the lab can speak to both frontier research and real industry needs without becoming either a paper factory or a pure outsourcing workshop.</span><span class="lang-zh">稳定主线让学生、系统、论文、专利、平台和合作伙伴围绕同一个不断扩展的问题空间持续积累。正因为有这种积累，实验室才能同时面向前沿科研和真实产业需求，而不是变成单一产出形态。</span></p>
+      <p><span class="lang-en">A stable spine lets students, systems, papers, patents, platforms, and partners accumulate around one expanding problem space. That accumulation allows the lab to speak to frontier research and real industry needs with the same underlying route.</span><span class="lang-zh">稳定主线让学生、系统、论文、专利、平台和合作伙伴围绕同一个不断扩展的问题空间持续积累。也正因为有这种积累，实验室才能用同一条底层路线回应前沿科研和真实产业需求。</span></p>
       <figure class="note-visual note-visual--timeline">
         <figcaption><span class="lang-en">One route, expanding carriers</span><span class="lang-zh">一条主线，不断扩展的载体</span></figcaption>
         <div class="note-timeline">
@@ -141,7 +141,7 @@ rank: 6.5
         </div>
       </figure>
       <div class="note-insights">
-        <div><strong><span class="lang-en">Laboratory identity</span><span class="lang-zh">实验室身份</span></strong><p><span class="lang-en">The route makes the lab recognizable: NLP, HCI, affective computing, AI psychology, embodied interaction, and mind-body health are not scattered keywords.</span><span class="lang-zh">这条路线让实验室有辨识度：NLP、人机交互、情感计算、AI 心理、具身交互和身心健康不是散乱关键词。</span></p></div>
+        <div><strong><span class="lang-en">Laboratory identity</span><span class="lang-zh">实验室身份</span></strong><p><span class="lang-en">The route makes the lab recognizable: NLP, HCI, affective computing, AI psychology, embodied interaction, and mind-body health appear as one continuous route.</span><span class="lang-zh">这条路线让实验室有辨识度：NLP、人机交互、情感计算、AI 心理、具身交互和身心健康呈现为一条连续路线。</span></p></div>
         <div><strong><span class="lang-en">Why it matters</span><span class="lang-zh">为什么重要</span></strong><p><span class="lang-en">Long-term focus makes collaboration easier because partners can see where the lab has depth, systems, students, and field experience.</span><span class="lang-zh">长期聚焦让合作更容易建立信任，因为合作方能看到实验室的深度、系统、学生梯队和场景经验。</span></p></div>
       </div>
     </div>

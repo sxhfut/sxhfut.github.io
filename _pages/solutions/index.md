@@ -12,7 +12,7 @@ rank: 2.5
 <section class="solution-brief">
   <div class="solution-brief__copy">
     <span class="solution-kicker"><span class="lang-en">Industry Translation</span><span class="lang-zh">产学研转化入口</span></span>
-    <h2><span class="lang-en">When emotion and human factors become the core of a scenario, a generic model is not enough.</span><span class="lang-zh">当情感与人因成为场景核心，通用模型就不够了。</span></h2>
+    <h2><span class="lang-en">Emotion and human factors require scenario-level solutions.</span><span class="lang-zh">情感与人因问题需要场景级解决方案。</span></h2>
     <p><span class="lang-en">Many partners begin with a seemingly simple need: recognize emotion, measure stress, detect fatigue, assess mental state, or improve human performance. In practice, these needs usually require a complete route: define the scene, select reliable signals, design assessment logic, model mind-body state, decide what support is appropriate, and deploy the system in a way that people can trust.</span><span class="lang-zh">很多合作方最初提出的需求看起来很简单：识别情绪、测量压力、检测疲劳、评估心理状态，或者提升身心效能。但真正做起来，往往需要一整条路线：定义场景、选择可靠信号、设计评价逻辑、建模身心状态、判断适合的支持方式，并把系统部署到用户能够信任的环境中。</span></p>
     <p><span class="lang-en">MAC-Lab can provide algorithm modules, methods, platforms, and pilot validation, helping partners move from a scattered requirement to a responsible, testable, and deployable solution route.</span><span class="lang-zh">MAC-Lab 可以提供算法模块、方法体系、平台方案和试点验证，帮助合作方把分散需求整理成负责、可测试、可部署的解决方案路线。</span></p>
   </div>
@@ -74,7 +74,7 @@ rank: 2.5
   <div class="solution-heading solution-heading--split">
     <div>
       <span class="solution-kicker"><span class="lang-en">Capability · Scenario · Delivery</span><span class="lang-zh">能力 · 场景 · 交付</span></span>
-      <h2><span class="lang-en">Partners usually need a route they can pilot, not a model they can only watch.</span><span class="lang-zh">合作方需要的是可试点的路线，而不是只能观看的模型。</span></h2>
+      <h2><span class="lang-en">Partners need a route they can pilot, measure, and keep improving.</span><span class="lang-zh">合作方需要可试点、可评价、可持续改进的路线。</span></h2>
     </div>
     <p><span class="lang-en">The same technical base can take different forms in schools, mobility, public-service spaces, human-factor teams, and embodied interaction products. The important step is to translate a human-state question into measurable signals, meaningful indicators, and usable delivery.</span><span class="lang-zh">同一技术底座在学校、出行、公共服务、人因团队和具身交互产品中会呈现不同形态。关键是把人的状态问题转化为可测信号、有意义指标和可使用交付物。</span></p>
   </div>
@@ -123,7 +123,7 @@ rank: 2.5
   <div class="solution-heading solution-heading--split">
     <div>
       <span class="solution-kicker"><span class="lang-en">What Partners Usually Need</span><span class="lang-zh">合作方真正需要的能力</span></span>
-      <h2><span class="lang-en">The value is not a single algorithm, but a complete human-state operating system for the scene.</span><span class="lang-zh">价值不在单点算法，而在面向场景的人状态能力体系。</span></h2>
+      <h2><span class="lang-en">The value is a complete human-state capability system for the scene.</span><span class="lang-zh">价值在面向场景的人状态能力体系。</span></h2>
     </div>
     <p><span class="lang-en">A real deployment normally asks four questions at once: what can be sensed, what the state means, what decision it should support, and how the organization can keep using it responsibly.</span><span class="lang-zh">真实部署通常会同时提出四个问题：能感知什么，状态意味着什么，应支撑什么决策，以及组织怎样长期、负责地使用这一能力。</span></p>
   </div>
@@ -153,7 +153,7 @@ rank: 2.5
     </div>
     <div>
       <strong><span class="lang-en">System maturity</span><span class="lang-zh">系统成熟度</span></strong>
-      <p><span class="lang-en">Platform lines such as Mindmirror, MindScore, MindTalk, MindOS, and embodied interaction systems show that the lab has moved beyond isolated demos.</span><span class="lang-zh">Mindmirror、MindScore、MindTalk、MindOS 与具身交互系统等平台线说明团队已经走过单点演示阶段。</span></p>
+      <p><span class="lang-en">Platform lines such as Mindmirror, MindScore, MindTalk, MindOS, and embodied interaction systems show a reusable base for pilots, validation, and long-term operation.</span><span class="lang-zh">Mindmirror、MindScore、MindTalk、MindOS 与具身交互系统等平台线，为试点验证、持续运行和长期迭代提供了可复用基础。</span></p>
     </div>
     <div>
       <strong><span class="lang-en">Field route</span><span class="lang-zh">现场路线</span></strong>
@@ -175,7 +175,7 @@ rank: 2.5
     <article class="solution-scenario-grid__featured">
       <span><span class="lang-en">Mobility</span><span class="lang-zh">智能座舱</span></span>
       <h3><span class="lang-en">Smart Cockpit and Mobility Safety</span><span class="lang-zh">智能座舱与出行安全</span></h3>
-      <p><span class="lang-en">Driver and passenger state modeling goes beyond fatigue detection. Emotion, stress, cognitive load, attention, trust, environmental context, and interaction timing must be considered together.</span><span class="lang-zh">驾驶员与乘员状态建模不只是疲劳检测，还涉及情绪、压力、认知负荷、注意、信任、环境情境和交互时机。</span></p>
+      <p><span class="lang-en">Driver and passenger state modeling covers fatigue, emotion, stress, cognitive load, attention, trust, environmental context, and interaction timing.</span><span class="lang-zh">驾驶员与乘员状态建模覆盖疲劳、情绪、压力、认知负荷、注意、信任、环境情境和交互时机。</span></p>
     </article>
     <article>
       <span><span class="lang-en">Campus</span><span class="lang-zh">教育心理</span></span>

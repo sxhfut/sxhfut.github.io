@@ -17,7 +17,7 @@ rank: 3
 </div>
 
 <h2><span class="lang-en">High-Level Publications and Representative Venues</span><span class="lang-zh">高水平论文与代表性发表领域</span></h2>
-<p class="muted"><span class="lang-en">MAC-Lab's publication portfolio emphasizes sustained research depth across affective computing, NLP, multimodal intelligence, and human-centered AI. Instead of listing every paper, this page highlights representative venues and selected works that communicate the lab's level clearly to international visitors.</span><span class="lang-zh">MAC-Lab 的论文布局强调情感计算、自然语言处理、多模态智能和人本 AI 的长期积累。页面不罗列全部论文，而是突出能体现团队水平的代表性期刊、会议与成果。</span></p>
+<p class="muted"><span class="lang-en">MAC-Lab's publication portfolio emphasizes sustained research depth across affective computing, NLP, multimodal intelligence, and human-centered AI. This page highlights representative venues and selected works that communicate the lab's level clearly to international visitors.</span><span class="lang-zh">MAC-Lab 的论文布局强调情感计算、自然语言处理、多模态智能和人本 AI 的长期积累。本页突出能体现团队水平的代表性期刊、会议与成果。</span></p>
 
 <div class="card-grid card-grid--four">
   <article class="feature-card">
@@ -66,7 +66,7 @@ rank: 3
 
 <div class="media-note">
   <h2><span class="lang-en">Research Style</span><span class="lang-zh">研究风格</span></h2>
-  <p><span class="lang-en">The lab's publication strategy is not to chase isolated buzzwords. We keep deepening one route: natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, and embodied emotional intelligence. Papers are expected to connect scientific questions, usable systems, and responsible real-world deployment.</span><span class="lang-zh">团队的论文策略不是追逐孤立热点，而是在自然语言处理、人机交互、情感计算、普适心理计算与具身情感智能这条路线中持续深化。我们希望论文同时回答科学问题、支撑可用系统，并能进入负责任的真实场景。</span></p>
+  <p><span class="lang-en">The publication route keeps deepening one line: natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, and embodied emotional intelligence. Papers are expected to connect scientific questions, usable systems, and responsible real-world deployment.</span><span class="lang-zh">团队的论文路线沿着自然语言处理、人机交互、情感计算、普适心理计算与具身情感智能持续深化。我们希望论文同时回答科学问题、支撑可用系统，并能进入负责任的真实场景。</span></p>
 </div>
 
 <h2><span class="lang-en">International Challenge Highlights</span><span class="lang-zh">国际挑战赛成果</span></h2>

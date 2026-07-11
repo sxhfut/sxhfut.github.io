@@ -17,8 +17,8 @@ rank: 9.5
 </div>
 
 <div class="research-lead">
-  <h2><span class="lang-en">What GitHub Pages can and cannot do</span><span class="lang-zh">GitHub Pages 能做什么，不能做什么</span></h2>
-  <p><span class="lang-en">GitHub Pages is excellent for a public academic website: fast static pages, strong version history, stable URLs, search-engine crawlability, scheduled GitHub Actions, and safe public documentation. It does not provide a private database or server-side user system by itself. For login-based editing, the best lightweight path is to use GitHub authentication and commit-based content management.</span><span class="lang-zh">GitHub Pages 非常适合公开学术网站：静态页面快、版本历史清楚、URL 稳定、搜索引擎容易抓取，并且可以配合 GitHub Actions 定时更新。它本身不提供私有数据库或服务器端用户系统。若要登录编辑，最稳妥的轻量路线是使用 GitHub 身份认证和基于提交的内容管理。</span></p>
+  <h2><span class="lang-en">A Public Website With a Practical Operations Layer</span><span class="lang-zh">公开网站与运营工作台</span></h2>
+  <p><span class="lang-en">GitHub Pages gives the public site fast static pages, strong version history, stable URLs, search-engine crawlability, scheduled GitHub Actions, and safe public documentation. Login-based editing and internal operations are layered on top through GitHub authentication, commit-based content management, and Supabase for private records.</span><span class="lang-zh">GitHub Pages 为公开主页提供快速静态页面、清楚的版本历史、稳定 URL、搜索引擎友好结构、GitHub Actions 定时更新和公开文档托管。登录编辑与内部运营则通过 GitHub 身份认证、基于提交的内容管理，以及 Supabase 私有记录层来支撑。</span></p>
 </div>
 
 <div class="media-note">
@@ -47,7 +47,7 @@ rank: 9.5
   </article>
   <article>
     <h2><span class="lang-en">Review Queue and Audit Trail</span><span class="lang-zh">审核队列与操作日志</span></h2>
-    <p><span class="lang-en">Content tasks, frontier curation, and audit logs make the console more than a form collection: materials can move through submitted, review, approved, public-ready, and archived states with traceable changes.</span><span class="lang-zh">审核任务、前沿精选和操作日志让控制台不只是表单收集，而是能让素材按 submitted、review、approved、public_ready、archived 等状态流转，并保留可追踪修改记录。</span></p>
+    <p><span class="lang-en">Content tasks, frontier curation, and audit logs let materials move through submitted, review, approved, public-ready, and archived states with traceable changes.</span><span class="lang-zh">审核任务、前沿精选和操作日志让素材按 submitted、review、approved、public_ready、archived 等状态流转，并保留可追踪修改记录。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Analytics and Backup</span><span class="lang-zh">访问统计与备份</span></h2>
@@ -136,7 +136,7 @@ rank: 9.5
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Safe Rule</span>
-    <h2><span class="lang-en">Public website content is not the same as internal lab management.</span><span class="lang-zh">公开官网内容不等于实验室内部管理系统。</span></h2>
-    <p><span class="lang-en">Use this website to publish public news, cases, recruitment, papers, media, and frontier summaries. Use private tools for student records, partner files, budgets, raw data, and sensitive technical documents.</span><span class="lang-zh">官网用于发布公开新闻、案例、招生、论文、媒体和前沿总结。学生记录、合作文件、经费、原始数据和敏感技术文档应放在私有工具中。</span></p>
+    <h2><span class="lang-en">Separate public publishing from private operations.</span><span class="lang-zh">公开发布与内部运营分层管理。</span></h2>
+    <p><span class="lang-en">Use this website to publish public news, cases, recruitment, papers, media, and frontier summaries. Student records, partner files, budgets, raw data, and sensitive technical documents belong in private tools with explicit permissions.</span><span class="lang-zh">官网用于发布公开新闻、案例、招生、论文、媒体和前沿总结。学生记录、合作文件、经费、原始数据和敏感技术文档放入带明确权限的私有工具中管理。</span></p>
   </article>
 </div>

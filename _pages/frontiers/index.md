@@ -23,14 +23,14 @@ rank: 6
 
 <div class="media-note">
   <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">本页如何自动更新</span></h2>
-  <p><span class="lang-en">This page is refreshed by scheduled and manual GitHub Actions workflows. Full refreshes fetch open arXiv metadata, scan selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, enrich selected directions with recent Last30Days community and open-source signals when usable signals are available, then merge curated lab applications, media reports, and standards updates into static content. Curated-only refreshes can update the lab-selected items quickly without crawling remote sources.</span><span class="lang-zh">本页由 GitHub Actions 定时或手动更新：全量刷新会自动抓取开放 arXiv 论文元数据，扫描研究机构、期刊、AI 媒体与产业渠道的 RSS / Atom 订阅源；当 Last30Days 在近 30 天内发现可用社区与开源信号时同步并入；再合并实验室精选应用、媒体报道与标准成果，最终生成静态页面。精选同步则可在不全网抓取的情况下快速更新实验室人工选择的条目。</span></p>
-  <p><span class="lang-en">The radar is a discovery layer, not a clinical recommendation system. Items should be read as pointers to primary sources.</span><span class="lang-zh">本页是前沿发现层，不是临床或心理咨询建议系统。所有条目都应回到原始来源进一步阅读。</span></p>
+  <p><span class="lang-en">Scheduled and manual GitHub Actions refresh this page. Full refreshes fetch open arXiv metadata, scan selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, merge usable Last30Days community or open-source signals, then add curated lab applications, media reports, and standards updates into static content. Curated-only refreshes update lab-selected items quickly.</span><span class="lang-zh">本页由 GitHub Actions 定时或手动刷新。全量刷新会抓取开放 arXiv 论文元数据，扫描研究机构、期刊、AI 媒体与产业渠道 RSS / Atom 订阅源，并在有可用信号时合并 Last30Days 社区与开源动态，再加入实验室精选应用、媒体报道与标准成果。精选刷新则用于快速更新人工选择条目。</span></p>
+  <p><span class="lang-en">The radar is a discovery layer. Items are pointers to primary sources and should be read with the original links.</span><span class="lang-zh">前沿雷达承担发现与筛选功能。所有条目都是通往原始来源的线索，应结合原文继续阅读。</span></p>
 </div>
 
 <div class="frontier-lens-board">
   <div>
     <span><span class="lang-en">MAC-Lab Lens</span><span class="lang-zh">MAC-Lab 视角</span></span>
-    <h2><span class="lang-en">A radar for turning external signals into lab capability.</span><span class="lang-zh">不是论文列表，而是面向能力建设的研究雷达。</span></h2>
+    <h2><span class="lang-en">A radar that turns external signals into lab capability.</span><span class="lang-zh">面向能力建设的研究雷达。</span></h2>
     <p><span class="lang-en">Each item is interpreted through MAC-Lab's long-term route: multimedia affective computing, ubiquitous psychological computing, embodied emotional intelligence, and AI for mind-body health.</span><span class="lang-zh">每条内容都放回 MAC-Lab 的长期路线中理解：多模态情感计算、普适心理计算、具身情感智能，以及 AI 身心健康平台。</span></p>
   </div>
   <div class="frontier-method">

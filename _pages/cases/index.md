@@ -31,7 +31,7 @@ rank: 3.5
       <p><span class="lang-en">Face-to-face multimodal psychological assessment for scenes that need evidence, interpretation, and a human-centered review process.</span><span class="lang-zh">面向需要证据、解释和人在回路复核的面对面多模态心理评估场景。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">Mindmirror connects multimodal interaction, guided dialogue, scale-informed profiling, and report-level interpretation into a reflective assessment experience. The public value is clear: body, voice, expression, posture, and dialogue are not treated as isolated signals, but as converging evidence for a respectful assessment route.</span><span class="lang-zh">Mindmirror 把多模态交互、引导式对谈、量表启发画像和报告级解释组织成一种可复盘的评估体验。它公开展示的价值在于：身体、语音、表情、姿态和对话不是孤立信号，而是汇聚成一条尊重用户、可解释的评估路线。</span></p>
+      <p><span class="lang-en">Mindmirror connects multimodal interaction, guided dialogue, scale-informed profiling, and report-level interpretation into a reflective assessment experience. Body, voice, expression, posture, and dialogue converge as evidence for a respectful and interpretable assessment route.</span><span class="lang-zh">Mindmirror 把多模态交互、引导式对谈、量表启发画像和报告级解释组织成一种可复盘的评估体验。身体、语音、表情、姿态和对话共同构成证据，汇聚成一条尊重用户、可解释的评估路线。</span></p>
       <figure class="case-visual case-visual--mirror">
         <figcaption><span class="lang-en">Public architecture view</span><span class="lang-zh">公开版架构视图</span></figcaption>
         <div class="case-flow">
@@ -58,7 +58,7 @@ rank: 3.5
       <p><span class="lang-en">Organizational mind-body growth support for continuous care, group insight, and intervention coordination.</span><span class="lang-zh">面向组织持续关怀、群体态势感知和干预协同的心身成长支持能力。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MindScore extends assessment into real organizational settings. It links long-term psychological archives, non-contact multimodal sensing, baseline comparison, trend awareness, and workflow coordination. The point is not to produce a single score, but to help institutions build a responsible route from observed evidence to growth support and early awareness.</span><span class="lang-zh">MindScore 将评估能力延伸到真实组织场景，把长期心理档案、非接触多模态感知、个体与群体基线、趋势感知和干预流程连接起来。它不是为了给出一个简单分数，而是帮助机构建立从证据观察到成长支持和早期感知的负责路线。</span></p>
+      <p><span class="lang-en">MindScore extends assessment into real organizational settings. It links long-term psychological archives, non-contact multimodal sensing, baseline comparison, trend awareness, and workflow coordination, helping institutions move from observed evidence to growth support and early awareness.</span><span class="lang-zh">MindScore 将评估能力延伸到真实组织场景，把长期心理档案、非接触多模态感知、个体与群体基线、趋势感知和干预流程连接起来，帮助机构建立从证据观察到成长支持和早期感知的负责路线。</span></p>
       <figure class="case-visual case-visual--score">
         <figcaption><span class="lang-en">Organization-level support route</span><span class="lang-zh">组织级支持路线</span></figcaption>
         <div class="case-loop">
@@ -86,7 +86,7 @@ rank: 3.5
       <p><span class="lang-en">A public-facing route for affective mind computing, psychological digital twins, and long-term embodied agents.</span><span class="lang-zh">面向情感心智计算、心理数字孪生和长期具身智能体的公开能力路线。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MindOS is the lab's affective mind-computing foundation. It can be understood as a backbone for agents that need state continuity, persona stability, embodied response, and individual-to-group scenario reasoning. The central idea is simple: emotional AI needs a mind-computing backbone, not only fluent language output.</span><span class="lang-zh">MindOS 是实验室的情感心智计算底座，可理解为支撑状态连续性、人格稳定性、具身回应和个体到群体场景推演的能力骨架。它的核心判断很清楚：情感 AI 需要稳定的心智计算骨架，而不只是流畅的语言输出。</span></p>
+      <p><span class="lang-en">MindOS is the lab's affective mind-computing foundation. It supports agents that need state continuity, persona stability, embodied response, and individual-to-group scenario reasoning. Fluent language becomes more valuable when it is grounded in a stable mind-computing backbone.</span><span class="lang-zh">MindOS 是实验室的情感心智计算底座，支撑状态连续性、人格稳定性、具身回应和个体到群体场景推演。流畅语言只有接入稳定的心智计算骨架，才能形成更可靠的情感智能。</span></p>
       <figure class="case-visual case-visual--os">
         <figcaption><span class="lang-en">Affective mind-computing backbone</span><span class="lang-zh">情感心智计算骨架</span></figcaption>
         <div class="case-stack">
@@ -112,7 +112,7 @@ rank: 3.5
       <p><span class="lang-en">Simulation and training for counseling, supervision, group emotion, youth-support, and strategy exploration.</span><span class="lang-zh">面向咨询、督导、群体情绪、青少年支持和策略探索的推演训练能力。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MindTalk moves beyond single-session dialogue toward multi-domain psychological simulation. It helps show whether emotional AI can operate inside a scenario system: roles, pressure, group dynamics, intervention choices, and evaluation evidence all matter more than whether one answer merely sounds empathetic.</span><span class="lang-zh">MindTalk 不停留在单轮或单次对话，而是面向多域心理仿真与训练。它展示的是情感 AI 能否在场景系统中工作：角色、压力、群体动力、干预选择和评估证据，都比某一句回答是否显得“共情”更重要。</span></p>
+      <p><span class="lang-en">MindTalk moves from single-session dialogue toward multi-domain psychological simulation and training. It places emotional AI inside scenario systems where roles, pressure, group dynamics, intervention choices, and evaluation evidence can be reviewed together.</span><span class="lang-zh">MindTalk 从单轮或单次对话走向多域心理仿真与训练，把情感 AI 放进包含角色、压力、群体动力、干预选择和评估证据的场景系统中检验。</span></p>
       <figure class="case-visual case-visual--talk">
         <figcaption><span class="lang-en">Scenario simulation canvas</span><span class="lang-zh">场景推演画布</span></figcaption>
         <div class="case-canvas">
@@ -140,7 +140,7 @@ rank: 3.5
       <p><span class="lang-en">Embodied companion intelligence with affective memory, personality-aware interaction, and situated expression.</span><span class="lang-zh">融合情感记忆、人格化交互和场景化表达的具身陪伴智能。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MindPet explores how companion systems can stay coherent over time. Publicly, it shows that durable trust depends on continuity, restraint, relationship awareness, and multimodal expression; it is not just friendly dialogue wrapped in a cute interface.</span><span class="lang-zh">MindPet 探索长期陪伴系统如何保持连贯。公开表达的重点是：长期信任依赖连续性、克制感、关系感知和多模态表达，而不只是把友好对话包装成一个可爱的界面。</span></p>
+      <p><span class="lang-en">MindPet explores how companion systems can stay coherent over time. Durable trust depends on continuity, restraint, relationship awareness, and multimodal expression that fits the situation.</span><span class="lang-zh">MindPet 探索长期陪伴系统如何保持连贯。长期信任依赖连续性、克制感、关系感知和符合情境的多模态表达。</span></p>
       <figure class="case-visual case-visual--pet">
         <figcaption><span class="lang-en">Companion interaction loop</span><span class="lang-zh">陪伴交互闭环</span></figcaption>
         <div class="case-companion">
@@ -167,7 +167,7 @@ rank: 3.5
       <p><span class="lang-en">An affective memory layer for long-term AI interaction, service continuity, and psychologically aware response.</span><span class="lang-zh">面向长期 AI 交互、服务连续性和心理感知回应的情感记忆层。</span></p>
     </div>
     <div class="case-card__body">
-      <p><span class="lang-en">MemOS-Mind makes the memory question sharper: a system should not only remember what happened; it should model what the event meant to the user and how the agent should respond through a stable persona and emotional stance. This supports companion AI, learning support, service assistants, and psychologically aware interaction.</span><span class="lang-zh">MemOS-Mind 把记忆问题说得更清楚：系统不应只记住“发生了什么”，还要理解这件事对用户意味着什么，以及智能体应如何以稳定人格和情感立场回应。这一能力支撑陪伴 AI、学习支持、服务助手和心理感知交互。</span></p>
+      <p><span class="lang-en">MemOS-Mind makes the memory question sharper: a system records what happened, models what the event meant to the user, and responds through a stable persona and emotional stance. This supports companion AI, learning support, service assistants, and psychologically aware interaction.</span><span class="lang-zh">MemOS-Mind 把记忆问题说得更清楚：系统记录发生了什么，理解这件事对用户意味着什么，并以稳定人格和情感立场回应。这一能力支撑陪伴 AI、学习支持、服务助手和心理感知交互。</span></p>
       <figure class="case-visual case-visual--memory">
         <figcaption><span class="lang-en">Long-term affective memory route</span><span class="lang-zh">长期情感记忆路线</span></figcaption>
         <div class="case-memory">
@@ -202,7 +202,7 @@ rank: 3.5
   </article>
   <article class="feature-card">
     <span><span class="lang-en">Validate</span><span class="lang-zh">验证</span></span>
-    <h3><span class="lang-en">Evaluate in the field, not only in a benchmark</span><span class="lang-zh">在现场验证，而不只看基准数据</span></h3>
+    <h3><span class="lang-en">Evaluate in the field</span><span class="lang-zh">在现场验证</span></h3>
     <p><span class="lang-en">Field validation exposes sensor noise, missing data, privacy boundaries, user trust, edge constraints, and maintenance cost.</span><span class="lang-zh">现场验证会暴露传感噪声、数据缺失、隐私边界、用户信任、边缘约束和维护成本。</span></p>
   </article>
   <article class="feature-card">
@@ -220,7 +220,7 @@ rank: 3.5
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Partner fit</span>
-    <h2><span class="lang-en">Best for partners who need a route, not a slogan.</span><span class="lang-zh">最适合需要路线，而不是口号的伙伴。</span></h2>
+    <h2><span class="lang-en">Best for partners who need a usable route.</span><span class="lang-zh">适合需要可用路线的伙伴。</span></h2>
     <p><span class="lang-en">MAC-Lab is a good fit when a partner has a real scenario, sensitive human-state questions, and a need for research credibility, engineering realism, and deployable solutions to mature together.</span><span class="lang-zh">当合作方有真实场景、敏感的人状态问题，并希望科学可信度、工程现实性和可落地方案共同成熟时，MAC-Lab 最适合参与。</span></p>
   </article>
 </div>

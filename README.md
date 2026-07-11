@@ -6,12 +6,21 @@ Website: [https://sxhfut.github.io](https://sxhfut.github.io)
 
 ## About
 
-MAC-Lab began from long-term work in natural language processing, human-computer interaction, and multimodal affective computing. The lab now extends this foundation toward two connected research frameworks:
+MAC-Lab is Professor Xiao Sun's HFUT-based public research platform for multimedia affective computing, psychological computing, and embodied emotional intelligence. The public record connects Professor Sun's HFUT work since 2011 with the HFUT Affective Computing Institute, the Anhui affective-computing key-lab route, Ubiquitous Psychological Computing, and later embodied emotional-intelligence systems. The lab now presents two connected research frameworks:
 
 - **Ubiquitous Psychological Computing**: sensing, profiling, assessing, and supporting mental states in real-world environments.
 - **Embodied Emotional Intelligence**: emotional perception, understanding, expression, and interaction for robots, digital humans, smart cockpits, companion agents, and active-health systems.
 
 The site presents MAC-Lab as a research platform that connects high-level publications, national research programs, technology transfer, student training, industry collaboration, public communication, and real-world AI systems for mind-body health.
+
+## Source-Backed Identity
+
+High-trust public sources used by the site:
+
+- HFUT official faculty page for Professor Xiao Sun: [https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm](https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm)
+- Anhui Artificial Intelligence Society affective-computing committee page: [https://aaai.net.cn/list/qgjszwh](https://aaai.net.cn/list/qgjszwh)
+- External academic report on Professor Xiao Sun's multimodal affective computing in pervasive scenarios: [https://jdxy.cjlu.edu.cn/info/1052/20338.htm](https://jdxy.cjlu.edu.cn/info/1052/20338.htm)
+- Earlier affective-computing paper connecting Xiao Sun, Fuji Ren, HFUT, and the Anhui affective-computing key-lab affiliation: [https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975)
 
 ## Site Sections
 
@@ -76,7 +85,7 @@ Important notes:
 - The admin UI is public, but editing requires GitHub authentication and repository permission once OAuth is configured.
 - Decap CMS with the GitHub backend needs a GitHub OAuth provider or compatible auth proxy before live editing works on GitHub Pages.
 - Local CMS testing can be enabled temporarily with Decap's local backend server, but the committed config is oriented toward GitHub-authenticated editing.
-- The CMS is intentionally limited to public-facing pages. It is not a private lab-management database.
+- The CMS is limited to public-facing pages. Private lab-management records should remain in the internal console and Supabase layer.
 
 GitHub Issue Forms are also available for structured content intake:
 

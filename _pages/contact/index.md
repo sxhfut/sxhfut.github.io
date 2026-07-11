@@ -12,7 +12,7 @@ rank: 8
 <div class="contact-panel">
   <div>
     <h2><span class="lang-en">Join a Platform Where Strong Students and Serious Partners Can Build</span><span class="lang-zh">加入一个能让优秀学生与重要伙伴真正做成事的平台</span></h2>
-    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. The lab values high-quality publications, but its training and collaboration model also emphasizes engineering systems, field validation, technology transfer, and long-term capability building.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能。团队重视高水平论文，但培养与合作模式同样强调工程系统、场景验证、成果转化和长期能力沉淀。</span></p>
+    <p><span class="lang-en">MAC-Lab welcomes undergraduates, master's students, academic PhD students, engineering doctoral students, and collaborators interested in natural language processing, human-computer interaction, affective computing, ubiquitous psychological computing, embodied emotional intelligence, and deployable AI systems. The training and collaboration model connects high-quality publications with engineering systems, field validation, technology transfer, and long-term capability building.</span><span class="lang-zh">MAC-Lab 面向本科生、硕士研究生、学术博士、工程博士及各类合作伙伴开放。我们长期聚焦自然语言处理、人机交互、情感计算、普适心理计算和具身情感智能，并把高水平论文、工程系统、场景验证、成果转化和长期能力沉淀放在同一条培养与合作路线中。</span></p>
     <ul class="clean-list">
       <li><span class="lang-en">Undergraduates who want to join research projects, innovation competitions, and platform development early</span><span class="lang-zh">希望尽早参与科研项目、创新竞赛和平台研发的本科生</span></li>
       <li><span class="lang-en">Master's students, academic PhD students, and engineering doctoral students in computer science, electronic information, software engineering, artificial intelligence, and related fields</span><span class="lang-zh">计算机、电子信息、软件工程、人工智能等方向的硕士、学术博士与工程博士</span></li>
@@ -101,7 +101,7 @@ rank: 8
 </div>
 
 <h2><span class="lang-en">For Industry and Public-Sector Partners</span><span class="lang-zh">面向产业与公共场景合作伙伴</span></h2>
-<p class="muted"><span class="lang-en">MAC-Lab is suitable for partners whose problems cannot be solved by buying an off-the-shelf emotion-recognition model. If your scene involves human state, affect, stress, cognitive load, fatigue, motivation, role fitness, safety, health, service quality, or human performance, the real task is usually a full route: define the problem, sense the right signals, model the state, evaluate risk or capability, design support, and deploy the system responsibly.</span><span class="lang-zh">MAC-Lab 适合那些不能靠购买一个通用情绪识别模型解决问题的合作伙伴。只要你的场景涉及人的状态、情绪、压力、认知负荷、疲劳、动机、岗位适配、安全、健康、服务质量或身心效能，真正要做的通常是一整条路线：定义问题、选择信号、建模状态、评价风险或能力、设计支持方式，并负责任地部署系统。</span></p>
+<p class="muted"><span class="lang-en">MAC-Lab is suitable for partners whose scenarios involve human state, affect, stress, cognitive load, fatigue, motivation, role fitness, safety, health, service quality, or human performance. The work usually follows a full route: define the problem, sense the right signals, model the state, evaluate risk or capability, design support, and deploy the system responsibly.</span><span class="lang-zh">MAC-Lab 适合人的状态、情绪、压力、认知负荷、疲劳、动机、岗位适配、安全、健康、服务质量或身心效能真正影响结果的合作场景。合作通常沿着一整条路线展开：定义问题、选择信号、建模状态、评价风险或能力、设计支持方式，并负责任地部署系统。</span></p>
 
 <div class="card-grid card-grid--four contact-paths">
   <article class="feature-card">
@@ -129,7 +129,7 @@ rank: 8
 <div class="card-grid card-grid--three contact-paths">
   <article class="feature-card">
     <span><span class="lang-en">Typical Entry</span><span class="lang-zh">合作切入</span></span>
-    <h3><span class="lang-en">Bring a real scene, not a polished brief</span><span class="lang-zh">带着真实场景来，而不必先写完美需求书</span></h3>
+    <h3><span class="lang-en">Bring the real scene first</span><span class="lang-zh">先带着真实场景来</span></h3>
     <p><span class="lang-en">A collaboration can start from a site visit, pain-point diagnosis, pilot dataset, technical feasibility study, algorithm module, or prototype system.</span><span class="lang-zh">合作可以从现场调研、痛点诊断、试点数据、技术可行性分析、算法模块或原型系统开始。</span></p>
   </article>
   <article class="feature-card">
@@ -148,12 +148,12 @@ rank: 8
   <article class="framework-card framework-card--dark">
     <span class="framework-kicker">Research + Engineering + Deployment</span>
     <h2><span class="lang-en">Research, Engineering, and Deployment in One Route</span><span class="lang-zh">把科研、工程与场景落地放在同一条路线中</span></h2>
-    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students and partners can see how research questions become validated systems and reusable capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生和合作伙伴在这里看到的是科研问题如何进一步变成可验证系统和可复用能力。</span></p>
+    <p><span class="lang-en">The lab combines IEEE/ACM-level publications, national research programs, defense and public-safety oriented projects, technology transfer, intelligent psychological products, smart cockpit systems, and embodied emotional interaction platforms. Students and partners can see how research questions become validated systems and reusable capability.</span><span class="lang-zh">团队同时拥有 IEEE/ACM 等高水平论文、国家级科研任务、国防与公共安全导向项目、专利成果转化、智能心理产品、智能座舱系统和具身情感交互平台。学生和合作伙伴可以看到科研问题如何变成可验证系统和可复用能力。</span></p>
   </article>
   <article class="framework-card">
     <span class="framework-kicker">Ecosystem</span>
     <h2><span class="lang-en">A Broad Training and Collaboration Network</span><span class="lang-zh">联合培养与开放合作生态</span></h2>
-    <p><span class="lang-en">MAC-Lab grows through joint graduate training with the National University of Defense Technology and sustained exchange with universities such as USTC, UESTC, Tsinghua University, HIT, ECNU, BNU, Dalian University of Technology, Tongji University, Southeast University, regional academic partners, major technology companies, and national-demand application scenarios. The collaboration network gives students access to broader questions, stronger peer communities, and real platforms where research can be tested.</span><span class="lang-zh">MAC-Lab 与国防科技大学开展研究生联合培养，并与中国科学技术大学、电子科技大学、清华大学、哈尔滨工业大学、华东师范大学、北京师范大学、大连理工大学、同济大学、东南大学以及省内高校与区域平台保持合作交流，同时连接头部科技企业和国家重大需求场景。学生在这里接触的不只是单一课题，而是更广阔的问题、更强的同行社区和能够验证研究价值的真实平台。</span></p>
+    <p><span class="lang-en">MAC-Lab grows through joint graduate training with the National University of Defense Technology and sustained exchange with universities such as USTC, UESTC, Tsinghua University, HIT, ECNU, BNU, Dalian University of Technology, Tongji University, Southeast University, regional academic partners, major technology companies, and national-demand application scenarios. The collaboration network gives students access to broader questions, stronger peer communities, and real platforms where research can be tested.</span><span class="lang-zh">MAC-Lab 与国防科技大学开展研究生联合培养，并与中国科学技术大学、电子科技大学、清华大学、哈尔滨工业大学、华东师范大学、北京师范大学、大连理工大学、同济大学、东南大学以及省内高校与区域平台保持合作交流，同时连接头部科技企业和国家重大需求场景。学生在这里接触到更广阔的问题、更强的同行社区和能够验证研究价值的真实平台。</span></p>
   </article>
 </div>
 

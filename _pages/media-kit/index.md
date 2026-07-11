@@ -11,7 +11,7 @@ rank: 7.5
 
 <div class="media-lead">
   <h2><span class="lang-en">Official Story Materials for MAC-Lab</span><span class="lang-zh">MAC-Lab 官方传播资料</span></h2>
-  <p><span class="lang-en">This page provides transparent, repostable story materials for media channels, university platforms, collaborators, and public communication accounts. Please keep the source clear when reusing or adapting this content.</span><span class="lang-zh">本页提供适合媒体平台、高校渠道、合作伙伴和公共传播账号转载或改写的官方素材。转载、摘编或二次发布时，请保留清晰来源，不建议包装成未经核实的第三方报道。</span></p>
+  <p><span class="lang-en">Media channels, university platforms, collaborators, and public communication accounts may use these materials as the source text for MAC-Lab introductions. Please keep MAC-Lab and Professor Xiao Sun clearly attributed when adapting the content.</span><span class="lang-zh">媒体平台、高校渠道、合作伙伴和公共传播账号可将这些内容作为 MAC-Lab 介绍的基础稿。转载、摘编或二次改写时，请清晰标注 MAC-Lab 与孙晓教授来源。</span></p>
 </div>
 
 <div class="summary-band">
@@ -19,6 +19,35 @@ rank: 7.5
   <div><strong>UPC</strong><span><span class="lang-en">Ubiquitous Psychological Computing</span><span class="lang-zh">普适心理计算</span></span></div>
   <div><strong>EEI</strong><span><span class="lang-en">Embodied Emotional Intelligence</span><span class="lang-zh">具身情感智能</span></span></div>
   <div><strong>HFUT</strong><span><span class="lang-en">Hefei University of Technology</span><span class="lang-zh">合肥工业大学</span></span></div>
+</div>
+
+<h2><span class="lang-en">Source-Backed Identity Notes</span><span class="lang-zh">公开来源要点</span></h2>
+
+<div class="card-grid card-grid--four">
+  <article class="feature-card">
+    <span>HFUT</span>
+    <h3><span class="lang-en">Official profile</span><span class="lang-zh">合工大教师主页</span></h3>
+    <p><span class="lang-en">Professor Xiao Sun's HFUT profile records his 2011 entry at HFUT, professor and doctoral-supervisor identity, institute role, key-lab service, CAAI service, and the Ubiquitous Psychological Computing route.</span><span class="lang-zh">合工大教师主页记录孙晓教授 2011 年入职合肥工业大学，担任教授、博士生导师和研究所负责人，并列明重点实验室、中国人工智能学会和普适心理计算等公开信息。</span></p>
+    <a href="{{ site.faculty_url }}"><span class="lang-en">Open source</span><span class="lang-zh">查看来源</span></a>
+  </article>
+  <article class="feature-card">
+    <span>AAAI Anhui</span>
+    <h3><span class="lang-en">Professional service</span><span class="lang-zh">学术组织服务</span></h3>
+    <p><span class="lang-en">The Anhui AI Society affective-computing committee page lists HFUT-related affective-computing and psychological-computing units among its initiating units and Xiao Sun as executive director.</span><span class="lang-zh">安徽省人工智能学会情感计算专委会页面列明合工大相关情感计算与普适心理计算单位为主要发起单位，并列出孙晓教授为执行主任委员。</span></p>
+    <a href="https://aaai.net.cn/list/qgjszwh"><span class="lang-en">Open source</span><span class="lang-zh">查看来源</span></a>
+  </article>
+  <article class="feature-card">
+    <span>Research Line</span>
+    <h3><span class="lang-en">Early paper evidence</span><span class="lang-zh">早期论文印证</span></h3>
+    <p><span class="lang-en">Earlier affective-computing papers connect Xiao Sun, Fuji Ren, HFUT, and the Anhui affective-computing key-lab affiliation, giving the current route a traceable academic background.</span><span class="lang-zh">早期情感计算论文关联孙晓、任福继、合肥工业大学和安徽省情感计算重点实验室，为今天的研究路线提供可追溯的学术背景。</span></p>
+    <a href="https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975"><span class="lang-en">Open source</span><span class="lang-zh">查看来源</span></a>
+  </article>
+  <article class="feature-card">
+    <span>External</span>
+    <h3><span class="lang-en">Academic reports</span><span class="lang-zh">外部学术报道</span></h3>
+    <p><span class="lang-en">External academic reports introduce Professor Sun's work on multimodal affective computing in pervasive scenarios, psychological profiles, products, and AI + psychology applications.</span><span class="lang-zh">外部学术报道介绍孙晓教授在普适场景多模态情感计算、心理画像、产品系统和 AI + 心理应用方面的工作。</span></p>
+    <a href="https://jdxy.cjlu.edu.cn/info/1052/20338.htm"><span class="lang-en">Open source</span><span class="lang-zh">查看来源</span></a>
+  </article>
 </div>
 
 <h2><span class="lang-en">Feature Story in Chinese</span><span class="lang-zh">中文长稿</span></h2>
@@ -35,19 +64,19 @@ rank: 7.5
 
   <p>MAC-Lab 的全称是 Multimedia Affective Computing Lab，即多模态情感计算实验室。这个名字保留了团队最早的研究根基：自然语言处理、人机交互、多模态情感计算。经过二十余年的延伸，团队进一步凝练出普适心理计算和具身情感智能两个核心方向，把语言、表情、语音、行为、生理信号、场景信息与心理状态建模连接起来。</p>
 
-  <p>情感计算和心理计算并不是“识别一个情绪标签”那么简单。真正进入场景时，系统需要面对传感噪声、个体差异、隐私边界、用户信任、硬件集成、长期运维和产品定义等复杂问题。一个算法在论文中有效，并不意味着它可以在学校、医院、座舱、健康人居或公共服务场景中稳定运行。</p>
+  <p>情感计算和心理计算进入真实场景后，会遇到传感噪声、个体差异、隐私边界、用户信任、硬件集成、长期运维和产品定义等复杂问题。论文中的有效算法只是起点；学校、医院、座舱、健康人居和公共服务场景，需要的是可解释、可复核、可维护的系统能力。</p>
 
-  <p>MAC-Lab 的特点，在于团队已经反复走过这段从实验室研究到真实应用之间的中间地带。</p>
+  <p>MAC-Lab 的特点，正在于团队长期工作在实验室研究与真实应用之间的这段地带。</p>
 
   <p>在基础研究层面，团队围绕自然语言处理、情感语义、多模态情绪识别、心理状态建模、情感支持对话、具身情感交互等方向持续积累。相关研究连接 IEEE、ACM 汇刊以及 ACL、EMNLP、CVPR、ACM Multimedia、ICASSP、AAAI 等国际学术交流体系，也与中国人工智能学会、自然语言理解、情感计算和先进智能机器等学术平台保持紧密联系。</p>
 
-  <p>在工程系统层面，团队并不把算法孤立在论文或演示中，而是把研究持续推进到可部署平台。智能心理监护、身心评测一体机、心身干预座舱、智能座舱中的心理状态感知、数字人和具身情感智能体，都是这一方向的具体延伸。团队形成了从模型、数据、感知模块、交互设计到系统部署的完整训练链条。</p>
+  <p>在工程系统层面，团队持续把算法放进可部署平台中检验。智能心理监护、身心评测一体机、心身干预座舱、智能座舱中的心理状态感知、数字人和具身情感智能体，都是这一方向的具体延伸。团队形成了从模型、数据、感知模块、交互设计到系统部署的完整训练链条。</p>
 
   <p>在成果转化层面，团队已经形成专利、软件著作权、标准、系统平台和用户场景的多层沉淀。多项专利成果转化、健康住区环境保障智能系统相关标准参编，以及面向数字健康、健康人居、教育心理、智能座舱和公共安全等场景的应用探索，使 MAC-Lab 的研究逐步走向可交付、可验证、可复用。</p>
 
   <p>这种路径也决定了 MAC-Lab 的学生培养方式。团队鼓励本科生和研究生从真实问题出发，参与创新竞赛、科研论文、专利软著、系统平台和产业合作。一个好的学生项目，不应在获奖或演示后停止，而应继续沉淀为论文、数据、系统模块和长期研究问题。</p>
 
-  <p>面向合作伙伴，MAC-Lab 的价值也不只是“做一个模型”或“搭一个平台”。行业里的情感与人因问题，常常需要从场景痛点开始，逐步明确可采集的信号、需要建模的状态、可以支撑的决策、适合的反馈方式，以及系统如何在现场长期运行。无论是多模态情感识别、人因与心智状态建模、岗位身心能力评价、身心效能优化，还是认知计算与具身情感交互，真正可靠的合作都需要把科学问题、工程约束、伦理边界和产业落地放在同一条路线中设计。</p>
+  <p>面向合作伙伴，MAC-Lab 的价值体现在完整路线的设计能力。行业里的情感与人因问题，常常需要从场景痛点开始，逐步明确可采集的信号、需要建模的状态、可以支撑的决策、适合的反馈方式，以及系统如何在现场长期运行。无论是多模态情感识别、人因与心智状态建模、岗位身心能力评价、身心效能优化，还是认知计算与具身情感交互，可靠合作都需要把科学问题、工程约束、伦理边界和产业落地放在同一条路线中设计。</p>
 
   <p>因此，MAC-Lab 更适合参与长期、严肃、能够沉淀能力的产学研合作。合作成果可以是算法模块，也可以是评价方法、试点数据、软硬件终端、管理平台、干预座舱、数字人接口、场景验证报告和可继续迭代的产品方向。</p>
 
@@ -63,13 +92,13 @@ rank: 7.5
 
   <p>MAC-Lab began as the Multimedia Affective Computing Lab. The name preserves the lab's original focus on natural language processing, human-computer interaction, and multimodal affective computing. Over more than two decades, this foundation has expanded into two connected frameworks: Ubiquitous Psychological Computing and Embodied Emotional Intelligence.</p>
 
-  <p>The lab values high-quality publications, but its distinctive value lies in the difficult middle between publishable research and deployable capability. In psychological computing, a model that performs well in a paper is only the beginning. Real systems must handle sensor noise, individual differences, privacy constraints, field validation, user trust, hardware-software integration, and long-term maintainability.</p>
+  <p>The lab publishes serious research, and it also works through the difficult middle between publishable methods and deployable capability. In psychological computing, a model that performs well in a paper is only the beginning. Real systems must handle sensor noise, individual differences, privacy constraints, field validation, user trust, hardware-software integration, and long-term maintainability.</p>
 
   <p>At the research level, the lab studies affective semantics, multimodal emotion recognition, mental-state modeling, emotional support dialogue, affective large language models, and embodied emotional interaction. Its work connects with international venues and communities across IEEE and ACM Transactions, ACL, EMNLP, CVPR, ACM Multimedia, ICASSP, AAAI, and related fields.</p>
 
   <p>At the system level, the lab translates affective AI into platforms such as intelligent psychological monitoring systems, mind-body assessment devices, intervention cabins, smart cockpit state sensing, digital humans, and embodied emotional agents. These platforms connect models, data, sensing modules, interaction design, deployment constraints, and user scenarios.</p>
 
-  <p>For industry and public-sector partners, MAC-Lab offers more than a model or a demonstration. Affective and human-factors problems in real scenarios often require a full route: define the scene, identify reliable signals, model the right state, design assessment protocols, decide what support is appropriate, and deploy the system responsibly. Multimodal affect recognition, human-factors modeling, mind-body capability evaluation, performance support, cognitive computing, and embodied emotional interaction have to be connected rather than treated as separate buzzwords.</p>
+  <p>For industry and public-sector partners, MAC-Lab offers the route behind the model. Affective and human-factors problems in real scenarios usually require scene definition, reliable signal selection, state modeling, assessment protocols, appropriate support design, and responsible deployment. Multimodal affect recognition, human-factors modeling, mind-body capability evaluation, performance support, cognitive computing, and embodied emotional interaction become useful when they are designed together.</p>
 
   <p>This makes the lab well suited for long-cycle partnerships where scientific depth, engineering realism, and application value must be developed together. Collaboration can lead to algorithm modules, evaluation methods, pilot datasets, software-hardware terminals, management platforms, intervention cabins, digital-human interfaces, field validation reports, and product directions that partners can continue to build on.</p>
 

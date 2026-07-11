@@ -74,6 +74,6 @@ rank: 7
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">What We Want the Public to See</span><span class="lang-zh">我们希望被看见的不只是成果</span></h2>
-  <p><span class="lang-en">These stories point to one consistent belief: affective computing is not about labeling people, but about helping AI understand human situations with more care. MAC-Lab will continue to communicate work on AI mental health, intelligent companionship, digital humans, human-machine coexistence, and youth development in language that is scientifically credible and socially accessible.</span><span class="lang-zh">这些报道共同指向同一件事：情感计算不是给人贴标签，而是帮助 AI 更细致地理解人的处境与状态。MAC-Lab 的公共表达会继续围绕 AI 心理健康、智能陪伴、数字人、人机共生和青少年成长等议题展开，让前沿技术更容易被社会理解，也更谨慎地服务于真实需求。</span></p>
+  <h2><span class="lang-en">What the Public Can Read From These Stories</span><span class="lang-zh">这些报道共同呈现的路线</span></h2>
+  <p><span class="lang-en">These stories point to one consistent belief: affective computing should help AI understand human situations with care, context, and responsibility. MAC-Lab will continue to communicate work on AI mental health, intelligent companionship, digital humans, human-machine coexistence, and youth development in language that is scientifically credible and socially accessible.</span><span class="lang-zh">这些报道共同指向同一件事：情感计算应帮助 AI 在具体情境中更细致、更审慎地理解人的处境与状态。MAC-Lab 的公共表达会继续围绕 AI 心理健康、智能陪伴、数字人、人机共生和青少年成长等议题展开，让前沿技术更容易被社会理解，也更谨慎地服务于真实需求。</span></p>
 </div>
