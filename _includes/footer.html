@@ -42,9 +42,10 @@
         var base = "{{ goatcounter_counter_base | escape }}".replace(/\/+$/, "");
         var path = "{{ goatcounter_counter_path | escape }}" || "TOTAL";
         var displayOffset = Number("{{ goatcounter_display_offset | escape }}") || 0;
-        var endpoint = base + "/counter/" + encodeURIComponent(path) + ".json";
+        var cacheBucket = Math.floor(Date.now() / (60 * 60 * 1000));
+        var endpoint = base + "/counter/" + encodeURIComponent(path) + ".json?v=" + cacheBucket;
 
-        window.fetch(endpoint, { cache: "force-cache", credentials: "omit" })
+        window.fetch(endpoint, { cache: "no-store", credentials: "omit" })
           .then(function (response) {
             if (!response.ok) throw new Error("Counter unavailable");
             return response.json();
