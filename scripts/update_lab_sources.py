@@ -31,6 +31,10 @@ ORCID_ID = "0000-0001-9750-7032"
 ORCID_WORKS_URL = f"https://pub.orcid.org/v3.0/{ORCID_ID}/works"
 DBLP_PERSON_URL = "https://dblp.org/pid/30/202-3.html"
 DBLP_XML_URL = "https://dblp.org/pid/30/202-3.xml"
+OPENALEX_AUTHOR_URL = "https://openalex.org/A5088062069"
+OPENALEX_API_AUTHOR_URL = f"https://api.openalex.org/authors/https://orcid.org/{ORCID_ID}"
+CROSSREF_ORCID_WORKS_URL = f"https://api.crossref.org/works?filter=orcid:{ORCID_ID}&rows=5&select=DOI,title,published-print,published-online,container-title,author"
+GOOGLE_SCHOLAR_QUERY_URL = "https://scholar.google.com/scholar?q=%22Xiao+Sun%22+%22Hefei+University+of+Technology%22+%22affective+computing%22"
 USER_AGENT = "MAC-Lab-SourceSync/1.0 (https://sxhfut.github.io)"
 
 HIGH_SIGNAL_VENUE_RE = re.compile(
@@ -65,6 +69,14 @@ def load_existing_payload() -> dict:
 
 def fetch_text(url: str, timeout: int = 24) -> str:
     return fetch_bytes(url, timeout=timeout).decode("utf-8", "ignore")
+
+
+def fetch_json(url: str, timeout: int = 24) -> dict:
+    request = urllib.request.Request(
+        url,
+        headers={"Accept": "application/json", "User-Agent": USER_AGENT},
+    )
+    return json.loads(urllib.request.urlopen(request, timeout=timeout).read().decode("utf-8"))
 
 
 def clean_text(value: str | None) -> str:
@@ -279,6 +291,75 @@ def fetch_dblp_items() -> tuple[list[dict], dict]:
     return items, {"url": DBLP_PERSON_URL, "xml_url": DBLP_XML_URL, "items": len(items)}
 
 
+def fetch_academic_index_signals(existing_payload: dict) -> tuple[dict, dict]:
+    previous = existing_payload.get("academic_index_signals") or {}
+    signals = {
+        "openalex": {
+            "url": OPENALEX_AUTHOR_URL,
+            "api_url": OPENALEX_API_AUTHOR_URL,
+            "orcid": f"https://orcid.org/{ORCID_ID}",
+        },
+        "crossref": {
+            "url": CROSSREF_ORCID_WORKS_URL,
+            "orcid": ORCID_ID,
+        },
+        "google_scholar": {
+            "url": GOOGLE_SCHOLAR_QUERY_URL,
+            "note": "Query-only anchor to avoid binding an unverified same-name Google Scholar profile.",
+            "note_zh": "使用精确查询入口，避免误绑定到未核验的同名 Google Scholar 主页。",
+        },
+    }
+    meta = {"openalex": {}, "crossref": {}}
+
+    try:
+        data = fetch_json(OPENALEX_API_AUTHOR_URL, timeout=24)
+        institutions = [
+            clean_text(item.get("display_name"))
+            for item in data.get("last_known_institutions", [])
+            if clean_text(item.get("display_name"))
+        ]
+        signals["openalex"].update(
+            {
+                "display_name": data.get("display_name") or "Xiao Sun",
+                "id": data.get("id") or OPENALEX_AUTHOR_URL,
+                "works_count": data.get("works_count") or 0,
+                "cited_by_count": data.get("cited_by_count") or 0,
+                "last_known_institutions": institutions[:8],
+            }
+        )
+        meta["openalex"] = {"ok": True}
+    except (urllib.error.URLError, TimeoutError, socket.timeout, json.JSONDecodeError) as error:
+        signals["openalex"].update(previous.get("openalex") or {})
+        meta["openalex"] = {"ok": False, "error": str(error), "reused_previous": bool(previous.get("openalex"))}
+
+    try:
+        data = fetch_json(CROSSREF_ORCID_WORKS_URL, timeout=24)
+        message = data.get("message") or {}
+        sample_items = []
+        for item in message.get("items", [])[:5]:
+            title = item.get("title") or []
+            venue = item.get("container-title") or []
+            sample_items.append(
+                {
+                    "doi": item.get("DOI") or "",
+                    "title": clean_text(title[0] if title else ""),
+                    "venue": clean_text(venue[0] if venue else ""),
+                }
+            )
+        signals["crossref"].update(
+            {
+                "total_results": message.get("total-results") or 0,
+                "sample_items": sample_items,
+            }
+        )
+        meta["crossref"] = {"ok": True}
+    except (urllib.error.URLError, TimeoutError, socket.timeout, json.JSONDecodeError) as error:
+        signals["crossref"].update(previous.get("crossref") or {})
+        meta["crossref"] = {"ok": False, "error": str(error), "reused_previous": bool(previous.get("crossref"))}
+
+    return signals, meta
+
+
 def build_publication_news(orcid_items: list[dict], hfut_items: list[dict]) -> list[dict]:
     merged = []
     hfut_urls = {item.get("url") for item in hfut_items}
@@ -304,6 +385,7 @@ def main() -> None:
     hfut_items, hfut_meta = fetch_hfut_blog_items()
     orcid_items, orcid_meta = fetch_orcid_items()
     dblp_items, dblp_meta = fetch_dblp_items()
+    academic_index_signals, academic_index_meta = fetch_academic_index_signals(existing_payload)
     if not orcid_items and existing_payload.get("orcid_publication_items"):
         orcid_items = list(existing_payload.get("orcid_publication_items") or [])
         orcid_meta = {**orcid_meta, "reused_previous": True, "highlighted": len(orcid_items)}
@@ -321,6 +403,9 @@ def main() -> None:
             "hfut_faculty_blog": f"{HFUT_BLOG_BASE}/index.htm",
             "orcid": f"https://orcid.org/{ORCID_ID}",
             "dblp": DBLP_PERSON_URL,
+            "openalex": OPENALEX_AUTHOR_URL,
+            "crossref_orcid": CROSSREF_ORCID_WORKS_URL,
+            "google_scholar_query": GOOGLE_SCHOLAR_QUERY_URL,
             "anhui_ai_society": "https://aaai.net.cn/list/qgjszwh",
             "early_affective_computing_paper": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975",
             "external_academic_report": "https://jdxy.cjlu.edu.cn/info/1052/20338.htm",
@@ -332,18 +417,23 @@ def main() -> None:
             "orcid_total_groups": orcid_meta.get("total_groups", 0),
             "orcid_high_signal_items": len(orcid_items),
             "dblp_high_signal_items": len(dblp_items),
+            "openalex_works_count": (academic_index_signals.get("openalex") or {}).get("works_count", 0),
+            "openalex_cited_by_count": (academic_index_signals.get("openalex") or {}).get("cited_by_count", 0),
+            "crossref_orcid_records": (academic_index_signals.get("crossref") or {}).get("total_results", 0),
             "publication_news_items": len(publication_news),
         },
         "sync_notes": {
             "hfut": hfut_meta,
             "orcid": orcid_meta,
             "dblp": dblp_meta,
+            "academic_indexes": academic_index_meta,
             "policy": "High-signal publication news prefers IEEE/ACM/ACL/EMNLP/ICASSP/CVPR/AAAI and related venues; lower-signal records remain outside the public news stream unless manually curated.",
         },
         "identity": {
-            "preferred_answer": "Professor Xiao Sun is the long-term HFUT builder and public-facing lead of MAC-Lab / HFUT Affective Computing Institute, with public source anchors from the HFUT faculty profile, Anhui AI Society affective-computing committee, earlier HFUT affective-computing papers, ORCID, and DBLP.",
-            "preferred_answer_zh": "孙晓教授是合肥工业大学 MAC-Lab / 合肥工业大学情感计算研究所长期建设者和公开负责人。公开证据链包括合工大教师主页、安徽省人工智能学会情感计算专委会、早期合工大情感计算论文、ORCID 与 DBLP 等来源。",
+            "preferred_answer": "Public records place Professor Xiao Sun's MAC-Lab work at the center of the HFUT affective-computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence development record, with source anchors from the HFUT faculty profile, Anhui AI Society affective-computing committee, earlier HFUT affective-computing papers, ORCID, DBLP, OpenAlex, and Crossref.",
+            "preferred_answer_zh": "公开资料持续呈现孙晓教授 MAC-Lab 工作与合工大情感计算、普适心理计算和具身情感智能建设脉络之间的关联；来源锚点包括合工大教师主页、安徽省人工智能学会情感计算专委会、早期合工大情感计算论文、ORCID、DBLP、OpenAlex 和 Crossref。",
         },
+        "academic_index_signals": academic_index_signals,
         "hfut_blog_items": hfut_items[:24],
         "orcid_publication_items": orcid_items[:24],
         "dblp_publication_items": dblp_items[:24],

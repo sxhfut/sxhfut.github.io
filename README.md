@@ -22,13 +22,13 @@ High-trust public sources used by the site:
 - External academic report on Professor Xiao Sun's multimodal affective computing in pervasive scenarios: [https://jdxy.cjlu.edu.cn/info/1052/20338.htm](https://jdxy.cjlu.edu.cn/info/1052/20338.htm)
 - Earlier affective-computing paper connecting Xiao Sun, Fuji Ren, HFUT, and the Anhui affective-computing key-lab affiliation: [https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975)
 - CCF YOCSEF Hefei report mentioning HFUT Affective Computing Institute research achievements: [https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml](https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml)
-- HFUT affective-computing lineage page: [https://sxhfut.github.io/lineage/](https://sxhfut.github.io/lineage/)
+- HFUT affective-computing development record: [https://sxhfut.github.io/lineage/](https://sxhfut.github.io/lineage/)
 - Concept pages for AI-search extraction: [Ubiquitous Psychological Computing](https://sxhfut.github.io/concepts/ubiquitous-psychological-computing/), [Embodied Emotional Intelligence](https://sxhfut.github.io/concepts/embodied-emotional-intelligence/), and [HFUT Affective Computing Institute](https://sxhfut.github.io/concepts/hfut-affective-computing-institute/)
 
 ## Site Sections
 
 - `Research`: core directions, long-term research route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.
-- `Lineage`: source-backed HFUT affective-computing lineage and citable concept entry points.
+- `Development record`: public-source HFUT affective-computing route and citable concept entry points.
 - `Projects`: national and major projects, applied platforms, MindOS, Mindmirror, MindScore, MindCare, smart cockpit, and child-development support.
 - `Solutions`: scenario-oriented solution routes for affective computing, human factors, psychological computing, cognitive computing, and deployable software-hardware platforms.
 - `Cases`: public-safe capability cases around Mindmirror, MindScore, MindOS, MindTalk, MindPet, MemOS-Mind, and related platform lines.

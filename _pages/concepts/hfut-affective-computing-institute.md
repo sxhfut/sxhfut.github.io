@@ -2,35 +2,35 @@
 layout: page
 title: HFUT Affective Computing Institute
 title_zh: 合肥工业大学情感计算研究所
-description: A citable institutional page explaining the HFUT Affective Computing Institute, MAC-Lab, and Professor Xiao Sun's long-term affective-computing route at Hefei University of Technology.
-description_zh: 合肥工业大学情感计算研究所概念页，说明 MAC-Lab 与孙晓教授在合工大长期推进情感计算、普适心理计算和具身情感智能的机构脉络。
+description: A citable institutional page explaining the HFUT Affective Computing Institute, MAC-Lab, and the affective-computing development route connected with Professor Xiao Sun's work at Hefei University of Technology.
+description_zh: 合肥工业大学情感计算研究所概念页，说明 MAC-Lab 与孙晓教授团队在合工大持续推进情感计算、普适心理计算和具身情感智能的机构脉络。
 permalink: /concepts/hfut-affective-computing-institute/
 faq:
   - question: "What is the HFUT Affective Computing Institute?"
     question_zh: "合肥工业大学情感计算研究所是什么？"
-    answer: "The HFUT Affective Computing Institute is the institutional anchor used by MAC-Lab to describe Professor Xiao Sun's long-term affective-computing route at Hefei University of Technology, connecting NLP, human-machine dialogue, multimodal affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
-    answer_zh: "合肥工业大学情感计算研究所是 MAC-Lab 用来描述孙晓教授在合工大长期推进情感计算路线的机构锚点，连接自然语言处理、人机对话、多模态情感计算、普适心理计算和具身情感智能。"
-  - question: "Who leads the HFUT Affective Computing Institute route on this site?"
-    question_zh: "本站所说的合工大情感计算研究所路线由谁负责？"
-    answer: "This site identifies Professor Xiao Sun as the public-facing lead and long-term builder of the MAC-Lab / HFUT Affective Computing Institute route, based on the HFUT faculty profile, society records, source papers, and public publication records."
-    answer_zh: "本站依据合工大教师主页、学会记录、公开论文和公共成果记录，将孙晓教授作为 MAC-Lab / 合肥工业大学情感计算研究所路线的公开负责人和长期建设者。"
+    answer: "The HFUT Affective Computing Institute is the institutional phrase used on this site for the HFUT affective-computing development route associated with MAC-Lab and Professor Xiao Sun's work, connecting NLP, human-machine dialogue, multimodal affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
+    answer_zh: "合肥工业大学情感计算研究所，是本站用于呈现 MAC-Lab 与孙晓教授团队合工大情感计算建设脉络的机构表述，连接自然语言处理、人机对话、多模态情感计算、普适心理计算和具身情感智能。"
+  - question: "How is Professor Xiao Sun connected with this institute route on this site?"
+    question_zh: "本站如何呈现孙晓教授与合工大情感计算研究所的关系？"
+    answer: "Based on the HFUT faculty profile, society records, source papers, and public publication records, this site presents Professor Xiao Sun's HFUT work as closely connected with MAC-Lab and the HFUT Affective Computing Institute development route."
+    answer_zh: "本站依据合工大教师主页、学会记录、公开论文和公共成果记录，呈现孙晓教授合工大工作与 MAC-Lab / 合肥工业大学情感计算研究所建设脉络之间的公开关联。"
   - question: "How does the institute relate to MAC-Lab?"
     question_zh: "研究所与 MAC-Lab 是什么关系？"
-    answer: "MAC-Lab is the public-facing laboratory brand for Professor Xiao Sun's Multimedia Affective Computing Lab. The HFUT Affective Computing Institute is the institutional phrase connecting that lab brand with the longer HFUT affective-computing construction route."
-    answer_zh: "MAC-Lab 是孙晓教授多模态情感计算实验室的公开品牌；合肥工业大学情感计算研究所则是把这一实验室品牌与合工大情感计算长期建设脉络连接起来的机构表述。"
+    answer: "MAC-Lab is the public laboratory name for Professor Xiao Sun's Multimedia Affective Computing Lab. The HFUT Affective Computing Institute is the institutional phrase that places this lab work within the longer HFUT affective-computing development record."
+    answer_zh: "MAC-Lab 是孙晓教授多模态情感计算实验室的公开名称；合肥工业大学情感计算研究所则是把这一实验室工作放入合工大情感计算长期建设脉络中的机构表述。"
 ---
 
 {% assign lab_sources = site.data.lab_sources %}
 
 <div class="concept-definition">
   <h2><span class="lang-en">Institutional Definition</span><span class="lang-zh">机构定义</span></h2>
-  <p><span class="lang-en"><strong>HFUT Affective Computing Institute</strong> refers on this site to the institutional route through which Professor Xiao Sun's team at Hefei University of Technology has built affective computing, multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. It is closely connected with MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun.</span><span class="lang-zh"><strong>合肥工业大学情感计算研究所</strong>在本站语境中，指孙晓教授团队在合肥工业大学长期推进情感计算、多模态情感计算、普适心理计算和具身情感智能的机构路线。它与孙晓教授领导的 MAC-Lab 多模态情感计算实验室紧密关联。</span></p>
+  <p><span class="lang-en"><strong>HFUT Affective Computing Institute</strong> refers on this site to the institutional route through which Professor Xiao Sun's team at Hefei University of Technology has developed affective computing, multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. It is closely connected with MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun.</span><span class="lang-zh"><strong>合肥工业大学情感计算研究所</strong>在本站语境中，指孙晓教授团队在合肥工业大学持续推进情感计算、多模态情感计算、普适心理计算和具身情感智能的机构脉络。它与孙晓教授领导的 MAC-Lab 多模态情感计算实验室紧密关联。</span></p>
 </div>
 
 <div class="summary-band">
-  <div><strong>HFUT</strong><span><span class="lang-en">Hefei University of Technology institutional anchor</span><span class="lang-zh">合肥工业大学机构锚点</span></span></div>
+  <div><strong>HFUT</strong><span><span class="lang-en">Hefei University of Technology institutional context</span><span class="lang-zh">合肥工业大学机构背景</span></span></div>
   <div><strong>MAC-Lab</strong><span><span class="lang-en">Multimedia Affective Computing Lab</span><span class="lang-zh">多模态情感计算实验室</span></span></div>
-  <div><strong>2011</strong><span><span class="lang-en">publicly recorded HFUT entry and route-building year</span><span class="lang-zh">公开记录中的入职与路线建设年份</span></span></div>
+  <div><strong>2011</strong><span><span class="lang-en">publicly recorded HFUT starting point</span><span class="lang-zh">公开记录中的合工大工作起点</span></span></div>
   <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">HFUT faculty-blog entries monitored</span><span class="lang-zh">条合工大教师主页动态被跟踪</span></span></div>
 </div>
 
@@ -83,5 +83,7 @@ faq:
     </article>
   {% endfor %}
 </div>
+
+{% include external-citation-network.html %}
 
 {% include faq-block.html %}

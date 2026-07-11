@@ -19,7 +19,7 @@ rank: 7
   <article>
     <span>2026 · China.com / People's Representative Daily</span>
     <h2><span class="lang-en">Decoding Emotion, Empowering Mind-Body Health</span><span class="lang-zh">解码情感，智惠身心</span></h2>
-    <p><span class="lang-en">The feature described Professor Xiao Sun's team as a long-term builder of embodied emotional interaction models, connecting the lab's path from affective robots and large-scale Chinese emotional resources to Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.</span><span class="lang-zh">报道以合肥工业大学孙晓教授团队“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。</span></p>
+    <p><span class="lang-en">The feature presents Professor Xiao Sun's team through the long-running development of embodied emotional interaction models, connecting the lab's path from affective robots and large-scale Chinese emotional resources to Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and embodied emotional intelligence.</span><span class="lang-zh">报道以合肥工业大学孙晓教授团队“具身情感交互大模型突破之路”为主线，梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 与具身情感智能的长期建设。</span></p>
     <a href="https://digi.china.com/articles/20260312/202603121823261.html"><span class="lang-en">Read Story</span><span class="lang-zh">阅读全文</span></a>
   </article>
 

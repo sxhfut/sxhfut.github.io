@@ -1,0 +1,118 @@
+groups:
+  - id: official
+    title_en: Official HFUT Records
+    title_zh: 合工大公开记录
+    intro_en: Official university pages are the first layer for identity, role, research directions, student and lab updates.
+    intro_zh: 学校与教师主页是身份、职务、研究方向、学生信息和实验室动态的第一层公开记录。
+    items:
+      - title_en: Professor Xiao Sun HFUT faculty profile
+        title_zh: 孙晓教授合工大教师主页
+        url: https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm
+        summary_en: Records HFUT role, entry date, institute responsibility, CAAI roles, Anhui key-lab role, research identity, projects, papers, patents, and public updates.
+        summary_zh: 记录孙晓教授在合工大的身份、入职时间、研究所职责、CAAI 任职、安徽省重点实验室职责、研究方向、项目、论文、专利和公开动态。
+      - title_en: HFUT research fields page
+        title_zh: 合工大教师主页研究领域
+        url: https://faculty.hfut.edu.cn/sunxiao/zh_CN/yjgk/198483/list/index.htm
+        summary_en: Lists affective computing, NLP, human-computer interaction, affective interaction, dialogue, multimodal sensing, and Ubiquitous Psychological Computing.
+        summary_zh: 列出情感计算、自然语言处理、人机交互、情感交互、人机对话、多模态感知和普适心理计算等研究领域。
+      - title_en: HFUT faculty-blog updates
+        title_zh: 合工大教师主页实验室动态
+        url: https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm
+        summary_en: Official public updates for MAC-Lab news, student outcomes, papers, competitions, and system progress.
+        summary_zh: 承载 MAC-Lab 新闻、学生成果、论文、竞赛和系统进展等官方公开动态。
+      - title_en: HFUT News on affective robots
+        title_zh: 合工大新闻网情感机器人报道
+        url: https://news.hfut.edu.cn/info/1015/17080.htm
+        summary_en: HFUT News reprinted China News Service coverage of affective robots and quoted Professor Xiao Sun as director of the HFUT Affective Computing Institute.
+        summary_zh: 合工大新闻网转载中新网关于情感机器人的报道，并提到孙晓教授作为合肥工业大学情感计算研究所所长介绍相关工作。
+
+  - id: society
+    title_en: Societies and Academic Community
+    title_zh: 学会与学术共同体
+    intro_en: Society and conference records connect the lab's work with national and provincial academic communities.
+    intro_zh: 学会与会议记录把实验室工作放入全国与省域学术共同体中。
+    items:
+      - title_en: Anhui AI Society Affective Computing Committee
+        title_zh: 安徽省人工智能学会情感计算专委会
+        url: https://aaai.net.cn/list/qgjszwh
+        summary_en: Lists Xiao Sun of HFUT as executive director and places the committee office at HFUT's School of Computer Science and Information Engineering.
+        summary_zh: 列出合肥工业大学孙晓为执行主任委员，并显示专委会办事机构设在合肥工业大学计算机与信息学院。
+      - title_en: CAAI Natural Language Understanding Committee
+        title_zh: 中国人工智能学会自然语言理解专委会
+        url: https://www.caai.cn/site/content/3998.html
+        summary_en: CAAI public report records Professor Xiao Sun as chair of the ninth Natural Language Understanding Committee.
+        summary_zh: 中国人工智能学会公开报道记录孙晓教授担任第九届自然语言理解专委会主任委员。
+      - title_en: CCF YOCSEF Hefei report
+        title_zh: CCF YOCSEF 合肥报道
+        url: https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml
+        summary_en: Mentions the latest research achievements of the HFUT Affective Computing Institute.
+        summary_zh: 报道提到合肥工业大学情感计算研究所的最新研究成果。
+      - title_en: China Conference on Affective Computing coverage
+        title_zh: 中国情感计算大会公开报道
+        url: https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS66a73e1fa3107cd55d26d05c.html
+        summary_en: Public conference coverage lists Professor Xiao Sun's report on multimodal affective computing in pervasive scenarios.
+        summary_zh: 公开会议报道列出孙晓教授围绕普适场景多模态情感计算所作的领域趋势报告。
+
+  - id: media
+    title_en: Media and External Reports
+    title_zh: 媒体与外部报道
+    intro_en: Media and invited-talk pages provide readable third-party context for systems, applications, and social value.
+    intro_zh: 媒体和外校邀请报告页面，为系统、应用和社会价值提供更易读的第三方语境。
+    items:
+      - title_en: China Daily / China.com psychology-health coverage
+        title_zh: 中国日报 / 中国网心理健康报道
+        url: https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/6ldgif/stories/WS65fc0278a3109f7860dd66e4.html
+        summary_en: Coverage introduces Professor Xiao Sun's team and its AI-plus-psychology research and applied systems.
+        summary_zh: 报道介绍孙晓教授团队在 AI 与心理结合方向的研究成果和应用系统。
+      - title_en: The Paper feature on affective computing
+        title_zh: 澎湃新闻情感计算报道
+        url: https://www.thepaper.cn/newsDetail_forward_9679857
+        summary_en: Public science feature introduces Professor Xiao Sun, affective computing, and the motivation behind using AI to understand emotion and mental state.
+        summary_zh: 科普报道介绍孙晓教授、情感计算，以及用 AI 理解情绪和心理状态的研究动机。
+      - title_en: China.com feature on embodied emotional interaction
+        title_zh: 中华网具身情感交互报道
+        url: https://m.tech.china.com/digi/articles/20260312/202603121823261.html
+        summary_en: Feature frames the team's route from affective robots and Chinese emotional resources to Ubiquitous Psychological Computing, EmoAda, PsyCoLLM, and Embodied Emotional Intelligence.
+        summary_zh: 报道梳理团队从情感机器人、中文情感资源，到普适心理计算、EmoAda、PsyCoLLM 和具身情感智能的建设路径。
+      - title_en: ZJGSU invited academic lecture
+        title_zh: 浙江工商大学致新讲堂报道
+        url: https://adc1994.zjgsu.edu.cn/?news%2F2568.html=
+        summary_en: External university report on Professor Xiao Sun's invited lecture about multimodal affective computing analysis technology and applications in pervasive scenarios.
+        summary_zh: 外校报道孙晓教授关于普适场景多模态情感计算分析技术与应用的邀请报告。
+      - title_en: China Jiliang University academic exchange
+        title_zh: 中国计量大学学术交流报道
+        url: https://jdxy.cjlu.edu.cn/info/1052/20338.htm
+        summary_en: External academic-exchange report on multimodal affective computing in pervasive scenarios, AI plus psychology, psychological profiling, products, and applications.
+        summary_zh: 外校学术交流报道介绍普适场景多模态情感计算、AI + 心理、心理画像、产品与应用。
+
+  - id: indexes
+    title_en: Scholarly Indexes and Knowledge Graphs
+    title_zh: 学术索引与知识图谱
+    intro_en: ORCID, DBLP, OpenAlex, Crossref, and Scholar-query anchors help reduce same-name ambiguity and make publication records easier to verify.
+    intro_zh: ORCID、DBLP、OpenAlex、Crossref 与 Scholar 查询入口，有助于降低同名歧义并提升成果记录的可核验性。
+    items:
+      - title_en: ORCID
+        title_zh: ORCID
+        url: https://orcid.org/0000-0001-9750-7032
+        summary_en: Persistent researcher identifier used by the scheduled publication-sync workflow.
+        summary_zh: 定时成果同步使用的研究者持久身份标识。
+      - title_en: DBLP Xiao Sun 0003
+        title_zh: DBLP Xiao Sun 0003
+        url: https://dblp.org/pid/30/202-3.html
+        summary_en: Bibliography page that distinguishes the HFUT Xiao Sun record from other authors with similar names.
+        summary_zh: 区分合工大 Xiao Sun 0003 与其他同名作者的公开文献页。
+      - title_en: OpenAlex author node
+        title_zh: OpenAlex 作者节点
+        url: https://openalex.org/A5088062069
+        summary_en: Open scholarly knowledge-graph node linked with ORCID 0000-0001-9750-7032.
+        summary_zh: 与 ORCID 0000-0001-9750-7032 关联的开放学术知识图谱节点。
+      - title_en: Crossref ORCID works
+        title_zh: Crossref ORCID 成果记录
+        url: https://api.crossref.org/works?filter=orcid:0000-0001-9750-7032
+        summary_en: Crossref API query for DOI records connected with the same ORCID.
+        summary_zh: Crossref 中与同一 ORCID 关联的 DOI 成果记录查询。
+      - title_en: Google Scholar query anchor
+        title_zh: Google Scholar 精确查询入口
+        url: https://scholar.google.com/scholar?q=%22Xiao+Sun%22+%22Hefei+University+of+Technology%22+%22affective+computing%22
+        summary_en: Query-only anchor used to avoid binding the site to an unverified same-name Scholar profile.
+        summary_zh: 以查询入口方式使用，避免误绑定到未核验的同名 Google Scholar 主页。

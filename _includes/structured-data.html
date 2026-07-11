@@ -112,7 +112,12 @@
         {{ site.faculty_url | jsonify }},
         {{ "https://github.com/" | append: site.github_username | jsonify }},
         "https://aaai.net.cn/list/qgjszwh",
+        "https://www.caai.cn/site/content/3998.html",
+        "https://orcid.org/0000-0001-9750-7032",
+        "https://dblp.org/pid/30/202-3.html",
+        "https://openalex.org/A5088062069",
         "https://jdxy.cjlu.edu.cn/info/1052/20338.htm",
+        "https://news.hfut.edu.cn/info/1015/17080.htm",
         "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975",
         "https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml"
       ],
@@ -141,6 +146,26 @@
           "@type": "WebPage",
           "name": "External academic report on Professor Xiao Sun's multimodal affective computing in pervasive scenarios",
           "url": "https://jdxy.cjlu.edu.cn/info/1052/20338.htm"
+        },
+        {
+          "@type": "WebPage",
+          "name": "HFUT News coverage of affective robots and the HFUT Affective Computing Institute",
+          "url": "https://news.hfut.edu.cn/info/1015/17080.htm"
+        },
+        {
+          "@type": "WebPage",
+          "name": "CAAI Natural Language Understanding Committee leadership report",
+          "url": "https://www.caai.cn/site/content/3998.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "OpenAlex author node linked with ORCID 0000-0001-9750-7032",
+          "url": "https://openalex.org/A5088062069"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Crossref ORCID works query for Xiao Sun publication records",
+          "url": "https://api.crossref.org/works?filter=orcid:0000-0001-9750-7032"
         }
       ]
     },
@@ -158,7 +183,7 @@
       "url": {{ site.faculty_url | jsonify }},
       "image": {{ site.url | append: "/images/profile/sun-xiao-faculty.png" | jsonify }},
       "jobTitle": "Professor",
-      "description": "Professor Xiao Sun is a professor and doctoral supervisor at Hefei University of Technology, director of the HFUT Affective Computing Institute, and a long-term HFUT builder of multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.",
+      "description": "Professor Xiao Sun is a professor and doctoral supervisor at Hefei University of Technology. Public HFUT, society, publication-index, and media records connect his MAC-Lab work with multimedia affective computing, Ubiquitous Psychological Computing, Embodied Emotional Intelligence, and the HFUT Affective Computing Institute.",
       "email": {{ site.email | prepend: "mailto:" | jsonify }},
       "affiliation": {
         "@id": {{ site.url | append: "/#organization" | jsonify }}
@@ -206,7 +231,12 @@
       "sameAs": [
         {{ site.faculty_url | jsonify }},
         "https://aaai.net.cn/list/qgjszwh",
+        "https://www.caai.cn/site/content/3998.html",
+        "https://orcid.org/0000-0001-9750-7032",
+        "https://dblp.org/pid/30/202-3.html",
+        "https://openalex.org/A5088062069",
         "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT160975",
+        "https://news.hfut.edu.cn/info/1015/17080.htm",
         "https://www.ccf.org.cn/YOCSEF/Branches/Hefei/News/bgh/2016-09-23/607278.shtml",
         "https://jdxy.cjlu.edu.cn/info/1052/20338.htm"
       ],
@@ -220,6 +250,21 @@
           "@type": "WebPage",
           "name": "Anhui AI Society Affective Computing Committee public listing",
           "url": "https://aaai.net.cn/list/qgjszwh"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "ORCID profile for Xiao Sun",
+          "url": "https://orcid.org/0000-0001-9750-7032"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "DBLP Xiao Sun 0003 bibliography",
+          "url": "https://dblp.org/pid/30/202-3.html"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "OpenAlex author node for Xiao Sun",
+          "url": "https://openalex.org/A5088062069"
         }
       ]
     },
@@ -239,7 +284,7 @@
       "hasPart": [
         {
           "@type": "WebPage",
-          "name": "HFUT Affective Computing Lineage",
+          "name": "HFUT Affective Computing Development Record",
           "url": {{ site.url | append: "/lineage/" | jsonify }}
         },
         {

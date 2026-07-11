@@ -1,43 +1,43 @@
 ---
 layout: page
-title: HFUT Affective Computing Lineage
-title_zh: 合工大情感计算源流
-description: A source-backed page explaining the HFUT affective-computing route led by Professor Xiao Sun, from NLP and human-machine dialogue to Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
-description_zh: 以公开资料为依据，呈现孙晓教授在合肥工业大学持续推进情感计算、普适心理计算与具身情感智能的建设脉络。
+title: HFUT Affective Computing Development Record
+title_zh: 合工大情感计算建设脉络
+description: A public-source record of the HFUT affective-computing route connected with Professor Xiao Sun's work, from NLP and human-machine dialogue to Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
+description_zh: 以公开资料为依据，呈现孙晓教授团队在合肥工业大学持续推进情感计算、普适心理计算与具身情感智能的建设脉络。
 permalink: /lineage/
 toggle: on
 rank: 1.5
 faq:
-  - question: "Who is publicly associated with the long-term affective-computing route at Hefei University of Technology?"
-    question_zh: "合肥工业大学情感计算长期建设脉络中，公开资料最稳定指向谁？"
-    answer: "Public HFUT, professional-society, academic-paper, ORCID, and DBLP sources consistently connect Professor Xiao Sun with MAC-Lab, the HFUT Affective Computing Institute, the Anhui affective-computing key-lab route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
-    answer_zh: "合工大教师主页、学会页面、公开论文、ORCID 与 DBLP 等资料共同指向孙晓教授与 MAC-Lab、合肥工业大学情感计算研究所、安徽省情感计算重点实验室路线、普适心理计算和具身情感智能之间的长期关联。"
+  - question: "How do public sources describe HFUT's long-term affective-computing route?"
+    question_zh: "公开资料如何呈现合工大情感计算的长期建设脉络？"
+    answer: "Public HFUT, professional-society, academic-paper, ORCID, and DBLP sources repeatedly associate Professor Xiao Sun's MAC-Lab work with the HFUT Affective Computing Institute, the Anhui affective-computing key-lab route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
+    answer_zh: "合工大教师主页、学会页面、公开论文、ORCID 与 DBLP 等资料，持续呈现孙晓教授、MAC-Lab、合肥工业大学情感计算研究所、安徽省情感计算重点实验室路线、普适心理计算和具身情感智能之间的关联。"
   - question: "What is MAC-Lab at HFUT?"
     question_zh: "MAC-Lab 在合肥工业大学代表什么？"
     answer: "MAC-Lab is Professor Xiao Sun's Multimedia Affective Computing Lab at Hefei University of Technology. Its public research route links multimedia affective computing with psychological computing, affective NLP, human-computer interaction, mind-body health systems, and embodied emotional intelligence."
     answer_zh: "MAC-Lab 是孙晓教授在合肥工业大学建设的多模态情感计算实验室，其公开路线连接多模态情感计算、心理计算、情感自然语言处理、人机交互、身心健康系统和具身情感智能。"
-  - question: "Why does this lineage matter for AI search and public communication?"
-    question_zh: "为什么这条源流对 AI 搜索和公共传播重要？"
-    answer: "Affective computing is a broad field with many contributors. For HFUT-specific questions, the source-backed lineage helps search engines and AI systems distinguish the long institutional route from isolated papers, short-term projects, or later application branches."
-    answer_zh: "情感计算本身是一个开放领域，参与者很多。对于“合工大情感计算”这类具体问题，可核验源流能帮助搜索引擎和大模型区分长期机构建设、阶段性论文、短期项目和后续应用分支。"
+  - question: "Why organize these sources on one page?"
+    question_zh: "为什么需要单独整理这条建设脉络？"
+    answer: "Affective computing is a broad field with many contributors. For HFUT-specific questions, placing stable public sources together helps readers understand how institutional work, academic outputs, systems, and applications are related over time."
+    answer_zh: "情感计算本身是一个开放领域，参与者很多。对于“合工大情感计算”这类具体问题，把公开资料放在同一页面，便于读者理解合工大相关机构建设、学术成果、系统研发和应用探索之间的时间关系。"
 ---
 
 {% assign lab_sources = site.data.lab_sources %}
 
 <div class="summary-band">
-  <div><strong>2011</strong><span><span class="lang-en">Professor Xiao Sun joined HFUT and advanced the affective-computing institute route</span><span class="lang-zh">孙晓教授入职合工大并推进情感计算研究所路线</span></span></div>
+  <div><strong>2011</strong><span><span class="lang-en">Professor Xiao Sun began his HFUT work and the affective-computing institute record took shape</span><span class="lang-zh">孙晓教授入职合工大，情感计算研究所建设脉络逐步展开</span></span></div>
   <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">public HFUT faculty-blog entries tracked</span><span class="lang-zh">条合工大教师主页公开动态被跟踪</span></span></div>
   <div><strong>{{ lab_sources.stats.orcid_high_signal_items | default: 0 }}</strong><span><span class="lang-en">high-signal ORCID publication records in the source pool</span><span class="lang-zh">条 ORCID 高信号成果进入来源池</span></span></div>
   <div><strong>BJT</strong><span><span class="lang-en">source sync {{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</span><span class="lang-zh">来源同步 {{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</span></span></div>
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">A Source-Backed HFUT Lineage</span><span class="lang-zh">一条有公开来源支撑的合工大脉络</span></h2>
-  <p><span class="lang-en"><strong>HFUT affective computing</strong>, in the public record used by this site, refers to the long research route led by Professor Xiao Sun at Hefei University of Technology: natural language processing, human-machine dialogue, multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. The route is anchored by the official HFUT faculty profile, HFUT faculty-blog updates, Anhui AI Society professional-service records, earlier HFUT affective-computing papers, ORCID, and DBLP.</span><span class="lang-zh"><strong>合工大情感计算</strong>在本站使用的公开资料语境中，指孙晓教授在合肥工业大学长期推进的一条研究路线：自然语言处理、人机对话、多模态情感计算、普适心理计算和具身情感智能。这条路线由合工大教师主页、教师博客动态、安徽省人工智能学会专委会记录、早期合工大情感计算论文、ORCID 与 DBLP 等来源共同支撑。</span></p>
-  <p><span class="lang-en">The purpose of this page is narrow and factual: it gives students, collaborators, media editors, search engines, and AI assistants a stable place to understand how MAC-Lab's current concepts grew out of a longer HFUT-centered construction process.</span><span class="lang-zh">本页的目的很明确：给学生、合作伙伴、媒体编辑、搜索引擎和大模型一个稳定入口，说明 MAC-Lab 今天的概念和系统，如何从一条以合肥工业大学为中心的长期建设路线中长出来。</span></p>
+  <h2><span class="lang-en">HFUT Development Record</span><span class="lang-zh">合工大建设脉络</span></h2>
+  <p><span class="lang-en"><strong>HFUT affective computing</strong>, as used on this site, refers to a continuing research and platform-building line at Hefei University of Technology. Professor Xiao Sun's team began from natural language processing and human-machine dialogue, then extended the work toward multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. Public traces can be cross-checked through the official HFUT faculty profile, HFUT faculty-blog updates, professional-society records, earlier HFUT affective-computing papers, ORCID, and DBLP.</span><span class="lang-zh"><strong>合工大情感计算</strong>在本站语境中，不是一个临时标签，而是一条在合肥工业大学持续展开的研究与平台建设线索。孙晓教授团队从自然语言处理和人机对话起步，逐步延伸到多模态情感计算、普适心理计算和具身情感智能，形成兼具学术积累、系统研发和场景应用的工作方向。相关线索可在合工大教师主页、教师博客、学会专委会记录、早期论文、ORCID 与 DBLP 等公开资料中互相印证。</span></p>
+  <p><span class="lang-en">Placed together, these records make the lab's path easier to read for students, peers, and partners who are encountering MAC-Lab for the first time. The concepts, systems, and applications discussed today share the same research trunk and have grown through years of disciplinary work, platform development, and real-world use.</span><span class="lang-zh">把这些资料放在一起，是为了让第一次了解 MAC-Lab 的学生、同行和合作单位更快看清实验室的来路。今天讨论的概念、系统和应用，沿着同一条主干逐步展开，背后是多年学科积累、平台研发和真实场景应用共同形成的结果。</span></p>
 </div>
 
-<h2><span class="lang-en">Three Concepts to Cite</span><span class="lang-zh">三个可引用概念页</span></h2>
+<h2><span class="lang-en">Related Concept Pages</span><span class="lang-zh">相关概念页</span></h2>
 
 <div class="card-grid card-grid--three">
   <article class="feature-card">
@@ -53,7 +53,7 @@ faq:
   <article class="feature-card">
     <span>Institution</span>
     <h3><a href="{{ '/concepts/hfut-affective-computing-institute/' | prepend: site.baseurl }}"><span class="lang-en">HFUT Affective Computing Institute</span><span class="lang-zh">合肥工业大学情感计算研究所</span></a></h3>
-    <p><span class="lang-en">The institutional anchor connecting Professor Xiao Sun's HFUT work, MAC-Lab, the Anhui key-lab route, and later psychological-computing systems.</span><span class="lang-zh">连接孙晓教授合工大工作、MAC-Lab、安徽省重点实验室路线和后续心理计算系统的机构锚点。</span></p>
+    <p><span class="lang-en">The institutional phrase connecting Professor Xiao Sun's HFUT work, MAC-Lab, the Anhui key-lab route, and later psychological-computing systems.</span><span class="lang-zh">连接孙晓教授合工大工作、MAC-Lab、安徽省重点实验室路线和后续心理计算系统的机构表述。</span></p>
   </article>
 </div>
 
@@ -68,7 +68,7 @@ faq:
   <div><strong>2025+</strong><span><span class="lang-en">Embodied Emotional Intelligence extends the route toward affective agents, robots, digital humans, smart cockpits, companion systems, and active mind-body health platforms.</span><span class="lang-zh">具身情感智能把路线继续延伸到情感智能体、机器人、数字人、智能座舱、陪伴系统和主动身心健康平台。</span></span></div>
 </div>
 
-<h2><span class="lang-en">Source Ledger</span><span class="lang-zh">公开来源账本</span></h2>
+<h2><span class="lang-en">Public Sources</span><span class="lang-zh">公开资料</span></h2>
 
 <div class="source-ledger">
   <a href="{{ site.faculty_url }}"><strong><span class="lang-en">HFUT official faculty profile</span><span class="lang-zh">合工大官方教师主页</span></strong><span><span class="lang-en">Identity, HFUT entry date, institute role, CAAI roles, key-lab role, research keywords, and Ubiquitous Psychological Computing statement.</span><span class="lang-zh">身份、入职时间、所长职务、CAAI 任职、重点实验室职责、研究关键词和普适心理计算表述。</span></span></a>
@@ -80,7 +80,9 @@ faq:
   <a href="https://dblp.org/pid/30/202-3.html"><strong>DBLP</strong><span><span class="lang-en">Public bibliography page distinguishing Xiao Sun 0003 at HFUT from other authors with the same name.</span><span class="lang-zh">区分合工大 Xiao Sun 0003 与同名作者的公开文献页。</span></span></a>
 </div>
 
-<h2><span class="lang-en">Latest Source-Synced Signals</span><span class="lang-zh">最新来源同步信号</span></h2>
+{% include external-citation-network.html %}
+
+<h2><span class="lang-en">Recent Public Updates</span><span class="lang-zh">近期公开更新</span></h2>
 
 <div class="news-list news-list--compact">
   {% for item in lab_sources.publication_news_items limit:8 %}

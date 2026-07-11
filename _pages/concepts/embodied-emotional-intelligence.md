@@ -53,7 +53,9 @@ faq:
 <div class="source-ledger">
   <a href="https://digi.china.com/articles/20260312/202603121823261.html"><strong><span class="lang-en">Public media feature</span><span class="lang-zh">公开媒体报道</span></strong><span><span class="lang-en">Public coverage links Professor Xiao Sun's team with embodied emotional interaction models, affective robots, EmoAda, PsyCoLLM, Ubiquitous Psychological Computing, and embodied emotional intelligence.</span><span class="lang-zh">公开报道将孙晓教授团队与具身情感交互大模型、情感机器人、EmoAda、PsyCoLLM、普适心理计算和具身情感智能联系起来。</span></span></a>
   <a href="{{ site.faculty_url }}"><strong><span class="lang-en">HFUT faculty profile</span><span class="lang-zh">合工大教师主页</span></strong><span><span class="lang-en">Official institutional identity and long research route.</span><span class="lang-zh">官方机构身份与长期研究路线。</span></span></a>
-  <a href="{{ '/lineage/' | prepend: site.baseurl }}"><strong><span class="lang-en">HFUT lineage page</span><span class="lang-zh">合工大源流页</span></strong><span><span class="lang-en">The source-backed bridge from affective computing to psychological computing and embodied emotional intelligence.</span><span class="lang-zh">从情感计算到心理计算和具身情感智能的公开证据链。</span></span></a>
+  <a href="{{ '/lineage/' | prepend: site.baseurl }}"><strong><span class="lang-en">HFUT development record</span><span class="lang-zh">合工大建设脉络</span></strong><span><span class="lang-en">A public-source record connecting affective computing, psychological computing, and embodied emotional intelligence.</span><span class="lang-zh">连接情感计算、心理计算和具身情感智能的公开资料记录。</span></span></a>
 </div>
+
+{% include external-citation-network.html %}
 
 {% include faq-block.html %}

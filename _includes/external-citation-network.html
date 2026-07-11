@@ -1,0 +1,39 @@
+{% assign network = site.data.external_citation_network %}
+{% assign lab_sources = site.data.lab_sources %}
+{% if network.groups %}
+<section class="citation-network" aria-labelledby="citation-network-heading">
+  <div class="section-heading section-heading--wide">
+    <h2 id="citation-network-heading"><span class="lang-en">External Citation Network</span><span class="lang-zh">外部引用网络</span></h2>
+    <p><span class="lang-en">The following public links connect MAC-Lab, Professor Xiao Sun, the HFUT Affective Computing Institute, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence across official records, societies, media reports, and scholarly indexes.</span><span class="lang-zh">以下公开链接把 MAC-Lab、孙晓教授、合肥工业大学情感计算研究所、普适心理计算和具身情感智能放入学校记录、学会页面、媒体报道和学术索引共同构成的引用网络中。</span></p>
+  </div>
+
+  {% if lab_sources.academic_index_signals %}
+    <div class="citation-network__metrics">
+      {% assign openalex = lab_sources.academic_index_signals.openalex %}
+      {% assign crossref = lab_sources.academic_index_signals.crossref %}
+      <div><strong>{{ openalex.works_count | default: "397" }}</strong><span><span class="lang-en">OpenAlex works linked with ORCID</span><span class="lang-zh">OpenAlex 关联成果</span></span></div>
+      <div><strong>{{ openalex.cited_by_count | default: "7521" }}</strong><span><span class="lang-en">OpenAlex citation signal</span><span class="lang-zh">OpenAlex 引用信号</span></span></div>
+      <div><strong>{{ crossref.total_results | default: "69" }}</strong><span><span class="lang-en">Crossref ORCID DOI records</span><span class="lang-zh">Crossref ORCID DOI 记录</span></span></div>
+    </div>
+  {% endif %}
+
+  <div class="citation-network__groups">
+    {% for group in network.groups %}
+      <article class="citation-network__group">
+        <header>
+          <h3><span class="lang-en">{{ group.title_en }}</span><span class="lang-zh">{{ group.title_zh }}</span></h3>
+          <p><span class="lang-en">{{ group.intro_en }}</span><span class="lang-zh">{{ group.intro_zh }}</span></p>
+        </header>
+        <div class="source-ledger source-ledger--compact">
+          {% for item in group.items %}
+            <a href="{{ item.url }}">
+              <strong><span class="lang-en">{{ item.title_en }}</span><span class="lang-zh">{{ item.title_zh }}</span></strong>
+              <span><span class="lang-en">{{ item.summary_en }}</span><span class="lang-zh">{{ item.summary_zh }}</span></span>
+            </a>
+          {% endfor %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

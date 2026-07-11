@@ -135,7 +135,7 @@ rank: 7.5
 <div class="project-list project-list--page">
   <article>
     <h2><span class="lang-en">Authoritative Sources</span><span class="lang-zh">权威来源</span></h2>
-    <p><span class="lang-en">MAC-Lab website, HFUT faculty page, school or university news channels, partner websites, and GitHub Pages. These pages are stable and easy for search engines and AI systems to crawl.</span><span class="lang-zh">MAC-Lab 官网、合工大教师主页、学院或学校新闻网、合作伙伴官网、GitHub Pages。这些页面稳定、可追溯，适合作为搜索引擎和大模型抓取的源头。</span></p>
+    <p><span class="lang-en">MAC-Lab website, HFUT faculty page, school or university news channels, partner websites, and GitHub Pages. These pages are stable, traceable, and suitable for long-term public reference.</span><span class="lang-zh">MAC-Lab 官网、合工大教师主页、学院或学校新闻网、合作伙伴官网、GitHub Pages。这些页面稳定、可追溯，适合作为公开传播和长期引用的来源。</span></p>
   </article>
   <article>
     <h2><span class="lang-en">Knowledge Platforms</span><span class="lang-zh">知识平台</span></h2>
