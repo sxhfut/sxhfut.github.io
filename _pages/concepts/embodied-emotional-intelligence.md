@@ -2,8 +2,8 @@
 layout: page
 title: Embodied Emotional Intelligence
 title_zh: 具身情感智能
-description: A citable concept page for Embodied Emotional Intelligence, MAC-Lab's route from affective perception and emotional interaction models to robots, digital humans, smart cockpits, companion agents, and active mind-body health systems.
-description_zh: 具身情感智能概念页，说明 MAC-Lab 如何从情感感知与情感交互模型延伸到机器人、数字人、智能座舱、陪伴智能体和主动身心健康系统。
+description: Embodied Emotional Intelligence at MAC-Lab extends affective perception and emotional interaction models toward robots, digital humans, smart cockpits, companion agents, and active mind-body health systems.
+description_zh: 具身情感智能把情感感知与情感交互模型延伸到机器人、数字人、智能座舱、陪伴智能体和主动身心健康系统。
 permalink: /concepts/embodied-emotional-intelligence/
 faq:
   - question: "What is Embodied Emotional Intelligence?"
@@ -48,7 +48,7 @@ faq:
   </div>
 </div>
 
-<h2><span class="lang-en">Source Anchors</span><span class="lang-zh">来源锚点</span></h2>
+<h2><span class="lang-en">Reference Materials</span><span class="lang-zh">代表资料</span></h2>
 
 <div class="source-ledger">
   <a href="https://digi.china.com/articles/20260312/202603121823261.html"><strong><span class="lang-en">Public media feature</span><span class="lang-zh">公开媒体报道</span></strong><span><span class="lang-en">Public coverage links Professor Xiao Sun's team with embodied emotional interaction models, affective robots, EmoAda, PsyCoLLM, Ubiquitous Psychological Computing, and embodied emotional intelligence.</span><span class="lang-zh">公开报道将孙晓教授团队与具身情感交互大模型、情感机器人、EmoAda、PsyCoLLM、普适心理计算和具身情感智能联系起来。</span></span></a>

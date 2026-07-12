@@ -218,6 +218,6 @@ rank: 2.5
 </section>
 
 <div class="media-note solution-note">
-  <h2><span class="lang-en">Partner question this page answers</span><span class="lang-zh">这个页面回答合作方的核心问题</span></h2>
-  <p><span class="lang-en">If a scenario depends on human emotion, stress, cognition, safety, trust, service quality, or mind-body performance, MAC-Lab can help define the problem and build a route from research insight to deployable capability.</span><span class="lang-zh">如果一个场景依赖人的情绪、压力、认知、安全、信任、服务质量或身心效能，MAC-Lab 可以帮助定义问题，并把研究判断推进到可部署能力。</span></p>
+  <h2><span class="lang-en">From Scenario Need to Deployable Capability</span><span class="lang-zh">从场景需求到可部署能力</span></h2>
+  <p><span class="lang-en">When a scenario depends on human emotion, stress, cognition, safety, trust, service quality, or mind-body performance, MAC-Lab can help define the problem and build a route from research insight to deployable capability.</span><span class="lang-zh">当一个场景依赖人的情绪、压力、认知、安全、信任、服务质量或身心效能，MAC-Lab 可以帮助定义问题，并把研究判断推进到可部署能力。</span></p>
 </div>

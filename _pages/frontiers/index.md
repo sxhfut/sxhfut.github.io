@@ -3,7 +3,7 @@ layout: page
 title: Frontiers
 title_zh: 前沿雷达
 description: A living radar for affective computing, AI for psychology, embodied emotional intelligence, and industry applications.
-description_zh: 自动聚合情感计算、人工智能+心理、具身情感智能与产业应用动态的前沿雷达。
+description_zh: 持续跟踪情感计算、人工智能+心理、具身情感智能与产业应用动态的前沿雷达。
 permalink: /frontiers/
 toggle: on
 rank: 6
@@ -22,9 +22,9 @@ rank: 6
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">本页如何自动更新</span></h2>
-  <p><span class="lang-en">Scheduled and manual GitHub Actions refresh this page. Full refreshes fetch open arXiv metadata, scan selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, merge usable Last30Days community or open-source signals, then add curated lab applications, media reports, and standards updates into static content. Curated-only refreshes update lab-selected items quickly.</span><span class="lang-zh">本页由 GitHub Actions 定时或手动刷新。全量刷新会抓取开放 arXiv 论文元数据，扫描研究机构、期刊、AI 媒体与产业渠道 RSS / Atom 订阅源，并在有可用信号时合并 Last30Days 社区与开源动态，再加入实验室精选应用、媒体报道与标准成果。精选刷新则用于快速更新人工选择条目。</span></p>
-  <p><span class="lang-en">The radar is a discovery layer. Items are pointers to primary sources and should be read with the original links.</span><span class="lang-zh">前沿雷达承担发现与筛选功能。所有条目都是通往原始来源的线索，应结合原文继续阅读。</span></p>
+  <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">前沿雷达如何更新</span></h2>
+  <p><span class="lang-en">The radar is refreshed regularly, usually once or twice a day. It follows open paper metadata, selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, then combines them with lab-selected applications, media reports, and standards updates.</span><span class="lang-zh">前沿雷达保持日常更新，通常每天 1-2 次。内容来自开放论文元数据、研究机构、期刊、AI 媒体和产业渠道的 RSS / Atom 订阅源，并结合实验室关注的应用进展、媒体报道和标准成果。</span></p>
+  <p><span class="lang-en">Each entry points back to its original source. The radar is meant for discovery, reading, and discussion inside MAC-Lab's research route.</span><span class="lang-zh">每条内容都保留原始链接。这个雷达更像一个发现、阅读和讨论入口，服务 MAC-Lab 长期关注的研究方向。</span></p>
 </div>
 
 <div class="frontier-lens-board">
@@ -149,7 +149,7 @@ rank: 6
 
 <div class="frontier-empty" data-frontier-empty hidden>
   <strong><span class="lang-en">No matching radar item yet.</span><span class="lang-zh">暂时没有匹配条目。</span></strong>
-  <p><span class="lang-en">Try another keyword, switch filters, or check back after the next scheduled update.</span><span class="lang-zh">可以换一个关键词、切换筛选条件，或等待下一次定时更新。</span></p>
+  <p><span class="lang-en">Try another keyword, switch filters, or come back after the next refresh.</span><span class="lang-zh">可以换一个关键词、切换筛选条件，或等下一次更新后再看。</span></p>
 </div>
 
 <nav class="frontier-pagination frontier-pagination--bottom" data-frontier-pagination hidden aria-label="Frontier pagination bottom">

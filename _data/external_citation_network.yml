@@ -1,9 +1,9 @@
 groups:
   - id: official
-    title_en: Official HFUT Records
-    title_zh: 合工大公开记录
-    intro_en: Official university pages are the first layer for identity, role, research directions, student and lab updates.
-    intro_zh: 学校与教师主页是身份、职务、研究方向、学生信息和实验室动态的第一层公开记录。
+    title_en: HFUT Records
+    title_zh: 合工大资料
+    intro_en: University and faculty pages record identity, role, research directions, student information, and lab updates.
+    intro_zh: 学校与教师主页记录身份、职务、研究方向、学生信息和实验室动态。
     items:
       - title_en: Professor Xiao Sun HFUT faculty profile
         title_zh: 孙晓教授合工大教师主页
@@ -18,8 +18,8 @@ groups:
       - title_en: HFUT faculty-blog updates
         title_zh: 合工大教师主页实验室动态
         url: https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm
-        summary_en: Official public updates for MAC-Lab news, student outcomes, papers, competitions, and system progress.
-        summary_zh: 承载 MAC-Lab 新闻、学生成果、论文、竞赛和系统进展等官方公开动态。
+        summary_en: MAC-Lab news, student outcomes, papers, competitions, and system progress.
+        summary_zh: 记录 MAC-Lab 新闻、学生成果、论文、竞赛和系统进展。
       - title_en: HFUT News on affective robots
         title_zh: 合工大新闻网情感机器人报道
         url: https://news.hfut.edu.cn/info/1015/17080.htm
@@ -54,10 +54,10 @@ groups:
         summary_zh: 公开会议报道列出孙晓教授围绕普适场景多模态情感计算所作的领域趋势报告。
 
   - id: media
-    title_en: Media and External Reports
-    title_zh: 媒体与外部报道
-    intro_en: Media and invited-talk pages provide readable third-party context for systems, applications, and social value.
-    intro_zh: 媒体和外校邀请报告页面，为系统、应用和社会价值提供更易读的第三方语境。
+    title_en: Media and Invited Talks
+    title_zh: 媒体与邀请报告
+    intro_en: Media and invited-talk pages make the systems, applications, and social value easier to understand.
+    intro_zh: 媒体和外校邀请报告，让系统、应用和社会价值更容易被理解。
     items:
       - title_en: China Daily / China.com psychology-health coverage
         title_zh: 中国日报 / 中国网心理健康报道
@@ -88,14 +88,14 @@ groups:
   - id: indexes
     title_en: Scholarly Indexes and Knowledge Graphs
     title_zh: 学术索引与知识图谱
-    intro_en: ORCID, DBLP, OpenAlex, Crossref, and Scholar-query anchors help reduce same-name ambiguity and make publication records easier to verify.
-    intro_zh: ORCID、DBLP、OpenAlex、Crossref 与 Scholar 查询入口，有助于降低同名歧义并提升成果记录的可核验性。
+    intro_en: ORCID, DBLP, OpenAlex, Crossref, and Scholar search help readers follow Professor Sun's publications across common academic indexes.
+    intro_zh: ORCID、DBLP、OpenAlex、Crossref 与 Scholar 检索入口，方便读者从常用学术索引继续查看孙晓教授的论文成果。
     items:
       - title_en: ORCID
         title_zh: ORCID
         url: https://orcid.org/0000-0001-9750-7032
-        summary_en: Persistent researcher identifier used by the scheduled publication-sync workflow.
-        summary_zh: 定时成果同步使用的研究者持久身份标识。
+        summary_en: Persistent researcher identifier for Professor Xiao Sun's publication record.
+        summary_zh: 孙晓教授论文成果记录的研究者身份标识。
       - title_en: DBLP Xiao Sun 0003
         title_zh: DBLP Xiao Sun 0003
         url: https://dblp.org/pid/30/202-3.html
@@ -114,5 +114,5 @@ groups:
       - title_en: Google Scholar query anchor
         title_zh: Google Scholar 精确查询入口
         url: https://scholar.google.com/scholar?q=%22Xiao+Sun%22+%22Hefei+University+of+Technology%22+%22affective+computing%22
-        summary_en: Query-only anchor used to avoid binding the site to an unverified same-name Scholar profile.
-        summary_zh: 以查询入口方式使用，避免误绑定到未核验的同名 Google Scholar 主页。
+        summary_en: Search entry for publications combining Xiao Sun, HFUT, and affective computing.
+        summary_zh: 围绕 Xiao Sun、合肥工业大学和情感计算的 Scholar 检索入口。

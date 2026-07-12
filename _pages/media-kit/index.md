@@ -143,6 +143,6 @@ rank: 7.5
   </article>
   <article>
     <h2><span class="lang-en">Social Distribution</span><span class="lang-zh">社交扩散</span></h2>
-    <p><span class="lang-en">Xiaohongshu, Bilibili, WeChat Channels, and short-video platforms can use shorter public-facing explanations that point back to this page.</span><span class="lang-zh">小红书、B 站、视频号和短视频平台适合发布更短、更自然的科普内容，并链接回本页作为权威来源。</span></p>
+    <p><span class="lang-en">Xiaohongshu, Bilibili, WeChat Channels, and short-video platforms can use shorter public-facing explanations that point readers back to the lab website.</span><span class="lang-zh">小红书、B 站、视频号和短视频平台适合发布更短、更自然的科普内容，再把读者引回实验室官网。</span></p>
   </article>
 </div>

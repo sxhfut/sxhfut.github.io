@@ -2,8 +2,8 @@
 layout: page
 title: Ubiquitous Psychological Computing
 title_zh: 普适心理计算
-description: A citable concept page for Ubiquitous Psychological Computing, the MAC-Lab framework that connects multimodal sensing, psychological profiling, assessment, early warning, and human-reviewed support in real environments.
-description_zh: 普适心理计算概念页，说明 MAC-Lab 如何把多模态感知、心理画像、评估预警与人在回路支持连接到真实环境中。
+description: Ubiquitous Psychological Computing at MAC-Lab connects multimodal sensing, psychological profiling, assessment, early warning, and human-reviewed support in real environments.
+description_zh: 普适心理计算连接多模态感知、心理画像、评估预警与人在回路支持，面向真实环境中的连续心理状态理解。
 permalink: /concepts/ubiquitous-psychological-computing/
 faq:
   - question: "What is Ubiquitous Psychological Computing?"
@@ -48,12 +48,12 @@ faq:
   </div>
 </div>
 
-<h2><span class="lang-en">Source Anchors</span><span class="lang-zh">来源锚点</span></h2>
+<h2><span class="lang-en">Reference Materials</span><span class="lang-zh">代表资料</span></h2>
 
 <div class="source-ledger">
   <a href="{{ site.faculty_url }}"><strong><span class="lang-en">HFUT faculty profile</span><span class="lang-zh">合工大教师主页</span></strong><span><span class="lang-en">The official profile records Ubiquitous Psychological Computing among Professor Xiao Sun's public research identity and route.</span><span class="lang-zh">合工大官方主页将普适心理计算列入孙晓教授公开研究身份与路线。</span></span></a>
   <a href="https://jdxy.cjlu.edu.cn/info/1052/20338.htm"><strong><span class="lang-en">External academic report</span><span class="lang-zh">外校学术报道</span></strong><span><span class="lang-en">The report introduces multimodal affective computing in pervasive scenarios, AI + psychology, psychological profiling, products, and applications.</span><span class="lang-zh">报道介绍普适场景多模态情感计算、AI + 心理、心理画像、产品与应用。</span></span></a>
-  <a href="{{ '/lineage/' | prepend: site.baseurl }}"><strong><span class="lang-en">HFUT development record</span><span class="lang-zh">合工大建设脉络</span></strong><span><span class="lang-en">This page places the concept within the broader HFUT affective-computing development route.</span><span class="lang-zh">该页面把这一概念放回合工大情感计算长期建设脉络中。</span></span></a>
+  <a href="{{ '/lineage/' | prepend: site.baseurl }}"><strong><span class="lang-en">HFUT development route</span><span class="lang-zh">合工大建设脉络</span></strong><span><span class="lang-en">The broader route connecting affective computing, psychological computing, and real-world systems at HFUT.</span><span class="lang-zh">连接情感计算、心理计算和真实场景系统的合工大长期路线。</span></span></a>
 </div>
 
 {% include external-citation-network.html %}
