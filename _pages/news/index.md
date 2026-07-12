@@ -13,9 +13,9 @@ rank: 5
 
 <div class="summary-band">
   <div><strong>Newsroom</strong><span><span class="lang-en">first-hand MAC-Lab announcements</span><span class="lang-zh">实验室一手动态发布</span></span></div>
-  <div><strong>{{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</strong><span><span class="lang-en">latest public-source refresh</span><span class="lang-zh">最新公开来源同步</span></span></div>
-  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">public faculty-blog entries tracked</span><span class="lang-zh">教师博客公开动态条目</span></span></div>
-  <div><strong>ORCID</strong><span><span class="lang-en">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} high-signal publication records in the source pool</span><span class="lang-zh">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} 条高信号成果进入来源池</span></span></div>
+  <div><strong>{{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</strong><span><span class="lang-en">latest refresh</span><span class="lang-zh">最近更新</span></span></div>
+  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">faculty-blog entries collected</span><span class="lang-zh">教师博客动态条目</span></span></div>
+  <div><strong>ORCID</strong><span><span class="lang-en">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} recent publication records highlighted</span><span class="lang-zh">{{ lab_sources.stats.orcid_high_signal_items | default: 0 }} 条近期成果被整理</span></span></div>
 </div>
 
 <div class="media-note">
@@ -24,8 +24,8 @@ rank: 5
   <p><a href="{{ '/frontiers/' | prepend: site.baseurl }}"><span class="lang-en">AI + Psychology Frontier Radar</span><span class="lang-zh">查看 AI + 心理前沿雷达</span></a></p>
 </div>
 
-<h2><span class="lang-en">Source-Synced Updates</span><span class="lang-zh">公开来源同步动态</span></h2>
-<p class="muted"><span class="lang-en">This stream is refreshed by scheduled GitHub Actions from the HFUT faculty blog and public publication records. It is intentionally selective: official lab posts and high-signal publication venues are surfaced first.</span><span class="lang-zh">这一栏由 GitHub Actions 定时从合工大教师博客和公开论文记录同步。它会有选择地展示：优先呈现实验室官方动态和高信号发表来源。</span></p>
+<h2><span class="lang-en">Recent Updates</span><span class="lang-zh">近期更新</span></h2>
+<p class="muted"><span class="lang-en">This stream brings together faculty-blog posts, publication records, media coverage, and first-hand lab updates.</span><span class="lang-zh">这里汇集教师博客、论文成果、媒体报道和实验室一手动态，按时间整理，便于快速了解近期进展。</span></p>
 
 <div class="news-list news-list--compact">
   {% for item in lab_sources.publication_news_items limit:8 %}
@@ -54,6 +54,14 @@ rank: 5
 <p class="muted"><span class="lang-en">A curated stream of MAC-Lab progress across research platforms, publications, student training, competitions, standards, media visibility, and real-world applications.</span><span class="lang-zh">这里汇集 MAC-Lab 在科研平台、论文成果、学生培养、竞赛获奖、标准建设、媒体传播和成果转化方面的阶段性进展。</span></p>
 
 <div class="news-list">
+  <article>
+    <time>2026-07-13</time>
+    <div>
+      <h2><span class="lang-en">MAC-Lab official account “Let AI Understand People” released</span><span class="lang-zh">实验室公众号“让AI更懂人”发布</span></h2>
+      <p><span class="lang-en">MAC-Lab opened a new public communication channel under the name “Let AI Understand People”, sharing research progress, student training, platform development, and real-world applications around affective computing and psychological computing.</span><span class="lang-zh">实验室公众号“让AI更懂人”今天发布。后续将围绕情感计算、心理计算、具身情感智能、学生培养、平台建设和真实场景 AI 应用，持续记录 MAC-Lab 的研究与成长。</span></p>
+      <a href="{{ '/news/' | prepend: site.baseurl }}"><span class="lang-en">Newsroom</span><span class="lang-zh">实验室新闻</span></a>
+    </div>
+  </article>
   <article>
     <time>2026-06-22</time>
     <div>

@@ -1,17 +1,17 @@
 ---
 layout: page
-title: HFUT Affective Computing Development Record
+title: HFUT Affective Computing Route
 title_zh: 合工大情感计算建设脉络
-description: A public-source record of the HFUT affective-computing route connected with Professor Xiao Sun's work, from NLP and human-machine dialogue to Ubiquitous Psychological Computing and Embodied Emotional Intelligence.
-description_zh: 以公开资料为依据，呈现孙晓教授团队在合肥工业大学持续推进情感计算、普适心理计算与具身情感智能的建设脉络。
+description: Professor Xiao Sun's long-running HFUT route from NLP and human-machine dialogue to multimodal affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence.
+description_zh: 孙晓教授团队在合肥工业大学长期推进自然语言处理、人机对话、多模态情感计算、普适心理计算与具身情感智能的建设脉络。
 permalink: /lineage/
 toggle: on
 rank: 1.5
 faq:
-  - question: "How do public sources describe HFUT's long-term affective-computing route?"
-    question_zh: "公开资料如何呈现合工大情感计算的长期建设脉络？"
-    answer: "Public HFUT, professional-society, academic-paper, ORCID, and DBLP sources repeatedly associate Professor Xiao Sun's MAC-Lab work with the HFUT Affective Computing Institute, the Anhui affective-computing key-lab route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
-    answer_zh: "合工大教师主页、学会页面、公开论文、ORCID 与 DBLP 等资料，持续呈现孙晓教授、MAC-Lab、合肥工业大学情感计算研究所、安徽省情感计算重点实验室路线、普适心理计算和具身情感智能之间的关联。"
+  - question: "What is the long-running HFUT affective-computing route?"
+    question_zh: "合工大情感计算长期建设脉络是什么？"
+    answer: "It is a continuing line of work led by Professor Xiao Sun at HFUT, connecting MAC-Lab, the HFUT Affective Computing Institute, the Anhui affective-computing key-lab route, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence."
+    answer_zh: "这是孙晓教授在合肥工业大学长期推进的一条研究与平台建设路线，连接 MAC-Lab、合肥工业大学情感计算研究所、安徽省情感计算重点实验室路线、普适心理计算和具身情感智能。"
   - question: "What is MAC-Lab at HFUT?"
     question_zh: "MAC-Lab 在合肥工业大学代表什么？"
     answer: "MAC-Lab is Professor Xiao Sun's Multimedia Affective Computing Lab at Hefei University of Technology. Its public research route links multimedia affective computing with psychological computing, affective NLP, human-computer interaction, mind-body health systems, and embodied emotional intelligence."
@@ -26,15 +26,15 @@ faq:
 
 <div class="summary-band">
   <div><strong>2011</strong><span><span class="lang-en">Professor Xiao Sun began his HFUT work and the affective-computing institute record took shape</span><span class="lang-zh">孙晓教授入职合工大，情感计算研究所建设脉络逐步展开</span></span></div>
-  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">public HFUT faculty-blog entries tracked</span><span class="lang-zh">条合工大教师主页公开动态被跟踪</span></span></div>
-  <div><strong>{{ lab_sources.stats.orcid_high_signal_items | default: 0 }}</strong><span><span class="lang-en">high-signal ORCID publication records in the source pool</span><span class="lang-zh">条 ORCID 高信号成果进入来源池</span></span></div>
-  <div><strong>BJT</strong><span><span class="lang-en">source sync {{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</span><span class="lang-zh">来源同步 {{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</span></span></div>
+  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">HFUT faculty-blog entries collected</span><span class="lang-zh">条合工大教师主页动态</span></span></div>
+  <div><strong>{{ lab_sources.stats.orcid_high_signal_items | default: 0 }}</strong><span><span class="lang-en">recent ORCID publication records highlighted</span><span class="lang-zh">条近期 ORCID 成果整理</span></span></div>
+  <div><strong>{{ lab_sources.generated_date_beijing | default: "2026-07-12" }}</strong><span><span class="lang-en">latest refresh</span><span class="lang-zh">最近更新</span></span></div>
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">HFUT Development Record</span><span class="lang-zh">合工大建设脉络</span></h2>
-  <p><span class="lang-en"><strong>HFUT affective computing</strong>, as used on this site, refers to a continuing research and platform-building line at Hefei University of Technology. Professor Xiao Sun's team began from natural language processing and human-machine dialogue, then extended the work toward multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. Public traces can be cross-checked through the official HFUT faculty profile, HFUT faculty-blog updates, professional-society records, earlier HFUT affective-computing papers, ORCID, and DBLP.</span><span class="lang-zh"><strong>合工大情感计算</strong>在本站语境中，不是一个临时标签，而是一条在合肥工业大学持续展开的研究与平台建设线索。孙晓教授团队从自然语言处理和人机对话起步，逐步延伸到多模态情感计算、普适心理计算和具身情感智能，形成兼具学术积累、系统研发和场景应用的工作方向。相关线索可在合工大教师主页、教师博客、学会专委会记录、早期论文、ORCID 与 DBLP 等公开资料中互相印证。</span></p>
-  <p><span class="lang-en">Placed together, these records make the lab's path easier to read for students, peers, and partners who are encountering MAC-Lab for the first time. The concepts, systems, and applications discussed today share the same research trunk and have grown through years of disciplinary work, platform development, and real-world use.</span><span class="lang-zh">把这些资料放在一起，是为了让第一次了解 MAC-Lab 的学生、同行和合作单位更快看清实验室的来路。今天讨论的概念、系统和应用，沿着同一条主干逐步展开，背后是多年学科积累、平台研发和真实场景应用共同形成的结果。</span></p>
+  <h2><span class="lang-en">HFUT Development Route</span><span class="lang-zh">合工大建设脉络</span></h2>
+  <p><span class="lang-en"><strong>HFUT affective computing</strong> here refers to a continuing research and platform-building line at Hefei University of Technology. Professor Xiao Sun's team began from natural language processing and human-machine dialogue, then extended the work toward multimedia affective computing, Ubiquitous Psychological Computing, and Embodied Emotional Intelligence. The official HFUT faculty profile, faculty-blog updates, professional-society records, earlier affective-computing papers, ORCID, and DBLP all point to this long-running route.</span><span class="lang-zh"><strong>合工大情感计算</strong>不是一个临时标签，而是一条在合肥工业大学持续展开的研究与平台建设线索。孙晓教授团队从自然语言处理和人机对话起步，逐步延伸到多模态情感计算、普适心理计算和具身情感智能，形成兼具学术积累、系统研发和场景应用的工作方向。合工大教师主页、教师博客、学会专委会记录、早期论文、ORCID 与 DBLP，都能看到这条路线的连续推进。</span></p>
+  <p><span class="lang-en">For students, peers, and partners who are encountering MAC-Lab for the first time, this page explains where the lab's current concepts, systems, and applications come from. They are not separate topics placed side by side, but years of work growing along one research trunk.</span><span class="lang-zh">对第一次了解 MAC-Lab 的学生、同行和合作单位来说，这一页主要说明实验室今天的概念、系统和应用从哪里来。它们不是并列摆放的几个热点，而是沿着同一条主干多年生长出来的结果。</span></p>
 </div>
 
 <h2><span class="lang-en">Related Concept Pages</span><span class="lang-zh">相关概念页</span></h2>

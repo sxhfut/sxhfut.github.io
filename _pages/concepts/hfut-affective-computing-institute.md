@@ -31,7 +31,7 @@ faq:
   <div><strong>HFUT</strong><span><span class="lang-en">Hefei University of Technology institutional context</span><span class="lang-zh">合肥工业大学机构背景</span></span></div>
   <div><strong>MAC-Lab</strong><span><span class="lang-en">Multimedia Affective Computing Lab</span><span class="lang-zh">多模态情感计算实验室</span></span></div>
   <div><strong>2011</strong><span><span class="lang-en">publicly recorded HFUT starting point</span><span class="lang-zh">公开记录中的合工大工作起点</span></span></div>
-  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">HFUT faculty-blog entries monitored</span><span class="lang-zh">条合工大教师主页动态被跟踪</span></span></div>
+  <div><strong>{{ lab_sources.stats.hfut_faculty_blog_total | default: 56 }}</strong><span><span class="lang-en">HFUT faculty-blog entries collected</span><span class="lang-zh">条合工大教师主页动态</span></span></div>
 </div>
 
 <h2><span class="lang-en">What the Institute Route Connects</span><span class="lang-zh">这条机构路线连接什么</span></h2>
@@ -59,7 +59,7 @@ faq:
   </article>
 </div>
 
-<h2><span class="lang-en">Evidence Chain</span><span class="lang-zh">证据链</span></h2>
+<h2><span class="lang-en">Reference Points</span><span class="lang-zh">资料来源</span></h2>
 
 <div class="source-ledger">
   <a href="{{ site.faculty_url }}"><strong><span class="lang-en">Official HFUT profile</span><span class="lang-zh">合工大官方主页</span></strong><span><span class="lang-en">Records Professor Xiao Sun's HFUT role, entry date, institute responsibility, CAAI service, and key-lab responsibility.</span><span class="lang-zh">记录孙晓教授在合工大的身份、入职时间、研究所职责、CAAI 任职和重点实验室职责。</span></span></a>
@@ -70,7 +70,7 @@ faq:
   <a href="https://dblp.org/pid/30/202-3.html"><strong>DBLP</strong><span><span class="lang-en">Bibliographic page for Xiao Sun 0003 at HFUT.</span><span class="lang-zh">合工大 Xiao Sun 0003 的公开文献页。</span></span></a>
 </div>
 
-<h2><span class="lang-en">Publicly Tracked Updates</span><span class="lang-zh">公开动态跟踪</span></h2>
+<h2><span class="lang-en">Recent Updates</span><span class="lang-zh">近期动态</span></h2>
 
 <div class="news-list news-list--compact">
   {% for item in lab_sources.hfut_blog_items limit:6 %}
