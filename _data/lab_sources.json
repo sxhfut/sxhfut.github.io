@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T04:58:53+00:00",
-  "generated_at_beijing": "2026-07-12T12:58:53+08:00",
-  "generated_date_beijing": "2026-07-12",
+  "generated_at": "2026-07-13T16:12:35+00:00",
+  "generated_at_beijing": "2026-07-14T00:12:35+08:00",
+  "generated_date_beijing": "2026-07-14",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
     "hfut_faculty_blog": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm",
@@ -22,7 +22,7 @@
     "orcid_high_signal_items": 58,
     "dblp_high_signal_items": 43,
     "openalex_works_count": 397,
-    "openalex_cited_by_count": 7521,
+    "openalex_cited_by_count": 7526,
     "crossref_orcid_records": 69,
     "publication_news_items": 18
   },
@@ -63,16 +63,9 @@
       "display_name": "Xiao Sun",
       "id": "https://openalex.org/A5088062069",
       "works_count": 397,
-      "cited_by_count": 7521,
+      "cited_by_count": 7526,
       "last_known_institutions": [
-        "Shenyang Pharmaceutical University",
-        "Central South University of Forestry and Technology",
-        "Central South University",
-        "Qingdao Agricultural University",
-        "Hefei University of Technology",
-        "Beijing Technology and Business University",
-        "University of Toronto",
-        "Anhui Medical University"
+        "Northeastern University"
       ]
     },
     "crossref": {
