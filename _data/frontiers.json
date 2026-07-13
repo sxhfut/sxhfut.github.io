@@ -1,45 +1,46 @@
 {
-  "generated_at": "2026-07-12T14:06:47+00:00",
-  "generated_at_beijing": "2026-07-12T22:06:47+08:00",
-  "generated_date_beijing": "2026-07-12",
+  "generated_at": "2026-07-13T04:13:02+00:00",
+  "generated_at_beijing": "2026-07-13T12:13:02+08:00",
+  "generated_date_beijing": "2026-07-13",
   "stats": {
     "total_items": 120,
     "max_items": 120,
     "manual_items": 16,
-    "last30days_items": 18,
-    "last30days_reused_items": 0,
-    "github_recent_items": 0,
-    "recent_signal_items": 18,
+    "last30days_items": 17,
+    "last30days_reused_items": 17,
+    "github_recent_items": 4,
+    "recent_signal_items": 21,
     "rss_items": 54,
     "arxiv_items": 108,
     "kind_counts": {
-      "community": 17,
-      "industry": 42,
+      "community": 20,
+      "industry": 40,
       "lab": 1,
-      "paper": 58,
+      "paper": 57,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 46,
-      "RSS · Google News": 11,
+      "arXiv": 45,
+      "RSS · Google News": 10,
       "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
       "Last30Days · Hacker News": 6,
       "Last30Days · Reddit": 4,
       "ORCID / DOI": 4,
+      "Recent GitHub": 3,
+      "RSS · MIT News AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · Google News Human Factors": 3,
-      "RSS · MIT News AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum Robotics": 2,
       "RSS · BAIR Blog": 2,
-      "RSS · Google Research": 2,
       "RSS · Google 新闻": 1,
       "RSS · Google AI": 1,
+      "RSS · Google Research": 1,
       "RSS · Google News School Mental Health": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
@@ -86,37 +87,65 @@
   ],
   "items": [
     {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-12",
-      "title": "Some AI mental health apps are harmful for kids, says report—what experts say parents should keep in mind - MSN",
-      "summary": "Some AI mental health apps are harmful for kids, says report—what experts say parents should keep in mind MSN",
-      "source": "RSS · Google News",
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-13",
+      "title": "rein98/PsyChat",
+      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
       "authors": [
-        "Google News"
+        "rein98"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/rein98/PsyChat",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-13",
+      "title": "New method aims to keep kids safe from illegal AI-generated content",
+      "summary": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
+      "source": "RSS · MIT News AI",
+      "authors": [
+        "MIT News AI"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "MIT News AI"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQcXRqZEMyTng0TV9feXVPbzlwMTBRa2ZPZnloUDBLMUY5OXJWSGhkajQxdUhLVXZxdnRKNnVMWUN6bERtT09LVldZbEJmaFRFa2puQTdETGRfdE0zTTgyd3FRTG56RGhiV05PWHJfdm1EUDN5N3ZKZzJKbEJHUDBEd0VJUmJtcHRmRHdPOHY4ajNyUnNNTGk1X1k4TzcwVjFJUVc3cHl3RDlUZ2hrTG9NVkM4RkJtcWV1bDBlSzZPeGcyR1ZJT1NEWG5TYkxhWHhEWXNNTndpd3FrTDBlVTRRQ19RclNRaGZ5NXhqb3JnM3FwZjNBLTNWRHFJSGNueFBtaG82RWlTWjkzZ2pNcUU2YmxsZFd2eGZ0Wld2MC1HMEFOZklFX1JtQjNNOWF0LU5mTU1CUmJJVTdKdi1LcDQ5NXlKcXZyU2FraXNKYWljM2hFMDY3S2UwU2x3YUd5OXR0NnRhaUVxUS1QUXJJOUZkU0xtZllDbHhKYThfbW0zZTZ4WTBjRXgzMEZUaEdEcDVBbURpdE56NVlRdEF2MzhfOFgxMmxTT3JmcTdnR1U3Q243WHJHWDJQRHJTWWlreXN0VThtamlsOFBScm9SZ3k2X0NoQmZYdzY4TkE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "url": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
       "capability_tags": [
-        "Psychological Assessment"
+        "AI Research"
       ],
       "capability_tags_zh": [
-        "心理评估"
+        "AI Research"
       ],
-      "relevance_score": 79
+      "relevance_score": 72
     },
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-12",
-      "title": "Dexmal Aims to Ignite Embodied AI Productivity With DM0.5 Model, DexOS, and MaaS Three-Stage Strategy - Pandaily",
-      "summary": "Dexmal Aims to Ignite Embodied AI Productivity With DM0.5 Model, DexOS, and MaaS Three-Stage Strategy Pandaily",
+      "title": "From Chatbots to Robot Cops: The Rise of Embodied AI - Deccan Chronicle",
+      "summary": "From Chatbots to Robot Cops: The Rise of Embodied AI Deccan Chronicle",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -125,7 +154,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tVTZZeG1rQUVmVC1pRF9TZzRoX1ZpeExFWG9NX3hoTXRSRmRoWDY0OUgzQmpUQ3lpdkZ5ZlJpUDdrYkowY05lSVB5dk1IWVRmUk1JNktvTmFjNFNQZnB2a1dCNFk2NGJoQUxoZWNRZkk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2dxX0dVTlU1ejdyaVNhR3lnXy1iOEZHX3R0LW5NSUZHNUUwNWxNU1U1c1NLbVZURFh5cFZudVJ5aml4UXVqZHlFelhMM2haUFZ2b045UEJld3BvRmJGODlfbGhvNUk1bTM1Q1BZblMzVmItZ25zSDdOZ25VcmVoMTJ2SGVaek1wU0RZUDBJcUNrQ0xmamF6MWZYZ3dtcnRBM2NzZzZaamhodVVaeDdsajJRRE5uZzhwb09R0gHAAUFVX3lxTE5feUZwc3NWbFg0eHNoRFRRNzc5YTZvc29aaWV3ZkNaeERMLWI4aGxXUkFxdUtyMjZyMzllWTlaRVF1a2M3OTA3dXlVVGdVOUdwYmhUd2gwNDNCdEIwUElFaHZqWGc0RzgxSHBCTHZ5bzIwV2toN2dBb1REcWREN0ZUM0NXdEtycUVYSVRqcUlnT0pZSk80dGFRcm85R0xCbE02cTU0amllMFhWMTJCVS1tb1FkMlpiLVFybUw1TXRMaQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -192,32 +221,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-11",
-      "title": "NeuraFrame Studio Launches Embodied AI Memory Layer That Lets Robots Learn Without Onboard AI Models - EIN News",
-      "summary": "NeuraFrame Studio Launches Embodied AI Memory Layer That Lets Robots Learn Without Onboard AI Models EIN News",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUjJHMjhuRHlkOVBMY2NYZWVEODJWOHhQQlA5SDZHaENDNEh6Y0htaG1uQVlBdHB6WnpsQ1hDQ01VT3lxeDhiRjU3U2JacWphbGVIRmM1VVdOX3J5UWp0bnFrZXk5VThtakIzTDVPX2xiYUdKWkR4djM3Y1Y1aE1hSjNCYk9MSThUT3ZmbHdwcUJmQ0M4MU1tR21faTRTdlg1ZmVCcEtxS3Z5ZV9wMzhhTWU1Y0V3aU91TWNOSVRBX0pvSTNwRmt0UlpLc0o0djFUNU1salhmS1JVMERyRFRvc9IB4AFBVV95cUxOUjJHMjhuRHlkOVBMY2NYZWVEODJWOHhQQlA5SDZHaENDNEh6Y0htaG1uQVlBdHB6WnpsQ1hDQ01VT3lxeDhiRjU3U2JacWphbGVIRmM1VVdOX3J5UWp0bnFrZXk5VThtakIzTDVPX2xiYUdKWkR4djM3Y1Y1aE1hSjNCYk9MSThUT3ZmbHdwcUJmQ0M4MU1tR21faTRTdlg1ZmVCcEtxS3Z5ZV9wMzhhTWU1Y0V3aU91TWNOSVRBX0pvSTNwRmt0UlpLc0o0djFUNU1salhmS1JVMERyRFRvcw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-11",
       "title": "Conversational AI Therapy Services - Trend Hunter",
@@ -244,6 +247,34 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-10",
+      "title": "Experts see promise and risks in AI mental health role - MSN",
+      "summary": "Experts see promise and risks in AI mental health role MSN",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRkJJLWFkcnZSQXlFaWg0V1hZNnpTWnZKVzdEcDdYMzNldUEzTldFTzc5TkZmbmpXX2x0LXBBNjEwbE95X3d2akUtQW5xeEFjdVh3TkFWYjd4TFRteEd6S0F4NVotWXlkV1NvTk1GdmFfeHJwSmZDVEdaQlRoSFhQQ0RsUDEwLUVsRmloanRMcDREOGZ5ejNQZnJSR015RmhYemF1Ym1WMzh0SWp1ZVNjTUxNX0ZDMW1rRU5uQ25NcXhGcXBOTGJoN0ZldlFiSVhJMmRpbExfbHRGZWFJ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-10",
       "title": "Is Embodied AI The Next Great Computing Revolution? - Forbes",
@@ -257,6 +288,32 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0cyeG8xX3FTRWFJb2J0Y1p5VjR3aE5NR2JwQnRUcFhRcEFsSl85Sk9td1RxNWE1UElObTNGSkltbG53S011MWs1NEk3NzJPMDRaTzdBMXllVUx6d3RPbTZzUFFPbFY1ZGxydThJYm5xdmwteTdvZ2lvOEE2UlVJTWxOY2JfdmlpWkJveFI5WTVtZGdtcE5lRWpmMnhBaWpjeGVKaDRlUko?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-10",
+      "title": "Robbyant Launches LingBot-VA 2.0 Built Natively for Embodied AI and Physical World Control - afp.com",
+      "summary": "Robbyant Launches LingBot-VA 2.0 Built Natively for Embodied AI and Physical World Control afp.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeHFCcndsSlFfdUpha0lnX2hxZWR1MTZQVGdLYlpWZ1RyZWNrWWdqM1ZEVTRZT1g3NjJlTng0RTJLM3VPSE5aTHZmOXBqZnhBNUI0YldmeXpCX3I5R19pQVVZdHMyUW90eFZ0X0h2Mm5VTGVqQnk3eVBqTEpJeGVINjU3UnA5S24wZ2JiczBUTkZLTmNDUzNWZUxsRUFuRWFKVzJwcGVpcldYZzktR3FrMTh2alE?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -398,6 +455,35 @@
         "具身交互"
       ],
       "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-10",
+      "title": "Validating Virtual Reality for Studying Multimodal Human-Robot Interaction in Socially Aware Robot Navigation",
+      "summary": "Virtual Reality (VR) offers a flexible and controllable platform for studying human-robot interaction. Prior work has explored VR for socially aware robot navigation. However, whether VR captures the multimodal interaction dynamics observed in real-world human-robot co-navigation remains insufficiently understood. In this work, we present a VR prototype and evaluate its suitability for studying multimodal human-robot...",
+      "source": "arXiv",
+      "authors": [
+        "Hariharan Arunachalam",
+        "Phani Teja Singamaneni",
+        "Rachid Alami"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "url": "http://arxiv.org/abs/2607.09261",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "具身交互"
+      ],
+      "relevance_score": 65
     },
     {
       "kind": "community",
@@ -1594,6 +1680,34 @@
       "relevance_score": 90
     },
     {
+      "kind": "community",
+      "track": "Empathetic Dialogue",
+      "published": "2026-07-05",
+      "title": "Srijal12/manosamvada",
+      "summary": "My project is Manosamvada, which means Dialogue of the Mind. It is an AI-based mental health chatbot developed using Python, Flask, MySQL, JavaScript, and the SambaNova AI API. The main goal of the project is to provide an empathetic conversational support... Recent GitHub repository activity related to empathetic dialogue emotional support chatbot, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "Srijal12"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/Srijal12/manosamvada",
+      "priority": 56,
+      "lens": "Relevant to emotional support agents: it connects affective NLP, dialogue safety, counseling interaction, and long-term companionship.",
+      "lens_zh": "对应情感支持智能体：连接情感 NLP、对话安全、咨询交互和长期陪伴能力。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 86
+    },
+    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-05",
@@ -2321,32 +2435,6 @@
       "kind": "industry",
       "track": "AI Research",
       "published": "2026-06-30",
-      "title": "Q&A: What is agentic AI today, and what do we want it to be?",
-      "summary": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
-      "source": "RSS · MIT News AI",
-      "authors": [
-        "MIT News AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT News AI"
-      ],
-      "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-30",
       "title": "SkillOpt: Agent skills as trainable parameters",
       "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research .",
       "source": "RSS · Microsoft Research",
@@ -2461,34 +2549,6 @@
         "情感理解"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-06-29",
-      "title": "Chitosan-based biosensors for affective computing - EurekAlert!",
-      "summary": "Chitosan-based biosensors for affective computing EurekAlert!",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PWFdzN1B4MDJibTM0Nlhmelc1UmY5RXk5WFpya3NlY0pjTDZ6MmwwOW1BaV9nSTh2RG1CSnp2bkhILW8wTUI2LXNWVUFGdV9Rb2hacFFWX2gxb09j?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "paper",
@@ -2997,6 +3057,36 @@
       "kind": "community",
       "track": "Multimodal Affective Computing",
       "published": "2026-06-24",
+      "title": "SumithShet18/EmotiSense",
+      "summary": "EmotiSense is a transformer-based multimodal emotion recognition platform that combines text understanding (MentalBERT) and speech understanding (HuBERT) through Cross-Modal Attention Fusion to detect human emotions for mental health and affective computing... Recent GitHub repository activity related to multimodal affective computing speech emotion, updated within the latest 30-day window. Primary language: TypeScript.",
+      "source": "Recent GitHub",
+      "authors": [
+        "SumithShet18"
+      ],
+      "categories": [
+        "GitHub",
+        "TypeScript"
+      ],
+      "url": "https://github.com/SumithShet18/EmotiSense",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Psychological Assessment",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "心理评估",
+        "情感理解"
+      ],
+      "relevance_score": 98
+    },
+    {
+      "kind": "community",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-06-24",
       "title": "GELab-Zero: Android automation framework for multimodal LLMs",
       "summary": "GELab-Zero: Android automation framework for multimodal LLMs Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
       "source": "Last30Days · Hacker News",
@@ -3022,100 +3112,6 @@
         "情感理解"
       ],
       "relevance_score": 95
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-24",
-      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
-      "summary": "Selected from Google Research's public feed for its relevance to AI Research and applied AI systems.",
-      "summary_zh": "来自 Google Research 公开订阅源，内容与 AI Research 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google Research",
-      "authors": [
-        "Google Research"
-      ],
-      "categories": [
-        "RSS",
-        "Google Research"
-      ],
-      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-24",
-      "title": "SpeechEQ: Benchmarking Emotional Intelligence Quotient in Socially Aware Voice Conversational Models",
-      "summary": "As multimodal conversational systems increasingly engage in spoken interaction, their ability to navigate paralinguistic social cues has become a critical bottleneck for natural human-AI communication. However, existing evaluations of machine emotional intelligence assess reasoning exclusively through isolated text or passive acoustic perception, overlooking the complex cross-modal reasoning required for active, multi-turn...",
-      "source": "arXiv",
-      "authors": [
-        "Liang-Yuan Wu",
-        "Zih-Ching Chen",
-        "Tongshuang Wu",
-        "Chao-Han Huck Yang",
-        "Hua Shen"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.SD"
-      ],
-      "url": "http://arxiv.org/abs/2606.25990",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Trustworthy Evaluation",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "可信评测",
-        "情感理解"
-      ],
-      "relevance_score": 74
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-06-24",
-      "title": "Charting the Growth of Social-Physical HRI (spHRI): A Systematic Review Pipeline Augmented by Small Language Models",
-      "summary": "Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics. Yet, fragmented terminology and inconsistent methodologies make systematic synthesis difficult. To support scalable review practices, we evaluated the extent to which small language models (SLMs; < 1.5B parameters) can assist with title and abstract screening for a large spHRI...",
-      "source": "arXiv",
-      "authors": [
-        "Mayumi Mohan",
-        "Ju-Hung Chen",
-        "Alexis E. Block"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.DL",
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2606.26382",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Mind-Body Support",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "身心支持",
-        "具身交互"
-      ],
-      "relevance_score": 62
     },
     {
       "kind": "lab",
