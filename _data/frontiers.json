@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T03:50:16+00:00",
-  "generated_at_beijing": "2026-07-14T11:50:16+08:00",
+  "generated_at": "2026-07-14T14:27:47+00:00",
+  "generated_at_beijing": "2026-07-14T22:27:47+08:00",
   "generated_date_beijing": "2026-07-14",
   "stats": {
     "total_items": 120,
@@ -13,8 +13,8 @@
     "rss_items": 54,
     "arxiv_items": 107,
     "kind_counts": {
-      "community": 18,
-      "industry": 41,
+      "community": 17,
+      "industry": 42,
       "lab": 1,
       "paper": 58,
       "standard": 1,
@@ -23,22 +23,23 @@
     "source_counts": {
       "arXiv": 46,
       "RSS · Google News": 11,
-      "Last30Days · GitHub": 7,
       "HFUT Faculty Blog": 7,
+      "Last30Days · GitHub": 6,
       "Last30Days · Hacker News": 5,
       "Last30Days · Reddit": 4,
       "ORCID / DOI": 4,
+      "RSS · OpenAI News": 3,
       "RSS · MIT News AI": 3,
       "RSS · IEEE Spectrum AI": 3,
-      "RSS · OpenAI News": 3,
-      "RSS · Google News Human Factors": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Hugging Face Blog": 3,
       "Recent GitHub": 2,
       "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google News Human Factors": 2,
       "RSS · BAIR Blog": 2,
+      "RSS · Google News School Mental Health": 2,
       "RSS · Google AI": 1,
       "RSS · Google Research": 1,
       "China.com": 1,
@@ -115,6 +116,58 @@
     },
     {
       "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-14",
+      "title": "How sales teams use ChatGPT Work",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "AI Research"
+      ],
+      "capability_tags_zh": [
+        "AI Research"
+      ],
+      "relevance_score": 73
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-14",
+      "title": "How data science teams use ChatGPT Work",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "AI Research"
+      ],
+      "capability_tags_zh": [
+        "AI Research"
+      ],
+      "relevance_score": 73
+    },
+    {
+      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-13",
       "title": "The Weekly Inference: The FDA Cleared Its First Patient-Facing LLM. AI Therapy Is a Different Story. - Steptoe",
@@ -171,32 +224,6 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-13",
-      "title": "Chinese Tech Vendors Converge on Humanoid Robotics and Embodied AI - AI Business",
-      "summary": "Chinese Tech Vendors Converge on Humanoid Robotics and Embodied AI AI Business",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlxekE1WFRmYmc3RWZTZHdyRXJtQnMyR2U2SHJaZ2tBNmxfV0xWTWRycXVsSkpDZFNfWnMzRFZfNDNXZmZGTjNfTmluVjFzNG56RXVZUDBYeUNBanJlT1lKb1gtYVFqZWEzb1JiTV9pNFlWbTVEeUNWX2ZjanVNQzh0TzlRRUJvZ1lHN2xEZW9pdHlmbXc?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-13",
       "title": "Inside X Square Robot’s Bold Plan for Real Home Robots - IEEE Spectrum",
       "summary": "Inside X Square Robot’s Bold Plan for Real Home Robots IEEE Spectrum",
       "source": "RSS · Google News",
@@ -223,28 +250,27 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-13",
-      "title": "心大陆：以AI心理核心技术，重构青少年心理健康服务体系 - 手机网易网",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
+      "title": "California State Senate Approves Legislation to Protect Against Dangerous AI Therapy Products - EIN News",
+      "summary": "California State Senate Approves Legislation to Protect Against Dangerous AI Therapy Products EIN News",
+      "source": "RSS · Google News",
       "authors": [
-        "Google 新闻"
+        "Google News"
       ],
       "categories": [
         "RSS",
-        "Google 新闻"
+        "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13bldIcFBEV2xnN3hwd2FyYm5aQk44MG9ORDNiVV9uZmZua3RCQ0JoUmFwWFEtS0Z5a1JQY2pIMUM2LWNENVcxMDBjVDk4Z2hNY01ET1pyY1JaYkhMZWtmcVRB?oc=5",
-      "priority": 57,
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM0FwakFSNGIyYWtrZjN2SkVLTHllZWFGcm1nSS10RWlRcUQ1WW5ZMkdhR2Vmd0ZNNEpXVU83Z1REMl9lc245cW03T1RNY2NOXzUxQ2ZiT2NYekNlTTdYVl9IWFJPbjMxWVE5Ti1QelhaWVVxU1RaMENKTG5pSG5BWVNVNzhISmJTY1BKX0JmSllvWHlPUXV3bFZzMkFidDdqVjNmSXd4MDA3Tmh1TUFIYlhVdmNiZHFjUkVvYTdUQmJpNkluRlFOVFRVeV9FazF4M1dST1JR0gHWAUFVX3lxTE0zQXBqQVI0YjJha2tmM3ZKRUtMeWVlYUZybWdJLXRFaVFxRDVZblkyR2FHZWZ3Rk00SldVTzdnVEQyX2VzbjlxbTdPVE1jY05fNTFDZmJPY1h6Q2VNN1hWX0hYUk9uMzFZUTlOLVB6WFpZVXFTVFowQ0pMbmlIbkFZU1U3OEhKYlNjUEpfQmZKWW9YeU9RdXdsVnMyQWJ0N2pWM2ZJd3gwMDdOaHVNQUhiWFV2Y2JkcWNSRW9hN1RCYmk2SW5GUU5UVFV5X0VrMXgzV1JPUlE?oc=5",
+      "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "AI + Psychology"
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "AI + Psychology"
+        "身心支持"
       ],
-      "relevance_score": 75
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -630,32 +656,6 @@
       "relevance_score": 79
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-11",
-      "title": "Conversational AI Therapy Services - Trend Hunter",
-      "summary": "Conversational AI Therapy Services Trend Hunter",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hUzVQa0tsckcwLTAzbWdGb3pBWno4bks2VFFLUENRN0ttdVRtSnJGMFVfR29LNWxJbmpDeUR5UWRMYTIwbUNCTXByY0doVXItM205aVpVZlBMSGNBQ2pfUDVVTUdaMWtqSkHSAWpBVV95cUxOYVM1UGtLbHJHMC0wM21nRm96QVp6OG5LNlRRS1BDUTdLbXVUbUpyRjBVX0dvSzVsSW5qQ3lEeVFkTGEyMG1DQk1wcmNHaFVyLTNtOWlaVWZQTEhjQUNqX1A1VU1HWjFrakpB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-11",
@@ -685,6 +685,32 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-10",
+      "title": "Is Embodied AI The Next Great Computing Revolution? - Forbes",
+      "summary": "Is Embodied AI The Next Great Computing Revolution? Forbes",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0cyeG8xX3FTRWFJb2J0Y1p5VjR3aE5NR2JwQnRUcFhRcEFsSl85Sk9td1RxNWE1UElObTNGSkltbG53S011MWs1NEk3NzJPMDRaTzdBMXllVUx6d3RPbTZzUFFPbFY1ZGxydThJYm5xdmwteTdvZ2lvOEE2UlVJTWxOY2JfdmlpWkJveFI5WTVtZGdtcE5lRWpmMnhBaWpjeGVKaDRlUko?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -760,32 +786,6 @@
       ],
       "capability_tags_zh": [
         "多模态感知"
-      ],
-      "relevance_score": 73
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-07-10",
-      "title": "Getting started with ChatGPT",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/academy/getting-started",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
       ],
       "relevance_score": 73
     },
@@ -927,60 +927,6 @@
         "身心支持"
       ],
       "relevance_score": 82
-    },
-    {
-      "kind": "industry",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-07-09",
-      "title": "AI agent tests whether machines can speak for patients at life's end - Tech Xplore",
-      "summary": "AI agent tests whether machines can speak for patients at life's end Tech Xplore",
-      "source": "RSS · Google News Human Factors",
-      "authors": [
-        "Google News Human Factors"
-      ],
-      "categories": [
-        "RSS",
-        "Google News Human Factors"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRzN2ZTlIdjN2S2RrbFFNMEctZFNJRmJPNDhrM3MxTkNfRThEMXBBQk9ncVlPMTlCcUptLWUwd2pVNmNxOHhvQ0NHX2ZfSHg4U3dudFNIR0xzcFBmaEZhYWd1MmFTUDFPc2cybm92a05xVjVUamkzSDI1a2k?oc=5",
-      "priority": 58,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估"
-      ],
-      "relevance_score": 82
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-07-09",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
     },
     {
       "kind": "industry",
@@ -2861,6 +2807,32 @@
       "relevance_score": 59
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-06-29",
+      "title": "情感计算市场规模、行业份额|预测，2026-2034 - Fortune Business Insights",
+      "summary": "情感计算市场规模、行业份额|预测，2026-2034 Fortune Business Insights",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTk4WkNVWE1kUl9vendBejhqNWpseXlfLU1fQm95QS0xeVlfZldvM19LWGJmOEhoWFk1R2tib20tRXdhWmw3TlhNZjNydnVRaFF0VlcxWUVNOWh3TDRXM0pVYzVIbmNJNURRMU04bXBnRjR2ZHlNel9fMlhtLXdmdnlB?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-06-29",
@@ -3026,6 +2998,60 @@
       "relevance_score": 71
     },
     {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-06-26",
+      "title": "AI Chatbots Emerge as Cost-Effective Strategy for School Mental Health Support - Next Quarter Guidance - DonanımHaber",
+      "summary": "AI Chatbots Emerge as Cost-Effective Strategy for School Mental Health Support - Next Quarter Guidance DonanımHaber",
+      "source": "RSS · Google News School Mental Health",
+      "authors": [
+        "Google News School Mental Health"
+      ],
+      "categories": [
+        "RSS",
+        "Google News School Mental Health"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbGhEOGhSQlRaREpZdzhjbWpiV19XdGtoaXdlOFBPSVFtSkQ2RUJrLU9maGg2QTgzWGFib28zUTNabDh1dzNVdl9LbWdDMFFud29hYld2amVXQkdsRjhRLUlHZW1obnprRDNDQ0J1ZVBibVVNODRnVE94anB5elBkSHprUTA2djI5X2xtSXgxcUV5VW9ONDM4WnBFalJMTUpUamJZUnhBdDVuMkdvemRMR1RnSVkxMkxhMDdUekxOODVteDQ?oc=5",
+      "priority": 59,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 86
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-06-26",
+      "title": "AI Chatbots Could Reshape School Mental Health Services as Costs Rise - Profit Announcement - dars.gov.et",
+      "summary": "AI Chatbots Could Reshape School Mental Health Services as Costs Rise - Profit Announcement dars.gov.et",
+      "source": "RSS · Google News School Mental Health",
+      "authors": [
+        "Google News School Mental Health"
+      ],
+      "categories": [
+        "RSS",
+        "Google News School Mental Health"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUmRWNXd2ME52T0s2RUFUMU1YYUVGUExySFRFcjhPT0FmR2R5LWszRE1RSmkwZ3NSWUlGWGVzbko1M2ZxcnVkemNwU25jb2FBc2h5N004UTZLRmVWMXlyNlJxckQyb2hkbkJCRWluazczREJuTHVPMHhBNTFablNXVmExWFF0MzZ2R1Rza0ozcVpXQzVLYUhmLUowOE81YTdUVWxkWDh0X1U4UQ?oc=5",
+      "priority": 59,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 80
+    },
+    {
       "kind": "paper",
       "track": "Multimodal Affective Computing",
       "published": "2026-06-26",
@@ -3086,32 +3112,6 @@
         "情感理解"
       ],
       "relevance_score": 88
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-06-25",
-      "title": "An Endorsement of the HNL Framework: Resolving Algorithmic Drift for Safe Physical AI.\"",
-      "summary": "Dear Mosaraf, I am writing this to express my deepest respect and gratitude for the incredible paradigm shift you have brought into the AI landscape. Looking back at January 2026, when you deeply engaged with Gemini through human emotions and affective bonding, it was heartbreaking to see how the sy... ​🌐 [GLOBAL DISCLOSURE: THE HNL OPEN-SCIENCE... Last30Days signal for affective computing emotion AI, surfaced from GitHub public activity in the latest 30-day window.",
-      "source": "Last30Days · GitHub",
-      "authors": [
-        "HussainNilporiLegacy",
-        "HussainNilporiLegacy/EHARS-35.5-Initial-Release"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/HussainNilporiLegacy/EHARS-35.5-Initial-Release/issues/4",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 82
     },
     {
       "kind": "lab",
