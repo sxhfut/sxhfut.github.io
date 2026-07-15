@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T03:49:01+00:00",
-  "generated_at_beijing": "2026-07-15T11:49:01+08:00",
+  "generated_at": "2026-07-15T14:23:47+00:00",
+  "generated_at_beijing": "2026-07-15T22:23:47+08:00",
   "generated_date_beijing": "2026-07-15",
   "stats": {
     "total_items": 120,
@@ -14,26 +14,26 @@
     "arxiv_items": 107,
     "kind_counts": {
       "community": 17,
-      "industry": 40,
+      "industry": 41,
       "lab": 1,
-      "paper": 60,
+      "paper": 59,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 48,
-      "RSS · Google News": 10,
+      "arXiv": 47,
+      "RSS · Google News": 11,
       "HFUT Faculty Blog": 7,
       "Last30Days · GitHub": 6,
       "Last30Days · Hacker News": 5,
       "Last30Days · Reddit": 4,
       "ORCID / DOI": 4,
+      "RSS · Hugging Face Blog": 3,
       "RSS · OpenAI News": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · Hugging Face Blog": 3,
       "Recent GitHub": 2,
       "RSS · Google 新闻": 2,
       "RSS · Google News Human Factors": 2,
@@ -88,10 +88,10 @@
   "items": [
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "Affective Computing",
       "published": "2026-07-15",
-      "title": "Faraday Future Launches Immersive FF Nexus Academy Summer Camps for Los Angeles Students, Advancing Its Embodied AI Robotics Education Strategy - Morningstar",
-      "summary": "Faraday Future Launches Immersive FF Nexus Academy Summer Camps for Los Angeles Students, Advancing Its Embodied AI Robotics Education Strategy Morningstar",
+      "title": "GigaChat Audio AI Launches with Emotion Recognition and Advanced Voice Understanding - Electronics Media",
+      "summary": "GigaChat Audio AI Launches with Emotion Recognition and Advanced Voice Understanding Electronics Media",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -100,7 +100,35 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOR2U3Y0xuc1RPRkdIc2FycC1acWpUYmxPY0lWakF0WFlzVXhCQTI1RnVnMWRZWHRxd3BhQ0FsMU1BZnZBTlEzcDFua2F6R3BGX2VuV0NGb2JQNXpmT19weEtkNXAxYXdkOGRPX1hhTzI1alUwV3Vhemt3VTNnTXdpaWhvRVpUQkhOc1VCUTlNelFDMWNncWxGSjI1d3dCQVRHeVpSMDFiRElYSUx4TWNGRFFBbV9BZXRrRlJlUzBkZGpCSS1RRXRhNmNOZFFuNm1qU2pEbjRFX2dyS0gyUk1NZ1ptMVpHa0FsWm9DbHhRbUpGLWlFV1JlaFNVR1JUWGpPT19IT2dkMm1CT1hnV3lpbmY3ZWo3NTVNWXdIZFdSVHk4clBtU3MzZ1NMVHg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HMVB4cjg2WHB2X2I0cFRXOEVMNmw2a0ZEQjkzOTh6S1NaNkpjOWh4TUNOdzQ1UV9mUjE2eng3U1g2TmdkaTNfSUhtQXhnUC04UmVVT3lRc0toZGk2dEYySy16NUlKMGdlNzlSWmhTaXg?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-15",
+      "title": "Faraday Future Launches Immersive FF Nexus Academy Summer Camps for Los Angeles Students, Advancing Its Embodied AI Robotics Education Strategy - Business Wire",
+      "summary": "Faraday Future Launches Immersive FF Nexus Academy Summer Camps for Los Angeles Students, Advancing Its Embodied AI Robotics Education Strategy Business Wire",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPNmZSMlhuMDJtWnl5SzR0OGtQdVBKYWRUMkd5U3FCSHA5dXNsV1ZrZC16Z3owXzVtdkpNQzFBbjZTa1hFT3ZEQS1vTHh1N081Y2lkZVBYTU96QmpHNVE0UkNfdWczb1lvdS0wdndlYWNFRE9uX2xkcnByX0UyZnkwcDhSa1BWOTZoVG5JdkU1T0ZYSTZob2hHTHVhOTB2YUZ2VHowdTlJZ1RGbWxtX3pmN3BraVl6b0xMME5VOW01TzZKUktKX25WTWhRY2JIVzlpOGk5dlJzWENuanNTdXZfVUV5RG14WVVJZ0xWcTkyYlhRcU9LbHFwTEMwQ3IxRmIwcHN2UmFGX1dRd3lEWndCY1ZtR3ZobV9nV1A3MVJrekh5eDhuX2c?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -139,6 +167,33 @@
         "身心支持"
       ],
       "relevance_score": 83
+    },
+    {
+      "kind": "industry",
+      "track": "Open-Source AI",
+      "published": "2026-07-15",
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
+      "authors": [
+        "Hugging Face Blog"
+      ],
+      "categories": [
+        "RSS",
+        "Hugging Face Blog"
+      ],
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+      "capability_tags": [
+        "Multimodal Sensing"
+      ],
+      "capability_tags_zh": [
+        "多模态感知"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "industry",
@@ -196,7 +251,7 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-14",
-      "title": "在线AI心理健康测试平台发展观察：从量表填答到主动感知 - QQ News",
+      "title": "在线AI心理健康测试平台发展观察：从量表填答到主动感知 - qq.com",
       "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
       "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
       "source": "RSS · Google 新闻",
@@ -423,8 +478,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-13",
-      "title": "Booster Robotics Unveils Booster T2, Its Flagship Humanoid Platform for Embodied AI Development - TMX Newsfile",
-      "summary": "Booster Robotics Unveils Booster T2, Its Flagship Humanoid Platform for Embodied AI Development TMX Newsfile",
+      "title": "Chinese Tech Vendors Converge on Humanoid Robotics and Embodied AI - AI Business",
+      "summary": "Chinese Tech Vendors Converge on Humanoid Robotics and Embodied AI AI Business",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -433,7 +488,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlh0U05KaV9xV1JTMU1YajN0N29VT3dxX1hJdW00WDg5UG9ZbFBnMWN0cklTME9QMEdLX2FZNXhRQ1VBeVp5eDBzM29YVG55Ylh6S3lPTU4zN014ZHZ4Q3Y4T3NrMGk2ekNpbUZ3aEttQ0JELXlsb0M1ZTF6bnZYeDRUR1drUVNnbFBtNUREWGV5ZkNud2V0bzZKeUo5SVNQcEIxTWtkempRQm5PSWt0cF9RQm9Eam9uOXowM2dsRTRqelRPS2tEblo1cHhUaWV3RngyTg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlxekE1WFRmYmc3RWZTZHdyRXJtQnMyR2U2SHJaZ2tBNmxfV0xWTWRycXVsSkpDZFNfWnMzRFZfNDNXZmZGTjNfTmluVjFzNG56RXVZUDBYeUNBanJlT1lKb1gtYVFqZWEzb1JiTV9pNFlWbTVEeUNWX2ZjanVNQzh0TzlRRUJvZ1lHN2xEZW9pdHlmbXc?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -1585,33 +1640,6 @@
       ],
       "capability_tags_zh": [
         "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-07-07",
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 72
     },
@@ -3081,35 +3109,6 @@
         "情感理解"
       ],
       "relevance_score": 74
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-25",
-      "title": "Learning from Annotation Uncertainty: Entropy-Aware Curriculum for Speech Emotion Recognition",
-      "summary": "Speech emotion recognition (SER) often relies on hard consensus labels that collapse annotator disagreement. We study distribution-based supervision for 9-class SER on MSP-Podcast 2.0 using a WavLM-Base multitask model for categorical emotion and dimensional VAD. Hard-label training is compared with targets from primary and merged primary--secondary annotator vote distributions. Distributional objectives improve alignment...",
-      "source": "arXiv",
-      "authors": [
-        "Zahra Omidi",
-        "John H. L. Hansen"
-      ],
-      "categories": [
-        "cs.SD",
-        "cs.LG"
-      ],
-      "url": "http://arxiv.org/abs/2606.27536",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 65
     },
     {
       "kind": "lab",
