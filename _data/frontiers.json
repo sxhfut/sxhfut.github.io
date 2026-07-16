@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T03:52:41+00:00",
-  "generated_at_beijing": "2026-07-16T11:52:41+08:00",
+  "generated_at": "2026-07-16T14:36:42+00:00",
+  "generated_at_beijing": "2026-07-16T22:36:42+08:00",
   "generated_date_beijing": "2026-07-16",
   "stats": {
     "total_items": 120,
@@ -11,17 +11,17 @@
     "github_recent_items": 4,
     "recent_signal_items": 19,
     "rss_items": 54,
-    "arxiv_items": 47,
+    "arxiv_items": 107,
     "kind_counts": {
       "community": 17,
-      "industry": 41,
+      "industry": 42,
       "lab": 1,
-      "paper": 59,
+      "paper": 58,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 47,
+      "arXiv": 46,
       "RSS · Google News": 11,
       "HFUT Faculty Blog": 7,
       "Last30Days · GitHub": 6,
@@ -37,9 +37,9 @@
       "RSS · Microsoft Research": 3,
       "Recent GitHub": 2,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google News Human Factors": 2,
       "RSS · BAIR Blog": 2,
       "RSS · VentureBeat AI": 1,
-      "RSS · Google News Human Factors": 1,
       "RSS · Google AI": 1,
       "RSS · Google Research": 1,
       "China.com": 1,
@@ -116,7 +116,33 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-16",
-      "title": "一家真正把AI心理做进校园场景的公司，心大陆值得被看见 - 手机网易网",
+      "title": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 - 武汉纺织大学",
+      "summary": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 武汉纺织大学",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPalg5N2ZIMVlSc2Y5QU9FZTVhMms4QW8yX1ItaDlxMF9tazZfOUgyVWZPN0FOUVZSbjBHbTVtVGszZGlHOXk4UmlEZDZKZS1CSDU0elBRdw?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-16",
+      "title": "当AI心理走进校园，心大陆让心理健康服务有了新的打开方式 - 手机网易网",
       "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
       "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
       "source": "RSS · Google 新闻",
@@ -127,7 +153,7 @@
         "RSS",
         "Google 新闻"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QSW1FczFneGJ6RmhidGRiY2Z3OG5RNkFtVFV0dFNwcUFyWWVWR3VmX3hGUHNrZTBKamZOd1hOT0ZHWWN5OTR1MjVhWmlNVy1ZVHdPbUdUb1V2NWwwLTFmaXVB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JcTFCbElUSzA3TUpCejRfNC0ydG90RHdZOURGMjl0VWNzUW1fWTlMYzJsOXhNei1VTEZQWTZUUWJPRUc5RWNtN0hGQmx6Y2ZIa1dnb0VpdlVqXzlkd1hUQUZR?oc=5",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -218,32 +244,6 @@
       ],
       "capability_tags_zh": [
         "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-15",
-      "title": "Eastworlds partners with Unitree Robotics to advance embodied AI through Virtuals Protocol - Crypto Briefing",
-      "summary": "Eastworlds partners with Unitree Robotics to advance embodied AI through Virtuals Protocol Crypto Briefing",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6VFNoM0VRNURTX0R6T2VmWGlRdEhrM2NTNzFWYV9BS0d0dDN1TjdQZVptbFJiMmpobFBxWlVrYXFjOEZOVnNLSF95Si1GRGd6OFFqQ21RVlByc2lQQTc0b25mbU1vLVc0ZHF2aVBpbXVhR19oQVE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -604,6 +604,32 @@
         "身心支持"
       ],
       "relevance_score": 82
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-13",
+      "title": "Booster Robotics Unveils Booster T2, Its Flagship Humanoid Platform for Embodied AI Development - TMX Newsfile",
+      "summary": "Booster Robotics Unveils Booster T2, Its Flagship Humanoid Platform for Embodied AI Development TMX Newsfile",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlh0U05KaV9xV1JTMU1YajN0N29VT3dxX1hJdW00WDg5UG9ZbFBnMWN0cklTME9QMEdLX2FZNXhRQ1VBeVp5eDBzM29YVG55Ylh6S3lPTU4zN014ZHZ4Q3Y4T3NrMGk2ekNpbUZ3aEttQ0JELXlsb0M1ZTF6bnZYeDRUR1drUVNnbFBtNUREWGV5ZkNud2V0bzZKeUo5SVNQcEIxTWtkempRQm5PSWt0cF9RQm9Eam9uOXowM2dsRTRqelRPS2tEblo1cHhUaWV3RngyTg?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -1041,6 +1067,32 @@
       "relevance_score": 65
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-11",
+      "title": "Conversational AI Therapy Services - Trend Hunter",
+      "summary": "Conversational AI Therapy Services Trend Hunter",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54SVlKcEdRQ0hINzRhd3ZIemRhal9tY0JOOWlhZUEwR1FPLTNHTzZxQlNoRGx3Yk1aX2Q3ZVc4VGgtMmlLMWpGb2ZYSmNmb2FuajR3eFBzOENkWkRLaV91dDh3Z1jSAWpBVV95cUxOYVM1UGtLbHJHMC0wM21nRm96QVp6OG5LNlRRS1BDUTdLbXVUbUpyRjBVX0dvSzVsSW5qQ3lEeVFkTGEyMG1DQk1wcmNHaFVyLTNtOWlaVWZQTEhjQUNqX1A1VU1HWjFrakpB?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-11",
@@ -1070,32 +1122,6 @@
         "情感理解"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-10",
-      "title": "AI therapy is growing fast, but psychologists say chatbots still can't replace human care - The Times of India",
-      "summary": "AI therapy is growing fast, but psychologists say chatbots still can't replace human care The Times of India",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONngtb0JwSC1LMlcxNzNiejVNYzlMMmdKX0pscWZWVUNYeGEwbGVwajNtY3EyUlFMMVM4aXo4d3Jzd0lpTmplc3M3SzFkSzhZcTFwZ21hbVlvbG9vdzFqZGFlYzRvNjBadDFLd1lQanRKTVlKb0d4NnFPT21DdzgyOVhDdU1xTUh2S3RDQUtYUXp0TE9fMGR5emVQZzF3Q1pGSFhFQm1uZjNCSm1EVUUzaUN1alF3Mlg5a2YxZG9hdXlZUEk3Q2QteXVZVEt6UUt2dW5WYWRWX3JFcDVMdWdIeUV1VHFoNWhWWnpLTWhTeWxPVlVkSENzLWJQZ2cybzTSAYQCQVVfeXFMTVBqNkk3cEkyOGZqN0NvejJBY3pncGt5UEJHby1ZSlRDQnNra3BTUFdCVktFUFVEU2hJVjZUc25qVjhvbWRqMmxSTTdYSkVUem5fN3pjZ183aGdOYXNnQVJ1NWlhYl9aUDdPRER4Z0RVaXNFT2VybVduQ1BkY2tZMTdrSWFteThNV1ZqeFhzMlZtd3U2N0VNSzk4aTZ1cU5ST2I2ZXRmbWdsRHRwbXRIMDgyZWgzZHpuQzVhRGgwV1dabFFtYXBOUV9yQlZKaGIxMDJXSW52bjR1MXFsQ1ZkcUtZUllPeFJwVk05TFRlUGs4R3JVMy1XR1NDVXpaeVBpRUZaQU4?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "community",
@@ -1204,6 +1230,34 @@
         "具身交互"
       ],
       "relevance_score": 89
+    },
+    {
+      "kind": "industry",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-07-09",
+      "title": "AI agent tests whether machines can speak for patients at life's end - Tech Xplore",
+      "summary": "AI agent tests whether machines can speak for patients at life's end Tech Xplore",
+      "source": "RSS · Google News Human Factors",
+      "authors": [
+        "Google News Human Factors"
+      ],
+      "categories": [
+        "RSS",
+        "Google News Human Factors"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRzN2ZTlIdjN2S2RrbFFNMEctZFNJRmJPNDhrM3MxTkNfRThEMXBBQk9ncVlPMTlCcUptLWUwd2pVNmNxOHhvQ0NHX2ZfSHg4U3dudFNIR0xzcFBmaEZhYWd1MmFTUDFPc2cybm92a05xVjVUamkzSDI1a2k?oc=5",
+      "priority": 58,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估"
+      ],
+      "relevance_score": 82
     },
     {
       "kind": "industry",
@@ -2952,32 +3006,6 @@
       "relevance_score": 59
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-06-29",
-      "title": "情感计算市场规模、行业份额|预测，2026-2034 - Fortune Business Insights",
-      "summary": "情感计算市场规模、行业份额|预测，2026-2034 Fortune Business Insights",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTk4WkNVWE1kUl9vendBejhqNWpseXlfLU1fQm95QS0xeVlfZldvM19LWGJmOEhoWFk1R2tib20tRXdhWmw3TlhNZjNydnVRaFF0VlcxWUVNOWh3TDRXM0pVYzVIbmNJNURRMU04bXBnRjR2ZHlNel9fMlhtLXdmdnlB?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "Multimodal Affective Computing",
       "published": "2026-06-29",
@@ -3073,40 +3101,6 @@
         "具身交互"
       ],
       "relevance_score": 71
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-26",
-      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
-      "summary": "We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable. Specifically, for reasoning-based MLLMs, fast thinking by triggering direct answers often outperforms slow thinking after deliberative reasoning. Our empirical analyses show that fast thinking improves recall with broader and more confident predictions,...",
-      "source": "arXiv",
-      "authors": [
-        "Zhiyuan Han",
-        "Beier Zhu",
-        "Wenwen Tong",
-        "Chengwei Qin",
-        "Xinyi Wang",
-        "Jiayu Zhang"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "url": "http://arxiv.org/abs/2606.27652",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 74
     },
     {
       "kind": "lab",
