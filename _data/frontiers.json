@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T14:00:50+00:00",
-  "generated_at_beijing": "2026-07-18T22:00:50+08:00",
-  "generated_date_beijing": "2026-07-18",
+  "generated_at": "2026-07-19T04:07:56+00:00",
+  "generated_at_beijing": "2026-07-19T12:07:56+08:00",
+  "generated_date_beijing": "2026-07-19",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -87,6 +87,34 @@
   ],
   "items": [
     {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-19",
+      "title": "rein98/PsyChat",
+      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "rein98"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/rein98/PsyChat",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-18",
@@ -116,8 +144,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-18",
-      "title": "WAIC 2026 | Embodied AI Robots, Enter High-End Optical Module Manufacturing for the First Time - Gasgoo",
-      "summary": "WAIC 2026 | Embodied AI Robots, Enter High-End Optical Module Manufacturing for the First Time Gasgoo",
+      "title": "AGIBOT X2 Series Showcases Embodied AI at the World Cup, Marking a Historic Sports Companion Debut - EIN News",
+      "summary": "AGIBOT X2 Series Showcases Embodied AI at the World Cup, Marking a Historic Sports Companion Debut EIN News",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -126,7 +154,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMFZjY29qeUw1aWtDUGM3QU56SThhTDI4YnN6Rl81WTdCamRrWUVLaUlfUVlWeUhqeDh1a3RJbHNzdDlxVHFxRURIdkxpdGhsbmE1NjJiVGJaV19GNHFLMmx4ZHBRaGFSdnVmQWFjZm05OHdfUDNNWW1SUHVRMXh1dW5qVkR4clFJODFFUmxWSXY2ei1CQ3JreF9xNTlNXzlLT2k4cE5VVVYweG4zVHRBN2tRdGVNYXIwdEdWcmxGUmhyX2JXMHNabGRHNlJBcERuWW5qWGV6RFdVbWt4WkR4Q3RNWjJLTGY2?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaFBfRjVnd2dFRk53VXBCdndoQ3pRTGpGcThiR0dwcEZOSkp2NlU5WUw3dUVNNGdtajRNN2RBM1h0bWtpbFBIcVdnRUFQcElWbVJVWnlIMGdkZnlSTEk0MGxWVXN4YmNsQjFQSktlM3ZUU3AzaE9YT0k2V1BpVGZTWDU2U1BBbnlhR0NlcHJxcTQ1WFpZRzV4cVltYXV0MTRiVWJCRVpZaHozT1MyS3M3aDBEUmVpTVhBUDVCMGJCaWpZUzRWeFlwdjlaeTJzc2pveld2S3lGZw?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -163,34 +191,6 @@
         "具身交互"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-07-18",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "rein98"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/rein98/PsyChat",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
     },
     {
       "kind": "industry",
@@ -334,8 +334,8 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-16",
-      "title": "How artificial intelligence is changing the mental health space - The Ponte Vedra Recorder",
-      "summary": "How artificial intelligence is changing the mental health space The Ponte Vedra Recorder",
+      "title": "How artificial intelligence is changing the mental health space - Leader Publications",
+      "summary": "How artificial intelligence is changing the mental health space Leader Publications",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -344,7 +344,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPalV2RVJ6SmI1S0pjZ1dHbGlLYWJlcHFvMkxTV05IQU9aNW9sTml5d3ZMbTFIaVduM3Y4R25JekxJbDNENkRjU2l4S0RMY3htNDRNV1NJR1l1R1UwVnFZT3FFTWpjY21nOVJ3a0N0dTZSakVsV3NHalR4Q0hhMkU4R0dBbWlSMXZFNlJRYl9rRUx4OUJ5aFB4bjdUQ0kwaEVqNnpyWWZ2TWE5RWJzbk5WN3JzelBvMFdZMzVDWFNPSGRDczg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMG9sLVpNblQ2Vk10M3RHb1U5NFd5eXp1WnVzRzM1TWlwdEFoTUtHV2lGV3EtMXR2bmRSMWx1NG5NMG95bW5WOXZETklJLTJLcTJsWjVaWVNxQmtWSUc3ODFkekRJMnZVajdzRk1GQ251SUxsSmdhN0RnY1NuRmFJQllDYm9aTTJIdjVURlQ5eVVSUXJwLUR2M3FGODV3MURNYW9JX1o2LVJabUlKaTZSNjZDa3h4eVBoaFpNVXdWNlNCSloxSy0zZXNpT1RSbHBHSEFHQ09YM0ZpdklwVFp3el9yRXJBdjhqNWh1bE9uNXB6UUU?oc=5",
       "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
