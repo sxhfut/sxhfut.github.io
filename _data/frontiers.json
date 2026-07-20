@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T14:10:32+00:00",
-  "generated_at_beijing": "2026-07-19T22:10:32+08:00",
-  "generated_date_beijing": "2026-07-19",
+  "generated_at": "2026-07-20T04:17:46+00:00",
+  "generated_at_beijing": "2026-07-20T12:17:46+08:00",
+  "generated_date_beijing": "2026-07-20",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -11,18 +11,18 @@
     "github_recent_items": 4,
     "recent_signal_items": 19,
     "rss_items": 54,
-    "arxiv_items": 76,
+    "arxiv_items": 107,
     "kind_counts": {
       "community": 18,
-      "industry": 43,
+      "industry": 40,
       "lab": 1,
-      "paper": 56,
+      "paper": 59,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 44,
-      "RSS · Google News": 11,
+      "arXiv": 47,
+      "RSS · Google News": 10,
       "HFUT Faculty Blog": 7,
       "Last30Days · GitHub": 6,
       "Last30Days · Hacker News": 5,
@@ -35,13 +35,12 @@
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
-      "RSS · Microsoft Research": 3,
-      "RSS · IEEE Spectrum Robotics": 2,
       "RSS · Google 新闻": 2,
+      "RSS · IEEE Spectrum Robotics": 2,
       "RSS · Google News Human Factors": 2,
+      "RSS · Microsoft Research": 2,
       "RSS · BAIR Blog": 2,
       "RSS · Google AI": 1,
-      "RSS · Google Research": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
       "ACM Digital Library / ORCID": 1,
@@ -89,9 +88,9 @@
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-19",
-      "title": "Chinese robots impress industry insiders in Australia with embodied AI - news.cgtn.com",
-      "summary": "Chinese robots impress industry insiders in Australia with embodied AI news.cgtn.com",
+      "published": "2026-07-20",
+      "title": "World AI Conference displays cutting-edge general embodied AI products in Shanghai - People's Daily Online",
+      "summary": "World AI Conference displays cutting-edge general embodied AI products in Shanghai People's Daily Online",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -100,7 +99,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGJ4dnF3M3VvY3BSVEszU0dqbHBhRGtNWmtMVmFfY0RWelhncTRDbmoybzFneWQ5SGR3dzIyZmJQb3VtVW4welpVM0JNeTdWRnpPMmFpbkVaMXdGMjdZdUZFOHZvWThGOGV0R3ZMS2NmdWdEd0ZfYVZlaEhYWTlRalE4S0g3R2FFc1pRRklzMGNOb1Nhc0NFaDRUcFpXeks5SGtEcUxwM1ZfN2cyNkYxNEFpZ2M4S1JOaWttdHdQTjRsY2g2RjhUa19nMlhmSG5x?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XcVh4eTZIaEtuOE1PVVZ1bmlCYWd6OERQQXZLdjFqX09QU1M0Sml1RVdYbHYxaDlCdkFZWUhYN0hZM0ZPajhLNUpkNzF6VWNkQTVvTzZuVXp0YzdrakV0cEpVSFk?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -115,9 +114,9 @@
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-19",
-      "title": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 - The Manila Times",
-      "summary": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 The Manila Times",
+      "published": "2026-07-20",
+      "title": "Making sense of embodied AI - The Hindu",
+      "summary": "Making sense of embodied AI The Hindu",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -126,7 +125,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQckVoLUktTUcxYm9WWWFhUC1WSlBDMUdTWWZscE1yejZ4ZTdNekNHLUZaM3NXQ3pvWS1EUUJTYWN1NWxFQndsSVRoaEhEaHRrb0YzWXRDUlh2WEJlakZHd0JoVnF1UVdWVEtSTUcxcjk2YkdKbFVLU29ZelVTbkEyQk1ZTll3TnRWNjBDOVZ2Q3pDQjJfSmhOSkZLTnp4cDNvS1IwVWFBbXlnZ3B2WS1EeVF1cUZpZ2d5VGZmZW90RUwwT1k5ZFhLVDNjdXNfUjg1S3BUMmlrVUo4d1RCTklEQjhXUkRPMFRZbWNSWEZhNk9xVTRiZkJhcWoxSVhyOENwY0puNGhoRFB6aXRESTFwd3JFQdIBmAJBVV95cUxOcnJrQkVIZGxBTm1GdWI4NFNMZlkxZ091OWh4bEkya1VMQmhMNE5tNDJudF85dGhrUUZVek14ZjFVbWs2MjRSRERReGg5eXhoZ1hnZEF4QTJBTm50eEtCTVdyblhUVVpsOVliN3BwTnZVNG95VmNlblJtb1R6NE9kRlE5eTB5ekZUNEYtYUpTVWxqeHFsZkFyLVNEZHkwREtXc3ZLd3ZEZ3dCS3RKbjRmbXFqaS1fek9qZDU4MnF0Mm9pUzNZMXFHVTUzYzNDSUhHOF83Q3NfWlhfQ01STzFCV1I1OXFlamlPMUxJLVNtM1llc0ZINzAtdUlkWFRHZHBRaXdTR0FBTHNzd2ZNWEp5cldxaU95Z1pT?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDE3VHB2TXdrTEZpUnNKNDFtZ0hFNnZ0RTBMcVRIa3VFN2ZWQVN2YVk4b3NjYXl2ZFBZdTFFX2FMYVFXaUh1aHJpdC1Ic3RHaUpzMkVubnNjLUNacmRGclFyZm9zUDJRcGVSYVRFVTRZVkhfcUZyNi1vQ1hqN3VOY2w0M0NRY1FUQjRxSW5TOEtZSjhCZHpF0gGeAUFVX3lxTE1lQ1FPM2R1Rkw2TkJZSnFyaVp1bkk0WFFjNEUzcGhKTElfUUl4eDFCWVAzVW80dUdmSWFJcGlCNTlqNG1yLXYtNXVGRWVKMlpJQk9fMVZoM1pvOFF0cThRamFULWw0ZEJ2Y195SXlVX3VzZTIyNWdXRlIyTzdGZjRwSlhWUWJFLTlNOWNQRkEtdUJ2c0dzdGpCeGhibVVn?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -137,6 +136,33 @@
         "具身交互"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-19",
+      "title": "跨越“最难一公里”：望里科技跑通商业闭环，AI心理诊疗开始变现 - 搜狐网",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaWo0TkxJQzktdC1zLW1ETUxYTXlDVDVzUEhjWnpfZ05vM05IOGpkZVkycS10YkktRjBWSUNGOUpWR2tmeDdCelhydjJxTHFTbkZ5a2dzbEhBOHhJWndfZzJPdFViYkdCc2ItOEFWNVIyRmtyZ1llRU5iTGtpQzFUX3J0OWJUczhP?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
     },
     {
       "kind": "community",
@@ -329,6 +355,132 @@
         "具身交互"
       ],
       "relevance_score": 71
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-07-17",
+      "title": "AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis",
+      "summary": "Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding. To address these issues,...",
+      "source": "arXiv",
+      "authors": [
+        "Zhenqi Jia",
+        "Yuan Zhao",
+        "Aruukhan",
+        "Rui Liu",
+        "Haizhou Li"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2607.15755",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 74
+    },
+    {
+      "kind": "paper",
+      "track": "Affective Computing",
+      "published": "2026-07-17",
+      "title": "Physiological Prior-Driven Label Enhancement for Cross-Subject EEG Emotion Recognition",
+      "summary": "Electroencephalography (EEG)-based emotion recognition captures affective neural signals with high temporal precision, but cross-subject variability and label noise remain critical challenges to its practical healthcare deployment. Existing label-denoising methods lack physiological grounding, while physiology-informed approaches rely on hand-crafted hyperparameters. To bridge these two paradigms, we propose PhyDA, a...",
+      "source": "arXiv",
+      "authors": [
+        "Hongyu Zhu",
+        "Lin Chen",
+        "Yuming Fu",
+        "Mounim A. El-Yacoubi",
+        "Mingsheng Shang"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2607.15566",
+      "priority": 50,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Mind-Body Support",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "身心支持",
+        "情感理解"
+      ],
+      "relevance_score": 74
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-17",
+      "title": "PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction",
+      "summary": "Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts. In this paper, we present PACE (Persona Adaptation through Conversational Elicitation), a novel framework for the interactive generation...",
+      "source": "arXiv",
+      "authors": [
+        "Peizhen Li",
+        "Longbing Cao",
+        "Megani Rajendran",
+        "Timothy Liu",
+        "Aik Beng Ng",
+        "Simon See"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "url": "http://arxiv.org/abs/2607.15579",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "可信评测"
+      ],
+      "relevance_score": 62
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-17",
+      "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
+      "summary": "Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocular videos of human-object interaction. Given a short observed video context, MotionForesight predicts future 3D trajectories for...",
+      "source": "arXiv",
+      "authors": [
+        "Homanga Bharadhwaj",
+        "Yash Jangir"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2607.16192",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 56
     },
     {
       "kind": "industry",
@@ -649,34 +801,6 @@
         "具身交互"
       ],
       "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-07-15",
-      "title": "GigaChat Audio AI Launches with Emotion Recognition and Advanced Voice Understanding - Electronics Media",
-      "summary": "GigaChat Audio AI Launches with Emotion Recognition and Advanced Voice Understanding Electronics Media",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HMVB4cjg2WHB2X2I0cFRXOEVMNmw2a0ZEQjkzOTh6S1NaNkpjOWh4TUNOdzQ1UV9mUjE2eng3U1g2TmdkaTNfSUhtQXhnUC04UmVVT3lRc0toZGk2dEYySy16NUlKMGdlNzlSWmhTaXg?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -1195,33 +1319,6 @@
       "relevance_score": 85
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-12",
-      "title": "AI心理“问诊”的能与不能 - 东方财富",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMS3QySTVNLTBYWmE3RFNFeUMzc0FPYXZUek1ybFlrTzVITzNCa2hrdjNPSUFHWXpZaFBBQ0pLSlNHTWRCRGpjdEh6RDNFWWUxTVdlbUtnNUt3YXZ1VXcxUQ?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-07-12",
@@ -1430,34 +1527,6 @@
       "kind": "industry",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-09",
-      "title": "AI agent tests whether machines can speak for patients at life's end - Tech Xplore",
-      "summary": "AI agent tests whether machines can speak for patients at life's end Tech Xplore",
-      "source": "RSS · Google News Human Factors",
-      "authors": [
-        "Google News Human Factors"
-      ],
-      "categories": [
-        "RSS",
-        "Google News Human Factors"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRzN2ZTlIdjN2S2RrbFFNMEctZFNJRmJPNDhrM3MxTkNfRThEMXBBQk9ncVlPMTlCcUptLWUwd2pVNmNxOHhvQ0NHX2ZfSHg4U3dudFNIR0xzcFBmaEZhYWd1MmFTUDFPc2cybm92a05xVjVUamkzSDI1a2k?oc=5",
-      "priority": 58,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估"
-      ],
-      "relevance_score": 82
-    },
-    {
-      "kind": "industry",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-07-09",
       "title": "OntarioMD on Practical AI and the Reality of Data Standards - Healthcare IT Today",
       "summary": "OntarioMD on Practical AI and the Reality of Data Standards Healthcare IT Today",
       "source": "RSS · Google News Human Factors",
@@ -1479,6 +1548,34 @@
       "capability_tags_zh": [
         "心理评估",
         "身心支持"
+      ],
+      "relevance_score": 82
+    },
+    {
+      "kind": "industry",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-07-09",
+      "title": "AI agent tests whether machines can speak for patients at life's end - Tech Xplore",
+      "summary": "AI agent tests whether machines can speak for patients at life's end Tech Xplore",
+      "source": "RSS · Google News Human Factors",
+      "authors": [
+        "Google News Human Factors"
+      ],
+      "categories": [
+        "RSS",
+        "Google News Human Factors"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRzN2ZTlIdjN2S2RrbFFNMEctZFNJRmJPNDhrM3MxTkNfRThEMXBBQk9ncVlPMTlCcUptLWUwd2pVNmNxOHhvQ0NHX2ZfSHg4U3dudFNIR0xzcFBmaEZhYWd1MmFTUDFPc2cybm92a05xVjVUamkzSDI1a2k?oc=5",
+      "priority": 58,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "心理评估"
       ],
       "relevance_score": 82
     },
@@ -2997,36 +3094,6 @@
       "relevance_score": 83
     },
     {
-      "kind": "paper",
-      "track": "Affective Computing",
-      "published": "2026-07-01",
-      "title": "PRISM: Prioritized Channel Importance with Semi-supervised Domain Adaptation for Cross-Subject EEG Emotion Recognition",
-      "summary": "Electroencephalogram (EEG) captures endogenous brain activity with high temporal fidelity and holds substantial promise for precise emotion decoding. However, channel redundancy and pronounced inter-subject variability remain key obstacles to scalable generalization. To address these limitations, we propose a novel framework termed PRioritized channel Importance with Semi-supervised doMain adaptation (PRISM), enabling...",
-      "source": "arXiv",
-      "authors": [
-        "Xin Zhou",
-        "Xiang Zhang",
-        "Hao Deng",
-        "Lijun Yin"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "url": "http://arxiv.org/abs/2607.00358",
-      "priority": 50,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 65
-    },
-    {
       "kind": "community",
       "track": "Multimodal Affective Computing",
       "published": "2026-06-30",
@@ -3053,59 +3120,6 @@
         "情感理解"
       ],
       "relevance_score": 90
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-30",
-      "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
-      "summary": "Selected from Google Research's public feed for its relevance to AI Research and applied AI systems.",
-      "summary_zh": "来自 Google Research 公开订阅源，内容与 AI Research 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google Research",
-      "authors": [
-        "Google Research"
-      ],
-      "categories": [
-        "RSS",
-        "Google Research"
-      ],
-      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-06-30",
-      "title": "SkillOpt: Agent skills as trainable parameters",
-      "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research .",
-      "source": "RSS · Microsoft Research",
-      "authors": [
-        "Microsoft Research"
-      ],
-      "categories": [
-        "RSS",
-        "Microsoft Research"
-      ],
-      "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
     },
     {
       "kind": "lab",
