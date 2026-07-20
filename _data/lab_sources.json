@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T14:41:01+00:00",
-  "generated_at_beijing": "2026-07-19T22:41:01+08:00",
-  "generated_date_beijing": "2026-07-19",
+  "generated_at": "2026-07-20T05:21:40+00:00",
+  "generated_at_beijing": "2026-07-20T13:21:40+08:00",
+  "generated_date_beijing": "2026-07-20",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
     "hfut_faculty_blog": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm",
@@ -20,7 +20,7 @@
     "hfut_faculty_blog_fetched": 56,
     "orcid_total_groups": 140,
     "orcid_high_signal_items": 58,
-    "dblp_high_signal_items": 24,
+    "dblp_high_signal_items": 43,
     "openalex_works_count": 397,
     "openalex_cited_by_count": 7547,
     "crossref_orcid_records": 69,
@@ -39,9 +39,7 @@
     "dblp": {
       "url": "https://dblp.org/pid/30/202-3.html",
       "xml_url": "https://dblp.org/pid/30/202-3.xml",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 24,
-      "reused_previous": true
+      "items": 43
     },
     "academic_indexes": {
       "openalex": {
