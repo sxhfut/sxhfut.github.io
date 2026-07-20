@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T04:17:46+00:00",
-  "generated_at_beijing": "2026-07-20T12:17:46+08:00",
+  "generated_at": "2026-07-20T14:42:11+00:00",
+  "generated_at_beijing": "2026-07-20T22:42:11+08:00",
   "generated_date_beijing": "2026-07-20",
   "stats": {
     "total_items": 120,
@@ -13,8 +13,8 @@
     "rss_items": 54,
     "arxiv_items": 107,
     "kind_counts": {
-      "community": 18,
-      "industry": 40,
+      "community": 17,
+      "industry": 41,
       "lab": 1,
       "paper": 59,
       "standard": 1,
@@ -22,21 +22,21 @@
     },
     "source_counts": {
       "arXiv": 47,
-      "RSS · Google News": 10,
+      "RSS · Google News": 11,
       "HFUT Faculty Blog": 7,
       "Last30Days · GitHub": 6,
-      "Last30Days · Hacker News": 5,
       "Last30Days · Reddit": 4,
+      "Last30Days · Hacker News": 4,
       "ORCID / DOI": 4,
+      "RSS · MIT Technology Review AI": 3,
       "Recent GitHub": 3,
       "RSS · OpenAI News": 3,
       "RSS · VentureBeat AI": 3,
       "RSS · Hugging Face Blog": 3,
-      "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
-      "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google 新闻": 2,
       "RSS · Google News Human Factors": 2,
       "RSS · Microsoft Research": 2,
       "RSS · BAIR Blog": 2,
@@ -87,10 +87,10 @@
   "items": [
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
+      "track": "Affective Computing",
       "published": "2026-07-20",
-      "title": "World AI Conference displays cutting-edge general embodied AI products in Shanghai - People's Daily Online",
-      "summary": "World AI Conference displays cutting-edge general embodied AI products in Shanghai People's Daily Online",
+      "title": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel - Nasscom",
+      "summary": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel Nasscom",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -99,7 +99,33 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XcVh4eTZIaEtuOE1PVVZ1bmlCYWd6OERQQXZLdjFqX09QU1M0Sml1RVdYbHYxaDlCdkFZWUhYN0hZM0ZPajhLNUpkNzF6VWNkQTVvTzZuVXp0YzdrakV0cEpVSFk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaTBFLU5oOC1ETEt5bzBNV1NNSWlYQzljQkRTS2djOHpLb0o1WjFWWUJtWXkyZGdtdVQzaElXTENLUlNJZkJGSXdfU2RyUXU5VDh1eGpGdC1qWWtMQnk3dGdnTlJzNnlQUk5PQXVMQzhLXzdaMXM5bjI3M2YtdE1wZkV4TWxPNmVlNy14WDJ0a19HcFV3QnYtSmhR?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-20",
+      "title": "WAIC 2026 | ModelBest Unveils Embodied AI Model Series MiniCPM-Robot - Gasgoo",
+      "summary": "WAIC 2026 | ModelBest Unveils Embodied AI Model Series MiniCPM-Robot Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOajFKMG5zbFltUk1qMGQ4eUcxdWdWMlJWdlp1aUQ2M3Z4Y1ZIcUNOOXVTQVFiMWxCcy1WVUpuQ29WOHp3Vk1oUkctYlA2ZERXZkJINlFXb201MnVxQVpVdzdqY2M3M3g2b3NscXB5Z2xfYURpNGZDdFI4OGw0QkRyX1pMN3FzY05WZjJ4Zkg1Q3o2NThQZ1d1Vmt3YXZTQ0pwT1dqNDEyTy1RYWwwX0FTVWY0UWJKRGRkaTB4cEFEX0puczYxZ1RZ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -115,8 +141,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-20",
-      "title": "Making sense of embodied AI - The Hindu",
-      "summary": "Making sense of embodied AI The Hindu",
+      "title": "AGIBOT Unveils Four New Products at WAIC 2026, Showcasing Embodied AI in Real-World Operations - Macau Business",
+      "summary": "AGIBOT Unveils Four New Products at WAIC 2026, Showcasing Embodied AI in Real-World Operations Macau Business",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -125,7 +151,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDE3VHB2TXdrTEZpUnNKNDFtZ0hFNnZ0RTBMcVRIa3VFN2ZWQVN2YVk4b3NjYXl2ZFBZdTFFX2FMYVFXaUh1aHJpdC1Ic3RHaUpzMkVubnNjLUNacmRGclFyZm9zUDJRcGVSYVRFVTRZVkhfcUZyNi1vQ1hqN3VOY2w0M0NRY1FUQjRxSW5TOEtZSjhCZHpF0gGeAUFVX3lxTE1lQ1FPM2R1Rkw2TkJZSnFyaVp1bkk0WFFjNEUzcGhKTElfUUl4eDFCWVAzVW80dUdmSWFJcGlCNTlqNG1yLXYtNXVGRWVKMlpJQk9fMVZoM1pvOFF0cThRamFULWw0ZEJ2Y195SXlVX3VzZTIyNWdXRlIyTzdGZjRwSlhWUWJFLTlNOWNQRkEtdUJ2c0dzdGpCeGhibVVn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzIwYXVZVE91YUlQbnpKMlNVY2dVaGJ2Z3VzR2ZRd3F5VE1Od0RyTnpERTlGWmI4REgyTDRZQW9RaUlKbF8zd1otTlNfSkxocjFzeDV3OXl0T2ttVW1HUk9BVXF0WkRMX2h3N3pXeEZlLXgwREJCcHItR25lZlpyNEM2QTZKMVdubU1XS1dXRGFydkRScF9KZ0UyWmIzVmcwbXF5R2hBbkkwVlo1TEpmQ282cUhKdmZldVBldA?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -140,29 +166,80 @@
     {
       "kind": "industry",
       "track": "AI + Psychology",
-      "published": "2026-07-19",
-      "title": "跨越“最难一公里”：望里科技跑通商业闭环，AI心理诊疗开始变现 - 搜狐网",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
+      "published": "2026-07-20",
+      "title": "New AI Therapy That Maps Entire Brain Tumor, Plus Anesthesia Impact on Stroke Outcomes and Racial Disparity Findings to Debut at SNIS Annual Meeting, July 20 in Seattle - Yahoo Finance",
+      "summary": "New AI Therapy That Maps Entire Brain Tumor, Plus Anesthesia Impact on Stroke Outcomes and Racial Disparity Findings to Debut at SNIS Annual Meeting, July 20 in Seattle Yahoo Finance",
+      "source": "RSS · Google News",
       "authors": [
-        "Google 新闻"
+        "Google News"
       ],
       "categories": [
         "RSS",
-        "Google 新闻"
+        "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaWo0TkxJQzktdC1zLW1ETUxYTXlDVDVzUEhjWnpfZ05vM05IOGpkZVkycS10YkktRjBWSUNGOUpWR2tmeDdCelhydjJxTHFTbkZ5a2dzbEhBOHhJWndfZzJPdFViYkdCc2ItOEFWNVIyRmtyZ1llRU5iTGtpQzFUX3J0OWJUczhP?oc=5",
-      "priority": 57,
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYi1RTVJvUDc0V184eTJqbHpZOXhWb0pmVGoxUHVyVjBnUm5NMG92OEExdTQwbTFlWDFoT1lHQ0o2b2xENjJxTHRNaGl4WEZXUi1NaGhjNnBjRXAwdm02ZVVjWE1yT281M0o3Mjd3anFZaHB0TnRkX1FJZVh6VEhzQ2pkNW15VUpBNW1hODRkV1lZTkk?oc=5",
+      "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "AI + Psychology"
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
-        "AI + Psychology"
+        "身心支持"
       ],
-      "relevance_score": 75
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-07-20",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+      "source": "RSS · MIT Technology Review AI",
+      "authors": [
+        "MIT Technology Review AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT Technology Review AI"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-19",
+      "title": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 - Kitsap Sun",
+      "summary": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 Kitsap Sun",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcnJOWDA5bzRqWk1xeVYwTFphT0VlSnFaTnd1cElGTElFczh4YTRNb1p1ZjVNbFFUNWpLZVdUeXNVSmJyRGItcXgtRkdLZFJyUUdGN0puZzB5SWR5ci1zYy1jZnh0bFNfZXNRbXN4UTFiSU9tWjN1SHY3Z2RvVUF4VU0xQ0hhVGI5RUs4Tm8wclZqMkw5S2lQczlXRmJRVmw4S3hLV19WQ3dsMDNzT0laZDB4TENocjJlaDV3VXdCelRCUXllbFFPc3VLMVJ6Z3YxYU9oN3JFcW5LRUxaWFhZOVZYX1hESzdtd19INQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "community",
@@ -194,32 +271,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-18",
-      "title": "Embodied AI, Homegrown Chips Take Center Stage at WAIC 2026 - 中国科技网",
-      "summary": "Embodied AI, Homegrown Chips Take Center Stage at WAIC 2026 中国科技网",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KZGoxQ2tHOVVoU2R5QUJPeDRYck83UnpLZXBmZTBVYTMtcXAzUVlkcEd1WlJoaVpnVmVNRjJhZ3RyQnNSZDdTcW5aejBCc2p0NWd5aloxUUJaY3E3T184ZXNDa3Q2a3FYT3NjMG45SmZnaEhy?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-17",
       "title": "Digital Mental Health Clinic Cuts Follow-Up Care Use After Psychiatric ED Visits - Telehealth.org",
@@ -245,32 +296,6 @@
         "身心支持"
       ],
       "relevance_score": 85
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-17",
-      "title": "AI Psychology Installations - Trend Hunter",
-      "summary": "AI Psychology Installations Trend Hunter",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pR0ZwTUtjcl84bng0RTFqcHBHaGM5d2hJQUE2ZWRBbkFTMVgxTmRUQkNhSTUzSk5kZkF4SEcwRS14QnZ2aWpRTWJzNHJkaTRQU1HSAVdBVV95cUxNVEpfNUJnR2hzR2I0NnVhV2ZiczdzYnBOYXNvaF9XV0hCbTcteUJoMVhzck9KbmpyeGtjSnE3SGxSZEI5X1FOb1RtaWdET3FxWWZNRGxIeWc?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "community",
@@ -1319,6 +1344,33 @@
       "relevance_score": 85
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-12",
+      "title": "AI心理“问诊”的能与不能 - 东方财富",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMS3QySTVNLTBYWmE3RFNFeUMzc0FPYXZUek1ybFlrTzVITzNCa2hrdjNPSUFHWXpZaFBBQ0pLSlNHTWRCRGpjdEh6RDNFWWUxTVdlbUtnNUt3YXZ1VXcxUQ?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-07-12",
@@ -2066,34 +2118,6 @@
         "情感大模型"
       ],
       "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-07-07",
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI...",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "可信评测"
-      ],
-      "relevance_score": 77
     },
     {
       "kind": "paper",
@@ -3092,34 +3116,6 @@
         "情感理解"
       ],
       "relevance_score": 83
-    },
-    {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-06-30",
-      "title": "Gemma 4 on Cerebras - The Fastest Inference Is Now Multimodal",
-      "summary": "Gemma 4 on Cerebras - The Fastest Inference Is Now Multimodal Last30Days signal for multimodal affective computing speech emotion, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "Tiberium",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://www.cerebras.ai/blog/gemma-4-on-cerebras-the-fastest-inference-is-now-multimodal",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "情感理解"
-      ],
-      "relevance_score": 90
     },
     {
       "kind": "lab",
