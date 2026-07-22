@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T04:00:43+00:00",
-  "generated_at_beijing": "2026-07-22T12:00:43+08:00",
+  "generated_at": "2026-07-22T14:44:22+00:00",
+  "generated_at_beijing": "2026-07-22T22:44:22+08:00",
   "generated_date_beijing": "2026-07-22",
   "stats": {
     "total_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 5,
     "recent_signal_items": 17,
     "rss_items": 54,
-    "arxiv_items": 105,
+    "arxiv_items": 49,
     "kind_counts": {
       "community": 16,
       "industry": 40,
@@ -89,8 +89,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-22",
-      "title": "WAIC Observation: Huawei Enters Embodied AI With CloudRobo Platform, Can It Repeat the SERES Miracle of Smart Car Success? - Pandaily",
-      "summary": "WAIC Observation: Huawei Enters Embodied AI With CloudRobo Platform, Can It Repeat the SERES Miracle of Smart Car Success? Pandaily",
+      "title": "From Runway to Workplace: Has Embodied AI's \"ChatGPT Moment\" Arrived? - Gasgoo",
+      "summary": "From Runway to Workplace: Has Embodied AI's \"ChatGPT Moment\" Arrived? Gasgoo",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -99,7 +99,59 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtWFBIVV9mcUUyR2pxelpnVVZuRXVZemViam9UZTBWQVlyU0daU2d5a3JLVlhHdWlNQ1FOX1o5cS12T0NVS3RjN1N6dmhPU1NVSzJpMkpOeDd2UHNRaE1ETGFFZXdlTkdmZ1JzSEpUcW5LTnNQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY3RTckV0cjVKWkh1LWlrbEtseG52ZEstLUdIYXljbjFNNk1lS05VSlJRRGh5RXVma0d0TVJmTkRpak5xaUlKYXp4UTFRRVdoWHRFVTl0X0VDN0FhWm9LV3UzaGZFS2hGOW9oMWtVSktMT01XRklnRlFwcE1GTTdFOXE1bWtpclBuNU1scTFKM0hHTFlCWHVEWFJHazNVQ0htN1doZW95WW9Xcm1XUmFlRHV0RWZPbjUwRG5NNE5zRmZUTThw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-22",
+      "title": "Agibot Expands Embodied AI Portfolio With Four New Products - AI Business",
+      "summary": "Agibot Expands Embodied AI Portfolio With Four New Products AI Business",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRFQxZDVFOXc1RHVDQnVkLXprNXFFR1ZkdnZudnVEbUU2ZThOY21yWHNWcER6cWZkblNTMUxpYzZBQ2hkemNFaldJYkNjMmxrZmdSYVdZNDdYdHZKWGFnSmF2N3lvLVRrbjQ1bUctNl8xdVgwOGhBN0QwUUI2QXBzZ1hRRDZob19K?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-22",
+      "title": "Google Cloud and NVIDIA power microagi's embodied AI ambitions - Tech.eu",
+      "summary": "Google Cloud and NVIDIA power microagi's embodied AI ambitions Tech.eu",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRU9kWmJsNmx6R2hJOG43bmVQRWpCcG1jcEJCYV9hZ3QxckI2RUxDZ0FsdFhwaU80UFRBWUJoQzBOelpoUHRjejVrQ3MyZm1hZmNyT2ZqbUR4SUJtZXpLSVFrc0RHaUNRTTlYREtoNHBWVGh5dk9uM3JhS0dWSVlnaWJoOWUyZ1FiX2hXLVJpWHdkWk0?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -138,58 +190,62 @@
       "relevance_score": 76
     },
     {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-21",
-      "title": "Study exposes major flaw in AI mental health safety testing - Stanford Report",
-      "summary": "Study exposes major flaw in AI mental health safety testing Stanford Report",
-      "source": "RSS · Google News",
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-22",
+      "title": "li33893/ai-support-discourse",
+      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
       "authors": [
-        "Google News"
+        "li33893"
       ],
       "categories": [
-        "RSS",
-        "Google News"
+        "GitHub",
+        "Python"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWI3SVExaDRjTkRTVXN3MmdQSnhvSHdYZy1YLThWTk1UOXhDTW5rMDU0enVzUkZNcGdqY3BIcjNya1UteHFFR2VwaDlxMXIyc1VVaGNaUERsRWxEVEthbmdpN3EzcTZoU1BOd3JyWXBweTZHWlJPN0RMVHlJUy1LYWRwazlKNmlSM1F5dDJfTFB4SFVsalBRR3ZBb0RWVjExZ19J?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "url": "https://github.com/li33893/ai-support-discourse",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
         "Psychological Assessment",
-        "Trustworthy Evaluation"
+        "Mind-Body Support"
       ],
       "capability_tags_zh": [
         "心理评估",
-        "可信评测"
+        "身心支持"
       ],
-      "relevance_score": 85
+      "relevance_score": 83
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-21",
-      "title": "Elite Robots Collaborates with Generalist AI on Next-Gen Embodied AI - Macau Business",
-      "summary": "Elite Robots Collaborates with Generalist AI on Next-Gen Embodied AI Macau Business",
-      "source": "RSS · Google News",
+      "track": "AI Research",
+      "published": "2026-07-22",
+      "title": "Introducing OpenAI Presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "source": "RSS · OpenAI News",
       "authors": [
-        "Google News"
+        "OpenAI News"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "OpenAI News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQmd5Q2RtOEhuVmx0MHlLMVpmREQ2dTVreDlIRHRJc0hNcGx6Vm9sQmtiNkhBZXlMY2RBLTBKQ0p3ODZ1eF9mQkFqcFdoZWJtUUhXSFdIQnU0MVlNOXpjYTg1M0VkRHFJUkEwNG90eTExNGRPMGxqTUJMbHVLNEhBYmFWbDVwQ1dQSXdhQTlSWmdZcUxCajBaTDNXOA?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Trustworthy Evaluation"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "情感大模型",
+        "多模态感知",
+        "可信评测"
       ],
-      "relevance_score": 79
+      "relevance_score": 85
     },
     {
       "kind": "community",
@@ -218,34 +274,6 @@
         "情感理解"
       ],
       "relevance_score": 86
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-07-21",
-      "title": "li33893/ai-support-discourse",
-      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "li33893"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/li33893/ai-support-discourse",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
     },
     {
       "kind": "industry",
@@ -407,32 +435,6 @@
       ],
       "capability_tags_zh": [
         "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-20",
-      "title": "WAIC 2026 | ModelBest Unveils Embodied AI Model Series MiniCPM-Robot - Gasgoo",
-      "summary": "WAIC 2026 | ModelBest Unveils Embodied AI Model Series MiniCPM-Robot Gasgoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOajFKMG5zbFltUk1qMGQ4eUcxdWdWMlJWdlp1aUQ2M3Z4Y1ZIcUNOOXVTQVFiMWxCcy1WVUpuQ29WOHp3Vk1oUkctYlA2ZERXZkJINlFXb201MnVxQVpVdzdqY2M3M3g2b3NscXB5Z2xfYURpNGZDdFI4OGw0QkRyX1pMN3FzY05WZjJ4Zkg1Q3o2NThQZ1d1Vmt3YXZTQ0pwT1dqNDEyTy1RYWwwX0FTVWY0UWJKRGRkaTB4cEFEX0puczYxZ1RZ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -1161,32 +1163,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-07-16",
-      "title": "Why teens deserve access to safe AI",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
-    },
-    {
-      "kind": "industry",
       "track": "AI Industry",
       "published": "2026-07-16",
       "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
@@ -1840,6 +1816,34 @@
         "AI + Psychology"
       ],
       "relevance_score": 56
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-12",
+      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - Stanford HAI",
+      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing Stanford HAI",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2FfdUpobm5ieXRaVUxoR2ZTSVpQdW5FUDJBRmc5eThCTkFzRmRqUFdGVWtldEJsYUdDb2Q3a3U1N1ZRRHpVTDczcmF4SUxfTFFxWW1HV3lIOUNjQWxQVEFNOVhGSV96SGhWYlFGcFlrd1dnMFhnSWVYT0cxd3ZISGJCWDYwelpvcjJ2VXNyVDV3UWc2S3RYSWNpMGxOWVE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 85
     },
     {
       "kind": "industry",
