@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T04:51:37+00:00",
-  "generated_at_beijing": "2026-07-22T12:51:37+08:00",
+  "generated_at": "2026-07-22T15:22:11+00:00",
+  "generated_at_beijing": "2026-07-22T23:22:11+08:00",
   "generated_date_beijing": "2026-07-22",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
@@ -21,8 +21,8 @@
     "orcid_total_groups": 140,
     "orcid_high_signal_items": 58,
     "dblp_high_signal_items": 43,
-    "openalex_works_count": 397,
-    "openalex_cited_by_count": 7547,
+    "openalex_works_count": 396,
+    "openalex_cited_by_count": 7546,
     "crossref_orcid_records": 69,
     "publication_news_items": 18
   },
@@ -62,8 +62,8 @@
       "orcid": "https://orcid.org/0000-0001-9750-7032",
       "display_name": "Xiao Sun",
       "id": "https://openalex.org/A5088062069",
-      "works_count": 397,
-      "cited_by_count": 7547,
+      "works_count": 396,
+      "cited_by_count": 7546,
       "last_known_institutions": [
         "Northeastern University"
       ]
