@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T03:50:39+00:00",
-  "generated_at_beijing": "2026-07-25T11:50:39+08:00",
+  "generated_at": "2026-07-25T14:14:23+00:00",
+  "generated_at_beijing": "2026-07-25T22:14:23+08:00",
   "generated_date_beijing": "2026-07-25",
   "stats": {
     "total_items": 120,
@@ -22,20 +22,20 @@
     },
     "source_counts": {
       "arXiv": 52,
-      "RSS · Google News": 9,
+      "RSS · Google News": 10,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 4,
       "Last30Days · Reddit": 4,
       "Last30Days · GitHub": 4,
       "Last30Days · Hacker News": 4,
       "ORCID / DOI": 4,
-      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google 新闻": 2,
       "RSS · Google News Human Factors": 2,
       "RSS · Microsoft Research": 2,
       "RSS · Google Research": 1,
@@ -143,58 +143,6 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-24",
-      "title": "AgiBot Begins Hong Kong IPO Process as China’s Embodied-AI Startups Race to List - Caixin Global",
-      "summary": "AgiBot Begins Hong Kong IPO Process as China’s Embodied-AI Startups Race to List Caixin Global",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcmhiS1lSd1dsbHdQaWFtYTA3b2g4Qm5WMDRkTmJBWHU5Zk15bnQxYlBBZ1JfRy1neUxMZFlmcTJTQ2Nwb1FRN1ZHa3M4UFdGVlpLSDNSdjZMV0ljNV9hSVgxSkZmRDNMYkVTcHFJeElTNTVHTzY2WXdKRS1BOFdVXzN1VUViczlIMl9RQW9GN092ZnU4Z0diVF9Lc2tqRWVZSllPMU5pOTIyOWpGVUp2VlBCb0JtTTd0NXdzbHFhRnJxSVk5THZwelpKOVdOSXM?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-24",
-      "title": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 - 手机网易网",
-      "summary": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 手机网易网",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RVUtyQ0JTTGdXdG93S0x5WGZhcFYxb2ZHUmhjOU1CQXluNzM1VWFDdW80MXJLcHNiOXVpejJ1N25pNkE2WUJibmhtcmt2SW5fSEVtcHFOckt1ZDZjTy1FTUNB?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-24",
       "title": "Video Friday: An Italian Humanoid Comes to Life",
       "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Summer School on Multi-Robot Systems : 29 July–4 August 2026, PRAGUE...",
       "source": "RSS · IEEE Spectrum Robotics",
@@ -219,10 +167,10 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
+      "track": "Affective Computing",
       "published": "2026-07-23",
-      "title": "Talkspace Introduces Tee, a Purpose-Built AI Mental Health Guide, Podcast - Telecom Reseller / Technology Reseller News",
-      "summary": "Talkspace Introduces Tee, a Purpose-Built AI Mental Health Guide, Podcast Telecom Reseller / Technology Reseller News",
+      "title": "Bilingual emotion recognition of social media texts using deep learning approach - Nature",
+      "summary": "Bilingual emotion recognition of social media texts using deep learning approach Nature",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -231,15 +179,15 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG0zbG9Va0VObHRGUWhURHFwWGt5UHp0RGU5UGNpVjZGVE9QOFl1Rk9tajFNcWFvYWFKX1JoSVBoY1BPT1p4aDFBeV93QVhOUDdHY0tUTjdaUktvUWxZeUFBNlBHUFZ1dEpfOFVVanRBTjloRUdwbm9ocklKMHhyYktoWWlfdTJWbWxfWExac0xYREVxTWdRbHFRMkt6dEcyb0Y0V2VnSEFUWVF5ZVHSAbMBQVVfeXFMTkRFbnktTnNsd0p1U2JNZl9xTzctNHFOWTdEWWtramFYVkxZV3lUSjdBeU5kcWlLQmhOTk1OTS1LSF9DS2pKeXVBODFDOTlsd0Vlb0Jva1ZfaGw3UDhmd1g1a2I4WE52WjF3UjJPd0kxSE1Uenh2LWtIZmtjSC14ZjJqWkVUcm5MRmt1SGtDc2Z4UHp3Z19mQ1c1VnJDcG1acTdvbDZnLUk4MUdNU1RaY0pPdUU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sUU93WUJzZVVpZkNTVFNsbGhDZUZxUm5RdldLZ2tXWjU4Ujl6MExXRTkwS2VBeEl4WmVMRFExTjIyWGJIdUlZek5vYzNDa3hPazRUV1BxQzRVaXhJMHE4?oc=5",
       "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
       "capability_tags": [
-        "Psychological Assessment"
+        "Affective Understanding"
       ],
       "capability_tags_zh": [
-        "心理评估"
+        "情感理解"
       ],
       "relevance_score": 79
     },
@@ -524,6 +472,32 @@
     },
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-22",
+      "title": "Agibot Expands Embodied AI Portfolio With Four New Products - AI Business",
+      "summary": "Agibot Expands Embodied AI Portfolio With Four New Products AI Business",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRFQxZDVFOXc1RHVDQnVkLXprNXFFR1ZkdnZudnVEbUU2ZThOY21yWHNWcER6cWZkblNTMUxpYzZBQ2hkemNFaldJYkNjMmxrZmdSYVdZNDdYdHZKWGFnSmF2N3lvLVRrbjQ1bUctNl8xdVgwOGhBN0QwUUI2QXBzZ1hRRDZob19K?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-22",
       "title": "The Quiet Problem With AI Therapy: A User’s Guide for Men Who Actually Want Help - The Good Men Project",
@@ -718,6 +692,34 @@
         "情感理解"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-21",
+      "title": "Study exposes major flaw in AI mental health safety testing - Stanford Report",
+      "summary": "Study exposes major flaw in AI mental health safety testing Stanford Report",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWI3SVExaDRjTkRTVXN3MmdQSnhvSHdYZy1YLThWTk1UOXhDTW5rMDU0enVzUkZNcGdqY3BIcjNya1UteHFFR2VwaDlxMXIyc1VVaGNaUERsRWxEVEthbmdpN3EzcTZoU1BOd3JyWXBweTZHWlJPN0RMVHlJUy1LYWRwazlKNmlSM1F5dDJfTFB4SFVsalBRR3ZBb0RWVjExZ19J?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 85
     },
     {
       "kind": "community",
