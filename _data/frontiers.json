@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T14:14:23+00:00",
-  "generated_at_beijing": "2026-07-25T22:14:23+08:00",
-  "generated_date_beijing": "2026-07-25",
+  "generated_at": "2026-07-26T04:09:33+00:00",
+  "generated_at_beijing": "2026-07-26T12:09:33+08:00",
+  "generated_date_beijing": "2026-07-26",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -14,15 +14,15 @@
     "arxiv_items": 106,
     "kind_counts": {
       "community": 16,
-      "industry": 37,
+      "industry": 36,
       "lab": 1,
-      "paper": 64,
+      "paper": 65,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 52,
-      "RSS · Google News": 10,
+      "arXiv": 53,
+      "RSS · Google News": 9,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 4,
       "Last30Days · Reddit": 4,
@@ -86,9 +86,35 @@
   ],
   "items": [
     {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-26",
+      "title": "Joyson Electronics Unveils Embodied AI Core Component Portfolio, Including Dexterous Robotic Hand and Solid-Liquid Hybrid Battery, at WAIC 2026 - AOL.com",
+      "summary": "Joyson Electronics Unveils Embodied AI Core Component Portfolio, Including Dexterous Robotic Hand and Solid-Liquid Hybrid Battery, at WAIC 2026 AOL.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2t6WUJmLUdjWnZJRzZkaHFFM1FDb2RJdE9qbkU1TVczZEthN3E1eXgxdnEzbGhUaE4wakRRdnlnbWV1d1RVZl9Db2RaTFA5MkFybnp6ejBOY0hTYU5LeHh4aFhJWWEyMUlWNjJDYW4zclFxMDYtMndiX3c1WmpuOVlUaTl0V2NlbHc?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "community",
       "track": "AI + Psychology",
-      "published": "2026-07-25",
+      "published": "2026-07-26",
       "title": "rein98/PsyChat",
       "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
       "source": "Recent GitHub",
@@ -188,6 +214,32 @@
       ],
       "capability_tags_zh": [
         "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-23",
+      "title": "Talkspace Introduces Tee, a Purpose-Built AI Mental Health Guide, Podcast - Telecom Reseller / Technology Reseller News",
+      "summary": "Talkspace Introduces Tee, a Purpose-Built AI Mental Health Guide, Podcast Telecom Reseller / Technology Reseller News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG0zbG9Va0VObHRGUWhURHFwWGt5UHp0RGU5UGNpVjZGVE9QOFl1Rk9tajFNcWFvYWFKX1JoSVBoY1BPT1p4aDFBeV93QVhOUDdHY0tUTjdaUktvUWxZeUFBNlBHUFZ1dEpfOFVVanRBTjloRUdwbm9ocklKMHhyYktoWWlfdTJWbWxfWExac0xYREVxTWdRbHFRMkt6dEcyb0Y0V2VnSEFUWVF5ZVHSAbMBQVVfeXFMTkRFbnktTnNsd0p1U2JNZl9xTzctNHFOWTdEWWtramFYVkxZV3lUSjdBeU5kcWlLQmhOTk1OTS1LSF9DS2pKeXVBODFDOTlsd0Vlb0Jva1ZfaGw3UDhmd1g1a2I4WE52WjF3UjJPd0kxSE1Uenh2LWtIZmtjSC14ZjJqWkVUcm5MRmt1SGtDc2Z4UHp3Z19mQ1c1VnJDcG1acTdvbDZnLUk4MUdNU1RaY0pPdUU?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
       ],
       "relevance_score": 79
     },
@@ -472,32 +524,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-22",
-      "title": "Agibot Expands Embodied AI Portfolio With Four New Products - AI Business",
-      "summary": "Agibot Expands Embodied AI Portfolio With Four New Products AI Business",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRFQxZDVFOXc1RHVDQnVkLXprNXFFR1ZkdnZudnVEbUU2ZThOY21yWHNWcER6cWZkblNTMUxpYzZBQ2hkemNFaldJYkNjMmxrZmdSYVdZNDdYdHZKWGFnSmF2N3lvLVRrbjQ1bUctNl8xdVgwOGhBN0QwUUI2QXBzZ1hRRDZob19K?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-22",
       "title": "The Quiet Problem With AI Therapy: A User’s Guide for Men Who Actually Want Help - The Good Men Project",
@@ -694,34 +720,6 @@
       "relevance_score": 62
     },
     {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-21",
-      "title": "Study exposes major flaw in AI mental health safety testing - Stanford Report",
-      "summary": "Study exposes major flaw in AI mental health safety testing Stanford Report",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWI3SVExaDRjTkRTVXN3MmdQSnhvSHdYZy1YLThWTk1UOXhDTW5rMDU0enVzUkZNcGdqY3BIcjNya1UteHFFR2VwaDlxMXIyc1VVaGNaUERsRWxEVEthbmdpN3EzcTZoU1BOd3JyWXBweTZHWlJPN0RMVHlJUy1LYWRwazlKNmlSM1F5dDJfTFB4SFVsalBRR3ZBb0RWVjExZ19J?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
-    },
-    {
       "kind": "community",
       "track": "Affective Computing",
       "published": "2026-07-21",
@@ -833,32 +831,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-07-20",
-      "title": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel - Nasscom",
-      "summary": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel Nasscom",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaTBFLU5oOC1ETEt5bzBNV1NNSWlYQzljQkRTS2djOHpLb0o1WjFWWUJtWXkyZGdtdVQzaElXTENLUlNJZkJGSXdfU2RyUXU5VDh1eGpGdC1qWWtMQnk3dGdnTlJzNnlQUk5PQXVMQzhLXzdaMXM5bjI3M2YtdE1wZkV4TWxPNmVlNy14WDJ0a19HcFV3QnYtSmhR?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -3124,6 +3096,37 @@
         "可信评测"
       ],
       "relevance_score": 68
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-07-03",
+      "title": "Mental Health Disorder Detection Beyond Social Media: A Systematic Review of Available Datasets",
+      "summary": "Detecting mental health disorders in a timely manner is an important societal challenge. NLP and machine learning (ML) methods used to assist with detection rely on data collected primarily from social media. However, such datasets often have sampling biases and inherent ethical and privacy issues. One avenue to overcome these limitations is non-social media data. We present the first comprehensive review of non-social media,...",
+      "source": "arXiv",
+      "authors": [
+        "Sadiya Sayara Chowdhury Puspo",
+        "Ana-Maria Bucur",
+        "Stevie Chancellor",
+        "Özlem Uzuner",
+        "Marcos Zampieri"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "url": "http://arxiv.org/abs/2607.03540",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 65
     },
     {
       "kind": "lab",
