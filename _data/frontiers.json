@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T03:50:06+00:00",
-  "generated_at_beijing": "2026-07-28T11:50:06+08:00",
+  "generated_at": "2026-07-28T15:02:08+00:00",
+  "generated_at_beijing": "2026-07-28T23:02:08+08:00",
   "generated_date_beijing": "2026-07-28",
   "stats": {
     "total_items": 120,
@@ -14,14 +14,14 @@
     "arxiv_items": 105,
     "kind_counts": {
       "community": 16,
-      "industry": 34,
+      "industry": 33,
       "lab": 1,
-      "paper": 67,
+      "paper": 68,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 55,
+      "arXiv": 56,
       "RSS · Google News": 7,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 4,
@@ -36,10 +36,10 @@
       "RSS · MIT News AI": 3,
       "RSS · Google 新闻": 2,
       "RSS · BAIR Blog": 2,
-      "RSS · Google News Human Factors": 2,
       "RSS · Microsoft Research": 2,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google Research": 1,
+      "RSS · Google News Human Factors": 1,
       "RSS · Google AI": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
@@ -87,6 +87,165 @@
   "items": [
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-28",
+      "title": "Embodied AI Faces More Than Just a Data Shortage - Gasgoo",
+      "summary": "Embodied AI Faces More Than Just a Data Shortage Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZThoR190SUhXaVBqY1V5Ym02bTJyT3FoS0tvdm8xUzV0eEZXazk0aDJvT3BLeXVGZGxGZG1IblBHc015RHRDaE5aeU9uRFlrRGI1SmI0d28wZV80RDc3OXY2MEhNaVRRd2pHRVIyNV8yNThvd0xiR2ZPdEpDUlRSQTUySkJQOFgzaFhYZjJyVHVxZWYtdUJ3MnEyN1czaHNrSEd2SG1laFpxNHUyQ2c?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-28",
+      "title": "Lumos Robotics Unveils Next-Generation Embodied AI Development Platform - Gasgoo",
+      "summary": "Lumos Robotics Unveils Next-Generation Embodied AI Development Platform Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcG15QVF3MmtkZ2RTSkRSOGJVWkdvd0dkVVZCRHdQZ0x2UUtBWVJkSmZZTVlCdmstY3RFdkxEVHBpdERWLUVTTHlCV0gzLUYweE43azl4MTl0T2swTlRVYzFYT2s3QUpZLVVMcVJJb0xyb0JpZWdHdkYzY0pZUlhqeXBMS3lLbldxMmo3ejdSZ056cHhfVUdLU05hZTdiYTFoZTJfT3FSNk5wZWdvLUZWRXZhM2NRcHd2djgtZ1lFYkVYMXJuWkVxM3U1b3I?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-28",
+      "title": "Open Call: Youth Perspectives on AI and Online Safety in Latin America - fundsforNGOs",
+      "summary": "Open Call: Youth Perspectives on AI and Online Safety in Latin America fundsforNGOs",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT2FPWHNObTJoNmF0eGhlWUxmcnJ5aVhaS2VRVklYVkJwZkRKbVBaMzZ0S2ZTOWVtWDZKejdNWHp1STV1RmVOVzF2R3U5UUlSTDAxbnZfcnRncElwdmNHWWFmaFhaaGRWSmZFRFM2SmxFNE5DLTlzZGFaQkJGUGZzd0w0SEpRNTRtRnVObEl2NUxmQnk5U3Fua0JRb05xZ1gxQlNNbjJsYXdQYng4YVNsbWhVcHdlUdIBtgFBVV95cUxPT2FPWHNObTJoNmF0eGhlWUxmcnJ5aVhaS2VRVklYVkJwZkRKbVBaMzZ0S2ZTOWVtWDZKejdNWHp1STV1RmVOVzF2R3U5UUlSTDAxbnZfcnRncElwdmNHWWFmaFhaaGRWSmZFRFM2SmxFNE5DLTlzZGFaQkJGUGZzd0w0SEpRNTRtRnVObEl2NUxmQnk5U3Fua0JRb05xZ1gxQlNNbjJsYXdQYng4YVNsbWhVcHdlUQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "可信评测"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-28",
+      "title": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI - 36氪",
+      "summary": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI 36氪",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12Qkg3TVo3MnBYbllqWkdQQV94TUtFYm5SV1VXTlRXNW01ZDF4U0ppRm5aQXg0UzBsNnI3RkotNUc1UHNiLU9ITGk0XzJTTlRnWm5R?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-28",
+      "title": "AI心理医生靠谱吗？人机协作才是答案 - 手机新浪网",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YMWJBZk9CUUFyWnhWRHhDLWQxdnBSUTF1VTRmZEI5bjR5a2R1WFRuWDRYUmJ0NEtGMjlwa0x2WGZmX3lZWkJGWVpkNTVydkNSU1RWUDFaNkEyQk5RVkNSVFFDNTB6b2hmQXlNUEx1bmxMTW9WMS10UW11Y2dJR1U?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-28",
+      "title": "li33893/ai-support-discourse",
+      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "li33893"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/li33893/ai-support-discourse",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
+      "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-27",
       "title": "AI mental health chatbots feel empathetic, but safety evidence still lags - News-Medical",
@@ -112,34 +271,6 @@
         "可信评测"
       ],
       "relevance_score": 85
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-07-27",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "rein98"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/rein98/PsyChat",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
     },
     {
       "kind": "industry",
@@ -342,58 +473,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-26",
-      "title": "From livestream to embodied AI: Richtech Robotics is redefining the human–robot interaction - Digital Journal",
-      "summary": "From livestream to embodied AI: Richtech Robotics is redefining the human–robot interaction Digital Journal",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMW1RTFB1bWhxalJsakVWVmZ5Y1B5WFZyZlAwcWhVZ29UTHE1WlBtU3MwLXZKam1UVmdLRUlZRHQzUHBmRU1sZmRMaEN1dk1CeXlCUUVKSm1UbFE0dWVGM3d6aF9SRWFwemt6SnM4Mmw3WDgyTXdUZmwzTmtrX2t6aDlrbzk1WS1qLUxEc1FsekRWNEdyU1pJTGFLMkF4a215VG1tYjNMLVczQ0RMUDFGakpvQ1h0RjBvam91Q3lKVmFPU1NQTDItRVlR?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-26",
-      "title": "AI语音交互三大颠覆：主动预判+情感计算+多模态，2026年车载语音值不值得升级？+FAQ - 手机新浪网",
-      "summary": "AI语音交互三大颠覆：主动预判+情感计算+多模态，2026年车载语音值不值得升级？+FAQ 手机新浪网",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJdDdBMXJTS01URnRKNG5UT0cyLWZXVTRHRmdaWmNpYURhVi1ydlZPbFBxUE1pT1owM3lTM0p3MjJ1a3UzVWRMdFFaQzFSRWliYlE5bEFFRTZBZXRZVFBXQTJYSEc3N2JuVTdZY3VReW4xd2RaOUdpSTFueXdXVGs?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-26",
       "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
@@ -542,32 +621,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-24",
-      "title": "Why embodied AI security extends beyond the robot - Computer Weekly",
-      "summary": "Why embodied AI security extends beyond the robot Computer Weekly",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNajZaSGNXLW5EbnIzbDIwTl81d3dFS2hSa1E4YXQ1TzBJRGdsa055ZGRkR3QzT0VmaklHczlCdnNVdGtPNXpfYVRfcXJPRXo0eTN0TlFaVUR3S29aWkVxNy1taWRVX1Z6S2dtc0VDeTdOQjlVcUNQRUFRVzJIaGJMdDk3MHp5a24tWG1UaDhZeEFtN001VlltdjI0Yw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-24",
       "title": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 - Jiemian.com",
@@ -698,32 +751,6 @@
       ],
       "capability_tags_zh": [
         "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-23",
-      "title": "Ropedia raises $22M to scale human-centric data collection for embodied AI - SiliconANGLE",
-      "summary": "Ropedia raises $22M to scale human-centric data collection for embodied AI SiliconANGLE",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnBwajFmTzZhdjd2bmlnNTRnb1RNR3RTc25TRjJJTFh0b0ZEZ19BSmg4R2FqVlJ5WC1INEdYLXM0cG5vaVpDaXdVa3N5ZmJwcTg1ZGRYYmhISUdsM2pFbWoyZWV1dFZhZnJZR1pRenNYYXhEb1djSnBqTTJBM3pQMW54Umxydzc5bXotQnNydzU0LWhtSWVFcDdGYmxRNVdxbTRzTmpn?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -2017,34 +2044,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-13",
-      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - Stanford HAI",
-      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing Stanford HAI",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2FfdUpobm5ieXRaVUxoR2ZTSVpQdW5FUDJBRmc5eThCTkFzRmRqUFdGVWtldEJsYUdDb2Q3a3U1N1ZRRHpVTDczcmF4SUxfTFFxWW1HV3lIOUNjQWxQVEFNOVhGSV96SGhWYlFGcFlrd1dnMFhnSWVYT0cxd3ZISGJCWDYwelpvcjJ2VXNyVDV3UWc2S3RYSWNpMGxOWVE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-13",
       "title": "AI agents create virtual playgrounds to help robots get crucial training data",
@@ -2390,34 +2389,6 @@
       "capability_tags_zh": [
         "心理评估",
         "身心支持"
-      ],
-      "relevance_score": 82
-    },
-    {
-      "kind": "industry",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-07-09",
-      "title": "AI agent tests whether machines can speak for patients at life's end - Tech Xplore",
-      "summary": "AI agent tests whether machines can speak for patients at life's end Tech Xplore",
-      "source": "RSS · Google News Human Factors",
-      "authors": [
-        "Google News Human Factors"
-      ],
-      "categories": [
-        "RSS",
-        "Google News Human Factors"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRzN2ZTlIdjN2S2RrbFFNMEctZFNJRmJPNDhrM3MxTkNfRThEMXBBQk9ncVlPMTlCcUptLWUwd2pVNmNxOHhvQ0NHX2ZfSHg4U3dudFNIR0xzcFBmaEZhYWd1MmFTUDFPc2cybm92a05xVjVUamkzSDI1a2k?oc=5",
-      "priority": 58,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "心理评估"
       ],
       "relevance_score": 82
     },
@@ -3146,6 +3117,36 @@
         "心理评估"
       ],
       "relevance_score": 59
+    },
+    {
+      "kind": "paper",
+      "track": "Ubiquitous Psychological Computing",
+      "published": "2026-07-04",
+      "title": "Can Conversational Temporal Dynamics Improve Depression Detection in Dyads? A Preliminary Investigation in Multi-Modality Perspectives",
+      "summary": "Automatic depression detection from clinical interviews typically models the semantic content and acoustic characteristics of participant speech. However, the interactional timing between the clinician and participant remains comparatively under-modeled. We investigate conversational temporal dynamics, specifically dyadic turn-pair timing, as a primary modality fused with self-supervised encoders. Evaluated on the DAIC-WOZ...",
+      "source": "arXiv",
+      "authors": [
+        "Hanie Kang",
+        "Huang-Cheng Chou",
+        "Sudarsana Reddy Kadiri",
+        "Shrikanth Narayanan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "url": "http://arxiv.org/abs/2607.03744",
+      "priority": 50,
+      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
+      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "心理评估"
+      ],
+      "relevance_score": 62
     },
     {
       "kind": "lab",
