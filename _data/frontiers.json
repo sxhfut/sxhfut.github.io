@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-29T03:51:39+00:00",
-  "generated_at_beijing": "2026-07-29T11:51:39+08:00",
+  "generated_at": "2026-07-29T14:42:30+00:00",
+  "generated_at_beijing": "2026-07-29T22:42:30+08:00",
   "generated_date_beijing": "2026-07-29",
   "stats": {
     "total_items": 120,
     "max_items": 120,
     "manual_items": 16,
-    "last30days_items": 12,
-    "last30days_reused_items": 12,
+    "last30days_items": 10,
+    "last30days_reused_items": 10,
     "github_recent_items": 5,
-    "recent_signal_items": 17,
+    "recent_signal_items": 15,
     "rss_items": 54,
     "arxiv_items": 104,
     "kind_counts": {
-      "community": 15,
-      "industry": 35,
+      "community": 14,
+      "industry": 36,
       "lab": 1,
       "paper": 67,
       "standard": 1,
@@ -27,18 +27,18 @@
       "Recent GitHub": 5,
       "Last30Days · Reddit": 4,
       "ORCID / DOI": 4,
+      "RSS · IEEE Spectrum AI": 3,
+      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
       "Last30Days · GitHub": 3,
-      "Last30Days · Hacker News": 3,
       "RSS · Google News Human Factors": 2,
-      "RSS · Google 新闻": 2,
       "RSS · Google AI": 2,
       "RSS · BAIR Blog": 2,
       "RSS · Microsoft Research": 2,
+      "Last30Days · Hacker News": 2,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google Research": 1,
       "China.com": 1,
@@ -89,8 +89,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-29",
-      "title": "According to \"Shunde Release,\" the Embodied AI Development Bureau of S - Shanghai Metals Market",
-      "summary": "According to \"Shunde Release,\" the Embodied AI Development Bureau of S Shanghai Metals Market",
+      "title": "Embodied AI robotics are reshaping smart factories 🚀 - Automotive Manufacturing Solutions",
+      "summary": "Embodied AI robotics are reshaping smart factories 🚀 Automotive Manufacturing Solutions",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -99,7 +99,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYVo3ZmlEWFhNcFhTcFZqSTEyMHMxbFRGd3c4VHBaVTBGb0JDOENaSTVKMTdydUhvZE14QVBFTVIzRTdpMk9HTkZiTDJkdUd4SlVySTJIT0ZYSkNTRVJzX29xbWVUaHZaUlp6eHRZVjg1Vnc3OTZ4QW81ZlIxcVFSeTI0VENJUzFJaER2MTE3TGM3MVliaHdfdDF6WnZJUWV1dElYVFZqZFJOM0t0aHhVeVpSN1c0MmdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYnhsQTJHWnBnamliN3haMUtTVlJleE1XRFN2cEtHeGxSNWZVMk95Y21jalF2TDZLdUJPSDBYT3I3dXlWVFBuV005MlVlb3liVU9ad1M4MnVMY0hua3Q0QU1zaG4wcFN2ZWRoQVBtaEJOaW5nYVlpbThkaWJRWmg0S05nR09Zc1NqSW5YWFZoaTluUENicEh1Y1hSMUxybHczMUVyemR6SFR1WHBzd2VUWmgyS2xYSEtBejN1YXpHQk00dkFIMkU0Q2hvYXYzSjQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -113,10 +113,116 @@
     },
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-29",
+      "title": "Show, Don’t Tell: USAF Funds AI That Trains Robots by Demonstration - The Defense Post",
+      "summary": "Show, Don’t Tell: USAF Funds AI That Trains Robots by Demonstration The Defense Post",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TVklTbk9NY1UtdGlaNUdaWlRQQzZxX1VXNVpJQkF4OU92UEZjS2sxTTVNQW8yRWJfN0xFdUpBdXVlbEZ0MHlfTXhfWkJSbDRxMENGeFlGTGhkWThTYUtxcWRGYUxpamZvcTNySHBSUzBWQXBKc1V6ZXg4NFfSAYIBQVVfeXFMTUtFUzl6UmRQbURGVmNxMENGZ3pFakNpVG9IN09ZQzFWR000RWg4enJVeHdONndHZnNHQjNtYUVvZWROVms0cHRXYi1xNmk3cm51ZGs5cFk0WUpOWkRXVlBjTXg3UTJhOEtwaFBaU0M0UXB4UXhaeGVjSGRxSFI3ZDZMQQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-07-29",
+      "title": "li33893/ai-support-discourse",
+      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "li33893"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/li33893/ai-support-discourse",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-07-29",
+      "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
+      "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly...",
+      "source": "RSS · IEEE Spectrum AI",
+      "authors": [
+        "IEEE Spectrum AI"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum AI"
+      ],
+      "url": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "AI Industry"
+      ],
+      "capability_tags_zh": [
+        "AI Industry"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-07-29",
+      "title": "AI Is Hyper-Scaling Digital Inequality",
+      "summary": "Artificial intelligence is rapidly becoming part of everyday infrastructure–in some places. It helps write emails and software code, filters job applications, powers recommendation systems, and is increasingly being integrated into education, healthcare, finance, and public administration. Industry leaders talk about “AI for everyone,” while governments...",
+      "source": "RSS · IEEE Spectrum AI",
+      "authors": [
+        "IEEE Spectrum AI"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum AI"
+      ],
+      "url": "https://spectrum.ieee.org/ai-digital-divide",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "industry",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-28",
-      "title": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI - 36Kr",
-      "summary": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI 36Kr",
+      "title": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI - 36 Kr",
+      "summary": "KR: Defining New AI Sleep Health Track - Dongguan Digital Human & Smart Sleep Innovation Consortium Officially Launched at DeRUCCI 36 Kr",
       "source": "RSS · Google News Human Factors",
       "authors": [
         "Google News Human Factors"
@@ -143,8 +249,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-28",
-      "title": "Embodied AI Faces More Than Just a Data Shortage - Gasgoo",
-      "summary": "Embodied AI Faces More Than Just a Data Shortage Gasgoo",
+      "title": "Lumos Robotics Unveils Next-Generation Embodied AI Development Platform - Gasgoo",
+      "summary": "Lumos Robotics Unveils Next-Generation Embodied AI Development Platform Gasgoo",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -153,7 +259,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZThoR190SUhXaVBqY1V5Ym02bTJyT3FoS0tvdm8xUzV0eEZXazk0aDJvT3BLeXVGZGxGZG1IblBHc015RHRDaE5aeU9uRFlrRGI1SmI0d28wZV80RDc3OXY2MEhNaVRRd2pHRVIyNV8yNThvd0xiR2ZPdEpDUlRSQTUySkJQOFgzaFhYZjJyVHVxZWYtdUJ3MnEyN1czaHNrSEd2SG1laFpxNHUyQ2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcG15QVF3MmtkZ2RTSkRSOGJVWkdvd0dkVVZCRHdQZ0x2UUtBWVJkSmZZTVlCdmstY3RFdkxEVHBpdERWLUVTTHlCV0gzLUYweE43azl4MTl0T2swTlRVYzFYT2s3QUpZLVVMcVJJb0xyb0JpZWdHdkYzY0pZUlhqeXBMS3lLbldxMmo3ejdSZ056cHhfVUdLU05hZTdiYTFoZTJfT3FSNk5wZWdvLUZWRXZhM2NRcHd2djgtZ1lFYkVYMXJuWkVxM3U1b3I?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -191,34 +297,6 @@
         "AI + Psychology"
       ],
       "relevance_score": 75
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-07-28",
-      "title": "li33893/ai-support-discourse",
-      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "li33893"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/li33893/ai-support-discourse",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 83
     },
     {
       "kind": "community",
@@ -521,6 +599,32 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-27",
+      "title": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 - 新浪财经",
+      "summary": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 新浪财经",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRU1M5QWtkMHRmeU45YUNMWTJrbk10MWtISW83UXJ2djFzcHRsMkZzRkFHLUhvZEtqVVlKMzJJR1lFc0NnOWhLdHRJaGdSc0dyLV9TWnZaTmRrRnFla21jS19KNGplSGF1TDR1eU8xQzJ0SUFlMWU3MjRJdENFdkE?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-27",
       "title": "How AI is expanding what people do at work",
@@ -802,32 +906,6 @@
       "relevance_score": 72
     },
     {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-07-26",
-      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-      "summary": "Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code. When you hold your phone camera up to a QR code, light...",
-      "source": "RSS · IEEE Spectrum AI",
-      "authors": [
-        "IEEE Spectrum AI"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum AI"
-      ],
-      "url": "https://spectrum.ieee.org/ai-in-robotics",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 71
-    },
-    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-07-26",
@@ -1061,32 +1139,6 @@
       "relevance_score": 79
     },
     {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-23",
-      "title": "Ropedia raises $22M to scale human-centric data collection for embodied AI - SiliconANGLE",
-      "summary": "Ropedia raises $22M to scale human-centric data collection for embodied AI SiliconANGLE",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnBwajFmTzZhdjd2bmlnNTRnb1RNR3RTc25TRjJJTFh0b0ZEZ19BSmg4R2FqVlJ5WC1INEdYLXM0cG5vaVpDaXdVa3N5ZmJwcTg1ZGRYYmhISUdsM2pFbWoyZWV1dFZhZnJZR1pRenNYYXhEb1djSnBqTTJBM3pQMW54Umxydzc5bXotQnNydzU0LWhtSWVFcDdGYmxRNVdxbTRzTmpn?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
       "kind": "community",
       "track": "Empathetic Dialogue",
       "published": "2026-07-23",
@@ -1139,32 +1191,6 @@
         "AI Research"
       ],
       "relevance_score": 73
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-07-23",
-      "title": "NASA Puts Google’s Gemma Large Language Model in Orbit",
-      "summary": "The viability of orbital data centers hosting the largest and most capable large language models (LLMs) remains hotly contested. But enormous deployments that require thousands of GPUs aren’t the only way LLMs might prove useful in space. NASA’s Jet Propulsion Laboratory recently sent Google’s Gemma 3 to space, achieving the first in-orbit demonstration of...",
-      "source": "RSS · IEEE Spectrum AI",
-      "authors": [
-        "IEEE Spectrum AI"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum AI"
-      ],
-      "url": "https://spectrum.ieee.org/nasa-ai-satellite-image-analysis",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -3128,34 +3154,6 @@
         "身心支持"
       ],
       "relevance_score": 80
-    },
-    {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-06",
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "summary": "GLM 5.2 and the coming AI margin collapse Last30Days signal for AI mental health digital wellbeing, surfaced from Hacker News public activity in the latest 30-day window.",
-      "source": "Last30Days · Hacker News",
-      "authors": [
-        "martinald",
-        "Hacker News"
-      ],
-      "categories": [
-        "Hacker News"
-      ],
-      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "lab",
