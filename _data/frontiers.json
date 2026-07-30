@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T03:43:27+00:00",
-  "generated_at_beijing": "2026-07-30T11:43:27+08:00",
+  "generated_at": "2026-07-30T14:43:32+00:00",
+  "generated_at_beijing": "2026-07-30T22:43:32+08:00",
   "generated_date_beijing": "2026-07-30",
   "stats": {
     "total_items": 120,
@@ -27,11 +27,11 @@
       "Recent GitHub": 5,
       "Last30Days · Reddit": 4,
       "ORCID / DOI": 4,
+      "RSS · Google 新闻": 3,
+      "RSS · MIT Technology Review AI": 3,
       "RSS · OpenAI News": 3,
       "RSS · IEEE Spectrum AI": 3,
-      "RSS · Google 新闻": 3,
       "RSS · Hugging Face Blog": 3,
-      "RSS · MIT Technology Review AI": 3,
       "RSS · MIT News AI": 3,
       "Last30Days · GitHub": 3,
       "RSS · Google AI": 2,
@@ -87,10 +87,10 @@
   "items": [
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
+      "track": "Affective Computing",
       "published": "2026-07-30",
-      "title": "VIDEO: LU launches a new digital mental health program - TBNewsWatch.com",
-      "summary": "VIDEO: LU launches a new digital mental health program TBNewsWatch.com",
+      "title": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation - Stibbe",
+      "summary": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation Stibbe",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -99,7 +99,33 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM2xsMTROR2ZTTUFuSURyaGN2TzVFeDVITlBnSzRTUjVjaVRDM2JxMUFOX3pXRnkwcGVsT1N4ZmYzVnFoWmg0eXpOZzdrMzlnN25uT2VUd18zOGFlZnNuTk1zb3A3S3Vfbkx5WW1FQy10T2x2TzFHa28tTjlLVnRTdlhEVUFNQlAyaExuUTlnNFdrMWZLU2t1anYxRmdGQVNQd2pSd09XM3VyYVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQW4ycUJMQnU2Q2wtVVR1cEx0MU01enhDX0Nzem5MLUE2Z3k4Y25vOVZ5Z1U3M0FrNFNEWlA0Q2diSy1yM2daY05QcnduQnRRSmJFbGNrampid0JUWGtGaUkxeW91N1hyVjdhTllRYlI3dXIzNHo3bUVBTllOTkN0SEpneGk1QW80NmRuaVNlZm5XeDlYOE14NGpSVWtXZW10a0dDLWktWThMU0ZZV25aTEZHN2tmU2dI?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-30",
+      "title": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors - Targeted Oncology",
+      "summary": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors Targeted Oncology",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXdkbmhEZ0FjbFVFdk44dUxLcUtwZllMX0I5bUloWlI2a2RLRDRzVlRROVl6d0RtSnJyU1phTGRYTDNjSkdhczRpVTVTd1ZIRGFxancwLUlTMEtVWC1NMjRnZjZvMUQ3LWlUallsRkhLdzlONkRqZ1dBX084Q3ljOW1QZC1PV2cteXVIZzRJT25tMVZkNFVCY3l5WkdRRFVYU1lLcHZXQ05sdlNid1M4U2FMaFhGQm1UM29udw?oc=5",
       "priority": 58,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
@@ -139,60 +165,34 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-29",
-      "title": "Roborax.AI Launches to Solve the Embodied AI Data Bottleneck for U.S. Robotics Companies - EIN News",
-      "summary": "Roborax.AI Launches to Solve the Embodied AI Data Bottleneck for U.S. Robotics Companies EIN News",
-      "source": "RSS · Google News",
+      "track": "AI + Psychology",
+      "published": "2026-07-30",
+      "title": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 - 合肥工业大学新闻网",
+      "summary": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 合肥工业大学新闻网",
+      "source": "RSS · Google 新闻",
       "authors": [
-        "Google News"
+        "Google 新闻"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "Google 新闻"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR2xJNEVkQ3BXWU4xbFBzYUhUeUVhdy1zS21rNG5XZVRYd05rd3FNVDlsRk5NWDlXc2pFOExreU9tUTBIbVc1MHlZMVZnQ255SDVfTDNsQ0NHRTJNbFJldjU3QnJVaHRXMUwxbVhDS3pBRnR3WkI2TURlYTl2NXUyOWFmMTdkQjlkNHR2ZmRpWndKVkVVSFlYY3dxLWpvWUNSMWNEdDdoczh1MjlqcTZDUnI5UnRCWGRzVUVOa3g2UEVZOTFnSG5BYQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQZXdORGFmNDJTUGc4LVEwcElkWnA5a2F3bXo1bFAxYjdkeXhKZkg2c2NCNEprcVVxWFlqdUhOcUJuY0l6V0N5Rm9KN0IwcDg3T09sNnBTcw?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Embodied Interaction"
+        "Affective Understanding"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "情感理解"
       ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-29",
-      "title": "Show, Don’t Tell: USAF Funds AI That Trains Robots by Demonstration - The Defense Post",
-      "summary": "Show, Don’t Tell: USAF Funds AI That Trains Robots by Demonstration The Defense Post",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TVklTbk9NY1UtdGlaNUdaWlRQQzZxX1VXNVpJQkF4OU92UEZjS2sxTTVNQW8yRWJfN0xFdUpBdXVlbEZ0MHlfTXhfWkJSbDRxMENGeFlGTGhkWThTYUtxcWRGYUxpamZvcTNySHBSUzBWQXBKc1V6ZXg4NFfSAYIBQVVfeXFMTUtFUzl6UmRQbURGVmNxMENGZ3pFakNpVG9IN09ZQzFWR000RWg4enJVeHdONndHZnNHQjNtYUVvZWROVms0cHRXYi1xNmk3cm51ZGs5cFk0WUpOWkRXVlBjTXg3UTJhOEtwaFBaU0M0UXB4UXhaeGVjSGRxSFI3ZDZMQQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 76
+      "relevance_score": 78
     },
     {
       "kind": "community",
       "track": "AI + Psychology",
-      "published": "2026-07-29",
+      "published": "2026-07-30",
       "title": "li33893/ai-support-discourse",
       "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
       "source": "Recent GitHub",
@@ -216,6 +216,60 @@
         "身心支持"
       ],
       "relevance_score": 83
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-07-30",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
+      "source": "RSS · MIT Technology Review AI",
+      "authors": [
+        "MIT Technology Review AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT Technology Review AI"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "可信评测"
+      ],
+      "relevance_score": 77
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-29",
+      "title": "Roborax.AI Launches to Solve the Embodied AI Data Bottleneck for U.S. Robotics Companies - EIN News",
+      "summary": "Roborax.AI Launches to Solve the Embodied AI Data Bottleneck for U.S. Robotics Companies EIN News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR2xJNEVkQ3BXWU4xbFBzYUhUeUVhdy1zS21rNG5XZVRYd05rd3FNVDlsRk5NWDlXc2pFOExreU9tUTBIbVc1MHlZMVZnQ255SDVfTDNsQ0NHRTJNbFJldjU3QnJVaHRXMUwxbVhDS3pBRnR3WkI2TURlYTl2NXUyOWFmMTdkQjlkNHR2ZmRpWndKVkVVSFlYY3dxLWpvWUNSMWNEdDdoczh1MjlqcTZDUnI5UnRCWGRzVUVOa3g2UEVZOTFnSG5BYQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -379,7 +433,7 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-28",
-      "title": "AI心理医生靠谱吗？人机协作才是答案 - 新浪网",
+      "title": "AI心理医生靠谱吗？人机协作才是答案 - 手机新浪网",
       "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
       "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
       "source": "RSS · Google 新闻",
@@ -708,32 +762,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-27",
-      "title": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 - t.cj.sina.cn",
-      "summary": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 t.cj.sina.cn",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRU1M5QWtkMHRmeU45YUNMWTJrbk10MWtISW83UXJ2djFzcHRsMkZzRkFHLUhvZEtqVVlKMzJJR1lFc0NnOWhLdHRJaGdSc0dyLV9TWnZaTmRrRnFla21jS19KNGplSGF1TDR1eU8xQzJ0SUFlMWU3MjRJdENFdkE?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-07-27",
       "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
@@ -964,6 +992,32 @@
     },
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-26",
+      "title": "From livestream to embodied AI: Richtech Robotics is redefining the human–robot interaction - Digital Journal",
+      "summary": "From livestream to embodied AI: Richtech Robotics is redefining the human–robot interaction Digital Journal",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMW1RTFB1bWhxalJsakVWVmZ5Y1B5WFZyZlAwcWhVZ29UTHE1WlBtU3MwLXZKam1UVmdLRUlZRHQzUHBmRU1sZmRMaEN1dk1CeXlCUUVKSm1UbFE0dWVGM3d6aF9SRWFwemt6SnM4Mmw3WDgyTXdUZmwzTmtrX2t6aDlrbzk1WS1qLUxEc1FsekRWNEdyU1pJTGFLMkF4a215VG1tYjNMLVczQ0RMUDFGakpvQ1h0RjBvam91Q3lKVmFPU1NQTDItRVlR?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-26",
       "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
@@ -1166,32 +1220,6 @@
         "身心支持"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-07-23",
-      "title": "Bilingual emotion recognition of social media texts using deep learning approach - Nature",
-      "summary": "Bilingual emotion recognition of social media texts using deep learning approach Nature",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sUU93WUJzZVVpZkNTVFNsbGhDZUZxUm5RdldLZ2tXWjU4Ujl6MExXRTkwS2VBeEl4WmVMRFExTjIyWGJIdUlZek5vYzNDa3hPazRUV1BxQzRVaXhJMHE4?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "community",
@@ -1541,32 +1569,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-07-20",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
-      "source": "RSS · MIT Technology Review AI",
-      "authors": [
-        "MIT Technology Review AI"
-      ],
-      "categories": [
-        "RSS",
-        "MIT Technology Review AI"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -2352,8 +2354,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-13",
-      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - Stanford HAI",
-      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing Stanford HAI",
+      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - hai.stanford.edu",
+      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing hai.stanford.edu",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
