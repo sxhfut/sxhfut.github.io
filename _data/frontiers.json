@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T04:02:01+00:00",
-  "generated_at_beijing": "2026-08-01T12:02:01+08:00",
+  "generated_at": "2026-08-01T14:07:59+00:00",
+  "generated_at_beijing": "2026-08-01T22:07:59+08:00",
   "generated_date_beijing": "2026-08-01",
   "stats": {
     "total_items": 120,
@@ -86,6 +86,34 @@
   ],
   "items": [
     {
+      "kind": "community",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-01",
+      "title": "pranesh190405/MentiSpace",
+      "summary": "A digital platform that offers safe, stigma-free mental health support for everyone. It provides private AI-guided help, easy access to professionals, wellness resources, and a moderated support community, along with anonymous insights to track wellbeing... Recent GitHub repository activity related to AI mental health digital wellbeing, updated within the latest 30-day window. Primary language: JavaScript.",
+      "source": "Recent GitHub",
+      "authors": [
+        "pranesh190405"
+      ],
+      "categories": [
+        "GitHub",
+        "JavaScript"
+      ],
+      "url": "https://github.com/pranesh190405/MentiSpace",
+      "priority": 56,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
+    },
+    {
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-31",
@@ -99,7 +127,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeWJ5VTBvUDIwcXExY0RrMGItdE1LS0JINU5fUnN2MElIVkdQYnJMdEw5SkFwR0FiOEpsb3BvVEJvMHUzUUNYa0FEYzNGTWV6akhDTW8wWWpfMnJYcnMzVkl2aVEtODBqRkhYbXVTTFVlbzV3THNrdm9PeUI1ZkRsUHJzS0ZMOTFTZXJlN0psV0VYTnNyRm80cWZPc1gzYnFBdHdVX2FzRmZqa3JmRk1jamY0dDdQeHZrUzRuWC12a0NMM01zSnFMag?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMUdpcHJ1a1EtTW9GaGhqZlkzRkF0dWVyYTJaUWRBMDNfSmNfNng5cUd4YkdwcHdRZkNSVmJlOTNuMmxGWmZ5MklRSm1MZDZ6N25KU1dQVzNTWEdyNE5FV2dCQ053cXRyeTJPRjlHa291TUZuOW5EWU9uTzJNT1RoRjY3MHh4VTJSbHBDcTFUcWhwb1lScXk1Y09ZZVg4SkVWTnM0QVctMG1yclZfUk5kUmFyY05oenc?oc=5",
       "priority": 58,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
@@ -138,34 +166,6 @@
         "具身交互"
       ],
       "relevance_score": 76
-    },
-    {
-      "kind": "community",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-31",
-      "title": "adea555/NeuraShield",
-      "summary": "NeuraShield is an AI-powered mental health platform that transforms wellbeing check-ins into meaningful insights, helping users better understand their emotional wellbeing through an accessible and intelligent digital experience. Recent GitHub repository activity related to AI mental health digital wellbeing, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "adea555"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/adea555/NeuraShield",
-      "priority": 56,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
-      ],
-      "relevance_score": 86
     },
     {
       "kind": "community",
@@ -1059,8 +1059,8 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-27",
-      "title": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 - finance.sina.com.cn",
-      "summary": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 finance.sina.com.cn",
+      "title": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 - 新浪财经",
+      "summary": "AI心理咨询师持证上岗，治愈率超人类引伦理激辩_ai获得三级心理咨询师证-CSDN博客 新浪财经",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -2854,8 +2854,8 @@
       "kind": "industry",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-09",
-      "title": "OntarioMD on Practical AI and the Reality of Data Standards - Healthcare IT Today",
-      "summary": "OntarioMD on Practical AI and the Reality of Data Standards Healthcare IT Today",
+      "title": "OntarioMD on Practical AI and the Reality of Data Standards - healthcareittoday.com",
+      "summary": "OntarioMD on Practical AI and the Reality of Data Standards healthcareittoday.com",
       "source": "RSS · Google News Human Factors",
       "authors": [
         "Google News Human Factors"
