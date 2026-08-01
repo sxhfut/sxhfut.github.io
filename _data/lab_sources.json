@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T15:47:54+00:00",
-  "generated_at_beijing": "2026-07-31T23:47:54+08:00",
-  "generated_date_beijing": "2026-07-31",
+  "generated_at": "2026-08-01T04:59:30+00:00",
+  "generated_at_beijing": "2026-08-01T12:59:30+08:00",
+  "generated_date_beijing": "2026-08-01",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
     "hfut_faculty_blog": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm",
@@ -20,7 +20,7 @@
     "hfut_faculty_blog_fetched": 56,
     "orcid_total_groups": 140,
     "orcid_high_signal_items": 58,
-    "dblp_high_signal_items": 43,
+    "dblp_high_signal_items": 24,
     "openalex_works_count": 396,
     "openalex_cited_by_count": 7569,
     "crossref_orcid_records": 69,
@@ -39,7 +39,9 @@
     "dblp": {
       "url": "https://dblp.org/pid/30/202-3.html",
       "xml_url": "https://dblp.org/pid/30/202-3.xml",
-      "items": 43
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "items": 24,
+      "reused_previous": true
     },
     "academic_indexes": {
       "openalex": {
