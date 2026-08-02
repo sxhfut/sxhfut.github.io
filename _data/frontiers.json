@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T04:07:46+00:00",
-  "generated_at_beijing": "2026-08-02T12:07:46+08:00",
+  "generated_at": "2026-08-02T14:09:35+00:00",
+  "generated_at_beijing": "2026-08-02T22:09:35+08:00",
   "generated_date_beijing": "2026-08-02",
   "stats": {
     "total_items": 120,
@@ -22,7 +22,7 @@
     },
     "source_counts": {
       "arXiv": 56,
-      "RSS · Google News": 11,
+      "RSS · Google News": 10,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 5,
       "ORCID / DOI": 4,
@@ -34,10 +34,10 @@
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Hugging Face Blog": 3,
       "Last30Days · Reddit": 3,
+      "RSS · BAIR Blog": 2,
       "Last30Days · Hacker News": 2,
       "RSS · Google AI": 1,
       "RSS · IEEE Spectrum Robotics": 1,
-      "RSS · BAIR Blog": 1,
       "RSS · Google Research": 1,
       "Last30Days · GitHub": 1,
       "RSS · Google News Human Factors": 1,
@@ -145,8 +145,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-31",
-      "title": "A digital mental health intervention may improve anxiety in breast cancer survivors - 2 Minute Medicine",
-      "summary": "A digital mental health intervention may improve anxiety in breast cancer survivors 2 Minute Medicine",
+      "title": "A digital mental health intervention may improve anxiety in breast cancer survivors - 2minutemedicine.com",
+      "summary": "A digital mental health intervention may improve anxiety in breast cancer survivors 2minutemedicine.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -173,8 +173,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-31",
-      "title": "iFlytek debuts digital human creator - chinadaily.com.cn",
-      "summary": "iFlytek debuts digital human creator chinadaily.com.cn",
+      "title": "iFlytek debuts digital human creator - China Daily",
+      "summary": "iFlytek debuts digital human creator China Daily",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -642,8 +642,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-29",
-      "title": "Embodied AI robotics are reshaping smart factories 🚀 - Automotive Manufacturing Solutions",
-      "summary": "Embodied AI robotics are reshaping smart factories 🚀 Automotive Manufacturing Solutions",
+      "title": "Embodied AI robotics are reshaping smart factories 🚀 - automotivemanufacturingsolutions.com",
+      "summary": "Embodied AI robotics are reshaping smart factories 🚀 automotivemanufacturingsolutions.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -1026,34 +1026,6 @@
         "心理评估"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-27",
-      "title": "AI mental health chatbots feel empathetic, but safety evidence still lags - News-Medical",
-      "summary": "AI mental health chatbots feel empathetic, but safety evidence still lags News-Medical",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbHVZVXVaWTN6eXFiX0Z6NTA4NlhTVVBiSDRqZ3U5Mk5pUGQxaHc4d3ZwSlZWdzdKV1lMQWdjbGx6ZVFIUmpIcUJ1SkNSYzFGYkZ1V2hZRmxlRWRGTGtyRHUxWU1RSjVENGZtV3E1Qmd0RFIwaTdoYi1XcVhYVHdCT2VrMzdFQzNCQ25LRm1FM2VranRWYkptLW5mSndCWWh0SXctb0k5MDVIUWEwMEQ0ckNwNTVQc0kzZG91Vg?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -2665,6 +2637,34 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-13",
+      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - Stanford HAI",
+      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing Stanford HAI",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2FfdUpobm5ieXRaVUxoR2ZTSVpQdW5FUDJBRmc5eThCTkFzRmRqUFdGVWtldEJsYUdDb2Q3a3U1N1ZRRHpVTDczcmF4SUxfTFFxWW1HV3lIOUNjQWxQVEFNOVhGSV96SGhWYlFGcFlrd1dnMFhnSWVYT0cxd3ZISGJCWDYwelpvcjJ2VXNyVDV3UWc2S3RYSWNpMGxOWVE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-13",
       "title": "AI agents create virtual playgrounds to help robots get crucial training data",
@@ -2821,32 +2821,6 @@
       "relevance_score": 71
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-10",
-      "title": "AI therapy is growing fast, but psychologists say chatbots still can't replace human care - The Times of India",
-      "summary": "AI therapy is growing fast, but psychologists say chatbots still can't replace human care The Times of India",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONngtb0JwSC1LMlcxNzNiejVNYzlMMmdKX0pscWZWVUNYeGEwbGVwajNtY3EyUlFMMVM4aXo4d3Jzd0lpTmplc3M3SzFkSzhZcTFwZ21hbVlvbG9vdzFqZGFlYzRvNjBadDFLd1lQanRKTVlKb0d4NnFPT21DdzgyOVhDdU1xTUh2S3RDQUtYUXp0TE9fMGR5emVQZzF3Q1pGSFhFQm1uZjNCSm1EVUUzaUN1alF3Mlg5a2YxZG9hdXlZUEk3Q2QteXVZVEt6UUt2dW5WYWRWX3JFcDVMdWdIeUV1VHFoNWhWWnpLTWhTeWxPVlVkSENzLWJQZ2cybzTSAYQCQVVfeXFMTVBqNkk3cEkyOGZqN0NvejJBY3pncGt5UEJHby1ZSlRDQnNra3BTUFdCVktFUFVEU2hJVjZUc25qVjhvbWRqMmxSTTdYSkVUem5fN3pjZ183aGdOYXNnQVJ1NWlhYl9aUDdPRER4Z0RVaXNFT2VybVduQ1BkY2tZMTdrSWFteThNV1ZqeFhzMlZtd3U2N0VNSzk4aTZ1cU5ST2I2ZXRmbWdsRHRwbXRIMDgyZWgzZHpuQzVhRGgwV1dabFFtYXBOUV9yQlZKaGIxMDJXSW52bjR1MXFsQ1ZkcUtZUllPeFJwVk05TFRlUGs4R3JVMy1XR1NDVXpaeVBpRUZaQU4?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "community",
       "track": "Empathetic Dialogue",
       "published": "2026-07-10",
@@ -2932,8 +2906,8 @@
       "kind": "industry",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-09",
-      "title": "OntarioMD on Practical AI and the Reality of Data Standards - healthcareittoday.com",
-      "summary": "OntarioMD on Practical AI and the Reality of Data Standards healthcareittoday.com",
+      "title": "OntarioMD on Practical AI and the Reality of Data Standards - Healthcare IT Today",
+      "summary": "OntarioMD on Practical AI and the Reality of Data Standards Healthcare IT Today",
       "source": "RSS · Google News Human Factors",
       "authors": [
         "Google News Human Factors"
@@ -3154,6 +3128,34 @@
         "情感理解"
       ],
       "relevance_score": 82
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-07",
+      "title": "Intelligence is Free, Now What? <br> Data Systems for, of, and by Agents",
+      "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices have fallen between...",
+      "source": "RSS · BAIR Blog",
+      "authors": [
+        "BAIR Blog"
+      ],
+      "categories": [
+        "RSS",
+        "BAIR Blog"
+      ],
+      "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "可信评测"
+      ],
+      "relevance_score": 78
     },
     {
       "kind": "lab",
