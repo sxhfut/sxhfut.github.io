@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T14:49:04+00:00",
-  "generated_at_beijing": "2026-08-02T22:49:04+08:00",
-  "generated_date_beijing": "2026-08-02",
+  "generated_at": "2026-08-03T05:21:59+00:00",
+  "generated_at_beijing": "2026-08-03T13:21:59+08:00",
+  "generated_date_beijing": "2026-08-03",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
     "hfut_faculty_blog": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/index.htm",
@@ -17,7 +17,7 @@
   },
   "stats": {
     "hfut_faculty_blog_total": 56,
-    "hfut_faculty_blog_fetched": 46,
+    "hfut_faculty_blog_fetched": 56,
     "orcid_total_groups": 140,
     "orcid_high_signal_items": 58,
     "dblp_high_signal_items": 43,
@@ -29,9 +29,7 @@
   "sync_notes": {
     "hfut": {
       "total_public": 56,
-      "errors": [
-        "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/list/3.htm: <urlopen error _ssl.c:993: The handshake operation timed out>"
-      ]
+      "errors": []
     },
     "orcid": {
       "orcid_id": "0000-0001-9750-7032",
@@ -372,53 +370,53 @@
     {
       "kind": "faculty_blog",
       "source": "HFUT Faculty Blog",
-      "published": "2023-03-13",
-      "title": "Mac-Lab实验室论文被ICME2023会议录用",
-      "title_zh": "Mac-Lab实验室论文被ICME2023会议录用",
+      "published": "2024-05-28",
+      "title": "实验室孙晓老师当选为合肥市心理咨询师协会副会长",
+      "title_zh": "实验室孙晓老师当选为合肥市心理咨询师协会副会长",
       "summary": "Official HFUT faculty-page update from Professor Xiao Sun's public blog.",
       "summary_zh": "来自孙晓教授合工大教师主页的公开动态。",
-      "track": "MAC-Lab",
-      "track_zh": "实验室建设",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1360.htm#article",
+      "track": "Ubiquitous Psychological Computing",
+      "track_zh": "普适心理计算",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1556.htm#article",
       "priority": 84
     },
     {
       "kind": "faculty_blog",
       "source": "HFUT Faculty Blog",
-      "published": "2023-03-10",
-      "title": "Mac-Lab实验室论文被IEEE Transactions on Computational Social Systems接受",
-      "title_zh": "Mac-Lab实验室论文被IEEE Transactions on Computational Social Systems接受",
+      "published": "2024-05-23",
+      "title": "实验室本科生获评合肥工业大学2024年十佳大学生",
+      "title_zh": "实验室本科生获评合肥工业大学2024年十佳大学生",
       "summary": "Official HFUT faculty-page update from Professor Xiao Sun's public blog.",
       "summary_zh": "来自孙晓教授合工大教师主页的公开动态。",
       "track": "MAC-Lab",
       "track_zh": "实验室建设",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1357.htm#article",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1554.htm#article",
       "priority": 84
     },
     {
       "kind": "faculty_blog",
       "source": "HFUT Faculty Blog",
-      "published": "2022-12-11",
-      "title": "MAC-Lab实验室黄雅婷同学投稿期刊《Frontiers in Psychiatry》被接收",
-      "title_zh": "MAC-Lab实验室黄雅婷同学投稿期刊《Frontiers in Psychiatry》被接收",
+      "published": "2024-05-08",
+      "title": "实验室孙晓老师当选IEEE高级会员",
+      "title_zh": "实验室孙晓老师当选IEEE高级会员",
       "summary": "Official HFUT faculty-page update from Professor Xiao Sun's public blog.",
       "summary_zh": "来自孙晓教授合工大教师主页的公开动态。",
       "track": "MAC-Lab",
       "track_zh": "实验室建设",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1338.htm#article",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1552.htm#article",
       "priority": 84
     },
     {
       "kind": "faculty_blog",
       "source": "HFUT Faculty Blog",
-      "published": "2022-11-21",
-      "title": "Mac-Lab实验室与安大合作论文在TALLIP期刊上发表",
-      "title_zh": "Mac-Lab实验室与安大合作论文在TALLIP期刊上发表",
+      "published": "2024-03-22",
+      "title": "MAC-Lab实验室张梓洋同学荣获安徽省优秀毕业生和国家奖学金",
+      "title_zh": "MAC-Lab实验室张梓洋同学荣获安徽省优秀毕业生和国家奖学金",
       "summary": "Official HFUT faculty-page update from Professor Xiao Sun's public blog.",
       "summary_zh": "来自孙晓教授合工大教师主页的公开动态。",
       "track": "MAC-Lab",
       "track_zh": "实验室建设",
-      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1312.htm#article",
+      "url": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/article/198496/content/1525.htm#article",
       "priority": 84
     }
   ],
