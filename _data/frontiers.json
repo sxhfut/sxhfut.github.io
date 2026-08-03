@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T14:09:35+00:00",
-  "generated_at_beijing": "2026-08-02T22:09:35+08:00",
-  "generated_date_beijing": "2026-08-02",
+  "generated_at": "2026-08-03T04:09:19+00:00",
+  "generated_at_beijing": "2026-08-03T12:09:19+08:00",
+  "generated_date_beijing": "2026-08-03",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -14,29 +14,29 @@
     "arxiv_items": 105,
     "kind_counts": {
       "community": 11,
-      "industry": 38,
+      "industry": 37,
       "lab": 1,
-      "paper": 68,
+      "paper": 69,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 56,
-      "RSS · Google News": 10,
+      "arXiv": 57,
+      "RSS · Google News": 9,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 5,
       "ORCID / DOI": 4,
       "RSS · OpenAI News": 3,
-      "RSS · Google 新闻": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT News AI": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · Hugging Face Blog": 3,
       "Last30Days · Reddit": 3,
+      "RSS · Google 新闻": 2,
+      "RSS · Google AI": 2,
       "RSS · BAIR Blog": 2,
       "Last30Days · Hacker News": 2,
-      "RSS · Google AI": 1,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google Research": 1,
       "Last30Days · GitHub": 1,
@@ -85,6 +85,58 @@
     }
   ],
   "items": [
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-02",
+      "title": "A Clinician's Field Guide to Vetting AI Mental Health Tools - Psychology Today",
+      "summary": "A Clinician's Field Guide to Vetting AI Mental Health Tools Psychology Today",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMFk5Sk1USGxyV0tQYWNZQkY5bEtycXgwU2RuWnhEaUtDWGZ1d3VhSWZNd2xiZEU3VTJEX1MwMzBQNHp2NUtnU3RPZHhwclh4ZjAwNVZBdm41dmJYMU5VcFFoUVJwYnVsSTNYUi1Td1FZVDJZRWg2b2VvYkVPaldXX1NvaDhfYXQzZmF5S1NRTGhjNEVza3VwY3h6VjdLM1d0MllHWG5DbVozN2F2dWdnMVdaa0J6NzZRSWV4T0o2WTkwbDVBX0dKbXp2bG9wcjQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-02",
+      "title": "U. study shows New Jerseyans want regulations for AI, mental health - The Daily Targum",
+      "summary": "U. study shows New Jerseyans want regulations for AI, mental health The Daily Targum",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTJtNHJxWW4zaHRDbU1SV3JuNi02RXE0QXVLZF9xRW0weDVic1MydUFNdGk2b1dhRmFmMlhsSG5xdjdWT196NE1TbFluZDMycFN0aGZFNC1oLWJodjBXVHBubXNkRmlLbzV0QmY0V3pJaTJ3azBXYUxiakhONVNWcG1lRHZFejg4NUFZenBuSFNpd2FwajlJTEVWS21iTk1CUjkwSTlTMDNSZTA1VHZN?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "community",
       "track": "AI + Psychology",
@@ -145,8 +197,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-31",
-      "title": "A digital mental health intervention may improve anxiety in breast cancer survivors - 2minutemedicine.com",
-      "summary": "A digital mental health intervention may improve anxiety in breast cancer survivors 2minutemedicine.com",
+      "title": "A digital mental health intervention may improve anxiety in breast cancer survivors - 2 Minute Medicine",
+      "summary": "A digital mental health intervention may improve anxiety in breast cancer survivors 2 Minute Medicine",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -276,6 +328,38 @@
       "relevance_score": 73
     },
     {
+      "kind": "paper",
+      "track": "Multimodal Affective Computing",
+      "published": "2026-07-31",
+      "title": "CALM-AH: An ABAW11-Calibrated Multimodal Ensemble with Reliability-Gated Multi-Expert Consensus for Video-Level Ambivalence and Hesitancy Recognition",
+      "summary": "Ambivalence and hesitancy (A/H) are subtle behavioural states that may be expressed through language, voice, facial activity, and other non-verbal cues. The ABAW11 A/H Video Recognition Challenge asks systems to assign a binary A/H label to each naturalistic interview video. Performance is measured using Macro-F1 so that recognition of both A/H and No-A/H samples receives equal importance. We present CALM-AH, a multimodal...",
+      "source": "arXiv",
+      "authors": [
+        "Wenzhuo Sun",
+        "Mingjian Liang",
+        "Richard Attfield",
+        "Zongyuan Ge",
+        "Xuelian Cheng",
+        "Pamela Carreno-Medrano"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2607.29310",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
+      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 65
+    },
+    {
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-30",
@@ -307,8 +391,8 @@
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-07-30",
-      "title": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation - Stibbe",
-      "summary": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation Stibbe",
+      "title": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation - stibbe.com",
+      "summary": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation stibbe.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -326,32 +410,6 @@
       ],
       "capability_tags_zh": [
         "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-30",
-      "title": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors - Targeted Oncology",
-      "summary": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors Targeted Oncology",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXdkbmhEZ0FjbFVFdk44dUxLcUtwZllMX0I5bUloWlI2a2RLRDRzVlRROVl6d0RtSnJyU1phTGRYTDNjSkdhczRpVTVTd1ZIRGFxancwLUlTMEtVWC1NMjRnZjZvMUQ3LWlUallsRkhLdzlONkRqZ1dBX084Q3ljOW1QZC1PV2cteXVIZzRJT25tMVZkNFVCY3l5WkdRRFVYU1lLcHZXQ05sdlNid1M4U2FMaFhGQm1UM29udw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
       ],
       "relevance_score": 79
     },
@@ -385,8 +443,8 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-30",
-      "title": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 - 合肥工业大学新闻网",
-      "summary": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 合肥工业大学新闻网",
+      "title": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 - news.hfut.edu.cn",
+      "summary": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 news.hfut.edu.cn",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -642,8 +700,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-29",
-      "title": "Embodied AI robotics are reshaping smart factories 🚀 - automotivemanufacturingsolutions.com",
-      "summary": "Embodied AI robotics are reshaping smart factories 🚀 automotivemanufacturingsolutions.com",
+      "title": "Embodied AI robotics are reshaping smart factories 🚀 - Automotive Manufacturing Solutions",
+      "summary": "Embodied AI robotics are reshaping smart factories 🚀 Automotive Manufacturing Solutions",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -1838,32 +1896,6 @@
       "relevance_score": 68
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-20",
-      "title": "New AI Therapy That Maps Entire Brain Tumor, Plus Anesthesia Impact on Stroke Outcomes and Racial Disparity Findings to Debut at SNIS Annual Meeting, July 20 in Seattle - Yahoo Finance",
-      "summary": "New AI Therapy That Maps Entire Brain Tumor, Plus Anesthesia Impact on Stroke Outcomes and Racial Disparity Findings to Debut at SNIS Annual Meeting, July 20 in Seattle Yahoo Finance",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYi1RTVJvUDc0V184eTJqbHpZOXhWb0pmVGoxUHVyVjBnUm5NMG92OEExdTQwbTFlWDFoT1lHQ0o2b2xENjJxTHRNaGl4WEZXUi1NaGhjNnBjRXAwdm02ZVVjWE1yT281M0o3Mjd3anFZaHB0TnRkX1FJZVh6VEhzQ2pkNW15VUpBNW1hODRkV1lZTkk?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-20",
@@ -2381,32 +2413,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-16",
-      "title": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 - 武汉纺织大学",
-      "summary": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 武汉纺织大学",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPalg5N2ZIMVlSc2Y5QU9FZTVhMms4QW8yX1ItaDlxMF9tazZfOUgyVWZPN0FOUVZSbjBHbTVtVGszZGlHOXk4UmlEZDZKZS1CSDU0elBRdw?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "Multimodal Affective Computing",
       "published": "2026-07-16",
@@ -2634,34 +2640,6 @@
         "情感理解"
       ],
       "relevance_score": 74
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-07-13",
-      "title": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing - Stanford HAI",
-      "summary": "Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing Stanford HAI",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2FfdUpobm5ieXRaVUxoR2ZTSVpQdW5FUDJBRmc5eThCTkFzRmRqUFdGVWtldEJsYUdDb2Q3a3U1N1ZRRHpVTDczcmF4SUxfTFFxWW1HV3lIOUNjQWxQVEFNOVhGSV96SGhWYlFGcFlrd1dnMFhnSWVYT0cxd3ZISGJCWDYwelpvcjJ2VXNyVDV3UWc2S3RYSWNpMGxOWVE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -3156,6 +3134,33 @@
         "可信评测"
       ],
       "relevance_score": 78
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-07",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Selected from Google AI's public feed for its relevance to AI Research and applied AI systems.",
+      "summary_zh": "来自 Google AI 公开订阅源，内容与 AI Research 及应用型 AI 系统建设相关。",
+      "source": "RSS · Google AI",
+      "authors": [
+        "Google AI"
+      ],
+      "categories": [
+        "RSS",
+        "Google AI"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "lab",
