@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-04T03:49:51+00:00",
-  "generated_at_beijing": "2026-08-04T11:49:51+08:00",
+  "generated_at": "2026-08-04T15:01:54+00:00",
+  "generated_at_beijing": "2026-08-04T23:01:54+08:00",
   "generated_date_beijing": "2026-08-04",
   "stats": {
     "total_items": 120,
     "max_items": 120,
     "manual_items": 16,
-    "last30days_items": 5,
-    "last30days_reused_items": 5,
+    "last30days_items": 4,
+    "last30days_reused_items": 4,
     "github_recent_items": 5,
-    "recent_signal_items": 10,
+    "recent_signal_items": 9,
     "rss_items": 54,
     "arxiv_items": 106,
     "kind_counts": {
@@ -26,12 +26,12 @@
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 5,
       "ORCID / DOI": 4,
+      "RSS · MIT News AI": 3,
+      "RSS · Hugging Face Blog": 3,
       "RSS · OpenAI News": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · MIT News AI": 3,
       "RSS · IEEE Spectrum AI": 3,
-      "RSS · Hugging Face Blog": 3,
       "Last30Days · Reddit": 3,
       "RSS · Google 新闻": 2,
       "RSS · Google News Human Factors": 1,
@@ -85,6 +85,84 @@
   ],
   "items": [
     {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-04",
+      "title": "Elephant Robotics Brings Open Robotics Platforms and Embodied AI Innovations to IROS 2026 - tech.einnews.com",
+      "summary": "Elephant Robotics Brings Open Robotics Platforms and Embodied AI Innovations to IROS 2026 tech.einnews.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeGhhRHg5REYyVDRUb0hLamtaMWNtYm45YnBiUHhkcmdxYk4tUnpOMVZtR2I0VjZXalpOSC1GVUVqSzhtdUVJVm0ybXZsUDlzWDVnNU1nTzZmZ1hkaTZjQUZvamNtNk52WF9McUtOODJPQUxqNFl2ZTVRZXM1cXZUVkIyYjdVNV8tUWZscGlZbGQwNVJwZUpYOW1nbzM2ZHpJMVNSMm5EZXRCNlpMR0J3VGdDNjBfNnpBYjlHb2JHMHVPOTI2SU9VUkx0Uks?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-04",
+      "title": "Donor powers graduate research in embodied AI research - University of Waterloo",
+      "summary": "Donor powers graduate research in embodied AI research University of Waterloo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMUNxakVpZEdWWGtVZkdZcE9tY3JmUjVIOVU2Qk5XN2todlJfZ1pWWFI3VnZfUE9DZnNfM0MzYk5GY1UxZkc5S1FYYkpTQndnYllXWm5HQ0NaSUNPQ3plMG5LckJCLThaTjdJYmVtcDJteDRwSWN0TVJNT0lNcTlTeENkM0VEWXNGbE9PdGU4UzY3Q0U?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-04",
+      "title": "Embodied-AI startup PaXini raises RMB1 billion to scale tactile-sensing technology - TechNode",
+      "summary": "Embodied-AI startup PaXini raises RMB1 billion to scale tactile-sensing technology TechNode",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVNYT0ZoWS1Rbkx0cVNJUmdQUWVDZlppSW1CSnBlM3Aybm9NSXJ4UDFMdXprNnJ4MXdJS1RVWHIxMTd2VDNOSHJLLTZkZmRrYnpYcXo3NUp1YkVveWJkYmtZalpsRHhOSkZEY3FhWWVmSmV0VXVDQXI3VFZ3XzJQQzFjRVdYbnM1RTlJcDNxdnhQR1hFdkEwZ2NleTEzT29weTMzMXVlSllucDRZa04tbFBuRFR2QQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "community",
       "track": "AI + Psychology",
       "published": "2026-08-04",
@@ -112,6 +190,59 @@
         "身心支持"
       ],
       "relevance_score": 89
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-08-04",
+      "title": "The benefits of medical AI assistance vary based on user expertise",
+      "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+      "source": "RSS · MIT News AI",
+      "authors": [
+        "MIT News AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT News AI"
+      ],
+      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "Open-Source AI",
+      "published": "2026-08-04",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
+      "authors": [
+        "Hugging Face Blog"
+      ],
+      "categories": [
+        "RSS",
+        "Hugging Face Blog"
+      ],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "industry",
@@ -171,36 +302,10 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-03",
-      "title": "Chasing physical AI: Ant Group robotics arm Robbyant kicks off external funding - South China Morning Post",
-      "summary": "Chasing physical AI: Ant Group robotics arm Robbyant kicks off external funding South China Morning Post",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNlptYVdVQ0FrU2VTaUhJVDV6QUg3MjBvWVlYQTJFcnRjbTJWOTl4V0ptdUd3ZWxkbXRMUkYwM2VsSXFHZTF4b2ZLRkJfS2FqX3BlSmJiWFZzR3Rrel9ZWGRxUjE2NGxPNERMT0k3ZGJ6WWg0X09aR1AxWnVYaVhvRDg4QmhFdklQTmU3T18wbzVNSy1IRjZ3clJjV1N6ZWhEU09NZk90NnVmclFXX0HSAa4BQVVfeXFMT2lzd2lzdVIwVVU4bG5PcXdjZDZySk9NSlNhcWMtYmFyOHphaVUtWG1SbjkxNGZQSmN2UnJXeXd0NDVXY3JKdm9CbzNLSnNUSVFZWnpqWmhsRVppRVlkeXlrVHFXa3hMd0doTWE4V25JWkh3SUMzQU5YTHNzcE9WRm51OWcyc1h0UkwwREI0bl8wVXBPNmVRUy1jLWJHWGdhSDAwSnZTRFhJVk9SYnh3?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-03",
-      "title": "States Look to Curb Use of AI Therapy Chatbots: States of Play - Bloomberg Government News",
-      "summary": "States Look to Curb Use of AI Therapy Chatbots: States of Play Bloomberg Government News",
+      "title": "States Look to Curb Use of AI Therapy Chatbots: States of Play - news.bgov.com",
+      "summary": "States Look to Curb Use of AI Therapy Chatbots: States of Play news.bgov.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -590,32 +695,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-31",
-      "title": "iFlytek debuts digital human creator - China Daily",
-      "summary": "iFlytek debuts digital human creator China Daily",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BVXVNY00wZnNxdzAtRG43QXhia2hVWngySWRZdGdSM3ZEMzBjdjNtMmY5TVdwM09yUlpDTWYxUHR5RUxOVll0cHBiWnZSZVFrS3QwY25Salp2WWYtdm1pS3QzSEZhMW1XTDUycmxPU1M5RUJqV2lTTTdrVEJYdw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-07-31",
       "title": "Advancing responsible AI across Europe",
@@ -754,36 +833,10 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-30",
-      "title": "Black Sesame Technologies, Striding. AI partner on embodied AI deployment - Gasgoo",
-      "summary": "Black Sesame Technologies, Striding. AI partner on embodied AI deployment Gasgoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbGs0Z1pGYWgxNnNYNEd0MGFTNlRxZUtWSmFzZTBjNVhfMTNzWlgxUVBEY0xkOG9pYTM5Z29fQjBRVVhYbHpjNU1aOFcySmVxd19uWHRRWEtsY1pGcUtfdkdHTy1OMHBZWnZBY0FVVUFBdGtiVVZJMTRER1ozenVKVm5sTjZ2bWg1ZFc1eUhYcnVFNjFWRmlCNWlhRTNhRGlLYUFpSlNJbE5pcXlnMzFwRFBadXlxalYzV2UxaDV1Y0t3SU9PRF81VTVlQUtsdw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-07-30",
-      "title": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 - news.hfut.edu.cn",
-      "summary": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 news.hfut.edu.cn",
+      "title": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 - 合肥工业大学新闻网",
+      "summary": "我校科研团队荣获情感计算领域刊物《IEEE Transactions on Affective Computing》2025年度最佳论文奖 合肥工业大学新闻网",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -1671,32 +1724,6 @@
       "relevance_score": 68
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-24",
-      "title": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 - Jiemian.com",
-      "summary": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 Jiemian.com",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VM1UxNHlKNjBTaDhrVkRUZmlleXRwSWdsamtUdTFDZllFUjNVQ0cxZGVtZWhzZ2FxWWx6dVhmNENxRjRLd3JXc09vRDItbFdrVFFCQ0tqZzE?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-24",
@@ -2100,33 +2127,6 @@
         "情感理解"
       ],
       "relevance_score": 86
-    },
-    {
-      "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-07-21",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/grabette",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 72
     },
     {
       "kind": "paper",
@@ -2878,31 +2878,29 @@
     },
     {
       "kind": "industry",
-      "track": "AI Research",
+      "track": "AI + Psychology",
       "published": "2026-07-13",
-      "title": "AI agents create virtual playgrounds to help robots get crucial training data",
-      "summary": "“SceneSmith” system uses collaborative AI agents to create realistic 3D environments of places like kitchens, hotels, and living rooms, where robots can simulate everyday chores.",
-      "source": "RSS · MIT News AI",
+      "title": "情感计算市场规模、行业份额|预测，2026-2034 - Fortune Business Insights",
+      "summary": "情感计算市场规模、行业份额|预测，2026-2034 Fortune Business Insights",
+      "source": "RSS · Google 新闻",
       "authors": [
-        "MIT News AI"
+        "Google 新闻"
       ],
       "categories": [
         "RSS",
-        "MIT News AI"
+        "Google 新闻"
       ],
-      "url": "https://news.mit.edu/2026/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTk4WkNVWE1kUl9vendBejhqNWpseXlfLU1fQm95QS0xeVlfZldvM19LWGJmOEhoWFk1R2tib20tRXdhWmw3TlhNZjNydnVRaFF0VlcxWUVNOWh3TDRXM0pVYzVIbmNJNURRMU04bXBnRjR2ZHlNel9fMlhtLXdmdnlB?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
+        "AI + Psychology"
       ],
       "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
+        "AI + Psychology"
       ],
-      "relevance_score": 78
+      "relevance_score": 75
     },
     {
       "kind": "paper",
