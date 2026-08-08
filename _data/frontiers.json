@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T02:34:38+00:00",
-  "generated_at_beijing": "2026-08-08T10:34:38+08:00",
+  "generated_at": "2026-08-08T13:28:45+00:00",
+  "generated_at_beijing": "2026-08-08T21:28:45+08:00",
   "generated_date_beijing": "2026-08-08",
   "stats": {
     "total_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 5,
     "recent_signal_items": 6,
     "rss_items": 54,
-    "arxiv_items": 92,
+    "arxiv_items": 105,
     "kind_counts": {
       "community": 6,
       "industry": 38,
@@ -83,32 +83,6 @@
     }
   ],
   "items": [
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-08",
-      "title": "AI Mental Health Advice Use Soars 60% Among Young People, Study Finds - citybuzz -",
-      "summary": "AI Mental Health Advice Use Soars 60% Among Young People, Study Finds citybuzz -",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNejVIN200dEJ2QlJSZWNPM08zYTdHUElPWFFCVkJIdl9qcEdKem04TGtwQUxySldSb09fVGNRTV92R0ZFTkJDeHFTMUtnaVhxYzNFaGRqZHczUVMzQTc4bWg0TDdkcnN3SUl2NWtaNXBrc1dJT0R3VHZnRE5MWV9YWXJLbEtZaE92a3A4UDl5dEdFT2ZNU0U1LUIwbWdKa1BldVF4YTZB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
     {
       "kind": "community",
       "track": "AI + Psychology",
@@ -245,6 +219,32 @@
         "具身交互"
       ],
       "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-06",
+      "title": "AI “Therapists” Draw State Scrutiny as Mental Health Chatbot Use Surges - The National Law Review",
+      "summary": "AI “Therapists” Draw State Scrutiny as Mental Health Chatbot Use Surges The National Law Review",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUWZ0dm9tX3IyYmxFeDY2U2d2OGR0eW5kOVlPaE1oSGtQWHNxVnRibzRyVDFXVTRocHFfTm5KMlVPeDNoT3RDel9lVXYtRmhVWWNPcHJMS0ZXcW5zYmdzcDNLOVRzS0NIZ2pEblZEZzFiVHkxYmRfSWo5a3JQckxTYUE4bHlFUXVsRlg0eFVUaXliZFh3a01Cd00tLXVocFRP0gGmAUFVX3lxTFBsamFrVDJLbnl3RUFkbXdtd2p1Xzlxbm96S21wc1FGRGk2emlVYkR3NC0tLTRGR1k2ckwwYWd3N01WcVNMNktMYXktZ3NoMXZfQ19iRnRGdTNMQm55cVB5VUpzQTJoQ0cwcEdUZlNUUXZGRDI1Tjh0RkFFWE5kT25ZR09oS1FaVDRtUlI4YVcyanhBUlJGZ3hTSGg0NzF6ZC1XWGtOZFE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -695,8 +695,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-04",
-      "title": "Roborax.AI Targets the Embodied AI Data Bottleneck for U.S. Robotics Companies - finance.yahoo.com",
-      "summary": "Roborax.AI Targets the Embodied AI Data Bottleneck for U.S. Robotics Companies finance.yahoo.com",
+      "title": "Roborax.AI Targets the Embodied AI Data Bottleneck for U.S. Robotics Companies - Yahoo Finance",
+      "summary": "Roborax.AI Targets the Embodied AI Data Bottleneck for U.S. Robotics Companies Yahoo Finance",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -985,8 +985,8 @@
       "kind": "industry",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-08-03",
-      "title": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. - The AI Journal",
-      "summary": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. The AI Journal",
+      "title": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. - aijourn.com",
+      "summary": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. aijourn.com",
       "source": "RSS · Google News Human Factors",
       "authors": [
         "Google News Human Factors"
@@ -2403,8 +2403,8 @@
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-07-20",
-      "title": "Emotion AI Market Share, Size, Trends, Forecast, 2034 - fortunebusinessinsights.com",
-      "summary": "Emotion AI Market Share, Size, Trends, Forecast, 2034 fortunebusinessinsights.com",
+      "title": "Emotion AI Market Share, Size, Trends, Forecast, 2034 - Fortune Business Insights",
+      "summary": "Emotion AI Market Share, Size, Trends, Forecast, 2034 Fortune Business Insights",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
