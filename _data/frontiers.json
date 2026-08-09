@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T13:28:45+00:00",
-  "generated_at_beijing": "2026-08-08T21:28:45+08:00",
-  "generated_date_beijing": "2026-08-08",
+  "generated_at": "2026-08-09T02:39:22+00:00",
+  "generated_at_beijing": "2026-08-09T10:39:22+08:00",
+  "generated_date_beijing": "2026-08-09",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 5,
     "recent_signal_items": 6,
     "rss_items": 54,
-    "arxiv_items": 105,
+    "arxiv_items": 61,
     "kind_counts": {
       "community": 6,
       "industry": 38,
@@ -32,11 +32,10 @@
       "RSS · Hugging Face Blog": 3,
       "RSS · Microsoft Research": 3,
       "RSS · MIT Technology Review AI": 3,
+      "RSS · BAIR Blog": 2,
       "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 1,
-      "RSS · Google News Human Factors": 1,
       "RSS · Google AI": 1,
-      "RSS · BAIR Blog": 1,
       "RSS · Google Research": 1,
       "Last30Days · Reddit": 1,
       "China.com": 1,
@@ -983,32 +982,6 @@
     },
     {
       "kind": "industry",
-      "track": "Ubiquitous Psychological Computing",
-      "published": "2026-08-03",
-      "title": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. - aijourn.com",
-      "summary": "The biggest barrier to AI adoption isn’t technology. It’s human psychology. aijourn.com",
-      "source": "RSS · Google News Human Factors",
-      "authors": [
-        "Google News Human Factors"
-      ],
-      "categories": [
-        "RSS",
-        "Google News Human Factors"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQnl4b21ab283dUh5Wml6UVVGbWhpZUFjOWFyWFlQQ2dZanppUHdOMEdtWVpWaWRWUWRkWVliaTNTMXp1MmVBeHhJZGtqS21RbHZOd3VXcDZ2eUJHYWtwYndnR0ZUQnVfZm9kQjNJcFE4eFBXR1hHel85dWd1TjY4WkJPM3pNOGgxSmF5aERvbGdfWlB3ZEtR?oc=5",
-      "priority": 58,
-      "lens": "Relevant to ubiquitous psychological computing: it supports continuous sensing, psychological profiling, early warning, and real-world intervention.",
-      "lens_zh": "对应普适心理计算：支撑连续感知、心理画像、早期预警和真实场景干预。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-03",
       "title": "Orchard: An open framework for scalable agentic AI",
@@ -1215,32 +1188,6 @@
       "relevance_score": 59
     },
     {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-02",
-      "title": "A Clinician's Field Guide to Vetting AI Mental Health Tools - Psychology Today",
-      "summary": "A Clinician's Field Guide to Vetting AI Mental Health Tools Psychology Today",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMFk5Sk1USGxyV0tQYWNZQkY5bEtycXgwU2RuWnhEaUtDWGZ1d3VhSWZNd2xiZEU3VTJEX1MwMzBQNHp2NUtnU3RPZHhwclh4ZjAwNVZBdm41dmJYMU5VcFFoUVJwYnVsSTNYUi1Td1FZVDJZRWg2b2VvYkVPaldXX1NvaDhfYXQzZmF5S1NRTGhjNEVza3VwY3h6VjdLM1d0MllHWG5DbVozN2F2dWdnMVdaa0J6NzZRSWV4T0o2WTkwbDVBX0dKbXp2bG9wcjQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
       "kind": "community",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-01",
@@ -1299,6 +1246,32 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-07-30",
+      "title": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors - Targeted Oncology",
+      "summary": "Digital Mental Health App Reduces Anxiety but Not Depression in Breast Cancer Survivors Targeted Oncology",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXdkbmhEZ0FjbFVFdk44dUxLcUtwZllMX0I5bUloWlI2a2RLRDRzVlRROVl6d0RtSnJyU1phTGRYTDNjSkdhczRpVTVTd1ZIRGFxancwLUlTMEtVWC1NMjRnZjZvMUQ3LWlUallsRkhLdzlONkRqZ1dBX084Q3ljOW1QZC1PV2cteXVIZzRJT25tMVZkNFVCY3l5WkdRRFVYU1lLcHZXQ05sdlNid1M4U2FMaFhGQm1UM29udw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
@@ -2115,6 +2088,32 @@
       "relevance_score": 68
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-24",
+      "title": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 - Jiemian.com",
+      "summary": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 Jiemian.com",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VM1UxNHlKNjBTaDhrVkRUZmlleXRwSWdsamtUdTFDZllFUjNVQ0cxZGVtZWhzZ2FxWWx6dVhmNENxRjRLd3JXc09vRDItbFdrVFFCQ0tqZzE?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-07-24",
@@ -2849,32 +2848,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-16",
-      "title": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 - 武汉纺织大学",
-      "summary": "第六届中国情感计算大会（CCAC2026）在汉圆满落幕 武汉纺织大学与武汉大学联合承办彰显学科实力 武汉纺织大学",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPalg5N2ZIMVlSc2Y5QU9FZTVhMms4QW8yX1ItaDlxMF9tazZfOUgyVWZPN0FOUVZSbjBHbTVtVGszZGlHOXk4UmlEZDZKZS1CSDU0elBRdw?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "Multimodal Affective Computing",
       "published": "2026-07-16",
@@ -3182,6 +3155,34 @@
       ],
       "capability_tags_zh": [
         "身心支持"
+      ],
+      "relevance_score": 78
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-07-07",
+      "title": "Intelligence is Free, Now What? <br> Data Systems for, of, and by Agents",
+      "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices have fallen between...",
+      "source": "RSS · BAIR Blog",
+      "authors": [
+        "BAIR Blog"
+      ],
+      "categories": [
+        "RSS",
+        "BAIR Blog"
+      ],
+      "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "可信评测"
       ],
       "relevance_score": 78
     },
