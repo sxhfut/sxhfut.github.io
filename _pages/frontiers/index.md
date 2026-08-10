@@ -25,6 +25,7 @@ rank: 6
   <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">前沿雷达如何更新</span></h2>
   <p><span class="lang-en">The radar is refreshed regularly, usually once or twice a day. It follows open paper metadata, selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, then combines them with lab-selected applications, media reports, and standards updates.</span><span class="lang-zh">前沿雷达保持日常更新，通常每天 1-2 次。内容来自开放论文元数据、研究机构、期刊、AI 媒体和产业渠道的 RSS / Atom 订阅源，并结合实验室关注的应用进展、媒体报道和标准成果。</span></p>
   <p><span class="lang-en">Each entry points back to its original source. The radar is meant for discovery, reading, and discussion inside MAC-Lab's research route.</span><span class="lang-zh">每条内容都保留原始链接。这个雷达更像一个发现、阅读和讨论入口，服务 MAC-Lab 长期关注的研究方向。</span></p>
+  <p><a href="{{ '/opportunities/' | prepend: site.baseurl }}"><span class="lang-en">Calls and academic opportunities</span><span class="lang-zh">查看征稿与学术机会</span></a></p>
 </div>
 
 <div class="frontier-lens-board">

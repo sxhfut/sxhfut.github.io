@@ -36,6 +36,7 @@ High-trust public sources used by the site:
 - `People`: student training, competition outcomes, team culture, and public student information.
 - `News`: MAC-Lab newsroom for lab updates, public releases, media coverage, and HFUT faculty-blog synchronization.
 - `Frontiers`: automatically refreshed AI + psychology and affective-computing frontier radar.
+- `Calls`: daily refreshed conference, journal, workshop, challenge, and academic opportunity radar.
 - `Media`: curated public coverage of Professor Xiao Sun and MAC-Lab.
 - `Join`: admissions and collaboration information for undergraduates, graduate students, academic PhD students, engineering doctoral students, and partners.
 - `Manage`: explanation of the public CMS and private console architecture.
@@ -53,6 +54,8 @@ Search and AI discovery files:
 - `llms.txt`: concise Markdown summary for LLM-oriented retrieval and answer engines.
 - `_data/staged_updates.yml`: homepage update stream for staged research, media, platform, and frontier-refresh signals.
 - `_data/lab_sources.json`: scheduled public-source synchronization data from the HFUT faculty blog, ORCID, and DBLP when available.
+- `_data/opportunities.json`: daily refreshed calls and academic-opportunity data for conferences, journals, workshops, challenges, and watchlist venues.
+- `_data/opportunities_manual.json`: lab-curated opportunity entries that form the stable base for the public opportunities page.
 - `images/hero/mac-lab-real-workshop-xiao-sun.jpg`: realistic lab-scene hero image for public sharing and structured previews.
 
 Editing model:
@@ -60,6 +63,7 @@ Editing model:
 - Public page updates can be edited through Markdown/HTML files or the `/admin/` Decap CMS scaffold after GitHub OAuth is configured.
 - Public news, cases, and frontier suggestions can be collected through GitHub Issue Forms and reviewed before publication.
 - The `Frontiers` page is designed to combine curated lab/media/application items with automatically fetched open paper metadata.
+- The `Calls` page tracks selected submission and training opportunities around MAC-Lab's core and adjacent directions.
 - The `Update Lab Source Signals` GitHub Action refreshes `_data/lab_sources.json` twice daily from public sources and feeds the Newsroom/RSS surfaces.
 - The 2026-05-29 HFUT faculty-blog updates have been synchronized into the News and Frontiers data, including the MAC-Lab website release, two IEEE Transactions on Affective Computing papers, and one IEEE Transactions on Artificial Intelligence paper.
 - The 2026-06-22 newsroom refresh adds ORCID/DOI/DBLP publication signals for recent works in IEEE/ACM TASLP, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Fuzzy Systems, IEEE Transactions on Affective Computing, IEEE Transactions on Computational Social Systems, EMNLP, ICASSP, and IPMLP.
@@ -266,6 +270,37 @@ LAST30DAYS_DISABLE=1
 ```
 
 The Last30Days layer is meant to surface fresh public discourse, open-source activity, and industry-adjacent signals. It complements the arXiv paper stream rather than replacing it.
+
+## Calls and Academic Opportunities
+
+Refresh the opportunities dataset locally:
+
+```bash
+python3 scripts/update_opportunities.py
+```
+
+The generated data lives in:
+
+```text
+_data/opportunities.json
+```
+
+Lab-curated entries live in:
+
+```text
+_data/opportunities_manual.json
+```
+
+The production site refreshes the opportunities radar through GitHub Actions:
+
+- Workflow: `.github/workflows/update-opportunities.yml`
+- Schedule: every day at 08:55 Beijing time
+- Manual run: GitHub repository → Actions → Update Academic Opportunities → Run workflow
+- Output: `_data/opportunities.json`
+- Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
+- Stable base: official and lab-curated opportunities in `_data/opportunities_manual.json`
+- Automatic supplement: public CFP sources are queried around affective computing, AI + psychology, multimodal intelligence, HCI, embodied agents, digital health, education, social computing, trustworthy AI, and human factors
+- Resilience: if a public CFP source is slow or unavailable, the page still publishes the curated official entries
 
 ## Repository Metadata
 

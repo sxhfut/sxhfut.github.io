@@ -344,6 +344,26 @@ body_class: home
   </div>
 </section>
 
+{% assign opportunity_items = site.data.opportunities.items %}
+<section class="section section--white home-opportunities">
+  <div class="container">
+    <div class="section-heading">
+      <h2><span class="lang-en">Calls and Academic Opportunities</span><span class="lang-zh">征稿与学术机会</span></h2>
+      <a href="{{ '/opportunities/' | prepend: site.baseurl }}"><span class="lang-en">View Calls</span><span class="lang-zh">查看机会</span></a>
+    </div>
+    <p class="muted"><span class="lang-en">A small daily radar for conferences, journals, workshops, challenges, and watchlist venues around affective computing, AI + psychology, multimodal intelligence, HCI, embodied agents, and human factors.</span><span class="lang-zh">围绕情感计算、AI + 心理、多模态智能、人机交互、具身智能体和人因工程，整理会议、期刊、Workshop、挑战赛与长期关注入口。</span></p>
+    <div class="opportunity-strip">
+      {% for item in opportunity_items limit:3 %}
+      <a href="{{ item.url }}">
+        <span>{{ item.deadline_label }} · {{ item.deadline }}</span>
+        <strong><span class="lang-en">{{ item.title }}</span><span class="lang-zh">{{ item.title_zh | default: item.title }}</span></strong>
+        <small>{{ item.track }} · {{ item.source }}</small>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section section--white">
   <div class="container">
     <div class="section-heading">

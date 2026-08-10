@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-08-10T13:34:55.220292+08:00",
+  "generated_date_beijing": "2026-08-10",
+  "refresh_cadence": "daily",
+  "stats": {
+    "items": 9,
+    "manual_items": 9,
+    "ai_deadlines_items": 0,
+    "wikicfp_items": 0,
+    "official_items": 9,
+    "closing_soon_items": 1,
+    "open_items": 7
+  },
+  "sources": [
+    {
+      "name": "AI Deadlines",
+      "url": "https://aideadlin.es/",
+      "type": "aggregator"
+    },
+    {
+      "name": "WikiCFP",
+      "url": "http://www.wikicfp.com/cfp/",
+      "type": "aggregator"
+    },
+    {
+      "name": "Manual MAC-Lab selections",
+      "url": "_data/opportunities_manual.json",
+      "type": "curated"
+    }
+  ],
+  "items": [
+    {
+      "kind": "conference",
+      "track": "Affective Computing",
+      "track_zh": "情感计算",
+      "title": "ACII 2026",
+      "title_zh": "ACII 2026 情感计算与智能交互国际会议",
+      "venue": "International Conference on Affective Computing and Intelligent Interaction",
+      "deadline": "2026-08-20",
+      "deadline_label": "Registration deadline",
+      "deadline_tz": "",
+      "days_left": 10,
+      "status": "closing_soon",
+      "date": "September 8-10, 2026",
+      "place": "Puebla, Mexico",
+      "source": "Official ACII 2026 website",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "ACII is one of the central international venues for affective computing. The 2026 conference is useful for tracking emotion recognition, affective interaction, multimodal signals, and responsible deployment.",
+      "summary_zh": "ACII 是情感计算方向的重要国际会议。2026 年会议可用于跟踪情绪识别、情感交互、多模态信号和可信落地等方向的最新工作。",
+      "fit": [
+        "Affective computing",
+        "Multimodal sensing",
+        "Human-computer interaction"
+      ],
+      "fit_zh": [
+        "情感计算",
+        "多模态感知",
+        "人机交互"
+      ],
+      "url": "https://acii-conf.net/2026/",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "CHI 2027 Papers",
+      "title_zh": "CHI 2027 论文投稿",
+      "venue": "ACM CHI Conference on Human Factors in Computing Systems",
+      "deadline": "2026-09-10",
+      "deadline_label": "Full paper deadline",
+      "deadline_tz": "AoE",
+      "days_left": 31,
+      "status": "open",
+      "date": "April 2027",
+      "place": "Barcelona, Spain",
+      "source": "Official CHI 2027 papers page",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "CHI is a top HCI venue. It is especially relevant to MAC-Lab work on affect-aware interaction, AI for psychological support, embodied agents, and human-centered evaluation.",
+      "summary_zh": "CHI 是人机交互领域顶级会议，适合关注情感交互、AI 心理支持、具身智能体和以人为中心评测的学生与研究方向。",
+      "fit": [
+        "Human-computer interaction",
+        "AI + psychology",
+        "Embodied interaction"
+      ],
+      "fit_zh": [
+        "人机交互",
+        "AI + 心理",
+        "具身交互"
+      ],
+      "url": "https://chi2027.acm.org/authors/papers/",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Embodied Emotional Intelligence",
+      "track_zh": "具身情感智能",
+      "title": "HRI 2027 Full Papers",
+      "title_zh": "HRI 2027 完整论文投稿",
+      "venue": "ACM/IEEE International Conference on Human-Robot Interaction",
+      "deadline": "2026-09-18",
+      "deadline_label": "Full paper submission deadline",
+      "deadline_tz": "AoE",
+      "days_left": 39,
+      "status": "open",
+      "date": "March 8-12, 2027",
+      "place": "Santa Clara, California, USA",
+      "source": "Official HRI 2027 full papers page",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "HRI connects robotics, interaction, psychology, social signals, trust, and human-centered evaluation. It is a strong fit for embodied emotional intelligence and companion agents.",
+      "summary_zh": "HRI 连接机器人、人机交互、心理、社会信号、信任和以人为中心评测，是具身情感智能与陪伴智能体方向的重要投稿入口。",
+      "fit": [
+        "Embodied interaction",
+        "Human-computer interaction",
+        "Affective computing"
+      ],
+      "fit_zh": [
+        "具身交互",
+        "人机交互",
+        "情感计算"
+      ],
+      "url": "https://humanrobotinteraction.org/2027/full-papers/",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "AI + Psychology",
+      "track_zh": "AI + 心理",
+      "title": "ICLR 2027",
+      "title_zh": "ICLR 2027",
+      "venue": "International Conference on Learning Representations",
+      "deadline": "2026-09-25",
+      "deadline_label": "Paper deadline",
+      "deadline_tz": "AoE",
+      "days_left": 46,
+      "status": "open",
+      "date": "May 2027",
+      "place": "San Francisco, California, USA",
+      "source": "Official ICLR 2027 website",
+      "source_type": "official",
+      "relevance_score": 97,
+      "summary": "ICLR is a top machine-learning venue. MAC-Lab should watch representation learning, multimodal foundation models, affective LLMs, evaluation, and agent learning threads.",
+      "summary_zh": "ICLR 是机器学习顶级会议。实验室可重点关注表征学习、多模态基础模型、情感大模型、评测方法和智能体学习等方向。",
+      "fit": [
+        "AI + psychology",
+        "Multimodal sensing",
+        "Affective NLP"
+      ],
+      "fit_zh": [
+        "AI + 心理",
+        "多模态感知",
+        "情感 NLP"
+      ],
+      "url": "https://iclr.cc/Conferences/2027",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Affective NLP and Dialogue",
+      "track_zh": "情感 NLP 与对话",
+      "title": "ACL Rolling Review October 2026 Cycle",
+      "title_zh": "ACL Rolling Review 2026 年 10 月周期",
+      "venue": "ACL Rolling Review",
+      "deadline": "2026-10-12",
+      "deadline_label": "ARR submission deadline",
+      "deadline_tz": "",
+      "days_left": 63,
+      "status": "open",
+      "date": "October 2026 cycle",
+      "place": "Online review cycle",
+      "source": "Official ACL Rolling Review dates",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "ARR is a central submission route for computational linguistics and NLP venues. It is useful for affective semantics, empathetic dialogue, emotional support conversation, and psychological language modeling.",
+      "summary_zh": "ARR 是计算语言学和自然语言处理方向的重要投稿通道，适合情感语义、共情对话、情感支持对话和心理语言建模等工作。",
+      "fit": [
+        "Affective NLP",
+        "AI + psychology",
+        "Human-computer interaction"
+      ],
+      "fit_zh": [
+        "情感 NLP",
+        "AI + 心理",
+        "人机交互"
+      ],
+      "url": "https://aclrollingreview.org/dates",
+      "manual": true
+    },
+    {
+      "kind": "journal",
+      "track": "Affective Computing",
+      "track_zh": "情感计算",
+      "title": "IEEE Transactions on Affective Computing",
+      "title_zh": "IEEE Transactions on Affective Computing",
+      "venue": "IEEE Transactions on Affective Computing",
+      "deadline": "Rolling",
+      "deadline_label": "Rolling submissions",
+      "deadline_tz": "",
+      "days_left": null,
+      "status": "open",
+      "date": "Year-round",
+      "place": "Journal",
+      "source": "IEEE Computer Society CSDL",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "A core journal for affective computing, emotion AI, multimodal affect recognition, affective interaction, and computational models of human state.",
+      "summary_zh": "情感计算方向核心期刊，长期关注情绪智能、多模态情感识别、情感交互和人的状态计算模型。",
+      "fit": [
+        "Affective computing",
+        "Multimodal sensing",
+        "AI + psychology"
+      ],
+      "fit_zh": [
+        "情感计算",
+        "多模态感知",
+        "AI + 心理"
+      ],
+      "url": "https://www.computer.org/csdl/journal/ta",
+      "manual": true
+    },
+    {
+      "kind": "journal",
+      "track": "AI + Psychology",
+      "track_zh": "AI + 心理",
+      "title": "IEEE Transactions on Artificial Intelligence",
+      "title_zh": "IEEE Transactions on Artificial Intelligence",
+      "venue": "IEEE Transactions on Artificial Intelligence",
+      "deadline": "Rolling",
+      "deadline_label": "Rolling submissions",
+      "deadline_tz": "",
+      "days_left": null,
+      "status": "open",
+      "date": "Year-round",
+      "place": "Journal",
+      "source": "IEEE Computer Society CSDL",
+      "source_type": "official",
+      "relevance_score": 99,
+      "summary": "A broad AI journal relevant to affective LLMs, trustworthy evaluation, multimodal modeling, AI agents, and applied intelligent systems.",
+      "summary_zh": "人工智能领域重要期刊，可关注情感大模型、可信评测、多模态建模、智能体和应用型智能系统等方向。",
+      "fit": [
+        "AI + psychology",
+        "Affective NLP",
+        "Multimodal sensing"
+      ],
+      "fit_zh": [
+        "AI + 心理",
+        "情感 NLP",
+        "多模态感知"
+      ],
+      "url": "https://www.computer.org/csdl/journal/tai",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Multimodal Affective Computing",
+      "track_zh": "多模态情感计算",
+      "title": "ACM Multimedia 2027 Watchlist",
+      "title_zh": "ACM Multimedia 2027 关注入口",
+      "venue": "ACM International Conference on Multimedia",
+      "deadline": "TBD",
+      "deadline_label": "Next CFP to watch",
+      "deadline_tz": "",
+      "days_left": null,
+      "status": "watch",
+      "date": "2027",
+      "place": "To be announced",
+      "source": "Official ACM Multimedia 2027 website",
+      "source_type": "official",
+      "relevance_score": 95,
+      "summary": "ACM Multimedia is a major venue for multimodal learning, affective media understanding, audio-visual intelligence, benchmarks, systems, and applications.",
+      "summary_zh": "ACM Multimedia 是多模态学习、情感媒体理解、音视频智能、评测基准、系统与应用方向的重要会议，适合作为多模态情感计算方向的长期关注入口。",
+      "fit": [
+        "Multimodal sensing",
+        "Affective computing",
+        "Digital human"
+      ],
+      "fit_zh": [
+        "多模态感知",
+        "情感计算",
+        "数字人"
+      ],
+      "url": "https://www.acmmm.org/2027/",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Ubiquitous Psychological Computing",
+      "track_zh": "普适心理计算",
+      "title": "UbiComp / ISWC 2026 Watchlist",
+      "title_zh": "UbiComp / ISWC 2026 关注入口",
+      "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing and International Symposium on Wearable Computers",
+      "deadline": "TBD",
+      "deadline_label": "Conference and workshop window",
+      "deadline_tz": "",
+      "days_left": null,
+      "status": "watch",
+      "date": "October 11-15, 2026",
+      "place": "Espoo, Finland",
+      "source": "Official UbiComp / ISWC 2026 website",
+      "source_type": "official",
+      "relevance_score": 93,
+      "summary": "UbiComp / ISWC is relevant to ubiquitous sensing, wearable computing, real-world human-state modeling, and longitudinal interaction systems.",
+      "summary_zh": "UbiComp / ISWC 与普适感知、可穿戴计算、真实环境中的人状态建模和长期交互系统密切相关，适合作为普适心理计算方向的长期关注入口。",
+      "fit": [
+        "Ubiquitous sensing",
+        "Digital health",
+        "Human factors"
+      ],
+      "fit_zh": [
+        "普适感知",
+        "数字健康",
+        "人因与认知"
+      ],
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "manual": true
+    }
+  ]
+}
