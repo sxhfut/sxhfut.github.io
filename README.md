@@ -299,7 +299,9 @@ The production site refreshes the opportunities radar through GitHub Actions:
 - Output: `_data/opportunities.json`
 - Deployment path: the workflow commits changed data, then GitHub Pages rebuilds the static site
 - Stable base: official and lab-curated opportunities in `_data/opportunities_manual.json`
-- Automatic supplement: public CFP sources are queried around affective computing, AI + psychology, multimodal intelligence, HCI, embodied agents, digital health, education, social computing, trustworthy AI, and human factors
+- Automatic supplement: public CFP sources are queried around affective computing, AI + psychology, multimodal intelligence, HCI, intelligent user interfaces, embodied agents, ubiquitous sensing, digital health, education, social computing, computational social science, social media analysis, human factors, smart cockpit, trustworthy AI, and deployable AI systems
+- Deadline sources: AI Deadlines, HCI Deadlines, Social Computing Deadlines, WikiCFP keyword windows, and MAC-Lab's manually curated official entries
+- Broad-search policy: WikiCFP keywords rotate by date so the daily task can cover a wider field over time without making one run slow or noisy
 - Resilience: if a public CFP source is slow or unavailable, the page still publishes the curated official entries
 
 ## Repository Metadata

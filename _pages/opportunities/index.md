@@ -12,8 +12,8 @@ rank: 6.2
 faq:
   - question: "What academic opportunities does MAC-Lab track?"
     question_zh: "MAC-Lab 会跟踪哪些学术机会？"
-    answer: "MAC-Lab tracks conferences, journal submission routes, workshops, challenges, and selected calls around affective computing, AI plus psychology, multimodal intelligence, human-computer interaction, embodied agents, digital health, education, social computing, and human factors."
-    answer_zh: "MAC-Lab 重点跟踪情感计算、AI + 心理、多模态智能、人机交互、具身智能体、数字健康、教育、社会计算和人因工程相关的会议、期刊投稿入口、Workshop、挑战赛和专题征稿。"
+    answer: "MAC-Lab tracks conferences, journal submission routes, workshops, challenges, and selected calls around affective computing, AI plus psychology, multimodal intelligence, HCI, intelligent user interfaces, embodied agents, ubiquitous sensing, digital health, education, social computing, computational social science, human factors, and smart cockpit."
+    answer_zh: "MAC-Lab 重点跟踪情感计算、AI + 心理、多模态智能、人机交互、智能用户界面、具身智能体、普适感知、数字健康、教育、社会计算、计算社会科学、人因工程和智能座舱相关的会议、期刊投稿入口、Workshop、挑战赛和专题征稿。"
   - question: "How often is the opportunities page refreshed?"
     question_zh: "学术机会页面多久更新一次？"
     answer: "The opportunity data is refreshed once a day by a scheduled GitHub Actions workflow, with official and curated entries kept as the stable base."
@@ -36,7 +36,7 @@ faq:
 
 <div class="media-note opportunity-intro">
   <h2><span class="lang-en">Calls that help the lab plan research, training, and collaboration.</span><span class="lang-zh">把机会放回研究训练里看。</span></h2>
-  <p><span class="lang-en">MAC-Lab follows calls that are close to its long route: affective computing, AI + psychology, multimodal sensing, affective NLP, HCI, embodied agents, digital health, education, social computing, trustworthy AI, and human factors. Some items are immediate deadlines; others are watchlist venues worth preparing for before the official call opens.</span><span class="lang-zh">这里关注的是与实验室长期方向真正相邻的机会：情感计算、AI + 心理、多模态感知、情感 NLP、人机交互、具身智能体、数字健康、教育、社会计算、可信 AI 和人因工程。有些是近期截止，有些是值得提前准备的长期关注入口。</span></p>
+  <p><span class="lang-en">MAC-Lab follows calls that sit close to its long route: affective computing, AI + psychology, multimodal sensing, affective NLP, HCI, intelligent user interfaces, embodied agents, ubiquitous sensing, digital health, education, social and psychological computing, trustworthy AI, human factors, and smart cockpit. Some items are immediate deadlines; others are watchlist venues worth preparing for before the official call opens.</span><span class="lang-zh">这里关注的是与实验室长期方向相邻、并且值得学生提前准备的机会：情感计算、AI + 心理、多模态感知、情感 NLP、人机交互、智能用户界面、具身智能体、普适感知、数字健康、教育、社会与心理计算、可信 AI、人因工程和智能座舱。有些是近期截止，有些是值得提前布局的长期关注入口。</span></p>
   <p><span class="lang-en">Dates can change. Please use the original link as the final source before planning a submission, workshop proposal, challenge team, or student project.</span><span class="lang-zh">投稿和参会时间可能调整。正式准备论文、Workshop、挑战赛或学生项目之前，请以原始链接为准。</span></p>
 </div>
 
@@ -79,7 +79,7 @@ faq:
 
 <div class="frontier-results opportunity-results" aria-live="polite">
   <p data-opportunity-count></p>
-  <span><span class="lang-en">The list is ordered by urgency first, then MAC-Lab relevance. Official and lab-curated entries form the stable base; open CFP indexes may add useful signals when available.</span><span class="lang-zh">列表默认先看时间，再看与实验室方向的贴合度。官方和人工精选入口构成稳定底座，公开 CFP 索引会在可用时补充新信号。</span></span>
+  <span><span class="lang-en">The list is ordered by urgency first, then MAC-Lab relevance. Official and lab-curated entries form the stable base; HCI, social-computing, AI, and CFP indexes add useful signals when available.</span><span class="lang-zh">列表默认先看时间，再看与实验室方向的贴合度。官方和人工精选入口构成稳定底座，HCI、社会计算、AI 与 CFP 索引会在可用时补充新信号。</span></span>
 </div>
 
 <nav class="frontier-pagination frontier-pagination--top opportunity-pagination" data-opportunity-pagination hidden aria-label="Opportunity pagination top">

@@ -1,20 +1,32 @@
 {
-  "generated_at": "2026-08-10T13:34:55.220292+08:00",
+  "generated_at": "2026-08-10T13:58:34.810616+08:00",
   "generated_date_beijing": "2026-08-10",
   "refresh_cadence": "daily",
   "stats": {
-    "items": 9,
-    "manual_items": 9,
+    "items": 24,
+    "manual_items": 13,
     "ai_deadlines_items": 0,
+    "hci_deadlines_items": 2,
+    "social_deadlines_items": 9,
     "wikicfp_items": 0,
-    "official_items": 9,
-    "closing_soon_items": 1,
-    "open_items": 7
+    "official_items": 13,
+    "closing_soon_items": 7,
+    "open_items": 18
   },
   "sources": [
     {
       "name": "AI Deadlines",
       "url": "https://aideadlin.es/",
+      "type": "aggregator"
+    },
+    {
+      "name": "HCI Deadlines",
+      "url": "https://hci-deadlines.github.io/",
+      "type": "aggregator"
+    },
+    {
+      "name": "Social Computing Deadlines",
+      "url": "https://casp.jp/social-computing-deadlines/",
       "type": "aggregator"
     },
     {
@@ -29,6 +41,62 @@
     }
   ],
   "items": [
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "IUI 2027 · Full/Long Paper (Abstract)",
+      "title_zh": "IUI 2027 · Full/Long Paper (Abstract)",
+      "venue": "ACM Conference on Intelligent User Interfaces",
+      "deadline": "2026-08-13",
+      "deadline_label": "Full/Long Paper (Abstract)",
+      "deadline_tz": "AoE",
+      "days_left": 3,
+      "status": "closing_soon",
+      "date": "February 8-11, 2027",
+      "place": "Helsinki, Finland",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 94,
+      "summary": "ACM Conference on Intelligent User Interfaces is relevant to Human-Computer Interaction, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与人机交互相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "Human-computer interaction"
+      ],
+      "fit_zh": [
+        "人机交互"
+      ],
+      "url": "https://iui.acm.org/2027/call-for-papers/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Social and Psychological Computing",
+      "track_zh": "社会与心理计算",
+      "title": "WSDM 2027 · Abstract",
+      "title_zh": "WSDM 2027 · Abstract",
+      "venue": "ACM International Conference on Web Search and Data Mining",
+      "deadline": "2026-08-17",
+      "deadline_label": "Abstract",
+      "deadline_tz": "AoE",
+      "days_left": 7,
+      "status": "closing_soon",
+      "date": "February 15-19, 2027",
+      "place": "Hong Kong, China",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 82,
+      "summary": "ACM International Conference on Web Search and Data Mining is relevant to Social and Psychological Computing, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与社会与心理计算相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "AI + psychology"
+      ],
+      "fit_zh": [
+        "AI + 心理"
+      ],
+      "url": "https://wsdm-conference.org/2027/",
+      "canonical_id": ""
+    },
     {
       "kind": "conference",
       "track": "Affective Computing",
@@ -59,7 +127,164 @@
         "人机交互"
       ],
       "url": "https://acii-conf.net/2026/",
+      "canonical_id": "",
       "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "IUI 2027",
+      "title_zh": "IUI 2027 智能用户界面会议",
+      "venue": "ACM Conference on Intelligent User Interfaces",
+      "deadline": "2026-08-20",
+      "deadline_label": "Full paper deadline",
+      "deadline_tz": "AoE",
+      "days_left": 10,
+      "status": "closing_soon",
+      "date": "February 8-11, 2027",
+      "place": "Helsinki, Finland",
+      "source": "Official IUI 2027 call for papers",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "IUI is a strong venue for intelligent interfaces, adaptive interaction, user modeling, explainable systems, and human-centered evaluation. It fits MAC-Lab work on affect-aware dialogue, interactive psychological support, and embodied agents.",
+      "summary_zh": "IUI 关注智能界面、自适应交互、用户建模、可解释系统和以人为中心评测，适合情感对话、交互式心理支持和具身智能体等方向。",
+      "fit": [
+        "Human-computer interaction",
+        "AI + psychology",
+        "Affective NLP"
+      ],
+      "fit_zh": [
+        "人机交互",
+        "AI + 心理",
+        "情感 NLP"
+      ],
+      "url": "https://iui.acm.org/2027/call-for-papers/",
+      "canonical_id": "",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Social and Psychological Computing",
+      "track_zh": "社会与心理计算",
+      "title": "SBP-BRiMS 2026 Working Papers and Challenge",
+      "title_zh": "SBP-BRiMS 2026 工作论文与挑战赛",
+      "venue": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation",
+      "deadline": "2026-08-21",
+      "deadline_label": "Working papers / challenge deadline",
+      "deadline_tz": "AoE",
+      "days_left": 11,
+      "status": "closing_soon",
+      "date": "October 12-14, 2026",
+      "place": "Pittsburgh, PA, USA",
+      "source": "Official SBP-BRiMS 2026 CFP",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "SBP-BRiMS connects social computing, behavioral-cultural modeling, prediction, simulation, and decision support. It is useful for group emotion, social-event evolution, and behavior-representation topics.",
+      "summary_zh": "SBP-BRiMS 连接社会计算、行为文化建模、预测、仿真和决策支持，适合群体情绪、社会事件演化和行为表征等方向。",
+      "fit": [
+        "Social computing",
+        "Human factors",
+        "AI + psychology"
+      ],
+      "fit_zh": [
+        "社会计算",
+        "人因与认知",
+        "AI + 心理"
+      ],
+      "url": "https://sbp-brims.org/2026/cfp/",
+      "canonical_id": "",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Social and Psychological Computing",
+      "track_zh": "社会与心理计算",
+      "title": "WSDM 2027",
+      "title_zh": "WSDM 2027",
+      "venue": "ACM International Conference on Web Search and Data Mining",
+      "deadline": "2026-08-24",
+      "deadline_label": "Full Paper",
+      "deadline_tz": "AoE",
+      "days_left": 14,
+      "status": "closing_soon",
+      "date": "February 15-19, 2027",
+      "place": "Hong Kong, China",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 82,
+      "summary": "ACM International Conference on Web Search and Data Mining is relevant to Social and Psychological Computing, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与社会与心理计算相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "AI + psychology"
+      ],
+      "fit_zh": [
+        "AI + 心理"
+      ],
+      "url": "https://wsdm-conference.org/2027/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Embodied Emotional Intelligence",
+      "track_zh": "具身情感智能",
+      "title": "IEEE VR 2027",
+      "title_zh": "IEEE VR 2027",
+      "venue": "IEEE VR",
+      "deadline": "2026-08-31",
+      "deadline_label": "Paper deadline",
+      "deadline_tz": "UTC-12",
+      "days_left": 21,
+      "status": "closing_soon",
+      "date": "February, 27 - March, 3, 2027",
+      "place": "Melbourne, Australia",
+      "source": "HCI Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 78,
+      "summary": "IEEE VR 2027 is tracked as a human-centered computing opportunity related to Embodied Emotional Intelligence. It is useful for students working on affect-aware interaction, multimodal systems, evaluation, and deployable prototypes.",
+      "summary_zh": "该条目与具身情感智能相关，适合关注情感交互、多模态系统、用户研究、真实场景评测和可部署原型的同学跟踪。",
+      "fit": [
+        "Affective computing",
+        "Multimodal sensing",
+        "Embodied interaction",
+        "Education and student wellbeing"
+      ],
+      "fit_zh": [
+        "情感计算",
+        "多模态感知",
+        "具身交互",
+        "教育与学生发展"
+      ],
+      "url": "https://ieeevr.org/2027/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Social and Psychological Computing",
+      "track_zh": "社会与心理计算",
+      "title": "Complex Networks 2026",
+      "title_zh": "Complex Networks 2026",
+      "venue": "International Conference on Complex Networks and their Applications",
+      "deadline": "2026-09-02",
+      "deadline_label": "Full Paper / Extended Abstract",
+      "deadline_tz": "AoE",
+      "days_left": 23,
+      "status": "open",
+      "date": "December 2-4, 2026",
+      "place": "Granada, Spain",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 86,
+      "summary": "International Conference on Complex Networks and their Applications is relevant to Social and Psychological Computing, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与社会与心理计算相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "AI + psychology"
+      ],
+      "fit_zh": [
+        "AI + 心理"
+      ],
+      "url": "https://complexnetworks.org/",
+      "canonical_id": ""
     },
     {
       "kind": "conference",
@@ -91,7 +316,71 @@
         "具身交互"
       ],
       "url": "https://chi2027.acm.org/authors/papers/",
+      "canonical_id": "",
       "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Social and Psychological Computing",
+      "track_zh": "社会与心理计算",
+      "title": "ICWSM 2027",
+      "title_zh": "ICWSM 2027 网络与社交媒体国际会议",
+      "venue": "International AAAI Conference on Web and Social Media",
+      "deadline": "2026-09-15",
+      "deadline_label": "Round 2 full paper deadline",
+      "deadline_tz": "AoE",
+      "days_left": 36,
+      "status": "open",
+      "date": "2027",
+      "place": "Edinburgh, Scotland, United Kingdom",
+      "source": "Official ICWSM 2027 submit page",
+      "source_type": "official",
+      "relevance_score": 99,
+      "summary": "ICWSM is relevant to social media data, social sensing, online behavior, misinformation, computational social science, and group-level psychological signals.",
+      "summary_zh": "ICWSM 适合关注社交媒体数据、社会感知、在线行为、信息传播、计算社会科学和群体心理信号等方向。",
+      "fit": [
+        "Social computing",
+        "AI + psychology",
+        "Affective computing"
+      ],
+      "fit_zh": [
+        "社会计算",
+        "AI + 心理",
+        "情感计算"
+      ],
+      "url": "https://www.icwsm.org/2027/submit/",
+      "canonical_id": "",
+      "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Education and Student Wellbeing",
+      "track_zh": "教育与学生发展",
+      "title": "iConference 2027 · Full Research Papers",
+      "title_zh": "iConference 2027 · Full Research Papers",
+      "venue": "iConference (iSchools)",
+      "deadline": "2026-09-15",
+      "deadline_label": "Full Research Papers",
+      "deadline_tz": "GMT-11",
+      "days_left": 36,
+      "status": "open",
+      "date": "April 5-9, 2027",
+      "place": "Wellington, New Zealand",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 74,
+      "summary": "iConference (iSchools) is relevant to Education and Student Wellbeing, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与教育与学生发展相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "AI + psychology",
+        "Education and student wellbeing"
+      ],
+      "fit_zh": [
+        "AI + 心理",
+        "教育与学生发展"
+      ],
+      "url": "https://www.ischools.org/full-papers",
+      "canonical_id": ""
     },
     {
       "kind": "conference",
@@ -123,6 +412,7 @@
         "情感计算"
       ],
       "url": "https://humanrobotinteraction.org/2027/full-papers/",
+      "canonical_id": "",
       "manual": true
     },
     {
@@ -155,6 +445,7 @@
         "情感 NLP"
       ],
       "url": "https://iclr.cc/Conferences/2027",
+      "canonical_id": "",
       "manual": true
     },
     {
@@ -187,6 +478,40 @@
         "人机交互"
       ],
       "url": "https://aclrollingreview.org/dates",
+      "canonical_id": "",
+      "manual": true
+    },
+    {
+      "kind": "journal",
+      "track": "Ubiquitous Psychological Computing",
+      "track_zh": "普适心理计算",
+      "title": "IMWUT / UbiComp Rolling Cycle",
+      "title_zh": "IMWUT / UbiComp 滚动投稿周期",
+      "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+      "deadline": "2026-11-01",
+      "deadline_label": "Next new-submission round",
+      "deadline_tz": "AoE",
+      "days_left": 83,
+      "status": "open",
+      "date": "Rolling journal cycle",
+      "place": "ACM IMWUT",
+      "source": "Official ACM IMWUT how-to-submit page",
+      "source_type": "official",
+      "relevance_score": 100,
+      "summary": "IMWUT is a central publication route for ubiquitous, mobile, wearable, and real-world sensing systems. It is especially close to MAC-Lab's work on long-term human-state modeling and ubiquitous psychological computing.",
+      "summary_zh": "IMWUT 是普适计算、移动计算、可穿戴计算和真实环境感知系统的重要投稿通道，与长期人状态建模和普适心理计算方向高度贴合。",
+      "fit": [
+        "Ubiquitous sensing",
+        "Digital health",
+        "Human factors"
+      ],
+      "fit_zh": [
+        "普适感知",
+        "数字健康",
+        "人因与认知"
+      ],
+      "url": "https://dl.acm.org/journal/imwut/how-to-submit",
+      "canonical_id": "",
       "manual": true
     },
     {
@@ -219,6 +544,7 @@
         "AI + 心理"
       ],
       "url": "https://www.computer.org/csdl/journal/ta",
+      "canonical_id": "",
       "manual": true
     },
     {
@@ -251,7 +577,160 @@
         "多模态感知"
       ],
       "url": "https://www.computer.org/csdl/journal/tai",
+      "canonical_id": "",
       "manual": true
+    },
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "CSCW 2027",
+      "title_zh": "CSCW 2027",
+      "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+      "deadline": "Rolling",
+      "deadline_label": "Full Paper (rolling / continuous submission — no fixed deadline)",
+      "deadline_tz": "AoE",
+      "days_left": null,
+      "status": "open",
+      "date": "",
+      "place": "",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 90,
+      "summary": "ACM Conference on Computer-Supported Cooperative Work and Social Computing is relevant to Human-Computer Interaction, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与人机交互相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "Human-computer interaction",
+        "Social computing"
+      ],
+      "fit_zh": [
+        "人机交互",
+        "社会计算"
+      ],
+      "url": "https://cscw.acm.org/rolling.html",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Multimodal Affective Computing",
+      "track_zh": "多模态情感计算",
+      "title": "C&T 2027 · Full, Short & Exploratory Papers",
+      "title_zh": "C&T 2027 · Full, Short & Exploratory Papers",
+      "venue": "ACM International Conference on Communities and Technologies",
+      "deadline": "2026-11-09",
+      "deadline_label": "Full, Short & Exploratory Papers",
+      "deadline_tz": "AoE",
+      "days_left": 91,
+      "status": "future",
+      "date": "April 12-16, 2027",
+      "place": "Delft, The Netherlands",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 80,
+      "summary": "ACM International Conference on Communities and Technologies is relevant to Multimodal Affective Computing, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与多模态情感计算相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "Affective computing",
+        "Multimodal sensing"
+      ],
+      "fit_zh": [
+        "情感计算",
+        "多模态感知"
+      ],
+      "url": "https://2027.comtech.community/papers/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "CHI 2027 · Revise & Resubmit (resubmission)",
+      "title_zh": "CHI 2027 · Revise & Resubmit (resubmission)",
+      "venue": "ACM CHI Conference on Human Factors in Computing Systems",
+      "deadline": "2026-12-03",
+      "deadline_label": "Revise & Resubmit (resubmission)",
+      "deadline_tz": "AoE",
+      "days_left": 115,
+      "status": "future",
+      "date": "May 10-14, 2027",
+      "place": "Pittsburgh, PA, USA",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 90,
+      "summary": "ACM CHI Conference on Human Factors in Computing Systems is relevant to Human-Computer Interaction, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与人机交互相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "Human-computer interaction",
+        "Human factors"
+      ],
+      "fit_zh": [
+        "人机交互",
+        "人因与认知"
+      ],
+      "url": "https://chi2027.acm.org/authors/papers/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "AI + Psychology",
+      "track_zh": "AI + 心理",
+      "title": "ICWSM 2027",
+      "title_zh": "ICWSM 2027",
+      "venue": "International AAAI Conference on Web and Social Media",
+      "deadline": "2027-01-15",
+      "deadline_label": "Round 3 Full Paper (also posters/demos/datasets)",
+      "deadline_tz": "AoE",
+      "days_left": 158,
+      "status": "future",
+      "date": "",
+      "place": "Edinburgh, Scotland, United Kingdom",
+      "source": "Social Computing Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 83,
+      "summary": "International AAAI Conference on Web and Social Media is relevant to AI + Psychology, with emphasis on social signals, user behavior, human-centered evaluation, or online interaction data depending on the track.",
+      "summary_zh": "该条目与AI + 心理相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。",
+      "fit": [
+        "AI + psychology",
+        "Social computing"
+      ],
+      "fit_zh": [
+        "AI + 心理",
+        "社会计算"
+      ],
+      "url": "https://www.icwsm.org/2027/submit/",
+      "canonical_id": ""
+    },
+    {
+      "kind": "conference",
+      "track": "Human-Computer Interaction",
+      "track_zh": "人机交互",
+      "title": "DIS 2027",
+      "title_zh": "DIS 2027",
+      "venue": "DIS",
+      "deadline": "2027-01-18",
+      "deadline_label": "Paper deadline",
+      "deadline_tz": "UTC-12",
+      "days_left": 161,
+      "status": "future",
+      "date": "June, 28 - July, 2, 2027",
+      "place": "Stockholm, Sweden",
+      "source": "HCI Deadlines",
+      "source_type": "aggregator",
+      "relevance_score": 77,
+      "summary": "DIS 2027 is tracked as a human-centered computing opportunity related to Human-Computer Interaction. It is useful for students working on affect-aware interaction, multimodal systems, evaluation, and deployable prototypes.",
+      "summary_zh": "该条目与人机交互相关，适合关注情感交互、多模态系统、用户研究、真实场景评测和可部署原型的同学跟踪。",
+      "fit": [
+        "Multimodal sensing",
+        "Human-computer interaction",
+        "Education and student wellbeing"
+      ],
+      "fit_zh": [
+        "多模态感知",
+        "人机交互",
+        "教育与学生发展"
+      ],
+      "url": "https://dis.acm.org/2027/",
+      "canonical_id": ""
     },
     {
       "kind": "conference",
@@ -283,6 +762,7 @@
         "数字人"
       ],
       "url": "https://www.acmmm.org/2027/",
+      "canonical_id": "",
       "manual": true
     },
     {
@@ -298,7 +778,7 @@
       "days_left": null,
       "status": "watch",
       "date": "October 11-15, 2026",
-      "place": "Espoo, Finland",
+      "place": "Shanghai, China",
       "source": "Official UbiComp / ISWC 2026 website",
       "source_type": "official",
       "relevance_score": 93,
@@ -315,6 +795,7 @@
         "人因与认知"
       ],
       "url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "canonical_id": "",
       "manual": true
     }
   ]

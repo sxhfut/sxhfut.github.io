@@ -29,35 +29,63 @@ OUTPUT_PATH = ROOT / "_data" / "opportunities.json"
 USER_AGENT = "MAC-Lab-OpportunityRadar/1.0 (https://sxhfut.github.io)"
 MAX_ITEMS = 80
 MAX_AI_DEADLINES_ITEMS = 45
+MAX_HCI_DEADLINES_ITEMS = 26
+MAX_SOCIAL_DEADLINES_ITEMS = 26
 MAX_WIKICFP_ITEMS = 28
 DEFAULT_TIMEOUT = 24
 
 AI_DEADLINES_URL = "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
+HCI_DEADLINES_URL = "https://raw.githubusercontent.com/hci-deadlines/hci-deadlines.github.io/gh-pages/_data/conferences.yml"
+SOCIAL_DEADLINES_URL = "https://casp.jp/social-computing-deadlines/data/deadlines.json"
 
 WIKICFP_QUERIES = [
     "affective computing",
+    "affective computing conference",
     "emotion recognition",
+    "emotion artificial intelligence",
     "multimodal emotion",
+    "multimodal interaction",
+    "multimodal learning healthcare",
     "speech emotion recognition",
+    "physiological signal emotion",
     "sentiment analysis",
     "empathetic dialogue",
+    "mental health chatbot",
     "AI mental health",
     "digital mental health",
+    "digital phenotyping",
+    "computational psychology",
+    "psychometrics artificial intelligence",
     "psychological assessment artificial intelligence",
+    "social signal processing",
     "human computer interaction AI",
+    "human-centered AI",
+    "intelligent user interfaces",
     "computing education mental health",
+    "AI for education wellbeing",
     "learning analytics wellbeing",
+    "learning analytics mental health",
+    "intelligent tutoring emotion",
     "social computing emotion",
     "computational social science emotion",
+    "behavioral modeling prediction",
+    "agent-based social simulation",
+    "group emotion social media",
     "digital human emotion",
     "human robot interaction emotion",
     "embodied artificial intelligence",
+    "embodied agents emotion",
     "wearable sensing mental health",
+    "wearable affective computing",
     "ubiquitous computing mental health",
+    "wellbeing computing",
     "human factors artificial intelligence",
     "cognitive workload artificial intelligence",
+    "human performance AI",
     "trustworthy AI human factors",
+    "explainable AI mental health",
     "smart cockpit driver monitoring",
+    "driver monitoring affect",
 ]
 
 RELEVANT_SUBJECTS = {
@@ -70,25 +98,37 @@ RELEVANT_SUBJECTS = {
     "SP",
     "DM",
     "KR",
+    "CG",
+    "SC",
+    "WS",
+    "DH",
+    "EDU",
+    "BIO",
 }
 
 STRONG_RELEVANCE = re.compile(
     r"affective|emotion|empathy|sentiment|mental health|psycholog|wellbeing|well-being|"
+    r"digital phenotyping|stress|burnout|resilience|psychometric|personality|"
     r"multimodal|speech|voice|facial|expression|gesture|gaze|eye[- ]tracking|wearable|sensor|"
-    r"human[- ]computer|hci|human[- ]robot|"
+    r"physiological|biosignal|mobile sensing|ubiquitous|pervasive|"
+    r"human[- ]computer|hci|human[- ]robot|intelligent user interface|interactive|"
     r"embodied|robot|digital human|agent|dialogue|conversation|counsel|therapy|"
-    r"human factors|cognitive|workload|personality|social computing|computational social|"
-    r"learning analytics|educational technology|digital health|mhealth|smart cockpit|driver monitoring|"
-    r"trustworthy ai|safety|privacy|fairness|explainable|"
+    r"human factors|cognitive|workload|decision|performance|personality|social computing|computational social|"
+    r"social media|social signal|behavioral[- ]cultural|collective behavior|group work|"
+    r"learning analytics|educational technology|intelligent tutoring|student wellbeing|digital health|mhealth|"
+    r"smart cockpit|driver monitoring|human[- ]centered ai|trustworthy ai|safety|privacy|fairness|explainable|"
     r"情感|心理|身心|多模态|具身|数字人|机器人|人机交互|认知|人因",
     re.IGNORECASE,
 )
 
 CORE_RELEVANCE = re.compile(
     r"affective|emotion|empathy|sentiment|mental health|psycholog|wellbeing|well-being|"
+    r"digital phenotyping|psychometric|personality|stress|"
     r"multimodal|speech emotion|facial expression|human[- ]computer|hci|human[- ]robot|"
     r"embodied|digital human|dialogue system|conversational|counsel|therapy|"
-    r"human factors|cognitive workload|learning analytics|digital health|smart cockpit|"
+    r"human factors|cognitive workload|social computing|computational social|social media|"
+    r"behavioral[- ]cultural|learning analytics|digital health|smart cockpit|"
+    r"human[- ]centered ai|intelligent user interface|mobile sensing|wearable|ubiquitous|"
     r"情感|心理|身心|多模态|具身|数字人|机器人|人机交互|认知|人因",
     re.IGNORECASE,
 )
@@ -100,9 +140,53 @@ WEAK_ONLY_RELEVANCE = re.compile(
 
 EXCLUDE_RELEVANCE = re.compile(
     r"cybersecurity|religion|religious|sovereign ai|digital sovereignty|theology|"
-    r"cloud computing|parallel and distributed systems|information science",
+    r"cloud computing|parallel and distributed systems|information science|"
+    r"blockchain|wireless network|internet of things conference|power electronics|"
+    r"materials science|agriculture|supply chain|accounting|finance",
     re.IGNORECASE,
 )
+
+HCI_DEADLINE_KEEP_VENUES = {
+    "ACII",
+    "ASSETS",
+    "AutoUI",
+    "CUI",
+    "CHI",
+    "CSCW",
+    "DIS",
+    "GROUP",
+    "HRI",
+    "ICMI",
+    "IDC",
+    "IMWUT",
+    "ISMAR",
+    "ISWC",
+    "IUI",
+    "MobileHCI",
+    "NordiCHI",
+    "SUI",
+    "TEI",
+    "UIST",
+    "UbiComp",
+    "IEEE VR",
+    "VRST",
+}
+
+SOCIAL_DEADLINE_KEEP_VENUES = {
+    "C&T",
+    "CHI",
+    "CSCW",
+    "Complex Networks",
+    "GROUP",
+    "IC2S2",
+    "ICWSM",
+    "IUI",
+    "SBP-BRiMS",
+    "SocInfo",
+    "WebSci",
+    "WSDM",
+    "iConference",
+}
 
 VENUE_HINTS = {
     "ACII": ("Affective Computing", "情感计算", 96),
@@ -112,6 +196,7 @@ VENUE_HINTS = {
     "CHI": ("Human-Computer Interaction", "人机交互", 82),
     "CSCW": ("Human-Computer Interaction", "人机交互", 79),
     "IUI": ("Human-Computer Interaction", "人机交互", 78),
+    "GROUP": ("Social and Psychological Computing", "社会与心理计算", 76),
     "ACL": ("Affective NLP and Dialogue", "情感 NLP 与对话", 82),
     "EMNLP": ("Affective NLP and Dialogue", "情感 NLP 与对话", 84),
     "NAACL": ("Affective NLP and Dialogue", "情感 NLP 与对话", 80),
@@ -135,6 +220,27 @@ VENUE_HINTS = {
     "PERCOM": ("Ubiquitous Psychological Computing", "普适心理计算", 74),
     "ISWC": ("Ubiquitous Psychological Computing", "普适心理计算", 72),
     "CUI": ("Affective NLP and Dialogue", "情感 NLP 与对话", 72),
+    "ICWSM": ("Social and Psychological Computing", "社会与心理计算", 80),
+    "WEBSCI": ("Social and Psychological Computing", "社会与心理计算", 74),
+    "WSDM": ("Social and Psychological Computing", "社会与心理计算", 70),
+    "SBP-BRIMS": ("Social and Psychological Computing", "社会与心理计算", 78),
+    "SOCINFO": ("Social and Psychological Computing", "社会与心理计算", 72),
+    "IC2S2": ("Social and Psychological Computing", "社会与心理计算", 76),
+    "COMPLEX NETWORKS": ("Social and Psychological Computing", "社会与心理计算", 68),
+    "ICONFERENCE": ("Education and Student Wellbeing", "教育与学生发展", 66),
+    "ASSETS": ("Human-Centered AI", "以人为中心 AI", 70),
+    "AUTOUI": ("Smart Cockpit and Human Factors", "智能座舱与人因", 72),
+    "MOBILEHCI": ("Ubiquitous Psychological Computing", "普适心理计算", 72),
+    "IDC": ("Education and Student Wellbeing", "教育与学生发展", 68),
+    "DIS": ("Human-Computer Interaction", "人机交互", 70),
+    "ISMAR": ("Embodied Emotional Intelligence", "具身情感智能", 68),
+    "IEEE VR": ("Embodied Emotional Intelligence", "具身情感智能", 67),
+    "VRST": ("Embodied Emotional Intelligence", "具身情感智能", 66),
+    "CBMS": ("Digital Health", "数字健康", 68),
+    "JBHI": ("Digital Health", "数字健康", 70),
+    "BHI": ("Digital Health", "数字健康", 68),
+    "AAMAS": ("Embodied Emotional Intelligence", "具身情感智能", 68),
+    "WWW": ("Social and Psychological Computing", "社会与心理计算", 68),
     "EDM": ("AI + Psychology", "AI + 心理", 70),
     "LAK": ("AI + Psychology", "AI + 心理", 70),
     "AAAI AIES": ("Trustworthy Human-Centered AI", "可信以人为中心 AI", 72),
@@ -153,20 +259,28 @@ SUBJECT_TRACKS = {
     "DM": ("Ubiquitous Psychological Computing", "普适心理计算", 66),
     "KR": ("AI + Psychology", "AI + 心理", 64),
     "SOC": ("Social and Psychological Computing", "社会与心理计算", 66),
+    "SC": ("Social and Psychological Computing", "社会与心理计算", 66),
+    "WS": ("Social and Psychological Computing", "社会与心理计算", 66),
+    "DH": ("Digital Health", "数字健康", 66),
+    "EDU": ("Education and Student Wellbeing", "教育与学生发展", 66),
+    "BIO": ("Digital Health", "数字健康", 64),
+    "CG": ("Embodied Emotional Intelligence", "具身情感智能", 62),
     "SE": ("Deployable AI Systems", "可部署 AI 系统", 62),
 }
 
 FIT_RULES = [
     (r"affective|emotion|empathy|sentiment", "Affective computing", "情感计算"),
     (r"mental health|psycholog|wellbeing|therapy|counsel", "AI + psychology", "AI + 心理"),
+    (r"digital phenotyping|psychometric|personality|stress|burnout|resilience", "Psychological computing", "心理计算"),
     (r"multimodal|speech|voice|facial|vision|expression", "Multimodal sensing", "多模态感知"),
+    (r"physiological|biosignal|wearable|mobile sensing|ubiquitous|pervasive", "Ubiquitous sensing", "普适感知"),
     (r"dialogue|conversation|language|nlp|acl|emnlp|naacl", "Affective NLP", "情感 NLP"),
     (r"robot|embodied|hri|digital human|agent", "Embodied interaction", "具身交互"),
-    (r"hci|human-computer|cscw|iui|chi", "Human-computer interaction", "人机交互"),
-    (r"human factors|cognitive|workload|performance", "Human factors", "人因与认知"),
-    (r"learning analytics|education|student|school", "Education and student wellbeing", "教育与学生发展"),
+    (r"hci|human-computer|cscw|iui|chi|interactive", "Human-computer interaction", "人机交互"),
+    (r"human factors|cognitive|workload|performance|decision", "Human factors", "人因与认知"),
+    (r"learning analytics|education|student|school|intelligent tutoring", "Education and student wellbeing", "教育与学生发展"),
     (r"digital health|mhealth|healthcare|clinical", "Digital health", "数字健康"),
-    (r"social computing|computational social|group|collective", "Social computing", "社会计算"),
+    (r"social computing|computational social|group|collective|social media|behavioral-cultural", "Social computing", "社会计算"),
     (r"trustworthy|privacy|safety|fairness|explainable", "Trustworthy AI", "可信 AI"),
     (r"smart cockpit|driver|vehicle|mobility", "Smart cockpit", "智能座舱"),
 ]
@@ -288,9 +402,21 @@ def beijing_now() -> dt.datetime:
 
 
 def item_key(item: dict) -> str:
+    canonical_id = clean_text(item.get("canonical_id"))
+    if canonical_id:
+        return re.sub(r"\W+", "", canonical_id.lower())
+
+    venue_token = detect_venue_token(clean_text(item.get("title")), clean_text(item.get("venue")))
+    deadline = clean_text(item.get("deadline")).lower()
+    if venue_token and deadline:
+        return re.sub(r"\W+", "", f"{venue_token}|{deadline}".lower())
+
+    venue = clean_text(item.get("venue")).lower()
+    if venue and deadline:
+        return re.sub(r"\W+", "", f"{venue}|{deadline}".lower())
+
     url = clean_url(item.get("url"))
     title = clean_text(item.get("title")).lower()
-    deadline = clean_text(item.get("deadline"))
     return re.sub(r"\W+", "", f"{url}|{title}|{deadline}".lower())
 
 
@@ -366,6 +492,38 @@ def build_summary(title: str, track: str, track_zh: str, kind: str, source_type:
     return summary, summary_zh
 
 
+def normalize_venue_name(value: str) -> str:
+    return re.sub(r"[^A-Za-z0-9]+", " ", clean_text(value)).strip().upper()
+
+
+def venue_in_scope(value: str, keep_venues: set[str]) -> bool:
+    normalized = f" {normalize_venue_name(value)} "
+    for keep in keep_venues:
+        token = f" {normalize_venue_name(keep)} "
+        if token.strip() and token in normalized:
+            return True
+    return False
+
+
+def detect_venue_token(*values: str) -> str:
+    normalized = f" {normalize_venue_name(' '.join(value for value in values if value))} "
+    venue_names = set(VENUE_HINTS) | HCI_DEADLINE_KEEP_VENUES | SOCIAL_DEADLINE_KEEP_VENUES
+    for name in sorted(venue_names, key=len, reverse=True):
+        token = normalize_venue_name(name)
+        if token and f" {token} " in normalized:
+            return token
+    return ""
+
+
+def source_link(value: str, fallback: str = "") -> str:
+    value = clean_url(value)
+    if not value:
+        return clean_url(fallback)
+    if ";" in value:
+        value = value.split(";", 1)[0]
+    return clean_url(value)
+
+
 def normalize_item(item: dict, today: dt.date) -> dict | None:
     title = clean_text(item.get("title"))
     url = clean_url(item.get("url"))
@@ -430,6 +588,7 @@ def normalize_item(item: dict, today: dt.date) -> dict | None:
         "fit": item.get("fit") or fits,
         "fit_zh": item.get("fit_zh") or fits_zh,
         "url": url,
+        "canonical_id": clean_text(item.get("canonical_id")),
     }
 
 
@@ -489,8 +648,171 @@ def fetch_ai_deadlines_items(today: dt.date) -> list[dict]:
     return items[: parse_int_env("OPPORTUNITY_AI_DEADLINES_MAX", MAX_AI_DEADLINES_ITEMS)]
 
 
+def fetch_hci_deadlines_items(today: dt.date) -> list[dict]:
+    try:
+        records = parse_ai_deadlines_records(fetch_url(HCI_DEADLINES_URL))
+    except RuntimeError as error:
+        print(f"HCI Deadlines: {error}")
+        return []
+
+    items: list[dict] = []
+    horizon = today + dt.timedelta(days=parse_int_env("OPPORTUNITY_HORIZON_DAYS", 540))
+
+    for record in records:
+        title = clean_text(record.get("title"))
+        year = clean_text(record.get("year"))
+        deadline = clean_text(record.get("deadline"))
+        parsed_deadline = parse_date(deadline)
+        if not title or not parsed_deadline:
+            continue
+        if parsed_deadline < today or parsed_deadline > horizon:
+            continue
+        if not venue_in_scope(title, HCI_DEADLINE_KEEP_VENUES):
+            continue
+
+        display_title = f"{title} {year}".strip()
+        note = clean_text(record.get("note"))
+        track, track_zh, score = infer_track(display_title, clean_text(record.get("sub")), note)
+        kind = infer_kind(display_title)
+        summary = (
+            f"{display_title} is tracked as a human-centered computing opportunity related to {track}. "
+            "It is useful for students working on affect-aware interaction, multimodal systems, evaluation, and deployable prototypes."
+        )
+        summary_zh = (
+            f"该条目与{track_zh}相关，适合关注情感交互、多模态系统、用户研究、真实场景评测和可部署原型的同学跟踪。"
+        )
+        item = normalize_item(
+            {
+                "title": display_title,
+                "venue": title,
+                "deadline": parsed_deadline.isoformat(),
+                "deadline_label": "Paper deadline",
+                "deadline_tz": clean_text(record.get("timezone")),
+                "date": clean_text(record.get("date")),
+                "place": clean_text(record.get("place")),
+                "sub": clean_text(record.get("sub")),
+                "track": track,
+                "track_zh": track_zh,
+                "kind": kind,
+                "summary": summary,
+                "summary_zh": summary_zh,
+                "source": "HCI Deadlines",
+                "source_type": "aggregator",
+                "relevance_score": score - 1,
+                "url": clean_text(record.get("link")),
+            },
+            today,
+        )
+        if item:
+            items.append(item)
+
+    items.sort(key=lambda item: (item.get("deadline") or "9999-12-31", -int(item.get("relevance_score") or 0)))
+    return items[: parse_int_env("OPPORTUNITY_HCI_DEADLINES_MAX", MAX_HCI_DEADLINES_ITEMS)]
+
+
+def fetch_social_deadlines_items(today: dt.date) -> list[dict]:
+    try:
+        payload = json.loads(fetch_url(SOCIAL_DEADLINES_URL))
+    except (RuntimeError, json.JSONDecodeError) as error:
+        print(f"Social Computing Deadlines: {error}")
+        return []
+
+    items: list[dict] = []
+    horizon = today + dt.timedelta(days=parse_int_env("OPPORTUNITY_HORIZON_DAYS", 540))
+    per_venue = parse_int_env("SOCIAL_DEADLINES_PER_VENUE", 2)
+
+    for record in payload.get("conferences", []):
+        if not isinstance(record, dict):
+            continue
+        venue = clean_text(record.get("venue"))
+        full_name = clean_text(record.get("fullName"))
+        if not venue or not venue_in_scope(venue, SOCIAL_DEADLINE_KEEP_VENUES):
+            continue
+
+        source = source_link(clean_text(record.get("source")), clean_text(record.get("website")))
+        if not source:
+            continue
+
+        deadlines = record.get("deadlines") if isinstance(record.get("deadlines"), list) else []
+        kept = 0
+        for deadline_record in deadlines:
+            if not isinstance(deadline_record, dict):
+                continue
+
+            deadline_value = clean_text(deadline_record.get("date"))
+            deadline_lower = deadline_value.lower()
+            parsed_deadline = parse_date(deadline_value)
+            if deadline_lower != "rolling":
+                if not parsed_deadline or parsed_deadline < today or parsed_deadline > horizon:
+                    continue
+                normalized_deadline = parsed_deadline.isoformat()
+            else:
+                normalized_deadline = "Rolling"
+
+            label = clean_text(deadline_record.get("label")) or "Paper deadline"
+            year = clean_text(str(record.get("year") or ""))
+            title = f"{venue} {year}".strip()
+            if label and "full paper" not in label.lower() and deadline_lower != "rolling":
+                title = f"{title} · {label}"
+
+            context = " ".join(
+                [
+                    title,
+                    full_name,
+                    clean_text(record.get("notes")),
+                    " ".join(record.get("sub", []) if isinstance(record.get("sub"), list) else []),
+                ]
+            )
+            track, track_zh, score = infer_track(title, text=context)
+            kind = infer_kind(title)
+            summary = (
+                f"{full_name or title} is relevant to {track}, with emphasis on social signals, user behavior, "
+                "human-centered evaluation, or online interaction data depending on the track."
+            )
+            summary_zh = (
+                f"该条目与{track_zh}相关，可用于跟踪社会信号、用户行为、在线交互数据、以人为中心评测和群体心理计算等方向。"
+            )
+            item = normalize_item(
+                {
+                    "title": title,
+                    "venue": full_name or venue,
+                    "deadline": normalized_deadline,
+                    "deadline_label": label,
+                    "deadline_tz": clean_text(deadline_record.get("tz")),
+                    "date": clean_text(record.get("dates")),
+                    "place": clean_text(record.get("place")),
+                    "track": track,
+                    "track_zh": track_zh,
+                    "kind": kind,
+                    "summary": summary,
+                    "summary_zh": summary_zh,
+                    "source": "Social Computing Deadlines",
+                    "source_type": "aggregator",
+                    "relevance_score": score,
+                    "url": source,
+                },
+                today,
+            )
+            if item:
+                items.append(item)
+                kept += 1
+            if kept >= per_venue:
+                break
+
+    items.sort(key=lambda item: (item.get("deadline") or "9999-12-31", -int(item.get("relevance_score") or 0)))
+    return items[: parse_int_env("OPPORTUNITY_SOCIAL_DEADLINES_MAX", MAX_SOCIAL_DEADLINES_ITEMS)]
+
+
 def wikicfp_url(query: str) -> str:
     return "http://www.wikicfp.com/cfp/servlet/tool.search?q=" + urllib.parse.quote(query)
+
+
+def selected_wikicfp_queries(today: dt.date) -> list[str]:
+    max_queries = parse_int_env("WIKICFP_MAX_QUERIES", 28)
+    if max_queries <= 0 or max_queries >= len(WIKICFP_QUERIES):
+        return WIKICFP_QUERIES
+    offset = today.toordinal() % len(WIKICFP_QUERIES)
+    return [WIKICFP_QUERIES[(offset + index) % len(WIKICFP_QUERIES)] for index in range(max_queries)]
 
 
 def parse_wikicfp_rows(markup: str) -> list[dict]:
@@ -529,7 +851,7 @@ def fetch_wikicfp_items(today: dt.date) -> list[dict]:
     horizon = today + dt.timedelta(days=parse_int_env("OPPORTUNITY_HORIZON_DAYS", 540))
     per_query = parse_int_env("WIKICFP_MAX_PER_QUERY", 4)
 
-    for query in WIKICFP_QUERIES:
+    for query in selected_wikicfp_queries(today):
         try:
             markup = fetch_url(wikicfp_url(query), retries=1)
         except RuntimeError as error:
@@ -634,9 +956,11 @@ def main() -> None:
 
     manual_items = load_manual_items(today)
     ai_deadline_items = fetch_ai_deadlines_items(today)
+    hci_deadline_items = fetch_hci_deadlines_items(today)
+    social_deadline_items = fetch_social_deadlines_items(today)
     wikicfp_items = fetch_wikicfp_items(today)
 
-    items = dedupe_items(manual_items + ai_deadline_items + wikicfp_items)
+    items = dedupe_items(manual_items + ai_deadline_items + hci_deadline_items + social_deadline_items + wikicfp_items)
     items.sort(key=sort_key)
     items = items[:max_items]
 
@@ -644,6 +968,8 @@ def main() -> None:
         "items": len(items),
         "manual_items": len([item for item in items if item.get("manual")]),
         "ai_deadlines_items": len([item for item in items if item.get("source") == "AI Deadlines"]),
+        "hci_deadlines_items": len([item for item in items if item.get("source") == "HCI Deadlines"]),
+        "social_deadlines_items": len([item for item in items if item.get("source") == "Social Computing Deadlines"]),
         "wikicfp_items": len([item for item in items if str(item.get("source", "")).startswith("WikiCFP")]),
         "official_items": len([item for item in items if item.get("source_type") == "official"]),
         "closing_soon_items": len([item for item in items if item.get("status") == "closing_soon"]),
@@ -659,6 +985,16 @@ def main() -> None:
             {
                 "name": "AI Deadlines",
                 "url": "https://aideadlin.es/",
+                "type": "aggregator",
+            },
+            {
+                "name": "HCI Deadlines",
+                "url": "https://hci-deadlines.github.io/",
+                "type": "aggregator",
+            },
+            {
+                "name": "Social Computing Deadlines",
+                "url": "https://casp.jp/social-computing-deadlines/",
                 "type": "aggregator",
             },
             {

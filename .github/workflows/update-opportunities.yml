@@ -27,10 +27,14 @@ jobs:
 
       - name: Fetch academic opportunities
         env:
-          OPPORTUNITY_MAX_ITEMS: "90"
+          OPPORTUNITY_MAX_ITEMS: "110"
           OPPORTUNITY_FETCH_TIMEOUT: "12"
+          OPPORTUNITY_HCI_DEADLINES_MAX: "26"
+          OPPORTUNITY_SOCIAL_DEADLINES_MAX: "26"
+          SOCIAL_DEADLINES_PER_VENUE: "2"
+          WIKICFP_MAX_QUERIES: "28"
           WIKICFP_MAX_PER_QUERY: "2"
-          WIKICFP_MAX_ITEMS: "24"
+          WIKICFP_MAX_ITEMS: "30"
         run: python scripts/update_opportunities.py
 
       - name: Commit updated data
