@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T03:06:39+00:00",
-  "generated_at_beijing": "2026-08-12T11:06:39+08:00",
+  "generated_at": "2026-08-12T13:58:14+00:00",
+  "generated_at_beijing": "2026-08-12T21:58:14+08:00",
   "generated_date_beijing": "2026-08-12",
   "stats": {
     "total_items": 120,
@@ -14,25 +14,25 @@
     "arxiv_items": 107,
     "kind_counts": {
       "community": 5,
-      "industry": 37,
+      "industry": 38,
       "lab": 1,
-      "paper": 75,
+      "paper": 74,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 63,
+      "arXiv": 62,
       "RSS · Google News": 12,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 5,
       "ORCID / DOI": 4,
+      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
+      "RSS · IEEE Spectrum AI": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
-      "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
       "RSS · Microsoft Research": 3,
-      "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google AI": 1,
       "RSS · BAIR Blog": 1,
@@ -82,6 +82,110 @@
   ],
   "items": [
     {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-12",
+      "title": "Scientists develop 'RoboDojo,' a unified platform to evaluate embodied AI - techxplore.com",
+      "summary": "Scientists develop 'RoboDojo,' a unified platform to evaluate embodied AI techxplore.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1JkNER2cXVESTU3dFl5d09Sb29wbU5PdkpYX1YyTnNHcXREc2x4NWJLUVJTUjA4bC1FZDhtVXItNUFWaXRxSjJRb3FDM1NDczR6b0RscGhjejVadkUzUlRBQlNOeWEzalBMTm5SWjBFajZnb2hTakg1TGwtb1dtWjM0QW5GSXd2?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-12",
+      "title": "Rest-Of-Middle-East Embodied AI Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
+      "summary": "Rest-Of-Middle-East Embodied AI Market Size, Share,Trends, Growth Analysis Report, 2030 MarketsandMarkets",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUUNmZm1OM0lNRlg4ZU9Jb0xEUTFId1lxa3N6WVZXOHlJYi1CajdTREZJS0RxWWx0ZWIwVENxam5oWDBDVWhJMmw2TF80Wnp6MzZ2cDlqZ1gxVUNDSmFJaVU3UkZwa3d3aHY5ZXh2bDNmb2JYVzV4bnV4bU5EX3dnYjhpb2t3cHpVenRPSXVLcjZyMzlyalBIZ2pSeUExUQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-12",
+      "title": "Embodied intelligent robot industry exhibition kicks off in Shanghai, showcases embodied AI innovations - Global Times",
+      "summary": "Embodied intelligent robot industry exhibition kicks off in Shanghai, showcases embodied AI innovations Global Times",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iZ0F6NnNVa296Tnk0WUtWNDJyZ1NtLVlvMDBRc0NCQ1gzWENkMlFJQUs2YnRBM3cyby1seW9YNHAweTFaZ1dCRVFjNTdtakxQd2dCR0pHLVluUQ?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-12",
+      "title": "AI心理诊疗、中药面膜试用 一场在避暑度假区的健康集市即将开市 - eeo.com.cn",
+      "summary": "AI心理诊疗、中药面膜试用 一场在避暑度假区的健康集市即将开市 eeo.com.cn",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NUXNyeDcwYzZCeGdLbTB4ek1nZ2ItUmI0U3NYOWxkdEhsbEdaZTVoZFNLaVNjb1dfelNrczlIOG5YeE9HWTR3V254elgyQk5aaTV0bkVxNA?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "community",
       "track": "AI + Psychology",
       "published": "2026-08-12",
@@ -111,29 +215,55 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-11",
-      "title": "AI therapy: helpful tool or harmful replacement? - herworld.com",
-      "summary": "AI therapy: helpful tool or harmful replacement? herworld.com",
-      "source": "RSS · Google News",
+      "track": "AI Research",
+      "published": "2026-08-12",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "RSS · OpenAI News",
       "authors": [
-        "Google News"
+        "OpenAI News"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "OpenAI News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVBiX3AxQXZsV1ZEN09kNUhjR0oydVVvS3FVaGUtS0VUY0NJU0JGUmlKUzJhdVQyVlV3TWd4c0hURXZyNGM5Yjd6Ukk0dUJZZnJtYlJEQXdPemFseHRQZURUX0MzT2c3aDZpcWtEelJHNm1kNG9LbWZEMDFTZXBXR0NIcFhWREg4aEZFTmhnSXdOeG43Vi1XWTNRbzA1WEJ5QWxlOERJY3dldw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
       "capability_tags": [
-        "Mind-Body Support"
+        "Affective LLMs"
       ],
       "capability_tags_zh": [
-        "身心支持"
+        "情感大模型"
       ],
-      "relevance_score": 76
+      "relevance_score": 73
+    },
+    {
+      "kind": "industry",
+      "track": "AI Industry",
+      "published": "2026-08-12",
+      "title": "Pakistani Judges Give Their Verdict on JudgeGPT",
+      "summary": "Judges around the world have made headlines for illicitly using generative AI in their work. But in Pakistan, a large-scale trial of a specially designed AI tool for judges found the technology–together with appropriate training–boosted the number of cases resolved by 6.3% with no obvious drop in the quality of judgements. With a backlog of 2.26 million...",
+      "source": "RSS · IEEE Spectrum AI",
+      "authors": [
+        "IEEE Spectrum AI"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum AI"
+      ],
+      "url": "https://spectrum.ieee.org/judgegpt-experiment",
+      "priority": 53,
+      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
+      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
+      "capability_tags": [
+        "AI Industry"
+      ],
+      "capability_tags_zh": [
+        "AI Industry"
+      ],
+      "relevance_score": 71
     },
     {
       "kind": "industry",
@@ -445,8 +575,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-10",
-      "title": "The question to ask before adopting AI mental health triage - KevinMD.com",
-      "summary": "The question to ask before adopting AI mental health triage KevinMD.com",
+      "title": "The question to ask before adopting AI mental health triage - kevinmd.com",
+      "summary": "The question to ask before adopting AI mental health triage kevinmd.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -464,58 +594,6 @@
       ],
       "capability_tags_zh": [
         "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-10",
-      "title": "Oversubscribed 8,288 to 1: China’s Hottest IPO Hits ‘Embodied AI’ Boom - Yahoo Finance",
-      "summary": "Oversubscribed 8,288 to 1: China’s Hottest IPO Hits ‘Embodied AI’ Boom Yahoo Finance",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTBBeG9IUkUwY2JMRXJfQVBDc2o2U0ZScGZZdHJHdHNsNkhvdVNidmdXVHd0SUlKRzlzdEIyaDR2UVdfSm5vY1dqc1J2MVhMcGdfZTZrd19aaTZ3c1R3TGdscHRhSkNHdmZQM0FLUWpObkhabElwalBoZk1aV1BFTmhrWDBVRGVNQXM2bmVyTGdjLWdBZVVV?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-10",
-      "title": "Consumer-oriented embodied AI model developer secures 500 million yuan funding in China - Global Times",
-      "summary": "Consumer-oriented embodied AI model developer secures 500 million yuan funding in China Global Times",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02THFwdk55WWNUWlplWEk2NU03YTg0UXBERE5pSUN2Z1VVa1VCc3NnWW4xWm1NQzdQVmhQYmliaHFVUnNrOVIyMDhzMm1xcVdhM05BcEpkRk53MWp4cVFVREZB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -560,32 +638,6 @@
         "OpenAI News"
       ],
       "url": "https://openai.com/index/model-ml",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "AI Research"
-      ],
-      "capability_tags_zh": [
-        "AI Research"
-      ],
-      "relevance_score": 73
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-08-10",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
       "priority": 55,
       "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
       "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
@@ -942,32 +994,6 @@
       ],
       "capability_tags_zh": [
         "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-07",
-      "title": "Cross-sector Convergence: Embodied AI Accelerates into the Forefront of Automotive Innovation | 2026 8th Golden Gear Awards Selection and \"China Automotive Industry Innovation Case Database\" Call for Entries - Gasgoo",
-      "summary": "Cross-sector Convergence: Embodied AI Accelerates into the Forefront of Automotive Innovation | 2026 8th Golden Gear Awards Selection and \"China Automotive Industry Innovation Case Database\" Call for Entries Gasgoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQMzJfS1hjd2VfZHdjLUVpdHZkd29jckViS3RMS3NhdTNXMlFCUHZmakotNk5XeVE0NXhhcE9JcHk3V1ppNHNNLTlFQmp3YU9MX2tNWXFGSW5wamZwNG1DeENpSERMRFdOTGsxaEF5aTNTRElWMmp5RHpFSDN1NTZNTnRGWEg5QjYzandWdzV6RkZiWThlYXpaWmt1RlJVVkhVeGhrYlREcTJUWkx3Q0Nwby1hWHBZa2dfSlhBRTQ3dm1fY0ZWamF0UUhfNEpLTk1ELUVMT3FPT3ktdm4ybkRJQllSSWg1dGZMdFFoa0pTNGlVSzQ5NC0zVE8xdnJKMHU1aGNpVWpiVHJwN3JfOThrZXRJWEtHUnRRNnhnX3I2MXE1RzJhWVJPZ3o1R09zT3U2VkdIYm83V0RiM2xfZUlFOFpVeHVHNlAxbmdjam1aaWhMMDFtb0ZzSXFGenRLbWdEbjNxTU5GRTRxdDNicXplUXQ3YVRGaWk2QjE3Sw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
       ],
       "relevance_score": 79
     },
@@ -1581,6 +1607,34 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-03",
+      "title": "Body Fat Beats BMI in Predicting Fracture Risk on AI Therapy - Medscape",
+      "summary": "Body Fat Beats BMI in Predicting Fracture Risk on AI Therapy Medscape",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUVtb0lfclhReVd4cVhwTHRHZFl3Zkd0OGdyeFo0eV82SFVZSjhxV2VCY3dNYVgzNGZuNHptNDJMbVAzTVR3QThGem9LQlVnWDVBblVfaGVqWFM1QjU1Vi04SUZ5aThZWUR2b3I4ZGJUcUNaZW53cGxIWS1BWUQzSW43TldqREVKZ054WVd3dlUzcE92RkVHM1JhTS1qTjQzSmQ4Zjgtcw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "身心支持",
+        "可信评测"
+      ],
+      "relevance_score": 82
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-03",
       "title": "Orchard: An open framework for scalable agentic AI",
@@ -1993,32 +2047,6 @@
         "身心支持"
       ],
       "relevance_score": 59
-    },
-    {
-      "kind": "industry",
-      "track": "AI Industry",
-      "published": "2026-07-29",
-      "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
-      "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly...",
-      "source": "RSS · IEEE Spectrum AI",
-      "authors": [
-        "IEEE Spectrum AI"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum AI"
-      ],
-      "url": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
-      "priority": 53,
-      "lens": "Relevant to industry translation: it helps track deployable AI products, application demand, and partner-facing scenarios.",
-      "lens_zh": "对应产业转化：用于观察可部署 AI 产品、应用需求和合作场景变化。",
-      "capability_tags": [
-        "AI Industry"
-      ],
-      "capability_tags_zh": [
-        "AI Industry"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "industry",
@@ -2521,8 +2549,8 @@
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-07-23",
-      "title": "Bilingual emotion recognition of social media texts using deep learning approach - nature.com",
-      "summary": "Bilingual emotion recognition of social media texts using deep learning approach nature.com",
+      "title": "Bilingual emotion recognition of social media texts using deep learning approach - Nature",
+      "summary": "Bilingual emotion recognition of social media texts using deep learning approach Nature",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -3176,35 +3204,6 @@
         "情感理解"
       ],
       "relevance_score": 74
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-16",
-      "title": "Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol",
-      "summary": "Recent advances in Generative Artificial Intelligence (GenAI), particularly Large Language Models (LLMs), are driving robotic architectures toward agent-based high-level orchestration, in which natural-language instructions can be translated into context-aware action sequences. While the integration of these agents and robotic capabilities is increasingly converging toward standardization through the Model Context Protocol...",
-      "source": "arXiv",
-      "authors": [
-        "Jesus Moncada-Ramirez",
-        "Jose-Raul Ruiz-Sarmiento",
-        "Javier Gonzalez-Jimenez"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "url": "http://arxiv.org/abs/2607.14919",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 62
     },
     {
       "kind": "lab",
