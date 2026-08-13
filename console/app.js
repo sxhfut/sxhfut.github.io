@@ -49,7 +49,10 @@
     "partner_requests",
     "content_tasks",
     "frontier_curations",
-    "content_audit_logs"
+    "partner_touchpoints",
+    "site_metric_snapshots",
+    "content_audit_logs",
+    "content_backup_snapshots"
   ];
 
   const $ = (selector) => document.querySelector(selector);
@@ -58,6 +61,7 @@
   const authPanel = $("#authPanel");
   const appPanel = $("#appPanel");
   const statusBanner = $("#statusBanner");
+  const authMessage = $("#authMessage");
   const userRole = $("#userRole");
   const signOutButton = $("#signOutButton");
 
@@ -92,6 +96,13 @@
   function hideStatus() {
     statusBanner.hidden = true;
     statusBanner.textContent = "";
+  }
+
+  function showAuthMessage(message, type) {
+    if (!authMessage) return;
+    authMessage.hidden = false;
+    authMessage.textContent = message;
+    authMessage.classList.toggle("is-error", type === "error");
   }
 
   function requireClient() {
@@ -386,7 +397,7 @@
       let query = client.from(spec.table).select("id", { count: "exact", head: true });
       if (spec.statuses) query = query.in(spec.statusColumn || "status", spec.statuses);
       const { count, error } = await query;
-      node.textContent = error ? "—" : String(count || 0);
+      node.textContent = error ? "0" : String(count || 0);
     }));
   }
 
@@ -796,7 +807,7 @@
     async function loadSnapshots() {
       const { data, error } = await client
         .from("site_metric_snapshots")
-        .select("id, source, period_start, period_end, page_views, unique_visitors, top_pages, referrers, notes, created_at")
+        .select("id, source, period_start, period_end, page_views, unique_visitors, top_pages, referrers, countries, notes, created_at")
         .order("period_end", { ascending: false })
         .limit(12);
       renderMetricSnapshots(list, data, error);
@@ -812,6 +823,7 @@
         unique_visitors: numberOrNull(form.unique_visitors.value),
         top_pages: parseMetricLines(form.top_pages.value),
         referrers: parseMetricLines(form.referrers.value),
+        countries: parseMetricLines(form.countries.value),
         notes: form.notes.value.trim() || null,
         captured_by: state.session.user.id
       };
@@ -845,6 +857,7 @@
     rows.forEach((row) => {
       const topPages = Array.isArray(row.top_pages) ? row.top_pages.slice(0, 3).map((item) => `${item.label}${item.count ? `(${item.count})` : ""}`).join(" · ") : "";
       const referrers = Array.isArray(row.referrers) ? row.referrers.slice(0, 3).map((item) => `${item.label}${item.count ? `(${item.count})` : ""}`).join(" · ") : "";
+      const countries = Array.isArray(row.countries) ? row.countries.slice(0, 3).map((item) => `${item.label}${item.count ? `(${item.count})` : ""}`).join(" · ") : "";
       const node = document.createElement("article");
       node.className = "record-item metric-snapshot";
       node.innerHTML = `
@@ -852,6 +865,7 @@
         <span>${escapeHtml([row.page_views != null ? `${row.page_views} PV` : "", row.unique_visitors != null ? `${row.unique_visitors} visitors` : ""].filter(Boolean).join(" · "))}</span>
         ${topPages ? `<p>热门页面：${escapeHtml(topPages)}</p>` : ""}
         ${referrers ? `<p>主要来源：${escapeHtml(referrers)}</p>` : ""}
+        ${countries ? `<p>访问地区：${escapeHtml(countries)}</p>` : ""}
         ${row.notes ? `<p>${escapeHtml(row.notes)}</p>` : ""}
       `;
       container.appendChild(node);
@@ -862,7 +876,19 @@
     const button = $("#downloadBackupButton");
     const copyButton = $("#copyBackupManifestButton");
     const manifestNode = $("#backupManifest");
+    const historyList = $("#backupHistoryList");
     let latestManifest = "";
+
+    async function loadBackupHistory() {
+      if (!historyList) return;
+      const client = requireClient();
+      const { data, error } = await client
+        .from("content_backup_snapshots")
+        .select("label, scope, row_counts, created_at")
+        .order("created_at", { ascending: false })
+        .limit(8);
+      renderBackupHistory(historyList, data, error);
+    }
 
     button?.addEventListener("click", async () => {
       const selectedTables = Array.from(document.querySelectorAll(".backup-grid input:checked"))
@@ -886,6 +912,7 @@
         downloadJson(`maclab-console-backup-${backup.generated_at.slice(0, 10)}.json`, backup);
         copyButton.disabled = false;
         await recordBackupSnapshot(backup);
+        loadBackupHistory();
         showStatus("备份已生成并下载。", "success");
       } catch (error) {
         manifestNode.textContent = error.message;
@@ -901,6 +928,8 @@
       await navigator.clipboard.writeText(latestManifest);
       showStatus("备份摘要已复制。", "success");
     });
+
+    loadBackupHistory();
   }
 
   async function buildConsoleBackup(tables) {
@@ -964,6 +993,37 @@
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
+  }
+
+  function renderBackupHistory(container, rows, error) {
+    container.replaceChildren();
+    if (error) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.innerHTML = `<strong>无法读取备份记录</strong><p>${escapeHtml(error.message)}。如提示表不存在，请重新运行最新版 Supabase schema。</p>`;
+      container.appendChild(node);
+      return;
+    }
+    if (!rows || rows.length === 0) {
+      const node = document.createElement("div");
+      node.className = "record-item";
+      node.textContent = "暂无备份记录。生成一次 JSON 备份后，这里会保留备份摘要。";
+      container.appendChild(node);
+      return;
+    }
+    rows.forEach((row) => {
+      const counts = row.row_counts && typeof row.row_counts === "object"
+        ? Object.entries(row.row_counts).map(([table, count]) => `${table}: ${count}`).slice(0, 6).join(" · ")
+        : "";
+      const node = document.createElement("article");
+      node.className = "record-item backup-record";
+      node.innerHTML = `
+        <strong>${escapeHtml(row.label || "Console export")}</strong>
+        <span>${escapeHtml([row.scope, formatDate(row.created_at)].filter(Boolean).join(" · "))}</span>
+        ${counts ? `<p>${escapeHtml(counts)}</p>` : ""}
+      `;
+      container.appendChild(node);
+    });
   }
 
   async function hydrateAudit() {
@@ -1075,6 +1135,17 @@
               </select>
               <input data-partner-next-step value="${escapeHtml(row.next_step || "")}" placeholder="下一步动作">
               <button type="button" data-save-partner>保存</button>
+              <select data-touchpoint-channel>
+                <option value="meeting">会议沟通</option>
+                <option value="wechat">微信沟通</option>
+                <option value="phone">电话沟通</option>
+                <option value="email">邮件沟通</option>
+                <option value="demo">系统演示</option>
+                <option value="site_visit">现场调研</option>
+              </select>
+              <textarea data-touchpoint-summary rows="3" placeholder="记录本次沟通结论、场景信息、可用数据或合作阻碍"></textarea>
+              <input data-touchpoint-due type="date" aria-label="下次跟进日期">
+              <button type="button" data-save-touchpoint>记录跟进</button>
             </div>
           `
           : "";
@@ -1112,6 +1183,45 @@
           error = fallback.error;
         }
         showStatus(error ? error.message : "合作线索状态已更新。", error ? "error" : "success");
+        if (!error) hydratePartners();
+      });
+    });
+
+    container.querySelectorAll("[data-save-touchpoint]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const wrapper = button.closest("[data-partner-id]");
+        const id = wrapper?.dataset.partnerId;
+        const channel = wrapper?.querySelector("[data-touchpoint-channel]")?.value || "meeting";
+        const summary = wrapper?.querySelector("[data-touchpoint-summary]")?.value.trim();
+        const dueAt = wrapper?.querySelector("[data-touchpoint-due]")?.value || null;
+        const nextStep = wrapper?.querySelector("[data-partner-next-step]")?.value.trim();
+        const status = wrapper?.querySelector("[data-partner-status]")?.value || "review";
+        if (!id || !summary) {
+          showStatus("请先填写本次跟进记录。", "error");
+          return;
+        }
+        const client = requireClient();
+        const { error } = await client.from("partner_touchpoints").insert({
+          partner_id: id,
+          channel,
+          summary,
+          next_step: nextStep || null,
+          due_at: dueAt || null,
+          created_by: state.session.user.id
+        });
+        let updateError = null;
+        if (!error) {
+          const result = await client
+            .from("partner_requests")
+            .update({
+              status,
+              next_step: nextStep || null,
+              owner_id: state.session.user.id
+            })
+            .eq("id", id);
+          updateError = result.error;
+        }
+        showStatus(error ? error.message : updateError ? `跟进已记录，但线索状态更新失败：${updateError.message}` : "合作跟进已记录，线索状态已同步。", error || updateError ? "error" : "success");
         if (!error) hydratePartners();
       });
     });
@@ -1255,8 +1365,9 @@
     rows.forEach((row, index) => {
       const node = document.createElement("article");
       node.className = "record-item record-item--review";
+      const typeLabel = row.task_type ? labelTaskType(row.task_type) : row.track;
       const meta = [
-        labelTaskType(row.task_type) || row.track,
+        typeLabel,
         labelStatus(row.status),
         row.priority ? `P${row.priority}` : null,
         row.relevance ? `R${row.relevance}` : null,
@@ -1443,6 +1554,7 @@
     const panel = $("#publicDraftPanel");
     const output = $("#publicDraftOutput");
     const copyButton = $("#copyDraftButton");
+    const issueButton = $("#openIssueButton");
     if (!panel || !output) return;
     output.value = draft;
     panel.hidden = false;
@@ -1455,6 +1567,24 @@
         output.select();
         showStatus("浏览器未允许自动复制，已选中草稿文本。", "error");
       }
+    }, { once: true });
+    issueButton?.addEventListener("click", () => {
+      const issueTitle = draft.split("\n").find((line) => line.startsWith("## "))?.replace(/^##\s+/, "")
+        || draft.split("\n").find((line) => line.startsWith("# "))?.replace(/^#\s+/, "")
+        || "MAC-Lab public content update";
+      const body = [
+        "请根据下面控制台生成的草稿，完成公开页面更新。",
+        "",
+        "```markdown",
+        output.value,
+        "```",
+        "",
+        "发布前检查：事实、日期、署名、外链、敏感边界、中英文表述、目标页面。"
+      ].join("\n");
+      const url = new URL("https://github.com/sxhfut/sxhfut.github.io/issues/new");
+      url.searchParams.set("title", `[内容发布] ${issueTitle}`.slice(0, 160));
+      url.searchParams.set("body", body.slice(0, 6000));
+      window.open(url.toString(), "_blank", "noopener,noreferrer");
     }, { once: true });
   }
 
@@ -1521,7 +1651,7 @@
       email,
       options: { emailRedirectTo: `${window.location.origin}/console/` }
     });
-    alert(error ? error.message : "登录邮件已发送，请到邮箱点击 Magic Link。");
+    showAuthMessage(error ? error.message : "登录邮件已发送，请到邮箱点击 Magic Link。", error ? "error" : "success");
   });
 
   signOutButton?.addEventListener("click", async () => {

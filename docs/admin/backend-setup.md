@@ -104,6 +104,7 @@ The internal console now uses `content_tasks` as the bridge from private records
 3. The owner/admin moves the task through submitted, review, approved, public-ready, or archived.
 4. When a linked task changes status, the source record is updated where the table supports review status.
 5. The review queue can generate a public Markdown/YAML draft for the GitHub/Decap CMS layer.
+6. The same draft can open a prefilled GitHub issue so the public update becomes an explicit repository task.
 
 This keeps raw working material in Supabase while making the final public site explicit, versioned, and searchable.
 
@@ -113,10 +114,11 @@ The console is now organized as an operating workspace rather than only a set of
 
 - **Operations overview**: live counts, recent review focus, and audit activity.
 - **Partner CRM**: partner requests move through new lead, requirement clarification, proposal-ready, public-case, and archived stages.
+- **Partner touchpoints**: meetings, WeChat, phone calls, emails, demos, and site visits can be recorded against the same lead.
 - **Output library**: papers, projects, competitions, platforms, and partner cases keep public evidence links, venue/level, year, and contributor notes.
 - **Frontier review**: automatic radar items can be refined into lab-curated viewpoints before public release.
-- **Analytics snapshots**: aggregate traffic data can be recorded periodically to observe which pages, topics, and entry sources are working.
-- **Backup export**: owner/admin can download a JSON package of the tables they can access under RLS.
+- **Analytics snapshots**: aggregate traffic data can be recorded periodically to observe which pages, topics, entry sources, and regions are working.
+- **Backup export**: owner/admin can download a JSON package of the tables they can access under RLS and keep a backup manifest history.
 
 If the console shows that analytics or backup snapshot tables are missing, rerun the latest `docs/admin/supabase-schema.sql` in Supabase SQL Editor. The file is idempotent and can be rerun after upgrades.
 

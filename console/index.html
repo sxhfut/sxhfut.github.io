@@ -31,7 +31,7 @@
         </nav>
         <div class="console-rail__foot">
           <a href="/admin/">公开内容 CMS</a>
-          <a href="/manage/">后台方案说明</a>
+          <a href="/manage/">后台入口</a>
           <a href="/">返回主页</a>
         </div>
       </aside>
@@ -83,6 +83,7 @@
               </label>
               <button type="submit">发送登录邮件</button>
             </form>
+            <p id="authMessage" class="auth-message" hidden></p>
           </div>
         </section>
 
@@ -102,22 +103,22 @@
         </article>
         <article class="metric-card">
           <span>今日重点</span>
-          <strong data-count="review_focus">—</strong>
+          <strong data-count="review_focus">0</strong>
           <p>待审核、需跟进、可发布的内容汇总到这里，避免素材沉在聊天记录和文档里。</p>
         </article>
         <article class="metric-card">
           <span>公开发布</span>
-          <strong data-count="public_ready">—</strong>
+          <strong data-count="public_ready">0</strong>
           <p>已到 public-ready 的内容进入 GitHub/Decap CMS 发布层，形成可检索的官网资产。</p>
         </article>
       </section>
       <section class="console-stat-strip">
-        <div><span>待审核任务</span><strong data-count="content_tasks">—</strong></div>
-        <div><span>新闻素材</span><strong data-count="lab_news">—</strong></div>
-        <div><span>合作线索</span><strong data-count="partner_requests">—</strong></div>
-        <div><span>成果材料</span><strong data-count="lab_outputs">—</strong></div>
-        <div><span>前沿精选</span><strong data-count="frontier_curations">—</strong></div>
-        <div><span>活跃成员</span><strong data-count="active_profiles">—</strong></div>
+        <div><span>待审核任务</span><strong data-count="content_tasks">0</strong></div>
+        <div><span>新闻素材</span><strong data-count="lab_news">0</strong></div>
+        <div><span>合作线索</span><strong data-count="partner_requests">0</strong></div>
+        <div><span>成果材料</span><strong data-count="lab_outputs">0</strong></div>
+        <div><span>前沿精选</span><strong data-count="frontier_curations">0</strong></div>
+        <div><span>活跃成员</span><strong data-count="active_profiles">0</strong></div>
       </section>
       <section class="ops-board">
         <article>
@@ -228,6 +229,7 @@
         <textarea id="publicDraftOutput" rows="14" readonly></textarea>
         <div class="draft-actions">
           <button type="button" id="copyDraftButton">复制草稿</button>
+          <button type="button" id="openIssueButton">生成 GitHub 发布任务</button>
           <a href="/admin/" target="_blank" rel="noreferrer">打开公开 CMS</a>
         </div>
       </section>
@@ -276,6 +278,19 @@
       <section class="table-panel">
         <h2>精选池</h2>
         <div id="frontierCurationList" class="record-list"></div>
+      </section>
+      <section id="publicDraftPanel" class="draft-panel" hidden>
+        <div>
+          <p class="eyebrow">Public draft</p>
+          <h2>前沿内容公开草稿</h2>
+          <p>人工精选条目可以先生成公开草稿，再进入前沿雷达、学术札记或 GitHub 发布任务。</p>
+        </div>
+        <textarea id="publicDraftOutput" rows="14" readonly></textarea>
+        <div class="draft-actions">
+          <button type="button" id="copyDraftButton">复制草稿</button>
+          <button type="button" id="openIssueButton">生成 GitHub 发布任务</button>
+          <a href="/admin/" target="_blank" rel="noreferrer">打开公开 CMS</a>
+        </div>
       </section>
     </template>
 
@@ -456,6 +471,7 @@
           <label>访客数<input name="unique_visitors" inputmode="numeric" placeholder="例如 430"></label>
           <label>热门页面（每行：页面 | 数量）<textarea name="top_pages" rows="4" placeholder="/frontiers/ | 120"></textarea></label>
           <label>主要来源（每行：来源 | 数量）<textarea name="referrers" rows="4" placeholder="Google | 80"></textarea></label>
+          <label>访问地区（每行：国家或地区 | 数量）<textarea name="countries" rows="4" placeholder="China | 260&#10;United States | 48"></textarea></label>
           <label>观察备注<textarea name="notes" rows="4" placeholder="例如：英文首页访问增加，前沿雷达带来合作页点击。"></textarea></label>
           <button type="submit">保存统计快照</button>
         </form>
@@ -501,13 +517,20 @@
           <label><input type="checkbox" value="partner_requests" checked> 合作线索</label>
           <label><input type="checkbox" value="content_tasks" checked> 审核任务</label>
           <label><input type="checkbox" value="frontier_curations" checked> 前沿精选</label>
+          <label><input type="checkbox" value="partner_touchpoints" checked> 合作跟进</label>
+          <label><input type="checkbox" value="site_metric_snapshots" checked> 访问快照</label>
           <label><input type="checkbox" value="content_audit_logs"> 操作日志</label>
+          <label><input type="checkbox" value="content_backup_snapshots"> 备份记录</label>
         </div>
         <div class="backup-actions">
           <button id="downloadBackupButton" type="button">生成 JSON 备份</button>
           <button id="copyBackupManifestButton" class="ghost-button" type="button" disabled>复制备份摘要</button>
         </div>
         <pre id="backupManifest" class="backup-manifest">尚未生成备份。</pre>
+        <div class="backup-history">
+          <h3>近期备份记录</h3>
+          <div id="backupHistoryList" class="record-list"></div>
+        </div>
       </section>
     </template>
 

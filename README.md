@@ -130,7 +130,11 @@ Recommended backend:
 - Supabase Auth for GitHub/email login.
 - Supabase Postgres for member records, student pages, news materials, output materials, review tasks, analytics snapshots, and backup manifests.
 - Partner CRM for scenario requirements, contact context, priority, next step, and follow-up status.
+- Linked publishing workflow that turns approved records into public Markdown/YAML drafts and GitHub issue tasks.
+- Partner follow-up records for meetings, calls, WeChat, email, demos, and site visits.
+- Monthly analytics snapshots with top pages, referrers, and country or regional traffic trends.
 - Browser-side JSON export for owner/admin handoff backups under Row Level Security.
+- Backup history records for traceable handoff and periodic data export.
 - Row Level Security for owner/admin/student permissions.
 
 Recommended roles:
@@ -190,7 +194,7 @@ Cloudflare Web Analytics is also suitable:
 3. Paste only the token into `_config.yml` under `analytics.cloudflare_token`.
 4. Commit and push. GitHub Pages will rebuild the site and begin collecting aggregate traffic data.
 
-The internal `/console/` analytics page can store monthly snapshots copied from GoatCounter, Cloudflare, Plausible, or Google Analytics. This keeps long-term page-trend history in Supabase even if the external analytics dashboard only keeps a limited window.
+The internal `/console/` analytics page can store monthly snapshots copied from GoatCounter, Cloudflare, Plausible, or Google Analytics, including top pages, referrers, and country or regional traffic trends. This keeps long-term page-trend history in Supabase even if the external analytics dashboard only keeps a limited window.
 
 The public site should use analytics for content improvement, international visibility, collaboration reach, and admissions interest. It should not be used to identify individual visitors. If a future internal lab system needs login-based audit records, that should be implemented separately from the public website analytics layer.
 

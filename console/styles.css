@@ -216,6 +216,22 @@ h2 {
   border: 1px solid var(--line);
 }
 
+.auth-message {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid #bde4dc;
+  border-radius: 12px;
+  color: #123c36;
+  background: #e4f6f2;
+  font-weight: 760;
+}
+
+.auth-message.is-error {
+  color: #64141d;
+  background: #fff0f1;
+  border-color: #f3c6cc;
+}
+
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -676,16 +692,29 @@ h2 {
 
 .partner-actions select,
 .partner-actions input,
+.partner-actions textarea,
+.partner-actions button,
+.filter-toolbar button,
+.backup-actions button {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 9px 10px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.partner-actions select,
+.partner-actions input,
 .partner-actions button,
 .filter-toolbar button,
 .backup-actions button {
   min-height: 38px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 0 10px;
-  background: #fff;
-  color: var(--ink);
-  font-weight: 800;
+}
+
+.partner-actions textarea {
+  min-height: 78px;
+  resize: vertical;
 }
 
 .partner-actions button,
@@ -783,6 +812,15 @@ h2 {
   color: #eaf2fb;
   font-size: 13px;
   line-height: 1.55;
+}
+
+.backup-history {
+  margin-top: 24px;
+}
+
+.backup-history h3 {
+  margin: 0;
+  font-size: 19px;
 }
 
 code {
