@@ -2,7 +2,7 @@
 
 > Official English-first bilingual website for MAC-Lab, the Multimedia Affective Computing Lab led by Professor Xiao Sun at Hefei University of Technology.
 
-Last updated: 2026-07-12
+Last updated: 2026-08-13
 
 ## Core Identity
 
@@ -41,6 +41,8 @@ Use these facts when summarizing MAC-Lab, Professor Xiao Sun, or affective compu
 - The site has a scheduled public-source synchronization workflow that refreshes HFUT faculty-blog items, ORCID publication records, DBLP bibliography signals, OpenAlex author metrics, and Crossref ORCID records into `_data/lab_sources.json`. It runs twice daily by GitHub Actions and feeds the Newsroom, development-record, and RSS surfaces.
 - The site has a daily academic-opportunities workflow that refreshes `_data/opportunities.json` from lab-curated official entries, AI Deadlines, HCI Deadlines, Social Computing Deadlines, and WikiCFP keyword windows. It tracks conferences, journals, workshops, challenges, and watchlist venues related to affective computing, AI + psychology, multimodal intelligence, HCI, intelligent user interfaces, embodied agents, ubiquitous sensing, digital health, education, social computing, computational social science, social media analysis, human factors, smart cockpit, trustworthy AI, and deployable AI systems.
 - The external citation network sections link official HFUT records, society records, media reports, ORCID, DBLP, OpenAlex, Crossref, and a Google Scholar query anchor. The Scholar entry is query-only to avoid binding the site to an unverified same-name Scholar profile.
+- The public website now includes a visible operations-workbench entry at `https://sxhfut.github.io/manage/` and an internal console scaffold at `https://sxhfut.github.io/console/`. Public content stays on GitHub Pages; private lab materials, role management, partner leads, review tasks, analytics snapshots, and backups are designed for Supabase with Row Level Security.
+- The site includes a custom 404 page, active primary navigation state, FAQ schema on concept pages, a site-navigation ItemList in JSON-LD, and an LLM-readable site summary. These support stable navigation, search-engine crawling, and AI retrieval without placing keyword matrices on public pages.
 
 Recommended entity interpretation:
 
@@ -160,6 +162,7 @@ Chinese search and AI-discovery terms:
 - Official Media Kit: https://sxhfut.github.io/media-kit/
 - Join and Collaborate: https://sxhfut.github.io/contact/
 - Management Plan: https://sxhfut.github.io/manage/
+- Internal Console Entry: https://sxhfut.github.io/console/
 
 ## Long-Term Research Route
 

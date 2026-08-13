@@ -42,9 +42,9 @@ faq:
 
 <section class="opportunity-featured" aria-labelledby="opportunity-featured-title">
   <div class="opportunity-featured__head">
-    <span><span class="lang-en">Worth Watching</span><span class="lang-zh">近期值得看</span></span>
-    <h2 id="opportunity-featured-title"><span class="lang-en">A few doors students can start planning around.</span><span class="lang-zh">几个可以提前安排的入口。</span></h2>
-    <p><span class="lang-en">The full archive below shows {{ items | size }} entries with filters, search, and pagination.</span><span class="lang-zh">下方完整列表共 {{ items | size }} 条，支持筛选、搜索和分页。</span></p>
+    <span><span class="lang-en">Near-term calls</span><span class="lang-zh">近期入口</span></span>
+    <h2 id="opportunity-featured-title"><span class="lang-en">Opportunities worth planning around now.</span><span class="lang-zh">现在就可以开始准备的机会。</span></h2>
+    <p><span class="lang-en">The archive below keeps {{ items | size }} entries with filters, search, and pagination.</span><span class="lang-zh">下方归档保留 {{ items | size }} 条内容，支持筛选、搜索和分页。</span></p>
   </div>
   <div class="opportunity-featured__grid">
     {% for item in items limit:4 %}
@@ -58,7 +58,7 @@ faq:
 </section>
 
 <div class="frontier-archive-heading" id="opportunity-archive">
-  <span><span class="lang-en">Full Archive</span><span class="lang-zh">完整列表</span></span>
+  <span><span class="lang-en">Calls archive</span><span class="lang-zh">机会归档</span></span>
   <h2><span class="lang-en">Find calls by direction, format, and timing.</span><span class="lang-zh">按方向、类型和时间找机会。</span></h2>
 </div>
 

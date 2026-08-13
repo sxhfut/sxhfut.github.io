@@ -39,7 +39,7 @@ High-trust public sources used by the site:
 - `Calls`: daily refreshed conference, journal, workshop, challenge, and academic opportunity radar.
 - `Media`: curated public coverage of Professor Xiao Sun and MAC-Lab.
 - `Join`: admissions and collaboration information for undergraduates, graduate students, academic PhD students, engineering doctoral students, and partners.
-- `Manage`: explanation of the public CMS and private console architecture.
+- `Manage`: operational workspace entry for public publishing, member management, partner leads, review flow, analytics snapshots, and backup.
 - `Console`: private lab-management scaffold for members, student pages, news materials, and output review.
 
 ## Content Workflow
@@ -57,6 +57,7 @@ Search and AI discovery files:
 - `_data/opportunities.json`: daily refreshed calls and academic-opportunity data for conferences, journals, workshops, challenges, and watchlist venues.
 - `_data/opportunities_manual.json`: lab-curated opportunity entries that form the stable base for the public opportunities page.
 - `images/hero/mac-lab-real-workshop-xiao-sun.jpg`: realistic lab-scene hero image for public sharing and structured previews.
+- `404.html`: custom fallback page with stable links to the main lab sections.
 
 Editing model:
 
@@ -74,7 +75,7 @@ Editing model:
 The repository includes two admin layers:
 
 1. Public website CMS for outward-facing content.
-2. Internal lab console for members and operational materials.
+2. Internal lab console for members, review tasks, partner leads, analytics snapshots, and operational materials.
 
 ### Public CMS
 

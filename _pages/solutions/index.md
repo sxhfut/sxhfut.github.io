@@ -70,6 +70,30 @@ rank: 2.5
   </div>
 </section>
 
+<section class="solution-section solution-section--partner-fit">
+  <div class="solution-partner-fit">
+    <article class="solution-partner-fit__lead">
+      <span class="solution-kicker"><span class="lang-en">Why MAC-Lab</span><span class="lang-zh">为什么需要 MAC-Lab</span></span>
+      <h2><span class="lang-en">Hard human-state problems rarely stop at one recognizer.</span><span class="lang-zh">复杂的人状态问题，很少止步于一个识别器。</span></h2>
+      <p><span class="lang-en">Emotion, stress, fatigue, cognition, trust, role fit, service experience, and performance are usually entangled with task context, organization rules, sensors, privacy boundaries, and how people accept the system. MAC-Lab's value is to connect these layers into a route that can be piloted and maintained.</span><span class="lang-zh">情绪、压力、疲劳、认知、信任、岗位适配、服务体验和效能，通常与任务情境、组织流程、传感器条件、隐私边界和用户接受度交织在一起。MAC-Lab 的价值，是把这些层次连接成可试点、可维护的路线。</span></p>
+    </article>
+    <div class="solution-fit-list">
+      <article>
+        <strong><span class="lang-en">Capability</span><span class="lang-zh">能力</span></strong>
+        <p><span class="lang-en">Multimodal sensing, affective NLP, psychological profiling, role-state assessment, human-factors modeling, and embodied interaction.</span><span class="lang-zh">多模态感知、情感 NLP、心理画像、岗位状态评价、人因建模和具身交互。</span></p>
+      </article>
+      <article>
+        <strong><span class="lang-en">Scenario</span><span class="lang-zh">场景</span></strong>
+        <p><span class="lang-en">Campus, cockpit, active health, public service, enterprise performance, companion agents, and mission-oriented teams.</span><span class="lang-zh">校园、座舱、主动健康、公共服务、企业效能、陪伴智能体和重大任务团队。</span></p>
+      </article>
+      <article>
+        <strong><span class="lang-en">Delivery</span><span class="lang-zh">交付</span></strong>
+        <p><span class="lang-en">Algorithms, devices, dashboards, protocols, validation reports, platform integration, and long-term iteration plans.</span><span class="lang-zh">算法、设备、看板、流程、验证报告、平台集成和长期迭代计划。</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="solution-section" id="delivery-map">
   <div class="solution-heading solution-heading--split">
     <div>
@@ -218,6 +242,6 @@ rank: 2.5
 </section>
 
 <div class="media-note solution-note">
-  <h2><span class="lang-en">From Scenario Need to Deployable Capability</span><span class="lang-zh">从场景需求到可部署能力</span></h2>
+  <h2><span class="lang-en">Scenario need into working capability</span><span class="lang-zh">把场景需求变成可运行能力</span></h2>
   <p><span class="lang-en">When a scenario depends on human emotion, stress, cognition, safety, trust, service quality, or mind-body performance, MAC-Lab can help define the problem and build a route from research insight to deployable capability.</span><span class="lang-zh">当一个场景依赖人的情绪、压力、认知、安全、信任、服务质量或身心效能，MAC-Lab 可以帮助定义问题，并把研究判断推进到可部署能力。</span></p>
 </div>

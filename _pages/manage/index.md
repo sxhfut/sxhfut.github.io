@@ -2,141 +2,107 @@
 layout: page
 title: Manage
 title_zh: 后台管理
-description: A practical content-management plan for MAC-Lab's GitHub Pages website, combining GitHub login, static CMS editing, issue forms, and scheduled automation.
-description_zh: MAC-Lab GitHub Pages 网站的后台管理方案：结合 GitHub 登录、静态 CMS、Issue 表单与定时自动化。
+description: MAC-Lab's internal operations workspace for public publishing, member management, partner leads, frontier curation, analytics snapshots, and data backup.
+description_zh: MAC-Lab 面向公开发布、成员管理、合作线索、前沿精选、访问统计和数据备份的实验室运营工作台。
 permalink: /manage/
 toggle: false
 rank: 9.5
 ---
 
-<div class="summary-band">
-  <div><strong>GitHub</strong><span><span class="lang-en">versioned content and permissions</span><span class="lang-zh">版本化内容与权限</span></span></div>
-  <div><strong>CMS</strong><span><span class="lang-en">browser editing for public pages</span><span class="lang-zh">浏览器编辑公开页面</span></span></div>
-  <div><strong>Actions</strong><span><span class="lang-en">scheduled radar and data refresh</span><span class="lang-zh">定时采集与数据刷新</span></span></div>
-  <div><strong>Forms</strong><span><span class="lang-en">structured submissions from lab members</span><span class="lang-zh">成员结构化提交</span></span></div>
-</div>
+<section class="workbench-hero">
+  <div>
+    <span class="framework-kicker"><span class="lang-en">Lab Operations</span><span class="lang-zh">实验室运营</span></span>
+    <h2><span class="lang-en">A website that can keep producing, reviewing, and publishing.</span><span class="lang-zh">让官网、团队和合作线索进入同一条工作流。</span></h2>
+    <p><span class="lang-en">The public site stays fast, stable, and easy to index. The internal console keeps daily materials, student pages, partner leads, frontier selections, review tasks, traffic snapshots, and backups in a role-based workspace.</span><span class="lang-zh">公开主页负责稳定展示、检索和传播；内部控制台负责沉淀日常素材、学生页面、合作线索、前沿精选、审核任务、访问统计和阶段备份。</span></p>
+  </div>
+  <aside class="workbench-entry-card">
+    <strong><span class="lang-en">Current Entries</span><span class="lang-zh">当前入口</span></strong>
+    <a href="{{ '/console/' | prepend: site.baseurl }}"><span class="lang-en">Open internal console</span><span class="lang-zh">进入内部工作台</span></a>
+    <a href="{{ '/admin/' | prepend: site.baseurl }}"><span class="lang-en">Open public CMS</span><span class="lang-zh">进入公开内容后台</span></a>
+    <a href="https://github.com/sxhfut/sxhfut.github.io/blob/master/docs/admin/backend-setup.md"><span class="lang-en">Backend setup notes</span><span class="lang-zh">查看后台配置记录</span></a>
+  </aside>
+</section>
 
-<div class="research-lead">
-  <h2><span class="lang-en">A Public Website With a Practical Operations Layer</span><span class="lang-zh">公开网站与运营工作台</span></h2>
-  <p><span class="lang-en">GitHub Pages gives the public site fast static pages, strong version history, stable URLs, search-engine crawlability, scheduled GitHub Actions, and safe public documentation. Login-based editing and internal operations are layered on top through GitHub authentication, commit-based content management, and Supabase for private records.</span><span class="lang-zh">GitHub Pages 为公开主页提供快速静态页面、清楚的版本历史、稳定 URL、搜索引擎友好结构、GitHub Actions 定时更新和公开文档托管。登录编辑与内部运营则通过 GitHub 身份认证、基于提交的内容管理，以及 Supabase 私有记录层来支撑。</span></p>
-</div>
+<section class="workbench-flow" aria-label="MAC-Lab publishing workflow">
+  <article>
+    <span>01</span>
+    <h3><span class="lang-en">Collect</span><span class="lang-zh">收集</span></h3>
+    <p><span class="lang-en">News, papers, competitions, systems, partner needs, media leads, and student updates first enter the material pool.</span><span class="lang-zh">论文、竞赛、系统、新闻、合作需求、媒体线索和学生成果先进入素材池。</span></p>
+  </article>
+  <article>
+    <span>02</span>
+    <h3><span class="lang-en">Review</span><span class="lang-zh">审核</span></h3>
+    <p><span class="lang-en">Owner and admins check facts, links, sensitivity, author names, publication status, and public wording.</span><span class="lang-zh">owner 与 admin 核对事实、链接、敏感边界、署名、发表状态和公开表述。</span></p>
+  </article>
+  <article>
+    <span>03</span>
+    <h3><span class="lang-en">Publish</span><span class="lang-zh">发布</span></h3>
+    <p><span class="lang-en">Approved items become website news, capability cases, student pages, frontier picks, or solution updates.</span><span class="lang-zh">审核通过后，素材转为官网新闻、能力案例、学生页面、前沿精选或行业方案更新。</span></p>
+  </article>
+  <article>
+    <span>04</span>
+    <h3><span class="lang-en">Measure</span><span class="lang-zh">观察</span></h3>
+    <p><span class="lang-en">Traffic, referral paths, public attention, and partner interest are copied into monthly snapshots.</span><span class="lang-zh">访问趋势、来源路径、传播效果和合作兴趣沉淀为月度快照。</span></p>
+  </article>
+  <article>
+    <span>05</span>
+    <h3><span class="lang-en">Archive</span><span class="lang-zh">留档</span></h3>
+    <p><span class="lang-en">Structured exports help the lab preserve context when students graduate or admins hand over work.</span><span class="lang-zh">结构化导出用于交接、留档和阶段复盘，避免资料散落在聊天与文档里。</span></p>
+  </article>
+</section>
 
-<div class="media-note">
-  <h2><span class="lang-en">Current Admin Status</span><span class="lang-zh">当前后台状态</span></h2>
-  <p><span class="lang-en">Two admin layers are now prepared. `/admin/` is the public-content CMS for website pages. `/console/` is the internal lab operations workspace for members, student pages, lab news materials, partner CRM, outputs, review tasks, frontier curation, analytics snapshots, backup exports, and audit logs. The console is designed around owner, admin, and student roles, with private records stored in Supabase rather than the public GitHub Pages repository.</span><span class="lang-zh">现在已经预留两层后台。`/admin/` 用于官网公开内容编辑；`/console/` 已升级为实验室内部运营工作台，包括成员、学生个人页、实验室新闻素材、合作 CRM、项目成果、审核队列、前沿精选、访问统计快照、备份导出和操作日志。控制台按 owner、admin、student 三类角色设计，内部记录放在 Supabase，不进入公开 GitHub Pages 仓库。</span></p>
-</div>
+<section class="workbench-modules">
+  <article>
+    <strong><span class="lang-en">Members and Roles</span><span class="lang-zh">成员与权限</span></strong>
+    <p><span class="lang-en">Professor Sun as owner, trusted students as admins, ordinary students as members who maintain their own pages and submit materials.</span><span class="lang-zh">孙晓教授作为 owner，少数可信学生作为 admin，普通学生维护个人页面并提交材料。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Public Content Desk</span><span class="lang-zh">公开内容台</span></strong>
+    <p><span class="lang-en">Lab news, selected outputs, media updates, recruitment information, and public-safe platform progress move into the CMS layer.</span><span class="lang-zh">实验室新闻、代表成果、媒体更新、招生信息和适合公开的平台进展进入 CMS 层。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Partner CRM</span><span class="lang-zh">合作线索 CRM</span></strong>
+    <p><span class="lang-en">Organization, contact, scenario, available signals, expected value, priority, owner, and next step stay traceable.</span><span class="lang-zh">单位、联系人、场景、可用信号、预期价值、优先级、负责人和下一步保持可追踪。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Outputs Library</span><span class="lang-zh">成果库</span></strong>
+    <p><span class="lang-en">Projects, papers, patents, software, competitions, standards, systems, datasets, and public cases are organized as reusable proof points.</span><span class="lang-zh">项目、论文、专利、软著、竞赛、标准、系统、数据集和案例沉淀为可复用证明材料。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Frontier Curation</span><span class="lang-zh">前沿精选</span></strong>
+    <p><span class="lang-en">Automated radar discovers signals. Human curation decides what enters the lab's reading list, discussion list, and public sharing.</span><span class="lang-zh">自动雷达负责发现，人工精选决定哪些内容进入实验室阅读、讨论和公开分享。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Analytics Snapshots</span><span class="lang-zh">访问统计快照</span></strong>
+    <p><span class="lang-en">GoatCounter, Cloudflare, Plausible, or other aggregate analytics can be copied into the console for long-term trend tracking.</span><span class="lang-zh">GoatCounter、Cloudflare、Plausible 等聚合统计可按月进入控制台，形成长期趋势记录。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Public Release Flow</span><span class="lang-zh">公开发布流</span></strong>
+    <p><span class="lang-en">Approved materials generate Markdown or YAML drafts, then Git commits preserve every website change.</span><span class="lang-zh">审核通过的材料生成 Markdown 或 YAML 草稿，再通过 Git 提交保留公开变更记录。</span></p>
+  </article>
+  <article>
+    <strong><span class="lang-en">Backup and Audit</span><span class="lang-zh">备份与日志</span></strong>
+    <p><span class="lang-en">Owner and admins can export key tables and review operation logs without putting private records into the public repository.</span><span class="lang-zh">owner 和 admin 可导出关键表并查看操作日志，同时避免私有记录进入公开仓库。</span></p>
+  </article>
+</section>
 
-<h2><span class="lang-en">Operational Console Model</span><span class="lang-zh">后台工作台模型</span></h2>
+<section class="workbench-split">
+  <div>
+    <span class="framework-kicker"><span class="lang-en">Public Layer</span><span class="lang-zh">公开层</span></span>
+    <h2><span class="lang-en">GitHub Pages remains the public publishing base.</span><span class="lang-zh">公开主页继续由 GitHub Pages 承载。</span></h2>
+    <p><span class="lang-en">Stable URLs, static HTML, sitemap, robots.txt, structured data, llms.txt, and Git history make the public site suitable for students, collaborators, media, search engines, and AI retrieval systems.</span><span class="lang-zh">稳定 URL、静态 HTML、站点地图、robots.txt、结构化数据、llms.txt 和 Git 历史，让公开主页适合学生、合作方、媒体、搜索引擎和大模型抓取。</span></p>
+  </div>
+  <div>
+    <span class="framework-kicker"><span class="lang-en">Private Layer</span><span class="lang-zh">私有层</span></span>
+    <h2><span class="lang-en">Supabase handles login, tables, and role boundaries.</span><span class="lang-zh">Supabase 支撑登录、数据表和角色边界。</span></h2>
+    <p><span class="lang-en">The console uses browser-safe Supabase configuration with Row Level Security. Partner files, student records, raw data, unpublished details, budgets, and sensitive materials stay outside the public website repository.</span><span class="lang-zh">控制台使用可公开的 Supabase 前端配置，并依靠行级权限控制。合作文件、学生内部记录、原始数据、未公开细节、经费和敏感材料不放入公开网站仓库。</span></p>
+  </div>
+</section>
 
-<div class="project-list project-list--page">
-  <article>
-    <h2><span class="lang-en">People and Permissions</span><span class="lang-zh">成员与权限</span></h2>
-    <p><span class="lang-en">New users enter as pending students. The owner can activate accounts, promote trusted admins, and keep ordinary students focused on their own pages and material submissions.</span><span class="lang-zh">新用户默认进入待审核学生状态。owner 可以激活账号、设置可信学生管理员，并让普通学生主要维护自己的页面和提交材料。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Material Intake</span><span class="lang-zh">素材沉淀</span></h2>
-    <p><span class="lang-en">News, student achievements, papers, projects, system progress, competition results, and partner-facing proof points can be entered first as internal materials, then rewritten into public website language after review.</span><span class="lang-zh">新闻、学生成果、论文、项目、系统进展、竞赛结果和合作证明点可先进入内部素材池，审核后再改写成适合官网发布的文字。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Partner Pipeline</span><span class="lang-zh">合作线索</span></h2>
-    <p><span class="lang-en">Scenario requests can be recorded with organization, contact, application domain, available signals, constraints, and expected decision value. This makes later project proposals and pilot designs easier to trace.</span><span class="lang-zh">合作需求可按单位、联系人、应用方向、可用信号、约束条件和预期决策价值记录，方便后续申报书、技术方案和试点设计追溯。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Public Publishing</span><span class="lang-zh">公开发布</span></h2>
-    <p><span class="lang-en">Approved materials can now generate public Markdown/YAML drafts for news, frontier items, student pages, capability cases, and solutions pages. Git commits preserve every public change.</span><span class="lang-zh">审核后的材料现在可以生成公开 Markdown/YAML 草稿，用于新闻、前沿精选、学生页面、能力案例和行业方案页面；所有公开修改都通过 Git 提交保留版本记录。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Review Queue and Audit Trail</span><span class="lang-zh">审核队列与操作日志</span></h2>
-    <p><span class="lang-en">Content tasks, frontier curation, and audit logs let materials move through submitted, review, approved, public-ready, and archived states with traceable changes.</span><span class="lang-zh">审核任务、前沿精选和操作日志让素材按 submitted、review、approved、public_ready、archived 等状态流转，并保留可追踪修改记录。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Analytics and Backup</span><span class="lang-zh">访问统计与备份</span></h2>
-    <p><span class="lang-en">Aggregate traffic snapshots and JSON exports turn the website into a maintainable lab asset: the team can see which public pages are working, preserve operational data, and hand over work without losing context. The fastest analytics path is GoatCounter or Cloudflare Web Analytics on the public site, with monthly snapshots copied into the console.</span><span class="lang-zh">聚合访问统计快照与 JSON 导出让网站成为可运营的实验室资产：团队可以观察哪些公开页面有效，保留后台数据，并在学生管理员交接时不丢上下文。最快的访问趋势方案是在公开站点接入 GoatCounter 或 Cloudflare Web Analytics，再按月把关键快照沉淀到控制台。</span></p>
-  </article>
-</div>
-
-<div class="framework-grid framework-grid--page">
-  <article class="framework-card framework-card--dark">
-    <span class="framework-kicker">Internal Console</span>
-    <h2><span class="lang-en">Private lab management is staged at `/console/`.</span><span class="lang-zh">内部管理控制台已放在 `/console/`。</span></h2>
-    <p><span class="lang-en">Recommended roles are simple: Professor Sun as owner, a small group of trusted students as admins, and ordinary students as members who can maintain their own pages and submit materials.</span><span class="lang-zh">推荐权限保持清晰：孙晓教授为 owner，少数可信学生为 admin，普通学生为 student，可维护自己的页面并提交新闻、成果和项目材料。</span></p>
-    <a class="text-link" href="/console/"><span class="lang-en">Open Console</span><span class="lang-zh">打开内部控制台</span></a>
-  </article>
-  <article class="framework-card">
-    <span class="framework-kicker">Setup</span>
-    <h2><span class="lang-en">Supabase provides login, database, and role control.</span><span class="lang-zh">Supabase 负责登录、数据库与权限。</span></h2>
-    <p><span class="lang-en">GitHub Pages remains the public website host. Internal data should live in Supabase with Row Level Security, not in this public repository.</span><span class="lang-zh">GitHub Pages 继续承担公开官网托管；内部数据放入带行级权限的 Supabase，不进入公开仓库。</span></p>
-    <a class="text-link" href="/docs/admin/backend-setup/"><span class="lang-en">Read Setup Notes</span><span class="lang-zh">查看部署说明</span></a>
-  </article>
-</div>
-
-<h2><span class="lang-en">Recommended Admin Architecture</span><span class="lang-zh">推荐后台架构</span></h2>
-
-<div class="card-grid card-grid--four">
-  <article class="feature-card">
-    <span><span class="lang-en">1. Public CMS</span><span class="lang-zh">1. 公开内容 CMS</span></span>
-    <h3><span class="lang-en">Use `/admin/` for page and data editing</span><span class="lang-zh">用 `/admin/` 编辑页面与数据</span></h3>
-    <p><span class="lang-en">The repository includes a Decap CMS scaffold. After GitHub OAuth is configured, authorized users can edit selected pages and data files in the browser and publish changes through commits.</span><span class="lang-zh">仓库已预留 Decap CMS 后台。配置 GitHub OAuth 后，授权用户可以在浏览器中编辑指定页面和数据文件，并通过提交发布。</span></p>
-  </article>
-  <article class="feature-card">
-    <span><span class="lang-en">2. Issue Forms</span><span class="lang-zh">2. 表单收集</span></span>
-    <h3><span class="lang-en">Use GitHub Issue Forms for structured updates</span><span class="lang-zh">用 GitHub 表单收集结构化更新</span></h3>
-    <p><span class="lang-en">Students and lab members can submit news, publications, cases, and frontier items through controlled forms, then a maintainer reviews and converts them into public content.</span><span class="lang-zh">学生和实验室成员可以通过受控表单提交新闻、论文、案例和前沿条目，再由维护者审核后转成公开内容。</span></p>
-  </article>
-  <article class="feature-card">
-    <span><span class="lang-en">3. Automation</span><span class="lang-zh">3. 自动化</span></span>
-    <h3><span class="lang-en">Use GitHub Actions for scheduled refreshes</span><span class="lang-zh">用 GitHub Actions 定时刷新</span></h3>
-    <p><span class="lang-en">The frontier radar runs twice daily through GitHub Actions. The same pattern can support monthly summaries, publication refreshes, sitemap updates, and content-health checks.</span><span class="lang-zh">前沿雷达已经通过 GitHub Actions 每天两次刷新。相同模式可扩展到月度观察、论文刷新、站点地图更新和内容健康检查。</span></p>
-  </article>
-  <article class="feature-card">
-    <span><span class="lang-en">4. Private Work</span><span class="lang-zh">4. 私有工作</span></span>
-    <h3><span class="lang-en">Keep sensitive management outside the public site</span><span class="lang-zh">敏感管理不要放在公开站点</span></h3>
-    <p><span class="lang-en">Internal student records, partner contracts, raw data, and unpublished technical details should stay in private systems, not in a public GitHub Pages repository.</span><span class="lang-zh">学生内部记录、合作合同、原始数据和未公开技术细节，应放在私有系统中，不应进入公开 GitHub Pages 仓库。</span></p>
-  </article>
-</div>
-
-<h2><span class="lang-en">Seven Optimizations and GitHub Support</span><span class="lang-zh">七类优化与 GitHub 支持情况</span></h2>
-
-<div class="project-list project-list--page">
-  <article>
-    <h2><span class="lang-en">Solutions Page</span><span class="lang-zh">行业解决方案页</span></h2>
-    <p><span class="lang-en">Supported directly by GitHub Pages. The new Solutions page can grow by scenario, partner type, and application domain, keeping public communication focused on value, maturity, and collaboration entry points.</span><span class="lang-zh">GitHub Pages 直接支持。新的行业方案页可以按场景、合作对象和应用领域持续扩展，让公开表达聚焦价值、成熟度和合作入口。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Cases Page</span><span class="lang-zh">代表性案例页</span></h2>
-    <p><span class="lang-en">Supported directly by GitHub Pages. Capability cases can present scenario value, research depth, delivery routes, and representative outcomes in a form suitable for public reading.</span><span class="lang-zh">GitHub Pages 直接支持。能力案例可以用适合公开阅读的方式呈现场景价值、研究深度、交付路线和代表性成果。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Collaboration Flow</span><span class="lang-zh">合作流程</span></h2>
-    <p><span class="lang-en">Supported as static content and issue forms. The public site can explain the process; GitHub Issues can collect structured partner or lab-member updates.</span><span class="lang-zh">可通过静态内容和 Issue 表单支持。公开站点解释流程，GitHub Issues 收集结构化更新。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Visual Evidence</span><span class="lang-zh">视觉证据</span></h2>
-    <p><span class="lang-en">Supported through static images and diagrams. The site can add architecture diagrams, scenario maps, transformation routes, and visual case narratives to make complex capabilities easier to read.</span><span class="lang-zh">可通过静态图片和图文模块支持。可以增加架构图、场景图、转化路径图和案例视觉叙事，让复杂能力更容易被理解。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">SEO and AI Search</span><span class="lang-zh">SEO 与大模型抓取</span></h2>
-    <p><span class="lang-en">Supported through metadata, sitemap, robots.txt, llms.txt, structured data, FAQ sections, and stable URLs.</span><span class="lang-zh">可通过元数据、站点地图、robots.txt、llms.txt、结构化数据、FAQ 和稳定 URL 支持。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Frontier Radar as Knowledge Asset</span><span class="lang-zh">前沿雷达知识资产化</span></h2>
-    <p><span class="lang-en">Supported through GitHub Actions and data files. The radar now keeps a larger archive and can grow into topic clusters, weekly selected signals, monthly lab observations, and capability-linked trend summaries.</span><span class="lang-zh">可通过 GitHub Actions 和数据文件支持。雷达现在保留更大的归档池，可继续扩展为方向聚类、每周精选、月度观察和能力关联趋势总结。</span></p>
-  </article>
-  <article>
-    <h2><span class="lang-en">Backend Management</span><span class="lang-zh">后台管理</span></h2>
-    <p><span class="lang-en">Partially supported by GitHub alone. Public content editing can use GitHub login and static CMS. Private databases, fine-grained internal permissions, and operational dashboards require external services.</span><span class="lang-zh">GitHub 单独可部分支持。公开内容编辑可用 GitHub 登录和静态 CMS；私有数据库、精细权限和运营管理看板需要外接服务。</span></p>
-  </article>
-</div>
-
-<div class="framework-grid framework-grid--page">
-  <article class="framework-card framework-card--dark">
-    <span class="framework-kicker">CMS Entry</span>
-    <h2><span class="lang-en">Admin scaffold is available at `/admin/`.</span><span class="lang-zh">后台入口已预留在 `/admin/`。</span></h2>
-    <p><span class="lang-en">The scaffold is intentionally limited to public content. Before live use, configure a GitHub OAuth provider for Decap CMS and add only trusted maintainers to the repository.</span><span class="lang-zh">该后台仅面向公开内容。正式使用前，需要为 Decap CMS 配置 GitHub OAuth，并只给可信维护者仓库权限。</span></p>
-  </article>
-  <article class="framework-card">
-    <span class="framework-kicker">Safe Rule</span>
-    <h2><span class="lang-en">Separate public publishing from private operations.</span><span class="lang-zh">公开发布与内部运营分层管理。</span></h2>
-    <p><span class="lang-en">Use this website to publish public news, cases, recruitment, papers, media, and frontier summaries. Student records, partner files, budgets, raw data, and sensitive technical documents belong in private tools with explicit permissions.</span><span class="lang-zh">官网用于发布公开新闻、案例、招生、论文、媒体和前沿总结。学生记录、合作文件、经费、原始数据和敏感技术文档放入带明确权限的私有工具中管理。</span></p>
-  </article>
-</div>
+<section class="workbench-callout">
+  <div>
+    <strong><span class="lang-en">Next practical step</span><span class="lang-zh">下一步最值得做</span></strong>
+    <p><span class="lang-en">Use the console as the single intake point for news, outputs, partner leads, and frontier picks. After the flow runs for a few weeks, website updates can become a regular lab routine instead of a scattered reminder task.</span><span class="lang-zh">把新闻、成果、合作线索和前沿精选统一从控制台进入。连续运行几周后，官网更新就能成为实验室日常机制，而不是零散提醒任务。</span></p>
+  </div>
+  <a class="button button--primary" href="{{ '/console/' | prepend: site.baseurl }}"><span class="lang-en">Open console</span><span class="lang-zh">打开工作台</span></a>
+</section>

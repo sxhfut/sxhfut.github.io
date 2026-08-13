@@ -1,0 +1,24 @@
+---
+layout: page
+title: Page Not Found
+title_zh: 页面未找到
+description: The requested MAC-Lab page could not be found.
+description_zh: 你访问的 MAC-Lab 页面暂时没有找到。
+permalink: /404.html
+---
+
+<section class="not-found">
+  <div>
+    <h1>404</h1>
+    <p><span class="lang-en">This address may have changed during a site update. The main research, news, frontier, opportunity, and collaboration pages are still available from the links on the right.</span><span class="lang-zh">这个地址可能在网站更新中发生了变化。右侧保留了研究方向、实验室新闻、前沿雷达、学术机会和合作入口，可以从这些页面继续访问。</span></p>
+  </div>
+  <nav class="not-found__links" aria-label="Helpful links">
+    <a href="{{ '/' | prepend: site.baseurl }}"><span class="lang-en">Home</span><span class="lang-zh">主页</span></a>
+    <a href="{{ '/research/' | prepend: site.baseurl }}"><span class="lang-en">Research directions</span><span class="lang-zh">研究方向</span></a>
+    <a href="{{ '/solutions/' | prepend: site.baseurl }}"><span class="lang-en">Industry solutions</span><span class="lang-zh">行业方案</span></a>
+    <a href="{{ '/news/' | prepend: site.baseurl }}"><span class="lang-en">Lab news</span><span class="lang-zh">实验室新闻</span></a>
+    <a href="{{ '/frontiers/' | prepend: site.baseurl }}"><span class="lang-en">Frontier radar</span><span class="lang-zh">前沿雷达</span></a>
+    <a href="{{ '/opportunities/' | prepend: site.baseurl }}"><span class="lang-en">Calls and opportunities</span><span class="lang-zh">征稿与学术机会</span></a>
+    <a href="{{ '/contact/' | prepend: site.baseurl }}"><span class="lang-en">Join or collaborate</span><span class="lang-zh">加入与合作</span></a>
+  </nav>
+</section>

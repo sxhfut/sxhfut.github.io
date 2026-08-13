@@ -22,9 +22,9 @@ rank: 6
 </div>
 
 <div class="media-note">
-  <h2><span class="lang-en">How This Radar Updates</span><span class="lang-zh">前沿雷达如何更新</span></h2>
-  <p><span class="lang-en">The radar is refreshed regularly, usually once or twice a day. It follows open paper metadata, selected RSS and Atom feeds from research labs, journals, AI media, and industry channels, then combines them with lab-selected applications, media reports, and standards updates.</span><span class="lang-zh">前沿雷达保持日常更新，通常每天 1-2 次。内容来自开放论文元数据、研究机构、期刊、AI 媒体和产业渠道的 RSS / Atom 订阅源，并结合实验室关注的应用进展、媒体报道和标准成果。</span></p>
-  <p><span class="lang-en">Each entry points back to its original source. The radar is meant for discovery, reading, and discussion inside MAC-Lab's research route.</span><span class="lang-zh">每条内容都保留原始链接。这个雷达更像一个发现、阅读和讨论入口，服务 MAC-Lab 长期关注的研究方向。</span></p>
+  <h2><span class="lang-en">Radar update rhythm</span><span class="lang-zh">雷达更新节奏</span></h2>
+  <p><span class="lang-en">The radar refreshes once or twice a day. It follows open paper metadata, RSS and Atom feeds from research labs, journals, AI media, and industry channels, then adds lab-selected applications, media reports, and standards updates.</span><span class="lang-zh">前沿雷达每天更新 1-2 次。内容来自开放论文元数据、研究机构、期刊、AI 媒体和产业渠道的 RSS / Atom 订阅源，并补充实验室关注的应用进展、媒体报道和标准成果。</span></p>
+  <p><span class="lang-en">Every item keeps its original link. The page is a reading desk for affective computing, AI + psychology, embodied emotional intelligence, and mind-body health systems.</span><span class="lang-zh">每条内容都保留原始链接。这个页面是情感计算、AI + 心理、具身情感智能和身心健康系统方向的阅读入口。</span></p>
   <p><a href="{{ '/opportunities/' | prepend: site.baseurl }}"><span class="lang-en">Calls and academic opportunities</span><span class="lang-zh">查看征稿与学术机会</span></a></p>
 </div>
 
@@ -55,9 +55,9 @@ rank: 6
 
 <section class="frontier-latest" aria-labelledby="frontier-latest-title">
   <div class="frontier-latest__head">
-    <span><span class="lang-en">Latest Updates</span><span class="lang-zh">最新抓取</span></span>
-    <h2 id="frontier-latest-title"><span class="lang-en">Fresh signals from the latest radar refresh.</span><span class="lang-zh">让最近一次雷达更新先被看见。</span></h2>
-    <p><span class="lang-en">This strip intentionally shows only the newest four signals. The full archive below contains {{ items | size }} items, with search, filters, and pagination.</span><span class="lang-zh">这里有意只展示最新 4 条信号；下方完整归档共 {{ items | size }} 条，支持搜索、筛选和分页。</span></p>
+    <span><span class="lang-en">Fresh signals</span><span class="lang-zh">最新信号</span></span>
+    <h2 id="frontier-latest-title"><span class="lang-en">The newest items from the radar.</span><span class="lang-zh">最近一次更新的前沿条目。</span></h2>
+    <p><span class="lang-en">The top four are shown first. The archive below keeps {{ items | size }} items and supports search, filters, and pagination.</span><span class="lang-zh">上方先呈现最新 4 条；下方归档保留 {{ items | size }} 条内容，支持搜索、筛选和分页。</span></p>
     <a class="frontier-latest__jump" href="#frontier-archive"><span class="lang-en">View the full archive</span><span class="lang-zh">查看全部 {{ items | size }} 条</span></a>
   </div>
   <div class="frontier-latest__grid">
@@ -72,8 +72,8 @@ rank: 6
 </section>
 
 <div class="frontier-archive-heading" id="frontier-archive">
-  <span><span class="lang-en">Full Archive</span><span class="lang-zh">完整归档</span></span>
-  <h2><span class="lang-en">Search and page through every radar item.</span><span class="lang-zh">所有前沿条目都在这里分页浏览。</span></h2>
+  <span><span class="lang-en">Radar archive</span><span class="lang-zh">雷达归档</span></span>
+  <h2><span class="lang-en">Search, filter, and page through every item.</span><span class="lang-zh">按方向、关键词和页码浏览全部条目。</span></h2>
 </div>
 
 <div class="frontier-toolbar" aria-label="Frontier filters">

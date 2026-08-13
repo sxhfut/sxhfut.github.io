@@ -306,6 +306,92 @@
           "@type": "WebPage",
           "name": "Calls and Academic Opportunities",
           "url": {{ site.url | append: "/opportunities/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "Industry Solutions",
+          "url": {{ site.url | append: "/solutions/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "Frontier Radar",
+          "url": {{ site.url | append: "/frontiers/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "MAC-Lab Newsroom",
+          "url": {{ site.url | append: "/news/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "People and Training",
+          "url": {{ site.url | append: "/team/" | jsonify }}
+        },
+        {
+          "@type": "WebPage",
+          "name": "Internal Operations Workspace",
+          "url": {{ site.url | append: "/manage/" | jsonify }}
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": {{ site.url | append: "/#site-navigation" | jsonify }},
+      "name": "MAC-Lab public site navigation",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Research Directions",
+          "url": {{ site.url | append: "/research/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "url": {{ site.url | append: "/projects/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Industry Solutions",
+          "url": {{ site.url | append: "/solutions/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Publications and Impact",
+          "url": {{ site.url | append: "/publications/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "People and Training",
+          "url": {{ site.url | append: "/team/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Newsroom",
+          "url": {{ site.url | append: "/news/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Frontier Radar",
+          "url": {{ site.url | append: "/frontiers/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Calls and Academic Opportunities",
+          "url": {{ site.url | append: "/opportunities/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Join and Collaborate",
+          "url": {{ site.url | append: "/contact/" | jsonify }}
         }
       ]
     },
@@ -315,13 +401,16 @@
       "url": {{ canonical_url | jsonify }},
       "name": {{ page_name | jsonify }},
       "description": {{ page_summary | strip_newlines | jsonify }},
+      "inLanguage": ["en", "zh-CN"],
+      "isAccessibleForFree": true,
       "isPartOf": {
         "@id": {{ site.url | append: "/#website" | jsonify }}
       },
       "about": {
         "@id": {{ site.url | append: "/#organization" | jsonify }}
       },
-      "dateModified": "2026-07-11"
+      "primaryImageOfPage": {{ site.url | append: site.default_hero_image | jsonify }},
+      "dateModified": {{ site.time | date: "%Y-%m-%d" | jsonify }}
     }
   ]
 }
