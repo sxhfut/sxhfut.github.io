@@ -152,7 +152,7 @@ This separates public visibility analytics from internal user activity logs. Pub
 
 1. Add Supabase Storage buckets for approved public images and private attachments.
 2. Add scheduled export from GoatCounter, Cloudflare, or Plausible API into `site_metric_snapshots`.
-3. Add GitHub issue or pull-request creation for public-ready content.
+3. Upgrade prefilled GitHub issues into authenticated pull-request creation for public-ready content.
 4. Add file attachments and owner-only notes for partner CRM records.
 5. Add periodic database export to private storage for disaster recovery.
 
