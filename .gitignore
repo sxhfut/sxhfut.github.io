@@ -3,6 +3,8 @@ _site/
 .jekyll-cache/
 .bundle/
 vendor/
+.playwright-cli/
+output/
 .DS_Store
 
 # Local secrets and private workspace material.
