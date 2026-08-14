@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T03:08:46+00:00",
-  "generated_at_beijing": "2026-08-14T11:08:46+08:00",
+  "generated_at": "2026-08-14T14:00:45+00:00",
+  "generated_at_beijing": "2026-08-14T22:00:45+08:00",
   "generated_date_beijing": "2026-08-14",
   "stats": {
     "total_items": 120,
@@ -11,7 +11,7 @@
     "github_recent_items": 5,
     "recent_signal_items": 5,
     "rss_items": 54,
-    "arxiv_items": 108,
+    "arxiv_items": 62,
     "kind_counts": {
       "community": 5,
       "industry": 38,
@@ -83,6 +83,58 @@
   "items": [
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-14",
+      "title": "DexTeleop, JD.com sign strategic deal to scale embodied AI in open real-world environments - Gasgoo",
+      "summary": "DexTeleop, JD.com sign strategic deal to scale embodied AI in open real-world environments Gasgoo",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSkN3eFBrMnZPM29CODRrdEE4TXY3emM1RVN1WF80X2dTd3M2YXdraHl0b1dJbGx1bGgtWVBvRWkxTlNtR29qbW45dWF4NDNIejBvZ1FTS0lRbnBObGhiWml6QkNNQVJmRVFhVnJQc21OOU5qdjVjLTNOQ2g0T2pCNVg2VkdOQ2pvRFZRUkU1TFBpTFFLWExtU2xUOXhqUzdfVVBUSGFCQ1FETXRZc0JybDBZNW0yQjU3cTdwa3d2azN5U3dDM0cwSkNiNmJsSUZoeE5nNU15OWo1N2daVU53M0ltYw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-14",
+      "title": "Robot Dogs Are Leaving the Lab: What Quadrupeds Reveal About Embodied AI - HackerNoon",
+      "summary": "Robot Dogs Are Leaving the Lab: What Quadrupeds Reveal About Embodied AI HackerNoon",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3NuMDdMbXBmWkIydzZFejg2dEVlU2VfYTlYbkhxOElwYmJFYWhUMW9JQVFMQk03S3NjRlpRQ1BBcV9MWmNyajlYOVlQX3pPdGdwZmFQX0hxMTlpZWdqVVVTTUpQYWY0V2VRX1VINS1wZl9kNV8tdU1fZ0VUOWRHNmFrRWJrNzlVZ2FXS2JIUUZDWEpfRjlyeTBn?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-13",
       "title": "Michael Heinz outlines vision for AI mental health care - Valley News",
@@ -141,84 +193,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-13",
-      "title": "What we heard at SMU: AI, mental health, faith and the future of local news - Dallas News",
-      "summary": "What we heard at SMU: AI, mental health, faith and the future of local news Dallas News",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcTlLaVdid1VZVGJUUEh3UHBqY1ZSaG9yeDhvXzY4cDhmTFZGTGZqbHlsdFBtVVN4UmU1YjFIc0l5RlNXaE1nc3ZwekJwdkNXSDNNTG55U05JVU5VbUFWdHl3bjFSdXdTWTl4T1NELUQwYThEMDAyUW5vNGxiQVBPVw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-13",
-      "title": "Robotics power demand set to surge as embodied AI scales globally - Intelligent CIO",
-      "summary": "Robotics power demand set to surge as embodied AI scales globally Intelligent CIO",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdWl6dDJveHJtQ2lIMnVUb0xrcm82UEk2NkpPdWVMUjMtcE1jVFJlQS1pRU1IV0NZaTNCYXhyLXU3bjkxTVl2UnIyRW5oWVF0N2w2dDJod1hJRFBEeGRkMGxWMmozSTVFOVRyNkVRR1U4emtDc1NZNFp4SmtkNDBXaExiU09xVlVFYTQ2YzJFTDU4MVJRX2FIMzEtVWpXM3JmcXE1ZnlIUHR5cFEyWF9zNQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-13",
-      "title": "X Square Robot Demonstrates Embodied AI in Real-World Logistics Operations - PR Newswire",
-      "summary": "X Square Robot Demonstrates Embodied AI in Real-World Logistics Operations PR Newswire",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONHBCUTcxWk5nY2tyOWlXMnhHVjlWZ29TMWNOSkYwajVKYVdvckY4dWwwdGVVS2w4RWFNemJJTjdYY3JxZkZGSnU0SjF1VmRtT2NoTzNUTllzMVUxcXQxbS1FcXdtR3NHX0xFR3drTko1Y2F4bWdQNmNoWEpJUWN0U09WdlRudHdEaVh3UjBsMTlPR0JWYnpKLWEzdlE1YnFlM3ViekNsbzdPUXByRnZjZGRmTmJWZUJ3bzJSYzgyeTVEaDNmVDAxbDlB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-13",
       "title": "Daily Mail Uni Guide flags excellence of AI, psychology, and aerospace engineering courses at Bath - University of Bath",
@@ -231,7 +205,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0VtOXhJd2IwTldKWTZhX0JFSzJmNTAyZjgyd0d3T1ZSZ3J0Z1ZTLUVReHBxeTZyZ1pSMEtreWNnUlZwM3RIOWtoTHhmSTMxd29OeGFWUFJwemdjZHp1WFQyNnZZTVMxZlNkMnE4UEZnVktJTjJNRGJZSnk1SWJlUWdLTklmSlpIQlVMZzFwNU02NlQ1bDBaOWM1YVMwcEIzVDlrZjRlQmtFcVFwbG5zb1BEcXVuQ1ktSGFSR01BekpQWURpY3FwN2M5MG40UQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaTVVVE1veW0zc2tDZldzZEdjV3pmRHVlcFBUZ3BCWkpQSTBmZDhNUFRVWG1FeFFCd1lTX2s3dXJpUDg1eU9lQVZCb3EzZXNCOTFQUFF0dHpIU1BobHlhWkFVUi1kMnZ6M2FjdUR6R2tKQ29FS01YbUpUNUl3OUtqQV9EYzRkQTNsRjZQTy1nQ2IxcXBXN0RjaTVOX1VkNVBES3lOUjJrcUVLdlkwYllieXVQeDBLdlZoQmx3Z0RCNnJpb0xkUU90RzVPZ2RGUXc?oc=5",
       "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -448,8 +422,9 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-12",
-      "title": "AI心理诊疗、中药面膜试用 一场在避暑度假区的健康集市即将开市 - eeo.com.cn",
-      "summary": "AI心理诊疗、中药面膜试用 一场在避暑度假区的健康集市即将开市 eeo.com.cn",
+      "title": "AI心理诊疗、中药面膜试用 一场在避暑度假区的健康集市即将开市 - 华龙网",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -458,7 +433,7 @@
         "RSS",
         "Google 新闻"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NUXNyeDcwYzZCeGdLbTB4ek1nZ2ItUmI0U3NYOWxkdEhsbEdaZTVoZFNLaVNjb1dfelNrczlIOG5YeE9HWTR3V254elgyQk5aaTV0bkVxNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5MWltbVlHVERrQzFOenR6M1dpT1VVMEVGT0J3WHhMUDhtell1X2hsQzc4dFBEQ0VPTjNqREVkbWk1ZmluaTNIMHNsY2JlOFViQTBhTzRiSXVVMDdBQ1EyWHNJRm1KN1Q0Q1ZZ?oc=5",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -675,8 +650,8 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-11",
-      "title": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 - 新浪网",
-      "summary": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 新浪网",
+      "title": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 - Sohu",
+      "summary": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 Sohu",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -685,7 +660,7 @@
         "RSS",
         "Google 新闻"
       ],
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qOGpGX1BBcVpLOVZCYWQwS1QzNllvdUpSdVdnRW4tWHIwNE1iTk1xbXpTTWlmMWgyNzhXeG1GNG5RcVRMZkpzMUNqSGx4R3pHRHg1Z1F1amFBRWdCVk5keHJlc2lybFI2TmZ4SGMwX2RURE41ZUxaLWJORkpIeTA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWxZZlpxUlZ0X2N6dThjak95elh4RDBWQ2pMWWVXRXdfbjhDOUx6M3NhOG9BMk5OdGdZNFpjaXF6VENkbHdrSjgtYmtTbEJRWF81RTNSOW9oU3VfTms1b3hYTmtyaWI5cVVVVmZrX1dDdTFOTlpRdGtTcEhjMGFMempaOENiNkpwa1VuNg?oc=5",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -952,6 +927,32 @@
         "具身交互"
       ],
       "relevance_score": 56
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-10",
+      "title": "Nature Medicine Just Published the AI Mental Health Audit Framework the FDA Hasn’t Written Yet - The Clinical Trial Vanguard",
+      "summary": "Nature Medicine Just Published the AI Mental Health Audit Framework the FDA Hasn’t Written Yet The Clinical Trial Vanguard",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWnAyZk91bkswWm4yc1I4SzVCRG9yaEJqVllQSC1fRkdORlNXV3ZUZUZ6bFpUQVNJSWw2ZXkxVEdTaEM4ckZGbXloVWVvb1VIS29YeV9PWGJaY2VOaU9ramQtcnpQQW05Uk5fUnlXeGdNQzVubDhCUHJlVTBaT09qdDBTdU5rM3Y4U0c0Vm9ta3JTN0U3M3BWMVpJWDRfLUZwM0JPSklmWk1ValIweHNpVUxaV2JnYXZQbmk3T1BWVWtIaU9DU1NoUUYyQlJGN2VvbzFuSDlraGRvYy1xVVBLV3hISFdETnM?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "industry",
