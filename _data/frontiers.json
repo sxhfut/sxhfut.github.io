@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T13:09:42+00:00",
-  "generated_at_beijing": "2026-08-15T21:09:42+08:00",
-  "generated_date_beijing": "2026-08-15",
+  "generated_at": "2026-08-16T02:11:51+00:00",
+  "generated_at_beijing": "2026-08-16T10:11:51+08:00",
+  "generated_date_beijing": "2026-08-16",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -11,18 +11,18 @@
     "github_recent_items": 5,
     "recent_signal_items": 5,
     "rss_items": 54,
-    "arxiv_items": 108,
+    "arxiv_items": 96,
     "kind_counts": {
       "community": 5,
-      "industry": 37,
+      "industry": 38,
       "lab": 1,
-      "paper": 75,
+      "paper": 74,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 63,
-      "RSS · Google News": 11,
+      "arXiv": 62,
+      "RSS · Google News": 12,
       "HFUT Faculty Blog": 7,
       "Recent GitHub": 5,
       "ORCID / DOI": 4,
@@ -83,19 +83,49 @@
   "items": [
     {
       "kind": "community",
-      "track": "AI + Psychology",
+      "track": "Affective Computing",
       "published": "2026-08-15",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "title": "Gagan2435/Emotion-Voice-AI",
+      "summary": "A speech emotion recognition system that detects human emotion directly from voice - tone, pitch, and energy , rather than spoken words. Falls under affective computing research, aimed at making voice assistants and robots responsive to emotional state, not... Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Python.",
       "source": "Recent GitHub",
       "authors": [
-        "rein98"
+        "Gagan2435"
       ],
       "categories": [
         "GitHub",
         "Python"
       ],
-      "url": "https://github.com/rein98/PsyChat",
+      "url": "https://github.com/Gagan2435/Emotion-Voice-AI",
+      "priority": 56,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Embodied Interaction",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "具身交互",
+        "情感理解"
+      ],
+      "relevance_score": 92
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-08-15",
+      "title": "li33893/ai-support-discourse",
+      "summary": "A structured, multi-stage pipeline for screening, classifying, validating, and analyzing Reddit posts about AI use in mental health help-seeking contexts. This contextual annotation workflow serves as both an empirical anchor and a sampling rationale for a... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "li33893"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/li33893/ai-support-discourse",
       "priority": 56,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -980,32 +1010,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-10",
-      "title": "「网上娱乐首页入口体验展」掀起情感计算浪潮，2026社交趋势走向「有温度的智能」 - womenofchina.com",
-      "summary": "「网上娱乐首页入口体验展」掀起情感计算浪潮，2026社交趋势走向「有温度的智能」 womenofchina.com",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBudTBZMk9KMUNTMzFhTzB0VjRkcldFZUV2aGFiWVZpQlNPRzk4NXZidTM3cGFSOWNWVF9UcmJhWm54YzJtY21EbnZwV2ZKb2VkMTFkTzdhZw?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-08-10",
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
@@ -1330,37 +1334,6 @@
         "心理评估"
       ],
       "relevance_score": 71
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-08-06",
-      "title": "sxhfut/awesome-affective-computing",
-      "summary": "Curated list of resources for affective computing, multimodal emotion recognition, affective NLP, psychological computing, and emotion-aware AI agents. Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window.",
-      "source": "Recent GitHub",
-      "authors": [
-        "sxhfut"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/sxhfut/awesome-affective-computing",
-      "priority": 56,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Psychological Assessment",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "心理评估",
-        "情感理解"
-      ],
-      "relevance_score": 100
     },
     {
       "kind": "industry",
@@ -1831,6 +1804,34 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-03",
+      "title": "Body Fat Beats BMI in Predicting Fracture Risk on AI Therapy - Medscape",
+      "summary": "Body Fat Beats BMI in Predicting Fracture Risk on AI Therapy Medscape",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUVtb0lfclhReVd4cVhwTHRHZFl3Zkd0OGdyeFo0eV82SFVZSjhxV2VCY3dNYVgzNGZuNHptNDJMbVAzTVR3QThGem9LQlVnWDVBblVfaGVqWFM1QjU1Vi04SUZ5aThZWUR2b3I4ZGJUcUNaZW53cGxIWS1BWUQzSW43TldqREVKZ054WVd3dlUzcE92RkVHM1JhTS1qTjQzSmQ4Zjgtcw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "身心支持",
+        "可信评测"
+      ],
+      "relevance_score": 82
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-03",
       "title": "Orchard: An open framework for scalable agentic AI",
@@ -2021,8 +2022,8 @@
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-07-30",
-      "title": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation - stibbe.com",
-      "summary": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation stibbe.com",
+      "title": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation - Stibbe",
+      "summary": "Feeling Watched? Transparency Obligations for Emotion Recognition and Biometric Categorisation Stibbe",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -2633,6 +2634,32 @@
       "relevance_score": 68
     },
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-07-24",
+      "title": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 - Jiemian.com",
+      "summary": "情感计算类公司推荐——从技术选型到场景落地，如何选择真正“懂人心”的情感计算方案 Jiemian.com",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VM1UxNHlKNjBTaDhrVkRUZmlleXRwSWdsamtUdTFDZllFUjNVQ0cxZGVtZWhzZ2FxWWx6dVhmNENxRjRLd3JXc09vRDItbFdrVFFCQ0tqZzE?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
       "kind": "paper",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-07-24",
@@ -3190,39 +3217,6 @@
         "可信评测"
       ],
       "relevance_score": 77
-    },
-    {
-      "kind": "paper",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-07-17",
-      "title": "PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction",
-      "summary": "Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts. In this paper, we present PACE (Persona Adaptation through Conversational Elicitation), a novel framework for the interactive generation...",
-      "source": "arXiv",
-      "authors": [
-        "Peizhen Li",
-        "Longbing Cao",
-        "Megani Rajendran",
-        "Timothy Liu",
-        "Aik Beng Ng",
-        "Simon See"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2607.15579",
-      "priority": 50,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "具身交互",
-        "可信评测"
-      ],
-      "relevance_score": 62
     },
     {
       "kind": "lab",
