@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-08-16T13:11:47+00:00",
-  "generated_at_beijing": "2026-08-16T21:11:47+08:00",
-  "generated_date_beijing": "2026-08-16",
+  "generated_at": "2026-08-17T02:09:34+00:00",
+  "generated_at_beijing": "2026-08-17T10:09:34+08:00",
+  "generated_date_beijing": "2026-08-17",
   "stats": {
     "total_items": 120,
     "max_items": 120,
     "manual_items": 16,
     "last30days_items": 0,
     "last30days_reused_items": 0,
-    "github_recent_items": 5,
-    "recent_signal_items": 5,
+    "github_recent_items": 4,
+    "recent_signal_items": 4,
     "rss_items": 54,
-    "arxiv_items": 108,
+    "arxiv_items": 93,
     "kind_counts": {
-      "community": 5,
+      "community": 4,
       "industry": 37,
       "lab": 1,
-      "paper": 75,
+      "paper": 76,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 63,
-      "RSS · Google News": 11,
+      "arXiv": 64,
+      "RSS · Google News": 12,
       "HFUT Faculty Blog": 7,
-      "Recent GitHub": 5,
+      "Recent GitHub": 4,
       "ORCID / DOI": 4,
-      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Microsoft Research": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT News AI": 3,
+      "RSS · Google 新闻": 2,
       "RSS · IEEE Spectrum Robotics": 1,
       "RSS · Google AI": 1,
       "RSS · BAIR Blog": 1,
@@ -111,8 +111,34 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-16",
-      "title": "2026沉浸式娱乐舱量产元年：5感联动+AI情感计算，是噱头还是新刚需？3个维度说清+FAQ - 新浪网",
-      "summary": "2026沉浸式娱乐舱量产元年：5感联动+AI情感计算，是噱头还是新刚需？3个维度说清+FAQ 新浪网",
+      "title": "California’s 2026 AI therapy debate is missing families - KevinMD.com",
+      "summary": "California’s 2026 AI therapy debate is missing families KevinMD.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTU5hb2tIVVpyQ0llU29PRkwya011NnZEcFZ0T3VHMks0VXVzTTZXX21SWVdVUzNxT3hNMl9yYWY2OXNrRDVVWGhVa3VOUmhqaE1JUmNka0RVQllWSkNqLWVmZFkxWjI0amhIemwxVndnQ19JM0diMWcxbVNFNjdmcVVQUnFzZUV3MUVyRU1fVEw?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-16",
+      "title": "2026沉浸式娱乐舱量产元年：5感联动+AI情感计算，是噱头还是新刚需？3个维度说清+FAQ - k.sina.com.cn",
+      "summary": "2026沉浸式娱乐舱量产元年：5感联动+AI情感计算，是噱头还是新刚需？3个维度说清+FAQ k.sina.com.cn",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -777,32 +803,6 @@
         "具身交互"
       ],
       "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-11",
-      "title": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 - 搜狐网",
-      "summary": "当AI\"心理咨询师\"越帮越忙？东北大学等揭示情感对话系统致命盲区 搜狐网",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWxZZlpxUlZ0X2N6dThjak95elh4RDBWQ2pMWWVXRXdfbjhDOUx6M3NhOG9BMk5OdGdZNFpjaXF6VENkbHdrSjgtYmtTbEJRWF81RTNSOW9oU3VfTms1b3hYTmtyaWI5cVVVVmZrX1dDdTFOTlpRdGtTcEhjMGFMempaOENiNkpwa1VuNg?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
     },
     {
       "kind": "paper",
@@ -3088,36 +3088,6 @@
       "relevance_score": 71
     },
     {
-      "kind": "community",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-07-17",
-      "title": "SumithShet18/EmotiSense",
-      "summary": "EmotiSense is a transformer-based multimodal emotion recognition platform that combines text understanding (MentalBERT) and speech understanding (HuBERT) through Cross-Modal Attention Fusion to detect human emotions for mental health and affective computing... Recent GitHub repository activity related to multimodal affective computing speech emotion, updated within the latest 30-day window. Primary language: TypeScript.",
-      "source": "Recent GitHub",
-      "authors": [
-        "SumithShet18"
-      ],
-      "categories": [
-        "GitHub",
-        "TypeScript"
-      ],
-      "url": "https://github.com/SumithShet18/EmotiSense",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Psychological Assessment",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "心理评估",
-        "情感理解"
-      ],
-      "relevance_score": 98
-    },
-    {
       "kind": "paper",
       "track": "AI + Mind-Body Health",
       "published": "2026-07-17",
@@ -3222,6 +3192,32 @@
         "可信评测"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "paper",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-07-17",
+      "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
+      "summary": "Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocular videos of human-object interaction. Given a short observed video context, MotionForesight predicts future 3D trajectories for...",
+      "source": "arXiv",
+      "authors": [
+        "Homanga Bharadhwaj",
+        "Yash Jangir"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2607.16192",
+      "priority": 50,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 56
     },
     {
       "kind": "lab",
