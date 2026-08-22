@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T00:46:20+00:00",
-  "generated_at_beijing": "2026-08-22T08:46:20+08:00",
+  "generated_at": "2026-08-22T12:44:18+00:00",
+  "generated_at_beijing": "2026-08-22T20:44:18+08:00",
   "generated_date_beijing": "2026-08-22",
   "stats": {
     "total_items": 120,
@@ -83,11 +83,39 @@
   ],
   "items": [
     {
+      "kind": "community",
+      "track": "Affective Computing",
+      "published": "2026-08-22",
+      "title": "aditya-kalla/Edge-AI-emotion-detector-for-TELEHEALTH",
+      "summary": "A clinical-grade, edge-optimized facial affective computing engine. Features a Bi-Level architecture bridging low-power YOLO26n int8 edge models (Sentry) with clinical FACS-based micro-expression tracking (Diagnostic). Includes a live Next.js + FastAPI... Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "aditya-kalla"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/aditya-kalla/Edge-AI-emotion-detector-for-TELEHEALTH",
+      "priority": 56,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "情感理解"
+      ],
+      "relevance_score": 86
+    },
+    {
       "kind": "industry",
       "track": "Affective Computing",
       "published": "2026-08-21",
-      "title": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel - Nasscom",
-      "summary": "The Mood Matrix: Emotion AI for Next-Gen Retail Omnichannel Nasscom",
+      "title": "North-America Emotion AI Market Size, Share,Trends, Growth Analysis Report, 2029 - MarketsandMarkets",
+      "summary": "North-America Emotion AI Market Size, Share,Trends, Growth Analysis Report, 2029 MarketsandMarkets",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -96,7 +124,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaTBFLU5oOC1ETEt5bzBNV1NNSWlYQzljQkRTS2djOHpLb0o1WjFWWUJtWXkyZGdtdVQzaElXTENLUlNJZkJGSXdfU2RyUXU5VDh1eGpGdC1qWWtMQnk3dGdnTlJzNnlQUk5PQXVMQzhLXzdaMXM5bjI3M2YtdE1wZkV4TWxPNmVlNy14WDJ0a19HcFV3QnYtSmhR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWFEb3lFeU9aOFpUeDNyazYxa0twT0poLWFRcVB5Y2N6Rl9ZRlZuZk0wTFhBdjNkaGs5cjJXU1RiWjJhZmRDSC0xQmYzcjFxRV9scU5jZnNnS3dSRkJORjdLR1diM1VPSkl1dFFueFJFaWFWS1dPTkJFLU9IaHlEMmpGaVpiUGpSTHBuOGg2TW9wVmxZ?oc=5",
       "priority": 58,
       "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
       "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
@@ -164,32 +192,6 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-21",
-      "title": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations - TrendForce",
-      "summary": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations TrendForce",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaG9UNDN1WkJ1cVdELVR1SzVELVo4QjQ0VUcyYVJFX1I0RXBCWXRtZFJsNnRGSHdaOTI0MzUwVW00d0NiTm5CRXFVaktkQUpLN2o2UmNGczRveS1RRF9UOW9WN01MVERrdWpuZ0JjU25DTlBBelVrSUVpV3pUUlRGeVpEeWlOMmMtcUVVY2l3WUxBV1Q5LTJ3aXNXSU44ei12SDJ3QjJpYXA0UXMwekxQZGdEeDdpbmpPaUlwanV4Rlk0c1JQMWg1dWFzUW02bzBldmZIVlhqaw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-21",
       "title": "Opinion | In the embodied AI race, China can opt to look beyond bigger models - South China Morning Post",
       "summary": "Opinion | In the embodied AI race, China can opt to look beyond bigger models South China Morning Post",
       "source": "RSS · Google News",
@@ -216,8 +218,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-21",
-      "title": "China has more than 70 operational embodied-AI training grounds, report says - TechNode",
-      "summary": "China has more than 70 operational embodied-AI training grounds, report says TechNode",
+      "title": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations - TrendForce",
+      "summary": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations TrendForce",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -226,7 +228,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRGJBOFpYbVUwdGF0dXExQWdoUXlNOUlocnJaUExIQTFlUTMyOFNQNkxodFVWSS16N2JEb1hVajRkRU5aNUdOaF9rZldOYjZPVThFNHJxT3dqSVllM3NiWnBWQlFiM0stWE5MUjlUTEVtSlBIdXlSUjNtUzk0NlJHbmE3TVNUOG9hNGdWXzgzZjFrZU54eU15QUFkbndGb0pVZk90SmpqYkwxRF9Y?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaG9UNDN1WkJ1cVdELVR1SzVELVo4QjQ0VUcyYVJFX1I0RXBCWXRtZFJsNnRGSHdaOTI0MzUwVW00d0NiTm5CRXFVaktkQUpLN2o2UmNGczRveS1RRF9UOW9WN01MVERrdWpuZ0JjU25DTlBBelVrSUVpV3pUUlRGeVpEeWlOMmMtcUVVY2l3WUxBV1Q5LTJ3aXNXSU44ei12SDJ3QjJpYXA0UXMwekxQZGdEeDdpbmpPaUlwanV4Rlk0c1JQMWg1dWFzUW02bzBldmZIVlhqaw?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -237,32 +239,6 @@
         "具身交互"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-21",
-      "title": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 - MyChamplainValley.com",
-      "summary": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 MyChamplainValley.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnFZaDg5UUFqeTNKQXI2enpRV0VJZXFPSDd1TEd5cDB6enh3TlZmUi00ckNDbFhnS2dFMjRxRHh2Njd5MTRQOHdLc181YUxYN1d5U3NWUnY3TGlfZXBVRTZsM1plTzlEVHdXWFFJLWRUWXRNV0l5UFFCc0k4cTd2SnRJZFpNTmdTMERLbVVzSWhSdW5ZWVJ5X3hRenAxR0twYkE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "community",
@@ -351,6 +327,60 @@
         "情感大模型"
       ],
       "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-20",
+      "title": "HKU pioneers 'RoboDojo': The first Hong Kong-led unified benchmark for embodied AI, setting new global standards for robot reliability - EurekAlert!",
+      "summary": "HKU pioneers 'RoboDojo': The first Hong Kong-led unified benchmark for embodied AI, setting new global standards for robot reliability EurekAlert!",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KNVFqdjA0RWttVy16VHVBdHJjcVRmMTdwTmEwQ2o2SU1PZHJ3U3VFbDBsUWR3a3pTZVRQNmFIcU9JX1F0RjEtR3NHRkhkRDNBakw4UnRYZFBQRm5p?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "具身交互",
+        "可信评测"
+      ],
+      "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-20",
+      "title": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 - MyChamplainValley.com",
+      "summary": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 MyChamplainValley.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnFZaDg5UUFqeTNKQXI2enpRV0VJZXFPSDd1TEd5cDB6enh3TlZmUi00ckNDbFhnS2dFMjRxRHh2Njd5MTRQOHdLc181YUxYN1d5U3NWUnY3TGlfZXBVRTZsM1plTzlEVHdXWFFJLWRUWXRNV0l5UFFCc0k4cTd2SnRJZFpNTmdTMERLbVVzSWhSdW5ZWVJ5X3hRenAxR0twYkE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -1072,36 +1102,6 @@
         "情感理解"
       ],
       "relevance_score": 68
-    },
-    {
-      "kind": "community",
-      "track": "Affective Computing",
-      "published": "2026-08-15",
-      "title": "Gagan2435/Emotion-Voice-AI",
-      "summary": "A speech emotion recognition system that detects human emotion directly from voice - tone, pitch, and energy , rather than spoken words. Falls under affective computing research, aimed at making voice assistants and robots responsive to emotional state, not... Recent GitHub repository activity related to affective computing emotion AI, updated within the latest 30-day window. Primary language: Python.",
-      "source": "Recent GitHub",
-      "authors": [
-        "Gagan2435"
-      ],
-      "categories": [
-        "GitHub",
-        "Python"
-      ],
-      "url": "https://github.com/Gagan2435/Emotion-Voice-AI",
-      "priority": 56,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Multimodal Sensing",
-        "Embodied Interaction",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "多模态感知",
-        "具身交互",
-        "情感理解"
-      ],
-      "relevance_score": 92
     },
     {
       "kind": "paper",
