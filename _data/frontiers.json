@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T00:47:33+00:00",
-  "generated_at_beijing": "2026-08-23T08:47:33+08:00",
+  "generated_at": "2026-08-23T12:44:22+00:00",
+  "generated_at_beijing": "2026-08-23T20:44:22+08:00",
   "generated_date_beijing": "2026-08-23",
   "stats": {
     "total_items": 120,
@@ -82,6 +82,32 @@
     }
   ],
   "items": [
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-23",
+      "title": "Letter from China: Robot athletes break human records, heralding embodied AI revolution - Xinhua",
+      "summary": "Letter from China: Robot athletes break human records, heralding embodied AI revolution Xinhua",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IWTJvdmZjNkd2WnVTeFZSSWE2WjA3OElraHVhdi0tLUg2d3hramxlbVBhOEtvdldlTkh6M1gzOWh6V1FfY19zelN4NmxqSzRMYlljTVNUZXJNaXE0WWtCcUs1NDZ6M01IMkFCOENCRHl0Mk9Tckh4V1FtcGk?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "community",
       "track": "AI + Psychology",
@@ -249,32 +275,6 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-21",
-      "title": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations - TrendForce",
-      "summary": "[News] Unitree Sees Embodied AI ‘ChatGPT Moment’ in 2–3 Years at Earliest, Flags AI Model Limitations TrendForce",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaG9UNDN1WkJ1cVdELVR1SzVELVo4QjQ0VUcyYVJFX1I0RXBCWXRtZFJsNnRGSHdaOTI0MzUwVW00d0NiTm5CRXFVaktkQUpLN2o2UmNGczRveS1RRF9UOW9WN01MVERrdWpuZ0JjU25DTlBBelVrSUVpV3pUUlRGeVpEeWlOMmMtcUVVY2l3WUxBV1Q5LTJ3aXNXSU44ei12SDJ3QjJpYXA0UXMwekxQZGdEeDdpbmpPaUlwanV4Rlk0c1JQMWg1dWFzUW02bzBldmZIVlhqaw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-08-21",
       "title": "Measuring benchmark optimization in speech recognition",
@@ -360,8 +360,8 @@
       "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-20",
-      "title": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 - MyChamplainValley.com",
-      "summary": "Dartmouth researchers promoting AI therapy chatbot – ABC22 & FOX44 MyChamplainValley.com",
+      "title": "Dartmouth researchers promoting AI therapy chatbot - Yahoo",
+      "summary": "Dartmouth researchers promoting AI therapy chatbot Yahoo",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -370,7 +370,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnFZaDg5UUFqeTNKQXI2enpRV0VJZXFPSDd1TEd5cDB6enh3TlZmUi00ckNDbFhnS2dFMjRxRHh2Njd5MTRQOHdLc181YUxYN1d5U3NWUnY3TGlfZXBVRTZsM1plTzlEVHdXWFFJLWRUWXRNV0l5UFFCc0k4cTd2SnRJZFpNTmdTMERLbVVzSWhSdW5ZWVJ5X3hRenAxR0twYkE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHl4dkNsV2xndXVzTlFiRVAxZnBnM3FGQksxZUI2dF9mbmZDeHVicmRUcEVoaVo5RUU0bVZya3lQc1ZoZUhDNjlOOHFPNHlmdXg2NVY4dGdnY1dwcVNNSzU0enJ3N2djWUI5NEdUTFo5RVAxVTJjN1ZncEFhcS15a2RaSmExclRCbTVRMGUyQk42OVVXdGc?oc=5",
       "priority": 58,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -1021,34 +1021,6 @@
         "具身交互"
       ],
       "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-08-16",
-      "title": "Privacy-Preserving Federated Learning for Emotion Recognition: An Improved Framework with Differential Privacy - springerprofessional.de",
-      "summary": "Privacy-Preserving Federated Learning for Emotion Recognition: An Improved Framework with Differential Privacy springerprofessional.de",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUW5rZFpVRzYxeFBWM0lBRDZwQzViR0QtUldtczJUQ1M1Ym55QTdDN09mR2Qta0dJc091N25RS0RtZnZiX0tQVVhzSi1jNEhpeS1VUzFRMC01SFdCQXo5MmRuZHJKVUFRYkR1SjluZTdqS0tuMHotZllBWmExZDBUQ1ZLaWY2RUxoWEl5WlVVNE9BU3NPOTc2bmx2NGxDNXdSQk0yYXZyWmM5cnpTMHAyUGVB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Trustworthy Evaluation",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "可信评测",
-        "情感理解"
-      ],
-      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -1941,6 +1913,32 @@
         "可信评测"
       ],
       "relevance_score": 62
+    },
+    {
+      "kind": "industry",
+      "track": "Affective Computing",
+      "published": "2026-08-05",
+      "title": "Age-Related Positivity Bias in Emotion Recognition: Marker of Neurodegeneration or Shift in Decision Criterion? - Journal of Neuroscience",
+      "summary": "Age-Related Positivity Bias in Emotion Recognition: Marker of Neurodegeneration or Shift in Decision Criterion? Journal of Neuroscience",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ma1hMdXg2Ty1hRHZEMk53V1JubXhsbUFkQUNESW9KOUx3MGVyMWpNUTFDck82dHdseFhxWmIxR3NrWThULXphSVdIYTBCXzZQellmeXNOLTlLSzM5V0JVSA?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
     },
     {
       "kind": "paper",
