@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T02:11:54+00:00",
-  "generated_at_beijing": "2026-08-24T10:11:54+08:00",
+  "generated_at": "2026-08-24T13:58:59+00:00",
+  "generated_at_beijing": "2026-08-24T21:58:59+08:00",
   "generated_date_beijing": "2026-08-24",
   "sources": {
     "hfut_faculty_profile": "https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm",
@@ -20,7 +20,7 @@
     "hfut_faculty_blog_fetched": 56,
     "orcid_total_groups": 140,
     "orcid_high_signal_items": 58,
-    "dblp_high_signal_items": 43,
+    "dblp_high_signal_items": 24,
     "openalex_works_count": 398,
     "openalex_cited_by_count": 7633,
     "crossref_orcid_records": 69,
@@ -39,7 +39,9 @@
     "dblp": {
       "url": "https://dblp.org/pid/30/202-3.html",
       "xml_url": "https://dblp.org/pid/30/202-3.xml",
-      "items": 43
+      "error": "The read operation timed out",
+      "items": 24,
+      "reused_previous": true
     },
     "academic_indexes": {
       "openalex": {
@@ -76,29 +78,29 @@
       "total_results": 69,
       "sample_items": [
         {
-          "doi": "10.1007/978-981-97-8795-1_27",
-          "title": "Joint Multi-cue Learning for Emotion Recognition in Human-Computer Interaction",
-          "venue": "Lecture Notes in Computer Science"
+          "doi": "10.1145/3368960",
+          "title": "Emotional Conversation Generation Based on a Bayesian Deep Neural Network",
+          "venue": "ACM Transactions on Information Systems"
         },
         {
-          "doi": "10.1109/tfuzz.2025.3593951",
-          "title": "Fuzzy Membership-Driven Adaptive Sample Mining for Facial Expression Recognition",
-          "venue": "IEEE Transactions on Fuzzy Systems"
+          "doi": "10.1109/access.2022.3140820",
+          "title": "Neural Network With Hierarchical Attention Mechanism for Contextual Topic Dialogue Generation",
+          "venue": "IEEE Access"
         },
         {
-          "doi": "10.1109/taffc.2025.3613376",
-          "title": "CausalSymptom: Learning Causal Disentangled Representation for Depression Severity Estimation on Transcribed Clinical Interviews",
-          "venue": "IEEE Transactions on Affective Computing"
+          "doi": "10.1109/tai.2026.3671250",
+          "title": "Modeling Latent Background Information in Multiturn Dialogues Using Diffusion Model",
+          "venue": "IEEE Transactions on Artificial Intelligence"
         },
         {
-          "doi": "10.1109/tcss.2024.3497725",
-          "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
+          "doi": "10.1109/tcss.2023.3297051",
+          "title": "SHADE: Speaker-History-Aware Dialog Generation Through Contrastive and Prompt Learning",
           "venue": "IEEE Transactions on Computational Social Systems"
         },
         {
-          "doi": "10.1145/3581807.3581870",
-          "title": "Heart Rate Detection Using Motion Compensation with Multiple ROIs",
-          "venue": "Proceedings of the 2022 11th International Conference on Computing and Pattern Recognition"
+          "doi": "10.1145/3638760",
+          "title": "Hypergraph Neural Network for Emotion Recognition in Conversations",
+          "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing"
         }
       ]
     },
