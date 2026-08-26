@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T12:45:38+00:00",
-  "generated_at_beijing": "2026-08-25T20:45:38+08:00",
-  "generated_date_beijing": "2026-08-25",
+  "generated_at": "2026-08-26T00:47:54+00:00",
+  "generated_at_beijing": "2026-08-26T08:47:54+08:00",
+  "generated_date_beijing": "2026-08-26",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -22,21 +22,21 @@
     },
     "source_counts": {
       "arXiv": 64,
-      "RSS · Google News": 12,
+      "RSS · Google News": 11,
       "HFUT Faculty Blog": 7,
       "ORCID / DOI": 4,
       "Recent GitHub": 3,
+      "RSS · OpenAI News": 3,
+      "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Google News Human Factors": 3,
-      "RSS · OpenAI News": 3,
-      "RSS · Hugging Face Blog": 3,
       "RSS · Microsoft Research": 3,
       "RSS · Google 新闻": 2,
+      "RSS · IEEE Spectrum Robotics": 2,
       "RSS · MIT News AI": 2,
-      "RSS · IEEE Spectrum Robotics": 1,
+      "RSS · Google Research": 1,
       "RSS · Google AI": 1,
-      "RSS · BAIR Blog": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
       "ACM Digital Library / ORCID": 1,
@@ -111,8 +111,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-25",
-      "title": "HardKr Exclusive: Shenzhen Embodied AI Infrastructure Firm Secures Nearly 100M Yuan Financing, Serving 60% of China’s Leading 10B+ Valuation Robotics Companies - 36Kr",
-      "summary": "HardKr Exclusive: Shenzhen Embodied AI Infrastructure Firm Secures Nearly 100M Yuan Financing, Serving 60% of China’s Leading 10B+ Valuation Robotics Companies 36Kr",
+      "title": "Embodied AI: “A robot that is too expensive will remain a show pony” - Table.Briefings",
+      "summary": "Embodied AI: “A robot that is too expensive will remain a show pony” Table.Briefings",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -121,7 +121,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wNDFKelRfWlNUTGRUTFdrUEV4dTFMd3JzeUxUeUZEUmZuOHRBS1k1Uzd5S2k5ZW9hS05qcmN6Y2ROQlF3Vk42eHBmamVlOEd5QUFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPamZTNno4QUJZUTJDRXprb1pMWEJrUUN5NlpDMS0tQTktUU1fa2JrbDM3dlJqSXRVcDIzMDhJZGxFTGd5VENueEE3azk5MWgwWTQ1VmFPUEhDZ1MtWkppQ3BGTVJ4dF84Ym52U1dkaV9lT3N0S3FSbFZ6VFA4Z1NKMUdCYjRWWDhHaFFheUU0N3U4NHJIY2dwbEtEcmVCOGN5MXdGQ2R1TQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -137,8 +137,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-25",
-      "title": "RoboColiseum Launches Standardized Simulation Platform for Embodied AI Evaluation - Macau Business",
-      "summary": "RoboColiseum Launches Standardized Simulation Platform for Embodied AI Evaluation Macau Business",
+      "title": "HardKr Exclusive: Shenzhen Embodied AI Infrastructure Firm Secures Nearly 100M Yuan Financing, Serving 60% of China’s Leading 10B+ Valuation Robotics Companies - 36Kr",
+      "summary": "HardKr Exclusive: Shenzhen Embodied AI Infrastructure Firm Secures Nearly 100M Yuan Financing, Serving 60% of China’s Leading 10B+ Valuation Robotics Companies 36Kr",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -147,7 +147,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaC13d1NJSU1nS19Bb1NLR2NYcmN0U2VVNGo5ZUxJVVZSbUcyVlNxVmtWczRmcW5aMTM4NHRWaWQyVzBmbUlNaEh1WFJEZUVFeXF4WlNud0phV05hQ29SM2xMbVRpZ1hOX0NTa1ZLLUZ0NExDei01aDhXcWtOazFLQ1ptWGxfeDVmX2MtNnBpMV9IakMtVWlQdFdUR0oyZDFaS0JkeXpRNDZhQzVl?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wNDFKelRfWlNUTGRUTFdrUEV4dTFMd3JzeUxUeUZEUmZuOHRBS1k1Uzd5S2k5ZW9hS05qcmN6Y2ROQlF3Vk42eHBmamVlOEd5QUFR?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -191,6 +191,85 @@
         "具身交互"
       ],
       "relevance_score": 100
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-08-25",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "source": "RSS · OpenAI News",
+      "authors": [
+        "OpenAI News"
+      ],
+      "categories": [
+        "RSS",
+        "OpenAI News"
+      ],
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "priority": 55,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "AI Research"
+      ],
+      "capability_tags_zh": [
+        "AI Research"
+      ],
+      "relevance_score": 73
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-08-25",
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "summary": "Human-Computer Interaction and Visualization",
+      "source": "RSS · Google Research",
+      "authors": [
+        "Google Research"
+      ],
+      "categories": [
+        "RSS",
+        "Google Research"
+      ],
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "Open-Source AI",
+      "published": "2026-08-25",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
+      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
+      "source": "RSS · Hugging Face Blog",
+      "authors": [
+        "Hugging Face Blog"
+      ],
+      "categories": [
+        "RSS",
+        "Hugging Face Blog"
+      ],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
+      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "industry",
@@ -278,8 +357,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-24",
-      "title": "Nio reportedly to invest in embodied AI startup founded by Ren Shaoqing, who will remain smart-driving chief - CnEVPost",
-      "summary": "Nio reportedly to invest in embodied AI startup founded by Ren Shaoqing, who will remain smart-driving chief CnEVPost",
+      "title": "51WORLD unveils two embodied AI products - Engineering.com",
+      "summary": "51WORLD unveils two embodied AI products Engineering.com",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -288,7 +367,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNEc3WllNcVBDOGt1T2VnY0hxd3ltb1ZmWEVubnVjeWNxNTlJRFdzM3NmSUJicFIzMVZYb19wWVpnYnRMX05XVWtHeUlPUlJXU1VhNWEzTExSM205MWloM3Z4UkNJMU5MakJReWtUUVpEZjg5N1EzS1JRYmN3WVQ2czBjUDNLa0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81STFkbHVmQlNIVE9ZeWF3X2NvcF9DM0JqS19tRWEyenBUMHk5b2lidi1TZ0thZVotdExicWdxTnplOGpNaXlBd0hQdDlEZGM2UFhodnFueDRtQ1pRMnd2dHhuMnBXZlFuNkh2OUVvS0hCNGE2UzhWZQ?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -862,32 +941,6 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-21",
-      "title": "Therabot Is Dartmouth’s AI Mental Health Tool— WVNY - Geisel School of Medicine at Dartmouth",
-      "summary": "Therabot Is Dartmouth’s AI Mental Health Tool— WVNY Geisel School of Medicine at Dartmouth",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR3FJSHV0d1plTHg1VjZLcWdtNFVyWUhDMTJ1QTN4dDE5NEYwNWlXcUsxZmxoeGJrUHpRTmZHRHVmOWcxcTdRYkVXWjZlUW4yZnl2dkxWVlJOakMwMXJwdlY2azhVOTZNTVNOVDc5ald1TVdPU3dOU1RfTExYdW93V21SZjlkengyVkF1N0lGaC0wRldBZ3hF?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-21",
       "title": "Therabot is Dartmouth’s AI mental health tool - MyChamplainValley.com",
       "summary": "Therabot is Dartmouth’s AI mental health tool MyChamplainValley.com",
       "source": "RSS · Google News",
@@ -925,6 +978,32 @@
         "Google 新闻"
       ],
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLVDZza2lJRDYtbWFhU1dLNV9DS1d5bTJVQU9nZ2tRcG1PdzJRejYwZDBMNEtycVhQeU1nOUwwaThDRDQxd1daSlhQeUhXOXZZQlU1ZTlEVjJiZloxR2ZKVjh3?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-21",
+      "title": "宁波鄞州区青少年宫引入健成星云AI心理服务，守护青少年心理健康 - 凤凰网山东",
+      "summary": "宁波鄞州区青少年宫引入健成星云AI心理服务，守护青少年心理健康 凤凰网山东",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5wX0VhQk9XSElkcmtvQUFqaGpvbThJb2pSdFp5OFZRNFgxZE1wVkNjSE0yZVl3dVNVb0JEb1lydU40S25nb002Y0tB?oc=5",
       "priority": 57,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
@@ -1249,32 +1328,6 @@
       "relevance_score": 88
     },
     {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-08-19",
-      "title": "Offering Zero Data Retention for frontier models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "source": "RSS · OpenAI News",
-      "authors": [
-        "OpenAI News"
-      ],
-      "categories": [
-        "RSS",
-        "OpenAI News"
-      ],
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "priority": 55,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "可信评测"
-      ],
-      "relevance_score": 73
-    },
-    {
       "kind": "paper",
       "track": "AI + Psychology",
       "published": "2026-08-19",
@@ -1366,6 +1419,32 @@
         "情感大模型"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-18",
+      "title": "Drones With Claws Perch on Arctic Icebergs",
+      "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. Microspines are one of many ways to enable robots to latch onto surfaces like walls and ceilings . Now roboticists in Canada are using the mini spikes to get drones to land on a more challenging, remote surface: icebergs. Like a spider, the Ice Dart can land on...",
+      "source": "RSS · IEEE Spectrum Robotics",
+      "authors": [
+        "IEEE Spectrum Robotics"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum Robotics"
+      ],
+      "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
+      "priority": 53,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -1615,34 +1694,6 @@
       "relevance_score": 56
     },
     {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-08-16",
-      "title": "Privacy-Preserving Federated Learning for Emotion Recognition: An Improved Framework with Differential Privacy - springerprofessional.de",
-      "summary": "Privacy-Preserving Federated Learning for Emotion Recognition: An Improved Framework with Differential Privacy springerprofessional.de",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUW5rZFpVRzYxeFBWM0lBRDZwQzViR0QtUldtczJUQ1M1Ym55QTdDN09mR2Qta0dJc091N25RS0RtZnZiX0tQVVhzSi1jNEhpeS1VUzFRMC01SFdCQXo5MmRuZHJKVUFRYkR1SjluZTdqS0tuMHotZllBWmExZDBUQ1ZLaWY2RUxoWEl5WlVVNE9BU3NPOTc2bmx2NGxDNXdSQk0yYXZyWmM5cnpTMHAyUGVB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Trustworthy Evaluation",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "可信评测",
-        "情感理解"
-      ],
-      "relevance_score": 85
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-08-16",
@@ -1819,35 +1870,6 @@
         "具身交互"
       ],
       "relevance_score": 62
-    },
-    {
-      "kind": "industry",
-      "track": "Open-Source AI",
-      "published": "2026-08-13",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "summary": "Selected from Hugging Face Blog's public feed for its relevance to Open-Source AI and applied AI systems.",
-      "summary_zh": "来自 Hugging Face Blog 公开订阅源，内容与 Open-Source AI 及应用型 AI 系统建设相关。",
-      "source": "RSS · Hugging Face Blog",
-      "authors": [
-        "Hugging Face Blog"
-      ],
-      "categories": [
-        "RSS",
-        "Hugging Face Blog"
-      ],
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's platform route: open tools and communities can accelerate prototypes, benchmarks, and deployable systems.",
-      "lens_zh": "对应实验室平台路线：开放工具与社区进展可加速原型、评测和可部署系统建设。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "具身交互"
-      ],
-      "relevance_score": 78
     },
     {
       "kind": "paper",
@@ -2482,6 +2504,32 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-04",
+      "title": "The Digital Mental Health Study assessed feasibility of large-scale digital sensing for depression and anxiety - nature.com",
+      "summary": "The Digital Mental Health Study assessed feasibility of large-scale digital sensing for depression and anxiety nature.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sR0ZKMDR3RUZ5Z0ZyUlFjR2xoMnZjcWo5cXJyVXlha1pZaERsejBiUWpLUUd1eDV3VS1wRGVpNzVjWWdFU0hReG5pQzhXNUtBSjhnaXdpdDhLQWxxTkw4?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-04",
       "title": "The benefits of medical AI assistance vary based on user expertise",
@@ -3067,32 +3115,6 @@
       "relevance_score": 62
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-07-27",
-      "title": "情感计算市场规模、行业份额|预测，2026-2034 - Fortune Business Insights",
-      "summary": "情感计算市场规模、行业份额|预测，2026-2034 Fortune Business Insights",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTk4WkNVWE1kUl9vendBejhqNWpseXlfLU1fQm95QS0xeVlfZldvM19LWGJmOEhoWFk1R2tib20tRXdhWmw3TlhNZjNydnVRaFF0VlcxWUVNOWh3TDRXM0pVYzVIbmNJNURRMU04bXBnRjR2ZHlNel9fMlhtLXdmdnlB?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
-    },
-    {
       "kind": "paper",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-07-27",
@@ -3153,32 +3175,6 @@
         "具身交互"
       ],
       "relevance_score": 56
-    },
-    {
-      "kind": "industry",
-      "track": "AI Research",
-      "published": "2026-07-26",
-      "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-      "summary": "Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each belief state.. As task horizons grow, LLM contexts can’t scale forever. Self-summarization enables concise, interpretable contexts, but at...",
-      "source": "RSS · BAIR Blog",
-      "authors": [
-        "BAIR Blog"
-      ],
-      "categories": [
-        "RSS",
-        "BAIR Blog"
-      ],
-      "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-      "priority": 54,
-      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
-      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
-      "capability_tags": [
-        "Affective LLMs"
-      ],
-      "capability_tags_zh": [
-        "情感大模型"
-      ],
-      "relevance_score": 72
     },
     {
       "kind": "lab",
