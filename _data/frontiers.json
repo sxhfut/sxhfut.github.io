@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T16:43:10+00:00",
-  "generated_at_beijing": "2026-08-29T00:43:10+08:00",
+  "generated_at": "2026-08-29T01:00:22+00:00",
+  "generated_at_beijing": "2026-08-29T09:00:22+08:00",
   "generated_date_beijing": "2026-08-29",
   "stats": {
     "total_items": 120,
@@ -11,18 +11,18 @@
     "github_recent_items": 3,
     "recent_signal_items": 3,
     "rss_items": 54,
-    "arxiv_items": 108,
+    "arxiv_items": 109,
     "kind_counts": {
       "community": 3,
-      "industry": 41,
+      "industry": 40,
       "lab": 1,
-      "paper": 73,
+      "paper": 74,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 61,
-      "RSS · Google News": 11,
+      "arXiv": 62,
+      "RSS · Google News": 10,
       "HFUT Faculty Blog": 7,
       "ORCID / DOI": 4,
       "RSS · OpenAI News": 3,
@@ -34,8 +34,8 @@
       "RSS · Google News Human Factors": 3,
       "RSS · Microsoft Research": 3,
       "RSS · Google 新闻": 2,
-      "RSS · Google Research": 2,
       "RSS · IEEE Spectrum Robotics": 2,
+      "RSS · Google Research": 2,
       "RSS · MIT News AI": 2,
       "China.com": 1,
       "DBLP / EMNLP": 1,
@@ -81,6 +81,58 @@
     }
   ],
   "items": [
+    {
+      "kind": "industry",
+      "track": "Affective Computing",
+      "published": "2026-08-28",
+      "title": "AGI-Powered Affective Computing Across Cyber-Physical-Social-Intelligent - Bioengineer.org",
+      "summary": "AGI-Powered Affective Computing Across Cyber-Physical-Social-Intelligent Bioengineer.org",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRnE3M19Ka2ZQRng2WHZOX1l6WjhDWFFPNjdnSzE0SndpOEdBeHRWZUpIcDgtdmZMc28tZ0dRclk3VnNqUmo0TjNlRVBGaWhUMzNaSlBDMWQ2bkdZMk5DSjh1UGxVdWJyUm9XTUk1MEM5Qk1jZm9FUm9CUEFNb3JYbThoNzBzellQREZkNnM4YUNNNXE3VGRkRVpWWXBFMU5zUHNXdnh2VUxfbGl0Q0hGSE1ULW0xTi0yWThoNEhibFJHQWdiU3BSVHVENmdZcmozbi02RGI2MUhHbzJqaGcwbHVB?oc=5",
+      "priority": 58,
+      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
+      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
+      "capability_tags": [
+        "Affective Understanding"
+      ],
+      "capability_tags_zh": [
+        "情感理解"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-28",
+      "title": "Sword Health Expands Footprint Into Digital Mental Health With Acquisition Of Headspace - insights.citeline.com",
+      "summary": "Sword Health Expands Footprint Into Digital Mental Health With Acquisition Of Headspace insights.citeline.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQU2xJa2RWb0hucnhBM0dZVVFMR2VWNXJsOExURUdDdXN5WXU0eFZiNm1Dd1FEMktPbU9LWC1kSUFRMjlnLWFDZjFhUXBDUjlycERFTjFXRGZOb2h5X1IyS1JmNzN5Mk40bGQ2NE9uRnRLbUpoSkFuN0c1ZVNSZDA4b1BiVUFuendkaUFvVTcyM29rZEJNVGtEQ1lfLW9IQ1RCU19teWY3NGRpaTVwXzkxb1F4bFlUcjVXU1diWTlGU3BSU2hLbEhxVXl3N1VXaWJscGRKUGZTNTNyZXZic2o1VkFiTTB0aTd0d0RIc3RMd0xQUmoyOUtadmtlQ3V6R1cwZkNjU21aNA?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
     {
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
@@ -187,6 +239,32 @@
         "可信评测"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-28",
+      "title": "Video Friday: Meet Microduck",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026...",
+      "source": "RSS · IEEE Spectrum Robotics",
+      "authors": [
+        "IEEE Spectrum Robotics"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum Robotics"
+      ],
+      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
+      "priority": 53,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 71
     },
     {
       "kind": "industry",
@@ -504,32 +582,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-26",
-      "title": "Deaths at Psychedelic Clinics; AI Mental Health Data; School Corporal Punishment - MedPage Today",
-      "summary": "Deaths at Psychedelic Clinics; AI Mental Health Data; School Corporal Punishment MedPage Today",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lYTBfSVdxUmhWZXFLeFBLMHFuaTlyMko5NjF6dEVrX3VXUHljUVJBSkExQXVKZWFPQlh4MXRMWWwtUWxHVVZCNFdmdnBEOC1yOEVQcnBfbm5iOTNvaW9ueU5MQ1pjRnlfWmNXWnotQjRoZw?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-26",
       "title": "LF AI & Data Foundation Welcomes AIRSEAI to Unite Open Source Embodied AI Ecosystem - Linux Foundation",
@@ -556,36 +608,10 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-26",
-      "title": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment - bohemian.com",
-      "summary": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment bohemian.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzVFSjBIRXBLMmpfc1pHWFN5YnhXdzU0VC1qNmdhbV82bzVlUlU2MnVTR0FQQTRaUWk5MXFpVDlOUFV3eW9zQ2NtelVKUUM5VE9KZkd0U01Uc21KSTBOdThkZ3RWM2ZwZDZ3cERkQ1oxamc3OGRSZWZxc1Q5N0FKemRndnB2aWp3RWotSXBUd0NhNDBmOGtCZ3J5NGE?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
-      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-26",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
       "source": "RSS · OpenAI News",
       "authors": [
         "OpenAI News"
@@ -594,7 +620,7 @@
         "RSS",
         "OpenAI News"
       ],
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "url": "https://openai.com/index/learning-never-stops",
       "priority": 55,
       "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
       "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
@@ -1556,32 +1582,6 @@
     },
     {
       "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-08-21",
-      "title": "North-America Emotion AI Market Size, Share,Trends, Growth Analysis Report, 2029 - MarketsandMarkets",
-      "summary": "North-America Emotion AI Market Size, Share,Trends, Growth Analysis Report, 2029 MarketsandMarkets",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWFEb3lFeU9aOFpUeDNyazYxa0twT0poLWFRcVB5Y2N6Rl9ZRlZuZk0wTFhBdjNkaGs5cjJXU1RiWjJhZmRDSC0xQmYzcjFxRV9scU5jZnNnS3dSRkJORjdLR1diM1VPSkl1dFFueFJFaWFWS1dPTkJFLU9IaHlEMmpGaVpiUGpSTHBuOGg2TW9wVmxZ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "Open-Source AI",
       "published": "2026-08-21",
       "title": "Measuring benchmark optimization in speech recognition",
@@ -1934,32 +1934,6 @@
         "情感大模型"
       ],
       "relevance_score": 72
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-18",
-      "title": "Drones With Claws Perch on Arctic Icebergs",
-      "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. Microspines are one of many ways to enable robots to latch onto surfaces like walls and ceilings . Now roboticists in Canada are using the mini spikes to get drones to land on a more challenging, remote surface: icebergs. Like a spider, the Ice Dart can land on...",
-      "source": "RSS · IEEE Spectrum Robotics",
-      "authors": [
-        "IEEE Spectrum Robotics"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum Robotics"
-      ],
-      "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
-      "priority": 53,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 71
     },
     {
       "kind": "paper",
@@ -3154,6 +3128,39 @@
         "具身交互"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "paper",
+      "track": "AI + Psychology",
+      "published": "2026-07-30",
+      "title": "MMHBench: A Multi-Perspective Benchmark for Mental Health Understanding in Long-Form Videos",
+      "summary": "Mental health understanding in long-form videos requires nuanced reasoning over observable behavior, interpersonal context, and latent psychological states. Existing benchmarks largely reduce this task to coarse-grained classification, providing limited insight into whether models truly understand psychological phenomena or rely on superficial correlations. To address this limitation, we introduce MMHBench, a comprehensive...",
+      "source": "arXiv",
+      "authors": [
+        "Jinpeng Hu",
+        "Erqiang Wang",
+        "Shan Wang",
+        "Zhuo Li",
+        "Peipei Song",
+        "Xun Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "url": "http://arxiv.org/abs/2607.27895",
+      "priority": 50,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Trustworthy Evaluation"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "可信评测"
+      ],
+      "relevance_score": 68
     },
     {
       "kind": "lab",
