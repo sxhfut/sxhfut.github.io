@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T01:00:22+00:00",
-  "generated_at_beijing": "2026-08-29T09:00:22+08:00",
+  "generated_at": "2026-08-29T12:39:44+00:00",
+  "generated_at_beijing": "2026-08-29T20:39:44+08:00",
   "generated_date_beijing": "2026-08-29",
   "stats": {
     "total_items": 120,
@@ -14,19 +14,19 @@
     "arxiv_items": 109,
     "kind_counts": {
       "community": 3,
-      "industry": 40,
+      "industry": 41,
       "lab": 1,
-      "paper": 74,
+      "paper": 73,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 62,
-      "RSS · Google News": 10,
+      "arXiv": 61,
+      "RSS · Google News": 11,
       "HFUT Faculty Blog": 7,
       "ORCID / DOI": 4,
-      "RSS · OpenAI News": 3,
       "Recent GitHub": 3,
+      "RSS · OpenAI News": 3,
       "RSS · VentureBeat AI": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · IEEE Spectrum AI": 3,
@@ -81,6 +81,37 @@
     }
   ],
   "items": [
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-08-29",
+      "title": "api-evangelist/slingshot-ai",
+      "summary": "Slingshot AI — independent third-party profile of a public API surface, by API Evangelist. Slingshot AI is a mental-health AI research lab building a foundation model for psychology. Its consumer product, Ash, is a voice- and text-based AI companion for... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window.",
+      "source": "Recent GitHub",
+      "authors": [
+        "api-evangelist"
+      ],
+      "categories": [
+        "GitHub"
+      ],
+      "url": "https://github.com/api-evangelist/slingshot-ai",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Affective LLMs",
+        "Multimodal Sensing",
+        "Psychological Assessment",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "情感大模型",
+        "多模态感知",
+        "心理评估",
+        "具身交互"
+      ],
+      "relevance_score": 95
+    },
     {
       "kind": "industry",
       "track": "Affective Computing",
@@ -148,32 +179,6 @@
         "Google News"
       ],
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVmczRjJPaFlfSUdZMzRrdGZablp6NjdiNG5MMW5zM1ByUE5CaVFXV005NXZJVlRjU3NCQTZnZUY4Ulhnc1hHbzdsWVVZZXZuVTQ3cnVuTGFXR0lCS3pLbERvTWN3cU56WGdBbC13S1JXREJ6X2lYUFhISndBMk0wTkx4VWh6Tk1mcnBDbXNQeHRnTXF2cFNtaGppX3dJbkJLYlVyNnRjd2JJcWhNa3FqZ3lQU09XNHVaTWFNQktmZ1BIdTJlVVRHbmt3VWFyQklDSXdkVHg0UjZQSXdV?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-28",
-      "title": "Check-Cap merges with MBody AI, closes $10M offering in embodied AI pivot - Dealroom",
-      "summary": "Check-Cap merges with MBody AI, closes $10M offering in embodied AI pivot Dealroom",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjBfUmdGdFlGaHc2M2lTeUdGSkg5eGtTX01lS0RXUjYtZnJXbzJoWFFmLUlMb3FTWFd4czJwYVppNlVObmljMVRYMmE3SXFaQ0VHNDlTd3Ryb19WQUxzRkZMVVBibUJhcWtrTUpPNWhpaEVRTF93eHJaaGdPTUNPdkFSbDBfMG04VTJXdWRqYVlpRGVfZlA3V1pKcGY0MmNYc0VIT2V4a3A?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -294,6 +299,32 @@
     },
     {
       "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-08-27",
+      "title": "Embodied AI vs. physical AI: Why their differences matter - TechTarget",
+      "summary": "Embodied AI vs. physical AI: Why their differences matter TechTarget",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWY5ejZOYU9HbFZ6b1ZGb1o0ZWtGeEJndE5iTFNvWThBLWhsakRvQnJRdnhpazJ2VUZlM0ZSQ3JMU1VTMUMzM05OUDJHUXVQSDhrSEU0enBSNXpJM3haM0pldlZiVWRvSTc3VE5ud0x0bmxxQ2pZRmU3emtJcmh5Nm5PZDJOX2dKXzhXU0pvcTdOSjA?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-08-27",
       "title": "AI心理健康医疗能够帮助人们，还是会引发更多问题？ - 电子工程专辑",
@@ -318,39 +349,6 @@
         "AI + Psychology"
       ],
       "relevance_score": 75
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-08-27",
-      "title": "api-evangelist/slingshot-ai",
-      "summary": "Slingshot AI is a mental-health AI research lab building a foundation model for psychology. Its consumer product, Ash, is a voice- and text-based AI companion for mental health support, trained on behavioral-health approaches including CBT, DBT, ACT,... Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window.",
-      "source": "Recent GitHub",
-      "authors": [
-        "api-evangelist"
-      ],
-      "categories": [
-        "GitHub"
-      ],
-      "url": "https://github.com/api-evangelist/slingshot-ai",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Psychological Assessment",
-        "Mind-Body Support",
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "心理评估",
-        "身心支持",
-        "具身交互"
-      ],
-      "relevance_score": 100
     },
     {
       "kind": "industry",
@@ -554,34 +552,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-26",
-      "title": "The Hidden Risks of AI Therapy: A Behavioral Health Specialist Speaks Out - InForum",
-      "summary": "The Hidden Risks of AI Therapy: A Behavioral Health Specialist Speaks Out InForum",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EdEkxWDZtQkRNbzcyTi1TZ1BoS2t2WHZseEVMMmp6NVhNNkxlVFM2ZFE5blFTdlMwWmFuOVBlRGxiaG0wQnI4OG9PRnNkZG8?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "身心支持",
-        "可信评测"
-      ],
-      "relevance_score": 82
-    },
-    {
-      "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-08-26",
       "title": "LF AI & Data Foundation Welcomes AIRSEAI to Unite Open Source Embodied AI Ecosystem - Linux Foundation",
@@ -605,6 +575,32 @@
         "具身交互"
       ],
       "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-26",
+      "title": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment - bohemian.com",
+      "summary": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment bohemian.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzVFSjBIRXBLMmpfc1pHWFN5YnhXdzU0VC1qNmdhbV82bzVlUlU2MnVTR0FQQTRaUWk5MXFpVDlOUFV3eW9zQ2NtelVKUUM5VE9KZkd0U01Uc21KSTBOdThkZ3RWM2ZwZDZ3cERkQ1oxamc3OGRSZWZxc1Q5N0FKemRndnB2aWp3RWotSXBUd0NhNDBmOGtCZ3J5NGE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -1269,6 +1265,32 @@
         "情感理解"
       ],
       "relevance_score": 56
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-23",
+      "title": "The Wild West of AI Therapy Laws— The Wall Street Journal, What’s News - Geisel School of Medicine at Dartmouth",
+      "summary": "The Wild West of AI Therapy Laws— The Wall Street Journal, What’s News Geisel School of Medicine at Dartmouth",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUEdmeHp2U1pscXY3YVlGR1VTVkVVVTdaZUtvU21SeEkzTjM5ZGlTRWtYc3ZlNlFRTTczY210S09FdmszMUFoaFp5UjVCR3lhWkJEcnVqOHdlRTdNeWZaV0ZYN2NjS1pnaVFNNDJiZFA5QUdCQ1hxamNxN2NXUUdfcmw1YnpIQXVhOVRzdThPbXZQVTZObFRIdFZlcVZvZE9kMzRMX1JhdHFRWmNPN3pn?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "paper",
@@ -3128,39 +3150,6 @@
         "具身交互"
       ],
       "relevance_score": 72
-    },
-    {
-      "kind": "paper",
-      "track": "AI + Psychology",
-      "published": "2026-07-30",
-      "title": "MMHBench: A Multi-Perspective Benchmark for Mental Health Understanding in Long-Form Videos",
-      "summary": "Mental health understanding in long-form videos requires nuanced reasoning over observable behavior, interpersonal context, and latent psychological states. Existing benchmarks largely reduce this task to coarse-grained classification, providing limited insight into whether models truly understand psychological phenomena or rely on superficial correlations. To address this limitation, we introduce MMHBench, a comprehensive...",
-      "source": "arXiv",
-      "authors": [
-        "Jinpeng Hu",
-        "Erqiang Wang",
-        "Shan Wang",
-        "Zhuo Li",
-        "Peipei Song",
-        "Xun Yang"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "url": "http://arxiv.org/abs/2607.27895",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "可信评测"
-      ],
-      "relevance_score": 68
     },
     {
       "kind": "lab",
