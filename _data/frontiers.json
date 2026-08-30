@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T01:11:52+00:00",
-  "generated_at_beijing": "2026-08-30T09:11:52+08:00",
+  "generated_at": "2026-08-30T12:40:37+00:00",
+  "generated_at_beijing": "2026-08-30T20:40:37+08:00",
   "generated_date_beijing": "2026-08-30",
   "stats": {
     "total_items": 120,
@@ -84,7 +84,7 @@
     {
       "kind": "community",
       "track": "AI + Psychology",
-      "published": "2026-08-29",
+      "published": "2026-08-30",
       "title": "rein98/PsyChat",
       "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
       "source": "Recent GitHub",
