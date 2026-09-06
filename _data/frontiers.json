@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T12:41:13+00:00",
-  "generated_at_beijing": "2026-09-05T20:41:13+08:00",
-  "generated_date_beijing": "2026-09-05",
+  "generated_at": "2026-09-06T12:41:01+00:00",
+  "generated_at_beijing": "2026-09-06T20:41:01+08:00",
+  "generated_date_beijing": "2026-09-06",
   "stats": {
     "total_items": 120,
     "max_items": 120,
@@ -26,17 +26,16 @@
       "HFUT Faculty Blog": 7,
       "ORCID / DOI": 4,
       "RSS · MIT Technology Review AI": 3,
+      "RSS · IEEE Spectrum Robotics": 3,
       "RSS · OpenAI News": 3,
       "RSS · Hugging Face Blog": 3,
-      "RSS · IEEE Spectrum Robotics": 3,
       "RSS · Google Research": 3,
       "RSS · Microsoft Research": 3,
       "RSS · IEEE Spectrum AI": 3,
       "Recent GitHub": 2,
       "RSS · Google 新闻": 2,
-      "RSS · MIT News AI": 1,
+      "RSS · MIT News AI": 2,
       "RSS · ScienceDaily Mind & Brain": 1,
-      "RSS · Google News School Mental Health": 1,
       "RSS · Google News Human Factors": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
@@ -85,30 +84,56 @@
     {
       "kind": "community",
       "track": "AI + Psychology",
-      "published": "2026-09-05",
-      "title": "rein98/PsyChat",
-      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "published": "2026-09-06",
+      "title": "PrasannaMalatesha/psychology-maverick",
+      "summary": "Retrieval-grounded, citation-first AI assistant for psychology & mental health — informational only, crisis-first. Portfolio-grade production stack (RAG + pgvector + LiteLLM gateway). Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: HTML.",
       "source": "Recent GitHub",
       "authors": [
-        "rein98"
+        "PrasannaMalatesha"
       ],
       "categories": [
         "GitHub",
-        "Python"
+        "HTML"
       ],
-      "url": "https://github.com/rein98/PsyChat",
+      "url": "https://github.com/PrasannaMalatesha/psychology-maverick",
       "priority": 56,
       "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
       "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support"
+        "Affective LLMs",
+        "Psychological Assessment"
       ],
       "capability_tags_zh": [
-        "心理评估",
-        "身心支持"
+        "情感大模型",
+        "心理评估"
       ],
       "relevance_score": 83
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-09-05",
+      "title": "滨海在线体育亮相2026世界人工智能大会：情感计算重塑文化符号新纪元 - 体坛",
+      "summary": "滨海在线体育亮相2026世界人工智能大会：情感计算重塑文化符号新纪元 体坛",
+      "source": "RSS · Google 新闻",
+      "authors": [
+        "Google 新闻"
+      ],
+      "categories": [
+        "RSS",
+        "Google 新闻"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMcXFRODlqQzJrUlNsTUxLSExubHhtY2V0MkxoQWFPTG9XQ3BJODRSa01qVWs2QWYzT2NaaFdBeHZKamQxNXB6cC02ZEVaTWtJ?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "AI + Psychology"
+      ],
+      "capability_tags_zh": [
+        "AI + Psychology"
+      ],
+      "relevance_score": 75
     },
     {
       "kind": "industry",
@@ -140,8 +165,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-09-04",
-      "title": "AGIBOT Showcases Embodied AI Robots in Action at IFA 2026 - AgiBot",
-      "summary": "AGIBOT Showcases Embodied AI Robots in Action at IFA 2026 AgiBot",
+      "title": "Embodied AI Job Postings Surge 6 to 7 Times, Talent War Heats Up, but Salaries Still Lag Behind Large Models - Gasgoo",
+      "summary": "Embodied AI Job Postings Surge 6 to 7 Times, Talent War Heats Up, but Salaries Still Lag Behind Large Models Gasgoo",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -150,7 +175,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01cEFRWHlwbkpPRzdhZHZZMWNwTS16OUIyOEpqNEtTdjhxWEJKUkZ2Z3FrTnlIc0VSMjd1cUtlcmhDVXJWOWFTSHotT0RQMlh4bDRvS2J0ei0tbHdOVmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMWhCYWlaT3NKRWx1N0doeWVqU0pxa0J1SlRMRk84MWhHVndackNKYjV2NTZFWDJ4Ukd3c2FaS0Y5WG9abm9rSTJPb09ZRmh4bnRjMEhnNHhOX0szTzkyRS16Z3JNaWRMWWp1eklCbWdSUzlOaDZoTS1JTUFUbnhvbnhkUGt4WlpDdDlXMk5iTENtOWRZVnBvZVhBNXQ0cHU3bEktWEpxU2U5UHlxc1ZOLWs1cTM0OEhscUotQ2Nzc09FS3RsMU1TUlVRWFFCSENDd29GVkFVQmxxWTgyOXdrT2tTWTVicDQycF96WXdHZ1R6UXlidThobXd5aTE?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -166,8 +191,8 @@
       "kind": "industry",
       "track": "Embodied Emotional Intelligence",
       "published": "2026-09-04",
-      "title": "Embodied AI Job Postings Surge 6 to 7 Times, Talent War Heats Up, but Salaries Still Lag Behind Large Models - Gasgoo",
-      "summary": "Embodied AI Job Postings Surge 6 to 7 Times, Talent War Heats Up, but Salaries Still Lag Behind Large Models Gasgoo",
+      "title": "AGIBOT Showcases Embodied AI Robots in Action at IFA 2026 - AgiBot",
+      "summary": "AGIBOT Showcases Embodied AI Robots in Action at IFA 2026 AgiBot",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -176,7 +201,7 @@
         "RSS",
         "Google News"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMWhCYWlaT3NKRWx1N0doeWVqU0pxa0J1SlRMRk84MWhHVndackNKYjV2NTZFWDJ4Ukd3c2FaS0Y5WG9abm9rSTJPb09ZRmh4bnRjMEhnNHhOX0szTzkyRS16Z3JNaWRMWWp1eklCbWdSUzlOaDZoTS1JTUFUbnhvbnhkUGt4WlpDdDlXMk5iTENtOWRZVnBvZVhBNXQ0cHU3bEktWEpxU2U5UHlxc1ZOLWs1cTM0OEhscUotQ2Nzc09FS3RsMU1TUlVRWFFCSENDd29GVkFVQmxxWTgyOXdrT2tTWTVicDQycF96WXdHZ1R6UXlidThobXd5aTE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01cEFRWHlwbkpPRzdhZHZZMWNwTS16OUIyOEpqNEtTdjhxWEJKUkZ2Z3FrTnlIc0VSMjd1cUtlcmhDVXJWOWFTSHotT0RQMlh4bDRvS2J0ei0tbHdOVmc?oc=5",
       "priority": 58,
       "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
       "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
@@ -237,6 +262,32 @@
       ],
       "capability_tags_zh": [
         "身心支持"
+      ],
+      "relevance_score": 71
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-09-04",
+      "title": "Video Friday: Digit Redecorates",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026...",
+      "source": "RSS · IEEE Spectrum Robotics",
+      "authors": [
+        "IEEE Spectrum Robotics"
+      ],
+      "categories": [
+        "RSS",
+        "IEEE Spectrum Robotics"
+      ],
+      "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+      "priority": 53,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
       ],
       "relevance_score": 71
     },
@@ -629,32 +680,6 @@
       "relevance_score": 85
     },
     {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-09-02",
-      "title": "Why the AI therapy law will not protect your patients - KevinMD.com",
-      "summary": "Why the AI therapy law will not protect your patients KevinMD.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTZiRF8wb2UwWUNUR2tWYVVhQzB3eUpZSXhKWUpySzR0N1pFUmZSZnRpM18zSmpFR3FRbFlJRHZqVEFVcGtydFROamI3dlpZSV9HNEZZNm1wUDVGc0NubThhRUx0TTYxR3RjOXJXVkJRRWl1ZzR3LU8wY1NQYllZc0VzTXlGWGNPQTlvTG1WNA?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
-    },
-    {
       "kind": "paper",
       "track": "Ubiquitous Psychological Computing",
       "published": "2026-09-02",
@@ -891,32 +916,6 @@
         "情感理解"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-31",
-      "title": "New digital mental health program reaching out to rural Kansas - Hays Post",
-      "summary": "New digital mental health program reaching out to rural Kansas Hays Post",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcHAwcWlyN2M1Ui1IeFRFNVdyUnB0STVhbEwyWUI2Ui00SzJheWFGTjktd0FyVHdhamRQbzVNS1VqeUVzMzh3TEVoU2djWTBMa2JZOVdhcU9mZzRwSmhvMlpzVnhhbWY2ek9yLWF6YU8?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 79
     },
     {
       "kind": "community",
@@ -1454,32 +1453,6 @@
       "relevance_score": 65
     },
     {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-08-28",
-      "title": "Video Friday: Meet Microduck",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026...",
-      "source": "RSS · IEEE Spectrum Robotics",
-      "authors": [
-        "IEEE Spectrum Robotics"
-      ],
-      "categories": [
-        "RSS",
-        "IEEE Spectrum Robotics"
-      ],
-      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
-      "priority": 53,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 71
-    },
-    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-08-28",
@@ -1539,33 +1512,6 @@
         "心理评估"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-27",
-      "title": "AI心理健康医疗能够帮助人们，还是会引发更多问题？ - 电子工程专辑",
-      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
-      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tTjhYZHlUeURYRXhwLXRtN0N2RktIRWpReEt2OU5xQzJvOXgtbm9zYTZmR3NnR0thRmZlLTZFekpldnUtQmpnclFORlhPRUFfRTE0?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
     },
     {
       "kind": "paper",
@@ -1635,8 +1581,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-26",
-      "title": "Are Universal Digital Mental Health Interventions Effective? - medscape.com",
-      "summary": "Are Universal Digital Mental Health Interventions Effective? medscape.com",
+      "title": "Are Universal Digital Mental Health Interventions Effective? - Medscape",
+      "summary": "Are Universal Digital Mental Health Interventions Effective? Medscape",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -1658,6 +1604,34 @@
         "身心支持"
       ],
       "relevance_score": 85
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-26",
+      "title": "Limbic selected to FDA pilot, will test voice AI therapy with Medicare enrollees - Fierce Healthcare",
+      "summary": "Limbic selected to FDA pilot, will test voice AI therapy with Medicare enrollees Fierce Healthcare",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlJSNGpfeGxtM1F5UGNlYVJBVnlTUU9nX3g5cW5iMVRfcEhlWUdVdElyeTBBTmtJY003OHlSNnFzRkZwc0tZRHJqN2VxdVJmbk9IRnA3S2dHVDhXWW5zVElPU0RyUnFoVjFDcWlkNVBmQTJSMFVmNUZnNFRQZ040R1ExblJrWkh6QVEzcGVPRkxMN2VHS21ESE9UR3M1ZGppd3RXNS1TSlFMNmQz?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Multimodal Sensing",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "多模态感知",
+        "身心支持"
+      ],
+      "relevance_score": 82
     },
     {
       "kind": "industry",
@@ -1737,32 +1711,6 @@
         "情感大模型"
       ],
       "relevance_score": 71
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-08-25",
-      "title": "PCCD School Safety Grants: Funding, Eligibility & Uses - Omnilert",
-      "summary": "PCCD School Safety Grants: Funding, Eligibility & Uses Omnilert",
-      "source": "RSS · Google News School Mental Health",
-      "authors": [
-        "Google News School Mental Health"
-      ],
-      "categories": [
-        "RSS",
-        "Google News School Mental Health"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iOG5wU3dsdGpoelF5Ti10dTBBOU9mV0VlNVgtSU1RSnVhRFdndFpienRady1xOGFnNDFGWVpwUWVGTW9WSmdRS3VoWE1MaHM4QVA4ZWVIZlN3MFZGU3l0Y01lUUJkY1FRYS1SeTJlZi1paTREUU9iNg?oc=5",
-      "priority": 59,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "可信评测"
-      ],
-      "relevance_score": 77
     },
     {
       "kind": "industry",
@@ -3140,6 +3088,58 @@
         "情感理解"
       ],
       "relevance_score": 65
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-04",
+      "title": "The Digital Mental Health Study assessed feasibility of large-scale digital sensing for depression and anxiety - Nature",
+      "summary": "The Digital Mental Health Study assessed feasibility of large-scale digital sensing for depression and anxiety Nature",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sR0ZKMDR3RUZ5Z0ZyUlFjR2xoMnZjcWo5cXJyVXlha1pZaERsejBiUWpLUUd1eDV3VS1wRGVpNzVjWWdFU0hReG5pQzhXNUtBSjhnaXdpdDhLQWxxTkw4?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
+      "track": "AI Research",
+      "published": "2026-08-04",
+      "title": "The benefits of medical AI assistance vary based on user expertise",
+      "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+      "source": "RSS · MIT News AI",
+      "authors": [
+        "MIT News AI"
+      ],
+      "categories": [
+        "RSS",
+        "MIT News AI"
+      ],
+      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "priority": 54,
+      "lens": "Relevant to MAC-Lab's research watch: it helps connect model progress, evaluation practice, and human-centered AI systems.",
+      "lens_zh": "对应实验室前沿观察：帮助连接模型进展、评测实践和以人为中心的 AI 系统。",
+      "capability_tags": [
+        "Affective LLMs"
+      ],
+      "capability_tags_zh": [
+        "情感大模型"
+      ],
+      "relevance_score": 72
     },
     {
       "kind": "lab",
