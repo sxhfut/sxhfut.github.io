@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T01:10:54+00:00",
-  "generated_at_beijing": "2026-09-16T09:10:54+08:00",
+  "generated_at": "2026-09-16T12:47:30+00:00",
+  "generated_at_beijing": "2026-09-16T20:47:30+08:00",
   "generated_date_beijing": "2026-09-16",
   "stats": {
     "total_items": 120,
@@ -14,29 +14,29 @@
     "arxiv_items": 107,
     "kind_counts": {
       "community": 3,
-      "industry": 44,
+      "industry": 45,
       "lab": 1,
-      "paper": 70,
+      "paper": 69,
       "standard": 1,
       "translation": 1
     },
     "source_counts": {
-      "arXiv": 58,
+      "arXiv": 57,
       "RSS · Google News": 10,
       "HFUT Faculty Blog": 7,
       "ORCID / DOI": 4,
+      "RSS · Google 新闻": 3,
       "Recent GitHub": 3,
       "RSS · Hugging Face Blog": 3,
       "RSS · IEEE Spectrum Robotics": 3,
-      "RSS · Google 新闻": 3,
       "RSS · OpenAI News": 3,
       "RSS · MIT News AI": 3,
       "RSS · IEEE Spectrum AI": 3,
       "RSS · MIT Technology Review AI": 3,
       "RSS · Google News Human Factors": 3,
+      "RSS · Google News School Mental Health": 3,
       "RSS · ScienceDaily Mind & Brain": 3,
       "RSS · Google Research": 3,
-      "RSS · Google News School Mental Health": 2,
       "RSS · Microsoft Research": 1,
       "China.com": 1,
       "DBLP / EMNLP": 1,
@@ -84,29 +84,57 @@
   "items": [
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-09-15",
-      "title": "Companion robots are embodied AI's first real market - KVIA",
-      "summary": "Companion robots are embodied AI's first real market KVIA",
-      "source": "RSS · Google News",
+      "track": "AI + Psychology",
+      "published": "2026-09-16",
+      "title": "AI解构“m6米乐下载软件”事件：情感计算与虚拟现实重塑体育叙事 - 体坛加",
+      "summary": "AI解构“m6米乐下载软件”事件：情感计算与虚拟现实重塑体育叙事 体坛加",
+      "source": "RSS · Google 新闻",
       "authors": [
-        "Google News"
+        "Google 新闻"
       ],
       "categories": [
         "RSS",
-        "Google News"
+        "Google 新闻"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcGczWUdtVnJqdTdDaEw4VnZjZ00wU0R2Rkx0ajVfWFRraW9xMmx0eGNiQ0J5RlpQYVpWRi1PWXBKQXktZ1FjdTA3dUJpWWo4eGphTm5aX2hsZGlZRG5KYkNtVVdEQ3RFdWtBRlFvQ3ppX012MXhCSjQxMkZSb3hvTE5FSEt5NXVJenRfRHFraGI2ak56M0JZMUx0NWFmdFNEdVBWLTR3WXlweXc?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Ed0txUFpvQTdtMHd6UTA1X0dCT2pLdUpGdzZ5b3ZlbDFOSmluRzV5dzJ5aDFGQkdOcnpPSGJlQjFYOENFRFNzdXJsVm82SlVNZFdr?oc=5",
+      "priority": 57,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
       "capability_tags": [
-        "Embodied Interaction"
+        "AI + Psychology"
       ],
       "capability_tags_zh": [
-        "具身交互"
+        "AI + Psychology"
       ],
-      "relevance_score": 79
+      "relevance_score": 75
+    },
+    {
+      "kind": "community",
+      "track": "AI + Psychology",
+      "published": "2026-09-16",
+      "title": "rein98/PsyChat",
+      "summary": "🧠 Enhance your mental health with PsyChat, an AI-powered therapy assistant using REBT principles for personalized support and guidance. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: Python.",
+      "source": "Recent GitHub",
+      "authors": [
+        "rein98"
+      ],
+      "categories": [
+        "GitHub",
+        "Python"
+      ],
+      "url": "https://github.com/rein98/PsyChat",
+      "priority": 56,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 83
     },
     {
       "kind": "industry",
@@ -307,32 +335,6 @@
         "AI + Psychology"
       ],
       "relevance_score": 75
-    },
-    {
-      "kind": "community",
-      "track": "AI + Psychology",
-      "published": "2026-09-14",
-      "title": "RISHAB-999/Therapiques",
-      "summary": "A modern full-stack mental health platform featuring doctor appointment booking, real-time WebRTC video consultations, live chat, interactive psychology bookstore & library, AI assistant, and Razorpay/Stripe payments. Recent GitHub repository activity related to AI psychology mental health, updated within the latest 30-day window. Primary language: JavaScript.",
-      "source": "Recent GitHub",
-      "authors": [
-        "RISHAB-999"
-      ],
-      "categories": [
-        "GitHub",
-        "JavaScript"
-      ],
-      "url": "https://github.com/RISHAB-999/Therapiques",
-      "priority": 56,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Psychological Assessment"
-      ],
-      "capability_tags_zh": [
-        "心理评估"
-      ],
-      "relevance_score": 77
     },
     {
       "kind": "industry",
@@ -804,6 +806,32 @@
       "relevance_score": 82
     },
     {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-09-13",
+      "title": "China’s Data Regulator Plans Standards Push for Embodied AI - Bloomberg.com",
+      "summary": "China’s Data Regulator Plans Standards Push for Embodied AI Bloomberg.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXNLVDluQlM5RlpUb1RyazQ0bTl0eHc3dWh1RnVtMVBqakFJWWVIbE1LZkNCQ3JqS1RfanVDdkpGZXB0YlNWcFdtZWx0ZU9fQjdGVmhCa3BxRHVDbWE1ejdQUjdOSVl1bllramFmYXprQkF4NzdaaFdBTUo4TWxfTFQ2VTdQcXhTQ1h2WU5tRVZ5bmI1cFJqQ0x0Y1ZlRlFHckNId0tCU3pocy13UzZj?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-09-13",
@@ -868,32 +896,6 @@
         "具身交互"
       ],
       "relevance_score": 65
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-09-12",
-      "title": "情感计算与数字记忆的融合 | AG官方网站登录入口正式发布：以AI情感重塑纪念体验 - 体坛加",
-      "summary": "情感计算与数字记忆的融合 | AG官方网站登录入口正式发布：以AI情感重塑纪念体验 体坛加",
-      "source": "RSS · Google 新闻",
-      "authors": [
-        "Google 新闻"
-      ],
-      "categories": [
-        "RSS",
-        "Google 新闻"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZSXBjbkFzNk52TGdENjV1M3AzS0o0VG0yakJKdk9zUkg5eUpLYi1EeWhISHQ0bF80TWFZZzZMbmlhSHhWU2dZUWJWcnlzUWNT?oc=5",
-      "priority": 57,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "AI + Psychology"
-      ],
-      "capability_tags_zh": [
-        "AI + Psychology"
-      ],
-      "relevance_score": 75
     },
     {
       "kind": "paper",
@@ -1234,36 +1236,6 @@
     },
     {
       "kind": "industry",
-      "track": "AI + Mind-Body Health",
-      "published": "2026-09-10",
-      "title": "AI mental health support raises questions about benefits, risks - Yahoo",
-      "summary": "AI mental health support raises questions about benefits, risks Yahoo",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEtYZEtadm03amFhUkZpUGQ5VFJxdGlOTW00ZW9lSFFuRmgtSmlUM1Z0SVh3RVZNUlV3dXRpc1FWVTB2YnhuQWpReHc4QkVmV2xRVjkzUGF1M3FrWGk3TUhPMXVveWdoN093NTdkTjRpRWM2bGRHWDJQTlhuLUFsU2FUNGV0anE3TUl4aWxB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
-      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
-      "capability_tags": [
-        "Psychological Assessment",
-        "Mind-Body Support",
-        "Trustworthy Evaluation"
-      ],
-      "capability_tags_zh": [
-        "心理评估",
-        "身心支持",
-        "可信评测"
-      ],
-      "relevance_score": 91
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-09-10",
       "title": "Risks may lurk within humanity gap of AI ‘therapy’ chatbots - KXAN Austin",
@@ -1552,6 +1524,34 @@
         "Google News School Mental Health"
       ],
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXdGai1UeXZfaFFhZ2IzUjdsQk80blpuNlVfemxKdEhkM3pXeWVVb0l0dEY3dmM5SU9IQnZzVzQtNUp6czlsbncyQkNBeF9xTmFJeDRQNC1EbElfWThwMm1yeWhEZkdHTjVFYlZVWFlMY3NVS3lUSnZrRF9MczhCdUlxZWk1SjFtcFBreVlFZjh3R0pONmpjRXowbmpyRmlwekdaa3ZQbDFuakUtR0JZdTZRbDBLQVB0Mm1SNmluWEVPRTZ2bzJSU0FB?oc=5",
+      "priority": 59,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment",
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "心理评估",
+        "身心支持"
+      ],
+      "relevance_score": 86
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-09-09",
+      "title": "‘I’m listening hard’: Teens increasingly turn to AI chatbots for mental health support - EdSource",
+      "summary": "‘I’m listening hard’: Teens increasingly turn to AI chatbots for mental health support EdSource",
+      "source": "RSS · Google News School Mental Health",
+      "authors": [
+        "Google News School Mental Health"
+      ],
+      "categories": [
+        "RSS",
+        "Google News School Mental Health"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHb1lQUXdkQ1dObDRNQ1JQVWd1MVZYNENIa09rZVh5eERRWHh1MGcwQk8tVFEtRHVlOFFPM2RwbmtTeF9TdzVKU01OVmJyRUtyVmZNNHRYdXBZQ045R0hvR0hRWHhEd0pSVk1J0gFzQVVfeXFMTktGT1V4aHIwRzJZUk4xNlNlSm9McG40RXc3UkUyMmZpWHhLNGRrMUN6WXlUQVBGRHQ2S2xMTG1nUC04N3pWNEs1dVVwSXJ4Ry1aRVg3enlYcERmZGdvLWVuQjBDck9HM1MyenNYdnJkeGc0cw?oc=5",
       "priority": 59,
       "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
       "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
@@ -2888,6 +2888,32 @@
     },
     {
       "kind": "industry",
+      "track": "AI + Mind-Body Health",
+      "published": "2026-08-27",
+      "title": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor - kff.org",
+      "summary": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor kff.org",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSm1PRTFrQlc5bjUzM3ZpRHhJZXJoRjFHVkRGM21fb3NvQUhpd3UtYkEyRy05S20wQ3pyYWhUaTRJWFBtNHFMa2M1M09HRUs5OE5uVjZVcmwxeVg0bWFNc3RqbHd3QkVoUC1wVUJJa1kxSWlqdG5qNmhVSDNfb1BnSWRtRVJORlFxaDhoY19GODc1cGdGbFFicEpmbjQ0dW1ib3dZbExGcjdDNlpsejhyaHZyT19YZlVJOTFUNWk2bkJVUEp2aVU2VDFHV1JjWDdI?oc=5",
+      "priority": 58,
+      "lens": "Relevant to mind-body health platforms: it can inform screening, monitoring, intervention, and deployable mental-care systems.",
+      "lens_zh": "对应 AI 身心健康平台：可为筛查、监测、干预和可部署心理关护系统提供参考。",
+      "capability_tags": [
+        "Psychological Assessment"
+      ],
+      "capability_tags_zh": [
+        "心理评估"
+      ],
+      "relevance_score": 79
+    },
+    {
+      "kind": "industry",
       "track": "AI Research",
       "published": "2026-08-26",
       "title": "GlucoFM: Foundation model for continuous glucose monitoring",
@@ -2912,6 +2938,32 @@
         "情感大模型"
       ],
       "relevance_score": 72
+    },
+    {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-08-25",
+      "title": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment - bohemian.com",
+      "summary": "AI: Final Weapon or Final Healer? Cincinnatus Hibbard’s AI Therapy Experiment bohemian.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzVFSjBIRXBLMmpfc1pHWFN5YnhXdzU0VC1qNmdhbV82bzVlUlU2MnVTR0FQQTRaUWk5MXFpVDlOUFV3eW9zQ2NtelVKUUM5VE9KZkd0U01Uc21KSTBOdThkZ3RWM2ZwZDZ3cERkQ1oxamc3OGRSZWZxc1Q5N0FKemRndnB2aWp3RWotSXBUd0NhNDBmOGtCZ3J5NGE?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
     },
     {
       "kind": "industry",
@@ -3096,68 +3148,6 @@
         "情感理解"
       ],
       "relevance_score": 97
-    },
-    {
-      "kind": "industry",
-      "track": "Affective Computing",
-      "published": "2026-08-24",
-      "title": "Affective Computing Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
-      "summary": "Affective Computing Market Size, Industry Share, Forecast, 2034 Fortune Business Insights",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Hbi1YSUt4ZVY4TUN3RjYxbFV1OHZxODl6MU0zWWlJQ2pWOTh5UmZHUVVpMmdPVDU0OVdoT1oyTE5rUFI0QU5HMmVzYkJyOGtIQVZKUlVnZG9RaENoR1FuZ0tKYmdRY01rVzYzenY5UGI5cFZybm1fdWtzMlE4QQ?oc=5",
-      "priority": 58,
-      "lens": "Relevant to the lab's affective-computing foundation: it strengthens emotion perception, affective semantics, and interaction understanding.",
-      "lens_zh": "对应实验室情感计算根基：强化情绪感知、情感语义和交互理解能力。",
-      "capability_tags": [
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感理解"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "paper",
-      "track": "Multimodal Affective Computing",
-      "published": "2026-08-24",
-      "title": "AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations",
-      "summary": "AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely on non-verbal cues aligned...",
-      "source": "arXiv",
-      "authors": [
-        "Nishanth Chidambaram",
-        "Kaustubh Paliwal",
-        "Kayla Hom",
-        "Shaoze Zhou",
-        "Chen Chen",
-        "Manas Satish Bedmutha"
-      ],
-      "categories": [
-        "cs.HC"
-      ],
-      "url": "http://arxiv.org/abs/2608.22702",
-      "priority": 50,
-      "lens": "Relevant to MAC-Lab's original multimedia affective computing identity: it connects speech, vision, behavior, physiology, and context.",
-      "lens_zh": "对应 MAC-Lab 多模态情感计算本源：连接语音、视觉、行为、生理与场景信息。",
-      "capability_tags": [
-        "Affective LLMs",
-        "Multimodal Sensing",
-        "Mind-Body Support",
-        "Affective Understanding"
-      ],
-      "capability_tags_zh": [
-        "情感大模型",
-        "多模态感知",
-        "身心支持",
-        "情感理解"
-      ],
-      "relevance_score": 74
     },
     {
       "kind": "lab",
