@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T01:10:48+00:00",
-  "generated_at_beijing": "2026-09-17T09:10:48+08:00",
+  "generated_at": "2026-09-17T12:48:38+00:00",
+  "generated_at_beijing": "2026-09-17T20:48:38+08:00",
   "generated_date_beijing": "2026-09-17",
   "stats": {
     "total_items": 120,
@@ -83,6 +83,32 @@
   ],
   "items": [
     {
+      "kind": "industry",
+      "track": "AI + Psychology",
+      "published": "2026-09-17",
+      "title": "The Dead Silence of AI Therapy - The Atlantic",
+      "summary": "The Dead Silence of AI Therapy The Atlantic",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGpWQU96Q3p4aVlXM1hSWHBaYXBPR0w3S2t5NVN3bnBiTXFpWlZwN3pTWUw1R0Q0WC0zLWZ0ZkcyQWVDckliRUlqTUpJVGN1TlFfUEI5ZzVqOC1CODkzZ3dqSDk1cnFvOVBaclhmTGpBSVBHclBacFJiMDRBakU4LXZNR3ZkdFQtS29GYXVR?oc=5",
+      "priority": 58,
+      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
+      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
+      "capability_tags": [
+        "Mind-Body Support"
+      ],
+      "capability_tags_zh": [
+        "身心支持"
+      ],
+      "relevance_score": 76
+    },
+    {
       "kind": "community",
       "track": "AI + Psychology",
       "published": "2026-09-17",
@@ -138,62 +164,11 @@
     },
     {
       "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-09-16",
-      "title": "Embodied AI launches to automate European factories, led by Faber VC - app.dealroom.co",
-      "summary": "Embodied AI launches to automate European factories, led by Faber VC app.dealroom.co",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkxVdTJHWVpLY1I5eXV4X29keTJqRENSSnp5MmZGalMxS204Y2FmLTBGSnFMM21NRVA0MnBxRUpTUVl0ZHROUmpwaHpURFk5bWhzNVJaeFhZZkptUlZNVlJEODBWZHJjakRaSzl0ekV0S0VaS1ZxODVjVTRSU0FlUkZLLUhGU25VQzJuNGF4OWdiS2Nha054NVRZNktDeVFXbnVB?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "Embodied Emotional Intelligence",
-      "published": "2026-09-16",
-      "title": "Lens Technology to Invest 200 Million Yuan in Embodied AI Fund - moomoo.com",
-      "summary": "Lens Technology to Invest 200 Million Yuan in Embodied AI Fund moomoo.com",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeFFQVG5ZSkllVW5weTNEV3cteWJpMnFCbGZyWU5qQWYzSHAzYXphanF6LVREQXdXRkpXRW5KOHJTTnhDMUNqRGtELVcySzFoalJZV3hMbXBDRGJ5QUpENXpnUkRDdlpIbTJnaHlMTEhzajBvbWppSjdlT3A4SlRWVEtkeC10ci1maHFWcFFlc2NydEpOQ24ydFJfN2wxcTR1?oc=5",
-      "priority": 58,
-      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
-      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
-      "capability_tags": [
-        "Embodied Interaction"
-      ],
-      "capability_tags_zh": [
-        "具身交互"
-      ],
-      "relevance_score": 79
-    },
-    {
-      "kind": "industry",
       "track": "AI + Psychology",
       "published": "2026-09-16",
-      "title": "AI解构“m6米乐下载软件”事件：情感计算与虚拟现实重塑体育叙事 - 体坛加",
-      "summary": "AI解构“m6米乐下载软件”事件：情感计算与虚拟现实重塑体育叙事 体坛加",
+      "title": "AI解构“m6米乐下载软件”事件：情感计算与虚拟现实重塑体育叙事 - 体坛",
+      "summary": "Selected from Google 新闻's public feed for its relevance to AI + Psychology and applied AI systems.",
+      "summary_zh": "来自 Google 新闻 公开订阅源，内容与 AI + Psychology 及应用型 AI 系统建设相关。",
       "source": "RSS · Google 新闻",
       "authors": [
         "Google 新闻"
@@ -882,6 +857,32 @@
       "relevance_score": 82
     },
     {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-09-13",
+      "title": "China’s Data Regulator Plans Standards Push for Embodied AI - Bloomberg.com",
+      "summary": "China’s Data Regulator Plans Standards Push for Embodied AI Bloomberg.com",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXNLVDluQlM5RlpUb1RyazQ0bTl0eHc3dWh1RnVtMVBqakFJWWVIbE1LZkNCQ3JqS1RfanVDdkpGZXB0YlNWcFdtZWx0ZU9fQjdGVmhCa3BxRHVDbWE1ejdQUjdOSVl1bllramFmYXprQkF4NzdaaFdBTUo4TWxfTFQ2VTdQcXhTQ1h2WU5tRVZ5bmI1cFJqQ0x0Y1ZlRlFHckNId0tCU3pocy13UzZj?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "具身交互"
+      ],
+      "relevance_score": 79
+    },
+    {
       "kind": "paper",
       "track": "Affective Computing",
       "published": "2026-09-13",
@@ -1033,6 +1034,34 @@
         "具身交互"
       ],
       "relevance_score": 56
+    },
+    {
+      "kind": "industry",
+      "track": "Embodied Emotional Intelligence",
+      "published": "2026-09-11",
+      "title": "Get Ready to Meet Rubo: A Next-Generation Embodied AI Robot for Library and Campus Support - SBU News",
+      "summary": "Get Ready to Meet Rubo: A Next-Generation Embodied AI Robot for Library and Campus Support SBU News",
+      "source": "RSS · Google News",
+      "authors": [
+        "Google News"
+      ],
+      "categories": [
+        "RSS",
+        "Google News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdm9aTEtJel9UVmg5RzRCUVI0TzFpTC1iNTVSU2pqSjdRVUc0NDZQd19QOFNTRlRyVjlhWGFTLVpNMUJtdzY2am1HQkREMWctRktkXy0wOUl1MzVaeGpUeVoweXUxOHBERHRmN0Y4cjhhVWhWYnN0MmU3SUVCcjhRQWVmb3JPRTZZZ2k4WUJOczhrUDNGQ0V1T3dJcGJkWWpnS3QyUVJ6d3VGSGpHTzlzdzBqVGgyMDVIMFZRNmotNUdTTEFXS2VlSlNrTWtGNjZh?oc=5",
+      "priority": 58,
+      "lens": "Relevant to embodied emotional intelligence: it informs robots, digital humans, smart cockpits, and situated emotional interaction.",
+      "lens_zh": "对应具身情感智能：服务机器人、数字人、智能座舱和场景化情感交互。",
+      "capability_tags": [
+        "Mind-Body Support",
+        "Embodied Interaction"
+      ],
+      "capability_tags_zh": [
+        "身心支持",
+        "具身交互"
+      ],
+      "relevance_score": 85
     },
     {
       "kind": "industry",
@@ -2860,8 +2889,8 @@
       "kind": "industry",
       "track": "AI + Mind-Body Health",
       "published": "2026-08-27",
-      "title": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor - kff.org",
-      "summary": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor kff.org",
+      "title": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor - KFF",
+      "summary": "Different State Regulatory Approaches Reflect Open Questions About AI Mental Health Tools — The Monitor KFF",
       "source": "RSS · Google News",
       "authors": [
         "Google News"
@@ -3118,32 +3147,6 @@
         "情感理解"
       ],
       "relevance_score": 79
-    },
-    {
-      "kind": "industry",
-      "track": "AI + Psychology",
-      "published": "2026-08-23",
-      "title": "The Wild West of AI Therapy Laws— The Wall Street Journal, What’s News - Geisel School of Medicine at Dartmouth",
-      "summary": "The Wild West of AI Therapy Laws— The Wall Street Journal, What’s News Geisel School of Medicine at Dartmouth",
-      "source": "RSS · Google News",
-      "authors": [
-        "Google News"
-      ],
-      "categories": [
-        "RSS",
-        "Google News"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUEdmeHp2U1pscXY3YVlGR1VTVkVVVTdaZUtvU21SeEkzTjM5ZGlTRWtYc3ZlNlFRTTczY210S09FdmszMUFoaFp5UjVCR3lhWkJEcnVqOHdlRTdNeWZaV0ZYN2NjS1pnaVFNNDJiZFA5QUdCQ1hxamNxN2NXUUdfcmw1YnpIQXVhOVRzdThPbXZQVTZObFRIdFZlcVZvZE9kMzRMX1JhdHFRWmNPN3pn?oc=5",
-      "priority": 58,
-      "lens": "Relevant to MAC-Lab's psychological computing route: it connects AI models with assessment, risk identification, and human-centered support.",
-      "lens_zh": "对应 MAC-Lab 的心理计算路线：把 AI 模型与评估、风险识别和以人为中心的支持连接起来。",
-      "capability_tags": [
-        "Mind-Body Support"
-      ],
-      "capability_tags_zh": [
-        "身心支持"
-      ],
-      "relevance_score": 76
     },
     {
       "kind": "lab",
